@@ -10,3 +10,6 @@ dependencies = []
 dev = [
     "ruff>=0.9.10",
 ]
+
+[tool.uv.workspace]
+members = ["tools/ingest-wildriftfire"]
