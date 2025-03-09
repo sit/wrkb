@@ -9,16 +9,22 @@ def main():
 
     soup = BeautifulSoup(response.content, "html.parser")
 
-    # Find the section containing champion links.  The provided HTML has two sections with champion links.
-    # This selects the first one, which appears to be more comprehensive.
-    champion_section = soup.find("div", string="Wild Rift Champion Build Guides").find_parent()
+    # Find the champion grid div using its specific class
+    champion_section = soup.find("div", class_="wf-home__champions wm")
+    if champion_section:
+        champion_links = champion_section.find_all("a")
+        champions = []
+        for link in champion_links:
+            champion_name = link.get_text(strip=True)
+            champion_url = link.get("href")
+            if champion_name and champion_url:  # Ensure we have both name and URL
+                champions.append({"name": champion_name, "url": champion_url})
 
-    # Extract champion names from the links
-    champion_names = [a.text for a in champion_section.find_all("a")]
-
-    # Print the extracted champion names
-    for champion in champion_names:
-        print(champion)
+        # Print the extracted champion names
+        for champion in champions:
+            print(f"{champion['name']} - {champion['url']}")
+    else:
+        print("Error: Could not find champion grid section on the page")
 
 
 if __name__ == "__main__":
