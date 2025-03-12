@@ -164,13 +164,18 @@ def parse_champion_details(url, champion_name):
         return champion_data
 
 
-def write_champion_data(champion_data):
-    """Write champion data to a markdown file with frontmatter."""
-    kb_dir = Path("kb/champions")
-    kb_dir.mkdir(parents=True, exist_ok=True)
+def write_champion_data(champion_data, kb_dir):
+    """Write champion data to a markdown file with frontmatter.
+
+    Args:
+        champion_data (dict): Champion data to write
+        kb_dir (Path): Directory path where champion data should be stored
+    """
+    champions_dir = kb_dir / "champions"
+    champions_dir.mkdir(parents=True, exist_ok=True)
 
     filename = sanitize_filename(champion_data["name"]) + ".md"
-    output_file = kb_dir / filename
+    output_file = champions_dir / filename
 
     # Create markdown content with frontmatter
     frontmatter = yaml.dump(champion_data, default_flow_style=False)
@@ -226,6 +231,13 @@ def main():
         help="Specific champion to update (default: all champions)",
         required=False,
     )
+    parser.add_argument(
+        "--kb",
+        "-k",
+        help="Knowledge base directory path (default: kb)",
+        default="kb",
+        type=Path,
+    )
     args = parser.parse_args()
 
     url = "https://www.wildriftfire.com/"
@@ -251,7 +263,7 @@ def main():
         print(f"Processing {champion['name']}...")
         try:
             champion_data = parse_champion_details(champion["url"], champion["name"])
-            write_champion_data(champion_data)
+            write_champion_data(champion_data, args.kb_dir)
             print(f"Successfully processed {champion['name']}")
         except Exception as e:
             print(f"Error processing {champion['name']}: {str(e)}")
