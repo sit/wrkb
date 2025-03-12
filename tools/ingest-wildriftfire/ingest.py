@@ -1,4 +1,4 @@
-import requests
+import httpx
 from bs4 import BeautifulSoup
 import argparse
 from urllib.parse import urljoin
@@ -50,111 +50,118 @@ def get_champions(soup, target_champion=None):
 
 def parse_champion_details(url, champion_name):
     """Parse champion details from their specific page and return structured data."""
-    response = requests.get(url)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.content, "html.parser")
+    with httpx.Client() as client:
+        response = client.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.content, "html.parser")
 
-    # Get champion roles
-    roles = []
-    desc_div = soup.find("div", class_="champion__desc")
-    if desc_div:
-        lane_images = desc_div.find_all("img", class_="lane")
-        roles = [img.get("alt", "").strip() for img in lane_images if img.get("alt")]
+        # Get champion roles
+        roles = []
+        desc_div = soup.find("div", class_="champion__desc")
+        if desc_div:
+            lane_images = desc_div.find_all("img", class_="lane")
+            roles = [
+                img.get("alt", "").strip() for img in lane_images if img.get("alt")
+            ]
 
-    # Get base stats
-    stats_section = soup.find("div", class_="statsBlock champion")
-    base_stats = {}
-    if stats_section:
-        stat_blocks = stats_section.find_all("div", class_="statsBlock__block")
-        for block in stat_blocks:
-            # Get the stat name from the first span
-            stat_name = (
-                block.find("span").get_text(strip=True) if block.find("span") else None
+        # Get base stats
+        stats_section = soup.find("div", class_="statsBlock champion")
+        base_stats = {}
+        if stats_section:
+            stat_blocks = stats_section.find_all("div", class_="statsBlock__block")
+            for block in stat_blocks:
+                # Get the stat name from the first span
+                stat_name = (
+                    block.find("span").get_text(strip=True)
+                    if block.find("span")
+                    else None
+                )
+                # Get the stat value span which has data attributes
+                stat_value_span = block.find("span", attrs={"data-base": True})
+                if stat_name and stat_value_span:
+                    base_value = stat_value_span.get("data-base")
+                    growth_value = stat_value_span.get("data-increase")
+                    base_stats[stat_name] = {"base": base_value, "growth": growth_value}
+
+        # Get abilities
+        abilities = []
+        abilities_section = soup.find("div", class_="statsBlock abilities")
+        if abilities_section:
+            ability_blocks = abilities_section.find_all(
+                "div", class_="statsBlock__block"
             )
-            # Get the stat value span which has data attributes
-            stat_value_span = block.find("span", attrs={"data-base": True})
-            if stat_name and stat_value_span:
-                base_value = stat_value_span.get("data-base")
-                growth_value = stat_value_span.get("data-increase")
-                base_stats[stat_name] = {"base": base_value, "growth": growth_value}
+            for block in ability_blocks:
+                upper = block.find("div", class_="upper")
+                lower = block.find("div", class_="lower")
 
-    # Get abilities
-    abilities = []
-    abilities_section = soup.find("div", class_="statsBlock abilities")
-    if abilities_section:
-        ability_blocks = abilities_section.find_all("div", class_="statsBlock__block")
-        for block in ability_blocks:
-            upper = block.find("div", class_="upper")
-            lower = block.find("div", class_="lower")
+                if not upper or not lower:
+                    continue
 
-            if not upper or not lower:
-                continue
+                # Get ability slot and name
+                name_div = upper.find("div", class_="name")
+                if name_div:
+                    slot_span = name_div.find("span")
+                    slot = slot_span.get_text(strip=True) if slot_span else ""
+                    # Get name by removing the slot text from the full text
+                    full_text = name_div.get_text(strip=True)
+                    name = full_text[len(slot) :].strip() if slot else full_text
 
-            # Get ability slot and name
-            name_div = upper.find("div", class_="name")
-            if name_div:
-                slot_span = name_div.find("span")
-                slot = slot_span.get_text(strip=True) if slot_span else ""
-                # Get name by removing the slot text from the full text
-                full_text = name_div.get_text(strip=True)
-                name = full_text[len(slot) :].strip() if slot else full_text
+                # Get cooldowns if they exist
+                cooldown_div = upper.find("div", class_="cooldown")
+                cooldowns = None
+                if cooldown_div:
+                    cooldown_spans = cooldown_div.find_all("span")
+                    cooldowns = []
+                    for span in cooldown_spans:
+                        try:
+                            value = span.get_text(strip=True)
+                            cooldowns.append(float(value))
+                        except (ValueError, TypeError):
+                            continue
+                    if not cooldowns:  # If we couldn't parse any values, set to None
+                        cooldowns = None
 
-            # Get cooldowns if they exist
-            cooldown_div = upper.find("div", class_="cooldown")
-            cooldowns = None
-            if cooldown_div:
-                cooldown_spans = cooldown_div.find_all("span")
-                cooldowns = []
-                for span in cooldown_spans:
-                    try:
-                        value = span.get_text(strip=True)
-                        cooldowns.append(float(value))
-                    except (ValueError, TypeError):
-                        continue
-                if not cooldowns:  # If we couldn't parse any values, set to None
-                    cooldowns = None
+                # Get costs if they exist
+                cost_div = upper.find("div", class_="cost")
+                costs = None
+                if cost_div:
+                    cost_spans = cost_div.find_all("span")
+                    costs = []
+                    for span in cost_spans:
+                        try:
+                            value = span.get_text(strip=True)
+                            costs.append(float(value))
+                        except (ValueError, TypeError):
+                            continue
+                    if not costs:  # If we couldn't parse any values, set to None
+                        costs = None
 
-            # Get costs if they exist
-            cost_div = upper.find("div", class_="cost")
-            costs = None
-            if cost_div:
-                cost_spans = cost_div.find_all("span")
-                costs = []
-                for span in cost_spans:
-                    try:
-                        value = span.get_text(strip=True)
-                        costs.append(float(value))
-                    except (ValueError, TypeError):
-                        continue
-                if not costs:  # If we couldn't parse any values, set to None
-                    costs = None
+                # Get description
+                description = lower.get_text(" ", strip=True) if lower else ""
 
-            # Get description
-            description = lower.get_text(" ", strip=True) if lower else ""
+                ability_data = {
+                    "slot": slot,
+                    "name": name,
+                    "description": description,
+                }
 
-            ability_data = {
-                "slot": slot,
-                "name": name,
-                "description": description,
-            }
+                if cooldowns:
+                    ability_data["cooldowns"] = cooldowns
+                if costs:
+                    ability_data["costs"] = costs
 
-            if cooldowns:
-                ability_data["cooldowns"] = cooldowns
-            if costs:
-                ability_data["costs"] = costs
+                abilities.append(ability_data)
 
-            abilities.append(ability_data)
+        # Prepare frontmatter data
+        champion_data = {
+            "name": champion_name,
+            "source_url": url,
+            "roles": roles,
+            "base_stats": base_stats,
+            "abilities": abilities,
+        }
 
-    # Prepare frontmatter data
-    champion_data = {
-        "name": champion_name,
-        "source_url": url,
-        "roles": roles,
-        "base_stats": base_stats,
-        "abilities": abilities,
-    }
-
-    return champion_data
+        return champion_data
 
 
 def write_champion_data(champion_data):
@@ -222,11 +229,12 @@ def main():
     args = parser.parse_args()
 
     url = "https://www.wildriftfire.com/"
-    response = requests.get(url)
-    response.raise_for_status()
+    with httpx.Client() as client:
+        response = client.get(url)
+        response.raise_for_status()
 
-    soup = BeautifulSoup(response.content, "html.parser")
-    champions = get_champions(soup, args.champion)
+        soup = BeautifulSoup(response.content, "html.parser")
+        champions = get_champions(soup, args.champion)
 
     if not champions:
         print("No champions found")
