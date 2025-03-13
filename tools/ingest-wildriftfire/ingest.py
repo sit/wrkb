@@ -2,6 +2,7 @@ import argparse
 from pathlib import Path
 import re
 from champion import get_champions, parse_champion_details, write_champion_data
+from runes import get_runes, parse_rune_details, write_rune_data
 
 
 def sanitize_filename(name):
@@ -21,12 +22,25 @@ def sanitize_filename(name):
 
 def main():
     # Set up command line argument parsing
-    parser = argparse.ArgumentParser(description="Ingest Wild Rift champion data")
+    parser = argparse.ArgumentParser(description="Ingest Wild Rift data")
     parser.add_argument(
         "--champion",
         "-c",
         help="Specific champion to update (default: all champions)",
         required=False,
+    )
+    parser.add_argument(
+        "--rune",
+        "-r",
+        help="Specific rune to update (default: all runes)",
+        required=False,
+    )
+    parser.add_argument(
+        "--type",
+        "-t",
+        help="Type of data to ingest (champions, runes, or all)",
+        choices=["champions", "runes", "all"],
+        default="all",
     )
     parser.add_argument(
         "--kb",
@@ -37,10 +51,22 @@ def main():
     )
     args = parser.parse_args()
 
+    # Process champions if requested
+    if args.type in ["champions", "all"]:
+        process_champions(args)
+
+    # Process runes if requested
+    if args.type in ["runes", "all"]:
+        process_runes(args)
+
+
+def process_champions(args):
+    """Process champion data based on command line arguments."""
     # Create champions directory
     champions_dir = args.kb / "champions"
     champions_dir.mkdir(parents=True, exist_ok=True)
 
+    print("\n=== Processing Champions ===")
     champions = get_champions()
     if not champions:
         print("No champions found")
@@ -71,6 +97,48 @@ def main():
             print(f"Successfully processed {champion['name']}")
         except Exception as e:
             print(f"Error processing {champion['name']}: {str(e)}")
+
+
+def process_runes(args):
+    """Process rune data based on command line arguments."""
+    # Create runes directory
+    runes_dir = args.kb / "runes"
+    runes_dir.mkdir(parents=True, exist_ok=True)
+
+    print("\n=== Processing Runes ===")
+    runes = get_runes()
+    if not runes:
+        print("No runes found")
+        return
+
+    # Filter runes if a specific one is requested
+    if args.rune:
+        runes = [rune for rune in runes if rune["name"].lower() == args.rune.lower()]
+        if not runes:
+            print(f"Rune '{args.rune}' not found")
+            return
+
+    # Process each rune
+    for i, rune in enumerate(runes):
+        print(f"Processing {i + 1}/{len(runes)}: {rune['name']} (ID: {rune['id']})")
+        try:
+            # Get detailed information
+            rune_data = parse_rune_details(rune["id"], rune["name"])
+
+            # Add additional data from the list
+            rune_data["type"] = rune["type"]
+            rune_data["family"] = rune["family"]
+            if not rune_data["image_url"] and rune.get("image_url"):
+                rune_data["image_url"] = rune["image_url"]
+
+            # Construct output file path and write data
+            output_file = runes_dir / f"{sanitize_filename(rune['name'])}.md"
+            with open(output_file, "w") as f:
+                write_rune_data(rune_data, f)
+
+            print(f"Successfully processed {rune['name']}")
+        except Exception as e:
+            print(f"Error processing {rune['name']}: {str(e)}")
 
 
 if __name__ == "__main__":
