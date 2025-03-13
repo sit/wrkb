@@ -1,50 +1,38 @@
 import httpx
 from bs4 import BeautifulSoup
 import yaml
-import re
 from urllib.parse import urljoin
+from typing import TextIO, Dict, Any
+
+BASE_URL = "https://www.wildriftfire.com"
 
 
-def sanitize_filename(name):
-    """Convert a string into a safe filename by removing special characters and converting spaces to dashes."""
-    # Convert to lowercase
-    name = name.lower()
-    # Replace spaces with dashes
-    name = name.replace(" ", "-")
-    # Remove any characters that aren't alphanumeric, dash, or underscore
-    name = re.sub(r"[^a-z0-9\-_]", "", name)
-    # Replace multiple dashes with single dash
-    name = re.sub(r"-+", "-", name)
-    # Remove leading/trailing dashes
-    name = name.strip("-")
-    return name
-
-
-def get_champions(soup, base_url):
+def get_champions():
     """Extract champion links from the main page.
-
-    Args:
-        soup (BeautifulSoup): Parsed HTML of the main page
-        base_url (str): Base URL of the website
 
     Returns:
         list[dict]: List of champions with their names and URLs
     """
-    champion_section = soup.find("div", class_="wf-home__champions wm")
-    if champion_section:
-        champion_links = champion_section.find_all("a")
-        champions = []
-        for link in champion_links:
-            champion_name = link.get_text(strip=True)
-            champion_url = link.get("href")
-            if champion_name and champion_url:
-                champions.append(
-                    {"name": champion_name, "url": urljoin(base_url, champion_url)}
-                )
-        return champions
-    else:
-        print("Error: Could not find champion grid section on the page")
-        return []
+    with httpx.Client() as client:
+        response = client.get(BASE_URL)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        champion_section = soup.find("div", class_="wf-home__champions wm")
+        if champion_section:
+            champion_links = champion_section.find_all("a")
+            champions = []
+            for link in champion_links:
+                champion_name = link.get_text(strip=True)
+                champion_url = link.get("href")
+                if champion_name and champion_url:
+                    champions.append(
+                        {"name": champion_name, "url": urljoin(BASE_URL, champion_url)}
+                    )
+            return champions
+        else:
+            print("Error: Could not find champion grid section on the page")
+            return []
 
 
 def parse_champion_details(url, champion_name):
@@ -168,19 +156,13 @@ def parse_champion_details(url, champion_name):
         return champion_data
 
 
-def write_champion_data(champion_data, kb_dir):
+def write_champion_data(champion_data: Dict[str, Any], file: TextIO) -> None:
     """Write champion data to a markdown file with frontmatter.
 
     Args:
-        champion_data (dict): Champion data to write
-        kb_dir (Path): Directory path where champion data should be stored
+        champion_data (Dict[str, Any]): Champion data to write
+        file (TextIO): File handle to write to
     """
-    champions_dir = kb_dir / "champions"
-    champions_dir.mkdir(parents=True, exist_ok=True)
-
-    filename = sanitize_filename(champion_data["name"]) + ".md"
-    output_file = champions_dir / filename
-
     # Create markdown content with frontmatter
     frontmatter = yaml.dump(champion_data, default_flow_style=False)
     markdown_content = f"""---
@@ -221,6 +203,4 @@ def write_champion_data(champion_data, kb_dir):
         # Add description
         markdown_content += f"{ability['description']}\n\n"
 
-    # Write to file
-    with open(output_file, "w") as f:
-        f.write(markdown_content)
+    file.write(markdown_content)

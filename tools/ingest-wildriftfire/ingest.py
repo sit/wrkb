@@ -1,11 +1,22 @@
-import httpx
-from bs4 import BeautifulSoup
 import argparse
 from pathlib import Path
-
+import re
 from champion import get_champions, parse_champion_details, write_champion_data
 
-BASE_URL = "https://www.wildriftfire.com"
+
+def sanitize_filename(name):
+    """Convert a string into a safe filename by removing special characters and converting spaces to dashes."""
+    # Convert to lowercase
+    name = name.lower()
+    # Replace spaces with dashes
+    name = name.replace(" ", "-")
+    # Remove any characters that aren't alphanumeric, dash, or underscore
+    name = re.sub(r"[^a-z0-9\-_]", "", name)
+    # Replace multiple dashes with single dash
+    name = re.sub(r"-+", "-", name)
+    # Remove leading/trailing dashes
+    name = name.strip("-")
+    return name
 
 
 def main():
@@ -26,13 +37,11 @@ def main():
     )
     args = parser.parse_args()
 
-    with httpx.Client() as client:
-        response = client.get(BASE_URL)
-        response.raise_for_status()
+    # Create champions directory
+    champions_dir = args.kb / "champions"
+    champions_dir.mkdir(parents=True, exist_ok=True)
 
-        soup = BeautifulSoup(response.content, "html.parser")
-        champions = get_champions(soup, BASE_URL)
-
+    champions = get_champions()
     if not champions:
         print("No champions found")
         return
@@ -53,7 +62,12 @@ def main():
         print(f"Processing {champion['name']}...")
         try:
             champion_data = parse_champion_details(champion["url"], champion["name"])
-            write_champion_data(champion_data, args.kb)
+
+            # Construct output file path and write data
+            output_file = champions_dir / f"{sanitize_filename(champion['name'])}.md"
+            with open(output_file, "w") as f:
+                write_champion_data(champion_data, f)
+
             print(f"Successfully processed {champion['name']}")
         except Exception as e:
             print(f"Error processing {champion['name']}: {str(e)}")
