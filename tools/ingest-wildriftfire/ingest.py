@@ -3,6 +3,7 @@ from pathlib import Path
 import re
 from champion import get_champions, parse_champion_details, write_champion_data
 from runes import get_runes, parse_rune_details, write_rune_data
+from items import get_items, parse_item_details, write_item_data
 
 
 def sanitize_filename(name):
@@ -36,10 +37,16 @@ def main():
         required=False,
     )
     parser.add_argument(
+        "--item",
+        "-i",
+        help="Specific item to update (default: all items)",
+        required=False,
+    )
+    parser.add_argument(
         "--type",
         "-t",
-        help="Type of data to ingest (champions, runes, or all)",
-        choices=["champions", "runes", "all"],
+        help="Type of data to ingest (champions, runes, items, or all)",
+        choices=["champions", "runes", "items", "all"],
         default="all",
     )
     parser.add_argument(
@@ -58,6 +65,10 @@ def main():
     # Process runes if requested
     if args.type in ["runes", "all"]:
         process_runes(args)
+
+    # Process items if requested
+    if args.type in ["items", "all"]:
+        process_items(args)
 
 
 def process_champions(args):
@@ -139,6 +150,47 @@ def process_runes(args):
             print(f"Successfully processed {rune['name']}")
         except Exception as e:
             print(f"Error processing {rune['name']}: {str(e)}")
+
+
+def process_items(args):
+    """Process item data based on command line arguments."""
+    # Create items directory
+    items_dir = args.kb / "items"
+    items_dir.mkdir(parents=True, exist_ok=True)
+
+    print("\n=== Processing Items ===")
+    items = get_items()
+    if not items:
+        print("No items found")
+        return
+
+    # Filter items if a specific one is requested
+    if args.item:
+        items = [item for item in items if item["name"].lower() == args.item.lower()]
+        if not items:
+            print(f"Item '{args.item}' not found")
+            return
+
+    # Process each item
+    for i, item in enumerate(items):
+        print(f"Processing {i + 1}/{len(items)}: {item['name']} (ID: {item['id']})")
+        try:
+            # Get detailed information
+            item_data = parse_item_details(item["id"], item["name"])
+
+            # Add additional data from the list
+            item_data["type"] = item["type"]
+            if not item_data["image_url"] and item.get("image_url"):
+                item_data["image_url"] = item["image_url"]
+
+            # Construct output file path and write data
+            output_file = items_dir / f"{sanitize_filename(item['name'])}.md"
+            with open(output_file, "w") as f:
+                write_item_data(item_data, f)
+
+            print(f"Successfully processed {item['name']}")
+        except Exception as e:
+            print(f"Error processing {item['name']}: {str(e)}")
 
 
 if __name__ == "__main__":
