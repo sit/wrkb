@@ -110,12 +110,22 @@ def transcript_to_text(transcript):
     return full_text
 
 
-def summarize_transcript(transcript_text, model_name):
-    """Summarize the transcript using the specified LLM model."""
+def process_transcript(transcript_text, model_name):
+    """
+    Process the transcript using the specified LLM model.
+    Uses a conversation to generate both summary and organized content in sequence.
+
+    Returns:
+        tuple: (summary, organized_transcript)
+    """
     try:
         model = llm.get_model(model_name)
 
-        prompt = f"""
+        # Start a conversation with the model
+        conversation = model.conversation()
+
+        # First prompt - get the summary
+        summary_prompt = f"""
 You are an expert summarizer for Wild Rift content.
 Summarize the following YouTube transcript, encoded in a TRANSCRIPT tag.
 
@@ -128,50 +138,48 @@ Highlight any key gameplay concepts, champion strategies, or game mechanics ment
 """
 
         click.echo(f"Summarizing transcript using {model_name}...")
-        start = timer()
+        summary_start = timer()
 
-        # Generate summary
-        response = model.prompt(prompt)
+        # Execute the summary prompt
+        summary_response = conversation.prompt(summary_prompt)
 
-        end = timer()
-        click.echo(f"Summary generated in {timedelta(seconds=end - start)} seconds")
+        # Get the summary text - this is blocking until the full response is generated
+        summary = summary_response.text()
 
-        return str(response)
-    except Exception as e:
-        click.echo(f"Error summarizing transcript: {e}", err=True)
-        raise e
+        # Set end time after text is fully extracted
+        summary_end = timer()
+        click.echo(
+            f"Summary generated in {timedelta(seconds=summary_end - summary_start)} seconds"
+        )
 
-
-def organize_transcript(transcript_text, model_name):
-    """Organize the transcript using the specified LLM model."""
-    try:
-        model = llm.get_model(model_name)
-
-        prompt = f"""
-You are an experienced copy-writer, with expertise in Wild Rift.
-Format the following YouTube transcript, encoded in a TRANSCRIPT tag, into
-an engaging article format, using Markdown. The result should use the author's
-tone and exact words. Only add headers to separate sections. You should
-eliminate any promotional language (e.g., sponsor advertisements, requests to
+        # Second prompt - organize the transcript
+        organize_prompt = """
+Now as an experienced copy-writer, with expertise in Wild Rift,
+format the same transcript into an engaging article format, using Markdown.
+The result should use the author's tone and exact words. Only add headers to separate sections.
+You should eliminate any promotional language (e.g., sponsor advertisements, requests to
 like/subscribe, participate in contests, etc.)
-
-<TRANSCRIPT>
-{transcript_text}
-</TRANSCRIPT>
 """
 
-        click.echo(f"Summarizing transcript using {model_name}...")
-        start = timer()
+        click.echo(f"Organizing transcript using {model_name}...")
+        organize_start = timer()
 
-        # Generate summary
-        response = model.prompt(prompt)
+        # Execute the organize prompt
+        organize_response = conversation.prompt(organize_prompt)
 
-        end = timer()
-        click.echo(f"Summary generated in {timedelta(seconds=end - start)} seconds")
+        # Get the organized text - this is blocking until the full response is generated
+        organized = organize_response.text()
 
-        return str(response)
+        # Set end time after text is fully extracted
+        organize_end = timer()
+        click.echo(
+            f"Organization completed in {timedelta(seconds=organize_end - organize_start)} seconds"
+        )
+
+        return summary, organized
+
     except Exception as e:
-        click.echo(f"Error summarizing transcript: {e}", err=True)
+        click.echo(f"Error processing transcript: {e}", err=True)
         raise e
 
 
@@ -230,12 +238,11 @@ def main(video_id, kb, model):
     full_text = transcript_to_text(transcript)
     click.echo(f"Full transcript length: {len(full_text)} characters")
 
-    summary = summarize_transcript(full_text, model)
+    summary, organized = process_transcript(full_text, model)
+
     click.echo("\n--- TRANSCRIPT SUMMARY ---")
     click.echo(summary)
     click.echo("--- END SUMMARY ---\n")
-
-    organized = organize_transcript(full_text, model)
 
     summary_filename = f"{kb}/{video_id}.md"
     with open(summary_filename, "w") as f:
