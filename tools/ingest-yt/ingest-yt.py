@@ -111,10 +111,15 @@ def transcript_to_text(transcript):
     return full_text
 
 
-def process_transcript(transcript_text, model_name):
+def process_transcript(text_transcript, formatted_transcript, video_id, model_name):
     """
     Process the transcript using the specified LLM model.
     Uses a conversation to generate both summary and organized content in sequence.
+
+    Args:
+        formatted_transcript: The formatted transcript with timestamps
+        video_id: The YouTube video ID for creating links
+        model_name: The LLM model to use
 
     Returns:
         tuple: (summary, organized_transcript)
@@ -128,21 +133,28 @@ def process_transcript(transcript_text, model_name):
         # First prompt - get the summary
         summary_prompt = f"""
 You are an expert summarizer for Wild Rift content.
-Summarize the following YouTube transcript, encoded in a TRANSCRIPT tag.
+
+Summarize the following transcript text of a YouTube video, encoded in a TRANSCRIPT tag.
 
 <TRANSCRIPT>
-{transcript_text}
+{text_transcript}
 </TRANSCRIPT>
 
-Provide a concise summary that captures the main points.
-Highlight any key gameplay concepts, champion strategies, or game mechanics mentioned.
+Provide a concise summary that captures the main points of the transcript.
+- Use bullets and lists to organize the content, taking note of any key gameplay concepts, game mechanics and champion specifics mentioned.
+- Limit to 500 words, with no more than 3 top-level bullets and no more than 5 sub-bullets per top-level bullet.
+- Make sure the bullets are concise.
+- Format the summary so that it will render as Markdown.
+- Do not include any promotional language (e.g., sponsor advertisements, requests to like/subscribe, participate in contests, etc.)
+- Do not embellish the content with anything not directly stated in the transcript.
+- Return the summary only, do not add any other explanation or commentary before or after the result.
 """
 
         click.echo(f"Summarizing transcript using {model_name}...")
         summary_start = timer()
 
         # Execute the summary prompt
-        summary_response = conversation.prompt(summary_prompt)
+        summary_response = conversation.prompt(summary_prompt, temperature=0.7)
 
         # Get the summary text - this is blocking until the full response is generated
         summary = summary_response.text()
@@ -154,19 +166,48 @@ Highlight any key gameplay concepts, champion strategies, or game mechanics ment
         )
 
         # Second prompt - organize the transcript
-        organize_prompt = """
+        organize_prompt = f"""
 Now as an experienced copy-writer, with expertise in Wild Rift,
-format the same transcript into an engaging article format, using Markdown.
-The result should use the author's tone and exact words. Only add headers to separate sections.
-You should eliminate any promotional language (e.g., sponsor advertisements, requests to
-like/subscribe, participate in contests, etc.)
+transform the transcript into an engaging article.
+Provide the article only, do not add any other explanation or commentary
+before or after the result. Do not add any wrapping tags or other markup
+outside of the article.
+
+Important requirements:
+- Correct any mistakes in the transcription. This could be improper spelling,
+  captilization and punctuation. There are often errors where the transcription
+  software misinterprets the names of champions, items, abilities, and runes. Make
+  sure to check for names that are in Wild Rift (e.g. not in PC League of Legends)
+  and correct them. Sometimes an ungrammatical sentence may indicate a mistake;
+  correct names can often be inferred from context. Don't introduce any names
+  that are not in the transcript.
+- Eliminate any promotional language (e.g., sponsor advertisements, requests to like/subscribe, participate in contests, etc.)
+- Eliminate any filler words and phrases.
+- Use the author's tone, exact words and sequencing of ideas, while making it less conversational and more appropriate for written format.
+  Do not skip details or important information.
+- Break the transcript into paragraphs.
+- Add headers to separate sections.
+- Add YouTube timestamp links for all major sections and moments using this format:
+   - For section headings: Use `## [Section Title](https://www.youtube.com/watch?v={video_id}&t=XXs)` where XXs is the timestamp in seconds
+   - For specific gameplay demonstrations: When the speaker references something visually shown on screen, link a relevant phrase
+     using the same format: [relevant text](https://www.youtube.com/watch?v={video_id}&t=XXs)
+- Use the timestamps provided in the transcript to create these links.
+- If a section covers a range of time, you can link to the start time.
+
+Here is a full transcript with timestamps:
+<TRANSCRIPT_WITH_TIMESTAMPS>
+{formatted_transcript}
+</TRANSCRIPT_WITH_TIMESTAMPS>
+
+The timestamps in the transcript are in the format [MM:SS.MMM --> MM:SS.MMM] and represent start and end times in minutes:seconds.milliseconds.
+Convert these to seconds for the YouTube links (e.g., 2:30 would be 150s in the link).
 """
 
         click.echo(f"Organizing transcript using {model_name}...")
         organize_start = timer()
 
         # Execute the organize prompt
-        organize_response = conversation.prompt(organize_prompt)
+        organize_response = conversation.prompt(organize_prompt, temperature=0.7)
 
         # Get the organized text - this is blocking until the full response is generated
         organized = organize_response.text()
@@ -237,9 +278,12 @@ def main(video_id, kb, model):
     click.echo(f"Transcript saved to {transcript_filename}")
 
     full_text = transcript_to_text(transcript)
-    click.echo(f"Full transcript length: {len(full_text)} characters")
 
-    summary, organized = process_transcript(full_text, model)
+    # Use the formatted transcript instead of plain text
+    # This preserves timestamps and formatting for the LLM to use
+    summary, organized = process_transcript(
+        full_text, formatted_transcript, video_id, model
+    )
 
     click.echo("\n--- TRANSCRIPT SUMMARY ---")
     click.echo(summary)
