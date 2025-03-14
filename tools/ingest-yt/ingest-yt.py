@@ -183,7 +183,7 @@ like/subscribe, participate in contests, etc.)
 @click.option(
     "--model",
     "-m",
-    default="gemma-3-27b-it",
+    default="gemini-2.0-flash",  # "gemma-3-27b-it" is a great option but slow
     help="LLM model to use for summarization",
 )
 def main(video_id, kb, model):
