@@ -6,7 +6,7 @@
 #     "yt-dlp",
 #     "youtube-transcript-api",
 #     "llm",
-#     "llm-mlx",
+#     "llm-gemini",
 # ]
 # ///
 
@@ -110,21 +110,54 @@ def transcript_to_text(transcript):
     return full_text
 
 
-def summarize_transcript(
-    transcript_text, model_name="mlx-community/Qwen2.5-0.5B-Instruct-4bit"
-):
+def summarize_transcript(transcript_text, model_name):
     """Summarize the transcript using the specified LLM model."""
     try:
         model = llm.get_model(model_name)
 
         prompt = f"""
 You are an expert summarizer for Wild Rift content.
-Summarize the following YouTube transcript about Wild Rift:
+Summarize the following YouTube transcript, encoded in a TRANSCRIPT tag.
 
-{transcript_text[:4000]}  # Limit the text to avoid token limits
+<TRANSCRIPT>
+{transcript_text}
+</TRANSCRIPT>
 
 Provide a concise summary that captures the main points.
 Highlight any key gameplay concepts, champion strategies, or game mechanics mentioned.
+"""
+
+        click.echo(f"Summarizing transcript using {model_name}...")
+        start = timer()
+
+        # Generate summary
+        response = model.prompt(prompt)
+
+        end = timer()
+        click.echo(f"Summary generated in {timedelta(seconds=end - start)} seconds")
+
+        return str(response)
+    except Exception as e:
+        click.echo(f"Error summarizing transcript: {e}", err=True)
+        raise e
+
+
+def organize_transcript(transcript_text, model_name):
+    """Organize the transcript using the specified LLM model."""
+    try:
+        model = llm.get_model(model_name)
+
+        prompt = f"""
+You are an experienced copy-writer, with expertise in Wild Rift.
+Format the following YouTube transcript, encoded in a TRANSCRIPT tag, into
+an engaging article format, using Markdown. The result should use the author's
+tone and exact words. Only add headers to separate sections. You should
+eliminate any promotional language (e.g., sponsor advertisements, requests to
+like/subscribe, participate in contests, etc.)
+
+<TRANSCRIPT>
+{transcript_text}
+</TRANSCRIPT>
 """
 
         click.echo(f"Summarizing transcript using {model_name}...")
@@ -148,15 +181,12 @@ Highlight any key gameplay concepts, champion strategies, or game mechanics ment
     "--kb", "-k", default="kb", help="Knowledge base directory to save the output file"
 )
 @click.option(
-    "--summarize", "-s", is_flag=True, help="Summarize the transcript using LLM"
-)
-@click.option(
     "--model",
     "-m",
-    default="mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+    default="gemma-3-27b-it",
     help="LLM model to use for summarization",
 )
-def main(video_id, kb, summarize, model):
+def main(video_id, kb, model):
     """Ingest a YouTube video and convert it to a structured Markdown file."""
     click.echo(f"Processing video: {video_id}")
 
@@ -197,32 +227,26 @@ def main(video_id, kb, summarize, model):
 
     click.echo(f"Transcript saved to {transcript_filename}")
 
-    # Summarize transcript if requested
-    if summarize:
-        full_text = transcript_to_text(transcript)
-        click.echo(f"Full transcript length: {len(full_text)} characters")
+    full_text = transcript_to_text(transcript)
+    click.echo(f"Full transcript length: {len(full_text)} characters")
 
-        summary = summarize_transcript(full_text, model)
-        click.echo("\n--- TRANSCRIPT SUMMARY ---")
-        click.echo(summary)
-        click.echo("--- END SUMMARY ---\n")
+    summary = summarize_transcript(full_text, model)
+    click.echo("\n--- TRANSCRIPT SUMMARY ---")
+    click.echo(summary)
+    click.echo("--- END SUMMARY ---\n")
 
-        # Save summary to file
-        summary_filename = f"{kb}/{video_id}_summary.md"
-        with open(summary_filename, "w") as f:
-            f.write(f"# Summary of {metadata['title']}\n\n")
-            f.write(f"Video: https://www.youtube.com/watch?v={video_id}\n")
-            f.write(f"Channel: {metadata['channel']}\n\n")
-            f.write(summary)
+    organized = organize_transcript(full_text, model)
 
-        click.echo(f"Summary saved to {summary_filename}")
+    summary_filename = f"{kb}/{video_id}.md"
+    with open(summary_filename, "w") as f:
+        f.write(f"# {metadata['title']}\n\n")
+        f.write(f"Video: https://www.youtube.com/watch?v={video_id}\n")
+        f.write(f"Channel: {metadata['channel']}\n\n")
+        f.write(summary)
+        f.write("\n\n")
+        f.write(organized)
 
-    click.echo(f"Output will be saved to the {kb} directory.")
-
-    # TODO: Implement the remaining steps:
-    # - Clean up transcript text
-    # - Analyze video structure
-    # - Generate structured Markdown
+    click.echo(f"Saved to {summary_filename}")
 
 
 if __name__ == "__main__":
