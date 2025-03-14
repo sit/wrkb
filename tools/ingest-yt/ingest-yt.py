@@ -29,7 +29,7 @@ from youtube_transcript_api import (
 from youtube_transcript_api.formatters import PrettyPrintFormatter
 import llm
 from timeit import default_timer as timer
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 
 def extract_video_id(video_url):
@@ -61,6 +61,7 @@ def get_video_metadata(video_id):
                 "title": info.get("title", ""),
                 "channel": info.get("uploader", ""),
                 "upload_date": info.get("upload_date", ""),
+                "timestamp": info.get("timestamp", None),
                 "duration": info.get("duration", 0),
                 "description": info.get("description", ""),
             }
@@ -244,11 +245,39 @@ def main(video_id, kb, model):
     click.echo(summary)
     click.echo("--- END SUMMARY ---\n")
 
+    # Format upload date nicely if available
+    formatted_date = ""
+    if metadata.get("timestamp"):
+        try:
+            # Convert unix timestamp to YYYY-MM-DD
+            upload_date = datetime.fromtimestamp(metadata["timestamp"])
+            formatted_date = upload_date.strftime("%Y-%m-%d")
+        except Exception:
+            formatted_date = ""
+
+    # Format duration as HH:MM:SS
+    formatted_duration = ""
+    if metadata.get("duration"):
+        formatted_duration = str(timedelta(seconds=metadata["duration"]))
+
     summary_filename = f"{kb}/{video_id}.md"
     with open(summary_filename, "w") as f:
+        # Write YAML front-matter
+        f.write("---\n")
+        f.write(f'title: "{metadata["title"].replace('"', '\\"')}"\n')
+        f.write(f'video_id: "{video_id}"\n')
+        f.write(f'video_url: "https://www.youtube.com/watch?v={video_id}"\n')
+        f.write(f'channel: "{metadata["channel"].replace('"', '\\"')}"\n')
+        if formatted_date:
+            f.write(f'upload_date: "{formatted_date}"\n')
+        if formatted_duration:
+            f.write(f'duration: "{formatted_duration}"\n')
+        f.write(f'date_processed: "{datetime.now().strftime("%Y-%m-%d")}"\n')
+        f.write('type: "video"\n')
+        f.write("---\n\n")
+
+        # Write content
         f.write(f"# {metadata['title']}\n\n")
-        f.write(f"Video: https://www.youtube.com/watch?v={video_id}\n")
-        f.write(f"Channel: {metadata['channel']}\n\n")
         f.write(summary)
         f.write("\n\n")
         f.write(organized)
