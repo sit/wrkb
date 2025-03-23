@@ -32,7 +32,7 @@ build breakdown, gameplay), a specific skill guide (where seeing the gameplay
 associated with the voiceover is important), a general mindset and thinking guide
 (where there is a gameplay shown but the content is really in the voiceover).
 
-- We need to download subtitles (using yt-dlp or something similar).
+- We need to download subtitles (using yt-dlp or youtubetranscriptapi library or similar).
 - We need to clean and enhance the auto-generated subtitles to add proper
   punctuation, and correct any Wild Rift-specific terminology that was not
   properly transcribed. 
