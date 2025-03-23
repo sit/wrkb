@@ -26,7 +26,7 @@ from youtube_transcript_api import (
     TranscriptsDisabled,
     NoTranscriptFound,
 )
-from youtube_transcript_api.formatters import PrettyPrintFormatter
+from youtube_transcript_api.formatters import JSONFormatter
 import json
 import llm
 from timeit import default_timer as timer
@@ -58,10 +58,11 @@ def fetch_video_data(video_id):
         click.echo("Failed to fetch transcript.", err=True)
         return None
 
-    formatter = PrettyPrintFormatter()
-    formatted_transcript = formatter.format_transcript(transcript)
     full_text = transcript_to_text(transcript)
 
+    formatter = JSONFormatter()
+    formatted_transcript = formatter.format_transcript(transcript)
+    formatted_transcript = json.loads(formatted_transcript)
     return {
         "metadata": metadata,
         "formatted_transcript": formatted_transcript,
