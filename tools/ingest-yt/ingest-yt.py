@@ -58,15 +58,14 @@ def fetch_video_data(video_id):
         click.echo("Failed to fetch transcript.", err=True)
         return None
 
-    full_text = transcript_to_text(transcript)
-
     formatter = JSONFormatter()
-    formatted_transcript = formatter.format_transcript(transcript)
-    formatted_transcript = json.loads(formatted_transcript)
+    transcript = formatter.format_transcript(transcript)
+    transcript = json.loads(transcript)
+
     return {
+        "video_id": video_id,
         "metadata": metadata,
-        "formatted_transcript": formatted_transcript,
-        "full_text": full_text,
+        "transcript": transcript,
     }
 
 
@@ -153,6 +152,8 @@ def process_transcript(video_data, video_id, model_name):
         tuple: (summary, organized_transcript)
     """
     try:
+        full_text = transcript_to_text(video_data["transcript"])
+
         model = llm.get_model(model_name)
 
         # Start a conversation with the model
@@ -165,7 +166,7 @@ You are an expert summarizer for Wild Rift content.
 Summarize the following transcript text of a YouTube video, encoded in a TRANSCRIPT tag.
 
 <TRANSCRIPT>
-{video_data["full_text"]}
+{full_text}
 </TRANSCRIPT>
 
 Provide a concise summary that captures the main points of the transcript.
@@ -222,9 +223,9 @@ Important requirements:
 - Use the timestamps provided in the transcript to create these links.
 - If a section covers a range of time, you can link to the start time.
 
-Here is a full transcript with timestamps:
+Here is a full transcript with timestamps represented as a JSON array of segments:
 <TRANSCRIPT_WITH_TIMESTAMPS>
-{video_data["formatted_transcript"]}
+{json.dumps(video_data["transcript"])}
 </TRANSCRIPT_WITH_TIMESTAMPS>
 
 The timestamps in the transcript are in the format [MM:SS.MMM --> MM:SS.MMM] and represent start and end times in minutes:seconds.milliseconds.
