@@ -59,9 +59,27 @@ class Video:
         return self.metadata.get("upload_date", "")
 
     @property
+    def formatted_upload_date(self) -> str:
+        """Return the upload date formatted as YYYY-MM-DD."""
+        if not self.metadata.get("timestamp"):
+            return ""
+        try:
+            upload_date = datetime.fromtimestamp(self.metadata["timestamp"])
+            return upload_date.strftime("%Y-%m-%d")
+        except Exception:
+            return ""
+
+    @property
     def duration(self) -> int:
         """Return the video duration in seconds."""
         return self.metadata.get("duration", 0)
+
+    @property
+    def formatted_duration(self) -> str:
+        """Return the video duration formatted as HH:MM:SS."""
+        if not self.duration:
+            return ""
+        return str(timedelta(seconds=self.duration))
 
     @property
     def description(self) -> str:
@@ -97,25 +115,10 @@ class VideoManager:
     """Class to handle fetching and caching YouTube video transcripts."""
 
     def __init__(self, cache_dir: str = "kb"):
-        """
-        Initialize the VideoManager.
-
-        Args:
-            cache_dir: Directory to store cached video data.
-        """
         self.cache_dir = cache_dir
         os.makedirs(cache_dir, exist_ok=True)
 
     def extract_video_id(self, video_url: str) -> str:
-        """
-        Extract the video ID from a YouTube URL.
-
-        Args:
-            video_url: YouTube URL or video ID.
-
-        Returns:
-            The extracted video ID.
-        """
         if "youtube.com/watch?v=" in video_url:
             return video_url.split("youtube.com/watch?v=")[1].split("&")[0]
         elif "youtu.be/" in video_url:
@@ -125,15 +128,6 @@ class VideoManager:
             return video_url
 
     def get_video_metadata(self, video_id: str) -> Optional[Dict[str, Any]]:
-        """
-        Get video metadata using yt-dlp.
-
-        Args:
-            video_id: YouTube video ID.
-
-        Returns:
-            Dictionary containing video metadata or None if fetching fails.
-        """
         ydl_opts = {
             "quiet": True,
             "no_warnings": True,
@@ -159,15 +153,6 @@ class VideoManager:
                 return None
 
     def get_transcript(self, video_id: str) -> Optional[List[Dict[str, Any]]]:
-        """
-        Get the transcript from a YouTube video ID.
-
-        Args:
-            video_id: YouTube video ID.
-
-        Returns:
-            List of transcript segments or None if fetching fails.
-        """
         try:
             transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
 
@@ -196,27 +181,9 @@ class VideoManager:
             return None
 
     def get_cache_filename(self, video_id: str) -> str:
-        """
-        Get the cache filename for a video ID.
-
-        Args:
-            video_id: YouTube video ID.
-
-        Returns:
-            Path to the cache file.
-        """
         return f"{self.cache_dir}/{video_id}_data.json"
 
     def load_from_cache(self, video_id: str) -> Optional[Video]:
-        """
-        Load transcript data from cache.
-
-        Args:
-            video_id: YouTube video ID.
-
-        Returns:
-            Transcript object if cache exists, None otherwise.
-        """
         cache_filename = self.get_cache_filename(video_id)
 
         if os.path.exists(cache_filename):
@@ -235,15 +202,6 @@ class VideoManager:
         return None
 
     def save_to_cache(self, transcript: Video) -> bool:
-        """
-        Save transcript data to cache.
-
-        Args:
-            transcript: Transcript object to save.
-
-        Returns:
-            True if saving succeeded, False otherwise.
-        """
         cache_filename = self.get_cache_filename(transcript.video_id)
 
         try:
@@ -255,16 +213,7 @@ class VideoManager:
             click.echo(f"Error saving to cache: {e}", err=True)
             return False
 
-    def fetch_transcript(self, video_id: str) -> Optional[Video]:
-        """
-        Fetch video metadata and transcript.
-
-        Args:
-            video_id: YouTube video ID.
-
-        Returns:
-            Transcript object if fetching succeeds, None otherwise.
-        """
+    def load_from_yt(self, video_id: str) -> Optional[Video]:
         click.echo(f"Fetching data for video: {video_id}")
 
         # Get video metadata
@@ -283,31 +232,22 @@ class VideoManager:
             video_id=video_id, metadata=metadata, transcript=transcript_data
         )
 
-        # Save to cache
-        self.save_to_cache(transcript)
-
         return transcript
 
     def load(self, video_url: str) -> Optional[Video]:
-        """
-        Get transcript data, either from cache or by fetching it.
-
-        Args:
-            video_url: YouTube URL or video ID.
-
-        Returns:
-            Transcript object if available, None otherwise.
-        """
         video_id = self.extract_video_id(video_url)
-        click.echo(f"Processing video ID: {video_id}")
+        click.echo(f"Loading video ID: {video_id}")
 
         # Try to load from cache
         transcript = self.load_from_cache(video_id)
-        if transcript:
-            return transcript
-
-        # If not in cache, fetch it
-        return self.fetch_transcript(video_id)
+        if not transcript:
+            # If not in cache, fetch it
+            transcript = self.load_from_yt(video_id)
+            if not transcript:
+                click.echo("Failed to fetch transcript.", err=True)
+                return None
+            self.save_to_cache(transcript)
+        return transcript
 
 
 def process_transcript(transcript: Video, model_name: str) -> tuple:
@@ -465,29 +405,17 @@ def main(video_id, kb, model):
     click.echo("--- END SUMMARY ---\n")
 
     # Format upload date nicely if available
-    formatted_date = ""
-    metadata = video.metadata
-    if metadata.get("timestamp"):
-        try:
-            # Convert unix timestamp to YYYY-MM-DD
-            upload_date = datetime.fromtimestamp(metadata["timestamp"])
-            formatted_date = upload_date.strftime("%Y-%m-%d")
-        except Exception:
-            formatted_date = ""
-
-    # Format duration as HH:MM:SS
-    formatted_duration = ""
-    if video.duration:
-        formatted_duration = str(timedelta(seconds=video.duration))
+    formatted_date = video.formatted_upload_date
+    formatted_duration = video.formatted_duration
 
     summary_filename = f"{kb}/{video.video_id}.md"
     with open(summary_filename, "w") as f:
         # Write YAML front-matter
         f.write("---\n")
-        f.write(f'title: "{metadata["title"].replace('"', '\\"')}"\n')
+        f.write(f'title: "{video.title.replace('"', '\\"')}"\n')
         f.write(f'video_id: "{video.video_id}"\n')
         f.write(f'video_url: "https://www.youtube.com/watch?v={video.video_id}"\n')
-        f.write(f'channel: "{metadata["channel"].replace('"', '\\"')}"\n')
+        f.write(f'channel: "{video.channel.replace('"', '\\"')}"\n')
         if formatted_date:
             f.write(f'upload_date: "{formatted_date}"\n')
         if formatted_duration:
@@ -497,7 +425,7 @@ def main(video_id, kb, model):
         f.write("---\n\n")
 
         # Write content
-        f.write(f"# {metadata['title']}\n\n")
+        f.write(f"# {video.title}\n\n")
         f.write(summary)
         f.write("\n\n")
         f.write(organized)
