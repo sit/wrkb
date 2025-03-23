@@ -27,6 +27,7 @@ from youtube_transcript_api import (
     NoTranscriptFound,
 )
 from youtube_transcript_api.formatters import PrettyPrintFormatter
+import json
 import llm
 from timeit import default_timer as timer
 from datetime import timedelta, datetime
@@ -41,6 +42,31 @@ def extract_video_id(video_url):
     else:
         # If it's already an ID format
         return video_url
+
+
+def fetch_video_data(video_id):
+    """Fetch video metadata and transcript."""
+    # Get video metadata
+    metadata = get_video_metadata(video_id)
+    if not metadata:
+        click.echo("Failed to fetch video metadata.", err=True)
+        return None
+
+    # Get video transcript
+    transcript = get_transcript(video_id)
+    if not transcript:
+        click.echo("Failed to fetch transcript.", err=True)
+        return None
+
+    formatter = PrettyPrintFormatter()
+    formatted_transcript = formatter.format_transcript(transcript)
+    full_text = transcript_to_text(transcript)
+
+    return {
+        "metadata": metadata,
+        "formatted_transcript": formatted_transcript,
+        "full_text": full_text,
+    }
 
 
 def get_video_metadata(video_id):
@@ -111,13 +137,14 @@ def transcript_to_text(transcript):
     return full_text
 
 
-def process_transcript(text_transcript, formatted_transcript, video_id, model_name):
+def process_transcript(video_data, video_id, model_name):
     """
     Process the transcript using the specified LLM model.
     Uses a conversation to generate both summary and organized content in sequence.
 
     Args:
-        formatted_transcript: The formatted transcript with timestamps
+        video_data (dict): A dictionary containing video metadata,
+                           formatted transcript, and full text.
         video_id: The YouTube video ID for creating links
         model_name: The LLM model to use
 
@@ -137,7 +164,7 @@ You are an expert summarizer for Wild Rift content.
 Summarize the following transcript text of a YouTube video, encoded in a TRANSCRIPT tag.
 
 <TRANSCRIPT>
-{text_transcript}
+{video_data["full_text"]}
 </TRANSCRIPT>
 
 Provide a concise summary that captures the main points of the transcript.
@@ -196,7 +223,7 @@ Important requirements:
 
 Here is a full transcript with timestamps:
 <TRANSCRIPT_WITH_TIMESTAMPS>
-{formatted_transcript}
+{video_data["formatted_transcript"]}
 </TRANSCRIPT_WITH_TIMESTAMPS>
 
 The timestamps in the transcript are in the format [MM:SS.MMM --> MM:SS.MMM] and represent start and end times in minutes:seconds.milliseconds.
@@ -244,46 +271,36 @@ def main(video_id, kb, model):
     video_id = extract_video_id(video_id)
     click.echo(f"Extracted video ID: {video_id}")
 
-    # Get video metadata
-    metadata = get_video_metadata(video_id)
-    if not metadata:
-        click.echo("Failed to fetch video metadata. Exiting.", err=True)
-        sys.exit(1)
-
-    click.echo(f"Retrieved metadata for: {metadata['title']}")
-
-    # Get video transcript
-    transcript = get_transcript(video_id)
-    if not transcript:
-        click.echo("Failed to fetch transcript. Exiting.", err=True)
-        sys.exit(1)
-
-    click.echo(f"Retrieved transcript with {len(transcript)} segments")
-
     # Create knowledge base directory if it doesn't exist
     os.makedirs(kb, exist_ok=True)
 
+    # Construct the cache filename
+    cache_filename = f"{kb}/{video_id}_data.json"
+
+    # Check if the cache file exists
+    if os.path.exists(cache_filename):
+        click.echo(f"Loading data from cache: {cache_filename}")
+        with open(cache_filename, "r") as f:
+            video_data = json.load(f)
+    else:
+        click.echo("Fetching video data...")
+        # Fetch video data
+        video_data = fetch_video_data(video_id)
+        if not video_data:
+            click.echo("Failed to fetch video data. Exiting.", err=True)
+            sys.exit(1)
+
+        # Save the data to the cache file
+        with open(cache_filename, "w") as f:
+            json.dump(video_data, f, indent=4)
+        click.echo(f"Saved video data to cache: {cache_filename}")
+
     # For now, just output basic info to verify everything works
     click.echo("Setup complete! Dependencies loaded successfully.")
-    click.echo(f"Video: {metadata['title']}")
-    click.echo(f"Channel: {metadata['channel']}")
+    click.echo(f"Video: {video_data['metadata']['title']}")
+    click.echo(f"Channel: {video_data['metadata']['channel']}")
 
-    formatter = PrettyPrintFormatter()
-    formatted_transcript = formatter.format_transcript(transcript)
-
-    transcript_filename = f"{kb}/{video_id}_transcript.txt"
-    with open(transcript_filename, "w", encoding="utf-8") as f:
-        f.write(formatted_transcript)
-
-    click.echo(f"Transcript saved to {transcript_filename}")
-
-    full_text = transcript_to_text(transcript)
-
-    # Use the formatted transcript instead of plain text
-    # This preserves timestamps and formatting for the LLM to use
-    summary, organized = process_transcript(
-        full_text, formatted_transcript, video_id, model
-    )
+    summary, organized = process_transcript(video_data, video_id, model)
 
     click.echo("\n--- TRANSCRIPT SUMMARY ---")
     click.echo(summary)
@@ -291,6 +308,7 @@ def main(video_id, kb, model):
 
     # Format upload date nicely if available
     formatted_date = ""
+    metadata = video_data["metadata"]
     if metadata.get("timestamp"):
         try:
             # Convert unix timestamp to YYYY-MM-DD
