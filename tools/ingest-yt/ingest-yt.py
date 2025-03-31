@@ -5,8 +5,7 @@
 #     "click",
 #     "yt-dlp",
 #     "youtube-transcript-api",
-#     "llm",
-#     "llm-gemini",
+#     "google-genai",
 # ]
 # ///
 
@@ -28,11 +27,12 @@ from youtube_transcript_api import (
 )
 from youtube_transcript_api.formatters import JSONFormatter
 import json
-import llm
 from timeit import default_timer as timer
 from datetime import timedelta, datetime
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Any
+
+from google import genai
 
 
 @dataclass
@@ -250,14 +250,17 @@ class VideoManager:
         return transcript
 
 
-def process_transcript(transcript: Video, model_name: str) -> tuple:
+def process_transcript(
+    transcript: Video, client: genai.Client, model_name: str
+) -> tuple:
     """
-    Process the transcript using the specified LLM model.
+    Process the transcript using the Google Genai SDK.
     Uses a conversation to generate both summary and organized content in sequence.
 
     Args:
         transcript: Transcript object containing video data.
-        model_name: The LLM model to use.
+        model_name: The Gemini model to use.
+        client: Google Genai client.
 
     Returns:
         tuple: (summary, organized_transcript)
@@ -265,11 +268,6 @@ def process_transcript(transcript: Video, model_name: str) -> tuple:
     try:
         full_text = transcript.to_text()
         video_id = transcript.video_id
-
-        model = llm.get_model(model_name)
-
-        # Start a conversation with the model
-        conversation = model.conversation()
 
         # First prompt - get the summary
         summary_prompt = f"""
@@ -294,11 +292,14 @@ Provide a concise summary that captures the main points of the transcript.
         click.echo(f"Summarizing transcript using {model_name}...")
         summary_start = timer()
 
-        # Execute the summary prompt
-        summary_response = conversation.prompt(summary_prompt, temperature=0.7)
+        # Create a chat for sequential prompts
+        chat = client.chats.create(model=model_name)
 
-        # Get the summary text - this is blocking until the full response is generated
-        summary = summary_response.text()
+        # Execute the summary prompt
+        summary_response = chat.send_message(summary_prompt)
+
+        # Get the summary text
+        summary = summary_response.text
 
         # Set end time after text is fully extracted
         summary_end = timer()
@@ -348,11 +349,11 @@ outside of the article.
         click.echo(f"Organizing transcript using {model_name}...")
         organize_start = timer()
 
-        # Execute the organize prompt
-        organize_response = conversation.prompt(organize_prompt, temperature=0.7)
+        # Execute the organize prompt using the same chat
+        organize_response = chat.send_message(organize_prompt)
 
-        # Get the organized text - this is blocking until the full response is generated
-        organized = organize_response.text()
+        # Get the organized text
+        organized = organize_response.text
 
         # Set end time after text is fully extracted
         organize_end = timer()
@@ -375,12 +376,20 @@ outside of the article.
 @click.option(
     "--model",
     "-m",
-    default="gemini-2.0-flash",  # "gemma-3-27b-it" is a great option but slow
-    help="LLM model to use for summarization",
+    default="gemini-2.5-pro-exp-03-25",
+    help="Gemini model to use for summarization (e.g., gemini-2.0-flash-001, gemini-1.5-pro-001)",
 )
-def main(video_id, kb, model):
+@click.option(
+    "--api-key",
+    envvar="GEMINI_API_KEY",
+    help="Google API key for Gemini. If not provided, uses GEMINI_API_KEY environment variable.",
+)
+def main(video_id, kb, model, api_key):
     """Ingest a YouTube video and convert it to a structured Markdown file."""
     click.echo(f"Processing video: {video_id}")
+
+    # Initialize the Gemini client
+    client = genai.Client(api_key=api_key)
 
     # Initialize the TranscriptManager with the specified cache directory
     manager = VideoManager(cache_dir=kb)
@@ -398,7 +407,7 @@ def main(video_id, kb, model):
     click.echo(f"Channel: {video.channel}")
 
     # Process the transcript
-    summary, organized = process_transcript(video, model)
+    summary, organized = process_transcript(video, client, model)
 
     click.echo("\n--- TRANSCRIPT SUMMARY ---")
     click.echo(summary)
