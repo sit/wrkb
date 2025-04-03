@@ -325,9 +325,11 @@ Important requirements:
 - Use the author's tone, exact words and sequencing of ideas, while making it less conversational and more appropriate for written format.
   Do not skip details or important information.
 - Break the transcript into paragraphs.
-- Add headers to separate sections.
+- Group the paragraphs into sections for each main ideas. Use a third-level heading `###` for each section.
+- Group the sections into larger parts or concepts. Use a second-level heading `##` for each part. This will
+  typically include an introduction, a few main sections, and a conclusion.
 - Add YouTube timestamp links for all major sections and moments using this format:
-   - For section headings: Use `## [Section Title](https://www.youtube.com/watch?v={video_id}&t=XXs)` where XXs is the timestamp in seconds
+   - For section headings: Use `### [Section Title](https://www.youtube.com/watch?v={video_id}&t=XXs)` where XXs is the timestamp in seconds
    - For specific gameplay demonstrations: When the speaker references something visually shown on screen, link a relevant phrase
      using the same format: [relevant text](https://www.youtube.com/watch?v={video_id}&t=XXs)
 - Use the timestamps provided in the transcript to create these links.
