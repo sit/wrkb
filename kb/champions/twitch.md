@@ -50,7 +50,7 @@ abilities:
   - 70.0
   - 80.0
   description: Deals 25 / 35 / 45 / 55 physical damage to all enemies affected by
-    Deadly Venom , each stack deals 15 / 20 / 25 / 30 ( +30% bonus AD +18% AP ) damage
+    Deadly Venom , each stack deals 20 / 25 / 30 / 35 ( +30% bonus AD +18% AP ) damage
     to enemies. Enemies with maximum stacks will spread the damage to nearby targets
     and apply maximum stacks of Deadly Venom to them. Deals 130 physical damage at
     max stacks. Deals 80% increased damage to monsters.
@@ -149,7 +149,7 @@ Hurls a cask that applies stacks of Deadly Venom to enemies and slows them for 3
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Deals 25 / 35 / 45 / 55 physical damage to all enemies affected by Deadly Venom , each stack deals 15 / 20 / 25 / 30 ( +30% bonus AD +18% AP ) damage to enemies. Enemies with maximum stacks will spread the damage to nearby targets and apply maximum stacks of Deadly Venom to them. Deals 130 physical damage at max stacks. Deals 80% increased damage to monsters.
+Deals 25 / 35 / 45 / 55 physical damage to all enemies affected by Deadly Venom , each stack deals 20 / 25 / 30 / 35 ( +30% bonus AD +18% AP ) damage to enemies. Enemies with maximum stacks will spread the damage to nearby targets and apply maximum stacks of Deadly Venom to them. Deals 130 physical damage at max stacks. Deals 80% increased damage to monsters.
 
 ### [4] Spray and Pray
 

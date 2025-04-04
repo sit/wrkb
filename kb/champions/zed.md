@@ -17,6 +17,7 @@ abilities:
   description: Zed and his shadows throw their shurikens, each dealing 70 / 120 /
     170 / 220 ( +110% bonus AD ) physical damage to the first enemy they hit and 42
     / 72 / 102 / 132 ( +66% bonus AD ) physical damage to other enemies in their path.
+    Deals 80% damage to monsters.
   name: Razor Shuriken
   slot: '1'
 - cooldowns:
@@ -45,10 +46,10 @@ abilities:
   - 40.0
   - 40.0
   - 40.0
-  description: Zed and his shadows slash, each dealing 70 / 100 / 130 / 160 ( +75
-    bonus AD ) physical damage to nearby enemies and slowing them by 25% / 30% / 35%
-    / 40% for 1.5 seconds. Slashes beyond the first striking the same enemy deal 60%
-    damage and increase the slow by 50% . Each enemy champion hit by Zed's slash reduces
+  description: Zed and his shadows slash, each dealing 65 / 95 / 125 / 155 ( +70 bonus
+    AD ) physical damage to nearby enemies and slowing them by 25% / 30% / 35% / 40%
+    for 1.5 seconds. Slashes beyond the first striking the same enemy deal 50% damage
+    and increase the slow by 50% . Each enemy champion hit by Zed's slash reduces
     Living Shadow 's cooldown by 2 seconds. Deals 60% damage to monsters.
   name: Shadow Slash
   slot: '3'
@@ -128,7 +129,7 @@ Zed's attacks against enemies below 50% Health deal bonus 7% magic damage of the
 
 **Cost:** 65.0 / 60.0 / 55.0 / 50.0
 
-Zed and his shadows throw their shurikens, each dealing 70 / 120 / 170 / 220 ( +110% bonus AD ) physical damage to the first enemy they hit and 42 / 72 / 102 / 132 ( +66% bonus AD ) physical damage to other enemies in their path.
+Zed and his shadows throw their shurikens, each dealing 70 / 120 / 170 / 220 ( +110% bonus AD ) physical damage to the first enemy they hit and 42 / 72 / 102 / 132 ( +66% bonus AD ) physical damage to other enemies in their path. Deals 80% damage to monsters.
 
 ### [2] Living Shadow
 
@@ -144,7 +145,7 @@ Passive : Zed gains 35 / 40 / 45 / 50 Energy whenever an ability strikes the sam
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Zed and his shadows slash, each dealing 70 / 100 / 130 / 160 ( +75 bonus AD ) physical damage to nearby enemies and slowing them by 25% / 30% / 35% / 40% for 1.5 seconds. Slashes beyond the first striking the same enemy deal 60% damage and increase the slow by 50% . Each enemy champion hit by Zed's slash reduces Living Shadow 's cooldown by 2 seconds. Deals 60% damage to monsters.
+Zed and his shadows slash, each dealing 65 / 95 / 125 / 155 ( +70 bonus AD ) physical damage to nearby enemies and slowing them by 25% / 30% / 35% / 40% for 1.5 seconds. Slashes beyond the first striking the same enemy deal 50% damage and increase the slow by 50% . Each enemy champion hit by Zed's slash reduces Living Shadow 's cooldown by 2 seconds. Deals 60% damage to monsters.
 
 ### [4] Death Mark
 

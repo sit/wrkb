@@ -34,9 +34,9 @@ abilities:
   slot: '2'
 - cooldowns:
   - 20.0
-  - 18.0
-  - 16.0
+  - 17.0
   - 14.0
+  - 11.0
   description: 'Dashes forward, entering Spirit Form and leaving his body behind for
     5 seconds. During Spirit Form, Yone gains 10% Movement Speed that increases over
     the duration and marks champions damaged with his attacks or abilities. When Soul
@@ -60,7 +60,7 @@ base_stats:
     growth: '4'
   Attack Dmg.:
     base: '54'
-    growth: '3'
+    growth: '4'
   Attack Spd.:
     base: '0.82'
     growth: '0.0214'
@@ -97,7 +97,7 @@ Mid Lane, Jungle, Baron Lane
 - Armor: 43 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 345 (+0 per level)
-- Attack Dmg.: 54 (+3 per level)
+- Attack Dmg.: 54 (+4 per level)
 - Attack Spd.: 0.82 (+0.0214 per level)
 
 ## Abilities
@@ -120,7 +120,7 @@ Cleaves in a cone, dealing 25 / 35 / 45 / 55 plus 12% / 13% / 14% / 15% of the t
 
 ### [3] Soul Unbound
 
-**Cooldown:** 20.0 / 18.0 / 16.0 / 14.0 seconds
+**Cooldown:** 20.0 / 17.0 / 14.0 / 11.0 seconds
 
 Dashes forward, entering Spirit Form and leaving his body behind for 5 seconds. During Spirit Form, Yone gains 10% Movement Speed that increases over the duration and marks champions damaged with his attacks or abilities. When Soul Unbound ends, Yone returns to his body and marked enemies take 24% / 28% / 32% / 36% of the damage Yone dealt to them as true damage . Re-cast : End Soul Unbound early.
 

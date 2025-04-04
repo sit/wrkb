@@ -16,9 +16,9 @@ abilities:
   - 6.0
   - 5.0
   - 4.0
-  description: Smashes the ground with Nightfall to deal 74 ( +60% AP ) magic damage
-    . Damage is increased by 45% / 50% / 55% / 60% bonus AD when the ability hits
-    only one enemy.
+  description: Smashes the ground with Nightfall to deal 80 / 110 / 140 / 170 ( +70%
+    AP ) magic damage . Damage is increased by 45% / 50% / 55% / 60% bonus AD when
+    the ability hits only one enemy.
   name: Obliterate
   slot: '1'
 - cooldowns:
@@ -42,9 +42,9 @@ abilities:
   name: Death's Grasp
   slot: '3'
 - cooldowns:
-  - 100.0
-  - 85.0
-  - 70.0
+  - 105.0
+  - 90.0
+  - 75.0
   description: 'Banishes an enemy champion into the Death Realm with him for 7 seconds.
     During this period: - Steals 8% of the target''s core stats ( AP , AD , AS , Armor
     , Magic Resist and Max HP ). - If Mordekaiser takes down the target, he keeps
@@ -106,7 +106,7 @@ Gains 1% Magic Pen . Attacks deal 30% bonus magic damage . When Mordekaiser gets
 
 **Cooldown:** 7.0 / 6.0 / 5.0 / 4.0 seconds
 
-Smashes the ground with Nightfall to deal 74 ( +60% AP ) magic damage . Damage is increased by 45% / 50% / 55% / 60% bonus AD when the ability hits only one enemy.
+Smashes the ground with Nightfall to deal 80 / 110 / 140 / 170 ( +70% AP ) magic damage . Damage is increased by 45% / 50% / 55% / 60% bonus AD when the ability hits only one enemy.
 
 ### [2] Indestructible
 
@@ -122,7 +122,7 @@ Pulls the enemy toward him, dealing 60 / 80 / 100 / 120 ( +55% AP ) magic damage
 
 ### [4] Realm of Death
 
-**Cooldown:** 100.0 / 85.0 / 70.0 seconds
+**Cooldown:** 105.0 / 90.0 / 75.0 seconds
 
 Banishes an enemy champion into the Death Realm with him for 7 seconds. During this period: - Steals 8% of the target's core stats ( AP , AD , AS , Armor , Magic Resist and Max HP ). - If Mordekaiser takes down the target, he keeps the stolen stats until the target respawns. -If he doesn't, the stolen stats are returned once the ability ends.
 

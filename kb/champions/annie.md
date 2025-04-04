@@ -10,12 +10,12 @@ abilities:
   - 4.0
   - 4.0
   costs:
+  - 50.0
+  - 55.0
+  - 60.0
   - 65.0
-  - 70.0
-  - 75.0
-  - 80.0
-  description: Annie hurls a Mana infused fireball, dealing 80 / 125 / 170 / 215 (
-    +80% AP ) magic damage in a small area and refunding the Mana cost and half its
+  description: Annie hurls a Mana infused fireball, dealing 80 / 130 / 180 / 230 (
+    +85% AP ) magic damage in a small area and refunding the Mana cost and half its
     cooldown if it destroys the target.
   name: Disintegrate
   slot: '1'
@@ -43,8 +43,8 @@ abilities:
   - 60.0
   - 60.0
   - 60.0
-  description: Annie shields herself andTibbers , absorbing 50 / 100 / 150 / 200 (
-    +40% AP ) damage and gaining 20% / 25% / 30% / 35% movement speed. Speed bonus
+  description: Annie shields herself and Tibbers , absorbing 50 / 100 / 150 / 200
+    ( +40% AP ) damage and gaining 25% / 30% / 33% / 40% movement speed. Speed bonus
     decays after 3 seconds.
   name: Molten Shield
   slot: '3'
@@ -127,9 +127,9 @@ After casting 4 abilities, the next offensive ability stuns enemies hit for 1 se
 
 **Cooldown:** 4.0 / 4.0 / 4.0 / 4.0 seconds
 
-**Cost:** 65.0 / 70.0 / 75.0 / 80.0
+**Cost:** 50.0 / 55.0 / 60.0 / 65.0
 
-Annie hurls a Mana infused fireball, dealing 80 / 125 / 170 / 215 ( +80% AP ) magic damage in a small area and refunding the Mana cost and half its cooldown if it destroys the target.
+Annie hurls a Mana infused fireball, dealing 80 / 130 / 180 / 230 ( +85% AP ) magic damage in a small area and refunding the Mana cost and half its cooldown if it destroys the target.
 
 ### [2] Incinerate
 
@@ -145,7 +145,7 @@ Annie casts a blazing cone of fire, dealing 70 / 130 / 190 / 250 ( +70% AP ) mag
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Annie shields herself andTibbers , absorbing 50 / 100 / 150 / 200 ( +40% AP ) damage and gaining 20% / 25% / 30% / 35% movement speed. Speed bonus decays after 3 seconds.
+Annie shields herself and Tibbers , absorbing 50 / 100 / 150 / 200 ( +40% AP ) damage and gaining 25% / 30% / 33% / 40% movement speed. Speed bonus decays after 3 seconds.
 
 ### [4] Summon: Tibbers
 

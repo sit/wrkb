@@ -19,8 +19,8 @@ abilities:
   - 14.0
   - 12.0
   - 10.0
-  description: 'Mini Gnar : Throws a boomerang that deals 15 / 65 / 115 / 165 ( +125%
-    AD ) physical damage and slows enemies by 25% / 30% / 35% / 40% for 2 seconds.
+  description: 'Mini Gnar : Throws a boomerang that deals 5 / 55 / 105 / 155 ( +125%
+    AD ) physical damage and slows enemies by 20% / 25% / 30% / 35% for 2 seconds.
     The boomerang returns to Gnar after hitting the target, dealing 50% damage to
     subsequent enemies. Each enemy can only be hit once. Catching the boomerang reduces
     its cooldown by 40% . Mega Gnar : Throws a boulder, dealing 40 / 95 / 150 / 205
@@ -37,11 +37,11 @@ abilities:
   - 18.0
   - 17.0
   description: 'Mini Gnar (Passive) : Every third attack or ability on the same enemy
-    deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 8% / 10% / 12% / 14% of
-    the target''s max Health as magic damage and grants 20% Movement Speed that decays
-    over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack Speed
-    for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing 45
-    / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25
+    deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 6.5% / 9% / 11.5% / 14%
+    of the target''s max Health as magic damage and grants 20% Movement Speed that
+    decays over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack
+    Speed for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing
+    45 / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25
     seconds. Gain Hyper''s passive Movement Speed bonus upon leaving Mega Gnar form.
     Mini Gnar (Passive) deals up to 300 damage to monsters.'
   name: Hyper / Wallop
@@ -127,13 +127,13 @@ Dealing or taking damage generates Rage . At max Rage , Gnar's abilities will ch
 
 **Cooldown:** 16.0 / 14.0 / 12.0 / 10.0 seconds
 
-Mini Gnar : Throws a boomerang that deals 15 / 65 / 115 / 165 ( +125% AD ) physical damage and slows enemies by 25% / 30% / 35% / 40% for 2 seconds. The boomerang returns to Gnar after hitting the target, dealing 50% damage to subsequent enemies. Each enemy can only be hit once. Catching the boomerang reduces its cooldown by 40% . Mega Gnar : Throws a boulder, dealing 40 / 95 / 150 / 205 ( +140% AD ) physical damage and slowing the target hit and nearby enemies by 35% / 40% / 45% / 50% for 2 seconds. Picking up the boulder within 5 seconds reduces its cooldown by 70% . The boomerang generates 1 Rage when it hits a champion and 1 Rage when it hits a non-champion. Only the first hit on each target generates Rage .
+Mini Gnar : Throws a boomerang that deals 5 / 55 / 105 / 155 ( +125% AD ) physical damage and slows enemies by 20% / 25% / 30% / 35% for 2 seconds. The boomerang returns to Gnar after hitting the target, dealing 50% damage to subsequent enemies. Each enemy can only be hit once. Catching the boomerang reduces its cooldown by 40% . Mega Gnar : Throws a boulder, dealing 40 / 95 / 150 / 205 ( +140% AD ) physical damage and slowing the target hit and nearby enemies by 35% / 40% / 45% / 50% for 2 seconds. Picking up the boulder within 5 seconds reduces its cooldown by 70% . The boomerang generates 1 Rage when it hits a champion and 1 Rage when it hits a non-champion. Only the first hit on each target generates Rage .
 
 ### [2] Hyper / Wallop
 
 **Cooldown:** 20.0 / 19.0 / 18.0 / 17.0 seconds
 
-Mini Gnar (Passive) : Every third attack or ability on the same enemy deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 8% / 10% / 12% / 14% of the target's max Health as magic damage and grants 20% Movement Speed that decays over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack Speed for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing 45 / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25 seconds. Gain Hyper's passive Movement Speed bonus upon leaving Mega Gnar form. Mini Gnar (Passive) deals up to 300 damage to monsters.
+Mini Gnar (Passive) : Every third attack or ability on the same enemy deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 6.5% / 9% / 11.5% / 14% of the target's max Health as magic damage and grants 20% Movement Speed that decays over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack Speed for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing 45 / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25 seconds. Gain Hyper's passive Movement Speed bonus upon leaving Mega Gnar form. Mini Gnar (Passive) deals up to 300 damage to monsters.
 
 ### [3] Hop / Crunch
 

@@ -1,20 +1,20 @@
 ---
 abilities:
 - description: Gains a stack of Stone Skin whenever Wukong damage enemy champions,
-    stacking up to 3 times. Each stack grants 11 Armor and heals for 0.3% of his max
-    Health per second.
+    stacking up to 3 times. Each stack grants 11 Armor and heals for 2.5% of his max
+    Health per 5 seconds.
   name: Stone Skin
   slot: P
 - cooldowns:
+  - 11.0
+  - 9.0
   - 8.0
-  - 8.0
-  - 7.0
-  - 7.0
+  - 6.0
   costs:
-  - 40.0
-  - 40.0
-  - 40.0
-  - 40.0
+  - 30.0
+  - 30.0
+  - 30.0
+  - 30.0
   description: 'Passive : Golden Staff adds an empowering effect on Wukong''s base
     attacks every 12 seconds. Takedowns will reduce Golden Staff''s passive Cooldown
     by 2 seconds. The Cooldown of the passive will be reduced by 2 seconds per level,
@@ -46,10 +46,10 @@ abilities:
   - 8.0
   - 8.0
   costs:
-  - 45.0
-  - 50.0
-  - 55.0
-  - 60.0
+  - 40.0
+  - 40.0
+  - 40.0
+  - 40.0
   description: Moves toward a target while sending clones to 2 additional enemies
     nearby, dealing 80 / 120 / 160 / 200 ( +80% bonus AD ) physical damage to each
     enemy. After hitting the targeted enemy, Wukong gains 25% / 35% / 45% / 55% Attack
@@ -127,13 +127,13 @@ Jungle, Baron Lane
 
 ### [P] Stone Skin
 
-Gains a stack of Stone Skin whenever Wukong damage enemy champions, stacking up to 3 times. Each stack grants 11 Armor and heals for 0.3% of his max Health per second.
+Gains a stack of Stone Skin whenever Wukong damage enemy champions, stacking up to 3 times. Each stack grants 11 Armor and heals for 2.5% of his max Health per 5 seconds.
 
 ### [1] Golden Staff
 
-**Cooldown:** 8.0 / 8.0 / 7.0 / 7.0 seconds
+**Cooldown:** 11.0 / 9.0 / 8.0 / 6.0 seconds
 
-**Cost:** 40.0 / 40.0 / 40.0 / 40.0
+**Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
 Passive : Golden Staff adds an empowering effect on Wukong's base attacks every 12 seconds. Takedowns will reduce Golden Staff's passive Cooldown by 2 seconds. The Cooldown of the passive will be reduced by 2 seconds per level, and killing enemy champions will refresh the Cooldown. Active : Empowers his next attack to deal 60 / 90 / 120 / 150 ( +35% / 40% / 45% / 50% AD ) physical damage. Wukong and his clones attacks reduce Golden Staff's cooldown by 0.5 seconds. After casting this ability, Wukong's next attack gains bonus range.
 
@@ -149,7 +149,7 @@ Becomes invisible for 1 second and dashes forward, leaving behind a clone for 3 
 
 **Cooldown:** 8.0 / 8.0 / 8.0 / 8.0 seconds
 
-**Cost:** 45.0 / 50.0 / 55.0 / 60.0
+**Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
 Moves toward a target while sending clones to 2 additional enemies nearby, dealing 80 / 120 / 160 / 200 ( +80% bonus AD ) physical damage to each enemy. After hitting the targeted enemy, Wukong gains 25% / 35% / 45% / 55% Attack Speed for 4 seconds.
 

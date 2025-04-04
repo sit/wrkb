@@ -1,8 +1,8 @@
 ---
 abilities:
 - description: Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for
-    6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 30
-    - 120 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the
+    6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 10
+    - 150 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the
     duration. An ability grants multiple stacks upon hitting multiple champions.
   name: Ionian Fervor
   slot: P
@@ -16,8 +16,8 @@ abilities:
   - 20.0
   - 20.0
   - 20.0
-  description: Dashes through an enemy, dealing 15 / 45 / 75 / 105 ( +60% AD ) physical
-    damage and healing herself for 19% / 21% / 23% / 25% AD . Bladesurge's cooldown
+  description: Dashes through an enemy, dealing 10 / 40 / 70 / 100 ( +65% AD ) physical
+    damage and healing herself for 16% / 20% / 24% / 28% AD . Bladesurge's cooldown
     is refreshed if the target was Marked or dies to Bladesurge. When aimed, Bladesurge
     will prioritize targets it will reset on. Deals 150% damage to minions.
   name: Bladesurge
@@ -126,7 +126,7 @@ Baron Lane, Mid Lane
 
 ### [P] Ionian Fervor
 
-Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 30 - 120 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the duration. An ability grants multiple stacks upon hitting multiple champions.
+Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 10 - 150 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the duration. An ability grants multiple stacks upon hitting multiple champions.
 
 ### [1] Bladesurge
 
@@ -134,7 +134,7 @@ Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, 
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Dashes through an enemy, dealing 15 / 45 / 75 / 105 ( +60% AD ) physical damage and healing herself for 19% / 21% / 23% / 25% AD . Bladesurge's cooldown is refreshed if the target was Marked or dies to Bladesurge. When aimed, Bladesurge will prioritize targets it will reset on. Deals 150% damage to minions.
+Dashes through an enemy, dealing 10 / 40 / 70 / 100 ( +65% AD ) physical damage and healing herself for 16% / 20% / 24% / 28% AD . Bladesurge's cooldown is refreshed if the target was Marked or dies to Bladesurge. When aimed, Bladesurge will prioritize targets it will reset on. Deals 150% damage to minions.
 
 ### [2] Defiant Dance
 

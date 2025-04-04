@@ -14,7 +14,7 @@ abilities:
   - 35.0
   - 40.0
   - 45.0
-  description: Fires a bolt, dealing 50 / 85 / 120 / 155 ( +120% AD +30% AP ) physical
+  description: Fires a bolt, dealing 50 / 85 / 120 / 155 ( +130% AD +30% AP ) physical
     damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds.
     Applies on-hit effects .
   name: Mystic Shot
@@ -88,7 +88,7 @@ base_stats:
     base: '9'
     growth: '1'
   Move Speed:
-    base: '335'
+    base: '340'
     growth: '0'
 name: Ezreal
 roles:
@@ -110,7 +110,7 @@ ADC
 - Mana Reg. (5s): 9 (+1 per level)
 - Armor: 34 (+5 per level)
 - Magic Res.: 30 (+1 per level)
-- Move Speed: 335 (+0 per level)
+- Move Speed: 340 (+0 per level)
 - Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.83 (+0.0136 per level)
 
@@ -126,7 +126,7 @@ Gains 13% Attack Speed for 8 seconds when hitting abilities, stacking up to 4 ti
 
 **Cost:** 30.0 / 35.0 / 40.0 / 45.0
 
-Fires a bolt, dealing 50 / 85 / 120 / 155 ( +120% AD +30% AP ) physical damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds. Applies on-hit effects .
+Fires a bolt, dealing 50 / 85 / 120 / 155 ( +130% AD +30% AP ) physical damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds. Applies on-hit effects .
 
 ### [2] Essence Flux
 

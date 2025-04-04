@@ -10,9 +10,9 @@ abilities:
   name: New Destiny
   slot: P
 - cooldowns:
-  - 12.0
   - 10.0
   - 9.0
+  - 8.0
   - 7.0
   costs:
   - 65.0
@@ -22,7 +22,7 @@ abilities:
   description: Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical
     damage and then detonates after 1 second to deal an additional 80 / 130 / 180
     / 230 ( +80% / 110% / 140% / 170% AD ) physical damage . Detonates in 0.25 seconds
-    if the round hits terrain, Deals 105% damage against monsters.
+    if the round hits terrain. Deals 110% damage against monsters.
   name: End of the Line
   slot: '1'
 - cooldowns:
@@ -52,7 +52,7 @@ abilities:
   - 40.0
   - 40.0
   description: Dashes in a direction, reloading one shell and granting True Grit for
-    4 seconds. True Grit grants 8 / 14 / 20 / 26 Armor ( stacks 6 times) and refreshes
+    4 seconds. True Grit grants 13 / 18 / 23 / 28 Armor ( stacks 6 times) and refreshes
     when damaging non-minions. Dashing towards an enemy champion grants 2 stacks of
     True Grit . Each bullet hit reduces Quickdraw's cooldown by 0.5 seconds.
   name: Quickdraw
@@ -89,7 +89,7 @@ base_stats:
     base: '11'
     growth: '1'
   Magic Res.:
-    base: '38'
+    base: '40'
     growth: '2'
   Mana:
     base: '390'
@@ -119,7 +119,7 @@ Jungle
 - Mana: 390 (+37 per level)
 - Mana Reg. (5s): 12 (+1 per level)
 - Armor: 35 (+4 per level)
-- Magic Res.: 38 (+2 per level)
+- Magic Res.: 40 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 66 (+3 per level)
 - Attack Spd.: 1.03 (+0.0221 per level)
@@ -132,11 +132,11 @@ Graves' shotgun has some unique properties: Double Barrel : Graves must reload w
 
 ### [1] End of the Line
 
-**Cooldown:** 12.0 / 10.0 / 9.0 / 7.0 seconds
+**Cooldown:** 10.0 / 9.0 / 8.0 / 7.0 seconds
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical damage and then detonates after 1 second to deal an additional 80 / 130 / 180 / 230 ( +80% / 110% / 140% / 170% AD ) physical damage . Detonates in 0.25 seconds if the round hits terrain, Deals 105% damage against monsters.
+Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical damage and then detonates after 1 second to deal an additional 80 / 130 / 180 / 230 ( +80% / 110% / 140% / 170% AD ) physical damage . Detonates in 0.25 seconds if the round hits terrain. Deals 110% damage against monsters.
 
 ### [2] Smoke Screen
 
@@ -152,7 +152,7 @@ Throws a canister that creates a cloud of smoke for 4 seconds. Enemies within th
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Dashes in a direction, reloading one shell and granting True Grit for 4 seconds. True Grit grants 8 / 14 / 20 / 26 Armor ( stacks 6 times) and refreshes when damaging non-minions. Dashing towards an enemy champion grants 2 stacks of True Grit . Each bullet hit reduces Quickdraw's cooldown by 0.5 seconds.
+Dashes in a direction, reloading one shell and granting True Grit for 4 seconds. True Grit grants 13 / 18 / 23 / 28 Armor ( stacks 6 times) and refreshes when damaging non-minions. Dashing towards an enemy champion grants 2 stacks of True Grit . Each bullet hit reduces Quickdraw's cooldown by 0.5 seconds.
 
 ### [4] Collateral Damage
 

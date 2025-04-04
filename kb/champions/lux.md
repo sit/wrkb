@@ -1,8 +1,8 @@
 ---
 abilities:
 - description: Damaging abilities afflict enemies with Illumination for 5 seconds.
-    Illumination empowers Lux's next attack against that target, dealing 25 + Level
-    x 7 ( +25% AP ) magic damage .
+    Illumination empowers Lux's next attack against that target, dealing 18 + Level
+    x 7.5 ( +25% AP ) magic damage .
   name: Illumination
   slot: P
 - cooldowns:
@@ -16,7 +16,7 @@ abilities:
   - 55.0
   - 60.0
   description: Casts out a ball of light that roots enemy champions and large monsters
-    for 2 seconds and deals 70 / 130 / 190 / 250 ( +70% AP ) magic damage to them.
+    for 2 seconds and deals 60 / 120 / 180 / 240 ( +70% AP ) magic damage to them.
     Roots up to 2 enemies. Minions and small monsters hit by the ball of light will
     be dealt 90% damage, but they will not be marked by Illumination or become rooted.
   name: Light Binding
@@ -32,9 +32,9 @@ abilities:
   - 60.0
   - 60.0
   description: Throws Lux's wand in a direction, shielding allied champions it passes
-    through from 30 / 55 / 80 / 105 ( +15% AP ) damage for 3 seconds. After reaching
-    its apex it returns to Lux, shielding allied champions for an additional 48 /
-    88 / 128 / 168 ( +24% AP ) damage .
+    through from 25 / 50 / 75 / 100 ( +18% AP ) damage for 3 seconds. After reaching
+    its apex it returns to Lux, shielding allied champions for an additional 40 /
+    70 / 100 / 130 ( +28% AP ) damage .
   name: Prismatic Barrier
   slot: '2'
 - cooldowns:
@@ -121,7 +121,7 @@ Support, Mid Lane
 
 ### [P] Illumination
 
-Damaging abilities afflict enemies with Illumination for 5 seconds. Illumination empowers Lux's next attack against that target, dealing 25 + Level x 7 ( +25% AP ) magic damage .
+Damaging abilities afflict enemies with Illumination for 5 seconds. Illumination empowers Lux's next attack against that target, dealing 18 + Level x 7.5 ( +25% AP ) magic damage .
 
 ### [1] Light Binding
 
@@ -129,7 +129,7 @@ Damaging abilities afflict enemies with Illumination for 5 seconds. Illumination
 
 **Cost:** 45.0 / 50.0 / 55.0 / 60.0
 
-Casts out a ball of light that roots enemy champions and large monsters for 2 seconds and deals 70 / 130 / 190 / 250 ( +70% AP ) magic damage to them. Roots up to 2 enemies. Minions and small monsters hit by the ball of light will be dealt 90% damage, but they will not be marked by Illumination or become rooted.
+Casts out a ball of light that roots enemy champions and large monsters for 2 seconds and deals 60 / 120 / 180 / 240 ( +70% AP ) magic damage to them. Roots up to 2 enemies. Minions and small monsters hit by the ball of light will be dealt 90% damage, but they will not be marked by Illumination or become rooted.
 
 ### [2] Prismatic Barrier
 
@@ -137,7 +137,7 @@ Casts out a ball of light that roots enemy champions and large monsters for 2 se
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Throws Lux's wand in a direction, shielding allied champions it passes through from 30 / 55 / 80 / 105 ( +15% AP ) damage for 3 seconds. After reaching its apex it returns to Lux, shielding allied champions for an additional 48 / 88 / 128 / 168 ( +24% AP ) damage .
+Throws Lux's wand in a direction, shielding allied champions it passes through from 25 / 50 / 75 / 100 ( +18% AP ) damage for 3 seconds. After reaching its apex it returns to Lux, shielding allied champions for an additional 40 / 70 / 100 / 130 ( +28% AP ) damage .
 
 ### [3] Lucent Singularity
 

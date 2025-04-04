@@ -2,7 +2,7 @@
 abilities:
 - description: Every third attack or damaging ability agains the same target deals
     an additional 30 ( +70% AP ) magic damage . If the target was a champion, Ekko
-    gains 40% Movement Speed for 2.5 seconds. Deals 155% damage to monsters. Cannot
+    gains 40% Movement Speed for 2.5 seconds. Deals 120% damage to monsters. Cannot
     affect the same target for 5 seconds.
   name: Z-Drive Resonance
   slot: P
@@ -32,9 +32,9 @@ abilities:
   - 40.0
   - 45.0
   - 50.0
-  description: 'Passive: Attacks gains Low Health targets deal an additional 3% (
-    +0.02% AP ) missing Health magic damage. Active: Lanches a chronosphere that lasts
-    1.5 seconds, slowing by 40% . If Ekko enters the sphere it detonates, stunning
+  description: 'Passive : Attacks gains Low Health targets deal an additional 2% (
+    +0.015% AP ) missing Health magic damage. Active : Lanches a chronosphere that
+    lasts 1.5 seconds, slowing by 40% . If Ekko enters the sphere it detonates, stunning
     for 2.5 seconds and granting Ekko a shield that absorbs 70 / 100 / 130 / 160 (
     +150% AP ) damage for 2 seconds.'
   name: Parallel Convergence
@@ -55,8 +55,8 @@ abilities:
   name: Phase Dive
   slot: '3'
 - cooldowns:
-  - 70.0
-  - 55.0
+  - 80.0
+  - 60.0
   - 40.0
   costs:
   - 100.0
@@ -125,7 +125,7 @@ Mid Lane, Jungle
 
 ### [P] Z-Drive Resonance
 
-Every third attack or damaging ability agains the same target deals an additional 30 ( +70% AP ) magic damage . If the target was a champion, Ekko gains 40% Movement Speed for 2.5 seconds. Deals 155% damage to monsters. Cannot affect the same target for 5 seconds.
+Every third attack or damaging ability agains the same target deals an additional 30 ( +70% AP ) magic damage . If the target was a champion, Ekko gains 40% Movement Speed for 2.5 seconds. Deals 120% damage to monsters. Cannot affect the same target for 5 seconds.
 
 ### [1] Timewinder
 
@@ -141,7 +141,7 @@ Throw a temporal device, dealing 90 / 110 / 130 / 150 ( +30% AP ) magic damage .
 
 **Cost:** 35.0 / 40.0 / 45.0 / 50.0
 
-Passive: Attacks gains Low Health targets deal an additional 3% ( +0.02% AP ) missing Health magic damage. Active: Lanches a chronosphere that lasts 1.5 seconds, slowing by 40% . If Ekko enters the sphere it detonates, stunning for 2.5 seconds and granting Ekko a shield that absorbs 70 / 100 / 130 / 160 ( +150% AP ) damage for 2 seconds.
+Passive : Attacks gains Low Health targets deal an additional 2% ( +0.015% AP ) missing Health magic damage. Active : Lanches a chronosphere that lasts 1.5 seconds, slowing by 40% . If Ekko enters the sphere it detonates, stunning for 2.5 seconds and granting Ekko a shield that absorbs 70 / 100 / 130 / 160 ( +150% AP ) damage for 2 seconds.
 
 ### [3] Phase Dive
 
@@ -153,7 +153,7 @@ Dashes in a taget direction. Ekko's next attack within 3 seconds gains 250 range
 
 ### [4] Chronobreak
 
-**Cooldown:** 70.0 / 55.0 / 40.0 seconds
+**Cooldown:** 80.0 / 60.0 / 40.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

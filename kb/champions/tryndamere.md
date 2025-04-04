@@ -14,7 +14,7 @@ abilities:
   - 12.0
   - 12.0
   description: "Passive : Gains 7\_/ 12 / 17 / 22 Attack Damage plus an additional\
-    \ 0.25 / 0.3 / 0.35 / 0.4 Attack Damage per 1% of missing Health. Active : Consumes\
+    \ 0.35 / 0.4 / 0.45 / 0.5 Attack Damage per 1% of missing Health. Active : Consumes\
     \ all Fury to heal for 55 / 65 / 75 / 85 ( +30% AP ) plus 1.5 / 2.1 / 2.7 / 3.3\
     \ ( +1.2% AP ) per point of Fury consumed."
   name: Bloodlust
@@ -24,7 +24,7 @@ abilities:
   - 12.0
   - 12.0
   - 12.0
-  description: Reduces nearby enemy champions' Attack Damage by 35% for 3 seconds.
+  description: Reduces nearby enemy champions' Attack Damage by 40% for 3 seconds.
     If target is moving away from Tryndamere, they will be slowed by 25% / 30% / 35%
     / 40% .
   name: Mocking Shout
@@ -103,13 +103,13 @@ Gains 0.32% Critical Rate for each point of Fury. Attacking a champion grants 35
 
 **Cooldown:** 12.0 / 12.0 / 12.0 / 12.0 seconds
 
-Passive : Gains 7 / 12 / 17 / 22 Attack Damage plus an additional 0.25 / 0.3 / 0.35 / 0.4 Attack Damage per 1% of missing Health. Active : Consumes all Fury to heal for 55 / 65 / 75 / 85 ( +30% AP ) plus 1.5 / 2.1 / 2.7 / 3.3 ( +1.2% AP ) per point of Fury consumed.
+Passive : Gains 7 / 12 / 17 / 22 Attack Damage plus an additional 0.35 / 0.4 / 0.45 / 0.5 Attack Damage per 1% of missing Health. Active : Consumes all Fury to heal for 55 / 65 / 75 / 85 ( +30% AP ) plus 1.5 / 2.1 / 2.7 / 3.3 ( +1.2% AP ) per point of Fury consumed.
 
 ### [2] Mocking Shout
 
 **Cooldown:** 12.0 / 12.0 / 12.0 / 12.0 seconds
 
-Reduces nearby enemy champions' Attack Damage by 35% for 3 seconds. If target is moving away from Tryndamere, they will be slowed by 25% / 30% / 35% / 40% .
+Reduces nearby enemy champions' Attack Damage by 40% for 3 seconds. If target is moving away from Tryndamere, they will be slowed by 25% / 30% / 35% / 40% .
 
 ### [3] Spinning Slash
 

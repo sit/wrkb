@@ -42,8 +42,8 @@ abilities:
   name: Ardent Blaze
   slot: '2'
 - cooldowns:
-  - 22.0
-  - 19.0
+  - 21.0
+  - 18.0
   - 16.0
   - 13.0
   costs:
@@ -74,7 +74,7 @@ base_stats:
     growth: '5'
   Attack Dmg.:
     base: '58'
-    growth: '4'
+    growth: '5'
   Attack Spd.:
     base: '0.83'
     growth: '0.0200'
@@ -118,7 +118,7 @@ ADC, Mid Lane
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 345 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
+- Attack Dmg.: 58 (+5 per level)
 - Attack Spd.: 0.83 (+0.0200 per level)
 
 ## Abilities
@@ -145,7 +145,7 @@ Fires a shot that explodes at the end of its range or on the first enemy hit, de
 
 ### [3] Relentless Pursuit
 
-**Cooldown:** 22.0 / 19.0 / 16.0 / 13.0 seconds
+**Cooldown:** 21.0 / 18.0 / 16.0 / 13.0 seconds
 
 **Cost:** 45.0 / 30.0 / 15.0
 

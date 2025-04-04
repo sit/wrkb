@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Attacks deal 12 ( +20% AP ) bonus magic damage on impact and an additional
-    12 ( +9% AP ) magic damage each second for 4 seconds.
+    11 ( +9% AP ) magic damage each second for 4 seconds.
   name: Toxic Shot
   slot: P
 - cooldowns:
@@ -14,7 +14,7 @@ abilities:
   - 80.0
   - 85.0
   - 90.0
-  description: Deals 70 / 120 / 170 / 220 ( +60% AP ) magic damage and blinds the
+  description: Deals 60 / 110 / 160 / 210 ( +55% AP ) magic damage and blinds the
     target for 1.25 / 1.5 / 1.75 / 2 seconds. Attacks from blinded enemies will miss
     their target, dealing no damage and failing to apply on-hit effects.
   name: Blinding Dart
@@ -124,7 +124,7 @@ Baron Lane
 
 ### [P] Toxic Shot
 
-Attacks deal 12 ( +20% AP ) bonus magic damage on impact and an additional 12 ( +9% AP ) magic damage each second for 4 seconds.
+Attacks deal 12 ( +20% AP ) bonus magic damage on impact and an additional 11 ( +9% AP ) magic damage each second for 4 seconds.
 
 ### [1] Blinding Dart
 
@@ -132,7 +132,7 @@ Attacks deal 12 ( +20% AP ) bonus magic damage on impact and an additional 12 ( 
 
 **Cost:** 75.0 / 80.0 / 85.0 / 90.0
 
-Deals 70 / 120 / 170 / 220 ( +60% AP ) magic damage and blinds the target for 1.25 / 1.5 / 1.75 / 2 seconds. Attacks from blinded enemies will miss their target, dealing no damage and failing to apply on-hit effects.
+Deals 60 / 110 / 160 / 210 ( +55% AP ) magic damage and blinds the target for 1.25 / 1.5 / 1.75 / 2 seconds. Attacks from blinded enemies will miss their target, dealing no damage and failing to apply on-hit effects.
 
 ### [2] Move Quick
 

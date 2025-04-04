@@ -8,13 +8,13 @@ abilities:
   name: Deathbringer Stance
   slot: P
 - cooldowns:
-  - 13.0
-  - 11.0
-  - 9.0
-  - 7.0
-  description: Swings his giant blade, dealing 15 / 45 / 75 / 105 ( +70% / 75% / 70%
-    / 85% AD ) physical damage . This ability can be cast 2 more times, with each
-    cast dealing 25% more damage. Enemies hit on the sweetspot will be knockd airborne
+  - 12.0
+  - 10.0
+  - 8.0
+  - 6.0
+  description: Swings his giant blade, dealing 15 / 45 / 75 / 105 ( +75% / 80% / 85%
+    / 90% AD ) physical damage . This ability can be cast 2 more times, with each
+    cast dealing 25% more damage. Enemies hit on the sweetspot will be knocked airborne
     for 0.25 seconds and dealt 50% bonus damage. Deals 65% damage to minions. Deals
     70% damage to monsters.
   name: The Darkin Blade
@@ -46,7 +46,7 @@ abilities:
   - 65.0
   - 55.0
   description: Unleashes his demonic form for 10 seconds, gaining 30% / 40% / 50%
-    Attack Damage , 25% / 35% / 45% increased healing and 60% / 80% / 100% decaying
+    Attack Damage , 25% / 35% / 45% increased healing and 60% / 75% / 90% decaying
     Movement Speed . During this time, Umbral Dash's Physical Vamp is increased by
     50% . World Ender's duration is extended by 5 seconds with a takedown, up to 10
     extra seconds. Nearby minions and monsters are feared for 3 seconds on activation.
@@ -105,9 +105,9 @@ Enhances his next attack every 24 seconds to deal bonus 5 - 15% physical damage 
 
 ### [1] The Darkin Blade
 
-**Cooldown:** 13.0 / 11.0 / 9.0 / 7.0 seconds
+**Cooldown:** 12.0 / 10.0 / 8.0 / 6.0 seconds
 
-Swings his giant blade, dealing 15 / 45 / 75 / 105 ( +70% / 75% / 70% / 85% AD ) physical damage . This ability can be cast 2 more times, with each cast dealing 25% more damage. Enemies hit on the sweetspot will be knockd airborne for 0.25 seconds and dealt 50% bonus damage. Deals 65% damage to minions. Deals 70% damage to monsters.
+Swings his giant blade, dealing 15 / 45 / 75 / 105 ( +75% / 80% / 85% / 90% AD ) physical damage . This ability can be cast 2 more times, with each cast dealing 25% more damage. Enemies hit on the sweetspot will be knocked airborne for 0.25 seconds and dealt 50% bonus damage. Deals 65% damage to minions. Deals 70% damage to monsters.
 
 ### [2] Infernal Chains
 
@@ -125,5 +125,5 @@ Passive : Aatrox gains 19% / 21% / 23% / 25% physical vamp against enemy champio
 
 **Cooldown:** 75.0 / 65.0 / 55.0 seconds
 
-Unleashes his demonic form for 10 seconds, gaining 30% / 40% / 50% Attack Damage , 25% / 35% / 45% increased healing and 60% / 80% / 100% decaying Movement Speed . During this time, Umbral Dash's Physical Vamp is increased by 50% . World Ender's duration is extended by 5 seconds with a takedown, up to 10 extra seconds. Nearby minions and monsters are feared for 3 seconds on activation.
+Unleashes his demonic form for 10 seconds, gaining 30% / 40% / 50% Attack Damage , 25% / 35% / 45% increased healing and 60% / 75% / 90% decaying Movement Speed . During this time, Umbral Dash's Physical Vamp is increased by 50% . World Ender's duration is extended by 5 seconds with a takedown, up to 10 extra seconds. Nearby minions and monsters are feared for 3 seconds on activation.
 

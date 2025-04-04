@@ -4,17 +4,17 @@ abilities:
   name: Soul Eater
   slot: P
 - cooldowns:
-  - 7.0
   - 6.0
   - 5.0
   - 4.0
+  - 3.0
   costs:
-  - 20.0
-  - 20.0
-  - 20.0
-  - 20.0
-  description: Empowers next attack within 10 seconds to deal an additional 30 / 55
-    / 80 / 105 physical damage . If Siphoning Strike kills the target, its damage
+  - 15.0
+  - 15.0
+  - 15.0
+  - 15.0
+  description: Empowers next attack within 10 seconds to deal an additional 30 / 60
+    / 90 / 120 physical damage . If Siphoning Strike kills the target, its damage
     is permanently increased by 5 . Killing champions, large minions and large monsters
     increases Siphoning Strike's damage by 10 instead.
   name: Siphoning Strike
@@ -46,7 +46,7 @@ abilities:
   - 140.0
   description: Creates a flaming zone, dealing 55 / 110 / 165 / 220 ( +40% AP ) magic
     damage . The zone persists for 5 seconds, dealing 11 / 22 / 33 / 44 ( +12% AP
-    ) magic damage over time and reducing Armor by 15% / 20% / 25% / 30% .
+    ) magic damage over time and reducing Armor by 20% / 25% / 30% / 35% .
   name: Spirit Fire
   slot: '3'
 - cooldowns:
@@ -121,11 +121,11 @@ Gains 12% Physical Vamp .
 
 ### [1] Siphoning Strike
 
-**Cooldown:** 7.0 / 6.0 / 5.0 / 4.0 seconds
+**Cooldown:** 6.0 / 5.0 / 4.0 / 3.0 seconds
 
-**Cost:** 20.0 / 20.0 / 20.0 / 20.0
+**Cost:** 15.0 / 15.0 / 15.0 / 15.0
 
-Empowers next attack within 10 seconds to deal an additional 30 / 55 / 80 / 105 physical damage . If Siphoning Strike kills the target, its damage is permanently increased by 5 . Killing champions, large minions and large monsters increases Siphoning Strike's damage by 10 instead.
+Empowers next attack within 10 seconds to deal an additional 30 / 60 / 90 / 120 physical damage . If Siphoning Strike kills the target, its damage is permanently increased by 5 . Killing champions, large minions and large monsters increases Siphoning Strike's damage by 10 instead.
 
 ### [2] Wither
 
@@ -141,7 +141,7 @@ Slows enemy Movement Speed by 35% and Attack Speed by 22.49% / 29.98% / 37.48% /
 
 **Cost:** 110.0 / 120.0 / 130.0 / 140.0
 
-Creates a flaming zone, dealing 55 / 110 / 165 / 220 ( +40% AP ) magic damage . The zone persists for 5 seconds, dealing 11 / 22 / 33 / 44 ( +12% AP ) magic damage over time and reducing Armor by 15% / 20% / 25% / 30% .
+Creates a flaming zone, dealing 55 / 110 / 165 / 220 ( +40% AP ) magic damage . The zone persists for 5 seconds, dealing 11 / 22 / 33 / 44 ( +12% AP ) magic damage over time and reducing Armor by 20% / 25% / 30% / 35% .
 
 ### [4] Fury of the Sands
 
