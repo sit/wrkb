@@ -1,9 +1,9 @@
 import argparse
 from pathlib import Path
 import re
-from champion import get_champions, parse_champion_details, write_champion_data
-from runes import get_runes, parse_rune_details, write_rune_data
-from items import get_items, parse_item_details, write_item_data
+from wildriftfire.champion import get_champions, parse_champion_details, write_champion_data
+from wildriftfire.runes import get_runes, parse_rune_details, write_rune_data
+from wildriftfire.items import get_items, parse_item_details, write_item_data
 
 
 def sanitize_filename(name):

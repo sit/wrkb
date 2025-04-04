@@ -1,0 +1,23 @@
+- [x] Implement transcript download
+  - [x] Use youtube-transcript-api
+  - [x] Store transcript with timestamps
+- [ ] Load KB data
+  - [ ] Load champions list
+  - [ ] Load items list
+  - [ ] Load runes list
+- [ ] Implement text cleanup
+  - [ ] Pattern matching for game terms
+  - [ ] Fix transcription errors
+  - [ ] Add proper punctuation
+  - [x] Format paragraphs
+  - [ ] Test: Verify game term corrections
+  - [ ] Test: Check punctuation fixes
+  - [ ] Test: Validate paragraph formatting
+- [x] Implement LLM analysis
+  - [x] Identify sections and topics
+  - [x] Find timestamp boundaries
+  - [ ] Classify video type
+  - [x] Extract key concepts
+  - [ ] Test: Verify section detection
+  - [ ] Test: Check video classification
+  - [ ] Test: Validate concept extraction

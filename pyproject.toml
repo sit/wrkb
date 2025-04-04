@@ -1,16 +1,18 @@
 [project]
-name = "ingest-wildriftfire"
+name = "wrtools"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "beautifulsoup4>=4.13.3",
+    "click>=8.1.8",
+    "google-genai>=1.9.0",
     "httpx>=0.28.1",
     "pyyaml>=6.0.2",
+    "youtube-transcript-api>=1.0.3",
+    "yt-dlp>=2025.3.31",
 ]
 
 [dependency-groups]
-dev = [
-    "ruff>=0.9.10",
-]
+dev = ["ruff>=0.9.10"]
