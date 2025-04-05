@@ -228,26 +228,26 @@ class VideoManager:
             click.echo("Failed to fetch transcript.", err=True)
             return None
 
-        transcript = Video(
+        video = Video(
             video_id=video_id, metadata=metadata, transcript=transcript_data
         )
 
-        return transcript
+        return video
 
     def load(self, video_url: str) -> Optional[Video]:
         video_id = self.extract_video_id(video_url)
         click.echo(f"Loading video ID: {video_id}")
 
         # Try to load from cache
-        transcript = self.load_from_cache(video_id)
-        if not transcript:
+        video = self.load_from_cache(video_id)
+        if not video:
             # If not in cache, fetch it
-            transcript = self.load_from_yt(video_id)
-            if not transcript:
-                click.echo("Failed to fetch transcript.", err=True)
+            video = self.load_from_yt(video_id)
+            if not video:
+                click.echo("Failed to fetch video data.", err=True)
                 return None
-            self.save_to_cache(transcript)
-        return transcript
+            self.save_to_cache(video)
+        return video
 
 
 def process_transcript(
@@ -266,10 +266,15 @@ def process_transcript(
         tuple: (summary, organized_transcript)
     """
     try:
-        full_text = transcript.to_text()
-        video_id = transcript.video_id
+        click.echo(f"Summarizing transcript using {model_name}...")
+        summary_start = timer()
+
+        # Create a chat for sequential prompts
+        chat = client.chats.create(model=model_name)
 
         # First prompt - get the summary
+        full_text = transcript.to_text()
+        video_id = transcript.video_id
         summary_prompt = f"""
 You are an expert summarizer for Wild Rift content.
 
@@ -288,12 +293,6 @@ Provide a concise summary that captures the main points of the transcript.
 - Do not embellish the content with anything not directly stated in the transcript.
 - Return the summary only, do not add any other explanation or commentary before or after the result.
 """
-
-        click.echo(f"Summarizing transcript using {model_name}...")
-        summary_start = timer()
-
-        # Create a chat for sequential prompts
-        chat = client.chats.create(model=model_name)
 
         # Execute the summary prompt
         summary_response = chat.send_message(summary_prompt)
@@ -373,7 +372,7 @@ outside of the article.
 @click.command()
 @click.option("--video-id", required=True, help="YouTube video ID or URL")
 @click.option(
-    "--kb", "-k", default="kb", help="Knowledge base directory to save the output file"
+    "--kb", "-k", default="videos", help="Knowledge base directory to save the output file"
 )
 @click.option(
     "--model",
@@ -394,7 +393,7 @@ def main(video_id, kb, model, api_key):
     client = genai.Client(api_key=api_key)
 
     # Initialize the TranscriptManager with the specified cache directory
-    manager = VideoManager(cache_dir=kb)
+    manager = VideoManager(cache_dir=os.path.join(kb, "cache"))
 
     # Get the transcript, either from cache or by fetching it
     video = manager.load(video_id)
