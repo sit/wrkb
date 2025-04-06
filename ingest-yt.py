@@ -1,13 +1,4 @@
 #!/usr/bin/env python
-# /// script
-# requires-python = "~=3.12"
-# dependencies = [
-#     "click",
-#     "yt-dlp",
-#     "youtube-transcript-api",
-#     "google-genai",
-# ]
-# ///
 
 """
 Ingest YouTube videos about WildRift and turn them into structured Markdown files.
@@ -18,326 +9,82 @@ and creates a well-structured Markdown file with proper sections and timestamp l
 
 import os
 import sys
-import click
-import yt_dlp
-from youtube_transcript_api import (
-    YouTubeTranscriptApi,
-    TranscriptsDisabled,
-    NoTranscriptFound,
-)
-from youtube_transcript_api.formatters import JSONFormatter
+import time
 import json
-from timeit import default_timer as timer
-from datetime import timedelta, datetime
-from dataclasses import dataclass
-from typing import Dict, List, Optional, Any
+from datetime import datetime, timedelta
+from typing import Optional
 
+import click
 from google import genai
 
-
-@dataclass
-class Video:
-    """Class to represent a YouTube video transcript with metadata."""
-
-    video_id: str
-    metadata: Dict[str, Any]
-    transcript: List[Dict[str, Any]]
-
-    @property
-    def title(self) -> str:
-        """Return the video title."""
-        return self.metadata.get("title", "")
-
-    @property
-    def channel(self) -> str:
-        """Return the channel name."""
-        return self.metadata.get("channel", "")
-
-    @property
-    def upload_date(self) -> str:
-        """Return the upload date."""
-        return self.metadata.get("upload_date", "")
-
-    @property
-    def formatted_upload_date(self) -> str:
-        """Return the upload date formatted as YYYY-MM-DD."""
-        if not self.metadata.get("timestamp"):
-            return ""
-        try:
-            upload_date = datetime.fromtimestamp(self.metadata["timestamp"])
-            return upload_date.strftime("%Y-%m-%d")
-        except Exception:
-            return ""
-
-    @property
-    def duration(self) -> int:
-        """Return the video duration in seconds."""
-        return self.metadata.get("duration", 0)
-
-    @property
-    def formatted_duration(self) -> str:
-        """Return the video duration formatted as HH:MM:SS."""
-        if not self.duration:
-            return ""
-        return str(timedelta(seconds=self.duration))
-
-    @property
-    def description(self) -> str:
-        """Return the video description."""
-        return self.metadata.get("description", "")
-
-    def to_text(self) -> str:
-        """Convert transcript segments to a continuous text."""
-        if not self.transcript:
-            return ""
-
-        # Join all transcript segments into a single text
-        full_text = " ".join(
-            [
-                segment.get("text", "")
-                if isinstance(segment, dict)
-                else getattr(segment, "text", "")
-                for segment in self.transcript
-            ]
-        )
-        return full_text
-
-    def to_dict(self) -> Dict[str, Any]:
-        """Convert transcript to a dictionary for serialization."""
-        return {
-            "video_id": self.video_id,
-            "metadata": self.metadata,
-            "transcript": self.transcript,
-        }
+from lib.transcript import Sentence
+from lib.video import Video, VideoManager
 
 
-class VideoManager:
-    """Class to handle fetching and caching YouTube video transcripts."""
+def sentence_transcript(video: Video, chat: genai.chats.Chat) -> tuple:
+    start = time.monotonic()
+    sentences_prompt = f"""
+You are an experienced writer and editor. Your task today is to work with a raw transcript from
+a YouTube video. The transcript is provided below as a JSON dictionary with following keys:
+- video_id: The YouTube video ID
+- metadata: Dictionary containing video metadata such as title, channel, upload_date, duration, etc.
+- transcript: List of segments dicts, each with 'text', 'start', and 'duration' fields
 
-    def __init__(self, cache_dir: str = "kb"):
-        self.cache_dir = cache_dir
-        os.makedirs(cache_dir, exist_ok=True)
+<VIDEO>
+{video.to_dict()}
+</VIDEO>
 
-    def extract_video_id(self, video_url: str) -> str:
-        if "youtube.com/watch?v=" in video_url:
-            return video_url.split("youtube.com/watch?v=")[1].split("&")[0]
-        elif "youtu.be/" in video_url:
-            return video_url.split("youtu.be/")[1].split("?")[0]
-        else:
-            # If it's already an ID format
-            return video_url
+Your job is to take the segments in the transcript and turn them into sentences.
+Each sentence should be properly capitalized and punctuated. Because the transcript is spoken language,
+you may need to take some small liberties with the text to make it more readable. For example,
+filler words such as "um", "like", "you know" should be removed. Places where the speaker may have
+corrected themselves they said should also be removed.
 
-    def get_video_metadata(self, video_id: str) -> Optional[Dict[str, Any]]:
-        ydl_opts = {
-            "quiet": True,
-            "no_warnings": True,
-            "skip_download": True,
-            "extract_flat": True,
-        }
-
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            try:
-                info = ydl.extract_info(
-                    f"https://www.youtube.com/watch?v={video_id}", download=False
-                )
-                return {
-                    "title": info.get("title", ""),
-                    "channel": info.get("uploader", ""),
-                    "upload_date": info.get("upload_date", ""),
-                    "timestamp": info.get("timestamp", None),
-                    "duration": info.get("duration", 0),
-                    "description": info.get("description", ""),
-                }
-            except Exception as e:
-                click.echo(f"Error fetching video metadata: {e}", err=True)
-                return None
-
-    def get_transcript(self, video_id: str) -> Optional[List[Dict[str, Any]]]:
-        try:
-            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-
-            # Try to get English transcript first
-            try:
-                transcript = transcript_list.find_transcript(["en"])
-            except Exception:
-                # If no English transcript, get the first available and translate it
-                transcript = transcript_list.find_transcript(["en-US", "en-GB"])
-                if not transcript:
-                    transcript = transcript_list[0]
-                    transcript = transcript.translate("en")
-
-            raw_transcript = transcript.fetch()
-
-            # Format the transcript as JSON
-            formatter = JSONFormatter()
-            formatted_transcript = formatter.format_transcript(raw_transcript)
-            return json.loads(formatted_transcript)
-
-        except (TranscriptsDisabled, NoTranscriptFound) as e:
-            click.echo(f"No transcript available: {e}", err=True)
-            return None
-        except Exception as e:
-            click.echo(f"Error fetching transcript: {e}", err=True)
-            return None
-
-    def get_cache_filename(self, video_id: str) -> str:
-        return f"{self.cache_dir}/{video_id}_data.json"
-
-    def load_from_cache(self, video_id: str) -> Optional[Video]:
-        cache_filename = self.get_cache_filename(video_id)
-
-        if os.path.exists(cache_filename):
-            click.echo(f"Loading data from cache: {cache_filename}")
-            try:
-                with open(cache_filename, "r") as f:
-                    data = json.load(f)
-                    return Video(
-                        video_id=data["video_id"],
-                        metadata=data["metadata"],
-                        transcript=data["transcript"],
-                    )
-            except Exception as e:
-                click.echo(f"Error loading cache: {e}", err=True)
-                return None
-        return None
-
-    def save_to_cache(self, transcript: Video) -> bool:
-        cache_filename = self.get_cache_filename(transcript.video_id)
-
-        try:
-            with open(cache_filename, "w") as f:
-                json.dump(transcript.to_dict(), f, indent=4)
-            click.echo(f"Saved video data to cache: {cache_filename}")
-            return True
-        except Exception as e:
-            click.echo(f"Error saving to cache: {e}", err=True)
-            return False
-
-    def load_from_yt(self, video_id: str) -> Optional[Video]:
-        click.echo(f"Fetching data for video: {video_id}")
-
-        # Get video metadata
-        metadata = self.get_video_metadata(video_id)
-        if not metadata:
-            click.echo("Failed to fetch video metadata.", err=True)
-            return None
-
-        # Get video transcript
-        transcript_data = self.get_transcript(video_id)
-        if not transcript_data:
-            click.echo("Failed to fetch transcript.", err=True)
-            return None
-
-        video = Video(
-            video_id=video_id, metadata=metadata, transcript=transcript_data
-        )
-
-        return video
-
-    def load(self, video_url: str) -> Optional[Video]:
-        video_id = self.extract_video_id(video_url)
-        click.echo(f"Loading video ID: {video_id}")
-
-        # Try to load from cache
-        video = self.load_from_cache(video_id)
-        if not video:
-            # If not in cache, fetch it
-            video = self.load_from_yt(video_id)
-            if not video:
-                click.echo("Failed to fetch video data.", err=True)
-                return None
-            self.save_to_cache(video)
-        return video
-
-
-def process_transcript(
-    transcript: Video, client: genai.Client, model_name: str
-) -> tuple:
-    """
-    Process the transcript using the Google Genai SDK.
-    Uses a conversation to generate both summary and organized content in sequence.
-
-    Args:
-        transcript: Transcript object containing video data.
-        model_name: The Gemini model to use.
-        client: Google Genai client.
-
-    Returns:
-        tuple: (summary, organized_transcript)
-    """
-    try:
-        click.echo(f"Summarizing transcript using {model_name}...")
-        summary_start = timer()
-
-        # Create a chat for sequential prompts
-        chat = client.chats.create(model=model_name)
-
-        # First prompt - get the summary
-        full_text = transcript.to_text()
-        video_id = transcript.video_id
-        summary_prompt = f"""
-You are an expert summarizer for Wild Rift content.
-
-Summarize the following transcript text of a YouTube video, encoded in a TRANSCRIPT tag.
-
-<TRANSCRIPT>
-{full_text}
-</TRANSCRIPT>
-
-Provide a concise summary that captures the main points of the transcript.
-- Use bullets and lists to organize the content, taking note of any key gameplay concepts, game mechanics and champion specifics mentioned.
-- Limit to 500 words, with no more than 3 top-level bullets and no more than 5 sub-bullets per top-level bullet.
-- Make sure the bullets are concise.
-- Format the summary so that it will render as Markdown.
-- Do not include any promotional language (e.g., sponsor advertisements, requests to like/subscribe, participate in contests, etc.)
-- Do not embellish the content with anything not directly stated in the transcript.
-- Return the summary only, do not add any other explanation or commentary before or after the result.
+The output should be a list of Sentence objects, each with a text property and a segments property.
+The segments property is a list of Segment objects that are taken directly from the input transcript.
+The output should cover the entire transcript. Every segment from the input transcript should be included,
+even if it was cleaned up to remove filler or thinking words.
 """
 
-        # Execute the summary prompt
-        summary_response = chat.send_message(summary_prompt)
+    sentences_response = chat.send_message(
+        sentences_prompt,
+        config={
+            "response_mime_type": "application/json",
+            "response_schema": list[Sentence],
+        },
+    )
+    sentences = sentences_response.text
+    end = time.monotonic()
 
-        # Get the summary text
-        summary = summary_response.text
+    return sentences, timedelta(seconds=end - start)
 
-        # Set end time after text is fully extracted
-        summary_end = timer()
-        click.echo(
-            f"Summary generated in {timedelta(seconds=summary_end - summary_start)} seconds"
-        )
 
-        # Second prompt - organize the transcript
-        organize_prompt = f"""
+def organize_transcript(video: Video, chat: genai.chats.Chat, continuation: Optional[str] = "") -> tuple:
+    video_id = video.video_id
+    organize_prompt = f"""{continuation}
 Now as an experienced copy-writer, with expertise in Wild Rift,
-transform the transcript into an engaging article.
+transform the sentences into an well-formatted article.
 
 Important requirements:
-- Correct any mistakes in the transcription. This could be improper spelling,
-  captilization and punctuation. There are often errors where the transcription
-  software misinterprets the names of champions, items, abilities, and runes. Make
-  sure to check for names that are in Wild Rift (e.g. not in PC League of Legends)
-  and correct them. Sometimes an ungrammatical sentence may indicate a mistake;
-  correct names can often be inferred from context. Don't introduce any names
-  that are not in the transcript.
+- Correct any mistakes in the transcription. There are often errors where the transcription
+software misinterprets the names of champions, items, abilities, and runes. Make
+sure to check for names that are in Wild Rift (e.g. not in PC League of Legends)
+and correct them. Sometimes an ungrammatical sentence may indicate a mistake;
+correct names can often be inferred from context. Don't introduce any names
+that are not in the transcript.
 - Eliminate any promotional language (e.g., sponsor advertisements, requests to like/subscribe, participate in contests, etc.)
-- Eliminate any filler words and phrases.
 - Use the author's tone, exact words and sequencing of ideas, while making it less conversational and more appropriate for written format.
-  Do not skip details or important information.
+Do not skip details or important information.
 - Break the transcript into paragraphs.
 - Group the paragraphs into sections for each main ideas. Use a third-level heading `###` for each section.
 - Group the sections into larger parts or concepts. Use a second-level heading `##` for each part. This will
-  typically include an introduction, a few main sections, and a conclusion.
+typically include an introduction, a few main sections, and a conclusion.
 - Add YouTube timestamp links for all major sections and moments using this format:
-   - For section headings: Use `### [Section Title](https://www.youtube.com/watch?v={video_id}&t=XXs)` where XXs is the timestamp in seconds
-   - For specific gameplay demonstrations: When the speaker references something visually shown on screen, link a relevant phrase
-     using the same format: [relevant text](https://www.youtube.com/watch?v={video_id}&t=XXs)
+- For section headings: Use `### [Section Title](https://www.youtube.com/watch?v={video_id}&t=XXs)` where XXs is the timestamp in seconds
+- For specific gameplay demonstrations: When the speaker references something visually shown on screen, link a relevant phrase
+    using the same format: [relevant text](https://www.youtube.com/watch?v={video_id}&t=XXs)
 - Use the timestamps provided in the transcript to create these links.
 - If a section covers a range of time, you can link to the start time.
-
-Here is a full transcript with timestamps represented as a JSON array of segments:
-<TRANSCRIPT_WITH_TIMESTAMPS>
-{json.dumps(transcript.transcript)}
-</TRANSCRIPT_WITH_TIMESTAMPS>
 
 The timestamps in the transcript are in the format [MM:SS.MMM --> MM:SS.MMM] and represent start and end times in minutes:seconds.milliseconds.
 Convert these to seconds for the YouTube links (e.g., 2:30 would be 150s in the link).
@@ -347,32 +94,81 @@ before or after the result. Do not add any wrapping tags or other markup
 outside of the article.
 """
 
-        click.echo(f"Organizing transcript using {model_name}...")
-        organize_start = timer()
+    organize_start = time.monotonic()
+    organize_response = chat.send_message(organize_prompt)
+    organized = organize_response.text
+    organize_end = time.monotonic()
 
-        # Execute the organize prompt using the same chat
-        organize_response = chat.send_message(organize_prompt)
+    return organized, timedelta(seconds=organize_end - organize_start)
 
-        # Get the organized text
-        organized = organize_response.text
 
-        # Set end time after text is fully extracted
-        organize_end = timer()
-        click.echo(
-            f"Organization completed in {timedelta(seconds=organize_end - organize_start)} seconds"
-        )
+def summarize_transcript(video: Video, chat: genai.chats.Chat) -> tuple:
+    summary_start = time.monotonic()
+    summary_prompt = """
+Provide a concise summary of no more than 300 words that captures the main points of the video, using the same
+organizational structure as the organized article you just wrote. The summary should be output in Markdown format.
+- Start with 2-3 sentences that provide an overview of the video.
+- Use bullets to create nested lists representing the sections and sub-sections of the organized article.
+- Each top-level non-intro/conclusion section should have one bullet.
+- There should be at most 3 sub-bullets, one-level deep to describe each section. It will be necessary to
+  summarize in order to highlight the value.
+- Make sure the bullets are concise.
+- Do not embellish the content with anything not directly stated in the transcript.
 
-        return summary, organized
+Return the summary only, do not add any other explanation or commentary before or after the result.
+"""
+    # Execute the summary prompt
+    summary_response = chat.send_message(summary_prompt)
 
-    except Exception as e:
-        click.echo(f"Error processing transcript: {e}", err=True)
-        raise e
+    summary = summary_response.text
+
+    summary_end = time.monotonic()
+    return summary, timedelta(seconds=summary_end - summary_start)
+
+
+def process_video(
+    video: Video, client: genai.Client, model_name: str, sentences: Optional[str] = None
+) -> tuple:
+    """
+    Process the transcript using the Google Genai SDK.
+
+    Returns a summary of the transcript, and an organized article.
+    """
+    click.echo(f"Summarizing transcript using {model_name}...")
+
+    # Create a chat for sequential prompts
+    chat = client.chats.create(model=model_name)
+
+    continuation = ""
+    if not sentences:
+        sentences, sentence_time = sentence_transcript(video, chat)
+        click.echo(f"Sentences generated in {sentence_time}")
+    else:
+        continuation = f"""
+Take the following JSON list of sentences that have been assembled from a YouTube video transcript organized
+as segments. This is a list of Sentence objects, each with a text property and a segments list.
+The segments property is a list of Segment objects that are taken directly from the input transcript.
+
+<SENTENCES>
+{sentences}
+</SENTENCES>
+"""
+        click.echo("Using previously loaded sentences")
+    organized, organize_time = organize_transcript(video, chat, continuation)
+    click.echo(f"Organized in {organize_time}")
+    summary, summary_time = summarize_transcript(video, chat)
+    click.echo(f"Summary generated in {summary_time}")
+
+    return sentences, summary, organized
 
 
 @click.command()
 @click.option("--video-id", required=True, help="YouTube video ID or URL")
 @click.option(
-    "--kb", "-k", default="videos", help="Knowledge base directory to save the output file"
+    "--kb",
+    "-k",
+    default="videos",
+    help="Knowledge base directory to save the output file",
 )
 @click.option(
     "--model",
@@ -406,9 +202,22 @@ def main(video_id, kb, model, api_key):
     click.echo("Video loaded successfully.")
     click.echo(f"Video: {video.title}")
     click.echo(f"Channel: {video.channel}")
+    click.echo("Metadata:")
+    for key, value in video.metadata.items():
+        click.echo(f"  {key}: {value}")
 
-    # Process the transcript
-    summary, organized = process_transcript(video, client, model)
+    # Where sentences are stored
+    sentences_filename = f"{kb}/{video.video_id}-sentences.md"
+    # If we have sentences cached, read them instead of computing them
+    sentences = None
+    if os.path.exists(sentences_filename):
+        with open(sentences_filename, "r") as f:
+            sentences = f.read()
+
+    # Process the video transcript
+    sentences, summary, organized = process_video(
+        video, client, model, sentences=sentences
+    )
 
     click.echo("\n--- TRANSCRIPT SUMMARY ---")
     click.echo(summary)
@@ -417,6 +226,11 @@ def main(video_id, kb, model, api_key):
     # Format upload date nicely if available
     formatted_date = video.formatted_upload_date
     formatted_duration = video.formatted_duration
+
+    # Write sentences to file
+    sentences_filename = f"{kb}/{video.video_id}-sentences.md"
+    with open(sentences_filename, "w") as f:
+        f.write(sentences)
 
     summary_filename = f"{kb}/{video.video_id}.md"
     with open(summary_filename, "w") as f:
