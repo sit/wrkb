@@ -35,11 +35,11 @@ abilities:
   - 60.0
   - 60.0
   - 60.0
-  description: 'Siphons the souls of nearby enemies, dealing 50 / 80 / 110 / 140 (
+  description: 'Siphons the souls of nearby enemies, dealing 60 / 90 / 120 / 150 (
     + 25% AP ) magic damage every second for 2 seconds. The last strike deals damage
     equal to 10% / 11.5% / 13% / 14.5% of the target''s missing Health . Heals itself
-    by draining Health from enemies. Health recoverable by dealing damage: 35% / 40%
-    / 45% / 50% against enemy champions. 15% against minions. 45% against monsters.
+    by draining Health from enemies. Health recoverable by dealing damage: 40% / 45%
+    / 50% / 55% against enemy champions. 15% against minions. 45% against monsters.
     Deals 160% damage to monsters. Deals 50% damage to minions.'
   name: Bountiful Harvest
   slot: '2'
@@ -59,9 +59,9 @@ abilities:
   name: Reap
   slot: '3'
 - cooldowns:
-  - 110.0
-  - 90.0
-  - 70.0
+  - 100.0
+  - 80.0
+  - 60.0
   costs:
   - 100.0
   - 100.0
@@ -143,7 +143,7 @@ Passive: While out of combat and stationary, or not visible to the enemy team, F
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Siphons the souls of nearby enemies, dealing 50 / 80 / 110 / 140 ( + 25% AP ) magic damage every second for 2 seconds. The last strike deals damage equal to 10% / 11.5% / 13% / 14.5% of the target's missing Health . Heals itself by draining Health from enemies. Health recoverable by dealing damage: 35% / 40% / 45% / 50% against enemy champions. 15% against minions. 45% against monsters. Deals 160% damage to monsters. Deals 50% damage to minions.
+Siphons the souls of nearby enemies, dealing 60 / 90 / 120 / 150 ( + 25% AP ) magic damage every second for 2 seconds. The last strike deals damage equal to 10% / 11.5% / 13% / 14.5% of the target's missing Health . Heals itself by draining Health from enemies. Health recoverable by dealing damage: 40% / 45% / 50% / 55% against enemy champions. 15% against minions. 45% against monsters. Deals 160% damage to monsters. Deals 50% damage to minions.
 
 ### [3] Reap
 
@@ -155,7 +155,7 @@ Slashes the target location with its scythe, dealing 70 / 120 / 170 / 220 ( +50%
 
 ### [4] Crowstorm
 
-**Cooldown:** 110.0 / 90.0 / 70.0 seconds
+**Cooldown:** 100.0 / 80.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

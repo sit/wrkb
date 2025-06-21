@@ -94,7 +94,7 @@ base_stats:
     base: '12'
     growth: '1'
   Move Speed:
-    base: '345'
+    base: '355'
     growth: '0'
 name: Orianna
 roles:
@@ -116,7 +116,7 @@ Mid Lane
 - Mana Reg. (5s): 12 (+1 per level)
 - Armor: 28 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 345 (+0 per level)
+- Move Speed: 355 (+0 per level)
 - Attack Dmg.: 46 (+2 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 

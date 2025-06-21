@@ -88,7 +88,7 @@ base_stats:
     base: '16'
     growth: '1'
   Move Speed:
-    base: '350'
+    base: '360'
     growth: '0'
 name: Veigar
 roles:
@@ -110,7 +110,7 @@ Mid Lane
 - Mana Reg. (5s): 16 (+1 per level)
 - Armor: 37 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 350 (+0 per level)
+- Move Speed: 360 (+0 per level)
 - Attack Dmg.: 58 (+3 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 

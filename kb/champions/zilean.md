@@ -1,59 +1,110 @@
 ---
 abilities:
-- description: Zilean stores time as Experience and can grant it to his allies. When
-    he has enough Experience to finish an ally's level up, he can right-click them
-    to impart it. Zilean receives as much Experience as he gives.
+- description: Stores time as Experience at a rate of 40 XP per 5 seconds. Zilean
+    can grant this Experience to the nearest allied champion when he has enough to
+    complete their next level up by tapping the minion button. Doing so gives Zilean
+    the same amount of Experience. Experience can only be imparted to allies who can
+    level up. If Zilean takes damage or is crown controlled while imparting Experience,
+    the process will be interrupted.
   name: Time in a Bottle
   slot: P
-- description: Places a bomb on any unit, allied or enemy, which detonates after 4
-    seconds, dealing area of effect damage.
+- cooldowns:
+  - 0.0
+  - 0.0
+  - 0.0
+  costs:
+  - 60.0
+  - 65.0
+  - 70.0
+  - 75.0
+  description: 'Tosses a Time Bomb to a target location. The bomb sticks to the first
+    unit which comes within a small area around it. After 3 seconds, it detonates,
+    dealing 75 / 150 / 225 / 400 ( +75% AP ) magic damage to the target and nearby
+    enemies. The bomb prioritizes champions and units that are already carrying a
+    bomb. Early detonation : Placing a second bomb on the same target detonates the
+    first bomb, stunning enemies in the blast for 1.2 / 1.3 / 1.4 / 1.5 seconds. Charge
+    : Stores up to 2 charges. Charge Time : 12 / 11.5 / 11 / 10.5 seconds.'
   name: Time Bomb
   slot: '1'
-- description: Zilean can prepare himself for future confrontations, reducing the
-    cooldowns of all his abilities.
+- cooldowns:
+  - 13.0
+  - 12.0
+  - 12.0
+  - 11.0
+  costs:
+  - 35.0
+  - 35.0
+  - 35.0
+  - 35.0
+  description: 'Makes time flow faster for himself, applying Fleeting Time to himself
+    and gaining a shield that absorbs 80 / 105 / 130 / 155 ( +45% AP ) damage . Zilean
+    also grants Fleeting Time and an identical shield to the nearest allied champion
+    for 3 seconds. Fleeting Time : Increases projectile speed by 60% and grants 25%
+    / 35% / 45% / 55% ( +0.06% AP ) Movement Speed . While Zilean''s Fleeting Time
+    is active, his Basic Ability Haste is increased by 100% .'
   name: Rewind
   slot: '2'
-- description: Zilean bends time around any unit, decreasing an enemies movement speed
-    or increasing an allied units movement speed for a short time.
+- cooldowns:
+  - 25.0
+  - 25.0
+  - 25.0
+  - 25.0
+  costs:
+  - 50.0
+  - 50.0
+  - 50.0
+  - 50.0
+  description: Creates a time-bending force field for 2.5 seconds. While within the
+    force field, enemy champions are slowed by 30% / 35% / 40% / 45% ( +5% AP ) and
+    projectiles by 80% .
   name: Time Warp
   slot: '3'
-- description: Zilean places a protective time rune on an allied champion, teleporting
-    the champion back in time if he takes lethal damage.
+- cooldowns:
+  - 90.0
+  - 80.0
+  - 70.0
+  costs:
+  - 125.0
+  - 125.0
+  - 125.0
+  description: Places a protective time rune that lasts 5 seconds on himself or an
+    allied champion. If the rune bearer takes lethal damage during this time, they
+    teleport back in time and become untargetable for 3 seconds before they are revived
+    and healed for 600 / 850 / 1000 ( +200% AP ) Health . If the rune bearer does
+    not trigger the rune's revival effect, 15% of Chronoshift's cooldown will be refunded.
   name: Chronoshift
   slot: '4'
 base_stats:
   Armor:
-    base: '19'
+    base: '45'
     growth: '4'
   Attack Dmg.:
-    base: '52'
+    base: '54'
     growth: '3'
   Attack Spd.:
-    base: '1.00'
-    growth: '0.0000'
-  Crit Chance:
-    base: '2'
-    growth: '0'
+    base: '0.75'
+    growth: '0.0136'
   Health:
-    base: '499'
-    growth: '71'
+    base: '630'
+    growth: '89'
   Health Reg. (5s):
-    base: '5'
-    growth: '0'
+    base: '10'
+    growth: '1'
   Magic Res.:
-    base: '30'
-    growth: '0'
+    base: '36'
+    growth: '1'
   Mana:
-    base: '361'
-    growth: '60'
+    base: '460'
+    growth: '37'
   Mana Reg. (5s):
-    base: '8'
-    growth: '0'
+    base: '12'
+    growth: '1'
   Move Speed:
-    base: '345'
+    base: '360'
     growth: '0'
 name: Zilean
-roles: []
+roles:
+- Support
 source_url: https://www.wildriftfire.com/guide/zilean
 ---
 
@@ -61,40 +112,55 @@ source_url: https://www.wildriftfire.com/guide/zilean
 
 ## Roles
 
-
+Support
 
 ## Base Stats
 
-- Health: 499 (+71 per level)
-- Health Reg. (5s): 5 (+0 per level)
-- Mana: 361 (+60 per level)
-- Mana Reg. (5s): 8 (+0 per level)
-- Armor: 19 (+4 per level)
-- Magic Res.: 30 (+0 per level)
-- Move Speed: 345 (+0 per level)
-- Attack Dmg.: 52 (+3 per level)
-- Attack Spd.: 1.00 (+0.0000 per level)
-- Crit Chance: 2 (+0 per level)
+- Health: 630 (+89 per level)
+- Health Reg. (5s): 10 (+1 per level)
+- Mana: 460 (+37 per level)
+- Mana Reg. (5s): 12 (+1 per level)
+- Armor: 45 (+4 per level)
+- Magic Res.: 36 (+1 per level)
+- Move Speed: 360 (+0 per level)
+- Attack Dmg.: 54 (+3 per level)
+- Attack Spd.: 0.75 (+0.0136 per level)
 
 ## Abilities
 
 ### [P] Time in a Bottle
 
-Zilean stores time as Experience and can grant it to his allies. When he has enough Experience to finish an ally's level up, he can right-click them to impart it. Zilean receives as much Experience as he gives.
+Stores time as Experience at a rate of 40 XP per 5 seconds. Zilean can grant this Experience to the nearest allied champion when he has enough to complete their next level up by tapping the minion button. Doing so gives Zilean the same amount of Experience. Experience can only be imparted to allies who can level up. If Zilean takes damage or is crown controlled while imparting Experience, the process will be interrupted.
 
 ### [1] Time Bomb
 
-Places a bomb on any unit, allied or enemy, which detonates after 4 seconds, dealing area of effect damage.
+**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+
+**Cost:** 60.0 / 65.0 / 70.0 / 75.0
+
+Tosses a Time Bomb to a target location. The bomb sticks to the first unit which comes within a small area around it. After 3 seconds, it detonates, dealing 75 / 150 / 225 / 400 ( +75% AP ) magic damage to the target and nearby enemies. The bomb prioritizes champions and units that are already carrying a bomb. Early detonation : Placing a second bomb on the same target detonates the first bomb, stunning enemies in the blast for 1.2 / 1.3 / 1.4 / 1.5 seconds. Charge : Stores up to 2 charges. Charge Time : 12 / 11.5 / 11 / 10.5 seconds.
 
 ### [2] Rewind
 
-Zilean can prepare himself for future confrontations, reducing the cooldowns of all his abilities.
+**Cooldown:** 13.0 / 12.0 / 12.0 / 11.0 seconds
+
+**Cost:** 35.0 / 35.0 / 35.0 / 35.0
+
+Makes time flow faster for himself, applying Fleeting Time to himself and gaining a shield that absorbs 80 / 105 / 130 / 155 ( +45% AP ) damage . Zilean also grants Fleeting Time and an identical shield to the nearest allied champion for 3 seconds. Fleeting Time : Increases projectile speed by 60% and grants 25% / 35% / 45% / 55% ( +0.06% AP ) Movement Speed . While Zilean's Fleeting Time is active, his Basic Ability Haste is increased by 100% .
 
 ### [3] Time Warp
 
-Zilean bends time around any unit, decreasing an enemies movement speed or increasing an allied units movement speed for a short time.
+**Cooldown:** 25.0 / 25.0 / 25.0 / 25.0 seconds
+
+**Cost:** 50.0 / 50.0 / 50.0 / 50.0
+
+Creates a time-bending force field for 2.5 seconds. While within the force field, enemy champions are slowed by 30% / 35% / 40% / 45% ( +5% AP ) and projectiles by 80% .
 
 ### [4] Chronoshift
 
-Zilean places a protective time rune on an allied champion, teleporting the champion back in time if he takes lethal damage.
+**Cooldown:** 90.0 / 80.0 / 70.0 seconds
+
+**Cost:** 125.0 / 125.0 / 125.0
+
+Places a protective time rune that lasts 5 seconds on himself or an allied champion. If the rune bearer takes lethal damage during this time, they teleport back in time and become untargetable for 3 seconds before they are revived and healed for 600 / 850 / 1000 ( +200% AP ) Health . If the rune bearer does not trigger the rune's revival effect, 15% of Chronoshift's cooldown will be refunded.
 

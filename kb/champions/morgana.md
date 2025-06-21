@@ -92,7 +92,7 @@ base_stats:
     base: '15'
     growth: '1'
   Move Speed:
-    base: '350'
+    base: '360'
     growth: '0'
 name: Morgana
 roles:
@@ -116,7 +116,7 @@ Support, Mid Lane, Jungle
 - Mana Reg. (5s): 15 (+1 per level)
 - Armor: 37 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 350 (+0 per level)
+- Move Speed: 360 (+0 per level)
 - Attack Dmg.: 58 (+2 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 

@@ -15,8 +15,8 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +90% / 105% / 120%
-    / 135% AD ) physical damage to the first enemy hit. If this ability is cast towards
+  description: Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +100% / 115% / 130%
+    / 145% AD ) physical damage to the first enemy hit. If this ability is cast towards
     an enemy in melee range, Samira will slash with her blade in a cone instead, dealing
     the same damage to all enemies within. Either hit can critically strike for 25%
     bonus damage. If cast during Wild Rush Samira will strike all enemies in her path
@@ -50,7 +50,7 @@ abilities:
   - 40.0
   description: Samira dashes through an enemy (including structures) slashing enemies
     she passes through, dealing 45 / 60 / 75 / 90 ( +20% AD ) magic damage and gaining
-    25% / 30% / 35% / 40% attack speed for 3 seconds. If Samira scores a takedown,
+    35% / 40% / 45% / 50% attack speed for 3 seconds. If Samira scores a takedown,
     Wild Rush's cooldown is reset. Tapping this ability mid-dash will cast Flair.
   name: Wild Rush
   slot: '3'
@@ -129,7 +129,7 @@ Samira builds a combo by dealing damage with attacks or abilities against enemy 
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +90% / 105% / 120% / 135% AD ) physical damage to the first enemy hit. If this ability is cast towards an enemy in melee range, Samira will slash with her blade in a cone instead, dealing the same damage to all enemies within. Either hit can critically strike for 25% bonus damage. If cast during Wild Rush Samira will strike all enemies in her path upon completion.
+Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +100% / 115% / 130% / 145% AD ) physical damage to the first enemy hit. If this ability is cast towards an enemy in melee range, Samira will slash with her blade in a cone instead, dealing the same damage to all enemies within. Either hit can critically strike for 25% bonus damage. If cast during Wild Rush Samira will strike all enemies in her path upon completion.
 
 ### [2] Blade Whirl
 
@@ -145,7 +145,7 @@ Samira slashes around her 0.75 seconds, damaging enemies twice for 20 / 40 / 60 
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Samira dashes through an enemy (including structures) slashing enemies she passes through, dealing 45 / 60 / 75 / 90 ( +20% AD ) magic damage and gaining 25% / 30% / 35% / 40% attack speed for 3 seconds. If Samira scores a takedown, Wild Rush's cooldown is reset. Tapping this ability mid-dash will cast Flair.
+Samira dashes through an enemy (including structures) slashing enemies she passes through, dealing 45 / 60 / 75 / 90 ( +20% AD ) magic damage and gaining 35% / 40% / 45% / 50% attack speed for 3 seconds. If Samira scores a takedown, Wild Rush's cooldown is reset. Tapping this ability mid-dash will cast Flair.
 
 ### [4] Inferno Trigger
 

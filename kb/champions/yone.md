@@ -1,9 +1,9 @@
 ---
 abilities:
 - description: 'Steel and Spirit : Every other attack deals 50% of the attack''s damage
-    as magic damage instead. Intent : Yone''s Critical Rate is doubled, but his Critical
-    Strikes deal 20% less damage. Yone converts Critical Rate above 100% into Attack
-    Damage at a rate of 0.4 Attack Damage per 1% Critical Rate.'
+    as magic damage instead. Intent : Yone''s Critical Rate is doubled. Yone converts
+    Critical Rate above 100% into Attack Damage at a rate of 0.6 Attack Damage per
+    1% Critical Rate.'
   name: Way of the Hunter
   slot: P
 - cooldowns:
@@ -11,7 +11,7 @@ abilities:
   - 4.0
   - 4.0
   - 4.0
-  description: 'Thrusts forward, dealing 30 / 50 / 70 / 90 ( +100% AD ) physical damage
+  description: 'Thrusts forward, dealing 30 / 50 / 70 / 90 ( +175% AD ) physical damage
     . Grants a stack of Gathering Storm if the thrust damages an enemy. At 2 stacks,
     Mortal Steel dashes Yone forward and launches a whirlwind that knocks enemies
     Airborne . Mortal Steel is treated as an attack: it can Critically Strike for
@@ -24,8 +24,8 @@ abilities:
   - 14.0
   - 14.0
   - 14.0
-  description: Cleaves in a cone, dealing 25 / 35 / 45 / 55 plus 12% / 13% / 14% /
-    15% of the target's maximum Health as physical and magic damage . Gains a shield
+  description: Cleaves in a cone, dealing 25 / 35 / 45 / 55 plus 11% / 12% / 13% /
+    14% of the target's maximum Health as physical and magic damage . Gains a shield
     that absorbs 50 ( +85% bonus AD ) damage for 1.5 seconds if Spirit Cleave hits
     an enemy, increased by 100% on hitting a champion and 40% on subsequent champion
     hits. Deals 60 minimum damage against minions. Deals 30 maximum damage against
@@ -104,19 +104,19 @@ Mid Lane, Jungle, Baron Lane
 
 ### [P] Way of the Hunter
 
-Steel and Spirit : Every other attack deals 50% of the attack's damage as magic damage instead. Intent : Yone's Critical Rate is doubled, but his Critical Strikes deal 20% less damage. Yone converts Critical Rate above 100% into Attack Damage at a rate of 0.4 Attack Damage per 1% Critical Rate.
+Steel and Spirit : Every other attack deals 50% of the attack's damage as magic damage instead. Intent : Yone's Critical Rate is doubled. Yone converts Critical Rate above 100% into Attack Damage at a rate of 0.6 Attack Damage per 1% Critical Rate.
 
 ### [1] Mortal Steel
 
 **Cooldown:** 4.0 / 4.0 / 4.0 / 4.0 seconds
 
-Thrusts forward, dealing 30 / 50 / 70 / 90 ( +100% AD ) physical damage . Grants a stack of Gathering Storm if the thrust damages an enemy. At 2 stacks, Mortal Steel dashes Yone forward and launches a whirlwind that knocks enemies Airborne . Mortal Steel is treated as an attack: it can Critically Strike for bonus damage and applies on-hit effects to all units hit. Cooldown and cast time are reduced by Attack Speed. Deal 70% damage to monsters.
+Thrusts forward, dealing 30 / 50 / 70 / 90 ( +175% AD ) physical damage . Grants a stack of Gathering Storm if the thrust damages an enemy. At 2 stacks, Mortal Steel dashes Yone forward and launches a whirlwind that knocks enemies Airborne . Mortal Steel is treated as an attack: it can Critically Strike for bonus damage and applies on-hit effects to all units hit. Cooldown and cast time are reduced by Attack Speed. Deal 70% damage to monsters.
 
 ### [2] Spirit Cleave
 
 **Cooldown:** 14.0 / 14.0 / 14.0 / 14.0 seconds
 
-Cleaves in a cone, dealing 25 / 35 / 45 / 55 plus 12% / 13% / 14% / 15% of the target's maximum Health as physical and magic damage . Gains a shield that absorbs 50 ( +85% bonus AD ) damage for 1.5 seconds if Spirit Cleave hits an enemy, increased by 100% on hitting a champion and 40% on subsequent champion hits. Deals 60 minimum damage against minions. Deals 30 maximum damage against monsters. Cooldown aand cast time are reduced by Attack Speed.
+Cleaves in a cone, dealing 25 / 35 / 45 / 55 plus 11% / 12% / 13% / 14% of the target's maximum Health as physical and magic damage . Gains a shield that absorbs 50 ( +85% bonus AD ) damage for 1.5 seconds if Spirit Cleave hits an enemy, increased by 100% on hitting a champion and 40% on subsequent champion hits. Deals 60 minimum damage against minions. Deals 30 maximum damage against monsters. Cooldown aand cast time are reduced by Attack Speed.
 
 ### [3] Soul Unbound
 

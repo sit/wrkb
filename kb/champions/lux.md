@@ -90,7 +90,7 @@ base_stats:
     base: '9'
     growth: '1'
   Move Speed:
-    base: '350'
+    base: '360'
     growth: '0'
 name: Lux
 roles:
@@ -113,7 +113,7 @@ Support, Mid Lane
 - Mana Reg. (5s): 9 (+1 per level)
 - Armor: 34 (+5 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 350 (+0 per level)
+- Move Speed: 360 (+0 per level)
 - Attack Dmg.: 52 (+3 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 

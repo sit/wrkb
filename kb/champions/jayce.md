@@ -103,9 +103,8 @@ base_stats:
     growth: '0'
 name: Jayce
 roles:
-- Baron Lane
 - Mid Lane
-- Jungle
+- Baron Lane
 source_url: https://www.wildriftfire.com/guide/jayce
 ---
 
@@ -113,7 +112,7 @@ source_url: https://www.wildriftfire.com/guide/jayce
 
 ## Roles
 
-Baron Lane, Mid Lane, Jungle
+Mid Lane, Baron Lane
 
 ## Base Stats
 

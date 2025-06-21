@@ -2,8 +2,8 @@
 abilities:
 - description: Volibear gains 5% ( +4% AP ) Attack Speed for 6 seconds whenever he
     deals damage with an Ability or Attack, stacking up to 5 times. At 5 stacks, Volibear's
-    claws ignite with lightning, causing his Attacks to deal an additional 15 ( +40%
-    AP ) magic damage to the target and 4 closest enemies.
+    claws ignite with lightning, causing his Attacks to deal an additional 11 - 80
+    ( +40% AP ) magic damage to the target and 4 closest enemies.
   name: The Relentless Storm
   slot: P
 - cooldowns:
@@ -33,13 +33,13 @@ abilities:
   - 40.0
   - 45.0
   - 50.0
-  description: 'Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +100% AD +5% bonus
-    HP ) physical damage . If Volibear maul''s a champion or Large Monster he goes
-    into a Frenzy for 8 seconds. If this Ability is used when in a Frenzy, its damage
-    is increased to 8 / 48 / 88 / 128 ( +160% AD + 8% bonus HP ) physical damage and
-    Volibear restors 10 + 10% ( 7% ) missing Health . This Ability applies on-hit
-    effects. Base Health Regeneration: 20 / 30 / 40 / 50 Damage ratio to monsters:
-    80% .'
+  description: 'Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +100% AD + 6.5%
+    bonus HP ) physical damage . If Volibear maul''s a champion or Large Monster he
+    goes into a Frenzy for 8 seconds. If this Ability is used when in a Frenzy, its
+    damage is increased to 8 / 48 / 88 / 128 ( +160% AD + 10.4% bonus HP ) physical
+    damage and Volibear restores 10 + 10% ( 7% ) missing Health . This Ability applies
+    on-hit effects. Base Health Regeneration: 20 / 30 / 40 / 50 ( +5% / 6% / 7% /
+    8% lost Health ). Damage ratio to monsters: 80% .'
   name: Frenzied Maul
   slot: '2'
 - cooldowns:
@@ -55,8 +55,8 @@ abilities:
   description: Volibear summons a thundercloud that fire a lightning bolt, dealing
     80 / 110 / 140 / 170 ( +50% AP ) + 11% max Health magic damage and Slowing by
     40% for 2 seconds. If Volibear is inside the blast zone, he gains a 131 ( 75%
-    AP ) + 14% max Health Shield for 3 seconds. Damage against non-champions is capped
-    at 150 / 250 / 350 / 450 .
+    AP ) + 14% max Health Shield for 2.5 seconds. Damage against non-champions is
+    capped at 150 / 250 / 350 / 450 .
   name: Sky Splitter
   slot: '3'
 - cooldowns:
@@ -69,7 +69,7 @@ abilities:
   - 100.0
   description: Volibear transforms and leaps, gaining 175 / 350 / 525 Health and 50
     Attack Range for the next 12 seconds. Upon landing, Volibear cracks the earth,
-    Disabling nearby towers for 3 seconds and dealing 300 / 450 / 600 ( +100% AP +200%
+    Disabling nearby towers for 3 seconds and dealing 300 / 500 / 700 ( +100% AP +210%
     bonus AD ) physical damage to them. Nearby enemies are Slowed by 50% , decaying
     over 1 second. Enemies directly underneath Volibear suffering
   name: Stormbringer
@@ -131,7 +131,7 @@ Jungle, Baron Lane
 
 ### [P] The Relentless Storm
 
-Volibear gains 5% ( +4% AP ) Attack Speed for 6 seconds whenever he deals damage with an Ability or Attack, stacking up to 5 times. At 5 stacks, Volibear's claws ignite with lightning, causing his Attacks to deal an additional 15 ( +40% AP ) magic damage to the target and 4 closest enemies.
+Volibear gains 5% ( +4% AP ) Attack Speed for 6 seconds whenever he deals damage with an Ability or Attack, stacking up to 5 times. At 5 stacks, Volibear's claws ignite with lightning, causing his Attacks to deal an additional 11 - 80 ( +40% AP ) magic damage to the target and 4 closest enemies.
 
 ### [1] Thundering Smash
 
@@ -147,7 +147,7 @@ Volibear gains 10% / 15% / 20% / 25% Move Speed , increased to 20% / 30% / 40% /
 
 **Cost:** 35.0 / 40.0 / 45.0 / 50.0
 
-Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +100% AD +5% bonus HP ) physical damage . If Volibear maul's a champion or Large Monster he goes into a Frenzy for 8 seconds. If this Ability is used when in a Frenzy, its damage is increased to 8 / 48 / 88 / 128 ( +160% AD + 8% bonus HP ) physical damage and Volibear restors 10 + 10% ( 7% ) missing Health . This Ability applies on-hit effects. Base Health Regeneration: 20 / 30 / 40 / 50 Damage ratio to monsters: 80% .
+Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +100% AD + 6.5% bonus HP ) physical damage . If Volibear maul's a champion or Large Monster he goes into a Frenzy for 8 seconds. If this Ability is used when in a Frenzy, its damage is increased to 8 / 48 / 88 / 128 ( +160% AD + 10.4% bonus HP ) physical damage and Volibear restores 10 + 10% ( 7% ) missing Health . This Ability applies on-hit effects. Base Health Regeneration: 20 / 30 / 40 / 50 ( +5% / 6% / 7% / 8% lost Health ). Damage ratio to monsters: 80% .
 
 ### [3] Sky Splitter
 
@@ -155,7 +155,7 @@ Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +100% AD +5% bonus HP ) phys
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Volibear summons a thundercloud that fire a lightning bolt, dealing 80 / 110 / 140 / 170 ( +50% AP ) + 11% max Health magic damage and Slowing by 40% for 2 seconds. If Volibear is inside the blast zone, he gains a 131 ( 75% AP ) + 14% max Health Shield for 3 seconds. Damage against non-champions is capped at 150 / 250 / 350 / 450 .
+Volibear summons a thundercloud that fire a lightning bolt, dealing 80 / 110 / 140 / 170 ( +50% AP ) + 11% max Health magic damage and Slowing by 40% for 2 seconds. If Volibear is inside the blast zone, he gains a 131 ( 75% AP ) + 14% max Health Shield for 2.5 seconds. Damage against non-champions is capped at 150 / 250 / 350 / 450 .
 
 ### [4] Stormbringer
 
@@ -163,5 +163,5 @@ Volibear summons a thundercloud that fire a lightning bolt, dealing 80 / 110 / 1
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Volibear transforms and leaps, gaining 175 / 350 / 525 Health and 50 Attack Range for the next 12 seconds. Upon landing, Volibear cracks the earth, Disabling nearby towers for 3 seconds and dealing 300 / 450 / 600 ( +100% AP +200% bonus AD ) physical damage to them. Nearby enemies are Slowed by 50% , decaying over 1 second. Enemies directly underneath Volibear suffering
+Volibear transforms and leaps, gaining 175 / 350 / 525 Health and 50 Attack Range for the next 12 seconds. Upon landing, Volibear cracks the earth, Disabling nearby towers for 3 seconds and dealing 300 / 500 / 700 ( +100% AP +210% bonus AD ) physical damage to them. Nearby enemies are Slowed by 50% , decaying over 1 second. Enemies directly underneath Volibear suffering
 

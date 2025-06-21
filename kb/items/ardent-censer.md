@@ -11,7 +11,7 @@ stats:
 - +250 Health
 - +35 Ability Power
 - +20 Ability Haste
-- +10% Heal and Shield Strength
+- +8% Heal and Shield Strength
 type: Magic
 ---
 
@@ -25,7 +25,7 @@ type: Magic
 - +250 Health
 - +35 Ability Power
 - +20 Ability Haste
-- +10% Heal and Shield Strength
+- +8% Heal and Shield Strength
 
 ## Effects
 

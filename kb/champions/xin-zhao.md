@@ -47,9 +47,9 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: Dashes to an enemy, dealing 50 / 85 / 120 / 155 ( +80% AP ) magic damage
+  description: Dashes to an enemy, dealing 55 / 90 / 122 / 160 ( +80% AP ) magic damage
     to all nearby enemies and slowing them by 30% for 0.5 seconds. Xin Zhao gains
-    40% / 47.5% / 55% / 62.5% Attack Speed for 5 seconds. This ability's cast range
+    45% / 52.5% / 60% / 67.5% Attack Speed for 5 seconds. This ability's cast range
     is increased against a Challenged target.
   name: Audacious Charge
   slot: '3'
@@ -148,7 +148,7 @@ Slashes his spear, dealing 40 / 50 / 60 / 70 ( +50% AD ) physical damage and slo
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Dashes to an enemy, dealing 50 / 85 / 120 / 155 ( +80% AP ) magic damage to all nearby enemies and slowing them by 30% for 0.5 seconds. Xin Zhao gains 40% / 47.5% / 55% / 62.5% Attack Speed for 5 seconds. This ability's cast range is increased against a Challenged target.
+Dashes to an enemy, dealing 55 / 90 / 122 / 160 ( +80% AP ) magic damage to all nearby enemies and slowing them by 30% for 0.5 seconds. Xin Zhao gains 45% / 52.5% / 60% / 67.5% Attack Speed for 5 seconds. This ability's cast range is increased against a Challenged target.
 
 ### [4] Crescent Guard
 

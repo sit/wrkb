@@ -3,7 +3,7 @@ abilities:
 - description: 'Dealing or taking damage generates Rage . At max Rage , Gnar''s abilities
     will change, and his next ability transforms him into Mega Gnar for 15 seconds.
     Mini Gnar : Gains Movement Speed ( max 20), Attack Range (max 150), and Attack
-    Speed (max 110%) . Mega Gnar : Gains 100 Health ( max 850 ), 4 Armor (max 55),
+    Speed (max 90%) . Mega Gnar : Gains 100 Health ( max 850 ), 4 Armor (max 55),
     4 Magic Resist (max 65), and 8 Attack Damage ( max 50 ). When dealing or taking
     damage as Mini Gnar , gains 3 Rage for the next 2 seconds. Attacking enemy champions
     generates 2 Rage , and attacking non-champions generates 1 Rage . At max Rage
@@ -37,11 +37,11 @@ abilities:
   - 18.0
   - 17.0
   description: 'Mini Gnar (Passive) : Every third attack or ability on the same enemy
-    deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 6.5% / 9% / 11.5% / 14%
-    of the target''s max Health as magic damage and grants 20% Movement Speed that
-    decays over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack
-    Speed for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing
-    45 / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25
+    deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 6% / 8% / 10% / 12% of
+    the target''s max Health as magic damage and grants 20% Movement Speed that decays
+    over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack Speed
+    for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing 45
+    / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25
     seconds. Gain Hyper''s passive Movement Speed bonus upon leaving Mega Gnar form.
     Mini Gnar (Passive) deals up to 300 damage to monsters.'
   name: Hyper / Wallop
@@ -121,7 +121,7 @@ Baron Lane, Jungle
 
 ### [P] Rage Gene
 
-Dealing or taking damage generates Rage . At max Rage , Gnar's abilities will change, and his next ability transforms him into Mega Gnar for 15 seconds. Mini Gnar : Gains Movement Speed ( max 20), Attack Range (max 150), and Attack Speed (max 110%) . Mega Gnar : Gains 100 Health ( max 850 ), 4 Armor (max 55), 4 Magic Resist (max 65), and 8 Attack Damage ( max 50 ). When dealing or taking damage as Mini Gnar , gains 3 Rage for the next 2 seconds. Attacking enemy champions generates 2 Rage , and attacking non-champions generates 1 Rage . At max Rage , Gnar automatically transforms after 4 seconds if he does not use an ability. Rage decays after 13 seconds if Gnar has not dealt or taken damage during this time. Gnar cannot generate Rage for 15 seconds after he transforms back from Mini Gnar to Mega Gnar . Mini Gnar and Mega Gnar share all ability cooldowns except Hyper 's.
+Dealing or taking damage generates Rage . At max Rage , Gnar's abilities will change, and his next ability transforms him into Mega Gnar for 15 seconds. Mini Gnar : Gains Movement Speed ( max 20), Attack Range (max 150), and Attack Speed (max 90%) . Mega Gnar : Gains 100 Health ( max 850 ), 4 Armor (max 55), 4 Magic Resist (max 65), and 8 Attack Damage ( max 50 ). When dealing or taking damage as Mini Gnar , gains 3 Rage for the next 2 seconds. Attacking enemy champions generates 2 Rage , and attacking non-champions generates 1 Rage . At max Rage , Gnar automatically transforms after 4 seconds if he does not use an ability. Rage decays after 13 seconds if Gnar has not dealt or taken damage during this time. Gnar cannot generate Rage for 15 seconds after he transforms back from Mini Gnar to Mega Gnar . Mini Gnar and Mega Gnar share all ability cooldowns except Hyper 's.
 
 ### [1] Boomerang Throw / Boulder Toss
 
@@ -133,7 +133,7 @@ Mini Gnar : Throws a boomerang that deals 5 / 55 / 105 / 155 ( +125% AD ) physic
 
 **Cooldown:** 20.0 / 19.0 / 18.0 / 17.0 seconds
 
-Mini Gnar (Passive) : Every third attack or ability on the same enemy deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 6.5% / 9% / 11.5% / 14% of the target's max Health as magic damage and grants 20% Movement Speed that decays over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack Speed for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing 45 / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25 seconds. Gain Hyper's passive Movement Speed bonus upon leaving Mega Gnar form. Mini Gnar (Passive) deals up to 300 damage to monsters.
+Mini Gnar (Passive) : Every third attack or ability on the same enemy deals an additional 10 / 20 / 30 / 40 ( +100% AP ) plus 6% / 8% / 10% / 12% of the target's max Health as magic damage and grants 20% Movement Speed that decays over 3 seconds. Mini Gnar (Active) : Gains 35% / 40% / 45% / 50% Attack Speed for 6 seconds. Mega Gnar : Smashes down on the area in front of him, dealing 45 / 85 / 125 / 165 ( +100% AD ) physical damage in an area and stunning for 1.25 seconds. Gain Hyper's passive Movement Speed bonus upon leaving Mega Gnar form. Mini Gnar (Passive) deals up to 300 damage to monsters.
 
 ### [3] Hop / Crunch
 

@@ -14,7 +14,7 @@ abilities:
   - 60.0
   - 60.0
   - 60.0
-  description: Hurls his anchor forward, dealing 70 / 130 / 190 / 250 ( +75% AP )
+  description: Hurls his anchor forward, dealing 90 / 150 / 210 / 270 ( +75% AP )
     magic damage to the first target hit and pulling them and Nautilus together. If
     the anchor hits terrain, Nautilus pulls himself to the terrain and 50% of Dredge
     Line's cooldown and mana cost are refunded.
@@ -46,7 +46,7 @@ abilities:
   - 70.0
   - 80.0
   - 90.0
-  description: Sends waves emanating outward that deal 60 / 100 / 140 / 180 ( +50%
+  description: Sends waves emanating outward that deal 70 / 110 / 150 / 190 ( +50%
     AP ) magic damage and slow by 35% / 40% / 45% / 50% decaying over 1.5 seconds.
     Enemies hit by subsequent waves take 50% damage. Deals 175% damage against monsters.
   name: Riptide
@@ -68,7 +68,7 @@ abilities:
 base_stats:
   Armor:
     base: '46'
-    growth: '4'
+    growth: '5'
   Attack Dmg.:
     base: '62'
     growth: '4'
@@ -77,7 +77,7 @@ base_stats:
     growth: '0.0079'
   Health:
     base: '720'
-    growth: '120'
+    growth: '128'
   Health Reg. (5s):
     base: '9'
     growth: '1'
@@ -97,6 +97,7 @@ name: Nautilus
 roles:
 - Support
 - Jungle
+- Baron Lane
 source_url: https://www.wildriftfire.com/guide/nautilus
 ---
 
@@ -104,15 +105,15 @@ source_url: https://www.wildriftfire.com/guide/nautilus
 
 ## Roles
 
-Support, Jungle
+Support, Jungle, Baron Lane
 
 ## Base Stats
 
-- Health: 720 (+120 per level)
+- Health: 720 (+128 per level)
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 390 (+43 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 46 (+4 per level)
+- Armor: 46 (+5 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 340 (+0 per level)
 - Attack Dmg.: 62 (+4 per level)
@@ -130,7 +131,7 @@ Attacks deal an additional 13 physical damage and root the target for 1 second. 
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Hurls his anchor forward, dealing 70 / 130 / 190 / 250 ( +75% AP ) magic damage to the first target hit and pulling them and Nautilus together. If the anchor hits terrain, Nautilus pulls himself to the terrain and 50% of Dredge Line's cooldown and mana cost are refunded.
+Hurls his anchor forward, dealing 90 / 150 / 210 / 270 ( +75% AP ) magic damage to the first target hit and pulling them and Nautilus together. If the anchor hits terrain, Nautilus pulls himself to the terrain and 50% of Dredge Line's cooldown and mana cost are refunded.
 
 ### [2] Titan's Wrath
 
@@ -146,7 +147,7 @@ Gains a shield that absorbs 65 / 75 / 85 / 95 ( +13% / 14% / 15% / 16% max HP ) 
 
 **Cost:** 60.0 / 70.0 / 80.0 / 90.0
 
-Sends waves emanating outward that deal 60 / 100 / 140 / 180 ( +50% AP ) magic damage and slow by 35% / 40% / 45% / 50% decaying over 1.5 seconds. Enemies hit by subsequent waves take 50% damage. Deals 175% damage against monsters.
+Sends waves emanating outward that deal 70 / 110 / 150 / 190 ( +50% AP ) magic damage and slow by 35% / 40% / 45% / 50% decaying over 1.5 seconds. Enemies hit by subsequent waves take 50% damage. Deals 175% damage against monsters.
 
 ### [4] Depth Charge
 

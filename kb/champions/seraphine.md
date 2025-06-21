@@ -22,16 +22,16 @@ abilities:
   name: High Note
   slot: '1'
 - cooldowns:
+  - 24.0
   - 22.0
   - 20.0
   - 18.0
-  - 16.0
   costs:
   - 40.0
   - 60.0
   - 80.0
   - 100.0
-  description: Shields all nearby ally champions for 60 / 90 / 120 / 150 ( +35% AP
+  description: Shields all nearby ally champions for 50 / 80 / 110 / 140 ( +25% AP
     ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed
     for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for
     5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
@@ -91,7 +91,7 @@ base_stats:
     base: '16'
     growth: '1'
   Move Speed:
-    base: '350'
+    base: '360'
     growth: '0'
 name: Seraphine
 roles:
@@ -114,7 +114,7 @@ Support, Mid Lane
 - Mana Reg. (5s): 16 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 350 (+0 per level)
+- Move Speed: 360 (+0 per level)
 - Attack Dmg.: 52 (+3 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 
@@ -134,11 +134,11 @@ Deals 60 / 75 / 90 / 105 ( +40% AP ) magic damage in target area, increased by 0
 
 ### [2] Surround Sound
 
-**Cooldown:** 22.0 / 20.0 / 18.0 / 16.0 seconds
+**Cooldown:** 24.0 / 22.0 / 20.0 / 18.0 seconds
 
 **Cost:** 40.0 / 60.0 / 80.0 / 100.0
 
-Shields all nearby ally champions for 60 / 90 / 120 / 150 ( +35% AP ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for 5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
+Shields all nearby ally champions for 50 / 80 / 110 / 140 ( +25% AP ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for 5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
 
 ### [3] Beat Drop
 

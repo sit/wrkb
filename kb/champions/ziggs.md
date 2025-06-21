@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: 'Passive : all of Ziggs'' abilities can deal 24% damage to turrets.
-    Empower Bouncing Bomb to deal 17 + 3 per level ( +20% AP ) additional magic damage
+    Empower Bouncing Bomb to deal 17 + 3 per level ( +25% AP ) additional magic damage
     and 32% damage to turrets. Short Fuse''s cooldown is reduced by 4 seconds when
     Ziggs casts an ability.'
   name: Short Fuse
@@ -31,17 +31,17 @@ abilities:
   - 65.0
   - 65.0
   description: Flings an explosive charge that can be detonated within 4 seconds to
-    deal 70 / 115 / 160 / 205 ( +50% AP ) magic dmage to enemies and knock them away.
+    deal 70 / 115 / 160 / 205 ( +50% AP ) magic damage to enemies and knock them away.
     Ziggs is also knocked away without taking damage. Damages turrets and demolishes
-    them if they are below 10% / 15% / 20% / 25% Health. The charge can be detonated
+    them if they are below 20% / 22.5% / 25% / 27.5% Health. The charge can be detonated
     while in the air.
   name: Satchel Charge
   slot: '2'
 - cooldowns:
-  - 18.0
-  - 18.0
-  - 18.0
-  - 18.0
+  - 16.0
+  - 16.0
+  - 16.0
+  - 16.0
   costs:
   - 70.0
   - 80.0
@@ -91,7 +91,7 @@ base_stats:
     base: '16'
     growth: '1'
   Move Speed:
-    base: '345'
+    base: '355'
     growth: '0'
 name: Ziggs
 roles:
@@ -113,7 +113,7 @@ Mid Lane
 - Mana Reg. (5s): 16 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 345 (+0 per level)
+- Move Speed: 355 (+0 per level)
 - Attack Dmg.: 52 (+3 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 
@@ -121,7 +121,7 @@ Mid Lane
 
 ### [P] Short Fuse
 
-Passive : all of Ziggs' abilities can deal 24% damage to turrets. Empower Bouncing Bomb to deal 17 + 3 per level ( +20% AP ) additional magic damage and 32% damage to turrets. Short Fuse's cooldown is reduced by 4 seconds when Ziggs casts an ability.
+Passive : all of Ziggs' abilities can deal 24% damage to turrets. Empower Bouncing Bomb to deal 17 + 3 per level ( +25% AP ) additional magic damage and 32% damage to turrets. Short Fuse's cooldown is reduced by 4 seconds when Ziggs casts an ability.
 
 ### [1] Bouncing Bomb
 
@@ -137,11 +137,11 @@ Throws a bouncing bomb that deals 70 / 135 / 200 / 265 ( +65% AP ) magic damage 
 
 **Cost:** 65.0 / 65.0 / 65.0 / 65.0
 
-Flings an explosive charge that can be detonated within 4 seconds to deal 70 / 115 / 160 / 205 ( +50% AP ) magic dmage to enemies and knock them away. Ziggs is also knocked away without taking damage. Damages turrets and demolishes them if they are below 10% / 15% / 20% / 25% Health. The charge can be detonated while in the air.
+Flings an explosive charge that can be detonated within 4 seconds to deal 70 / 115 / 160 / 205 ( +50% AP ) magic damage to enemies and knock them away. Ziggs is also knocked away without taking damage. Damages turrets and demolishes them if they are below 20% / 22.5% / 25% / 27.5% Health. The charge can be detonated while in the air.
 
 ### [3] Hexplosive Minefield
 
-**Cooldown:** 18.0 / 18.0 / 18.0 / 18.0 seconds
+**Cooldown:** 16.0 / 16.0 / 16.0 / 16.0 seconds
 
 **Cost:** 70.0 / 80.0 / 90.0 / 100.0
 

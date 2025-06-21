@@ -22,7 +22,7 @@ abilities:
     The unstable area slows enemies by 25% / 30% / 35% / 40% and monsters and erupts
     after 1 second, dealing 50 / 70 / 90 / 110 ( +90% bonus AD ) + 9% of the target's
     max Health as physical damage again. Poppy's percent health damage is capped against
-    monsters at 30 damage per hit.
+    monsters at 40 / 100 / 160 / 220 damage per hit.
   name: Hammer Shock
   slot: '1'
 - cooldowns:
@@ -107,6 +107,7 @@ name: Poppy
 roles:
 - Baron Lane
 - Support
+- Jungle
 source_url: https://www.wildriftfire.com/guide/poppy
 ---
 
@@ -114,7 +115,7 @@ source_url: https://www.wildriftfire.com/guide/poppy
 
 ## Roles
 
-Baron Lane, Support
+Baron Lane, Support, Jungle
 
 ## Base Stats
 
@@ -140,7 +141,7 @@ Ever 12 seconds, Poppy's next attack throws her buckler, gaining 350 Attack Rang
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Poppy smashes the ground, dealing 50 / 70 / 90 / 110 ( +90% bonus AD ) + 9% of the target's max Heath as physical damage and making the ground unstable. The unstable area slows enemies by 25% / 30% / 35% / 40% and monsters and erupts after 1 second, dealing 50 / 70 / 90 / 110 ( +90% bonus AD ) + 9% of the target's max Health as physical damage again. Poppy's percent health damage is capped against monsters at 30 damage per hit.
+Poppy smashes the ground, dealing 50 / 70 / 90 / 110 ( +90% bonus AD ) + 9% of the target's max Heath as physical damage and making the ground unstable. The unstable area slows enemies by 25% / 30% / 35% / 40% and monsters and erupts after 1 second, dealing 50 / 70 / 90 / 110 ( +90% bonus AD ) + 9% of the target's max Health as physical damage again. Poppy's percent health damage is capped against monsters at 40 / 100 / 160 / 220 damage per hit.
 
 ### [2] Steadfast Presence
 

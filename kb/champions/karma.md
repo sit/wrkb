@@ -102,7 +102,7 @@ base_stats:
     base: '21'
     growth: '1'
   Move Speed:
-    base: '350'
+    base: '360'
     growth: '0'
 name: Karma
 roles:
@@ -125,7 +125,7 @@ Support, Mid Lane
 - Mana Reg. (5s): 21 (+1 per level)
 - Armor: 37 (+5 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 350 (+0 per level)
+- Move Speed: 360 (+0 per level)
 - Attack Dmg.: 58 (+3 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 

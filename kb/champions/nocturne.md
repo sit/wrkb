@@ -1,79 +1,109 @@
 ---
 abilities:
-- description: Every few seconds, Nocturne's next attack strikes surrounding enemies
-    for bonus physical damage and heals himself. Nocturne's basic attacks reduce this
-    cooldown.
+- description: 'Umbra Blades : Every 12 seconds, Nocturne''s next attack is empowered
+    to strike the target and nearby enemies for 70 ( 120% AD ) physical damage and
+    restore 16 ( +30% AP ) Health per enemy hit. Except for the main target, Umbra
+    Blades deals only 50% damage against minions and heals 50% less from them. Umbra
+    Blades can Critically Strike the main target. Attacks reduce Umbra Blades'' cooldown
+    by 1 second, increased to 3 seconds against champions and monsters.'
   name: Umbra Blades
   slot: P
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Nocturne throws a shadow blade which deals damage, leaves a Dusk Trail,
-    and causes champions to leave a Dusk Trail. While on the trail, Nocturne ignores
-    unit collision and has increased Movement Speed and Attack Damage.
+  - 7.0
+  - 7.0
+  - 7.0
+  - 7.0
+  costs:
+  - 60.0
+  - 65.0
+  - 70.0
+  - 75.0
+  description: Throws a shadow claw in a target direction, dealing 70 / 125 / 180
+    / 235 ( +85% bonus AD ) physical damage and leaving a Dusk Trail in its wake for
+    5 seconds. Enemy champions and large monster hit by the claw also leave a Dusk
+    Trail behind when they move Gains 20 / 30 / 40 / 50 Attack Damage and 20% / 25%
+    / 30% / 35% Movement Speed on Dusk Trails .
   name: Duskbringer
   slot: '1'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Nocturne empowers his blades, passively gaining attack speed. Activating
-    Shroud of Darkness allows Nocturne to fade into the shadows, creating a magical
-    barrier which blocks a single enemy spell and doubles his passive attack speed
-    if successful.
+  - 18.0
+  - 16.0
+  - 14.0
+  - 12.0
+  costs:
+  - 50.0
+  - 50.0
+  - 50.0
+  - 50.0
+  description: 'Passive : Gains 3 5% / 40% / 45% / 50% Attack Speed. Active : Creates
+    a shadow barrier for 1.5 seconds that blocks the next enemy ability . If an ability
+    is blocked, Shroud of Darkness'' passive effect is increased to 70% / 80% / 90%
+    / 100% Attack Speed for 5 seconds and slows nearby enemies by 20% / 25% / 30%
+    / 35% for 2 seconds.'
   name: Shroud of Darkness
   slot: '2'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Nocturne plants a nightmare into his target's mind, dealing damage
-    each second and fearing the target if they do not get out of range by the end
-    of the duration. Nocturne also gains massively increased movement speed when moving
-    toward feared targets.
+  - 14.0
+  - 13.0
+  - 12.0
+  - 11.0
+  costs:
+  - 60.0
+  - 65.0
+  - 70.0
+  - 75.0
+  description: 'Passive : Gains 90% Movement Speed toward feared enemies. Active :
+    Plants a nightmare into his target''s mind, dealing 80 / 140 / 200 / 260 ( +100%
+    AP ) magic damage over 2 seconds. If the target does not get out of range by the
+    end of the duration, they are feared and slowed by 90% for 1.2 / 1.5 / 1.8 / 2.1
+    seconds.'
   name: Unspeakable Horror
   slot: '3'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Nocturne reduces the sight radius of all enemy champions and removes
-    their ally vision for 6 seconds, this includes champions, minions, wards and towers.
-    He can then launch himself at an enemy champion with a large range. Deals physical
-    damage on arrival.
+  - 110.0
+  - 90.0
+  - 70.0
+  costs:
+  - 100.0
+  - 100.0
+  - 100.0
+  description: 'Darkens the map, reducing the field of vision of all enemy champions
+    and removing their vision of allies for 6 seconds. Can be recast during the duration.
+    Recast : Launches himself at an enemy champion, dealing 150 / 275 / 400 ( +120%
+    bonus AD ) physical damage . Nocturne is unstoppable while launching.'
   name: Paranoia
   slot: '4'
 base_stats:
   Armor:
-    base: '38'
-    growth: '0'
+    base: '43'
+    growth: '4'
   Attack Dmg.:
-    base: '62'
-    growth: '0'
+    base: '58'
+    growth: '4'
   Attack Spd.:
-    base: '1.00'
-    growth: '0.0000'
+    base: '0.80'
+    growth: '0.0150'
   Health:
-    base: '585'
-    growth: '0'
+    base: '660'
+    growth: '89'
   Health Reg. (5s):
-    base: '7'
-    growth: '0'
+    base: '10'
+    growth: '1'
   Magic Res.:
-    base: '32'
-    growth: '0'
+    base: '40'
+    growth: '2'
   Mana:
-    base: '275'
-    growth: '0'
+    base: '380'
+    growth: '37'
   Mana Reg. (5s):
-    base: '7'
-    growth: '0'
+    base: '12'
+    growth: '1'
   Move Speed:
-    base: '355'
+    base: '345'
     growth: '0'
 name: Nocturne
-roles: []
+roles:
+- Jungle
 source_url: https://www.wildriftfire.com/guide/nocturne
 ---
 
@@ -81,47 +111,55 @@ source_url: https://www.wildriftfire.com/guide/nocturne
 
 ## Roles
 
-
+Jungle
 
 ## Base Stats
 
-- Health: 585 (+0 per level)
-- Health Reg. (5s): 7 (+0 per level)
-- Mana: 275 (+0 per level)
-- Mana Reg. (5s): 7 (+0 per level)
-- Armor: 38 (+0 per level)
-- Magic Res.: 32 (+0 per level)
-- Move Speed: 355 (+0 per level)
-- Attack Dmg.: 62 (+0 per level)
-- Attack Spd.: 1.00 (+0.0000 per level)
+- Health: 660 (+89 per level)
+- Health Reg. (5s): 10 (+1 per level)
+- Mana: 380 (+37 per level)
+- Mana Reg. (5s): 12 (+1 per level)
+- Armor: 43 (+4 per level)
+- Magic Res.: 40 (+2 per level)
+- Move Speed: 345 (+0 per level)
+- Attack Dmg.: 58 (+4 per level)
+- Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
 
 ### [P] Umbra Blades
 
-Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself. Nocturne's basic attacks reduce this cooldown.
+Umbra Blades : Every 12 seconds, Nocturne's next attack is empowered to strike the target and nearby enemies for 70 ( 120% AD ) physical damage and restore 16 ( +30% AP ) Health per enemy hit. Except for the main target, Umbra Blades deals only 50% damage against minions and heals 50% less from them. Umbra Blades can Critically Strike the main target. Attacks reduce Umbra Blades' cooldown by 1 second, increased to 3 seconds against champions and monsters.
 
 ### [1] Duskbringer
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 7.0 / 7.0 / 7.0 / 7.0 seconds
 
-Nocturne throws a shadow blade which deals damage, leaves a Dusk Trail, and causes champions to leave a Dusk Trail. While on the trail, Nocturne ignores unit collision and has increased Movement Speed and Attack Damage.
+**Cost:** 60.0 / 65.0 / 70.0 / 75.0
+
+Throws a shadow claw in a target direction, dealing 70 / 125 / 180 / 235 ( +85% bonus AD ) physical damage and leaving a Dusk Trail in its wake for 5 seconds. Enemy champions and large monster hit by the claw also leave a Dusk Trail behind when they move Gains 20 / 30 / 40 / 50 Attack Damage and 20% / 25% / 30% / 35% Movement Speed on Dusk Trails .
 
 ### [2] Shroud of Darkness
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 18.0 / 16.0 / 14.0 / 12.0 seconds
 
-Nocturne empowers his blades, passively gaining attack speed. Activating Shroud of Darkness allows Nocturne to fade into the shadows, creating a magical barrier which blocks a single enemy spell and doubles his passive attack speed if successful.
+**Cost:** 50.0 / 50.0 / 50.0 / 50.0
+
+Passive : Gains 3 5% / 40% / 45% / 50% Attack Speed. Active : Creates a shadow barrier for 1.5 seconds that blocks the next enemy ability . If an ability is blocked, Shroud of Darkness' passive effect is increased to 70% / 80% / 90% / 100% Attack Speed for 5 seconds and slows nearby enemies by 20% / 25% / 30% / 35% for 2 seconds.
 
 ### [3] Unspeakable Horror
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 14.0 / 13.0 / 12.0 / 11.0 seconds
 
-Nocturne plants a nightmare into his target's mind, dealing damage each second and fearing the target if they do not get out of range by the end of the duration. Nocturne also gains massively increased movement speed when moving toward feared targets.
+**Cost:** 60.0 / 65.0 / 70.0 / 75.0
+
+Passive : Gains 90% Movement Speed toward feared enemies. Active : Plants a nightmare into his target's mind, dealing 80 / 140 / 200 / 260 ( +100% AP ) magic damage over 2 seconds. If the target does not get out of range by the end of the duration, they are feared and slowed by 90% for 1.2 / 1.5 / 1.8 / 2.1 seconds.
 
 ### [4] Paranoia
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 110.0 / 90.0 / 70.0 seconds
 
-Nocturne reduces the sight radius of all enemy champions and removes their ally vision for 6 seconds, this includes champions, minions, wards and towers. He can then launch himself at an enemy champion with a large range. Deals physical damage on arrival.
+**Cost:** 100.0 / 100.0 / 100.0
+
+Darkens the map, reducing the field of vision of all enemy champions and removing their vision of allies for 6 seconds. Can be recast during the duration. Recast : Launches himself at an enemy champion, dealing 150 / 275 / 400 ( +120% bonus AD ) physical damage . Nocturne is unstoppable while launching.
 

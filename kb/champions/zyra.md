@@ -96,7 +96,7 @@ base_stats:
     base: '14'
     growth: '1'
   Move Speed:
-    base: '350'
+    base: '360'
     growth: '0'
 name: Zyra
 roles:
@@ -119,7 +119,7 @@ Support, Mid Lane
 - Mana Reg. (5s): 14 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+2 per level)
-- Move Speed: 350 (+0 per level)
+- Move Speed: 360 (+0 per level)
 - Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.96 (+0.0000 per level)
 

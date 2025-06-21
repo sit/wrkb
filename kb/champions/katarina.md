@@ -3,7 +3,7 @@ abilities:
 - description: Whenever an enemy champion dies that Katarina has damaged in the last
     3 seconds, her remaining ability cooldowns are reduced by 15 seconds. Katarina
     slashes at all nearby enemies whenever she picks up a Dagger , dealing 55 ( +100%
-    bonus AD +34% AP ) magic damage .
+    bonus AD +34.5% AP ) magic damage .
   name: Voracity
   slot: P
 - cooldowns:
@@ -22,8 +22,8 @@ abilities:
   - 13.0
   - 12.0
   - 11.0
-  description: Tosses a Dagger in the air and hastes Katarina by 40% / 50% / 60% /
-    70% .
+  description: Tosses a Dagger in the air and hastes Katarina by 50% / 60% / 70% /
+    80% .
   name: Preparation
   slot: '2'
 - cooldowns:
@@ -58,7 +58,7 @@ base_stats:
     growth: '0.0150'
   Health:
     base: '630'
-    growth: '128'
+    growth: '136'
   Health Reg. (5s):
     base: '8'
     growth: '1'
@@ -82,7 +82,7 @@ Mid Lane
 
 ## Base Stats
 
-- Health: 630 (+128 per level)
+- Health: 630 (+136 per level)
 - Health Reg. (5s): 8 (+1 per level)
 - Armor: 30 (+5 per level)
 - Magic Res.: 38 (+2 per level)
@@ -94,7 +94,7 @@ Mid Lane
 
 ### [P] Voracity
 
-Whenever an enemy champion dies that Katarina has damaged in the last 3 seconds, her remaining ability cooldowns are reduced by 15 seconds. Katarina slashes at all nearby enemies whenever she picks up a Dagger , dealing 55 ( +100% bonus AD +34% AP ) magic damage .
+Whenever an enemy champion dies that Katarina has damaged in the last 3 seconds, her remaining ability cooldowns are reduced by 15 seconds. Katarina slashes at all nearby enemies whenever she picks up a Dagger , dealing 55 ( +100% bonus AD +34.5% AP ) magic damage .
 
 ### [1] Bouncing Blades
 
@@ -106,7 +106,7 @@ Throws a Dagger , dealing 75 / 115 / 155 / 195 ( +30% AP ) magic damage to the t
 
 **Cooldown:** 14.0 / 13.0 / 12.0 / 11.0 seconds
 
-Tosses a Dagger in the air and hastes Katarina by 40% / 50% / 60% / 70% .
+Tosses a Dagger in the air and hastes Katarina by 50% / 60% / 70% / 80% .
 
 ### [3] Shunpo
 

@@ -16,7 +16,7 @@ abilities:
   - 35.0
   - 40.0
   - 45.0
-  description: Unleashes two lines of spikes, dealing 40 / 45 / 50 / 55 ( +40% AP
+  description: Unleashes two lines of spikes, dealing 40 / 45 / 50 / 55 ( +50% AP
     ) magic damage , each to all enemies struck. Can re-cast within 4 seconds. Deals
     35% / 40% / 45% / 50% damage to minions.
   name: Hate Spike
@@ -58,9 +58,9 @@ abilities:
   name: Whiplash
   slot: '3'
 - cooldowns:
-  - 95.0
-  - 80.0
-  - 65.0
+  - 90.0
+  - 75.0
+  - 60.0
   costs:
   - 100.0
   - 100.0
@@ -134,7 +134,7 @@ Enters Demon Shade after not attacking or casting for 4 seconds. Taking damage f
 
 **Cost:** 30.0 / 35.0 / 40.0 / 45.0
 
-Unleashes two lines of spikes, dealing 40 / 45 / 50 / 55 ( +40% AP ) magic damage , each to all enemies struck. Can re-cast within 4 seconds. Deals 35% / 40% / 45% / 50% damage to minions.
+Unleashes two lines of spikes, dealing 40 / 45 / 50 / 55 ( +50% AP ) magic damage , each to all enemies struck. Can re-cast within 4 seconds. Deals 35% / 40% / 45% / 50% damage to minions.
 
 ### [2] Allure
 
@@ -154,7 +154,7 @@ Whips a target with Lashers, applying on-hit effects and dealing 55 / 75 / 95 / 
 
 ### [4] Last Caress
 
-**Cooldown:** 95.0 / 80.0 / 65.0 seconds
+**Cooldown:** 90.0 / 75.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

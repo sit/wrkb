@@ -1,20 +1,20 @@
 ---
 abilities:
-- description: Gains 12% Physical Vamp .
+- description: Gains 8% / 16% / 24% Physical Vamp .
   name: Soul Eater
   slot: P
 - cooldowns:
+  - 7.0
   - 6.0
   - 5.0
   - 4.0
-  - 3.0
   costs:
   - 15.0
   - 15.0
   - 15.0
   - 15.0
-  description: Empowers next attack within 10 seconds to deal an additional 30 / 60
-    / 90 / 120 physical damage . If Siphoning Strike kills the target, its damage
+  description: Empowers next attack within 10 seconds to deal an additional 20 / 50
+    / 80 / 110 physical damage . If Siphoning Strike kills the target, its damage
     is permanently increased by 5 . Killing champions, large minions and large monsters
     increases Siphoning Strike's damage by 10 instead.
   name: Siphoning Strike
@@ -66,8 +66,8 @@ base_stats:
     base: '46'
     growth: '4'
   Attack Dmg.:
-    base: '66'
-    growth: '4'
+    base: '62'
+    growth: '5'
   Attack Spd.:
     base: '0.80'
     growth: '0.0150'
@@ -78,7 +78,7 @@ base_stats:
     base: '9'
     growth: '1'
   Magic Res.:
-    base: '38'
+    base: '32'
     growth: '2'
   Mana:
     base: '390'
@@ -108,24 +108,24 @@ Baron Lane
 - Mana: 390 (+37 per level)
 - Mana Reg. (5s): 14 (+1 per level)
 - Armor: 46 (+4 per level)
-- Magic Res.: 38 (+2 per level)
+- Magic Res.: 32 (+2 per level)
 - Move Speed: 355 (+0 per level)
-- Attack Dmg.: 66 (+4 per level)
+- Attack Dmg.: 62 (+5 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
 
 ### [P] Soul Eater
 
-Gains 12% Physical Vamp .
+Gains 8% / 16% / 24% Physical Vamp .
 
 ### [1] Siphoning Strike
 
-**Cooldown:** 6.0 / 5.0 / 4.0 / 3.0 seconds
+**Cooldown:** 7.0 / 6.0 / 5.0 / 4.0 seconds
 
 **Cost:** 15.0 / 15.0 / 15.0 / 15.0
 
-Empowers next attack within 10 seconds to deal an additional 30 / 60 / 90 / 120 physical damage . If Siphoning Strike kills the target, its damage is permanently increased by 5 . Killing champions, large minions and large monsters increases Siphoning Strike's damage by 10 instead.
+Empowers next attack within 10 seconds to deal an additional 20 / 50 / 80 / 110 physical damage . If Siphoning Strike kills the target, its damage is permanently increased by 5 . Killing champions, large minions and large monsters increases Siphoning Strike's damage by 10 instead.
 
 ### [2] Wither
 

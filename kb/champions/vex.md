@@ -3,16 +3,16 @@ abilities:
 - description: Every 22 seconds Vex become afflicted with Doom , causing her next
     basic Ability to interrupt dashes and Fear enemies for 0.75 seconds. Whenever
     a nearby enemy dashes or blinks, Vex marks them with Gloom for 6 seconds, Vex's
-    next Attack against a Gloomed enemy deals an additional 24 ( +20% AP ) magic damage
+    next Attack against a Gloomed enemy deals an additional 26 ( +25% AP ) magic damage
     and reduces this Ability's Cooldown by 25% . Non-champion targets take 40% damage
     and refund 10% of this Ability's Cooldown.
   name: Doom 'n Gloom
   slot: P
 - cooldowns:
-  - 8.0
   - 7.0
   - 6.0
   - 5.0
+  - 4.0
   costs:
   - 50.0
   - 55.0
@@ -96,7 +96,7 @@ base_stats:
     base: '12'
     growth: '1'
   Move Speed:
-    base: '350'
+    base: '360'
     growth: '0'
 name: Vex
 roles:
@@ -118,7 +118,7 @@ Mid Lane
 - Mana Reg. (5s): 12 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 350 (+0 per level)
+- Move Speed: 360 (+0 per level)
 - Attack Dmg.: 58 (+3 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 
@@ -126,11 +126,11 @@ Mid Lane
 
 ### [P] Doom 'n Gloom
 
-Every 22 seconds Vex become afflicted with Doom , causing her next basic Ability to interrupt dashes and Fear enemies for 0.75 seconds. Whenever a nearby enemy dashes or blinks, Vex marks them with Gloom for 6 seconds, Vex's next Attack against a Gloomed enemy deals an additional 24 ( +20% AP ) magic damage and reduces this Ability's Cooldown by 25% . Non-champion targets take 40% damage and refund 10% of this Ability's Cooldown.
+Every 22 seconds Vex become afflicted with Doom , causing her next basic Ability to interrupt dashes and Fear enemies for 0.75 seconds. Whenever a nearby enemy dashes or blinks, Vex marks them with Gloom for 6 seconds, Vex's next Attack against a Gloomed enemy deals an additional 26 ( +25% AP ) magic damage and reduces this Ability's Cooldown by 25% . Non-champion targets take 40% damage and refund 10% of this Ability's Cooldown.
 
 ### [1] Mistral Bolt
 
-**Cooldown:** 8.0 / 7.0 / 6.0 / 5.0 seconds
+**Cooldown:** 7.0 / 6.0 / 5.0 / 4.0 seconds
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 

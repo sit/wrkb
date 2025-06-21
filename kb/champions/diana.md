@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Casting an ability will gain bonus basic attack speed in 4 seconds.
-    Every third attack deals 30 ( +50% AP ) magic damage in an area. Deals 50% damage
+    Every third attack deals 35 ( +50% AP ) magic damage in an area. Deals 50% damage
     to structures, and 75% damage to monsters.
   name: Moonsilver Blade
   slot: P
@@ -46,7 +46,7 @@ abilities:
   - 20.0
   - 20.0
   - 20.0
-  description: Dashes to a point near an enemy, dealing 40 / 75 / 110 / 145 ( +25%
+  description: Dashes to a point near an enemy, dealing 40 / 80 / 120 / 160 ( +30%
     AP ) magic damage and removing Moonlight in an area. Lunar Rush's Cooldown is
     reduced to 0.5 seconds if it removes Moonlight from an enemy.
   name: Lunar Rush
@@ -123,7 +123,7 @@ Mid Lane, Jungle
 
 ### [P] Moonsilver Blade
 
-Casting an ability will gain bonus basic attack speed in 4 seconds. Every third attack deals 30 ( +50% AP ) magic damage in an area. Deals 50% damage to structures, and 75% damage to monsters.
+Casting an ability will gain bonus basic attack speed in 4 seconds. Every third attack deals 35 ( +50% AP ) magic damage in an area. Deals 50% damage to structures, and 75% damage to monsters.
 
 ### [1] Crescent Strike
 
@@ -147,7 +147,7 @@ Creates 3 spheres that orbit Diana for 5 seconds. Upon contact with enemies the 
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Dashes to a point near an enemy, dealing 40 / 75 / 110 / 145 ( +25% AP ) magic damage and removing Moonlight in an area. Lunar Rush's Cooldown is reduced to 0.5 seconds if it removes Moonlight from an enemy.
+Dashes to a point near an enemy, dealing 40 / 80 / 120 / 160 ( +30% AP ) magic damage and removing Moonlight in an area. Lunar Rush's Cooldown is reduced to 0.5 seconds if it removes Moonlight from an enemy.
 
 ### [4] Moonfall
 

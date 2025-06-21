@@ -77,7 +77,7 @@ base_stats:
     base: '36'
     growth: '1'
   Move Speed:
-    base: '345'
+    base: '355'
     growth: '0'
 name: Vladimir
 roles:
@@ -98,7 +98,7 @@ Baron Lane, Mid Lane
 - Health Reg. (5s): 8 (+1 per level)
 - Armor: 34 (+5 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 345 (+0 per level)
+- Move Speed: 355 (+0 per level)
 - Attack Dmg.: 52 (+3 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 

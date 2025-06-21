@@ -17,7 +17,7 @@ abilities:
   - 75.0
   - 80.0
   description: Ahri sends out and pulls back her orb, dealing 40 / 75 / 110 / 145
-    ( +40% AP ) magic damage on the way out and 40 / 75 / 110 / 145 ( +40% AP ) true
+    ( +45% AP ) magic damage on the way out and 40 / 75 / 110 / 145 ( +45% AP ) true
     damage on the way back.
   name: Orb of Deception
   slot: '1'
@@ -79,7 +79,7 @@ base_stats:
     base: '0.75'
     growth: '0.0000'
   Health:
-    base: '600'
+    base: '630'
     growth: '120'
   Health Reg. (5s):
     base: '8'
@@ -94,7 +94,7 @@ base_stats:
     base: '18'
     growth: '1'
   Move Speed:
-    base: '345'
+    base: '355'
     growth: '0'
 name: Ahri
 roles:
@@ -110,13 +110,13 @@ Mid Lane
 
 ## Base Stats
 
-- Health: 600 (+120 per level)
+- Health: 630 (+120 per level)
 - Health Reg. (5s): 8 (+1 per level)
 - Mana: 435 (+37 per level)
 - Mana Reg. (5s): 18 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 345 (+0 per level)
+- Move Speed: 355 (+0 per level)
 - Attack Dmg.: 52 (+3 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 
@@ -132,7 +132,7 @@ Grants a stack of Essence Theft if her ability hits a target. At 3 stacks, Ahri'
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Ahri sends out and pulls back her orb, dealing 40 / 75 / 110 / 145 ( +40% AP ) magic damage on the way out and 40 / 75 / 110 / 145 ( +40% AP ) true damage on the way back.
+Ahri sends out and pulls back her orb, dealing 40 / 75 / 110 / 145 ( +45% AP ) magic damage on the way out and 40 / 75 / 110 / 145 ( +45% AP ) true damage on the way back.
 
 ### [2] Fox-Fire
 

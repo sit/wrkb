@@ -45,9 +45,9 @@ abilities:
   - 60.0
   - 70.0
   - 80.0
-  description: Fires a gatling gun, dealing 25 ( +60% bonus AD ) physical damage per
-    second, up to a total of 100 / 160 / 220 / 280 physical damage over 4 seconds.
-    Shreds up to 10 / 15 / 20 / 25 Armor and Magic Resist for 2 seconds.
+  description: Fires a gatling gun, dealing 20 / 35 / 50 / 65 ( +55% bonus AD ) physical
+    damage per second, up to a total of 100 / 160 / 220 / 280 physical damage over
+    4 seconds. Shreds up to 10 / 14 / 18 / 22 Armor and Magic Resist for 2 seconds.
   name: Gatling Gun
   slot: '3'
 - cooldowns:
@@ -73,7 +73,7 @@ base_stats:
     base: '35'
     growth: '5'
   Attack Dmg.:
-    base: '54'
+    base: '50'
     growth: '4'
   Attack Spd.:
     base: '0.75'
@@ -118,7 +118,7 @@ ADC, Mid Lane
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
+- Attack Dmg.: 50 (+4 per level)
 - Attack Spd.: 0.75 (+0.0320 per level)
 
 ## Abilities
@@ -149,7 +149,7 @@ Flies a short distance, leaving a burning trail for 2.5 seconds. The trail burns
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Fires a gatling gun, dealing 25 ( +60% bonus AD ) physical damage per second, up to a total of 100 / 160 / 220 / 280 physical damage over 4 seconds. Shreds up to 10 / 15 / 20 / 25 Armor and Magic Resist for 2 seconds.
+Fires a gatling gun, dealing 20 / 35 / 50 / 65 ( +55% bonus AD ) physical damage per second, up to a total of 100 / 160 / 220 / 280 physical damage over 4 seconds. Shreds up to 10 / 14 / 18 / 22 Armor and Magic Resist for 2 seconds.
 
 ### [4] Missile Barrage
 

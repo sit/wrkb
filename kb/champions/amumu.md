@@ -5,18 +5,18 @@ abilities:
   name: Cursed Touch
   slot: P
 - cooldowns:
-  - 3.0
-  - 3.0
-  - 3.0
-  - 3.0
+  - 13.0
+  - 12.0
+  - 12.0
+  - 11.0
   costs:
   - 35.0
   - 40.0
   - 45.0
   - 50.0
-  description: 'Passive : Bandage Toss charges are stored every 12 / 11.5 / 11 / 10.5
+  description: 'Passive : Bandage Toss charges are stored every 13 / 12.5 / 12 / 11.5
     seconds, up to a maximum of 2 charges. Active : Launches a bandage that deals
-    70 / 105 / 140 / 175 ( +70% AP ) magic damage and stuns the target for 1 second,
+    60 / 95 / 130 / 165 ( +70% AP ) magic damage and stuns the target for 1 second,
     pulling himself to the target.'
   name: Bandage Toss
   slot: '1'
@@ -51,9 +51,9 @@ abilities:
   name: Tantrum
   slot: '3'
 - cooldowns:
+  - 105.0
   - 95.0
   - 85.0
-  - 75.0
   costs:
   - 100.0
   - 100.0
@@ -94,6 +94,7 @@ base_stats:
 name: Amumu
 roles:
 - Jungle
+- Support
 source_url: https://www.wildriftfire.com/guide/amumu
 ---
 
@@ -101,7 +102,7 @@ source_url: https://www.wildriftfire.com/guide/amumu
 
 ## Roles
 
-Jungle
+Jungle, Support
 
 ## Base Stats
 
@@ -123,11 +124,11 @@ Amumu's basic attacks Curse his enemies, causing them to take bonus 10% true dam
 
 ### [1] Bandage Toss
 
-**Cooldown:** 3.0 / 3.0 / 3.0 / 3.0 seconds
+**Cooldown:** 13.0 / 12.0 / 12.0 / 11.0 seconds
 
 **Cost:** 35.0 / 40.0 / 45.0 / 50.0
 
-Passive : Bandage Toss charges are stored every 12 / 11.5 / 11 / 10.5 seconds, up to a maximum of 2 charges. Active : Launches a bandage that deals 70 / 105 / 140 / 175 ( +70% AP ) magic damage and stuns the target for 1 second, pulling himself to the target.
+Passive : Bandage Toss charges are stored every 13 / 12.5 / 12 / 11.5 seconds, up to a maximum of 2 charges. Active : Launches a bandage that deals 60 / 95 / 130 / 165 ( +70% AP ) magic damage and stuns the target for 1 second, pulling himself to the target.
 
 ### [2] Despair
 
@@ -147,7 +148,7 @@ Passive : Amumu takes 4 / 6 / 8 / 10 ( +4% Armor +4% MR ) reduced physical damag
 
 ### [4] Curse of the Sad Mummy
 
-**Cooldown:** 95.0 / 85.0 / 75.0 seconds
+**Cooldown:** 105.0 / 95.0 / 85.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

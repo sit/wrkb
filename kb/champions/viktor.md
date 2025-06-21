@@ -20,8 +20,8 @@ abilities:
   - 50.0
   description: 'Blasts an enemy, dealing 55 / 70 / 85 / 100 ( +35% AP ) magic damage
     and gaining a shield that absorbs up to 30 / 55 / 80 / 105 ( +15% AP ) damage
-    over 2.5 seconds. The next attack within 3.5 seconds deals 20 / 50 / 80 / 110
-    ( +100% AD +50% AP ) bonus magic damage . Upgrade - Turbocharge : This ability''s
+    over 2.5 seconds. The next attack within 3.5 seconds deals 20 / 40 / 60 / 80 (
+    +100% AD +40% AP ) bonus magic damage . Upgrade - Turbocharge : This ability''s
     shield absorbs up to 50 / 90 / 130 / 170 ( +25% AP ) damage and Viktor gains 3
     0% bonus Movement Speed for 2.5 seconds.'
   name: Siphon Power
@@ -56,9 +56,9 @@ abilities:
   - 60.0
   - 60.0
   description: 'Fires a chaos beam that cuts across the battlefield in a line, dealing
-    90 / 130 / 170 / 210 ( +45% AP ) magic damage to enemies in its path. Upgrade
+    75 / 120 / 165 / 210 ( +30% AP ) magic damage to enemies in its path. Upgrade
     - Blastquake : After a brief delay, an explosion follows the beam''s wake, dealing
-    30 / 70 / 110 / 150 ( +75% AP ) magic damage .'
+    30 / 70 / 110 / 150 ( +60% AP ) magic damage .'
   name: Death Ray
   slot: '3'
 - cooldowns:
@@ -104,7 +104,7 @@ base_stats:
     base: '10'
     growth: '1'
   Move Speed:
-    base: '345'
+    base: '355'
     growth: '0'
 name: Viktor
 roles:
@@ -126,7 +126,7 @@ Mid Lane
 - Mana Reg. (5s): 10 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 345 (+0 per level)
+- Move Speed: 355 (+0 per level)
 - Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 
@@ -142,7 +142,7 @@ Gains Hex Fragments whenever Viktor kills an enemy: - Killing minions or normal 
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Blasts an enemy, dealing 55 / 70 / 85 / 100 ( +35% AP ) magic damage and gaining a shield that absorbs up to 30 / 55 / 80 / 105 ( +15% AP ) damage over 2.5 seconds. The next attack within 3.5 seconds deals 20 / 50 / 80 / 110 ( +100% AD +50% AP ) bonus magic damage . Upgrade - Turbocharge : This ability's shield absorbs up to 50 / 90 / 130 / 170 ( +25% AP ) damage and Viktor gains 3 0% bonus Movement Speed for 2.5 seconds.
+Blasts an enemy, dealing 55 / 70 / 85 / 100 ( +35% AP ) magic damage and gaining a shield that absorbs up to 30 / 55 / 80 / 105 ( +15% AP ) damage over 2.5 seconds. The next attack within 3.5 seconds deals 20 / 40 / 60 / 80 ( +100% AD +40% AP ) bonus magic damage . Upgrade - Turbocharge : This ability's shield absorbs up to 50 / 90 / 130 / 170 ( +25% AP ) damage and Viktor gains 3 0% bonus Movement Speed for 2.5 seconds.
 
 ### [2] Gravity Field
 
@@ -158,7 +158,7 @@ Deploys a gravity field for 4 seconds, slowing enemies by 25% / 30% / 35% / 40% 
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Fires a chaos beam that cuts across the battlefield in a line, dealing 90 / 130 / 170 / 210 ( +45% AP ) magic damage to enemies in its path. Upgrade - Blastquake : After a brief delay, an explosion follows the beam's wake, dealing 30 / 70 / 110 / 150 ( +75% AP ) magic damage .
+Fires a chaos beam that cuts across the battlefield in a line, dealing 75 / 120 / 165 / 210 ( +30% AP ) magic damage to enemies in its path. Upgrade - Blastquake : After a brief delay, an explosion follows the beam's wake, dealing 30 / 70 / 110 / 150 ( +60% AP ) magic damage .
 
 ### [4] Chaos Storm
 

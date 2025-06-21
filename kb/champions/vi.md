@@ -1,8 +1,8 @@
 ---
 abilities:
-- description: Every 3rd attack on the same enemy deals 4% + 0.3 x per level ( +0.03%
-    AD ) bonus physical damage of their max Health, reduces their Armor by 20% , and
-    grants Vi 27% Attack Speed for 4 seconds. Deals 300 max damage vs. monsters.
+- description: Every 3rd attack on the same enemy deals 4.8% - 9% ( +0.03% AD ) bonus
+    physical damage of their max Health, reduces their Armor by 20% , and grants Vi
+    27% Attack Speed for 4 seconds. Deals 300 max damage vs. monsters.
   name: Denting Blows
   slot: P
 - cooldowns:
@@ -17,7 +17,7 @@ abilities:
   - 80.0
   description: 'Hold : Charges up a powerful punch, slowing Movement Speed by 15%
     while increasing the punch''s damage and dash distance. Cast: Dashes forward dealing
-    55 / 90 / 125 / 160 ( +80% AD ) to 110 / 180 / 250 / 320 ( +160% AD ) physical
+    60 / 95 / 130 / 165 ( +80% AD ) to 120 / 190 / 260 / 330 ( +160% AD ) physical
     damage and applying Denting Blows to all enemies hit. Colliding with an enemy
     champion stops the punch and knocks them back. Deals 75% damage to minions and
     monsters.'
@@ -125,7 +125,7 @@ Jungle
 
 ### [P] Denting Blows
 
-Every 3rd attack on the same enemy deals 4% + 0.3 x per level ( +0.03% AD ) bonus physical damage of their max Health, reduces their Armor by 20% , and grants Vi 27% Attack Speed for 4 seconds. Deals 300 max damage vs. monsters.
+Every 3rd attack on the same enemy deals 4.8% - 9% ( +0.03% AD ) bonus physical damage of their max Health, reduces their Armor by 20% , and grants Vi 27% Attack Speed for 4 seconds. Deals 300 max damage vs. monsters.
 
 ### [1] Vault Breaker
 
@@ -133,7 +133,7 @@ Every 3rd attack on the same enemy deals 4% + 0.3 x per level ( +0.03% AD ) bonu
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Hold : Charges up a powerful punch, slowing Movement Speed by 15% while increasing the punch's damage and dash distance. Cast: Dashes forward dealing 55 / 90 / 125 / 160 ( +80% AD ) to 110 / 180 / 250 / 320 ( +160% AD ) physical damage and applying Denting Blows to all enemies hit. Colliding with an enemy champion stops the punch and knocks them back. Deals 75% damage to minions and monsters.
+Hold : Charges up a powerful punch, slowing Movement Speed by 15% while increasing the punch's damage and dash distance. Cast: Dashes forward dealing 60 / 95 / 130 / 165 ( +80% AD ) to 120 / 190 / 260 / 330 ( +160% AD ) physical damage and applying Denting Blows to all enemies hit. Colliding with an enemy champion stops the punch and knocks them back. Deals 75% damage to minions and monsters.
 
 ### [2] Blast Shield
 

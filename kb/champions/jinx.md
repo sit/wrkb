@@ -39,10 +39,10 @@ abilities:
   name: Zap!
   slot: '2'
 - cooldowns:
-  - 16.0
-  - 14.0
-  - 12.0
-  - 10.0
+  - 15.0
+  - 13.0
+  - 11.0
+  - 9.0
   costs:
   - 70.0
   - 70.0
@@ -75,7 +75,7 @@ base_stats:
     base: '35'
     growth: '5'
   Attack Dmg.:
-    base: '58'
+    base: '54'
     growth: '4'
   Attack Spd.:
     base: '0.83'
@@ -119,7 +119,7 @@ ADC
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
+- Attack Dmg.: 54 (+4 per level)
 - Attack Spd.: 0.83 (+0.0107 per level)
 
 ## Abilities
@@ -146,7 +146,7 @@ Fires a shock blast that deals 10 / 80 / 150 / 220 ( +160% AD ) physical damage 
 
 ### [3] Flame Chompers!
 
-**Cooldown:** 16.0 / 14.0 / 12.0 / 10.0 seconds
+**Cooldown:** 15.0 / 13.0 / 11.0 / 9.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 

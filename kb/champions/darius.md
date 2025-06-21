@@ -1,9 +1,9 @@
 ---
 abilities:
-- description: Attacks cause enemies to bleed, dealing 13 + 2 x ( based on level )
+- description: Attacks cause enemies to bleed, dealing 16 + 2 x ( based on level )
     ( +40% bonus AD ) physical damage over 5 seconds. Can stack up to 5 times. Upon
-    reaching full stacks, Darius gains Noxian Might for 5 seconds, gaining 22 Attack
-    Damage and applying full stacks of Hemorrhage instead of 1. Deals 150% damage
+    reaching full stacks, Darius gains Noxian Might for 5 seconds, gaining 32 Attack
+    Damage and applying full stacks of Hemorrhage instead of 1. Deals 180% damage
     to monsters.
   name: Hemorrhage
   slot: P
@@ -122,7 +122,7 @@ Baron Lane, Jungle
 
 ### [P] Hemorrhage
 
-Attacks cause enemies to bleed, dealing 13 + 2 x ( based on level ) ( +40% bonus AD ) physical damage over 5 seconds. Can stack up to 5 times. Upon reaching full stacks, Darius gains Noxian Might for 5 seconds, gaining 22 Attack Damage and applying full stacks of Hemorrhage instead of 1. Deals 150% damage to monsters.
+Attacks cause enemies to bleed, dealing 16 + 2 x ( based on level ) ( +40% bonus AD ) physical damage over 5 seconds. Can stack up to 5 times. Upon reaching full stacks, Darius gains Noxian Might for 5 seconds, gaining 32 Attack Damage and applying full stacks of Hemorrhage instead of 1. Deals 180% damage to monsters.
 
 ### [1] Decimate
 

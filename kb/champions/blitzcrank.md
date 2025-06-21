@@ -14,7 +14,7 @@ abilities:
   - 80.0
   - 80.0
   - 80.0
-  description: Blitzcrank fires his right hand to deal 110 / 180 / 250 / 320 ( +100%
+  description: Blitzcrank fires his right hand to deal 110 / 175 / 240 / 305 ( +100%
     AP ) magic damage and pull the target back to Blitzcrank.
   name: Rocket Grab
   slot: '1'
@@ -73,7 +73,7 @@ base_stats:
     base: '0.80'
     growth: '0.0150'
   Health:
-    base: '720'
+    base: '660'
     growth: '120'
   Health Reg. (5s):
     base: '9'
@@ -104,7 +104,7 @@ Support
 
 ## Base Stats
 
-- Health: 720 (+120 per level)
+- Health: 660 (+120 per level)
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 300 (+31 per level)
 - Mana Reg. (5s): 12 (+1 per level)
@@ -126,7 +126,7 @@ Blitzcrank gains a shield that absorbs 90 ( 30% Mana ) damage for 10 seconds upo
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Blitzcrank fires his right hand to deal 110 / 180 / 250 / 320 ( +100% AP ) magic damage and pull the target back to Blitzcrank.
+Blitzcrank fires his right hand to deal 110 / 175 / 240 / 305 ( +100% AP ) magic damage and pull the target back to Blitzcrank.
 
 ### [2] Overdrive
 

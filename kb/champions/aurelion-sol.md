@@ -117,7 +117,7 @@ base_stats:
     base: '9'
     growth: '1'
   Move Speed:
-    base: '335'
+    base: '345'
     growth: '0'
 name: Aurelion Sol
 roles:
@@ -139,7 +139,7 @@ Mid Lane
 - Mana Reg. (5s): 9 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 335 (+0 per level)
+- Move Speed: 345 (+0 per level)
 - Attack Dmg.: 52 (+2 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 

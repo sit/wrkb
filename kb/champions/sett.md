@@ -1,11 +1,11 @@
 ---
 abilities:
 - description: Sett's Attacks alternate between left and right punches. Right punches
-    follow the left quickly and deal an additional 7 ( +50% AD ) physical damage .
-    Sett gains 0.25 bonus Health Regeneration for each 5% missing Health. Sett will
-    reset back to a left punch if he does not do a right punch within 2 seconds of
-    doing a left punch. The Attack Speed of a right punch is 8 times that of a left
-    punch.
+    follow the left quickly and deal an additional 9 ( x champion level +50% AD )
+    physical damage . Sett gains 0.25 bonus Health Regeneration for each 5% missing
+    Health. Sett will reset back to a left punch if he does not do a right punch within
+    2 seconds of doing a left punch. The Attack Speed of a right punch is 8 times
+    that of a left punch.
   name: Pit Grit
   slot: P
 - cooldowns:
@@ -13,7 +13,7 @@ abilities:
   - 8.0
   - 7.0
   - 5.0
-  description: Sett itches for a fight, gaining 30% Movement Speed towards enemy champions
+  description: Sett itches for a fight, gaining 35% Movement Speed towards enemy champions
     for 1.5 seconds. Additionally empowers the next two attacks to deal an additional
     5 /20 / 35 50 + 1% ( +0.01% / 0.015% / 0.02% / 0.025% AD ) max health physical
     damage . The additional damage is capped at 100 against monsters.
@@ -67,8 +67,8 @@ base_stats:
     base: '650'
     growth: '120'
   Health Reg. (5s):
-    base: '8'
-    growth: '0'
+    base: '10'
+    growth: '1'
   Magic Res.:
     base: '38'
     growth: '2'
@@ -90,7 +90,7 @@ Baron Lane
 ## Base Stats
 
 - Health: 650 (+120 per level)
-- Health Reg. (5s): 8 (+0 per level)
+- Health Reg. (5s): 10 (+1 per level)
 - Armor: 40 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
@@ -101,13 +101,13 @@ Baron Lane
 
 ### [P] Pit Grit
 
-Sett's Attacks alternate between left and right punches. Right punches follow the left quickly and deal an additional 7 ( +50% AD ) physical damage . Sett gains 0.25 bonus Health Regeneration for each 5% missing Health. Sett will reset back to a left punch if he does not do a right punch within 2 seconds of doing a left punch. The Attack Speed of a right punch is 8 times that of a left punch.
+Sett's Attacks alternate between left and right punches. Right punches follow the left quickly and deal an additional 9 ( x champion level +50% AD ) physical damage . Sett gains 0.25 bonus Health Regeneration for each 5% missing Health. Sett will reset back to a left punch if he does not do a right punch within 2 seconds of doing a left punch. The Attack Speed of a right punch is 8 times that of a left punch.
 
 ### [1] Knuckle Down
 
 **Cooldown:** 10.0 / 8.0 / 7.0 / 5.0 seconds
 
-Sett itches for a fight, gaining 30% Movement Speed towards enemy champions for 1.5 seconds. Additionally empowers the next two attacks to deal an additional 5 /20 / 35 50 + 1% ( +0.01% / 0.015% / 0.02% / 0.025% AD ) max health physical damage . The additional damage is capped at 100 against monsters.
+Sett itches for a fight, gaining 35% Movement Speed towards enemy champions for 1.5 seconds. Additionally empowers the next two attacks to deal an additional 5 /20 / 35 50 + 1% ( +0.01% / 0.015% / 0.02% / 0.025% AD ) max health physical damage . The additional damage is capped at 100 against monsters.
 
 ### [2] Haymaker
 

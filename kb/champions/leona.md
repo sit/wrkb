@@ -28,9 +28,9 @@ abilities:
   - 60.0
   - 60.0
   - 60.0
-  description: For 3 seconds gain 35 / 50 / 65 / 80 ( +20% bonus Armor ) Armor and
-    35 / 50 / 65 / 80 ( +20% bonus MR ) Magic Resist . After the effect ends nearby
-    enemies take 60 / 95 / 130 / 165 ( +40% AP ) magic damage . If an enemy is hit,
+  description: For 3 seconds gain 40 / 60 / 80 / 100 ( +20% bonus Armor ) Armor and
+    40 / 60 / 80 / 100 ( +20% bonus MR ) Magic Resist . After the effect ends nearby
+    enemies take 80 / 115 / 150 / 185 ( +40% AP ) magic damage . If an enemy is hit,
     Leona retains her defensive bonuses for 3 seconds.
   name: Eclipse
   slot: '2'
@@ -133,7 +133,7 @@ Empowers the next attack to stun for 1 second and deal 15 / 50 / 85 /120 ( +30% 
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-For 3 seconds gain 35 / 50 / 65 / 80 ( +20% bonus Armor ) Armor and 35 / 50 / 65 / 80 ( +20% bonus MR ) Magic Resist . After the effect ends nearby enemies take 60 / 95 / 130 / 165 ( +40% AP ) magic damage . If an enemy is hit, Leona retains her defensive bonuses for 3 seconds.
+For 3 seconds gain 40 / 60 / 80 / 100 ( +20% bonus Armor ) Armor and 40 / 60 / 80 / 100 ( +20% bonus MR ) Magic Resist . After the effect ends nearby enemies take 80 / 115 / 150 / 185 ( +40% AP ) magic damage . If an enemy is hit, Leona retains her defensive bonuses for 3 seconds.
 
 ### [3] Zenith Blade
 

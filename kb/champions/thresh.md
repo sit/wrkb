@@ -6,10 +6,10 @@ abilities:
   name: Damnation
   slot: P
 - cooldowns:
-  - 18.0
-  - 16.0
-  - 14.0
-  - 12.0
+  - 17.0
+  - 15.0
+  - 13.0
+  - 11.0
   costs:
   - 70.0
   - 70.0
@@ -73,7 +73,7 @@ base_stats:
     base: '34'
     growth: '0'
   Attack Dmg.:
-    base: '54'
+    base: '58'
     growth: '2'
   Attack Spd.:
     base: '0.75'
@@ -117,7 +117,7 @@ Support
 - Armor: 34 (+0 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 345 (+0 per level)
-- Attack Dmg.: 54 (+2 per level)
+- Attack Dmg.: 58 (+2 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 
 ## Abilities
@@ -128,7 +128,7 @@ Thresh can harvest the Souls of enemies that die near him, each soul permanently
 
 ### [1] Death Sentence
 
-**Cooldown:** 18.0 / 16.0 / 14.0 / 12.0 seconds
+**Cooldown:** 17.0 / 15.0 / 13.0 / 11.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 

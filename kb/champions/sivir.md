@@ -31,8 +31,8 @@ abilities:
   - 60.0
   - 60.0
   description: Gains 25% / 30% / 35% / 40% Attack Speed for 4 seconds. Her attacks
-    bounce to nearby enemies, dealing 8 / 10 / 12 / 14 ( +17% / 20% / 23% / 26% AD
-    ) physical damage . If the first attack critically strikes , so will the bounces.
+    bounce to nearby enemies, dealing 4 / 6 / 8 / 10 ( +15% / 18% / 21% / 24% AD )
+    physical damage . If the first attack critically strikes , so will the bounces.
     Deals 75% damage to minions. Each enemy can be hit by a maximum of 2 bounces.
   name: Ricochet
   slot: '2'
@@ -135,7 +135,7 @@ Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( +70% 75% / 80% / 85% AD 
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Gains 25% / 30% / 35% / 40% Attack Speed for 4 seconds. Her attacks bounce to nearby enemies, dealing 8 / 10 / 12 / 14 ( +17% / 20% / 23% / 26% AD ) physical damage . If the first attack critically strikes , so will the bounces. Deals 75% damage to minions. Each enemy can be hit by a maximum of 2 bounces.
+Gains 25% / 30% / 35% / 40% Attack Speed for 4 seconds. Her attacks bounce to nearby enemies, dealing 4 / 6 / 8 / 10 ( +15% / 18% / 21% / 24% AD ) physical damage . If the first attack critically strikes , so will the bounces. Deals 75% damage to minions. Each enemy can be hit by a maximum of 2 bounces.
 
 ### [3] Spell Shield
 

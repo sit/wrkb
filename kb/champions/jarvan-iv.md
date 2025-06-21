@@ -46,17 +46,17 @@ abilities:
   - 55.0
   - 55.0
   - 55.0
-  description: 'Passive : Gains 20% / 25% / 30% / 35% Attack Speed. Active : Throws
-    a Demacian Standard that deals 80 / 135 / 190 / 245 ( +80% AP ) magic damage and
+  description: 'Passive : Gains 25% / 30% / 33% / 40% Attack Speed. Active : Throws
+    a Demacian Standard that deals 85 / 140 / 195 / 250 ( +80% AP ) magic damage and
     remains in place for 8 seconds, granting nearby ally champions 30% / 35% / 40%
     / 45% Attack Speed . Tapping this ability while near a Demacian Standard will
     cast Dragon Strike towards it.'
   name: Demacian Standard
   slot: '3'
 - cooldowns:
-  - 75.0
   - 70.0
   - 65.0
+  - 60.0
   costs:
   - 100.0
   - 100.0
@@ -99,6 +99,7 @@ base_stats:
 name: Jarvan IV
 roles:
 - Jungle
+- Support
 source_url: https://www.wildriftfire.com/guide/jarvan-iv
 ---
 
@@ -106,7 +107,7 @@ source_url: https://www.wildriftfire.com/guide/jarvan-iv
 
 ## Roles
 
-Jungle
+Jungle, Support
 
 ## Base Stats
 
@@ -148,11 +149,11 @@ Unleashes a regal aura that slows nearby enemies by 30% / 35% / 40% / 45% for 2 
 
 **Cost:** 55.0 / 55.0 / 55.0 / 55.0
 
-Passive : Gains 20% / 25% / 30% / 35% Attack Speed. Active : Throws a Demacian Standard that deals 80 / 135 / 190 / 245 ( +80% AP ) magic damage and remains in place for 8 seconds, granting nearby ally champions 30% / 35% / 40% / 45% Attack Speed . Tapping this ability while near a Demacian Standard will cast Dragon Strike towards it.
+Passive : Gains 25% / 30% / 33% / 40% Attack Speed. Active : Throws a Demacian Standard that deals 85 / 140 / 195 / 250 ( +80% AP ) magic damage and remains in place for 8 seconds, granting nearby ally champions 30% / 35% / 40% / 45% Attack Speed . Tapping this ability while near a Demacian Standard will cast Dragon Strike towards it.
 
 ### [4] Cataclysm
 
-**Cooldown:** 75.0 / 70.0 / 65.0 seconds
+**Cooldown:** 70.0 / 65.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

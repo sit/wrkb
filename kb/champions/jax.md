@@ -29,7 +29,7 @@ abilities:
   - 30.0
   - 30.0
   description: Empowers the next attack or Leap Strike to deal an additional 55 /
-    100 / 145 / 190 ( +60% AP ) magic damage . Deals 125% damage to monsters.
+    100 / 145 / 190 ( +60% AP ) magic damage . Deals 175% damage to monsters.
   name: Empower
   slot: '2'
 - cooldowns:
@@ -101,6 +101,7 @@ base_stats:
 name: Jax
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/jax
 ---
 
@@ -108,7 +109,7 @@ source_url: https://www.wildriftfire.com/guide/jax
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 
@@ -142,7 +143,7 @@ Leaps to a target unit, dealing 70 / 125 / 180 / 235 ( +100% AD ) physical damag
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Empowers the next attack or Leap Strike to deal an additional 55 / 100 / 145 / 190 ( +60% AP ) magic damage . Deals 125% damage to monsters.
+Empowers the next attack or Leap Strike to deal an additional 55 / 100 / 145 / 190 ( +60% AP ) magic damage . Deals 175% damage to monsters.
 
 ### [3] Counter Strike
 

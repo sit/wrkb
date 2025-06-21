@@ -6,7 +6,7 @@ abilities:
     Movement Speed by 90% . After reanimating, Sion can move and Attack, but his health
     rapidly decays while he is reanimated. Sion reanimates with 100% health , attacks
     at 1.75 attacks per second, gains 100% Physical Vamp , his attacks deal an additional
-    8% max Health magic damage , capped at 75 bonus damage against monsters and deal
+    10% max Health magic damage , capped at 75 bonus damage against monsters and deal
     50% damage to structures. All of Sion's abilities are replaced with Death Surge,
     which grants him 67% Movement Speed decaying over 2.38 seconds.
   name: Glory in Death
@@ -31,17 +31,17 @@ abilities:
   name: Decimating Smash
   slot: '1'
 - cooldowns:
-  - 15.0
   - 14.0
   - 13.0
   - 12.0
+  - 11.0
   costs:
   - 65.0
   - 65.0
   - 65.0
   - 65.0
   description: Sion gains a shield that absorbs 75 / 100 /125 / 150 ( +40% AP +10%
-    / 11% / 12% / 13% HP ) damage for 6 seconds. After 2 seconds if the shield still
+    / 12% / 14% / 16% HP ) damage for 6 seconds. After 2 seconds if the shield still
     holds, Sion can Recast to detonate the shield to deal 60 / 90 /120 / 150 ( +40%
     AP ) + 10% / 11% / 12% / 13% of their Max Health to all nearby enemies. Bonus
     damage is capped at 400 against monsters. The shield will automatically detonate
@@ -136,7 +136,7 @@ Baron Lane
 
 ### [P] Glory in Death
 
-Sion permanently gains 5 bonus health whenever he kills a unit, increased to 20 against large units, and champion takedowns. Upon taking fatal damage, Sion will reanimate himself Fearing those around him for 1 second, while slowing their Movement Speed by 90% . After reanimating, Sion can move and Attack, but his health rapidly decays while he is reanimated. Sion reanimates with 100% health , attacks at 1.75 attacks per second, gains 100% Physical Vamp , his attacks deal an additional 8% max Health magic damage , capped at 75 bonus damage against monsters and deal 50% damage to structures. All of Sion's abilities are replaced with Death Surge, which grants him 67% Movement Speed decaying over 2.38 seconds.
+Sion permanently gains 5 bonus health whenever he kills a unit, increased to 20 against large units, and champion takedowns. Upon taking fatal damage, Sion will reanimate himself Fearing those around him for 1 second, while slowing their Movement Speed by 90% . After reanimating, Sion can move and Attack, but his health rapidly decays while he is reanimated. Sion reanimates with 100% health , attacks at 1.75 attacks per second, gains 100% Physical Vamp , his attacks deal an additional 10% max Health magic damage , capped at 75 bonus damage against monsters and deal 50% damage to structures. All of Sion's abilities are replaced with Death Surge, which grants him 67% Movement Speed decaying over 2.38 seconds.
 
 ### [1] Decimating Smash
 
@@ -148,11 +148,11 @@ Sion charges a heavy blow for up to 1.75 seconds. Recast : Sion slams his axe do
 
 ### [2] Soul Furnace
 
-**Cooldown:** 15.0 / 14.0 / 13.0 / 12.0 seconds
+**Cooldown:** 14.0 / 13.0 / 12.0 / 11.0 seconds
 
 **Cost:** 65.0 / 65.0 / 65.0 / 65.0
 
-Sion gains a shield that absorbs 75 / 100 /125 / 150 ( +40% AP +10% / 11% / 12% / 13% HP ) damage for 6 seconds. After 2 seconds if the shield still holds, Sion can Recast to detonate the shield to deal 60 / 90 /120 / 150 ( +40% AP ) + 10% / 11% / 12% / 13% of their Max Health to all nearby enemies. Bonus damage is capped at 400 against monsters. The shield will automatically detonate after 6 seconds.
+Sion gains a shield that absorbs 75 / 100 /125 / 150 ( +40% AP +10% / 12% / 14% / 16% HP ) damage for 6 seconds. After 2 seconds if the shield still holds, Sion can Recast to detonate the shield to deal 60 / 90 /120 / 150 ( +40% AP ) + 10% / 11% / 12% / 13% of their Max Health to all nearby enemies. Bonus damage is capped at 400 against monsters. The shield will automatically detonate after 6 seconds.
 
 ### [3] Roar of the Slayer
 

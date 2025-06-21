@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for
-    6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 10
+    6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 25
     - 150 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the
     duration. An ability grants multiple stacks upon hitting multiple champions.
   name: Ionian Fervor
@@ -66,13 +66,13 @@ abilities:
   description: Fires a storm of blades that deals 125 / 250 / 375 ( +70% AP ) magic
     damage and Marks enemy champions and Large Monsters for 5 seconds. The blades
     explode into a wall for 3 seconds upon hitting an enemy champion, The bladewall
-    deals 100 / 175 / 250 ( +70% AP ) magic damage and slows by 90% for 1 second.
+    deals 100 / 225 / 350 ( +70% AP ) magic damage and slows by 90% for 1 second.
   name: Vanguard's Edge
   slot: '4'
 base_stats:
   Armor:
     base: '46'
-    growth: '4'
+    growth: '5'
   Attack Dmg.:
     base: '58'
     growth: '4'
@@ -81,7 +81,7 @@ base_stats:
     growth: '0.0150'
   Health:
     base: '690'
-    growth: '120'
+    growth: '128'
   Health Reg. (5s):
     base: '9'
     growth: '1'
@@ -101,6 +101,7 @@ name: Irelia
 roles:
 - Baron Lane
 - Mid Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/irelia
 ---
 
@@ -108,15 +109,15 @@ source_url: https://www.wildriftfire.com/guide/irelia
 
 ## Roles
 
-Baron Lane, Mid Lane
+Baron Lane, Mid Lane, Jungle
 
 ## Base Stats
 
-- Health: 690 (+120 per level)
+- Health: 690 (+128 per level)
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 345 (+25 per level)
 - Mana Reg. (5s): 15 (+1 per level)
-- Armor: 46 (+4 per level)
+- Armor: 46 (+5 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 58 (+4 per level)
@@ -126,7 +127,7 @@ Baron Lane, Mid Lane
 
 ### [P] Ionian Fervor
 
-Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 10 - 150 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the duration. An ability grants multiple stacks upon hitting multiple champions.
+Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 25 - 150 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the duration. An ability grants multiple stacks upon hitting multiple champions.
 
 ### [1] Bladesurge
 
@@ -158,5 +159,5 @@ Sends a blade to target location. May be recast within 3 seconds to send another
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Fires a storm of blades that deals 125 / 250 / 375 ( +70% AP ) magic damage and Marks enemy champions and Large Monsters for 5 seconds. The blades explode into a wall for 3 seconds upon hitting an enemy champion, The bladewall deals 100 / 175 / 250 ( +70% AP ) magic damage and slows by 90% for 1 second.
+Fires a storm of blades that deals 125 / 250 / 375 ( +70% AP ) magic damage and Marks enemy champions and Large Monsters for 5 seconds. The blades explode into a wall for 3 seconds upon hitting an enemy champion, The bladewall deals 100 / 225 / 350 ( +70% AP ) magic damage and slows by 90% for 1 second.
 

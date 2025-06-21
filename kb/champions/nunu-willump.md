@@ -17,7 +17,7 @@ abilities:
   - 60.0
   - 60.0
   description: Takes a bite out of the enemy, dealing 55 / 110 / 165 / 220 ( +65%
-    AP 5% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +11% bonus
+    AP +6% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +12% bonus
     HP ). The healing is increased by 50% when Nunu and Willump are below 50% Maximum
     Health. Deals 350 / 500 / 650 / 800 true damage agains minions and monsters instead.
   name: Consume
@@ -67,7 +67,7 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Gains a shield that absorbs 65 / 75 / 85 ( +180% AP +30% / 40% / 50%
+  description: Gains a shield that absorbs 65 / 75 / 85 ( +180% AP +35% / 45% / 55%
     HP ) damage and begins channeling for up to 3 seconds. Nearby enemies are slowed
     by 50% , increasing to 95% over the duration. When the channel ends, nearby enemies
     take 180 - 915 ( +50% - 275% AP ) magic damage , increased with channel duration.
@@ -104,6 +104,7 @@ base_stats:
 name: Nunu & Willump
 roles:
 - Jungle
+- Support
 source_url: https://www.wildriftfire.com/guide/nunu-amp-willump
 ---
 
@@ -111,7 +112,7 @@ source_url: https://www.wildriftfire.com/guide/nunu-amp-willump
 
 ## Roles
 
-Jungle
+Jungle, Support
 
 ## Base Stats
 
@@ -137,7 +138,7 @@ Gains 40% Attack Speed and 15% Movement Speed for 4 seconds upon damaging an ene
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Takes a bite out of the enemy, dealing 55 / 110 / 165 / 220 ( +65% AP 5% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +11% bonus HP ). The healing is increased by 50% when Nunu and Willump are below 50% Maximum Health. Deals 350 / 500 / 650 / 800 true damage agains minions and monsters instead.
+Takes a bite out of the enemy, dealing 55 / 110 / 165 / 220 ( +65% AP +6% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +12% bonus HP ). The healing is increased by 50% when Nunu and Willump are below 50% Maximum Health. Deals 350 / 500 / 650 / 800 true damage agains minions and monsters instead.
 
 ### [2] Biggest Snowball Ever!
 
@@ -161,5 +162,5 @@ Channels for up to 2.5 seconds, throwing snowballs that deal 10 / 14 / 18 / 22 (
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Gains a shield that absorbs 65 / 75 / 85 ( +180% AP +30% / 40% / 50% HP ) damage and begins channeling for up to 3 seconds. Nearby enemies are slowed by 50% , increasing to 95% over the duration. When the channel ends, nearby enemies take 180 - 915 ( +50% - 275% AP ) magic damage , increased with channel duration.
+Gains a shield that absorbs 65 / 75 / 85 ( +180% AP +35% / 45% / 55% HP ) damage and begins channeling for up to 3 seconds. Nearby enemies are slowed by 50% , increasing to 95% over the duration. When the channel ends, nearby enemies take 180 - 915 ( +50% - 275% AP ) magic damage , increased with channel duration.
 

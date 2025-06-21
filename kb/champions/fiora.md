@@ -1,10 +1,10 @@
 ---
 abilities:
-- description: Revelas Vitals on nearby enemy champions. Striking a Vital deals 4%
-    ( +0.06% AD ) of the target's max Health as true damage , heals Fiora for 45 ,
-    and grants her 30% Movement Speed (based on Grand Challenge's rank), decaying
-    over 1.75 seconds. New Vitals are revealed after striking one, or after 16.75
-    seconds.
+- description: After 2 seconds (scales with Grand Challenge's level), reveals Vitals
+    on a nearby enemy champion. Striking a Vital deals 4% ( +0.06% bonus AD ) of the
+    target's max Health as true damage , heals Fiora for 45 Health and grants her
+    3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75 seconds.
+    Reveals a new Vital after striking one or after 16.75 seconds.
   name: Duelist's Dance
   slot: P
 - cooldowns:
@@ -17,10 +17,11 @@ abilities:
   - 25.0
   - 30.0
   - 35.0
-  description: Lunges and stabs a nearby enemy, dealing 85 / 95 / 100 / 115 ( +110%
-    / 115% / 120% / 125% AD ) physical damage in an area. Hitting an enemy refunds
-    50% of the cooldown. Lunge prioritizes Vitals and enemies it will kill. Applies
-    on-hit effects to the primary target.
+  description: Lunges in a direction and stabs a nearby enemy, dealing 75 / 85 / 95
+    / 105 ( +110% / 115% / 120% / 125% bonus AD ) physical damage . Hitting the target
+    refunds 50% of Lunge's cooldown. Lunge prioritizes Vitals and enemies it will
+    kill and applies on-hit effects to the main target. Lunge deals 50% damage to
+    monsters and can deal damage to turrets.
   name: Lunge
   slot: '1'
 - cooldowns:
@@ -63,12 +64,14 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Reveals all 4 Vitals on an enemy champion for 8 seconds and grants
-    Duelist's Dance 's Movement Speed while near them. Striking all 4 Vitals in 8
-    seconds -or if the target dies after at least one hit- heals Fiora and nearby
-    allies for 80 / 110 / 140 ( +60% bonus AD ) each second. The heal persists for
-    2 to 5 seconds scaling with the number of Vitals hit. Striking all 4 Vitals deals
-    14% max health true damage .
+  description: 'Passive : Reduces the time needed to reveal Vitals by 0.25 / 0.5 /
+    0.75 seconds. Active : Revels all 4 Vitals on an enemy champion for 8 seconds
+    and gains Duelist''s Dance''s Movement Speed bonus while near them. If Fiora strikes
+    all 4 Vitals within 8 seconds, or if the target dies after she has hit at least
+    one, restores 80 / 110 / 140 ( +60% bonus AD ) Health per second to herself and
+    nearby allied champions for 2-5 seconds, scaling with the number of Vitals hit.
+    Striking all 4 Vitals of a champion deals 16% of their max Health as true damage
+    .'
   name: Grand Challenge
   slot: '4'
 base_stats:
@@ -128,7 +131,7 @@ Baron Lane, Jungle
 
 ### [P] Duelist's Dance
 
-Revelas Vitals on nearby enemy champions. Striking a Vital deals 4% ( +0.06% AD ) of the target's max Health as true damage , heals Fiora for 45 , and grants her 30% Movement Speed (based on Grand Challenge's rank), decaying over 1.75 seconds. New Vitals are revealed after striking one, or after 16.75 seconds.
+After 2 seconds (scales with Grand Challenge's level), reveals Vitals on a nearby enemy champion. Striking a Vital deals 4% ( +0.06% bonus AD ) of the target's max Health as true damage , heals Fiora for 45 Health and grants her 3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75 seconds. Reveals a new Vital after striking one or after 16.75 seconds.
 
 ### [1] Lunge
 
@@ -136,7 +139,7 @@ Revelas Vitals on nearby enemy champions. Striking a Vital deals 4% ( +0.06% AD 
 
 **Cost:** 20.0 / 25.0 / 30.0 / 35.0
 
-Lunges and stabs a nearby enemy, dealing 85 / 95 / 100 / 115 ( +110% / 115% / 120% / 125% AD ) physical damage in an area. Hitting an enemy refunds 50% of the cooldown. Lunge prioritizes Vitals and enemies it will kill. Applies on-hit effects to the primary target.
+Lunges in a direction and stabs a nearby enemy, dealing 75 / 85 / 95 / 105 ( +110% / 115% / 120% / 125% bonus AD ) physical damage . Hitting the target refunds 50% of Lunge's cooldown. Lunge prioritizes Vitals and enemies it will kill and applies on-hit effects to the main target. Lunge deals 50% damage to monsters and can deal damage to turrets.
 
 ### [2] Riposte
 
@@ -160,5 +163,5 @@ Empowers the next 2 attacks with 60% Attack Speed . The first attack applies a 3
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Reveals all 4 Vitals on an enemy champion for 8 seconds and grants Duelist's Dance 's Movement Speed while near them. Striking all 4 Vitals in 8 seconds -or if the target dies after at least one hit- heals Fiora and nearby allies for 80 / 110 / 140 ( +60% bonus AD ) each second. The heal persists for 2 to 5 seconds scaling with the number of Vitals hit. Striking all 4 Vitals deals 14% max health true damage .
+Passive : Reduces the time needed to reveal Vitals by 0.25 / 0.5 / 0.75 seconds. Active : Revels all 4 Vitals on an enemy champion for 8 seconds and gains Duelist's Dance's Movement Speed bonus while near them. If Fiora strikes all 4 Vitals within 8 seconds, or if the target dies after she has hit at least one, restores 80 / 110 / 140 ( +60% bonus AD ) Health per second to herself and nearby allied champions for 2-5 seconds, scaling with the number of Vitals hit. Striking all 4 Vitals of a champion deals 16% of their max Health as true damage .
 

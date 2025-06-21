@@ -3,11 +3,11 @@ abilities:
 - description: 'After casting three basic abilities for 3 times, Sona''s next attack
     will be empowered dealing 20 - 160 ( +15% AP ) bonus magic damage , stunning the
     target for 0.5 seconds. Casting basic abilities creates a non-stacking buff aura
-    for 3 seconds. Hymm of Valor-Staccato : Bonus damage increased to 8 ( +6% AP )
-    magic damage . Aria of Perseverance-Diminuendo : Reduces damage dealt by the target
-    by 25% ( +4% AP ) for 3 seconds. Song of Celerity-Tempo : Slows by 40% (+4% AP
-    ) for 2 seconds. Cooldown of basic abilities will be reduced ( level X 2% - 20%
-    ).'
+    for 3 seconds. Grants full stack of passive at respawn. Hymn of Valor-Staccato
+    : Bonus damage increased to 8 ( +6% AP ) magic damage . Aria of Perseverance-Diminuendo
+    : Reduces damage dealt by the target by 25% ( +4% AP ) for 3 seconds. Song of
+    Celerity-Tempo : Slows by 40% (+4% AP ) for 2 seconds. Cooldown of basic abilities
+    will be reduced ( level X 2% - 20% ).'
   name: Power Chord
   slot: P
 - cooldowns:
@@ -20,7 +20,7 @@ abilities:
   - 65.0
   - 70.0
   - 75.0
-  description: 'Deals 50 / 90 / 130 / 170 ( +40% AP ) magic damage to two nearest
+  description: 'Deals 40 / 80 / 120 / 160 ( +40% AP ) magic damage to two nearest
     enemies. Aura : Enhances allied champions'' next attack to deal an additional
     8 / 13 / 18 / 23 ( +20% AP ) magic damage .'
   name: Hymn of Valor
@@ -127,7 +127,7 @@ Support
 
 ### [P] Power Chord
 
-After casting three basic abilities for 3 times, Sona's next attack will be empowered dealing 20 - 160 ( +15% AP ) bonus magic damage , stunning the target for 0.5 seconds. Casting basic abilities creates a non-stacking buff aura for 3 seconds. Hymm of Valor-Staccato : Bonus damage increased to 8 ( +6% AP ) magic damage . Aria of Perseverance-Diminuendo : Reduces damage dealt by the target by 25% ( +4% AP ) for 3 seconds. Song of Celerity-Tempo : Slows by 40% (+4% AP ) for 2 seconds. Cooldown of basic abilities will be reduced ( level X 2% - 20% ).
+After casting three basic abilities for 3 times, Sona's next attack will be empowered dealing 20 - 160 ( +15% AP ) bonus magic damage , stunning the target for 0.5 seconds. Casting basic abilities creates a non-stacking buff aura for 3 seconds. Grants full stack of passive at respawn. Hymn of Valor-Staccato : Bonus damage increased to 8 ( +6% AP ) magic damage . Aria of Perseverance-Diminuendo : Reduces damage dealt by the target by 25% ( +4% AP ) for 3 seconds. Song of Celerity-Tempo : Slows by 40% (+4% AP ) for 2 seconds. Cooldown of basic abilities will be reduced ( level X 2% - 20% ).
 
 ### [1] Hymn of Valor
 
@@ -135,7 +135,7 @@ After casting three basic abilities for 3 times, Sona's next attack will be empo
 
 **Cost:** 60.0 / 65.0 / 70.0 / 75.0
 
-Deals 50 / 90 / 130 / 170 ( +40% AP ) magic damage to two nearest enemies. Aura : Enhances allied champions' next attack to deal an additional 8 / 13 / 18 / 23 ( +20% AP ) magic damage .
+Deals 40 / 80 / 120 / 160 ( +40% AP ) magic damage to two nearest enemies. Aura : Enhances allied champions' next attack to deal an additional 8 / 13 / 18 / 23 ( +20% AP ) magic damage .
 
 ### [2] Aria of Perseverance
 

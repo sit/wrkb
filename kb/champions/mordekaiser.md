@@ -77,6 +77,7 @@ base_stats:
 name: Mordekaiser
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/mordekaiser
 ---
 
@@ -84,7 +85,7 @@ source_url: https://www.wildriftfire.com/guide/mordekaiser
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 

@@ -94,7 +94,7 @@ base_stats:
     base: '18'
     growth: '1'
   Move Speed:
-    base: '345'
+    base: '355'
     growth: '0'
 name: Teemo
 roles:
@@ -116,7 +116,7 @@ Baron Lane
 - Mana Reg. (5s): 18 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 345 (+0 per level)
+- Move Speed: 355 (+0 per level)
 - Attack Dmg.: 52 (+3 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 

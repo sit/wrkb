@@ -1,8 +1,8 @@
 ---
 abilities:
 - description: Gains a stack of Stone Skin whenever Wukong damage enemy champions,
-    stacking up to 3 times. Each stack grants 11 Armor and heals for 2.5% of his max
-    Health per 5 seconds.
+    stacking up to 3 times. Each stack grants 11 Armor and heals for 1.75% of his
+    max Health per 5 seconds.
   name: Stone Skin
   slot: P
 - cooldowns:
@@ -51,7 +51,7 @@ abilities:
   - 40.0
   - 40.0
   description: Moves toward a target while sending clones to 2 additional enemies
-    nearby, dealing 80 / 120 / 160 / 200 ( +80% bonus AD ) physical damage to each
+    nearby, dealing 70 / 110 / 150 / 190 ( +80% bonus AD ) physical damage to each
     enemy. After hitting the targeted enemy, Wukong gains 25% / 35% / 45% / 55% Attack
     Speed for 4 seconds.
   name: Nimbus Strike
@@ -127,7 +127,7 @@ Jungle, Baron Lane
 
 ### [P] Stone Skin
 
-Gains a stack of Stone Skin whenever Wukong damage enemy champions, stacking up to 3 times. Each stack grants 11 Armor and heals for 2.5% of his max Health per 5 seconds.
+Gains a stack of Stone Skin whenever Wukong damage enemy champions, stacking up to 3 times. Each stack grants 11 Armor and heals for 1.75% of his max Health per 5 seconds.
 
 ### [1] Golden Staff
 
@@ -151,7 +151,7 @@ Becomes invisible for 1 second and dashes forward, leaving behind a clone for 3 
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Moves toward a target while sending clones to 2 additional enemies nearby, dealing 80 / 120 / 160 / 200 ( +80% bonus AD ) physical damage to each enemy. After hitting the targeted enemy, Wukong gains 25% / 35% / 45% / 55% Attack Speed for 4 seconds.
+Moves toward a target while sending clones to 2 additional enemies nearby, dealing 70 / 110 / 150 / 190 ( +80% bonus AD ) physical damage to each enemy. After hitting the targeted enemy, Wukong gains 25% / 35% / 45% / 55% Attack Speed for 4 seconds.
 
 ### [4] Cyclone
 

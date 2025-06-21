@@ -98,6 +98,7 @@ base_stats:
 name: Camille
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/camille
 ---
 
@@ -105,7 +106,7 @@ source_url: https://www.wildriftfire.com/guide/camille
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 

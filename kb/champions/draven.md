@@ -16,7 +16,7 @@ abilities:
   - 45.0
   - 45.0
   description: Gains a Spinning Axe , causing his next attack within 6 seconds to
-    deal an additional 45 / 50 / 55 / 60 ( +90% / 100% / 110% / 120% bonus AD ) physical
+    deal an additional 45 / 50 / 55 / 60 ( +100% / 110% / 120% / 130% bonus AD ) physical
     damage . The Spinning Axe bounces off the target, allowing Draven to catch and
     regain it. Draven can hold two Spinning Axes at once.
   name: Spinning Axe
@@ -129,7 +129,7 @@ Killing a unit or catching a Spinning Axe grants a stack of Adoration . Killing 
 
 **Cost:** 45.0 / 45.0 / 45.0 / 45.0
 
-Gains a Spinning Axe , causing his next attack within 6 seconds to deal an additional 45 / 50 / 55 / 60 ( +90% / 100% / 110% / 120% bonus AD ) physical damage . The Spinning Axe bounces off the target, allowing Draven to catch and regain it. Draven can hold two Spinning Axes at once.
+Gains a Spinning Axe , causing his next attack within 6 seconds to deal an additional 45 / 50 / 55 / 60 ( +100% / 110% / 120% / 130% bonus AD ) physical damage . The Spinning Axe bounces off the target, allowing Draven to catch and regain it. Draven can hold two Spinning Axes at once.
 
 ### [2] Blood Rush
 

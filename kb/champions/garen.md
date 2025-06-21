@@ -22,9 +22,10 @@ abilities:
   - 16.0
   - 14.0
   - 12.0
-  description: Reduce damage taken for 4 seconds. For the 1 second, damage is reduced
-    by 70% and Garen gains 70% Tenacity . Damage is reduced by 30% for the remaining
-    duration. Tenacity reduces the duration of most movement impairing effects.
+  description: 'Passive : Gains 10% bonus Magic Resist and Armor . Active : Reduces
+    incoming damage by 30% for 4 seconds. On cast, Garen gains 6 0% Tenacity for 1
+    second and a shield that absorbs 65 / 95 / 125 / 155 ( +20% bonus Health ) damage
+    for 2.5 seconds. The shield starts decaying after 1 second.'
   name: Courage
   slot: '2'
 - cooldowns:
@@ -32,10 +33,13 @@ abilities:
   - 9.0
   - 9.0
   - 9.0
-  description: 'Rapidly spin in a bladestorm for 3 seconds, dealing 12 / 16 / 20 /
-    24 ( +35% / 40% / 45% / 50% AD ) physical damage 8 times, Enemies hit by the bladestorm''s
-    edge are critically struck for 135% / 140% / 145% / 150% damage. Re-cast : Stops
-    spinning. Deals 60% damage to minions.'
+  description: 'First Cast : Rapidly spins his sword for 3 seconds, dealing 15 / 19
+    / 23 / 27 ( +25% / 30% / 35% / 40% AD ) physical damage 8 times over the duration.
+    Every 4 levels, the number of spins increases by 1, up to 11 strikes. Recast :
+    Ends Judgment early and reduces its cooldown by the duration remaining. Armor
+    Shred ; When a champion is hit by 6 strikes, their Armor is shredded by 15% for
+    4.5 seconds. Every hit refreshes the effect duration. The target nearest to Garen
+    takes 20% increased damage.'
   name: Judgment
   slot: '3'
 - cooldowns:
@@ -111,13 +115,13 @@ Breaks free from all slows, becoming immune to them for 0.5 seconds and gaining 
 
 **Cooldown:** 18.0 / 16.0 / 14.0 / 12.0 seconds
 
-Reduce damage taken for 4 seconds. For the 1 second, damage is reduced by 70% and Garen gains 70% Tenacity . Damage is reduced by 30% for the remaining duration. Tenacity reduces the duration of most movement impairing effects.
+Passive : Gains 10% bonus Magic Resist and Armor . Active : Reduces incoming damage by 30% for 4 seconds. On cast, Garen gains 6 0% Tenacity for 1 second and a shield that absorbs 65 / 95 / 125 / 155 ( +20% bonus Health ) damage for 2.5 seconds. The shield starts decaying after 1 second.
 
 ### [3] Judgment
 
 **Cooldown:** 9.0 / 9.0 / 9.0 / 9.0 seconds
 
-Rapidly spin in a bladestorm for 3 seconds, dealing 12 / 16 / 20 / 24 ( +35% / 40% / 45% / 50% AD ) physical damage 8 times, Enemies hit by the bladestorm's edge are critically struck for 135% / 140% / 145% / 150% damage. Re-cast : Stops spinning. Deals 60% damage to minions.
+First Cast : Rapidly spins his sword for 3 seconds, dealing 15 / 19 / 23 / 27 ( +25% / 30% / 35% / 40% AD ) physical damage 8 times over the duration. Every 4 levels, the number of spins increases by 1, up to 11 strikes. Recast : Ends Judgment early and reduces its cooldown by the duration remaining. Armor Shred ; When a champion is hit by 6 strikes, their Armor is shredded by 15% for 4.5 seconds. Every hit refreshes the effect duration. The target nearest to Garen takes 20% increased damage.
 
 ### [4] Demacian Justice
 

@@ -6,10 +6,10 @@ abilities:
   name: Triumphant Roar
   slot: P
 - cooldowns:
-  - 15.0
   - 14.0
   - 12.0
-  - 11.0
+  - 10.0
+  - 9.0
   costs:
   - 65.0
   - 70.0
@@ -73,7 +73,7 @@ base_stats:
     base: '0.80'
     growth: '0.0150'
   Health:
-    base: '690'
+    base: '720'
     growth: '144'
   Health Reg. (5s):
     base: '9'
@@ -104,7 +104,7 @@ Support
 
 ## Base Stats
 
-- Health: 690 (+144 per level)
+- Health: 720 (+144 per level)
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 345 (+31 per level)
 - Mana Reg. (5s): 12 (+1 per level)
@@ -122,7 +122,7 @@ When Alistar takes damage, he heals himself for 27 and nearby allied champions f
 
 ### [1] Pulverize
 
-**Cooldown:** 15.0 / 14.0 / 12.0 / 11.0 seconds
+**Cooldown:** 14.0 / 12.0 / 10.0 / 9.0 seconds
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
