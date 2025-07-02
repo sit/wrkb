@@ -42,7 +42,7 @@ abilities:
     for 3 seconds. Fleeting Time : Increases projectile speed by 60% and grants 25%
     / 35% / 45% / 55% ( +0.06% AP ) Movement Speed . While Zilean''s Fleeting Time
     is active, his Basic Ability Haste is increased by 100% .'
-  name: Rewind
+  name: Twisted Timeflow
   slot: '2'
 - cooldowns:
   - 25.0
@@ -57,7 +57,7 @@ abilities:
   description: Creates a time-bending force field for 2.5 seconds. While within the
     force field, enemy champions are slowed by 30% / 35% / 40% / 45% ( +5% AP ) and
     projectiles by 80% .
-  name: Time Warp
+  name: Temporal Mirage
   slot: '3'
 - cooldowns:
   - 90.0
@@ -140,7 +140,7 @@ Stores time as Experience at a rate of 40 XP per 5 seconds. Zilean can grant thi
 
 Tosses a Time Bomb to a target location. The bomb sticks to the first unit which comes within a small area around it. After 3 seconds, it detonates, dealing 75 / 150 / 225 / 400 ( +75% AP ) magic damage to the target and nearby enemies. The bomb prioritizes champions and units that are already carrying a bomb. Early detonation : Placing a second bomb on the same target detonates the first bomb, stunning enemies in the blast for 1.2 / 1.3 / 1.4 / 1.5 seconds. Charge : Stores up to 2 charges. Charge Time : 12 / 11.5 / 11 / 10.5 seconds.
 
-### [2] Rewind
+### [2] Twisted Timeflow
 
 **Cooldown:** 13.0 / 12.0 / 12.0 / 11.0 seconds
 
@@ -148,7 +148,7 @@ Tosses a Time Bomb to a target location. The bomb sticks to the first unit which
 
 Makes time flow faster for himself, applying Fleeting Time to himself and gaining a shield that absorbs 80 / 105 / 130 / 155 ( +45% AP ) damage . Zilean also grants Fleeting Time and an identical shield to the nearest allied champion for 3 seconds. Fleeting Time : Increases projectile speed by 60% and grants 25% / 35% / 45% / 55% ( +0.06% AP ) Movement Speed . While Zilean's Fleeting Time is active, his Basic Ability Haste is increased by 100% .
 
-### [3] Time Warp
+### [3] Temporal Mirage
 
 **Cooldown:** 25.0 / 25.0 / 25.0 / 25.0 seconds
 

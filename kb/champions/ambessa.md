@@ -1,50 +1,51 @@
 ---
 abilities:
 - description: 'Drakehoud''s Step : Ambessa''s next attack within 4 seconds of triggering
-    Feint has increased range, attacks 50% faster, deals 1 + champion level X 3 (
-    +1.5% +0.02% bonus AD ) of the target''s max Health as bonus physical damage ,
-    and restores 50 Energy (increases at level 1 / 6 / 11) to herself (stacks 3 times).
-    Feint : Upon casting an ability, Ambessa dashes a short distance in the left joystick''s
-    direction.'
+    Feint is 50% faster, has increased range, deals 14 ( +2.5 + 25% bonus AD ) bonus
+    physical damage , and restores 50 Energy ( increases at level 1 / 6 / 11 ). Stacks
+    up to 3 times. Feint : Pushing the left joystick right after casting an ability
+    causes Ambessa to dash a short dinstance in that direction.'
   name: "Drakehound\u2019s Step"
   slot: P
 - cooldowns:
   - 9.0
   - 8.0
+  - 8.0
   - 7.0
-  - 6.0
   costs:
   - 70.0
   - 70.0
   - 70.0
   - 70.0
   description: 'Cunning Sweep : Swings her Twin Drakehounds in a semi-circle in front
-    of her, dealing 40 / 65 / 90 / 115 ( +60% bonus AD ) physical damage . Damage
-    is increased to 70 / 105 / 140 / 175 ( +90% bonus AD ) for enemies hit at the
-    outer edge. If Cunning Sweep hits its targets, after a brief delay, it transforms
+    of her, dealing 40 / 50 / 60 / 90 ( +30% bonus AD ) physical damage + 2% / 2.5%
+    / 3% / 3.5% ( +0.02% bonus AD ) of the target''s max Health . Damage is increased
+    to 80 / 100 / 120 / 140 ( +60% bonus AD ) physical damage + 4% / 5% / 6% / 7%
+    ( +0.04% bonus AD ) of the target''s max Health for enemies at the edge of the
+    strike. If Cunning Sweep hits its targets, after a brief delay, it transforms
     into Sundering Slam for 3.5 seconds. Sundering Slam : Ruthlessly cleaves enemies
-    in a line, dealing 55 / 80 / 105 / 130 ( +60% bonus AD ) physical damage . The
-    first target hit takes 80 / 120 / 160 / 200 ( +100% bonus AD ) to 95 / 160 / 225
-    / 290 ( +20% bonus AD ) increased physical damage based on their missing Health
-    percent . Deals 100% damage to monsters.'
+    in a line, dealing 90 / 120 / 150 / 180 ( +90% bonus AD ) physical damage + 4%
+    / 5% / 6% / 7% ( +0.04 bonus AD ) of the target''s max Health against the first
+    enemy hit. All other targets take 45 / 60 / 75 / 90 ( +45% bonus AD ) physical
+    damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of their max Health .'
   name: Cunning Sweep / Sundering Slam
   slot: '1'
 - cooldowns:
+  - 15.0
   - 14.0
   - 13.0
   - 12.0
-  - 11.0
   costs:
   - 70.0
   - 70.0
   - 70.0
   - 70.0
-  description: Girds herself for a showdown, gaining a shield that absorbs 97 ( +125%
-    bonus AD ) damage for 1.5 seconds. Builds up Energy for 0.5 seconds before unleashing
-    a shockwave, dealing 60 / 90 / 120 / 150 ( +50% bonus AD ) physical damage to
-    nearby enemies. If the shield absorbs damage from enemy champions, large monsters,
-    or enemy turrets, shockwave damage increases to 95 / 145 / 195 / 245 ( +80% bonus
-    AD ) physical damage .
+  description: Braces herself for a showdown, gaining a shield that absorbs 95 ( +125%
+    bonus AD ) damage for 1.5 seconds and blocking all crowd control effects for 0.5
+    seconds. She then unleashes a shockwave, dealing 70 / 100 / 130 / 160 ( +80% bonus
+    AD ) physical damage to nearby enemies. If she braced herself from an immobilizing
+    effect, the shockwave deals 105 / 150 / 195 / 240 ( +120% bonus AD ) physical
+    damage .
   name: Repudiation
   slot: '2'
 - cooldowns:
@@ -69,15 +70,17 @@ abilities:
   - 80.0
   - 70.0
   - 60.0
-  description: 'Passive : Ambessa''s champion takedowns within 3 seconds of damaging
-    them restore her tu full Energy, heal fer for 2 5 / 50 / 75 ( +45% bonus AD )
-    to 75 / 150 / 225 ( +90% bonus AD ) Health based on her missing Health , and reset
-    her basic ability cooldowns. Active : Seizes the enemy champion furthest away
-    in the line in front of her and blinks to their location, suppressing them unstoppably
-    for 1 second. She then slams the target into the ground, dealing physical damage
-    equal to 200 / 300 / 400 plus 20% ( +0.05% bonus AD +0.05% AP ) of the target''s
-    missing Health and stunning them for 0.4 seconds. If Public Execution does not
-    hit any enemy champion, 35% of its cooldown will be refunded.'
+  description: 'Passive : Gains 10% / 20% / 30% Armor Pen. Her active abilities heal
+    her for 12.5% / 15% / 17.5% of the damage she deals. Damaging minions heals her
+    for 25% of the original heal, and damaging monsters heals her for 40% of the original
+    heal. The empowered attacks of Drakehound''s Step grant the same healing bonus.
+    Active : Seizes the farthest enemy champion in a line in front of her and blinks
+    to them, suppressing the target for 1 second. During this time, she gains 30%
+    / 40% / 50% damage reduction and is unstoppable. Ambessa then slams the target
+    into the ground, dealing 200 / 300 / 400 ( +0.05% bonus AD + 0.05% AP ) physical
+    damage plus 20% of their missing Health and stunning them for 0.4 seconds. If
+    Public Execution does not hit any enemy champion, 35% of its cooldown will be
+    refunded.'
   name: Public Execution
   slot: '4'
 base_stats:
@@ -137,23 +140,23 @@ Baron Lane, Jungle
 
 ### [P] Drakehound’s Step
 
-Drakehoud's Step : Ambessa's next attack within 4 seconds of triggering Feint has increased range, attacks 50% faster, deals 1 + champion level X 3 ( +1.5% +0.02% bonus AD ) of the target's max Health as bonus physical damage , and restores 50 Energy (increases at level 1 / 6 / 11) to herself (stacks 3 times). Feint : Upon casting an ability, Ambessa dashes a short distance in the left joystick's direction.
+Drakehoud's Step : Ambessa's next attack within 4 seconds of triggering Feint is 50% faster, has increased range, deals 14 ( +2.5 + 25% bonus AD ) bonus physical damage , and restores 50 Energy ( increases at level 1 / 6 / 11 ). Stacks up to 3 times. Feint : Pushing the left joystick right after casting an ability causes Ambessa to dash a short dinstance in that direction.
 
 ### [1] Cunning Sweep / Sundering Slam
 
-**Cooldown:** 9.0 / 8.0 / 7.0 / 6.0 seconds
+**Cooldown:** 9.0 / 8.0 / 8.0 / 7.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Cunning Sweep : Swings her Twin Drakehounds in a semi-circle in front of her, dealing 40 / 65 / 90 / 115 ( +60% bonus AD ) physical damage . Damage is increased to 70 / 105 / 140 / 175 ( +90% bonus AD ) for enemies hit at the outer edge. If Cunning Sweep hits its targets, after a brief delay, it transforms into Sundering Slam for 3.5 seconds. Sundering Slam : Ruthlessly cleaves enemies in a line, dealing 55 / 80 / 105 / 130 ( +60% bonus AD ) physical damage . The first target hit takes 80 / 120 / 160 / 200 ( +100% bonus AD ) to 95 / 160 / 225 / 290 ( +20% bonus AD ) increased physical damage based on their missing Health percent . Deals 100% damage to monsters.
+Cunning Sweep : Swings her Twin Drakehounds in a semi-circle in front of her, dealing 40 / 50 / 60 / 90 ( +30% bonus AD ) physical damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of the target's max Health . Damage is increased to 80 / 100 / 120 / 140 ( +60% bonus AD ) physical damage + 4% / 5% / 6% / 7% ( +0.04% bonus AD ) of the target's max Health for enemies at the edge of the strike. If Cunning Sweep hits its targets, after a brief delay, it transforms into Sundering Slam for 3.5 seconds. Sundering Slam : Ruthlessly cleaves enemies in a line, dealing 90 / 120 / 150 / 180 ( +90% bonus AD ) physical damage + 4% / 5% / 6% / 7% ( +0.04 bonus AD ) of the target's max Health against the first enemy hit. All other targets take 45 / 60 / 75 / 90 ( +45% bonus AD ) physical damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of their max Health .
 
 ### [2] Repudiation
 
-**Cooldown:** 14.0 / 13.0 / 12.0 / 11.0 seconds
+**Cooldown:** 15.0 / 14.0 / 13.0 / 12.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Girds herself for a showdown, gaining a shield that absorbs 97 ( +125% bonus AD ) damage for 1.5 seconds. Builds up Energy for 0.5 seconds before unleashing a shockwave, dealing 60 / 90 / 120 / 150 ( +50% bonus AD ) physical damage to nearby enemies. If the shield absorbs damage from enemy champions, large monsters, or enemy turrets, shockwave damage increases to 95 / 145 / 195 / 245 ( +80% bonus AD ) physical damage .
+Braces herself for a showdown, gaining a shield that absorbs 95 ( +125% bonus AD ) damage for 1.5 seconds and blocking all crowd control effects for 0.5 seconds. She then unleashes a shockwave, dealing 70 / 100 / 130 / 160 ( +80% bonus AD ) physical damage to nearby enemies. If she braced herself from an immobilizing effect, the shockwave deals 105 / 150 / 195 / 240 ( +120% bonus AD ) physical damage .
 
 ### [3] Lacerate
 
@@ -167,5 +170,5 @@ Swings her Twin Drakehounds around herself, dealing 40 / 80 / 120 / 160 ( +50% /
 
 **Cooldown:** 0.0 / 80.0 / 70.0 / 60.0 seconds
 
-Passive : Ambessa's champion takedowns within 3 seconds of damaging them restore her tu full Energy, heal fer for 2 5 / 50 / 75 ( +45% bonus AD ) to 75 / 150 / 225 ( +90% bonus AD ) Health based on her missing Health , and reset her basic ability cooldowns. Active : Seizes the enemy champion furthest away in the line in front of her and blinks to their location, suppressing them unstoppably for 1 second. She then slams the target into the ground, dealing physical damage equal to 200 / 300 / 400 plus 20% ( +0.05% bonus AD +0.05% AP ) of the target's missing Health and stunning them for 0.4 seconds. If Public Execution does not hit any enemy champion, 35% of its cooldown will be refunded.
+Passive : Gains 10% / 20% / 30% Armor Pen. Her active abilities heal her for 12.5% / 15% / 17.5% of the damage she deals. Damaging minions heals her for 25% of the original heal, and damaging monsters heals her for 40% of the original heal. The empowered attacks of Drakehound's Step grant the same healing bonus. Active : Seizes the farthest enemy champion in a line in front of her and blinks to them, suppressing the target for 1 second. During this time, she gains 30% / 40% / 50% damage reduction and is unstoppable. Ambessa then slams the target into the ground, dealing 200 / 300 / 400 ( +0.05% bonus AD + 0.05% AP ) physical damage plus 20% of their missing Health and stunning them for 0.4 seconds. If Public Execution does not hit any enemy champion, 35% of its cooldown will be refunded.
 
