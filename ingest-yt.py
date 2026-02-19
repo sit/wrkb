@@ -7,6 +7,7 @@ This tool downloads YouTube transcripts, cleans them up using Wild Rift terminol
 and creates a well-structured Markdown file with proper sections and timestamp links.
 """
 
+import json
 import sys
 import time
 from datetime import datetime, timedelta
@@ -29,7 +30,7 @@ a YouTube video. The transcript is provided below as a JSON dictionary with foll
 - transcript: List of segments dicts, each with 'text', 'start', and 'duration' fields
 
 <VIDEO>
-{video.to_dict()}
+{json.dumps(video.to_dict())}
 </VIDEO>
 
 Your job is to take the segments in the transcript and turn them into sentences.
