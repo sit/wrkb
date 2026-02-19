@@ -1,7 +1,7 @@
-import os
 import json
 from datetime import datetime, timedelta
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 import yt_dlp
@@ -94,9 +94,9 @@ class Video:
 class VideoManager:
     """Class to handle fetching and caching YouTube video transcripts."""
 
-    def __init__(self, cache_dir: str = "kb"):
-        self.cache_dir = cache_dir
-        os.makedirs(cache_dir, exist_ok=True)
+    def __init__(self, cache_dir: str | Path = "kb"):
+        self.cache_dir = Path(cache_dir)
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def extract_video_id(self, video_url: str) -> str:
         if "youtube.com/watch?v=" in video_url:
@@ -157,28 +157,26 @@ class VideoManager:
         except Exception as e:
             raise RuntimeError("Error fetching transcript") from e
 
-    def get_cache_filename(self, video_id: str) -> str:
-        return f"{self.cache_dir}/{video_id}_data.json"
+    def get_cache_path(self, video_id: str) -> Path:
+        return self.cache_dir / f"{video_id}_data.json"
 
     def load_from_cache(self, video_id: str) -> Video | None:
-        cache_filename = self.get_cache_filename(video_id)
+        cache_path = self.get_cache_path(video_id)
 
-        if os.path.exists(cache_filename):
-            with open(cache_filename, "r") as f:
-                data = json.load(f)
-                return Video(
-                    video_id=data["video_id"],
-                    metadata=data["metadata"],
-                    transcript=data["transcript"],
-                )
+        if cache_path.exists():
+            data = json.loads(cache_path.read_text())
+            return Video(
+                video_id=data["video_id"],
+                metadata=data["metadata"],
+                transcript=data["transcript"],
+            )
         return None
 
-    def save_to_cache(self, video: Video) -> str:
-        cache_filename = self.get_cache_filename(video.video_id)
+    def save_to_cache(self, video: Video) -> Path:
+        cache_path = self.get_cache_path(video.video_id)
 
-        with open(cache_filename, "w") as f:
-            json.dump(video.to_dict(), f, indent=4)
-        return cache_filename
+        cache_path.write_text(json.dumps(video.to_dict(), indent=4))
+        return cache_path
 
     def load_from_yt(self, video_id: str) -> Video:
         # Get video metadata

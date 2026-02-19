@@ -7,10 +7,10 @@ This tool downloads YouTube transcripts, cleans them up using Wild Rift terminol
 and creates a well-structured Markdown file with proper sections and timestamp links.
 """
 
-import os
 import sys
 import time
 from datetime import datetime, timedelta
+from pathlib import Path
 
 import click
 from google import genai
@@ -174,7 +174,7 @@ The segments property is a list of Segment objects that are taken directly from 
     "--model",
     "-m",
     default="gemini-3-flash-preview",
-    help="Gemini model to use for summarization (e.g., gemini-2.0-flash-001, gemini-1.5-pro-001)",
+    help="Gemini model to use for summarization (e.g., gemini-3-flash-preview, gemini-2.5-pro-preview)",
 )
 @click.option(
     "--api-key",
@@ -189,7 +189,7 @@ def main(video_id, kb, model, api_key):
     client = genai.Client(api_key=api_key)
 
     # Initialize the TranscriptManager with the specified cache directory
-    manager = VideoManager(cache_dir=os.path.join(kb, "cache"))
+    manager = VideoManager(cache_dir=Path(kb) / "cache")
 
     # Get the transcript, either from cache or by fetching it
     video = manager.load(video_id)
@@ -207,12 +207,11 @@ def main(video_id, kb, model, api_key):
         click.echo(f"  {key}: {value}")
 
     # Where sentences are stored
-    sentences_filename = f"{kb}/{video.video_id}-sentences.md"
+    sentences_path = Path(kb) / f"{video.video_id}-sentences.md"
     # If we have sentences cached, read them instead of computing them
     sentences = None
-    if os.path.exists(sentences_filename):
-        with open(sentences_filename, "r") as f:
-            sentences = f.read()
+    if sentences_path.exists():
+        sentences = sentences_path.read_text()
 
     # Process the video transcript
     sentences, summary, organized = process_video(
@@ -228,12 +227,10 @@ def main(video_id, kb, model, api_key):
     formatted_duration = video.formatted_duration
 
     # Write sentences to file
-    sentences_filename = f"{kb}/{video.video_id}-sentences.md"
-    with open(sentences_filename, "w") as f:
-        f.write(sentences)
+    sentences_path.write_text(sentences)
 
-    summary_filename = f"{kb}/{video.video_id}.md"
-    with open(summary_filename, "w") as f:
+    summary_path = Path(kb) / f"{video.video_id}.md"
+    with summary_path.open("w") as f:
         # Write YAML front-matter
         f.write("---\n")
         f.write(f'title: "{video.title.replace('"', '\\"')}"\n')
@@ -254,7 +251,7 @@ def main(video_id, kb, model, api_key):
         f.write("\n\n")
         f.write(organized)
 
-    click.echo(f"Saved to {summary_filename}")
+    click.echo(f"Saved to {summary_path}")
 
 
 if __name__ == "__main__":
