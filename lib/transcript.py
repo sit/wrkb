@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from typing import List
 
 
 @dataclass
@@ -12,7 +11,7 @@ class Segment:
 @dataclass
 class Sentence:
     text: str
-    segments: List[Segment]
+    segments: list[Segment]
 
     @property
     def start_time(self) -> float:

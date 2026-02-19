@@ -2,7 +2,7 @@ import os
 import json
 from datetime import datetime, timedelta
 from dataclasses import dataclass
-from typing import Dict, Any, List, Optional
+from typing import Any
 
 import yt_dlp
 from youtube_transcript_api import (
@@ -20,8 +20,8 @@ class Video:
     """Class to represent a YouTube video transcript with metadata."""
 
     video_id: str
-    metadata: Dict[str, Any]
-    transcript: List[Segment]
+    metadata: dict[str, Any]
+    transcript: list[Segment]
 
     @property
     def title(self) -> str:
@@ -82,7 +82,7 @@ class Video:
         )
         return full_text
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convert transcript to a dictionary for serialization."""
         return {
             "video_id": self.video_id,
@@ -107,7 +107,7 @@ class VideoManager:
             # If it's already an ID format
             return video_url
 
-    def get_video_metadata(self, video_id: str) -> Optional[Dict[str, Any]]:
+    def get_video_metadata(self, video_id: str) -> dict[str, Any] | None:
         ydl_opts = {
             "quiet": True,
             "no_warnings": True,
@@ -131,7 +131,7 @@ class VideoManager:
             except Exception as e:
                 raise RuntimeError("Error fetching video metadata") from e
 
-    def get_transcript(self, video_id: str) -> Optional[List[Dict[str, Any]]]:
+    def get_transcript(self, video_id: str) -> list[dict[str, Any]] | None:
         try:
             transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
 
@@ -160,7 +160,7 @@ class VideoManager:
     def get_cache_filename(self, video_id: str) -> str:
         return f"{self.cache_dir}/{video_id}_data.json"
 
-    def load_from_cache(self, video_id: str) -> Optional[Video]:
+    def load_from_cache(self, video_id: str) -> Video | None:
         cache_filename = self.get_cache_filename(video_id)
 
         if os.path.exists(cache_filename):
@@ -195,7 +195,7 @@ class VideoManager:
 
         return video
 
-    def load(self, video_url: str) -> Optional[Video]:
+    def load(self, video_url: str) -> Video | None:
         video_id = self.extract_video_id(video_url)
 
         # Try to load from cache

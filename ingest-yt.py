@@ -11,7 +11,6 @@ import os
 import sys
 import time
 from datetime import datetime, timedelta
-from typing import Optional
 
 import click
 from google import genai
@@ -59,7 +58,7 @@ even if it was cleaned up to remove filler or thinking words.
 
 
 def organize_transcript(
-    video: Video, chat: genai.chats.Chat, continuation: Optional[str] = ""
+    video: Video, chat: genai.chats.Chat, continuation: str = ""
 ) -> tuple:
     video_id = video.video_id
     organize_prompt = f"""{continuation}
@@ -128,7 +127,7 @@ Return the summary only, do not add any other explanation or commentary before o
 
 
 def process_video(
-    video: Video, client: genai.Client, model_name: str, sentences: Optional[str] = None
+    video: Video, client: genai.Client, model_name: str, sentences: str | None = None
 ) -> tuple:
     """
     Process the transcript using the Google Genai SDK.
