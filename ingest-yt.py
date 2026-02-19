@@ -208,7 +208,7 @@ def main(video_id, kb, model, api_key):
         click.echo(f"  {key}: {value}")
 
     # Where sentences are stored
-    sentences_path = Path(kb) / f"{video.video_id}-sentences.md"
+    sentences_path = Path(kb) / f"{video.video_id}-sentences.json"
     # If we have sentences cached, read them instead of computing them
     sentences = None
     if sentences_path.exists():
