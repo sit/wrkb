@@ -10,7 +10,6 @@ and creates a well-structured Markdown file with proper sections and timestamp l
 import os
 import sys
 import time
-import json
 from datetime import datetime, timedelta
 from typing import Optional
 
