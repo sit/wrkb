@@ -13,6 +13,8 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import yaml
+
 import click
 from google import genai
 
@@ -231,22 +233,22 @@ def main(video_id, kb, model, api_key):
     sentences_path.write_text(sentences)
 
     summary_path = Path(kb) / f"{video.video_id}.md"
+    frontmatter: dict = {
+        "title": video.title,
+        "video_id": video.video_id,
+        "video_url": f"https://www.youtube.com/watch?v={video.video_id}",
+        "channel": video.channel,
+        "date_processed": datetime.now().strftime("%Y-%m-%d"),
+        "type": "video",
+    }
+    if formatted_date:
+        frontmatter["upload_date"] = formatted_date
+    if formatted_duration:
+        frontmatter["duration"] = formatted_duration
     with summary_path.open("w") as f:
-        # Write YAML front-matter
         f.write("---\n")
-        f.write(f'title: "{video.title.replace('"', '\\"')}"\n')
-        f.write(f'video_id: "{video.video_id}"\n')
-        f.write(f'video_url: "https://www.youtube.com/watch?v={video.video_id}"\n')
-        f.write(f'channel: "{video.channel.replace('"', '\\"')}"\n')
-        if formatted_date:
-            f.write(f'upload_date: "{formatted_date}"\n')
-        if formatted_duration:
-            f.write(f'duration: "{formatted_duration}"\n')
-        f.write(f'date_processed: "{datetime.now().strftime("%Y-%m-%d")}"\n')
-        f.write('type: "video"\n')
+        f.write(yaml.dump(frontmatter, allow_unicode=True, sort_keys=False))
         f.write("---\n\n")
-
-        # Write content
         f.write(f"# {video.title}\n\n")
         f.write(summary)
         f.write("\n\n")
