@@ -13,10 +13,10 @@ abilities:
   - 7.0
   - 6.0
   - 5.0
-  description: 'Ignites his flamethrower, dealing 150 / 190 / 230 / 270 ( +110% AP
+  description: 'Ignites his flamethrower, dealing 120 / 160 / 200 / 240 ( +110% AP
     ) plus 6% / 8% / 10% / 12% of the target''s max Health as magic damage over 3
     seconds. The flamethrower deals 105% of this damage against minions. Danger Zone
-    : Deals 225 / 285 / 345 / 405 ( +165% AP ) plus 9% of the target''s max Health
+    : Deals 180 / 240 / 300 / 360 ( +165% AP ) plus 9% of the target''s max Health
     as magic damage instead. Percent damage is limited to 65 - 150 damage on monsters.'
   name: Flamespitter
   slot: '1'
@@ -25,10 +25,10 @@ abilities:
   - 5.0
   - 5.0
   - 5.0
-  description: 'Tosses up a barrier, gaining a shield that absorbs 45 / 80 / 115 /
-    150 ( +6% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% /
+  description: 'Tosses up a barrier, gaining a shield that absorbs 40 / 70 / 100 /
+    130 ( +6% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% /
     35% Movement Speed for 1 second. Danger Zone : Gains 30% / 35% / 40% / 45% Movement
-    Speed and a shield that absorbs 67.5 / 120 / 172.5 / 225 ( +9% of max Health +45%
+    Speed and a shield that absorbs 60 / 105 / 150 / 195 ( +9% of max Health +45%
     AP ) damage instead.'
   name: Scrap Shield
   slot: '2'
@@ -110,13 +110,13 @@ Every ability Rumble casts generates Heat . While above 50 Heat , Rumble enters 
 
 **Cooldown:** 8.0 / 7.0 / 6.0 / 5.0 seconds
 
-Ignites his flamethrower, dealing 150 / 190 / 230 / 270 ( +110% AP ) plus 6% / 8% / 10% / 12% of the target's max Health as magic damage over 3 seconds. The flamethrower deals 105% of this damage against minions. Danger Zone : Deals 225 / 285 / 345 / 405 ( +165% AP ) plus 9% of the target's max Health as magic damage instead. Percent damage is limited to 65 - 150 damage on monsters.
+Ignites his flamethrower, dealing 120 / 160 / 200 / 240 ( +110% AP ) plus 6% / 8% / 10% / 12% of the target's max Health as magic damage over 3 seconds. The flamethrower deals 105% of this damage against minions. Danger Zone : Deals 180 / 240 / 300 / 360 ( +165% AP ) plus 9% of the target's max Health as magic damage instead. Percent damage is limited to 65 - 150 damage on monsters.
 
 ### [2] Scrap Shield
 
 **Cooldown:** 5.0 / 5.0 / 5.0 / 5.0 seconds
 
-Tosses up a barrier, gaining a shield that absorbs 45 / 80 / 115 / 150 ( +6% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% / 35% Movement Speed for 1 second. Danger Zone : Gains 30% / 35% / 40% / 45% Movement Speed and a shield that absorbs 67.5 / 120 / 172.5 / 225 ( +9% of max Health +45% AP ) damage instead.
+Tosses up a barrier, gaining a shield that absorbs 40 / 70 / 100 / 130 ( +6% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% / 35% Movement Speed for 1 second. Danger Zone : Gains 30% / 35% / 40% / 45% Movement Speed and a shield that absorbs 60 / 105 / 150 / 195 ( +9% of max Health +45% AP ) damage instead.
 
 ### [3] Electro-Harpoon
 

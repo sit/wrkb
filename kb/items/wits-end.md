@@ -1,9 +1,9 @@
 ---
-cost: 2700
+cost: 2800
 effects:
-- 'UNIQUE - At Wit''s End: Basic attacks deal 15 - 65 (based on level) bonus magic
+- 'UNIQUE - At Wit''s End: Basic attacks deal 10 - 55 (based on level) bonus magic
   damage on-hit. While below 50% health, dealing damage to an enemy champion heals
-  you for (Melee:100% / Ranged: 33%) of this effect''s post-mitigation damage.'
+  you for (Melee:100% / Ranged: 66%) of this effect''s post-mitigation damage.'
 id: 121
 image_url: https://www.wildriftfire.com/images/items/wits-end.png
 name: Wit's End
@@ -16,7 +16,7 @@ type: Physical
 # Wit's End
 
 **Type:** Physical  
-**Cost:** 2700 gold
+**Cost:** 2800 gold
 
 ## Stats
 
@@ -25,5 +25,5 @@ type: Physical
 
 ## Effects
 
-UNIQUE - At Wit's End: Basic attacks deal 15 - 65 (based on level) bonus magic damage on-hit. While below 50% health, dealing damage to an enemy champion heals you for (Melee:100% / Ranged: 33%) of this effect's post-mitigation damage.
+UNIQUE - At Wit's End: Basic attacks deal 10 - 55 (based on level) bonus magic damage on-hit. While below 50% health, dealing damage to an enemy champion heals you for (Melee:100% / Ranged: 66%) of this effect's post-mitigation damage.
 

@@ -16,9 +16,9 @@ abilities:
   - 35.0
   - 40.0
   - 45.0
-  description: Unleashes two lines of spikes, dealing 40 / 45 / 50 / 55 ( +50% AP
-    ) magic damage , each to all enemies struck. Can re-cast within 4 seconds. Deals
-    35% / 40% / 45% / 50% damage to minions.
+  description: Unleashes two lines of spikes, dealing 40 / 47.5 / 55 / 62.5 ( +50%
+    AP ) magic damage , each to all enemies struck. Can re-cast within 4 seconds.
+    Deals 40% / 50% / 60% / 70% damage to minions.
   name: Hate Spike
   slot: '1'
 - cooldowns:
@@ -134,7 +134,7 @@ Enters Demon Shade after not attacking or casting for 4 seconds. Taking damage f
 
 **Cost:** 30.0 / 35.0 / 40.0 / 45.0
 
-Unleashes two lines of spikes, dealing 40 / 45 / 50 / 55 ( +50% AP ) magic damage , each to all enemies struck. Can re-cast within 4 seconds. Deals 35% / 40% / 45% / 50% damage to minions.
+Unleashes two lines of spikes, dealing 40 / 47.5 / 55 / 62.5 ( +50% AP ) magic damage , each to all enemies struck. Can re-cast within 4 seconds. Deals 40% / 50% / 60% / 70% damage to minions.
 
 ### [2] Allure
 

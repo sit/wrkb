@@ -40,8 +40,8 @@ abilities:
   - 70.0
   description: 'Passive : Enemies explode when killed by Tristana''s attacks, dealing
     55 / 85 / 115 / 145 ( +25% AP ) magic damage to nearby enemies. Active : Places
-    a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +65% / 100% / 135%
-    / 170% bonus AD +50% AP ) physical damage to nearby enemies. Tristana''s attacks
+    a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +75% / 110% / 145%
+    / 180% bonus AD +50% AP ) physical damage to nearby enemies. Tristana''s attacks
     and abilities charge the bomb''s damage by 30% stacking 4 times. Bombs explode
     immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.'
   name: Explosive Charge
@@ -69,7 +69,7 @@ base_stats:
     base: '0.83'
     growth: '0.0200'
   Health:
-    base: '600'
+    base: '630'
     growth: '128'
   Health Reg. (5s):
     base: '8'
@@ -100,7 +100,7 @@ ADC
 
 ## Base Stats
 
-- Health: 600 (+128 per level)
+- Health: 630 (+128 per level)
 - Health Reg. (5s): 8 (+1 per level)
 - Mana: 300 (+31 per level)
 - Mana Reg. (5s): 12 (+1 per level)
@@ -136,7 +136,7 @@ Leap to a target location, dealing 85 /155 / 225 / 295 ( +50% AP ) magic damage 
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Passive : Enemies explode when killed by Tristana's attacks, dealing 55 / 85 / 115 / 145 ( +25% AP ) magic damage to nearby enemies. Active : Places a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +65% / 100% / 135% / 170% bonus AD +50% AP ) physical damage to nearby enemies. Tristana's attacks and abilities charge the bomb's damage by 30% stacking 4 times. Bombs explode immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.
+Passive : Enemies explode when killed by Tristana's attacks, dealing 55 / 85 / 115 / 145 ( +25% AP ) magic damage to nearby enemies. Active : Places a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +75% / 110% / 145% / 180% bonus AD +50% AP ) physical damage to nearby enemies. Tristana's attacks and abilities charge the bomb's damage by 30% stacking 4 times. Bombs explode immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.
 
 ### [4] Buster Shot
 

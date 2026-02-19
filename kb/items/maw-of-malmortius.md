@@ -1,9 +1,9 @@
 ---
 cost: 3000
 effects:
-- 'UNIQUE - Demonbane: 20% of the damage dealt by basic attacks or 15% physical damage
-  dealt by abilities is converted into a magic shield that absorbs up to 60 - 400
-  magic damage.'
+- 'UNIQUE - Lifeline: Upon taking Magic Damage that would reduce your health to below
+  35%, gain 10% Omnivamp until the end of combat and a magic shield that absorbs (220
+  -530 Magic Damage) for 3s.'
 id: 68
 image_url: https://www.wildriftfire.com/images/items/maw-of-malmortius.png
 name: Maw of Malmortius
@@ -27,5 +27,5 @@ type: Physical
 
 ## Effects
 
-UNIQUE - Demonbane: 20% of the damage dealt by basic attacks or 15% physical damage dealt by abilities is converted into a magic shield that absorbs up to 60 - 400 magic damage.
+UNIQUE - Lifeline: Upon taking Magic Damage that would reduce your health to below 35%, gain 10% Omnivamp until the end of combat and a magic shield that absorbs (220 -530 Magic Damage) for 3s.
 

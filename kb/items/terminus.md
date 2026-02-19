@@ -1,5 +1,5 @@
 ---
-cost: 3400
+cost: 3300
 effects:
 - "Shadow: Attacks deal 35 bonus magic damage on-hit.\n\r\nJuxtaposition: Alternate\
   \ between Light and Dark on-hits when attacking. Light attacks grant 5-8 Armor and\
@@ -10,7 +10,7 @@ id: 173
 image_url: https://www.wildriftfire.com/images/items/terminus.png
 name: Terminus
 stats:
-- +35 Attack Damage
+- +40 Attack Damage
 - +30% Attack Speed
 type: Physical
 ---
@@ -18,11 +18,11 @@ type: Physical
 # Terminus
 
 **Type:** Physical  
-**Cost:** 3400 gold
+**Cost:** 3300 gold
 
 ## Stats
 
-- +35 Attack Damage
+- +40 Attack Damage
 - +30% Attack Speed
 
 ## Effects

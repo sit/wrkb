@@ -1,11 +1,11 @@
 ---
 abilities:
 - description: Gains 0.32% Critical Rate for each point of Fury. Attacking a champion
-    grants 35% Attack Speed for 5 seconds. (6 second cooldown) Gains 5 Fury with every
+    grants 30% Attack Speed for 5 seconds. (6 second cooldown) Gains 5 Fury with every
     attack, 10 from critical strikes and 15 from kills. Loses 5 Fury per second after
     Tryndamere has been out of combat for 8 seconds. Battle Fury's Attack Speed bonus
     increases with Undying Rage's ability rank. Tryndamere converts Critical Rate
-    above 100% into Attack Damage at a rate of 0.8 Attack Damage per 1% Critical Rate.
+    above 100% into Attack Damage at a rate of 1 Attack Damage per 1% Critical Rate.
   name: Battle Fury
   slot: P
 - cooldowns:
@@ -43,8 +43,8 @@ abilities:
   - 90.0
   - 80.0
   - 70.0
-  description: 'Passive : Increases Battle Fury''s bonus Attack Speed to 45% / 55%
-    / 65% . Active : Becomes unkillable for 5 seconds and gains 50 / 75 /100 Fury
+  description: 'Passive : Increases Battle Fury''s bonus Attack Speed to 45% / 60%
+    / 75% . Active : Becomes unkillable for 5 seconds and gains 50 / 75 /100 Fury
     . Can be cast while crowd controlled.'
   name: Undying Rage
   slot: '4'
@@ -97,7 +97,7 @@ Jungle, Baron Lane
 
 ### [P] Battle Fury
 
-Gains 0.32% Critical Rate for each point of Fury. Attacking a champion grants 35% Attack Speed for 5 seconds. (6 second cooldown) Gains 5 Fury with every attack, 10 from critical strikes and 15 from kills. Loses 5 Fury per second after Tryndamere has been out of combat for 8 seconds. Battle Fury's Attack Speed bonus increases with Undying Rage's ability rank. Tryndamere converts Critical Rate above 100% into Attack Damage at a rate of 0.8 Attack Damage per 1% Critical Rate.
+Gains 0.32% Critical Rate for each point of Fury. Attacking a champion grants 30% Attack Speed for 5 seconds. (6 second cooldown) Gains 5 Fury with every attack, 10 from critical strikes and 15 from kills. Loses 5 Fury per second after Tryndamere has been out of combat for 8 seconds. Battle Fury's Attack Speed bonus increases with Undying Rage's ability rank. Tryndamere converts Critical Rate above 100% into Attack Damage at a rate of 1 Attack Damage per 1% Critical Rate.
 
 ### [1] Bloodlust
 
@@ -121,5 +121,5 @@ Dashes, dealing 80 / 120 / 160 / 200 ( +135% AD +100% AP ) physical damage . Cri
 
 **Cooldown:** 90.0 / 80.0 / 70.0 seconds
 
-Passive : Increases Battle Fury's bonus Attack Speed to 45% / 55% / 65% . Active : Becomes unkillable for 5 seconds and gains 50 / 75 /100 Fury . Can be cast while crowd controlled.
+Passive : Increases Battle Fury's bonus Attack Speed to 45% / 60% / 75% . Active : Becomes unkillable for 5 seconds and gains 50 / 75 /100 Fury . Can be cast while crowd controlled.
 

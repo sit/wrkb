@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: 'Hextech Shrapnel : Attacks and Spellblade deal 20% bonus true damage
+- description: 'Hextech Shrapnel : Attacks and Spellblade deal 16% bonus true damage
     . The Package : After hitting enemy champions 6 times with Missile Barrage , The
     Package is delivered to Corki. He can pick it up to gain 4 Big Ones . The Package
     despawns after 15 seconds.'
@@ -16,8 +16,8 @@ abilities:
   - 65.0
   - 70.0
   - 75.0
-  description: Fires a bomb, dealing 65 / 125 / 185 / 245 ( +120% AD +80% AP ) magic
-    damage and granting vision over the area.
+  description: Fires a bomb, dealing 65 / 125 / 185 / 245 ( +110% bonus AD +80% AP
+    ) magic damage and granting vision over the area.
   name: Phosphorus Bomb
   slot: '1'
 - cooldowns:
@@ -99,7 +99,6 @@ base_stats:
 name: Corki
 roles:
 - ADC
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/corki
 ---
 
@@ -107,7 +106,7 @@ source_url: https://www.wildriftfire.com/guide/corki
 
 ## Roles
 
-ADC, Mid Lane
+ADC
 
 ## Base Stats
 
@@ -125,7 +124,7 @@ ADC, Mid Lane
 
 ### [P] Hextech Munitions
 
-Hextech Shrapnel : Attacks and Spellblade deal 20% bonus true damage . The Package : After hitting enemy champions 6 times with Missile Barrage , The Package is delivered to Corki. He can pick it up to gain 4 Big Ones . The Package despawns after 15 seconds.
+Hextech Shrapnel : Attacks and Spellblade deal 16% bonus true damage . The Package : After hitting enemy champions 6 times with Missile Barrage , The Package is delivered to Corki. He can pick it up to gain 4 Big Ones . The Package despawns after 15 seconds.
 
 ### [1] Phosphorus Bomb
 
@@ -133,7 +132,7 @@ Hextech Shrapnel : Attacks and Spellblade deal 20% bonus true damage . The Packa
 
 **Cost:** 60.0 / 65.0 / 70.0 / 75.0
 
-Fires a bomb, dealing 65 / 125 / 185 / 245 ( +120% AD +80% AP ) magic damage and granting vision over the area.
+Fires a bomb, dealing 65 / 125 / 185 / 245 ( +110% bonus AD +80% AP ) magic damage and granting vision over the area.
 
 ### [2] Valkyrie
 

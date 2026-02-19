@@ -16,7 +16,7 @@ abilities:
   - 70.0
   - 70.0
   - 70.0
-  description: Fires an explosive charge that deals 25 / 85 / 145 / 205 ( +70% AD
+  description: Fires an explosive charge that deals 40 / 95 / 150 / 205 ( +70% AD
     ) physical damage and slows by 45% / 50% / 55% / 60% for 1.25 seconds.
   name: Corrosive Charge
   slot: '1'
@@ -29,8 +29,8 @@ abilities:
   - 30.0
   - 20.0
   - 10.0
-  description: 'Shoots the nearest enemy rapidly for 4 seconds, dealing 6 ( +20% /
-    25% / 30% / 35% AD ) physical damage and applying on-hits at 70% effectiveness.
+  description: 'Shoots the nearest enemy rapidly for 4 seconds, dealing 10 ( +20%
+    / 27.5% / 35% / 42.5% AD ) physical damage and applying on-hits at 70% effectiveness.
     During this time Urgot''s Movement Speed is reduced by 125 / 110 / 95 / 80 and
     he gains 40% Slow Resist. Re-cast : End Purge. Dealing a minimum of 50 damage
     to minions and monsters, prioritizes the champion hit most recently by Urgot''s
@@ -134,7 +134,7 @@ Urgot's attacks and Purge periodically trigger blasts from his leg cannons, deal
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Fires an explosive charge that deals 25 / 85 / 145 / 205 ( +70% AD ) physical damage and slows by 45% / 50% / 55% / 60% for 1.25 seconds.
+Fires an explosive charge that deals 40 / 95 / 150 / 205 ( +70% AD ) physical damage and slows by 45% / 50% / 55% / 60% for 1.25 seconds.
 
 ### [2] Purge
 
@@ -142,7 +142,7 @@ Fires an explosive charge that deals 25 / 85 / 145 / 205 ( +70% AD ) physical da
 
 **Cost:** 30.0 / 20.0 / 10.0
 
-Shoots the nearest enemy rapidly for 4 seconds, dealing 6 ( +20% / 25% / 30% / 35% AD ) physical damage and applying on-hits at 70% effectiveness. During this time Urgot's Movement Speed is reduced by 125 / 110 / 95 / 80 and he gains 40% Slow Resist. Re-cast : End Purge. Dealing a minimum of 50 damage to minions and monsters, prioritizes the champion hit most recently by Urgot's abilities. At max rank, Purge gains infinite duration.
+Shoots the nearest enemy rapidly for 4 seconds, dealing 10 ( +20% / 27.5% / 35% / 42.5% AD ) physical damage and applying on-hits at 70% effectiveness. During this time Urgot's Movement Speed is reduced by 125 / 110 / 95 / 80 and he gains 40% Slow Resist. Re-cast : End Purge. Dealing a minimum of 50 damage to minions and monsters, prioritizes the champion hit most recently by Urgot's abilities. At max rank, Purge gains infinite duration.
 
 ### [3] Disdain
 

@@ -3,6 +3,7 @@ abilities:
 - description: Scoring a takedown on a champion or structure that Jinx has damaged
     within the last 3 seconds grants her 140% decaying Movement Speed and 12% Total
     Attack Speed for 6 seconds. While Excited, Jinx can exceed the Attack Speed cap.
+    When Get Excited is triggered, restore 10% of missing mana.
   name: Get Excited!
   slot: P
 - cooldowns:
@@ -16,7 +17,7 @@ abilities:
   - 20.0
   - 20.0
   description: 'Swaps weapons- Fishbones, the Rocket Launcher : Attacks cost mana
-    but gain 80 / 95 / 110 / 125 range and explode to deal 110% damage to the target
+    but gain 80 / 95 / 110 / 125 range and explode to deal 112% damage to the target
     and enemies around it. Pow-Pow , the Minigun: Attacks grant bonus Attack Speed
     for 2.5 seconds. This effect stacks up to 3 times for a total bonus of 35% / 60%
     / 85% / 110% . Pow-Pow''s stacks fall off one at a time and will only benefit
@@ -126,7 +127,7 @@ ADC
 
 ### [P] Get Excited!
 
-Scoring a takedown on a champion or structure that Jinx has damaged within the last 3 seconds grants her 140% decaying Movement Speed and 12% Total Attack Speed for 6 seconds. While Excited, Jinx can exceed the Attack Speed cap.
+Scoring a takedown on a champion or structure that Jinx has damaged within the last 3 seconds grants her 140% decaying Movement Speed and 12% Total Attack Speed for 6 seconds. While Excited, Jinx can exceed the Attack Speed cap. When Get Excited is triggered, restore 10% of missing mana.
 
 ### [1] Switcheroo!
 
@@ -134,7 +135,7 @@ Scoring a takedown on a champion or structure that Jinx has damaged within the l
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Swaps weapons- Fishbones, the Rocket Launcher : Attacks cost mana but gain 80 / 95 / 110 / 125 range and explode to deal 110% damage to the target and enemies around it. Pow-Pow , the Minigun: Attacks grant bonus Attack Speed for 2.5 seconds. This effect stacks up to 3 times for a total bonus of 35% / 60% / 85% / 110% . Pow-Pow's stacks fall off one at a time and will only benefit the first attakc fire from Fishbones.
+Swaps weapons- Fishbones, the Rocket Launcher : Attacks cost mana but gain 80 / 95 / 110 / 125 range and explode to deal 112% damage to the target and enemies around it. Pow-Pow , the Minigun: Attacks grant bonus Attack Speed for 2.5 seconds. This effect stacks up to 3 times for a total bonus of 35% / 60% / 85% / 110% . Pow-Pow's stacks fall off one at a time and will only benefit the first attakc fire from Fishbones.
 
 ### [2] Zap!
 

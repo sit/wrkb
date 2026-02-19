@@ -17,7 +17,7 @@ abilities:
     3 seconds. Enemies hit take 65 / 120 / 175 / 230 ( +70% AP ) magic damage and
     are slowed by 30% / 35% / 40% / 45% for 2 seconds. The damage and slow amount
     increase over the first 1.5 seconds, by up to 150% . The cask reveals the area
-    and deals 50% damage to minions.
+    and deals 80% damage to minions.
   name: Barrel Roll
   slot: '1'
 - cooldowns:
@@ -32,7 +32,7 @@ abilities:
   - 20.0
   description: Reduces damage taken by 11% / 13% / 15% / 17% ( +0.04% AP ) for 2.5
     seconds. The next attack within 5 seconds after drinking is empowered to splash
-    enemies for bonus 50 / 80 / 110 /140 ( +90% AP ) +7% magic damage of their max
+    enemies for bonus 65 / 90 / 115 /140 ( +90% AP ) +7% magic damage of their max
     Health.
   name: Drunken Rage
   slot: '2'
@@ -130,7 +130,7 @@ Casting an ability restores 46 ( 8.5% max HP ) Health .
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Rolls a cask to target location that explodes upon re-casting or after 3 seconds. Enemies hit take 65 / 120 / 175 / 230 ( +70% AP ) magic damage and are slowed by 30% / 35% / 40% / 45% for 2 seconds. The damage and slow amount increase over the first 1.5 seconds, by up to 150% . The cask reveals the area and deals 50% damage to minions.
+Rolls a cask to target location that explodes upon re-casting or after 3 seconds. Enemies hit take 65 / 120 / 175 / 230 ( +70% AP ) magic damage and are slowed by 30% / 35% / 40% / 45% for 2 seconds. The damage and slow amount increase over the first 1.5 seconds, by up to 150% . The cask reveals the area and deals 80% damage to minions.
 
 ### [2] Drunken Rage
 
@@ -138,7 +138,7 @@ Rolls a cask to target location that explodes upon re-casting or after 3 seconds
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Reduces damage taken by 11% / 13% / 15% / 17% ( +0.04% AP ) for 2.5 seconds. The next attack within 5 seconds after drinking is empowered to splash enemies for bonus 50 / 80 / 110 /140 ( +90% AP ) +7% magic damage of their max Health.
+Reduces damage taken by 11% / 13% / 15% / 17% ( +0.04% AP ) for 2.5 seconds. The next attack within 5 seconds after drinking is empowered to splash enemies for bonus 65 / 90 / 115 /140 ( +90% AP ) +7% magic damage of their max Health.
 
 ### [3] Body Slam
 

@@ -20,10 +20,10 @@ abilities:
   name: Three Talon Strike
   slot: '1'
 - cooldowns:
-  - 12.0
   - 11.0
   - 9.0
   - 8.0
+  - 6.0
   costs:
   - 45.0
   - 45.0
@@ -32,7 +32,7 @@ abilities:
   description: Slashes his spear, dealing 40 / 50 / 60 / 70 ( +50% AD ) physical damage
     and slowing by 50% for 1.5 seconds. Xin Zhao then thrusts his spear, dealing 40
     / 85 / 130 / 175 ( +75% AD ) physical damage and slowing by 50% for 1.5 seconds.
-    The furthest enemy champion or large monster hit is Challenged for 3 seconds,
+    The furthest enemy champion or large monster hit is Challenged for 3.5 seconds,
     increasing Audacious Charge 's cast range at them. Attack Speed reduces cast time.
     Deals 50% damage to minions.
   name: Wind Becomes Lightning
@@ -70,7 +70,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '40'
+    base: '46'
     growth: '4'
   Attack Dmg.:
     base: '62'
@@ -114,7 +114,7 @@ Jungle
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 345 (+31 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 40 (+4 per level)
+- Armor: 46 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 62 (+4 per level)
@@ -136,11 +136,11 @@ Empowers the next three attacks to deal an additional 20 / 28 / 36 / 44 ( +40% b
 
 ### [2] Wind Becomes Lightning
 
-**Cooldown:** 12.0 / 11.0 / 9.0 / 8.0 seconds
+**Cooldown:** 11.0 / 9.0 / 8.0 / 6.0 seconds
 
 **Cost:** 45.0 / 45.0 / 45.0 / 45.0
 
-Slashes his spear, dealing 40 / 50 / 60 / 70 ( +50% AD ) physical damage and slowing by 50% for 1.5 seconds. Xin Zhao then thrusts his spear, dealing 40 / 85 / 130 / 175 ( +75% AD ) physical damage and slowing by 50% for 1.5 seconds. The furthest enemy champion or large monster hit is Challenged for 3 seconds, increasing Audacious Charge 's cast range at them. Attack Speed reduces cast time. Deals 50% damage to minions.
+Slashes his spear, dealing 40 / 50 / 60 / 70 ( +50% AD ) physical damage and slowing by 50% for 1.5 seconds. Xin Zhao then thrusts his spear, dealing 40 / 85 / 130 / 175 ( +75% AD ) physical damage and slowing by 50% for 1.5 seconds. The furthest enemy champion or large monster hit is Challenged for 3.5 seconds, increasing Audacious Charge 's cast range at them. Attack Speed reduces cast time. Deals 50% damage to minions.
 
 ### [3] Audacious Charge
 

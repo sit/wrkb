@@ -5,7 +5,7 @@ abilities:
   name: Night Hunter
   slot: P
 - cooldowns:
-  - 4.0
+  - 5.0
   - 4.0
   - 3.0
   - 2.0
@@ -15,7 +15,7 @@ abilities:
   - 30.0
   - 30.0
   description: 'Dashes forward and empowers her next attack to deal an additional
-    24 ( 40% / 50% / 60% / 70% AD ) physical damage . Final Hour : Gains 1 second
+    24 ( 35% / 45% / 55% / 65% AD ) physical damage . Final Hour : Gains 1 second
     of invisibility on cast. Tumble does not go through walls.'
   name: Tumble
   slot: '1'
@@ -31,10 +31,9 @@ abilities:
   - 45.0
   description: 'Passive : Every third consecutive attack or ability on the same target
     deals additional 3% / 6% / 9% / 12% true damage of the enemy''s maximum Health.
-    Active : Gains 40% / 45% / 50% / 55% Attack Speed for the next 3 attacks within
-    5 seconds and heals for 40% of the damage Silver Bolts dealt. Passive deals at
-    least 50 / 65 / 80 / 95 true damage . Passive damage is capped at 200 against
-    monsters.'
+    Active : Gains 15% / 20% / 25% / 30% Attack Speed and 10% Omnivamp for 3 seconds.
+    Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped
+    at 200 against monsters.'
   name: Silver Bolts
   slot: '2'
 - cooldowns:
@@ -53,14 +52,14 @@ abilities:
   name: Condemn
   slot: '3'
 - cooldowns:
+  - 70.0
   - 65.0
   - 60.0
-  - 55.0
   costs:
   - 100.0
   - 100.0
   - 100.0
-  description: Gains 20 / 30 / 40 Attack Damage and strengthens Night Hunter and Tumble
+  description: Gains 15 / 25 / 35 Attack Damage and strengthens Night Hunter and Tumble
     for 8 / 10 / 12 seconds. When an enemy champion damaged by Vayne dies within 3
     seconds, Final Hour's duration is extended by 4 seconds, up to an additional 8
     / 10 / 12 seconds.
@@ -126,11 +125,11 @@ Gain 10 Movement Speed when moving towards enemy champions. Final Hour : Gains 7
 
 ### [1] Tumble
 
-**Cooldown:** 4.0 / 4.0 / 3.0 / 2.0 seconds
+**Cooldown:** 5.0 / 4.0 / 3.0 / 2.0 seconds
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Dashes forward and empowers her next attack to deal an additional 24 ( 40% / 50% / 60% / 70% AD ) physical damage . Final Hour : Gains 1 second of invisibility on cast. Tumble does not go through walls.
+Dashes forward and empowers her next attack to deal an additional 24 ( 35% / 45% / 55% / 65% AD ) physical damage . Final Hour : Gains 1 second of invisibility on cast. Tumble does not go through walls.
 
 ### [2] Silver Bolts
 
@@ -138,7 +137,7 @@ Dashes forward and empowers her next attack to deal an additional 24 ( 40% / 50%
 
 **Cost:** 45.0 / 45.0 / 45.0 / 45.0
 
-Passive : Every third consecutive attack or ability on the same target deals additional 3% / 6% / 9% / 12% true damage of the enemy's maximum Health. Active : Gains 40% / 45% / 50% / 55% Attack Speed for the next 3 attacks within 5 seconds and heals for 40% of the damage Silver Bolts dealt. Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped at 200 against monsters.
+Passive : Every third consecutive attack or ability on the same target deals additional 3% / 6% / 9% / 12% true damage of the enemy's maximum Health. Active : Gains 15% / 20% / 25% / 30% Attack Speed and 10% Omnivamp for 3 seconds. Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped at 200 against monsters.
 
 ### [3] Condemn
 
@@ -150,9 +149,9 @@ Fires a bolt that deals 50 / 80 / 110 / 140 ( +55% AD ) physical damage and knoc
 
 ### [4] Final Hour
 
-**Cooldown:** 65.0 / 60.0 / 55.0 seconds
+**Cooldown:** 70.0 / 65.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Gains 20 / 30 / 40 Attack Damage and strengthens Night Hunter and Tumble for 8 / 10 / 12 seconds. When an enemy champion damaged by Vayne dies within 3 seconds, Final Hour's duration is extended by 4 seconds, up to an additional 8 / 10 / 12 seconds.
+Gains 15 / 25 / 35 Attack Damage and strengthens Night Hunter and Tumble for 8 / 10 / 12 seconds. When an enemy champion damaged by Vayne dies within 3 seconds, Final Hour's duration is extended by 4 seconds, up to an additional 8 / 10 / 12 seconds.
 

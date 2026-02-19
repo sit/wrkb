@@ -40,11 +40,11 @@ abilities:
   - 14.0
   costs:
   - 80.0
-  - 85.0
-  - 90.0
-  - 95.0
+  - 80.0
+  - 80.0
+  - 80.0
   description: 'First Cast : Flies in a direction. While flying, Breath of Light has
-    no cooldown or max channel duration, and deals 112% / 115% / 117% / 120% more
+    no cooldown or max channel duration, and deals 115% / 120% / 125% / 130% more
     damage. Recast : End the flight early. If a champion is killed within 3 seconds
     of taking damage from Aurelion Sol, 90% of this ability''s cooldown is refunded.
     Flight speed : 300 + 100 MS . Aurelion Sol''s flight speed is reduced by 50% if
@@ -65,11 +65,11 @@ abilities:
     damage per second and dragging enemies toward the center of the black hole for
     5 seconds. Enemies in the center die instantly when their Health falls below 5%
     ( 5 + 2.6% of Stardust stacks). For every second an enemy champion is trapped
-    within the black hole's range, Aurelion Sol gains 1 stack of Stardust . When enemies
-    are killed within the black hole's range, Aurelion Sol gains 5 stacks of Stardust
-    for every champion on epic monster killed; 5 stacks of Stardust for every siege
-    minion or large monster killed; and 1 stack of Stardust for every minion or small
-    monster killed.
+    within the black hole's range, Aurelion Sol gains 2 stacks of Stardust . When
+    enemies are killed within the black hole's range, Aurelion Sol gains 5 stacks
+    of Stardust for every champion on epic monster killed; 5 stacks of Stardust for
+    every siege minion or large monster killed; and 1 stack of Stardust for every
+    minion or small monster killed.
   name: Singularity
   slot: '3'
 - cooldowns:
@@ -161,9 +161,9 @@ Breathes starfire for 3.25 seconds dealing 58 / 53 / 88 / 103 ( +60% AP ) magic 
 
 **Cooldown:** 17.0 / 16.0 / 15.0 / 14.0 seconds
 
-**Cost:** 80.0 / 85.0 / 90.0 / 95.0
+**Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-First Cast : Flies in a direction. While flying, Breath of Light has no cooldown or max channel duration, and deals 112% / 115% / 117% / 120% more damage. Recast : End the flight early. If a champion is killed within 3 seconds of taking damage from Aurelion Sol, 90% of this ability's cooldown is refunded. Flight speed : 300 + 100 MS . Aurelion Sol's flight speed is reduced by 50% if Breath of Light is cast while flying.
+First Cast : Flies in a direction. While flying, Breath of Light has no cooldown or max channel duration, and deals 115% / 120% / 125% / 130% more damage. Recast : End the flight early. If a champion is killed within 3 seconds of taking damage from Aurelion Sol, 90% of this ability's cooldown is refunded. Flight speed : 300 + 100 MS . Aurelion Sol's flight speed is reduced by 50% if Breath of Light is cast while flying.
 
 ### [3] Singularity
 
@@ -171,7 +171,7 @@ First Cast : Flies in a direction. While flying, Breath of Light has no cooldown
 
 **Cost:** 80.0 / 85.0 / 90.0 / 95.0
 
-Summons a black hole, dealing 20 / 27.5 / 35 / 42.5 ( +15% AP ) magic damage per second and dragging enemies toward the center of the black hole for 5 seconds. Enemies in the center die instantly when their Health falls below 5% ( 5 + 2.6% of Stardust stacks). For every second an enemy champion is trapped within the black hole's range, Aurelion Sol gains 1 stack of Stardust . When enemies are killed within the black hole's range, Aurelion Sol gains 5 stacks of Stardust for every champion on epic monster killed; 5 stacks of Stardust for every siege minion or large monster killed; and 1 stack of Stardust for every minion or small monster killed.
+Summons a black hole, dealing 20 / 27.5 / 35 / 42.5 ( +15% AP ) magic damage per second and dragging enemies toward the center of the black hole for 5 seconds. Enemies in the center die instantly when their Health falls below 5% ( 5 + 2.6% of Stardust stacks). For every second an enemy champion is trapped within the black hole's range, Aurelion Sol gains 2 stacks of Stardust . When enemies are killed within the black hole's range, Aurelion Sol gains 5 stacks of Stardust for every champion on epic monster killed; 5 stacks of Stardust for every siege minion or large monster killed; and 1 stack of Stardust for every minion or small monster killed.
 
 ### [4] Falling Star/ The Skies Descend
 

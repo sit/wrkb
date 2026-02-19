@@ -12,33 +12,36 @@ abilities:
   - 7.0
   - 7.0
   description: 'Deal 80 / 130 / 180 / 230 ( +90% AD ) physical damage to nearby enemies,
-    generating 5 Fury and healing 7 / 9 / 11 / 13 ( +10% AD ) per enemy hit. Reign
-    of Anger : Damage increases to 120 / 195 / 270 / 345 ( +135% AD ) physical damage
-    and healing is increased by 200% .'
+    generating 5 Fury or 10 Fury if the enemy hit is a champion and healing 5 / 7
+    / 9 / 11 ( +5% bonus AD ) per enemy hit, if the enemy hit is a champion, restore
+    20 / 28 / 36 / 44 ( +20% bonus AD ) Health . Reign of Anger : Damage increases
+    to 120 / 195 / 270 / 345 ( +135% AD ) physical damage and healing is increased
+    by 200% .'
   name: Cull the Meek
   slot: '1'
 - cooldowns:
-  - 13.0
   - 12.0
   - 11.0
-  - 10.0
+  - 9.0
+  - 8.0
   description: 'Empowers the next attack to strike twice, stunning for 0.75 seconds
     and dealing 30 / 60 / 90 / 120 ( +150% AD ) physical damage . Reign of Anger :
     Strikes three times, stunning for 1.5 seconds and dealing 45 / 90 / 135 / 180
     ( +225% AD ) physical damage . Under the effect of Red Fury, clear all shields
-    on the target.'
+    on the target. Gain an additional 10 Fury when an enemy champion is hit.'
   name: Ruthless Predator
   slot: '2'
 - cooldowns:
-  - 15.0
   - 14.0
   - 13.0
-  - 12.0
+  - 11.0
+  - 10.0
   description: 'Dash in a direction, dealing 40 / 80 / 120 / 160 ( +90% AD ) physical
-    damage and generating 5 Fury for each enemy passed through. Hitting an enemy grants
-    a second dash to cast within 4 seconds. Reign of Anger : The second dash now deals
-    70 / 130 / 190 / 250 ( +135% AD ) physical damage and shreds armor by 25% / 30%
-    / 35% / 40% for 4 seconds.'
+    damage and generating 5 Fury for each enemy passed through or 10 Fury if the enemy
+    hit is a champion. Hitting an enemy grants a second dash to cast within 4 seconds.
+    Reign of Anger : The second dash now deals 70 / 130 / 190 / 250 ( +135% AD ) physical
+    damage and shreds armor by 25% / 30% / 35% / 40% for 4 seconds. When an enemy
+    champion is hit, restore 20 Fury in 2 seconds.'
   name: Slice and Dice
   slot: '3'
 - cooldowns:
@@ -104,19 +107,19 @@ Casting abilities with 50 Fury or more consumes that Fury for enhanced effects. 
 
 **Cooldown:** 7.0 / 7.0 / 7.0 / 7.0 seconds
 
-Deal 80 / 130 / 180 / 230 ( +90% AD ) physical damage to nearby enemies, generating 5 Fury and healing 7 / 9 / 11 / 13 ( +10% AD ) per enemy hit. Reign of Anger : Damage increases to 120 / 195 / 270 / 345 ( +135% AD ) physical damage and healing is increased by 200% .
+Deal 80 / 130 / 180 / 230 ( +90% AD ) physical damage to nearby enemies, generating 5 Fury or 10 Fury if the enemy hit is a champion and healing 5 / 7 / 9 / 11 ( +5% bonus AD ) per enemy hit, if the enemy hit is a champion, restore 20 / 28 / 36 / 44 ( +20% bonus AD ) Health . Reign of Anger : Damage increases to 120 / 195 / 270 / 345 ( +135% AD ) physical damage and healing is increased by 200% .
 
 ### [2] Ruthless Predator
 
-**Cooldown:** 13.0 / 12.0 / 11.0 / 10.0 seconds
+**Cooldown:** 12.0 / 11.0 / 9.0 / 8.0 seconds
 
-Empowers the next attack to strike twice, stunning for 0.75 seconds and dealing 30 / 60 / 90 / 120 ( +150% AD ) physical damage . Reign of Anger : Strikes three times, stunning for 1.5 seconds and dealing 45 / 90 / 135 / 180 ( +225% AD ) physical damage . Under the effect of Red Fury, clear all shields on the target.
+Empowers the next attack to strike twice, stunning for 0.75 seconds and dealing 30 / 60 / 90 / 120 ( +150% AD ) physical damage . Reign of Anger : Strikes three times, stunning for 1.5 seconds and dealing 45 / 90 / 135 / 180 ( +225% AD ) physical damage . Under the effect of Red Fury, clear all shields on the target. Gain an additional 10 Fury when an enemy champion is hit.
 
 ### [3] Slice and Dice
 
-**Cooldown:** 15.0 / 14.0 / 13.0 / 12.0 seconds
+**Cooldown:** 14.0 / 13.0 / 11.0 / 10.0 seconds
 
-Dash in a direction, dealing 40 / 80 / 120 / 160 ( +90% AD ) physical damage and generating 5 Fury for each enemy passed through. Hitting an enemy grants a second dash to cast within 4 seconds. Reign of Anger : The second dash now deals 70 / 130 / 190 / 250 ( +135% AD ) physical damage and shreds armor by 25% / 30% / 35% / 40% for 4 seconds.
+Dash in a direction, dealing 40 / 80 / 120 / 160 ( +90% AD ) physical damage and generating 5 Fury for each enemy passed through or 10 Fury if the enemy hit is a champion. Hitting an enemy grants a second dash to cast within 4 seconds. Reign of Anger : The second dash now deals 70 / 130 / 190 / 250 ( +135% AD ) physical damage and shreds armor by 25% / 30% / 35% / 40% for 4 seconds. When an enemy champion is hit, restore 20 Fury in 2 seconds.
 
 ### [4] Dominus
 

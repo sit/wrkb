@@ -52,12 +52,12 @@ abilities:
   - 50.0
   description: Empowers Vi's next attack to deal 20 / 45 / 70 / 95 ( +15% AD +70%
     AP ) bonus physical damage to the target and enemies behind it. Vi stores a new
-    charge every 14 / 12 / 10 / 8 seconds and can hold 2 charges at once.
+    charge every 11 / 10 / 9 / 8 seconds and can hold 2 charges at once.
   name: Excessive Force
   slot: '3'
 - cooldowns:
-  - 70.0
   - 60.0
+  - 55.0
   - 50.0
   costs:
   - 100.0
@@ -149,11 +149,11 @@ Passive : Hitting an enemy with an attack or ability grants a stack of Blast Shi
 
 **Cost:** 20.0 / 30.0 / 40.0 / 50.0
 
-Empowers Vi's next attack to deal 20 / 45 / 70 / 95 ( +15% AD +70% AP ) bonus physical damage to the target and enemies behind it. Vi stores a new charge every 14 / 12 / 10 / 8 seconds and can hold 2 charges at once.
+Empowers Vi's next attack to deal 20 / 45 / 70 / 95 ( +15% AD +70% AP ) bonus physical damage to the target and enemies behind it. Vi stores a new charge every 11 / 10 / 9 / 8 seconds and can hold 2 charges at once.
 
 ### [4] Assault and Battery
 
-**Cooldown:** 70.0 / 60.0 / 50.0 seconds
+**Cooldown:** 60.0 / 55.0 / 50.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

@@ -44,10 +44,10 @@ abilities:
   - 35.0
   - 35.0
   - 35.0
-  description: 'Passive : Amumu takes 4 / 6 / 8 / 10 ( +4% Armor +4% MR ) reduced
-    physical damage. Active : Deals 110 / 140 / 170 / 200 ( +50% AP ) magic damage
-    to neaby enemies and slows them by 20% for 0.5 seconds. Tantrum''s cooldown is
-    reduced by 0.5 seconds when Amumu is hit by an attack.'
+  description: 'Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical
+    damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby
+    enemies and slows them by 20% for 0.5 seconds. Tantrum''s cooldown is reduced
+    by 0.5 seconds when Amumu is hit by an attack.'
   name: Tantrum
   slot: '3'
 - cooldowns:
@@ -74,7 +74,7 @@ base_stats:
     base: '0.80'
     growth: '0.0150'
   Health:
-    base: '720'
+    base: '690'
     growth: '104'
   Health Reg. (5s):
     base: '99'
@@ -106,7 +106,7 @@ Jungle, Support
 
 ## Base Stats
 
-- Health: 720 (+104 per level)
+- Health: 690 (+104 per level)
 - Health Reg. (5s): 99 (+1 per level)
 - Mana: 390 (+49 per level)
 - Mana Reg. (5s): 15 (+1 per level)
@@ -144,7 +144,7 @@ Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.4% / 1.8% / 2.2%
 
 **Cost:** 35.0 / 35.0 / 35.0
 
-Passive : Amumu takes 4 / 6 / 8 / 10 ( +4% Armor +4% MR ) reduced physical damage. Active : Deals 110 / 140 / 170 / 200 ( +50% AP ) magic damage to neaby enemies and slows them by 20% for 0.5 seconds. Tantrum's cooldown is reduced by 0.5 seconds when Amumu is hit by an attack.
+Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby enemies and slows them by 20% for 0.5 seconds. Tantrum's cooldown is reduced by 0.5 seconds when Amumu is hit by an attack.
 
 ### [4] Curse of the Sad Mummy
 

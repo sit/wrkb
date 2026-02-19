@@ -14,7 +14,7 @@ abilities:
   - 80.0
   - 85.0
   - 90.0
-  description: Deals 60 / 110 / 160 / 210 ( +55% AP ) magic damage and blinds the
+  description: Deals 60 / 110 / 160 / 210 ( +50% AP ) magic damage and blinds the
     target for 1.25 / 1.5 / 1.75 / 2 seconds. Attacks from blinded enemies will miss
     their target, dealing no damage and failing to apply on-hit effects.
   name: Blinding Dart
@@ -64,7 +64,7 @@ abilities:
   - 75.0
   - 75.0
   description: Places a mushroom trap that detonates when an enemy steps on it, dealing
-    225 / 350 / 475 ( +60% AP ) magic damage over 3 seconds and slowing by 30% / 40%
+    225 / 350 / 475 ( +50% AP ) magic damage over 3 seconds and slowing by 30% / 40%
     / 50% for 3 seconds. Traps last for 2 minutes.
   name: Noxious Trap
   slot: '4'
@@ -99,6 +99,7 @@ base_stats:
 name: Teemo
 roles:
 - Baron Lane
+- Mid Lane
 source_url: https://www.wildriftfire.com/guide/teemo
 ---
 
@@ -106,7 +107,7 @@ source_url: https://www.wildriftfire.com/guide/teemo
 
 ## Roles
 
-Baron Lane
+Baron Lane, Mid Lane
 
 ## Base Stats
 
@@ -132,7 +133,7 @@ Attacks deal 12 ( +20% AP ) bonus magic damage on impact and an additional 11 ( 
 
 **Cost:** 75.0 / 80.0 / 85.0 / 90.0
 
-Deals 60 / 110 / 160 / 210 ( +55% AP ) magic damage and blinds the target for 1.25 / 1.5 / 1.75 / 2 seconds. Attacks from blinded enemies will miss their target, dealing no damage and failing to apply on-hit effects.
+Deals 60 / 110 / 160 / 210 ( +50% AP ) magic damage and blinds the target for 1.25 / 1.5 / 1.75 / 2 seconds. Attacks from blinded enemies will miss their target, dealing no damage and failing to apply on-hit effects.
 
 ### [2] Move Quick
 
@@ -156,5 +157,5 @@ After a delay, become Camouflaged. Moving outside of brush for more than 3 / 3.5
 
 **Cost:** 75.0 / 75.0 / 75.0 / 75.0
 
-Places a mushroom trap that detonates when an enemy steps on it, dealing 225 / 350 / 475 ( +60% AP ) magic damage over 3 seconds and slowing by 30% / 40% / 50% for 3 seconds. Traps last for 2 minutes.
+Places a mushroom trap that detonates when an enemy steps on it, dealing 225 / 350 / 475 ( +50% AP ) magic damage over 3 seconds and slowing by 30% / 40% / 50% for 3 seconds. Traps last for 2 minutes.
 

@@ -1,10 +1,10 @@
 ---
 cost: 500
 effects:
-- Gain a Blue Dream Bubble and a Purple Dream Bubble every 8 seconds. Healing or shielding
-  an ally blows both Dream Bubbles to them, empowering them for 3 seconds. Blue Bubble
-  reduces the next incoming damage by 70-140, while Purple Bubble grants 20-90 bonus
-  magic damage on the next hit.
+- ' Gain a Blue Dream Bubble and a Purple Dream Bubble every 6s. Granting an ally
+  active heals or shields blows both Dream Bubbles to them, empowering them for 3s..
+  Both Dream Bubbles grant their next hit 15~90 bonus Magic Damage and 15%~30% Movement
+  Speed for 3s.'
 id: 196
 image_url: https://www.wildriftfire.com/images/items/dream-maker.png
 name: Dream Maker
@@ -19,5 +19,5 @@ type: Enchantment
 
 ## Effects
 
-Gain a Blue Dream Bubble and a Purple Dream Bubble every 8 seconds. Healing or shielding an ally blows both Dream Bubbles to them, empowering them for 3 seconds. Blue Bubble reduces the next incoming damage by 70-140, while Purple Bubble grants 20-90 bonus magic damage on the next hit.
+ Gain a Blue Dream Bubble and a Purple Dream Bubble every 6s. Granting an ally active heals or shields blows both Dream Bubbles to them, empowering them for 3s.. Both Dream Bubbles grant their next hit 15~90 bonus Magic Damage and 15%~30% Movement Speed for 3s.
 

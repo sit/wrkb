@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Gains 8% / 16% / 24% Physical Vamp .
+- description: Gains 6% / 12% / 18% / 24% Physical Vamp .
   name: Soul Eater
   slot: P
 - cooldowns:
@@ -16,7 +16,7 @@ abilities:
   description: Empowers next attack within 10 seconds to deal an additional 20 / 50
     / 80 / 110 physical damage . If Siphoning Strike kills the target, its damage
     is permanently increased by 5 . Killing champions, large minions and large monsters
-    increases Siphoning Strike's damage by 10 instead.
+    increases Siphoning Strike's damage by 14 instead.
   name: Siphoning Strike
   slot: '1'
 - cooldowns:
@@ -66,7 +66,7 @@ base_stats:
     base: '46'
     growth: '4'
   Attack Dmg.:
-    base: '62'
+    base: '58'
     growth: '5'
   Attack Spd.:
     base: '0.80'
@@ -110,14 +110,14 @@ Baron Lane
 - Armor: 46 (+4 per level)
 - Magic Res.: 32 (+2 per level)
 - Move Speed: 355 (+0 per level)
-- Attack Dmg.: 62 (+5 per level)
+- Attack Dmg.: 58 (+5 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
 
 ### [P] Soul Eater
 
-Gains 8% / 16% / 24% Physical Vamp .
+Gains 6% / 12% / 18% / 24% Physical Vamp .
 
 ### [1] Siphoning Strike
 
@@ -125,7 +125,7 @@ Gains 8% / 16% / 24% Physical Vamp .
 
 **Cost:** 15.0 / 15.0 / 15.0 / 15.0
 
-Empowers next attack within 10 seconds to deal an additional 20 / 50 / 80 / 110 physical damage . If Siphoning Strike kills the target, its damage is permanently increased by 5 . Killing champions, large minions and large monsters increases Siphoning Strike's damage by 10 instead.
+Empowers next attack within 10 seconds to deal an additional 20 / 50 / 80 / 110 physical damage . If Siphoning Strike kills the target, its damage is permanently increased by 5 . Killing champions, large minions and large monsters increases Siphoning Strike's damage by 14 instead.
 
 ### [2] Wither
 

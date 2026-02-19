@@ -20,16 +20,16 @@ abilities:
   name: Twin Bite
   slot: '1'
 - cooldowns:
-  - 15.0
-  - 14.0
   - 13.0
   - 12.0
-  description: 'Deals 40 / 55 / 70 / 85 ( +30% bonus AD ) magic damage per second
+  - 11.0
+  - 10.0
+  description: 'Deals 35 / 50 / 65 / 80 ( +30% bonus AD ) magic damage per second
     to nearby enemies and hastes Shyvana by 30% / 35% / 40% / 45% decaying over 3
     seconds. Attacking extends the duration of Burnout up to 4 seconds. Dragon Form
     : Expands the flames, dealing damage to a larger area. Acquiring 200 stacks of
     Draconic Bloodline , grants Wings of the Cloud, causing Burnout to haste Shyvana
-    by an additional 25% while in Dragon Form .'
+    by an additional 30% while in Dragon Form .'
   name: Burnout
   slot: '2'
 - cooldowns:
@@ -41,7 +41,7 @@ abilities:
     AP ) magic damage to enemies hit and Scorches them for 5 seconds. Shyvana''s attacks
     on Scorched enemies deal 3% bonus magic damage of their max Health. Dragon Form
     : The fireball explodes on impact, dealing 110 ( +50% AD +70% AP ) magic damage
-    in an area that leaves a fire for 4 seconds that deals 34 ( +10% AD +20% AP )
+    in an area that leaves a fire for 4 seconds that deals 28 ( +10% AD +20% AP )
     magic damage and Scorches enemies within it. Acquiring 300 stacks of Draconic
     Bloodline , grants Breath of the Infernal, converting the damage dealt to Scorched
     enemies to True Damage while in Dragon Form .'
@@ -58,10 +58,10 @@ abilities:
   description: 'Passive : Generates 1.5 / 2 / 2.5 Fury per second and 2 Fury per attack.
     At 100 Fury , Shyvana can cast Dragon''s Descent , Svhyvana remains in Dragon
     from until she has consumed all of her Fury . Active : Transforms into a dragon,
-    gaining 300 / 400 / 500 Health and flying to a target location. Enemies along
+    gaining 350 / 450 / 550 Health and flying to a target location. Enemies along
     Shyvana''s path take 150 / 250 / 350 ( +80% AP ) magic damage and are knocked
     towards her landing point. Acquiring 400 stacks of Draconic Bloodline , grants
-    Life of the Ocean, gaining 15% Omnivamp in Dragon Form .'
+    Life of the Ocean, gaining 20% Omnivamp in Dragon Form .'
   name: Dragon's Descent
   slot: '4'
 base_stats:
@@ -122,15 +122,15 @@ Empowers Shyvana's next attack to strike twice, dealing 58 ( 100% AD ) and 12 ( 
 
 ### [2] Burnout
 
-**Cooldown:** 15.0 / 14.0 / 13.0 / 12.0 seconds
+**Cooldown:** 13.0 / 12.0 / 11.0 / 10.0 seconds
 
-Deals 40 / 55 / 70 / 85 ( +30% bonus AD ) magic damage per second to nearby enemies and hastes Shyvana by 30% / 35% / 40% / 45% decaying over 3 seconds. Attacking extends the duration of Burnout up to 4 seconds. Dragon Form : Expands the flames, dealing damage to a larger area. Acquiring 200 stacks of Draconic Bloodline , grants Wings of the Cloud, causing Burnout to haste Shyvana by an additional 25% while in Dragon Form .
+Deals 35 / 50 / 65 / 80 ( +30% bonus AD ) magic damage per second to nearby enemies and hastes Shyvana by 30% / 35% / 40% / 45% decaying over 3 seconds. Attacking extends the duration of Burnout up to 4 seconds. Dragon Form : Expands the flames, dealing damage to a larger area. Acquiring 200 stacks of Draconic Bloodline , grants Wings of the Cloud, causing Burnout to haste Shyvana by an additional 30% while in Dragon Form .
 
 ### [3] Flame Breath
 
 **Cooldown:** 11.0 / 10.0 / 9.0 / 8.0 seconds
 
-Launches a fireball that deals 60 / 110 / 160 / 210 ( +30% AD +40% AP ) magic damage to enemies hit and Scorches them for 5 seconds. Shyvana's attacks on Scorched enemies deal 3% bonus magic damage of their max Health. Dragon Form : The fireball explodes on impact, dealing 110 ( +50% AD +70% AP ) magic damage in an area that leaves a fire for 4 seconds that deals 34 ( +10% AD +20% AP ) magic damage and Scorches enemies within it. Acquiring 300 stacks of Draconic Bloodline , grants Breath of the Infernal, converting the damage dealt to Scorched enemies to True Damage while in Dragon Form .
+Launches a fireball that deals 60 / 110 / 160 / 210 ( +30% AD +40% AP ) magic damage to enemies hit and Scorches them for 5 seconds. Shyvana's attacks on Scorched enemies deal 3% bonus magic damage of their max Health. Dragon Form : The fireball explodes on impact, dealing 110 ( +50% AD +70% AP ) magic damage in an area that leaves a fire for 4 seconds that deals 28 ( +10% AD +20% AP ) magic damage and Scorches enemies within it. Acquiring 300 stacks of Draconic Bloodline , grants Breath of the Infernal, converting the damage dealt to Scorched enemies to True Damage while in Dragon Form .
 
 ### [4] Dragon's Descent
 
@@ -138,5 +138,5 @@ Launches a fireball that deals 60 / 110 / 160 / 210 ( +30% AD +40% AP ) magic da
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Passive : Generates 1.5 / 2 / 2.5 Fury per second and 2 Fury per attack. At 100 Fury , Shyvana can cast Dragon's Descent , Svhyvana remains in Dragon from until she has consumed all of her Fury . Active : Transforms into a dragon, gaining 300 / 400 / 500 Health and flying to a target location. Enemies along Shyvana's path take 150 / 250 / 350 ( +80% AP ) magic damage and are knocked towards her landing point. Acquiring 400 stacks of Draconic Bloodline , grants Life of the Ocean, gaining 15% Omnivamp in Dragon Form .
+Passive : Generates 1.5 / 2 / 2.5 Fury per second and 2 Fury per attack. At 100 Fury , Shyvana can cast Dragon's Descent , Svhyvana remains in Dragon from until she has consumed all of her Fury . Active : Transforms into a dragon, gaining 350 / 450 / 550 Health and flying to a target location. Enemies along Shyvana's path take 150 / 250 / 350 ( +80% AP ) magic damage and are knocked towards her landing point. Acquiring 400 stacks of Draconic Bloodline , grants Life of the Ocean, gaining 20% Omnivamp in Dragon Form .
 

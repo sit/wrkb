@@ -1,9 +1,9 @@
 ---
 cost: 2700
 effects:
-- 'UNIQUE - THORNS:  When hit by an enemy champion''s attack, deal 20 + 6% bonus armor
-  + 2% bonus health magic damage to the attacker, inflicting 50% Grievous Wounds for
-  3 seconds.'
+- "UNIQUE - THORNS:  When Struck by an attack, deal 20 + 6% Bonus Armor + 2% Bonus\
+  \ Health  Magic Damage to the attacker.\r\nUNIQUE - ENTWINE: Apply Grievous Wounds\
+  \ to enemy champions for 3s when struck by their attacks or dealing damage to them."
 id: 86
 image_url: https://www.wildriftfire.com/images/items/thornmail.png
 name: Thornmail
@@ -25,5 +25,6 @@ type: Defense
 
 ## Effects
 
-UNIQUE - THORNS:  When hit by an enemy champion's attack, deal 20 + 6% bonus armor + 2% bonus health magic damage to the attacker, inflicting 50% Grievous Wounds for 3 seconds.
+UNIQUE - THORNS:  When Struck by an attack, deal 20 + 6% Bonus Armor + 2% Bonus Health  Magic Damage to the attacker.
+UNIQUE - ENTWINE: Apply Grievous Wounds to enemy champions for 3s when struck by their attacks or dealing damage to them.
 

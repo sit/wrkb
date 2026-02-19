@@ -8,10 +8,9 @@ image_url: https://www.wildriftfire.com/images/items/staff-of-flowing-water.png
 name: Staff of Flowing Water
 stats:
 - +100 Health
-- +350 Mana
 - +45 Ability Power
-- +10 Ability Haste
-- +8% Heal and Shield Strength
+- +20 Ability Haste
+- +5% Heal and Shield Strength
 type: Magic
 ---
 
@@ -23,10 +22,9 @@ type: Magic
 ## Stats
 
 - +100 Health
-- +350 Mana
 - +45 Ability Power
-- +10 Ability Haste
-- +8% Heal and Shield Strength
+- +20 Ability Haste
+- +5% Heal and Shield Strength
 
 ## Effects
 

@@ -1,8 +1,8 @@
 ---
 cost: 500
 effects:
-- Grant a nearby targeted ally a spell shield for 3 seconds that blocks the next enemy
-  ability. (45 second cooldown)
+- Grant nearby ally champions a 3s spell shield that blocks the next hostile ability
+  (60s Cooldown)
 id: 130
 image_url: https://www.wildriftfire.com/images/items/veil.png
 name: Veil
@@ -17,5 +17,5 @@ type: Enchantment
 
 ## Effects
 
-Grant a nearby targeted ally a spell shield for 3 seconds that blocks the next enemy ability. (45 second cooldown)
+Grant nearby ally champions a 3s spell shield that blocks the next hostile ability (60s Cooldown)
 

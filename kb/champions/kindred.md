@@ -2,17 +2,18 @@
 abilities:
 - description: 'Marks targets with Mark of the Kindred for hunting. Deals additional
     30% damage to small monsters, Red Bramblebacks, and Blue Sentinels that are marked.
-    There are different ways to mark a target: 1. Auto-refresh: Every 30 seconds,
+    There are different ways to mark a target: 1. Auto-refresh: Every 25 seconds,
     the Mark on a monster expires and a new one is automatically applied. Marks on
     monsters are highlighted on the minimap . 2. Active: Tap the Mark button above
-    your spells to mark an enemy champion. Scoring a takedown against a hunted target
-    grants a Mark of the Kindred stack that empowers Kindred. The first 3 stacks gained
-    grant 75 attack range , and every 3 stacks gained subsequently grant 25 attack
-    range . Mark of the Kindred also empowers abilities and grants them the following
-    effects: Dance of Arrows : Gain 0% bonus Attack Speed (5% of Mark of the Kindred
-    stack count). Wolf''s Frenzy : Deal bonus damage equal to 0% of current Health
-    (1% of Mark of the Kindred stack count). Mounting Dread : Deal bonus damage equal
-    to 0% of missing Health (1% of Mark of the Kindred stack count).'
+    your spells to mark an enemy champion. 40 second cooldown (120 second cooldown
+    for marking same champion) . Scoring a takedown against a hunted target grants
+    a Mark of the Kindred stack that empowers Kindred. The first 3 stacks gained grant
+    75 attack range , and every 3 stacks gained subsequently grant 25 attack range
+    . Mark of the Kindred also empowers abilities and grants them the following effects:
+    Dance of Arrows : Gain 0% bonus Attack Speed (5% of Mark of the Kindred stack
+    count). Wolf''s Frenzy : Deal bonus damage equal to 0% of current Health (1% of
+    Mark of the Kindred stack count). Mounting Dread : Deal bonus damage equal to
+    0% of missing Health (1% of Mark of the Kindred stack count).'
   name: Mark of the Kindred
   slot: P
 - cooldowns:
@@ -143,7 +144,7 @@ Jungle
 
 ### [P] Mark of the Kindred
 
-Marks targets with Mark of the Kindred for hunting. Deals additional 30% damage to small monsters, Red Bramblebacks, and Blue Sentinels that are marked. There are different ways to mark a target: 1. Auto-refresh: Every 30 seconds, the Mark on a monster expires and a new one is automatically applied. Marks on monsters are highlighted on the minimap . 2. Active: Tap the Mark button above your spells to mark an enemy champion. Scoring a takedown against a hunted target grants a Mark of the Kindred stack that empowers Kindred. The first 3 stacks gained grant 75 attack range , and every 3 stacks gained subsequently grant 25 attack range . Mark of the Kindred also empowers abilities and grants them the following effects: Dance of Arrows : Gain 0% bonus Attack Speed (5% of Mark of the Kindred stack count). Wolf's Frenzy : Deal bonus damage equal to 0% of current Health (1% of Mark of the Kindred stack count). Mounting Dread : Deal bonus damage equal to 0% of missing Health (1% of Mark of the Kindred stack count).
+Marks targets with Mark of the Kindred for hunting. Deals additional 30% damage to small monsters, Red Bramblebacks, and Blue Sentinels that are marked. There are different ways to mark a target: 1. Auto-refresh: Every 25 seconds, the Mark on a monster expires and a new one is automatically applied. Marks on monsters are highlighted on the minimap . 2. Active: Tap the Mark button above your spells to mark an enemy champion. 40 second cooldown (120 second cooldown for marking same champion) . Scoring a takedown against a hunted target grants a Mark of the Kindred stack that empowers Kindred. The first 3 stacks gained grant 75 attack range , and every 3 stacks gained subsequently grant 25 attack range . Mark of the Kindred also empowers abilities and grants them the following effects: Dance of Arrows : Gain 0% bonus Attack Speed (5% of Mark of the Kindred stack count). Wolf's Frenzy : Deal bonus damage equal to 0% of current Health (1% of Mark of the Kindred stack count). Mounting Dread : Deal bonus damage equal to 0% of missing Health (1% of Mark of the Kindred stack count).
 
 ### [1] Dance of Arrows
 

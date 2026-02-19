@@ -10,7 +10,7 @@ image_url: https://www.wildriftfire.com/images/items/force-of-nature.png
 name: Force of Nature
 stats:
 - +350 Health
-- +55 Magic Resist
+- +60 Magic Resist
 type: Defense
 ---
 
@@ -22,7 +22,7 @@ type: Defense
 ## Stats
 
 - +350 Health
-- +55 Magic Resist
+- +60 Magic Resist
 
 ## Effects
 

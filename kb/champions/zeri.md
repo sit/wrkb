@@ -1,11 +1,13 @@
 ---
 abilities:
-- description: Zeri Shields herself for 60% of the damge she deals to Shields , and
-    gains 15% Move Speed for 3 seconds when Shielded .
+- description: Fires a burst of 6 rounds in the target direction, dealing 13 / 15
+    / 17 / 19 / 21 ( +101% / 108% / 112% / 116% / 120% AD ) physical damage to the
+    first enemy hit. Zeri's Attack Speed is capped at 1.5 attacks per second. 50%
+    of Attack Speed in excess of the cap is converted into bonus Attack Damage .
   name: Living Battery
   slot: P
 - cooldowns:
-  - 8.0
+  - 7.0
   - 6.0
   - 4.0
   - 3.0
@@ -14,12 +16,10 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: 'Passive: Zeri''s attack fires a burst of 6 rounds in the target''s
-    direction, dealing 8 ( +100% AD ) physical damage to the first enemy hit. Zeri''s
-    attack speed has a maximum of 1.5 attacks per second. 50% of attack speed in excess
-    of the cap is converted into bonus attack damage. Active : Zeri zaps target location,
-    dealing 35 / 60 / 85 / 110 ( +55% / 70% / 85% / 100% AD +30% / 35% / 40% / 45%
-    AP ) magical damage and slowing them by 14% / 18% / 22% / 26% for 2 seconds.'
+  description: Zaps target location, dealing 35 / 60 / 85 / 110 ( +55% / 70% / 85%
+    / 100% AD +30% / 35% / 40% / 45% AP ) magic damage and applying a 14% / 18% /
+    22% / 26% slow effect that decays over 2 seconds. If this ability kills an enemy,
+    it refunds 50% of its cooldown and 100% of its Mana Cost.
   name: Electrocute!
   slot: '1'
 - cooldowns:
@@ -32,27 +32,30 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: Zeri fires out an electric puls that deals 30 / 70 / 110 / 150 ( +80%
-    AD +40% AP ) magic damage tot he first unit hit, slowing it by 30% / 35% / 40%
-    / 45% for 2 seconds. If the pulse hits a wall, it expands into a long rage laser,
-    applying the effects in an area and crit champions and monster.
+  description: Zeri fires out an electric pulse that deals 30 / 70 / 110 / 150 ( +80%
+    AD +40% AP ) physical damage tot he first unit hit, slowing it by 30% / 35% /
+    40% / 45% for 2 seconds. If the pulse hits a wall, it expands into a long range
+    laser, dealing the same damage and slow effect to enemies in the area and Critically
+    Striking champions and monsters.
   name: Ultrashock Laser
   slot: '2'
 - cooldowns:
   - 24.0
-  - 22.0
-  - 20.0
-  - 18.0
+  - 21.0
+  - 19.0
+  - 16.0
   costs:
   - 80.0
   - 80.0
   - 80.0
   - 80.0
-  description: Zeri dashes a short distance and loads up lightning rounds for 6 seconds,
-    empowering the next 3 Attacks to pierce, dealing 50% / 65% / 80% / 95% damage
-    to targets after the first. Hitting a champion with an attack reduces this ability
-    cooldown by 1 second. If Zeri touches a wall while dashing she will vault over
-    it, greatly extending the dash range.
+  description: Dashes a short distance and builds up Electrocute! for 6 seconds, empowering
+    the next 3 attacks to pierce, dealing 20 / 23 / 26 / 29 ( +10% bonus AD +20% bonus
+    AP ) bonus magic damage to the first target hit ( increased by up to 100% based
+    on her Critical Rate) and 80% / 85% / 90% / 95% damage to targets after the first.
+    Hitting an enemy champion with an attack or ability reduces this ability's cooldown
+    by 0.5 seconds. Critical Strikes reduce the cooldown by 1.5 seconds instead. Zeri
+    vaults over any terrain she touches, greatly extending the dash distance.
   name: Spark Surge
   slot: '3'
 - cooldowns:
@@ -63,14 +66,14 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Zeri discharges a nova of electricity, dealing 150 / 200 / 250 ( +70%
-    AD +80% AP ) magic damage to all enemies nearby and gaining 8 stacks of Overcharge
-    for each champion hit for 10 seconds. While Overcharged , Zeri gains 0.5% movement
-    speed per stack, 25% Attack Speed and 5 ( +15% AP ) bonus magic damage on hit.
-    During this time, her Attack becomes a faster triple shot that chains the bonus
-    5 ( +15% AP ) magic damage and 16 ( 20% AD ) physical damage to nearby enemies.
-    Hitting an enemy champion with an attack or ability adds 1 stack of Overcharge
-    . Takedowns increase its duration by 4 seconds.
+  description: Discharges a nova of electricity, dealing 150 / 200 / 250 ( +70% bonus
+    AD +80% AP ) magic damage to nearby enemies. Upon hitting an enemy champion, she
+    gains 10% Movement Speed and a 30% Attack Speed bonus that can bypass her Attack
+    Speed cap for 5 seconds. During this time, her attack becomes a faster triple
+    shot that chains to nearby enemies to deal 14 physical damage . Hitting an enemy
+    champion with an ability or attack extends this ability's duration and adds 1
+    stack of Overcharge for 1.5 seconds. Critical Strikes add 2 additional stacks.
+    Each stack grants 0.5 Movement Speed .
   name: Lightning Crash
   slot: '4'
 base_stats:
@@ -78,7 +81,7 @@ base_stats:
     base: '31'
     growth: '5'
   Attack Dmg.:
-    base: '54'
+    base: '58'
     growth: '3'
   Attack Spd.:
     base: '0.83'
@@ -122,22 +125,22 @@ ADC
 - Armor: 31 (+5 per level)
 - Magic Res.: 32 (+2 per level)
 - Move Speed: 325 (+0 per level)
-- Attack Dmg.: 54 (+3 per level)
+- Attack Dmg.: 58 (+3 per level)
 - Attack Spd.: 0.83 (+0.0171 per level)
 
 ## Abilities
 
 ### [P] Living Battery
 
-Zeri Shields herself for 60% of the damge she deals to Shields , and gains 15% Move Speed for 3 seconds when Shielded .
+Fires a burst of 6 rounds in the target direction, dealing 13 / 15 / 17 / 19 / 21 ( +101% / 108% / 112% / 116% / 120% AD ) physical damage to the first enemy hit. Zeri's Attack Speed is capped at 1.5 attacks per second. 50% of Attack Speed in excess of the cap is converted into bonus Attack Damage .
 
 ### [1] Electrocute!
 
-**Cooldown:** 8.0 / 6.0 / 4.0 / 3.0 seconds
+**Cooldown:** 7.0 / 6.0 / 4.0 / 3.0 seconds
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Passive: Zeri's attack fires a burst of 6 rounds in the target's direction, dealing 8 ( +100% AD ) physical damage to the first enemy hit. Zeri's attack speed has a maximum of 1.5 attacks per second. 50% of attack speed in excess of the cap is converted into bonus attack damage. Active : Zeri zaps target location, dealing 35 / 60 / 85 / 110 ( +55% / 70% / 85% / 100% AD +30% / 35% / 40% / 45% AP ) magical damage and slowing them by 14% / 18% / 22% / 26% for 2 seconds.
+Zaps target location, dealing 35 / 60 / 85 / 110 ( +55% / 70% / 85% / 100% AD +30% / 35% / 40% / 45% AP ) magic damage and applying a 14% / 18% / 22% / 26% slow effect that decays over 2 seconds. If this ability kills an enemy, it refunds 50% of its cooldown and 100% of its Mana Cost.
 
 ### [2] Ultrashock Laser
 
@@ -145,15 +148,15 @@ Passive: Zeri's attack fires a burst of 6 rounds in the target's direction, deal
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Zeri fires out an electric puls that deals 30 / 70 / 110 / 150 ( +80% AD +40% AP ) magic damage tot he first unit hit, slowing it by 30% / 35% / 40% / 45% for 2 seconds. If the pulse hits a wall, it expands into a long rage laser, applying the effects in an area and crit champions and monster.
+Zeri fires out an electric pulse that deals 30 / 70 / 110 / 150 ( +80% AD +40% AP ) physical damage tot he first unit hit, slowing it by 30% / 35% / 40% / 45% for 2 seconds. If the pulse hits a wall, it expands into a long range laser, dealing the same damage and slow effect to enemies in the area and Critically Striking champions and monsters.
 
 ### [3] Spark Surge
 
-**Cooldown:** 24.0 / 22.0 / 20.0 / 18.0 seconds
+**Cooldown:** 24.0 / 21.0 / 19.0 / 16.0 seconds
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Zeri dashes a short distance and loads up lightning rounds for 6 seconds, empowering the next 3 Attacks to pierce, dealing 50% / 65% / 80% / 95% damage to targets after the first. Hitting a champion with an attack reduces this ability cooldown by 1 second. If Zeri touches a wall while dashing she will vault over it, greatly extending the dash range.
+Dashes a short distance and builds up Electrocute! for 6 seconds, empowering the next 3 attacks to pierce, dealing 20 / 23 / 26 / 29 ( +10% bonus AD +20% bonus AP ) bonus magic damage to the first target hit ( increased by up to 100% based on her Critical Rate) and 80% / 85% / 90% / 95% damage to targets after the first. Hitting an enemy champion with an attack or ability reduces this ability's cooldown by 0.5 seconds. Critical Strikes reduce the cooldown by 1.5 seconds instead. Zeri vaults over any terrain she touches, greatly extending the dash distance.
 
 ### [4] Lightning Crash
 
@@ -161,5 +164,5 @@ Zeri dashes a short distance and loads up lightning rounds for 6 seconds, empowe
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Zeri discharges a nova of electricity, dealing 150 / 200 / 250 ( +70% AD +80% AP ) magic damage to all enemies nearby and gaining 8 stacks of Overcharge for each champion hit for 10 seconds. While Overcharged , Zeri gains 0.5% movement speed per stack, 25% Attack Speed and 5 ( +15% AP ) bonus magic damage on hit. During this time, her Attack becomes a faster triple shot that chains the bonus 5 ( +15% AP ) magic damage and 16 ( 20% AD ) physical damage to nearby enemies. Hitting an enemy champion with an attack or ability adds 1 stack of Overcharge . Takedowns increase its duration by 4 seconds.
+Discharges a nova of electricity, dealing 150 / 200 / 250 ( +70% bonus AD +80% AP ) magic damage to nearby enemies. Upon hitting an enemy champion, she gains 10% Movement Speed and a 30% Attack Speed bonus that can bypass her Attack Speed cap for 5 seconds. During this time, her attack becomes a faster triple shot that chains to nearby enemies to deal 14 physical damage . Hitting an enemy champion with an ability or attack extends this ability's duration and adds 1 stack of Overcharge for 1.5 seconds. Critical Strikes add 2 additional stacks. Each stack grants 0.5 Movement Speed .
 

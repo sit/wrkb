@@ -3,8 +3,8 @@ cost: 2500
 effects:
 - Catcher - After applying crowd control effects that displace the enemy, gain 30%
   Movement Speed for 3 seconds and mark the target, reducing their Armor and Magic
-  Resist by 5-12 for 5 seconds. If the target dies while they are marked, you and
-  nearby allies gain 200-300 bonus gold in total. The bonus gold can only be earned
+  Resist by 5-12 for 8 seconds. If the target dies while they are marked, you and
+  nearby allies gain 200-240 bonus gold in total. The bonus gold can only be earned
   once every 10 seconds.
 id: 195
 image_url: https://www.wildriftfire.com/images/items/yordle-trap.png
@@ -29,5 +29,5 @@ type: Defense
 
 ## Effects
 
-Catcher - After applying crowd control effects that displace the enemy, gain 30% Movement Speed for 3 seconds and mark the target, reducing their Armor and Magic Resist by 5-12 for 5 seconds. If the target dies while they are marked, you and nearby allies gain 200-300 bonus gold in total. The bonus gold can only be earned once every 10 seconds.
+Catcher - After applying crowd control effects that displace the enemy, gain 30% Movement Speed for 3 seconds and mark the target, reducing their Armor and Magic Resist by 5-12 for 8 seconds. If the target dies while they are marked, you and nearby allies gain 200-240 bonus gold in total. The bonus gold can only be earned once every 10 seconds.
 

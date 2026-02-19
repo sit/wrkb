@@ -1,7 +1,7 @@
 ---
 cost: 3000
 effects:
-- 'UNIQUE - TORMENT:  Damaging abilities or empowered attacks deal (0.4% + 0.005%
+- 'UNIQUE - TORMENT:  Damaging abilities or empowered attacks deal 0.6% - 3%(+ 0.005%
   AP) of enemy''s max Health as bonus magic damage each second, over 3 seconds.'
 id: 64
 image_url: https://www.wildriftfire.com/images/items/liandrys-torment.png
@@ -26,5 +26,5 @@ type: Magic
 
 ## Effects
 
-UNIQUE - TORMENT:  Damaging abilities or empowered attacks deal (0.4% + 0.005% AP) of enemy's max Health as bonus magic damage each second, over 3 seconds.
+UNIQUE - TORMENT:  Damaging abilities or empowered attacks deal 0.6% - 3%(+ 0.005% AP) of enemy's max Health as bonus magic damage each second, over 3 seconds.
 

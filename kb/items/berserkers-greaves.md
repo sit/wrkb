@@ -1,11 +1,12 @@
 ---
 cost: 1400
-effects: []
+effects:
+- 'UNIQUE - Blessed Blade: Attacks restore 10 Health on hit.'
 id: 158
 image_url: https://www.wildriftfire.com/images/items/berserkers-greaves.png
 name: Berserker's Greaves
 stats:
-- +20 Attack Damage
+- +15 Attack Damage
 - +35% Attack Speed
 - +45 Movement Speed
 type: Boots
@@ -18,7 +19,11 @@ type: Boots
 
 ## Stats
 
-- +20 Attack Damage
+- +15 Attack Damage
 - +35% Attack Speed
 - +45 Movement Speed
+
+## Effects
+
+UNIQUE - Blessed Blade: Attacks restore 10 Health on hit.
 

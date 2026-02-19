@@ -1,6 +1,6 @@
 ---
 description: If you take damage from a champion that causes your health to fall below
-  35%, gain a shield that absorbs 60 - 190 (with level up) for 4 seconds. (60 second
+  35%, gain a shield that absorbs 60 - 180 (with level up) for 4 seconds. (60 second
   cooldown)
 family: Resolve
 id: 105
@@ -16,5 +16,5 @@ type: Minor
 
 ## Description
 
-If you take damage from a champion that causes your health to fall below 35%, gain a shield that absorbs 60 - 190 (with level up) for 4 seconds. (60 second cooldown)
+If you take damage from a champion that causes your health to fall below 35%, gain a shield that absorbs 60 - 180 (with level up) for 4 seconds. (60 second cooldown)
 

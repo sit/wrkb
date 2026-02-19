@@ -51,7 +51,7 @@ abilities:
   description: 'Block all non-tower damage from a direction for 1.5 seconds and deal
     64 ( 100% AD ) physical damage to nearby enemies. At the end slam forward and
     deal 60 / 120 / 180 / 240 ( +150% AD ) physical damage . Mortal Will : When Pantheon
-    slams his shield he gains 60% Move Speed for 1.5 seconds. Pantheon is slowed by
+    slams his shield he gains 60% Move Speed for 2.5 seconds. Pantheon is slowed by
     up to 50% when moving away from the blocking direction. Recast to end early. Damage
     to minions is reduced by 50% .'
   name: Aegis Assault
@@ -73,7 +73,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '46'
+    base: '52'
     growth: '4'
   Attack Dmg.:
     base: '64'
@@ -88,7 +88,7 @@ base_stats:
     base: '9'
     growth: '1'
   Magic Res.:
-    base: '38'
+    base: '40'
     growth: '2'
   Mana:
     base: '420'
@@ -118,8 +118,8 @@ Baron Lane, Jungle
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 420 (+25 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 46 (+4 per level)
-- Magic Res.: 38 (+2 per level)
+- Armor: 52 (+4 per level)
+- Magic Res.: 40 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 64 (+3 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
@@ -152,7 +152,7 @@ Dash to an enemy, stunning for 1 second and dealing 70 / 120 / 170 / 220 ( +100%
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Block all non-tower damage from a direction for 1.5 seconds and deal 64 ( 100% AD ) physical damage to nearby enemies. At the end slam forward and deal 60 / 120 / 180 / 240 ( +150% AD ) physical damage . Mortal Will : When Pantheon slams his shield he gains 60% Move Speed for 1.5 seconds. Pantheon is slowed by up to 50% when moving away from the blocking direction. Recast to end early. Damage to minions is reduced by 50% .
+Block all non-tower damage from a direction for 1.5 seconds and deal 64 ( 100% AD ) physical damage to nearby enemies. At the end slam forward and deal 60 / 120 / 180 / 240 ( +150% AD ) physical damage . Mortal Will : When Pantheon slams his shield he gains 60% Move Speed for 2.5 seconds. Pantheon is slowed by up to 50% when moving away from the blocking direction. Recast to end early. Damage to minions is reduced by 50% .
 
 ### [4] Grand Starfall
 

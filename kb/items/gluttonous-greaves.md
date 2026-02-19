@@ -6,7 +6,7 @@ id: 96
 image_url: https://www.wildriftfire.com/images/items/gluttonous-greaves.png
 name: Gluttonous Greaves
 stats:
-- +35 Attack Damage
+- +30 Attack Damage
 - +45 Movement Speed
 type: Boots
 ---
@@ -18,7 +18,7 @@ type: Boots
 
 ## Stats
 
-- +35 Attack Damage
+- +30 Attack Damage
 - +45 Movement Speed
 
 ## Effects

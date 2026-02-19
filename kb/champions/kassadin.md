@@ -50,9 +50,9 @@ abilities:
   name: Force Pulse
   slot: '3'
 - cooldowns:
-  - 6.0
+  - 5.0
   - 4.0
-  - 3.0
+  - 2.0
   costs:
   - 70.0
   - 70.0
@@ -146,7 +146,7 @@ Deals 60 / 100 / 140 / 180 ( +50% AP ) magic damage to enemies and slows them by
 
 ### [4] Riftwalk
 
-**Cooldown:** 6.0 / 4.0 / 3.0 seconds
+**Cooldown:** 5.0 / 4.0 / 2.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0
 

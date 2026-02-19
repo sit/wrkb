@@ -53,9 +53,9 @@ abilities:
   - 70.0
   - 70.0
   - 70.0
-  description: 'Grants an allied champion 70 / 100 / 130 / 160 ( + 65% AP ) shield
+  description: 'Grants an allied champion 60 / 90 / 120 / 150 ( + 65% AP ) shield
     for 3 seconds and 30% movement speed for 1.5 seconds. Mantra : Karma focuses her
-    power, granting a 140 / 200 / 260 / 320 ( +65% AP ) shield that decays over 4
+    power, granting a 120 / 180 / 240 / 300 ( +65% AP ) shield that decays over 4
     seconds and 60% movement speed that decays to 20% over the same duration. An additional
     ring is generated around the shielded target, and the first ally champion who
     enters the ring will be granted the same shield and movement speed.'
@@ -157,7 +157,7 @@ Tethers up to two nearby enemy champions, dealing 35 / 60 / 85 / 110 ( +40% AP )
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Grants an allied champion 70 / 100 / 130 / 160 ( + 65% AP ) shield for 3 seconds and 30% movement speed for 1.5 seconds. Mantra : Karma focuses her power, granting a 140 / 200 / 260 / 320 ( +65% AP ) shield that decays over 4 seconds and 60% movement speed that decays to 20% over the same duration. An additional ring is generated around the shielded target, and the first ally champion who enters the ring will be granted the same shield and movement speed.
+Grants an allied champion 60 / 90 / 120 / 150 ( + 65% AP ) shield for 3 seconds and 30% movement speed for 1.5 seconds. Mantra : Karma focuses her power, granting a 120 / 180 / 240 / 300 ( +65% AP ) shield that decays over 4 seconds and 60% movement speed that decays to 20% over the same duration. An additional ring is generated around the shielded target, and the first ally champion who enters the ring will be granted the same shield and movement speed.
 
 ### [4] Transcendent Embrace
 

@@ -44,9 +44,9 @@ abilities:
   - 60.0
   - 65.0
   - 70.0
-  description: Slams the ground, dealing 50 / 100 / 150 / 200 ( +45% AP +45% Armor
-    ) magic damage to nearby enemies and reducing their attack speed by 30% / 35%
-    / 40% / 45% for 3 seconds.
+  description: Slams the ground, dealing 60 / 110 / 160 / 210 ( +45% AP +45% Armor
+    ) magic damage to nearby enemies and reducing their attack speed by 35% / 40%
+    / 45% / 50% for 3 seconds.
   name: Ground Slam
   slot: '3'
 - cooldowns:
@@ -66,7 +66,7 @@ base_stats:
     base: '49'
     growth: '4'
   Attack Dmg.:
-    base: '52'
+    base: '58'
     growth: '3'
   Attack Spd.:
     base: '0.80'
@@ -110,7 +110,7 @@ Baron Lane
 - Armor: 49 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
-- Attack Dmg.: 52 (+3 per level)
+- Attack Dmg.: 58 (+3 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
@@ -141,7 +141,7 @@ Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For the next 6 s
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Slams the ground, dealing 50 / 100 / 150 / 200 ( +45% AP +45% Armor ) magic damage to nearby enemies and reducing their attack speed by 30% / 35% / 40% / 45% for 3 seconds.
+Slams the ground, dealing 60 / 110 / 160 / 210 ( +45% AP +45% Armor ) magic damage to nearby enemies and reducing their attack speed by 35% / 40% / 45% / 50% for 3 seconds.
 
 ### [4] Unstoppable Force
 

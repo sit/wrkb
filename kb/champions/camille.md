@@ -32,7 +32,7 @@ abilities:
   description: Slices in a direction, dealing 100 / 130 / 160 / 190 ( +110% AD ) and
     an additional 3% / 5% / 7% / 9% of the target's maximum Health as physical damage
     . Enemies hit by the outer half are slowed by 80% decaying over 2 seconds, healing
-    Camille for 50% of the damage dealt to champions. Deals 80% damage to monsters.
+    Camille for 80% of the damage dealt to champions. Deals 95% damage to monsters.
   name: Tactical Sweep
   slot: '2'
 - cooldowns:
@@ -72,7 +72,7 @@ base_stats:
     base: '46'
     growth: '4'
   Attack Dmg.:
-    base: '58'
+    base: '62'
     growth: '4'
   Attack Spd.:
     base: '0.82'
@@ -117,7 +117,7 @@ Baron Lane, Jungle
 - Armor: 46 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
+- Attack Dmg.: 62 (+4 per level)
 - Attack Spd.: 0.82 (+0.0143 per level)
 
 ## Abilities
@@ -140,7 +140,7 @@ Empowers the next attack to deal 130% / 140% / 150% / 160% physical damage and g
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Slices in a direction, dealing 100 / 130 / 160 / 190 ( +110% AD ) and an additional 3% / 5% / 7% / 9% of the target's maximum Health as physical damage . Enemies hit by the outer half are slowed by 80% decaying over 2 seconds, healing Camille for 50% of the damage dealt to champions. Deals 80% damage to monsters.
+Slices in a direction, dealing 100 / 130 / 160 / 190 ( +110% AD ) and an additional 3% / 5% / 7% / 9% of the target's maximum Health as physical damage . Enemies hit by the outer half are slowed by 80% decaying over 2 seconds, healing Camille for 80% of the damage dealt to champions. Deals 95% damage to monsters.
 
 ### [3] Hookshot
 

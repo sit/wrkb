@@ -1,10 +1,10 @@
 ---
 cost: 2800
 effects:
-- 'Passive - Hypershot: When a non-targeted ability hits a champion at least 500 range
-  away, it applies one stack, and when you immobilize a champion, add 2 stacks (stacks
-  last for 5 seconds). After reaching 3 stacks, consume the stacks to deal 90 + 25%
-  Ability Power magic damage and apply another stack.'
+- "Passive - Hypershot: Damaging an enemy champion with an ability from 600 units\
+  \ away reveals them for 8 seconds and increases damage dealt to them by 9%.\r\n\
+  Passive - Focus: When Hypershot is triggered, reveals all enemy champions within\
+  \ 1200 units of the target for 3 seconds. ( 12 seconds cooldown)"
 id: 143
 image_url: https://www.wildriftfire.com/images/items/horizon-focus.png
 name: Horizon Focus
@@ -30,5 +30,6 @@ type: Magic
 
 ## Effects
 
-Passive - Hypershot: When a non-targeted ability hits a champion at least 500 range away, it applies one stack, and when you immobilize a champion, add 2 stacks (stacks last for 5 seconds). After reaching 3 stacks, consume the stacks to deal 90 + 25% Ability Power magic damage and apply another stack.
+Passive - Hypershot: Damaging an enemy champion with an ability from 600 units away reveals them for 8 seconds and increases damage dealt to them by 9%.
+Passive - Focus: When Hypershot is triggered, reveals all enemy champions within 1200 units of the target for 3 seconds. ( 12 seconds cooldown)
 

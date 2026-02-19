@@ -14,7 +14,7 @@ abilities:
   - 12.0
   - 12.0
   - 12.0
-  description: 'Toggle : Lay a poisonous trail that deals 25 / 35 / 45 / 55 ( +30%
+  description: 'Toggle : Lay a poisonous trail that deals 20 / 28 / 36 / 44 ( +30%
     AP ) magic damage per second.'
   name: Poison Trail
   slot: '1'
@@ -47,7 +47,7 @@ abilities:
   - 125.0
   description: Raises his shield and dashes toward the target, knocking aside enemies
     in his way. If he hits the target, he flings them behind him, dealing magic damage
-    equal to 60 / 80 / 100 / 120 ( +50% AP ) plus 5% / 6% / 7% / 8% of the target's
+    equal to 40 / 60 / 80 / 100 ( +50% AP ) plus 5% / 6% / 7% / 8% of the target's
     max Health. If the target is flung into Mega Adhesive, they are also rooted for
     1.25 / 1.5 / 1.75 / 2 seconds. Deals a maximum of 500 damage against non-champions.
   name: Fling
@@ -98,7 +98,6 @@ base_stats:
 name: Singed
 roles:
 - Baron Lane
-- Support
 source_url: https://www.wildriftfire.com/guide/singed
 ---
 
@@ -106,7 +105,7 @@ source_url: https://www.wildriftfire.com/guide/singed
 
 ## Roles
 
-Baron Lane, Support
+Baron Lane
 
 ## Base Stats
 
@@ -132,7 +131,7 @@ Draft off of nearby champions, gaining 20% bonus Movement Speed for 2 seconds. E
 
 **Cost:** 12.0 / 12.0 / 12.0 / 12.0
 
-Toggle : Lay a poisonous trail that deals 25 / 35 / 45 / 55 ( +30% AP ) magic damage per second.
+Toggle : Lay a poisonous trail that deals 20 / 28 / 36 / 44 ( +30% AP ) magic damage per second.
 
 ### [2] Mega Adhesive
 
@@ -148,7 +147,7 @@ Tosses an adhesive that sticks to the ground for 3 seconds at the target area. T
 
 **Cost:** 80.0 / 95.0 / 110.0 / 125.0
 
-Raises his shield and dashes toward the target, knocking aside enemies in his way. If he hits the target, he flings them behind him, dealing magic damage equal to 60 / 80 / 100 / 120 ( +50% AP ) plus 5% / 6% / 7% / 8% of the target's max Health. If the target is flung into Mega Adhesive, they are also rooted for 1.25 / 1.5 / 1.75 / 2 seconds. Deals a maximum of 500 damage against non-champions.
+Raises his shield and dashes toward the target, knocking aside enemies in his way. If he hits the target, he flings them behind him, dealing magic damage equal to 40 / 60 / 80 / 100 ( +50% AP ) plus 5% / 6% / 7% / 8% of the target's max Health. If the target is flung into Mega Adhesive, they are also rooted for 1.25 / 1.5 / 1.75 / 2 seconds. Deals a maximum of 500 damage against non-champions.
 
 ### [4] Insanity Potion
 

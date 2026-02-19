@@ -1,7 +1,7 @@
 ---
 abilities:
-- description: After using an Ability, Zoe's next Attack deals an additional 20 (
-    +20% AP ) magic damage . More Sparkles! deals damage instantly, and deals 50%
+- description: After using an Ability, Zoe's next Attack deals an additional 9 - 128
+    ( +20% AP ) magic damage . More Sparkles! deals damage instantly, and deals 50%
     damage to structures.
   name: More Sparkles!
   slot: P
@@ -31,7 +31,7 @@ abilities:
     ally, kills them. Zoe can pick up this shard to cast that ability once. Passive
     : When Zoe casts this Ability or any Spell, she gains 25% / 30% / 35% / 40% Movement
     Speed for 2 seconds and tosses 3 missiles at the target she Attacked most recently.
-    These missiles deal 25 / 35 / 45 / 55 ( +15% AP ) magic damage each. Active :
+    These missiles deal 20 / 30 / 40 / 50 ( +15% AP ) magic damage each. Active :
     Cast the Ability from a spell shard Zoe has picked up Spell shards last on the
     ground for 20 seconds. Each missile can apply More Sparkles!'
   name: Spell Thief
@@ -71,7 +71,7 @@ base_stats:
     base: '34'
     growth: '4'
   Attack Dmg.:
-    base: '58'
+    base: '54'
     growth: '3'
   Attack Spd.:
     base: '0.75'
@@ -115,14 +115,14 @@ Mid Lane
 - Armor: 34 (+4 per level)
 - Magic Res.: 36 (+1 per level)
 - Move Speed: 360 (+0 per level)
-- Attack Dmg.: 58 (+3 per level)
+- Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 
 ## Abilities
 
 ### [P] More Sparkles!
 
-After using an Ability, Zoe's next Attack deals an additional 20 ( +20% AP ) magic damage . More Sparkles! deals damage instantly, and deals 50% damage to structures.
+After using an Ability, Zoe's next Attack deals an additional 9 - 128 ( +20% AP ) magic damage . More Sparkles! deals damage instantly, and deals 50% damage to structures.
 
 ### [1] Paddle Star
 
@@ -136,7 +136,7 @@ Zoe fires a star that deals increasing damage the further it travels to the firs
 
 **Cooldown:** 0.0 / 0.0 / 0.0 seconds
 
-Passive : Enemies drop spell shards when casting a Spell or using a Boot Enchantment. Specific minions also drop a spell shards when Zoe, or a nearby ally, kills them. Zoe can pick up this shard to cast that ability once. Passive : When Zoe casts this Ability or any Spell, she gains 25% / 30% / 35% / 40% Movement Speed for 2 seconds and tosses 3 missiles at the target she Attacked most recently. These missiles deal 25 / 35 / 45 / 55 ( +15% AP ) magic damage each. Active : Cast the Ability from a spell shard Zoe has picked up Spell shards last on the ground for 20 seconds. Each missile can apply More Sparkles!
+Passive : Enemies drop spell shards when casting a Spell or using a Boot Enchantment. Specific minions also drop a spell shards when Zoe, or a nearby ally, kills them. Zoe can pick up this shard to cast that ability once. Passive : When Zoe casts this Ability or any Spell, she gains 25% / 30% / 35% / 40% Movement Speed for 2 seconds and tosses 3 missiles at the target she Attacked most recently. These missiles deal 20 / 30 / 40 / 50 ( +15% AP ) magic damage each. Active : Cast the Ability from a spell shard Zoe has picked up Spell shards last on the ground for 20 seconds. Each missile can apply More Sparkles!
 
 ### [3] Sleepy Trouble Bubble
 

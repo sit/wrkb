@@ -1,10 +1,9 @@
 ---
 cost: 2800
 effects:
-- 'UNIQUE - Countercurrent: When you are Critically Struck by physical damage, gain
-  1 stack of Countercurrent. Each stack of Countercurrent grants 5% Critical Strike
-  damage reduction. Stacks up to 4 times. Upon reaching full stacks, grants 20% bonus
-  Movement Speed and slow resist equal to 20% plus 0.5% of bonus Health.'
+- "UNIQUE - Countercurrent:  Gain a stack of Countercurrent when Critically Struck.\
+  \ Each Stack of Countercurrent grants 5% Movement Speed and 5% Slow Resist, Max\
+  \ 4 stacks.\r\nUNIQUE - Resilience: Critical Strikes deal 20% less damage to you.\n"
 id: 76
 image_url: https://www.wildriftfire.com/images/items/randuins-omen.png
 name: Randuin's Omen
@@ -26,5 +25,7 @@ type: Defense
 
 ## Effects
 
-UNIQUE - Countercurrent: When you are Critically Struck by physical damage, gain 1 stack of Countercurrent. Each stack of Countercurrent grants 5% Critical Strike damage reduction. Stacks up to 4 times. Upon reaching full stacks, grants 20% bonus Movement Speed and slow resist equal to 20% plus 0.5% of bonus Health.
+UNIQUE - Countercurrent:  Gain a stack of Countercurrent when Critically Struck. Each Stack of Countercurrent grants 5% Movement Speed and 5% Slow Resist, Max 4 stacks.
+UNIQUE - Resilience: Critical Strikes deal 20% less damage to you.
+
 

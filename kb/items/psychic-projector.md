@@ -1,11 +1,9 @@
 ---
 cost: 3100
 effects:
-- "Conversion - Gain Ability Power equal to 3% of bonus Health. Up to 60 Ability Power\
-  \ can be gained this way.\n\r\nProjection - When taking champion damage, gain a\
-  \ non-stacking shield that absorbs damage equal to 30 + 10% of Ability Power + 5%\
-  \ of bonus Health for 3 seconds (for ranged champions, the shield absorbs damage\
-  \ equal to 60% of this value). Triggers every 3 seconds."
+- "Conversion - Gain Ability Power equal to 3.5% of bonus Health.\n\r\nProjection\
+  \ - When you have at least 950 Bonus Health, gain 20% Ability Power as Armor and\
+  \ 10% Ability Power as Magic Resist. (max bonuses reached at 400 Ability Power)"
 id: 186
 image_url: https://www.wildriftfire.com/images/items/psychic-projector.png
 name: Psychic Projector
@@ -31,7 +29,7 @@ type: Magic
 
 ## Effects
 
-Conversion - Gain Ability Power equal to 3% of bonus Health. Up to 60 Ability Power can be gained this way.
+Conversion - Gain Ability Power equal to 3.5% of bonus Health.
 
-Projection - When taking champion damage, gain a non-stacking shield that absorbs damage equal to 30 + 10% of Ability Power + 5% of bonus Health for 3 seconds (for ranged champions, the shield absorbs damage equal to 60% of this value). Triggers every 3 seconds.
+Projection - When you have at least 950 Bonus Health, gain 20% Ability Power as Armor and 10% Ability Power as Magic Resist. (max bonuses reached at 400 Ability Power)
 

@@ -6,34 +6,34 @@ abilities:
   name: Flurry
   slot: P
 - cooldowns:
-  - 9.0
   - 8.0
   - 7.0
   - 6.0
+  - 5.0
   costs:
   - 50.0
   - 50.0
   - 50.0
   - 50.0
   description: 'Sonic Wave : Fires an energy wave that deals 55 / 90 / 125 / 160 (
-    +105% AD ) physical damage to enemies and reveals them. Hitting an enemy allows
+    +100% AD ) physical damage to enemies and reveals them. Hitting an enemy allows
     Resonating Strike to be cast within 3 seconds. Resonating Strike : Dash to enemy
-    marked by Sonic Wave, dealing 55 / 90 / 125 / 160 to 110 / 180 / 250 / 360 ( +105%
-    to +210% AD ) physical damage based on its missing Health.'
+    marked by Sonic Wave, dealing 55 / 90 / 125 / 160 to 110 / 180 / 250 / 360 ( +100%
+    to +200% AD ) physical damage based on its missing Health.'
   name: Sonic Wave / Resonating Strike
   slot: '1'
 - cooldowns:
-  - 17.0
-  - 16.0
   - 15.0
   - 14.0
+  - 14.0
+  - 13.0
   costs:
   - 50.0
   - 50.0
   - 50.0
   - 50.0
   description: 'Safeguard : Dashes to target location. If an enemy is nearby on arrival,
-    Lee Sin shield himself for 70 / 130 / 190 / 250 ( +100% AP ) for 2 seconds. Allows
+    Lee Sin shield himself for 80 / 140 / 200 / 260 ( +100% AP ) for 2 seconds. Allows
     Iron Will to be cast within 3 seconds. Safeguard''s cooldown is reduced by 0.5
     seconds with each attack. Iron Will : Empowers next two attacks to deal an additional
     26 / 39 / 52 / 65 ( +40% AP ) magic damage and gain 16% / 24% / 32% / 40% Omnivamp
@@ -61,7 +61,7 @@ abilities:
   - 60.0
   - 50.0
   description: Launches a powerful roundhouse kick at an enemy champion, dealing 100
-    / 250 / 400 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum health
+    / 250 / 400 ( +180% bonus AD + 10% / 13% / 16% of the target's maximum health
     ) physical damage and knocking them back. Enemies the target collides with along
     the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus
     AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters
@@ -79,7 +79,7 @@ base_stats:
     base: '0.80'
     growth: '0.0150'
   Health:
-    base: '660'
+    base: '690'
     growth: '120'
   Health Reg. (5s):
     base: '11'
@@ -110,7 +110,7 @@ Jungle
 
 ## Base Stats
 
-- Health: 660 (+120 per level)
+- Health: 690 (+120 per level)
 - Health Reg. (5s): 11 (+1 per level)
 - Mana: 200 (+0 per level)
 - Mana Reg. (5s): 50 (+0 per level)
@@ -128,19 +128,19 @@ Lee Sin's Abilities grant him 40% Attack Speed for 2 attacks within 3 seconds. T
 
 ### [1] Sonic Wave / Resonating Strike
 
-**Cooldown:** 9.0 / 8.0 / 7.0 / 6.0 seconds
+**Cooldown:** 8.0 / 7.0 / 6.0 / 5.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Sonic Wave : Fires an energy wave that deals 55 / 90 / 125 / 160 ( +105% AD ) physical damage to enemies and reveals them. Hitting an enemy allows Resonating Strike to be cast within 3 seconds. Resonating Strike : Dash to enemy marked by Sonic Wave, dealing 55 / 90 / 125 / 160 to 110 / 180 / 250 / 360 ( +105% to +210% AD ) physical damage based on its missing Health.
+Sonic Wave : Fires an energy wave that deals 55 / 90 / 125 / 160 ( +100% AD ) physical damage to enemies and reveals them. Hitting an enemy allows Resonating Strike to be cast within 3 seconds. Resonating Strike : Dash to enemy marked by Sonic Wave, dealing 55 / 90 / 125 / 160 to 110 / 180 / 250 / 360 ( +100% to +200% AD ) physical damage based on its missing Health.
 
 ### [2] Safeguard / Iron Will
 
-**Cooldown:** 17.0 / 16.0 / 15.0 / 14.0 seconds
+**Cooldown:** 15.0 / 14.0 / 14.0 / 13.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Safeguard : Dashes to target location. If an enemy is nearby on arrival, Lee Sin shield himself for 70 / 130 / 190 / 250 ( +100% AP ) for 2 seconds. Allows Iron Will to be cast within 3 seconds. Safeguard's cooldown is reduced by 0.5 seconds with each attack. Iron Will : Empowers next two attacks to deal an additional 26 / 39 / 52 / 65 ( +40% AP ) magic damage and gain 16% / 24% / 32% / 40% Omnivamp .
+Safeguard : Dashes to target location. If an enemy is nearby on arrival, Lee Sin shield himself for 80 / 140 / 200 / 260 ( +100% AP ) for 2 seconds. Allows Iron Will to be cast within 3 seconds. Safeguard's cooldown is reduced by 0.5 seconds with each attack. Iron Will : Empowers next two attacks to deal an additional 26 / 39 / 52 / 65 ( +40% AP ) magic damage and gain 16% / 24% / 32% / 40% Omnivamp .
 
 ### [3] Tempest / Cripple
 
@@ -154,5 +154,5 @@ Tempest : Deals 90 / 140 / 190 / 240 ( +125% AD ) magic damage , to nearby enemi
 
 **Cooldown:** 70.0 / 60.0 / 50.0 seconds
 
-Launches a powerful roundhouse kick at an enemy champion, dealing 100 / 250 / 400 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum health ) physical damage and knocking them back. Enemies the target collides with along the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters is caped at 800 .
+Launches a powerful roundhouse kick at an enemy champion, dealing 100 / 250 / 400 ( +180% bonus AD + 10% / 13% / 16% of the target's maximum health ) physical damage and knocking them back. Enemies the target collides with along the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters is caped at 800 .
 

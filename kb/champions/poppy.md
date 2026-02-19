@@ -106,7 +106,6 @@ base_stats:
 name: Poppy
 roles:
 - Baron Lane
-- Support
 - Jungle
 source_url: https://www.wildriftfire.com/guide/poppy
 ---
@@ -115,7 +114,7 @@ source_url: https://www.wildriftfire.com/guide/poppy
 
 ## Roles
 
-Baron Lane, Support, Jungle
+Baron Lane, Jungle
 
 ## Base Stats
 

@@ -17,7 +17,7 @@ abilities:
   - 60.0
   - 65.0
   - 70.0
-  description: Hurls a spear, dealing 60 / 125 / 190 / 255 ( +105% AD ) physical damage
+  description: Hurls a spear, dealing 70 / 135 / 200 / 265 ( +110% AD ) physical damage
     to the first target hit. If this kills the target, the spear continues onward,
     carrying the target's Rend stacks to the next enemy hit. After casting this ability,
     Kalista can dash using Martial Poise .
@@ -56,17 +56,17 @@ abilities:
   - 30.0
   description: 'Passive : On hit, Kalista''s spears linger in their target for 4 seconds,
     applying a stacking Rend . Active : Kalista rips the spears from nearby enemies,
-    dealing 30 / 45 / 60 / 75 ( +70% AD ) physical damage plus 8 / 12 / 16 / 20 (
-    +35% / 39% / 43% / 47% AD ) physical damage per spear after the first. Slows enemies
+    dealing 30 / 45 / 60 / 75 ( +70% AD ) physical damage plus 12 / 22 / 32 / 42 (
+    +36% / 43% / 50% / 57% AD ) physical damage per spear after the first. Slows enemies
     hit by 15% / 25% / 35% / 45% for 2 seconds. If this ability kills at least one
     target, it''s cooldown is refreshed, and it refunds 12 / 18 / 24 / 30 Mana . Deals
     50% damage to epic monsters.'
   name: Rend
   slot: '3'
 - cooldowns:
-  - 80.0
-  - 70.0
   - 60.0
+  - 55.0
+  - 50.0
   costs:
   - 100.0
   - 100.0
@@ -83,13 +83,13 @@ base_stats:
     growth: '4'
   Attack Dmg.:
     base: '54'
-    growth: '4'
+    growth: '5'
   Attack Spd.:
     base: '0.81'
     growth: '0.0200'
   Health:
     base: '630'
-    growth: '120'
+    growth: '128'
   Health Reg. (5s):
     base: '6'
     growth: '1'
@@ -119,14 +119,14 @@ ADC
 
 ## Base Stats
 
-- Health: 630 (+120 per level)
+- Health: 630 (+128 per level)
 - Health Reg. (5s): 6 (+1 per level)
 - Mana: 340 (+37 per level)
 - Mana Reg. (5s): 10 (+1 per level)
 - Armor: 34 (+4 per level)
 - Magic Res.: 32 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
+- Attack Dmg.: 54 (+5 per level)
 - Attack Spd.: 0.81 (+0.0200 per level)
 
 ## Abilities
@@ -141,7 +141,7 @@ When Kalista winds up her attacks, moving the left joystick will cause her to da
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Hurls a spear, dealing 60 / 125 / 190 / 255 ( +105% AD ) physical damage to the first target hit. If this kills the target, the spear continues onward, carrying the target's Rend stacks to the next enemy hit. After casting this ability, Kalista can dash using Martial Poise .
+Hurls a spear, dealing 70 / 135 / 200 / 265 ( +110% AD ) physical damage to the first target hit. If this kills the target, the spear continues onward, carrying the target's Rend stacks to the next enemy hit. After casting this ability, Kalista can dash using Martial Poise .
 
 ### [2] Sentinel
 
@@ -157,11 +157,11 @@ Passive : When the distance between Kalista and her Oathsworn is less than 8, an
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Passive : On hit, Kalista's spears linger in their target for 4 seconds, applying a stacking Rend . Active : Kalista rips the spears from nearby enemies, dealing 30 / 45 / 60 / 75 ( +70% AD ) physical damage plus 8 / 12 / 16 / 20 ( +35% / 39% / 43% / 47% AD ) physical damage per spear after the first. Slows enemies hit by 15% / 25% / 35% / 45% for 2 seconds. If this ability kills at least one target, it's cooldown is refreshed, and it refunds 12 / 18 / 24 / 30 Mana . Deals 50% damage to epic monsters.
+Passive : On hit, Kalista's spears linger in their target for 4 seconds, applying a stacking Rend . Active : Kalista rips the spears from nearby enemies, dealing 30 / 45 / 60 / 75 ( +70% AD ) physical damage plus 12 / 22 / 32 / 42 ( +36% / 43% / 50% / 57% AD ) physical damage per spear after the first. Slows enemies hit by 15% / 25% / 35% / 45% for 2 seconds. If this ability kills at least one target, it's cooldown is refreshed, and it refunds 12 / 18 / 24 / 30 Mana . Deals 50% damage to epic monsters.
 
 ### [4] Fate's Call
 
-**Cooldown:** 80.0 / 70.0 / 60.0 seconds
+**Cooldown:** 60.0 / 55.0 / 50.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

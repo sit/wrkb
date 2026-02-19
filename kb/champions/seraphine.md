@@ -16,22 +16,22 @@ abilities:
   - 65.0
   - 70.0
   - 75.0
-  description: Deals 60 / 75 / 90 / 105 ( +40% AP ) magic damage in target area, increased
+  description: Deals 60 / 75 / 90 / 105 ( +45% AP ) magic damage in target area, increased
     by 0% - 50% based on the enemies' missing Health. Reaches maximum damage when
     the target is below 25% Health.
   name: High Note
   slot: '1'
 - cooldowns:
-  - 24.0
+  - 23.0
   - 22.0
+  - 21.0
   - 20.0
-  - 18.0
   costs:
   - 40.0
   - 60.0
   - 80.0
   - 100.0
-  description: Shields all nearby ally champions for 50 / 80 / 110 / 140 ( +25% AP
+  description: Shields all nearby ally champions for 50 / 75 / 100 / 125 ( +30% AP
     ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed
     for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for
     5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
@@ -130,15 +130,15 @@ Echo : Every third basic ability cast will echo, casting it again. Harmony : Cas
 
 **Cost:** 60.0 / 65.0 / 70.0 / 75.0
 
-Deals 60 / 75 / 90 / 105 ( +40% AP ) magic damage in target area, increased by 0% - 50% based on the enemies' missing Health. Reaches maximum damage when the target is below 25% Health.
+Deals 60 / 75 / 90 / 105 ( +45% AP ) magic damage in target area, increased by 0% - 50% based on the enemies' missing Health. Reaches maximum damage when the target is below 25% Health.
 
 ### [2] Surround Sound
 
-**Cooldown:** 24.0 / 22.0 / 20.0 / 18.0 seconds
+**Cooldown:** 23.0 / 22.0 / 21.0 / 20.0 seconds
 
 **Cost:** 40.0 / 60.0 / 80.0 / 100.0
 
-Shields all nearby ally champions for 50 / 80 / 110 / 140 ( +25% AP ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for 5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
+Shields all nearby ally champions for 50 / 75 / 100 / 125 ( +30% AP ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for 5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
 
 ### [3] Beat Drop
 

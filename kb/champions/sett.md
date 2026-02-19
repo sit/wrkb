@@ -55,7 +55,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '40'
+    base: '46'
     growth: '4'
   Attack Dmg.:
     base: '62'
@@ -64,7 +64,7 @@ base_stats:
     base: '0.75'
     growth: '0.0079'
   Health:
-    base: '650'
+    base: '690'
     growth: '120'
   Health Reg. (5s):
     base: '10'
@@ -89,9 +89,9 @@ Baron Lane
 
 ## Base Stats
 
-- Health: 650 (+120 per level)
+- Health: 690 (+120 per level)
 - Health Reg. (5s): 10 (+1 per level)
-- Armor: 40 (+4 per level)
+- Armor: 46 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 62 (+3 per level)

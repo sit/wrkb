@@ -11,8 +11,7 @@ image_url: https://www.wildriftfire.com/images/items/oceanids-trident.png
 name: Oceanid's Trident
 stats:
 - +200 Health
-- +80 Ability Power
-- +10 Ability Haste
+- +75 Ability Power
 - +7% Magic Penetration
 type: Magic
 ---
@@ -25,8 +24,7 @@ type: Magic
 ## Stats
 
 - +200 Health
-- +80 Ability Power
-- +10 Ability Haste
+- +75 Ability Power
 - +7% Magic Penetration
 
 ## Effects

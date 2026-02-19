@@ -14,10 +14,10 @@ abilities:
   - 50.0
   - 55.0
   - 60.0
-  description: Throws an axe, dealing 50 / 120 / 190 / 260 (+100% AD ) physical damage
-    and slowing by 20% / 25% / 30% / 35% for 2 seconds. Picking up the axe reduces
+  description: Throws an axe, dealing 50 / 115 / 180 / 245 (+120% AD ) physical damage
+    and slowing by 20% / 27.55% / 35% / 42.5% for 2 seconds. Picking up the axe reduces
     Undertow's cooldown by 4.5 seconds. Inflict 20% armor reduction for 4 seconds
-    on enemy champions.
+    on enemy champions. Deals 110% damage to monsters.
   name: Undertow
   slot: '1'
 - cooldowns:
@@ -40,7 +40,7 @@ abilities:
   - 9.0
   - 8.0
   - 7.0
-  description: Dash to an enemy and deal 55 / 115 / 175 / 235 ( +50% AD ) true damage
+  description: Dash to an enemy and deal 45 / 95 / 145 / 195 ( +55% AD ) true damage
     . If the enemy does not die, Olaf takes 28 ( +15% AD ) true damage . Attacks lower
     the cooldown of Reckless Swing by 1 second. Deals 95% damage to monsters.
   name: Reckless Swing
@@ -122,7 +122,7 @@ Gain up to 70% - 110% (based on level) attack speed and 15% - 30% (based on leve
 
 **Cost:** 45.0 / 50.0 / 55.0 / 60.0
 
-Throws an axe, dealing 50 / 120 / 190 / 260 (+100% AD ) physical damage and slowing by 20% / 25% / 30% / 35% for 2 seconds. Picking up the axe reduces Undertow's cooldown by 4.5 seconds. Inflict 20% armor reduction for 4 seconds on enemy champions.
+Throws an axe, dealing 50 / 115 / 180 / 245 (+120% AD ) physical damage and slowing by 20% / 27.55% / 35% / 42.5% for 2 seconds. Picking up the axe reduces Undertow's cooldown by 4.5 seconds. Inflict 20% armor reduction for 4 seconds on enemy champions. Deals 110% damage to monsters.
 
 ### [2] Vicious Strikes
 
@@ -136,7 +136,7 @@ Olaf gains 35% / 50% / 65% / 80% Attack Speed for 4 seconds and grants himself a
 
 **Cooldown:** 10.0 / 9.0 / 8.0 / 7.0 seconds
 
-Dash to an enemy and deal 55 / 115 / 175 / 235 ( +50% AD ) true damage . If the enemy does not die, Olaf takes 28 ( +15% AD ) true damage . Attacks lower the cooldown of Reckless Swing by 1 second. Deals 95% damage to monsters.
+Dash to an enemy and deal 45 / 95 / 145 / 195 ( +55% AD ) true damage . If the enemy does not die, Olaf takes 28 ( +15% AD ) true damage . Attacks lower the cooldown of Reckless Swing by 1 second. Deals 95% damage to monsters.
 
 ### [4] Ragnarok
 

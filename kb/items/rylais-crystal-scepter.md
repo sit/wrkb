@@ -1,7 +1,7 @@
 ---
 cost: 2700
 effects:
-- 'UNIQUE - ICY: Damaging active abilities slow enemies by 30% for 1 second.'
+- 'UNIQUE - ICY: Damaging active abilities slow enemies by 30% for 0.75 seconds.'
 id: 80
 image_url: https://www.wildriftfire.com/images/items/rylais-crystal-scepter.png
 name: Rylai's Crystal Scepter
@@ -25,5 +25,5 @@ type: Magic
 
 ## Effects
 
-UNIQUE - ICY: Damaging active abilities slow enemies by 30% for 1 second.
+UNIQUE - ICY: Damaging active abilities slow enemies by 30% for 0.75 seconds.
 

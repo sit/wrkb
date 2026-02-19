@@ -22,19 +22,19 @@ abilities:
   name: Powerball
   slot: '1'
 - cooldowns:
-  - 6.0
-  - 6.0
-  - 6.0
-  - 6.0
+  - 7.0
+  - 7.0
+  - 7.0
+  - 7.0
   costs:
   - 40.0
   - 40.0
   - 40.0
   - 40.0
-  description: 'Spiked Shell: Attacks deal 10 / 12 / 14 / 16 ( +10% Armor ) bonus
+  description: 'Spiked Shell: Attacks deal 12 / 14 / 16 / 18 ( +10% Armor ) bonus
     magic damage . Active : Brace for up to 6 seconds, gaining 30 ( +55% / 60% / 65%
     / 70% Armor ) Armor and 10 ( +35% / 40% / 45% / 50% MR ) Magic Resist . While
-    curled Spiked Shell deals 50% more damage and also applies to enemies that attack
+    curled Spiked Shell deals 40% more damage and also applies to enemies that attack
     Rammus. Deals 175% damage to monsters. Activating cancels Powerball and puts it
     on cooldown.'
   name: Defensive Ball Curl
@@ -54,9 +54,9 @@ abilities:
   name: Frenzying Taunt
   slot: '3'
 - cooldowns:
-  - 80.0
   - 70.0
   - 60.0
+  - 50.0
   costs:
   - 100.0
   - 100.0
@@ -74,7 +74,7 @@ base_stats:
     base: '49'
     growth: '4'
   Attack Dmg.:
-    base: '58'
+    base: '54'
     growth: '3'
   Attack Spd.:
     base: '0.80'
@@ -118,7 +118,7 @@ Jungle
 - Armor: 49 (+4 per level)
 - Magic Res.: 38 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 58 (+3 per level)
+- Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
@@ -137,11 +137,11 @@ Accelerates up to 115% + level x 5% bonus Movement Speed over 6 seconds. Collidi
 
 ### [2] Defensive Ball Curl
 
-**Cooldown:** 6.0 / 6.0 / 6.0 / 6.0 seconds
+**Cooldown:** 7.0 / 7.0 / 7.0 / 7.0 seconds
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Spiked Shell: Attacks deal 10 / 12 / 14 / 16 ( +10% Armor ) bonus magic damage . Active : Brace for up to 6 seconds, gaining 30 ( +55% / 60% / 65% / 70% Armor ) Armor and 10 ( +35% / 40% / 45% / 50% MR ) Magic Resist . While curled Spiked Shell deals 50% more damage and also applies to enemies that attack Rammus. Deals 175% damage to monsters. Activating cancels Powerball and puts it on cooldown.
+Spiked Shell: Attacks deal 12 / 14 / 16 / 18 ( +10% Armor ) bonus magic damage . Active : Brace for up to 6 seconds, gaining 30 ( +55% / 60% / 65% / 70% Armor ) Armor and 10 ( +35% / 40% / 45% / 50% MR ) Magic Resist . While curled Spiked Shell deals 40% more damage and also applies to enemies that attack Rammus. Deals 175% damage to monsters. Activating cancels Powerball and puts it on cooldown.
 
 ### [3] Frenzying Taunt
 
@@ -153,7 +153,7 @@ Taunts an enemy champion or monster for 1.25 / 1.5 / 1.75 / 2 seconds and gain 3
 
 ### [4] Soaring Slam
 
-**Cooldown:** 80.0 / 70.0 / 60.0 seconds
+**Cooldown:** 70.0 / 60.0 / 50.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

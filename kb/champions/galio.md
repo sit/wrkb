@@ -1,7 +1,10 @@
 ---
 abilities:
-- description: Enhances his next attack to deal 73 ( +100% AD +50% AP +60% MR ) magic
-    damage to nearby enemies.
+- description: Enhances his next attack to deal 15 ( +100% AD + 10 x (Champion level
+    -1) +45% AP +60% MR ) magic damage to nearby enemies. Gain 40% Attack Speed when
+    passive is active. When an ability hits an enemy champion or epic jungle monster,
+    it reduces Colossus Smash's cooldown by 3 seconds ( each ability can only trigger
+    this once) .
   name: Colossal Smash
   slot: P
 - cooldowns:
@@ -32,10 +35,11 @@ abilities:
   description: "Passive : Every 12 seconds, upon taking damage, Galio gains a shield\
     \ that absorbs 46 ( 8% / 12% / 16% / 20% HP ) magic damage for 3.5 seconds. Hold\
     \ : Enters a defensive stance, slowing himself by 15% for up to 2 seconds. Takes\
-    \ 25% / 30% / 35% / 40% ( +5% AP + 8% bonus MR ) reduced magic damage and 12.5%\
-    \ / 15% / 17.5% / 20% ( +2.5% A P + 4% bonus MR ) reduced physical damage . Release\
-    \ : Deals 40 / 80 / 120 / 160 ( +55% AP ) magic damage to nearby enemies and\_\
-    \ taunts them for 0.5 - 1.5 seconds, increased with hold time."
+    \ 25% / 30% / 35% / 40% ( +4% AP + 8% bonus MR +1% bonus Health ) reduced magic\
+    \ damage and 12.5% / 15% / 17.5% / 20% ( +2% A P + 4% bonus MR +0.5% bonus Health\
+    \ ) reduced physical damage . Release : Deals 40 / 80 / 120 / 160 ( +55% AP )\
+    \ magic damage to nearby enemies and\_ taunts them for 0.5 - 1.5 seconds, increased\
+    \ with hold time."
   name: Shield of Durand
   slot: '2'
 - cooldowns:
@@ -49,8 +53,8 @@ abilities:
   - 50.0
   - 50.0
   description: Dashes forward until he hits an enemy champion or terrain, dealing
-    90 / 140 / 190 / 240 ( +90% AP ) magic damage to enemies and knocking them up
-    for 0.75 seconds. Deals 50% damage to minions and monsters.
+    90 / 140 / 190 / 240 ( +80% AP ) magic damage to enemies and knocking them up
+    for 0.75 seconds. Deals 85% damage to minions and monsters.
   name: Justice Punch
   slot: '3'
 - cooldowns:
@@ -124,7 +128,7 @@ Mid Lane, Support
 
 ### [P] Colossal Smash
 
-Enhances his next attack to deal 73 ( +100% AD +50% AP +60% MR ) magic damage to nearby enemies.
+Enhances his next attack to deal 15 ( +100% AD + 10 x (Champion level -1) +45% AP +60% MR ) magic damage to nearby enemies. Gain 40% Attack Speed when passive is active. When an ability hits an enemy champion or epic jungle monster, it reduces Colossus Smash's cooldown by 3 seconds ( each ability can only trigger this once) .
 
 ### [1] Winds of War
 
@@ -140,7 +144,7 @@ Fires two windblasts that deal 70 / 115 / 160 / 205 ( +75% AP ) magic damage and
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Passive : Every 12 seconds, upon taking damage, Galio gains a shield that absorbs 46 ( 8% / 12% / 16% / 20% HP ) magic damage for 3.5 seconds. Hold : Enters a defensive stance, slowing himself by 15% for up to 2 seconds. Takes 25% / 30% / 35% / 40% ( +5% AP + 8% bonus MR ) reduced magic damage and 12.5% / 15% / 17.5% / 20% ( +2.5% A P + 4% bonus MR ) reduced physical damage . Release : Deals 40 / 80 / 120 / 160 ( +55% AP ) magic damage to nearby enemies and  taunts them for 0.5 - 1.5 seconds, increased with hold time.
+Passive : Every 12 seconds, upon taking damage, Galio gains a shield that absorbs 46 ( 8% / 12% / 16% / 20% HP ) magic damage for 3.5 seconds. Hold : Enters a defensive stance, slowing himself by 15% for up to 2 seconds. Takes 25% / 30% / 35% / 40% ( +4% AP + 8% bonus MR +1% bonus Health ) reduced magic damage and 12.5% / 15% / 17.5% / 20% ( +2% A P + 4% bonus MR +0.5% bonus Health ) reduced physical damage . Release : Deals 40 / 80 / 120 / 160 ( +55% AP ) magic damage to nearby enemies and  taunts them for 0.5 - 1.5 seconds, increased with hold time.
 
 ### [3] Justice Punch
 
@@ -148,7 +152,7 @@ Passive : Every 12 seconds, upon taking damage, Galio gains a shield that absorb
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Dashes forward until he hits an enemy champion or terrain, dealing 90 / 140 / 190 / 240 ( +90% AP ) magic damage to enemies and knocking them up for 0.75 seconds. Deals 50% damage to minions and monsters.
+Dashes forward until he hits an enemy champion or terrain, dealing 90 / 140 / 190 / 240 ( +80% AP ) magic damage to enemies and knocking them up for 0.75 seconds. Deals 85% damage to minions and monsters.
 
 ### [4] Hero's Entrance
 

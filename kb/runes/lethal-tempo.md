@@ -1,7 +1,7 @@
 ---
 description: "Gain stackable Attack Speed when attacking enemy champions. Stacks up\
   \ to 6 times. At max stacks, you gain bonus range and can exceed your Attack Speed\
-  \ cap.Each stack increases Attack Speed by 10 \u2013 18% (melee) or 4 \u2013 13%\
+  \ cap.Each stack increases Attack Speed by 8 \u2013 16% (melee) or 3 \u2013 12%\
   \ (ranged) for 6 seconds.At max stacks, gain 50 (melee) or 75 (ranged) Attack Distance."
 family: Unknown
 id: 98
@@ -17,5 +17,5 @@ type: Keystone
 
 ## Description
 
-Gain stackable Attack Speed when attacking enemy champions. Stacks up to 6 times. At max stacks, you gain bonus range and can exceed your Attack Speed cap.Each stack increases Attack Speed by 10 – 18% (melee) or 4 – 13% (ranged) for 6 seconds.At max stacks, gain 50 (melee) or 75 (ranged) Attack Distance.
+Gain stackable Attack Speed when attacking enemy champions. Stacks up to 6 times. At max stacks, you gain bonus range and can exceed your Attack Speed cap.Each stack increases Attack Speed by 8 – 16% (melee) or 3 – 12% (ranged) for 6 seconds.At max stacks, gain 50 (melee) or 75 (ranged) Attack Distance.
 

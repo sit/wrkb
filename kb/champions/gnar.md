@@ -97,7 +97,6 @@ base_stats:
 name: Gnar
 roles:
 - Baron Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/gnar
 ---
 
@@ -105,7 +104,7 @@ source_url: https://www.wildriftfire.com/guide/gnar
 
 ## Roles
 
-Baron Lane, Jungle
+Baron Lane
 
 ## Base Stats
 

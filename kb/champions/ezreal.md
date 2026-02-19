@@ -14,16 +14,16 @@ abilities:
   - 35.0
   - 40.0
   - 45.0
-  description: Fires a bolt, dealing 50 / 85 / 120 / 155 ( +130% AD +30% AP ) physical
+  description: Fires a bolt, dealing 50 / 85 / 120 / 155 ( +135% AD +30% AP ) physical
     damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds.
     Applies on-hit effects .
   name: Mystic Shot
   slot: '1'
 - cooldowns:
-  - 12.0
-  - 12.0
-  - 12.0
-  - 12.0
+  - 10.0
+  - 10.0
+  - 10.0
+  - 10.0
   costs:
   - 50.0
   - 50.0
@@ -38,13 +38,13 @@ abilities:
 - cooldowns:
   - 24.0
   - 21.0
-  - 18.0
-  - 15.0
+  - 17.0
+  - 14.0
   costs:
-  - 90.0
-  - 90.0
-  - 90.0
-  - 90.0
+  - 70.0
+  - 70.0
+  - 70.0
+  - 70.0
   description: Blinks to taget location and fires a bolt, dealing 80 / 145 / 210 /
     275 ( +50% AD +75% AP ) magic damage . Prioritizes enemies hit by Essence Flux
     , then the nearest enemy.
@@ -126,11 +126,11 @@ Gains 13% Attack Speed for 8 seconds when hitting abilities, stacking up to 4 ti
 
 **Cost:** 30.0 / 35.0 / 40.0 / 45.0
 
-Fires a bolt, dealing 50 / 85 / 120 / 155 ( +130% AD +30% AP ) physical damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds. Applies on-hit effects .
+Fires a bolt, dealing 50 / 85 / 120 / 155 ( +135% AD +30% AP ) physical damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds. Applies on-hit effects .
 
 ### [2] Essence Flux
 
-**Cooldown:** 12.0 / 12.0 / 12.0 / 12.0 seconds
+**Cooldown:** 10.0 / 10.0 / 10.0 / 10.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
@@ -138,9 +138,9 @@ Fires an orb that sticks to a champion, epic monster or structure for 4 seconds.
 
 ### [3] Arcane Shift
 
-**Cooldown:** 24.0 / 21.0 / 18.0 / 15.0 seconds
+**Cooldown:** 24.0 / 21.0 / 17.0 / 14.0 seconds
 
-**Cost:** 90.0 / 90.0 / 90.0 / 90.0
+**Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
 Blinks to taget location and fires a bolt, dealing 80 / 145 / 210 / 275 ( +50% AD +75% AP ) magic damage . Prioritizes enemies hit by Essence Flux , then the nearest enemy.
 

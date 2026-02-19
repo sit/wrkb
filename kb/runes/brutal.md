@@ -1,5 +1,5 @@
 ---
-description: Basic attacks deal 7-21 bonus physical/ magic damage on-hit against champions
+description: Basic attacks deal 7-21 bonus physical/magic damage on-hit against champions
   (Adaptive).
 family: Precision
 id: 76
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-Basic attacks deal 7-21 bonus physical/ magic damage on-hit against champions (Adaptive).
+Basic attacks deal 7-21 bonus physical/magic damage on-hit against champions (Adaptive).
 

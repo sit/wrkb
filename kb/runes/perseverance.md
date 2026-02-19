@@ -1,5 +1,5 @@
 ---
-description: Gain 10% tenacity.While immobilized, gain 16-30 armor and magic resistance
+description: Gain 10% tenacity.While immobilized, gain 15 - 25 armor and magic resistance
   for 1.5 seconds. Refresh duration when immobilized multiple times.
 family: Resolve
 id: 108
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-Gain 10% tenacity.While immobilized, gain 16-30 armor and magic resistance for 1.5 seconds. Refresh duration when immobilized multiple times.
+Gain 10% tenacity.While immobilized, gain 15 - 25 armor and magic resistance for 1.5 seconds. Refresh duration when immobilized multiple times.
 

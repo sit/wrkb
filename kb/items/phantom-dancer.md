@@ -1,15 +1,16 @@
 ---
-cost: 3000
+cost: 2900
 effects:
-- "UNIQUE - SPECTRAL WALTZ: Gain 7% extra movement speed when you basic attack for\
-  \ 3 seconds. After attacking 4 times, gain an additional 25% attack speed for the\
-  \ same duration.\n\r\nUNIQUE - Shadowwalk: +5% Movement Speed."
+- "UNIQUE - SPECTRAL WALTZ: Gain 25% Attack Speed and 7% Bonus Movement Speed for\
+  \ 6s for when your attack hits a champion, not stackable. (10s Cooldown) When your\
+  \ attack hits a champion the cooldown is reduced by 1s.\r\nUNIQUE - Shadowwalk:\
+  \ +5% Movement Speed."
 id: 73
 image_url: https://www.wildriftfire.com/images/items/phantom-dancer.png
 name: Phantom Dancer
 stats:
-- +25 Attack Damage
-- +30% Attack Speed
+- +20 Attack Damage
+- +40% Attack Speed
 - +25% Critical Strike Chance
 type: Physical
 ---
@@ -17,17 +18,16 @@ type: Physical
 # Phantom Dancer
 
 **Type:** Physical  
-**Cost:** 3000 gold
+**Cost:** 2900 gold
 
 ## Stats
 
-- +25 Attack Damage
-- +30% Attack Speed
+- +20 Attack Damage
+- +40% Attack Speed
 - +25% Critical Strike Chance
 
 ## Effects
 
-UNIQUE - SPECTRAL WALTZ: Gain 7% extra movement speed when you basic attack for 3 seconds. After attacking 4 times, gain an additional 25% attack speed for the same duration.
-
+UNIQUE - SPECTRAL WALTZ: Gain 25% Attack Speed and 7% Bonus Movement Speed for 6s for when your attack hits a champion, not stackable. (10s Cooldown) When your attack hits a champion the cooldown is reduced by 1s.
 UNIQUE - Shadowwalk: +5% Movement Speed.
 

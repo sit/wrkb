@@ -2,30 +2,30 @@
 abilities:
 - description: Braum's basic attacks apply Concussive Blows. Once the first stack
     is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks,
-    the target is stunned for 1.25 - 1.75 seconds and takes 32 magic damage . For
-    the next 8 seconds they cannot receive new stacks, but take bonus 7 magic damage
+    the target is stunned for 1.25 - 1.75 seconds and takes 45 magic damage . For
+    the next 8 seconds they cannot receive new stacks, but take bonus 9 magic damage
     from Braum's attacks.
   name: Concussive Blows
   slot: P
 - cooldowns:
-  - 10.0
   - 9.0
   - 8.0
   - 7.0
+  - 6.0
   costs:
+  - 40.0
+  - 45.0
+  - 50.0
   - 55.0
-  - 60.0
-  - 65.0
-  - 70.0
   description: Lauches ice that deals 60 / 120 / 180 / 240 ( +3% HP ) magic damage
     and slows the enemy hit by 70% for 2 seconds. Applies a stack of Concussive Blows.
   name: Winter's Bite
   slot: '1'
 - cooldowns:
-  - 13.0
-  - 12.0
   - 11.0
   - 10.0
+  - 9.0
+  - 8.0
   costs:
   - 55.0
   - 60.0
@@ -77,7 +77,7 @@ base_stats:
     base: '0.80'
     growth: '0.0150'
   Health:
-    base: '660'
+    base: '690'
     growth: '120'
   Health Reg. (5s):
     base: '9'
@@ -108,7 +108,7 @@ Support
 
 ## Base Stats
 
-- Health: 660 (+120 per level)
+- Health: 690 (+120 per level)
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 380 (+37 per level)
 - Mana Reg. (5s): 12 (+1 per level)
@@ -122,19 +122,19 @@ Support
 
 ### [P] Concussive Blows
 
-Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned for 1.25 - 1.75 seconds and takes 32 magic damage . For the next 8 seconds they cannot receive new stacks, but take bonus 7 magic damage from Braum's attacks.
+Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned for 1.25 - 1.75 seconds and takes 45 magic damage . For the next 8 seconds they cannot receive new stacks, but take bonus 9 magic damage from Braum's attacks.
 
 ### [1] Winter's Bite
 
-**Cooldown:** 10.0 / 9.0 / 8.0 / 7.0 seconds
+**Cooldown:** 9.0 / 8.0 / 7.0 / 6.0 seconds
 
-**Cost:** 55.0 / 60.0 / 65.0 / 70.0
+**Cost:** 40.0 / 45.0 / 50.0 / 55.0
 
 Lauches ice that deals 60 / 120 / 180 / 240 ( +3% HP ) magic damage and slows the enemy hit by 70% for 2 seconds. Applies a stack of Concussive Blows.
 
 ### [2] Stand Behind Me
 
-**Cooldown:** 13.0 / 12.0 / 11.0 / 10.0 seconds
+**Cooldown:** 11.0 / 10.0 / 9.0 / 8.0 seconds
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 

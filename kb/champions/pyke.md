@@ -106,7 +106,6 @@ base_stats:
 name: Pyke
 roles:
 - Support
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/pyke
 ---
 
@@ -114,7 +113,7 @@ source_url: https://www.wildriftfire.com/guide/pyke
 
 ## Roles
 
-Support, Mid Lane
+Support
 
 ## Base Stats
 

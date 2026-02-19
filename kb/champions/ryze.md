@@ -27,8 +27,8 @@ abilities:
 - cooldowns:
   - 10.0
   - 9.0
-  - 9.0
   - 8.0
+  - 7.0
   costs:
   - 35.0
   - 50.0
@@ -56,9 +56,9 @@ abilities:
   name: Spell Flux
   slot: '3'
 - cooldowns:
-  - 115.0
-  - 100.0
-  - 85.0
+  - 110.0
+  - 95.0
+  - 80.0
   costs:
   - 90.0
   - 90.0
@@ -73,8 +73,8 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '37'
-    growth: '4'
+    base: '40'
+    growth: '5'
   Attack Dmg.:
     base: '58'
     growth: '3'
@@ -118,7 +118,7 @@ Mid Lane, Baron Lane
 - Health Reg. (5s): 12 (+1 per level)
 - Mana: 340 (+45 per level)
 - Mana Reg. (5s): 10 (+1 per level)
-- Armor: 37 (+4 per level)
+- Armor: 40 (+5 per level)
 - Magic Res.: 40 (+2 per level)
 - Move Speed: 360 (+0 per level)
 - Attack Dmg.: 58 (+3 per level)
@@ -140,7 +140,7 @@ Passive : Rune Prison and Spell Flux refresh overload's cooldown and charge a ru
 
 ### [2] Rune Prison
 
-**Cooldown:** 10.0 / 9.0 / 9.0 / 8.0 seconds
+**Cooldown:** 10.0 / 9.0 / 8.0 / 7.0 seconds
 
 **Cost:** 35.0 / 50.0 / 65.0 / 80.0
 
@@ -156,7 +156,7 @@ Fires and orb, dealing 80 / 110 / 140 / 170 ( + 40% AP + 2% bonus Mana ) magic d
 
 ### [4] Realm Warp
 
-**Cooldown:** 115.0 / 100.0 / 85.0 seconds
+**Cooldown:** 110.0 / 95.0 / 80.0 seconds
 
 **Cost:** 90.0 / 90.0 / 90.0
 

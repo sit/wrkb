@@ -2,7 +2,7 @@
 cooldown: 16-8
 description: 'Damaging a champion with an ability hurls a comet at their location.
   When a comet hits an enemy champion, the next comet''s damage increases.Damage:
-  (23-100) + (3 x total hits on enemy champions) + 35% bonus Attack Damage + 20% Ability
+  18 - 95 + (3 x total hits on enemy champions) + 35% bonus Attack Damage + 20% Ability
   Power. Cooldown: 16-8 seconds.'
 family: Unknown
 id: 130
@@ -18,7 +18,7 @@ type: Keystone
 
 ## Description
 
-Damaging a champion with an ability hurls a comet at their location. When a comet hits an enemy champion, the next comet's damage increases.Damage: (23-100) + (3 x total hits on enemy champions) + 35% bonus Attack Damage + 20% Ability Power. Cooldown: 16-8 seconds.
+Damaging a champion with an ability hurls a comet at their location. When a comet hits an enemy champion, the next comet's damage increases.Damage: 18 - 95 + (3 x total hits on enemy champions) + 35% bonus Attack Damage + 20% Ability Power. Cooldown: 16-8 seconds.
 
 
 **Cooldown:** 16-8 seconds

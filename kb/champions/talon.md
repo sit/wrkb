@@ -3,11 +3,11 @@ abilities:
 - description: Talon's abilities apply a stack of Wound to enemy champions and large
     monsters hit for 6 seconds, stacking up to 3 times. Damaging the same target again
     resets Wound duration. When Talon attacks a target with 3 stacks of Wound, all
-    Wound stacks are consumed to send the target into a bleeding state, dealing 80
-    - 280 ( +210% bonus AD ) physical damage over 2 seconds. Monsters are dealt 90%
+    Wound stacks are consumed to send the target into a bleeding state, dealing 100
+    - 300 ( +210% bonus AD ) physical damage over 2 seconds. Monsters are dealt 90%
     of this damage The target will not gain Wound stacks during this period. If an
-    enemy champion is killed while bleeding, Talon gains bonus Movement Speed that
-    decays over 2 seconds.
+    enemy champion is killed while bleeding, Talon gains bonus 50% Movement Speed
+    that decays over 2 seconds.
   name: Blade's End
   slot: P
 - cooldowns:
@@ -24,16 +24,16 @@ abilities:
     / 125 / 150 ( +100% bonus AD ) physical damage . Close-range cast : Stabs the
     target, dealing 98 / 135 / 173 / 210 ( +150% bonus AD ) physical damage . If this
     ability kills the target, Talon restores 35 - 70 Health , and the ability''s cooldown
-    is reduced by 50% . The high Armor Pen is, the faster the dash and cast speed
+    is reduced by 65% . The high Armor Pen is, the faster the dash and cast speed
     of this ability will be. Damage from close-range casts scales with Critical Strike
     Damage .'
   name: Noxian Diplomacy
   slot: '1'
 - cooldowns:
-  - 9.0
-  - 8.0
   - 8.0
   - 7.0
+  - 7.0
+  - 6.0
   costs:
   - 50.0
   - 55.0
@@ -58,15 +58,15 @@ abilities:
   name: Assassin's Path
   slot: '3'
 - cooldowns:
-  - 70.0
-  - 60.0
-  - 50.0
+  - 65.0
+  - 55.0
+  - 45.0
   costs:
   - 100.0
   - 100.0
   - 100.0
   description: 'First Cast : Flings out a ring of blades around himself, dealing 90
-    / 130 / 170 ( +100% bonus AD ) physical damage to nearby enemies and gaining invisibility
+    / 135 / 180 ( +110% bonus AD ) physical damage to nearby enemies and gaining invisibility
     and 40% / 55% / 70% bonus Movement Speed for up to 2.5 seconds. How to recast
     : Tap the ability 1 second after the first cast to recast. The ability will automatically
     be cast again when invisibility expires or is disabled. Recast : Exits invisibility
@@ -136,7 +136,7 @@ Mid Lane, Jungle
 
 ### [P] Blade's End
 
-Talon's abilities apply a stack of Wound to enemy champions and large monsters hit for 6 seconds, stacking up to 3 times. Damaging the same target again resets Wound duration. When Talon attacks a target with 3 stacks of Wound, all Wound stacks are consumed to send the target into a bleeding state, dealing 80 - 280 ( +210% bonus AD ) physical damage over 2 seconds. Monsters are dealt 90% of this damage The target will not gain Wound stacks during this period. If an enemy champion is killed while bleeding, Talon gains bonus Movement Speed that decays over 2 seconds.
+Talon's abilities apply a stack of Wound to enemy champions and large monsters hit for 6 seconds, stacking up to 3 times. Damaging the same target again resets Wound duration. When Talon attacks a target with 3 stacks of Wound, all Wound stacks are consumed to send the target into a bleeding state, dealing 100 - 300 ( +210% bonus AD ) physical damage over 2 seconds. Monsters are dealt 90% of this damage The target will not gain Wound stacks during this period. If an enemy champion is killed while bleeding, Talon gains bonus 50% Movement Speed that decays over 2 seconds.
 
 ### [1] Noxian Diplomacy
 
@@ -144,11 +144,11 @@ Talon's abilities apply a stack of Wound to enemy champions and large monsters h
 
 **Cost:** 70.0 / 65.0 / 60.0 / 55.0
 
-Long-range cast : Dashes toward an enemy champion, dealing 75 / 100 / 125 / 150 ( +100% bonus AD ) physical damage . Close-range cast : Stabs the target, dealing 98 / 135 / 173 / 210 ( +150% bonus AD ) physical damage . If this ability kills the target, Talon restores 35 - 70 Health , and the ability's cooldown is reduced by 50% . The high Armor Pen is, the faster the dash and cast speed of this ability will be. Damage from close-range casts scales with Critical Strike Damage .
+Long-range cast : Dashes toward an enemy champion, dealing 75 / 100 / 125 / 150 ( +100% bonus AD ) physical damage . Close-range cast : Stabs the target, dealing 98 / 135 / 173 / 210 ( +150% bonus AD ) physical damage . If this ability kills the target, Talon restores 35 - 70 Health , and the ability's cooldown is reduced by 65% . The high Armor Pen is, the faster the dash and cast speed of this ability will be. Damage from close-range casts scales with Critical Strike Damage .
 
 ### [2] Rake
 
-**Cooldown:** 9.0 / 8.0 / 8.0 / 7.0 seconds
+**Cooldown:** 8.0 / 7.0 / 7.0 / 6.0 seconds
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 
@@ -162,9 +162,9 @@ Vaults over the terrain or structure closest to him. Talon cannot vault over the
 
 ### [4] Shadow Assault
 
-**Cooldown:** 70.0 / 60.0 / 50.0 seconds
+**Cooldown:** 65.0 / 55.0 / 45.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-First Cast : Flings out a ring of blades around himself, dealing 90 / 130 / 170 ( +100% bonus AD ) physical damage to nearby enemies and gaining invisibility and 40% / 55% / 70% bonus Movement Speed for up to 2.5 seconds. How to recast : Tap the ability 1 second after the first cast to recast. The ability will automatically be cast again when invisibility expires or is disabled. Recast : Exits invisibility and recalls the blades, dealing 90 / 130 / 170 ( +100% bonus AD ) physical damage again to enemies hit along the way. Using attacks or Noxian Diplomacy to exit invisibility causes the blades to converge toward the target enemy instead.
+First Cast : Flings out a ring of blades around himself, dealing 90 / 135 / 180 ( +110% bonus AD ) physical damage to nearby enemies and gaining invisibility and 40% / 55% / 70% bonus Movement Speed for up to 2.5 seconds. How to recast : Tap the ability 1 second after the first cast to recast. The ability will automatically be cast again when invisibility expires or is disabled. Recast : Exits invisibility and recalls the blades, dealing 90 / 130 / 170 ( +100% bonus AD ) physical damage again to enemies hit along the way. Using attacks or Noxian Diplomacy to exit invisibility causes the blades to converge toward the target enemy instead.
 

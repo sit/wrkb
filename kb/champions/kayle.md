@@ -43,9 +43,9 @@ abilities:
   - 7.0
   - 7.0
   - 6.0
-  description: 'Passive : Attacks deal bonus 12 / 15 / 18 / 21 ( +10% AD +15% AP )
-    magic damage . Active : Empowers her next attack to become ranged and deal bonus
-    8% / 9% / 10% / 11% ( +0.02% AP ) magic damage of the targets missing health.
+  description: 'Passive : Attacks deal bonus 8 / 11 / 14 / 17 ( +5% bonus AD +15%
+    AP ) magic damage . Active : Empowers her next attack to become ranged and deal
+    bonus 7% / 8% / 9% / 10% ( +0.02% AP ) magic damage of the targets missing health.
     When Kayle reaches level 10, Starfire Spellblade affects all nearby enemies. Deal
     60% damage to monsters.'
   name: Starfire Spellblade
@@ -55,8 +55,8 @@ abilities:
   - 90.0
   - 80.0
   description: Grants invulnerability to an allied champion for 2.5 seconds. Blades
-    rain down around the target, dealing 150 / 275 / 400 ( +100% bonus AD +80% AP
-    ) magic damage .
+    rain down around the target, dealing 150 / 225 / 300 ( +85% bonus AD +60% AP )
+    magic damage .
   name: Divine Judgment
   slot: '4'
 base_stats:
@@ -64,8 +64,8 @@ base_stats:
     base: '37'
     growth: '4'
   Attack Dmg.:
-    base: '52'
-    growth: '2'
+    base: '50'
+    growth: '3'
   Attack Spd.:
     base: '0.82'
     growth: '0.0143'
@@ -85,13 +85,12 @@ base_stats:
     base: '12'
     growth: '1'
   Move Speed:
-    base: '355'
+    base: '345'
     growth: '0'
 name: Kayle
 roles:
 - Baron Lane
 - Mid Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/kayle
 ---
 
@@ -99,7 +98,7 @@ source_url: https://www.wildriftfire.com/guide/kayle
 
 ## Roles
 
-Baron Lane, Mid Lane, Jungle
+Baron Lane, Mid Lane
 
 ## Base Stats
 
@@ -109,8 +108,8 @@ Baron Lane, Mid Lane, Jungle
 - Mana Reg. (5s): 12 (+1 per level)
 - Armor: 37 (+4 per level)
 - Magic Res.: 36 (+1 per level)
-- Move Speed: 355 (+0 per level)
-- Attack Dmg.: 52 (+2 per level)
+- Move Speed: 345 (+0 per level)
+- Attack Dmg.: 50 (+3 per level)
 - Attack Spd.: 0.82 (+0.0143 per level)
 
 ## Abilities
@@ -139,11 +138,11 @@ Heals herself and an allied champion for 65 / 105 / 145 / 185 ( +40% AP ) and gr
 
 **Cooldown:** 8.0 / 7.0 / 7.0 / 6.0 seconds
 
-Passive : Attacks deal bonus 12 / 15 / 18 / 21 ( +10% AD +15% AP ) magic damage . Active : Empowers her next attack to become ranged and deal bonus 8% / 9% / 10% / 11% ( +0.02% AP ) magic damage of the targets missing health. When Kayle reaches level 10, Starfire Spellblade affects all nearby enemies. Deal 60% damage to monsters.
+Passive : Attacks deal bonus 8 / 11 / 14 / 17 ( +5% bonus AD +15% AP ) magic damage . Active : Empowers her next attack to become ranged and deal bonus 7% / 8% / 9% / 10% ( +0.02% AP ) magic damage of the targets missing health. When Kayle reaches level 10, Starfire Spellblade affects all nearby enemies. Deal 60% damage to monsters.
 
 ### [4] Divine Judgment
 
 **Cooldown:** 100.0 / 90.0 / 80.0 seconds
 
-Grants invulnerability to an allied champion for 2.5 seconds. Blades rain down around the target, dealing 150 / 275 / 400 ( +100% bonus AD +80% AP ) magic damage .
+Grants invulnerability to an allied champion for 2.5 seconds. Blades rain down around the target, dealing 150 / 225 / 300 ( +85% bonus AD +60% AP ) magic damage .
 

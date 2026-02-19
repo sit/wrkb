@@ -14,7 +14,7 @@ abilities:
   - 40.0
   - 40.0
   - 40.0
-  description: 'Lunges forward and bites the target enemy, dealing 70 ( 130% AD +
+  description: 'Lunges forward and bites the target enemy, dealing 70 ( 120% AD +
     90% AP ) magic damage + 6% / 7% / 8% / 9% of the target''s max health and healing
     for 42.5% / 55% / 67.5% / 80% of damage dealt. Drag : Warwick leaps behind targets
     and follows their movement. The bonus damage is capped at 100 / 125 / 150 / 175
@@ -140,7 +140,7 @@ Attacks deal an additional 12 - 46 ( +20% bonus AD +10% AP ) magic damage on hit
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Lunges forward and bites the target enemy, dealing 70 ( 130% AD + 90% AP ) magic damage + 6% / 7% / 8% / 9% of the target's max health and healing for 42.5% / 55% / 67.5% / 80% of damage dealt. Drag : Warwick leaps behind targets and follows their movement. The bonus damage is capped at 100 / 125 / 150 / 175 against monsters. Deal 50% extra damage to minions and restores 50% of cooldown when killing minions.
+Lunges forward and bites the target enemy, dealing 70 ( 120% AD + 90% AP ) magic damage + 6% / 7% / 8% / 9% of the target's max health and healing for 42.5% / 55% / 67.5% / 80% of damage dealt. Drag : Warwick leaps behind targets and follows their movement. The bonus damage is capped at 100 / 125 / 150 / 175 against monsters. Deal 50% extra damage to minions and restores 50% of cooldown when killing minions.
 
 ### [2] Blood Hunt
 

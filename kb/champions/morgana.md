@@ -32,7 +32,7 @@ abilities:
   description: Curses an area for 5 seconds, dealing 7 / 12 / 17 / 22 ( +7% AP ) magic
     damage every 0.5 seconds to enemies within, increased by up to 170% based on their
     missing health. Tormented Soil deals 195% damage against monsters. Tormented Shadow's
-    current Cooldowns is reduced by 5% of its maximum whenever Soul Siphon triggers.
+    current Cooldowns is reduced by 3 . 5% of its maximum whenever Soul Siphon triggers.
   name: Tormented Shadow
   slot: '2'
 - cooldowns:
@@ -58,12 +58,12 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Chains nearby enemy champions, dealing 14% / 16% / 18% ( +0.015% AP
-    ) magic damage of their maximum health. The chains persist for 3 seconds, revealing
+  description: Chains nearby enemy champions, dealing 150 / 225 / 300 ( +70% AP )
+    magic damage of their maximum health. The chains persist for 3 seconds, revealing
     and slowing by 15% Movement Speed . When the duration ends, chained targets are
-    stunned for 1.5 seconds and dealt 14% / 16% / 18% ( +0.015% AP ) magic damage
-    of their maximum health. Morgana gains 15% Movement speed as long as the chains
-    last.
+    stunned for 1.5 seconds and dealt 150 / 225 / 300 ( +70% AP ) magic damage of
+    their maximum health. Morgana gains 10% / 25% / 40% Movement speed as long as
+    the chains last.
   name: Soul Shackles
   slot: '4'
 base_stats:
@@ -140,7 +140,7 @@ Fires a bolt of dark energy, rooting the first enemy hit for 2 / 2.25 / 2.5 / 2.
 
 **Cost:** 70.0 / 90.0 / 110.0 / 130.0
 
-Curses an area for 5 seconds, dealing 7 / 12 / 17 / 22 ( +7% AP ) magic damage every 0.5 seconds to enemies within, increased by up to 170% based on their missing health. Tormented Soil deals 195% damage against monsters. Tormented Shadow's current Cooldowns is reduced by 5% of its maximum whenever Soul Siphon triggers.
+Curses an area for 5 seconds, dealing 7 / 12 / 17 / 22 ( +7% AP ) magic damage every 0.5 seconds to enemies within, increased by up to 170% based on their missing health. Tormented Soil deals 195% damage against monsters. Tormented Shadow's current Cooldowns is reduced by 3 . 5% of its maximum whenever Soul Siphon triggers.
 
 ### [3] Black Shield
 
@@ -156,5 +156,5 @@ Places a barrier around an allied champion for 5 seconds, absorbing 70 / 150 / 2
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Chains nearby enemy champions, dealing 14% / 16% / 18% ( +0.015% AP ) magic damage of their maximum health. The chains persist for 3 seconds, revealing and slowing by 15% Movement Speed . When the duration ends, chained targets are stunned for 1.5 seconds and dealt 14% / 16% / 18% ( +0.015% AP ) magic damage of their maximum health. Morgana gains 15% Movement speed as long as the chains last.
+Chains nearby enemy champions, dealing 150 / 225 / 300 ( +70% AP ) magic damage of their maximum health. The chains persist for 3 seconds, revealing and slowing by 15% Movement Speed . When the duration ends, chained targets are stunned for 1.5 seconds and dealt 150 / 225 / 300 ( +70% AP ) magic damage of their maximum health. Morgana gains 10% / 25% / 40% Movement speed as long as the chains last.
 

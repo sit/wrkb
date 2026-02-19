@@ -71,7 +71,7 @@ abilities:
   - 100.0
   description: 'Conjures a Chaos Storm at the target location for 5.5 seconds, dealing
     150 / 225 / 330 ( +60% AP ) magic damage to enemies within the area and disrupting
-    their channeled abilities. The storm then deals 50 / 80 / 110 ( +35% AP ) magic
+    their channeled abilities. The storm then deals 50 / 90 / 130 ( +40% AP ) magic
     damage to enemies within it every second. Upgrade - Howl : Chaos Storm moves faster.
     Champion takedowns empower the storm, extending its duration by 3.5 seconds and
     increasing its area of effect. The storm can be empowered up to 5 times. The closer
@@ -166,5 +166,5 @@ Fires a chaos beam that cuts across the battlefield in a line, dealing 75 / 120 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Conjures a Chaos Storm at the target location for 5.5 seconds, dealing 150 / 225 / 330 ( +60% AP ) magic damage to enemies within the area and disrupting their channeled abilities. The storm then deals 50 / 80 / 110 ( +35% AP ) magic damage to enemies within it every second. Upgrade - Howl : Chaos Storm moves faster. Champion takedowns empower the storm, extending its duration by 3.5 seconds and increasing its area of effect. The storm can be empowered up to 5 times. The closer the storm is to Viktor, the faster it moves.
+Conjures a Chaos Storm at the target location for 5.5 seconds, dealing 150 / 225 / 330 ( +60% AP ) magic damage to enemies within the area and disrupting their channeled abilities. The storm then deals 50 / 90 / 130 ( +40% AP ) magic damage to enemies within it every second. Upgrade - Howl : Chaos Storm moves faster. Champion takedowns empower the storm, extending its duration by 3.5 seconds and increasing its area of effect. The storm can be empowered up to 5 times. The closer the storm is to Viktor, the faster it moves.
 

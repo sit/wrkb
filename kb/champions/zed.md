@@ -10,13 +10,13 @@ abilities:
   - 6.0
   - 6.0
   costs:
-  - 65.0
   - 60.0
   - 55.0
   - 50.0
+  - 45.0
   description: Zed and his shadows throw their shurikens, each dealing 70 / 120 /
-    170 / 220 ( +110% bonus AD ) physical damage to the first enemy they hit and 42
-    / 72 / 102 / 132 ( +66% bonus AD ) physical damage to other enemies in their path.
+    170 / 220 ( +110% bonus AD ) physical damage to the first enemy they hit and 49
+    / 84 / 119 / 154 ( +77% bonus AD ) physical damage to other enemies in their path.
     Deals 80% damage to monsters.
   name: Razor Shuriken
   slot: '1'
@@ -30,8 +30,8 @@ abilities:
   - 30.0
   - 25.0
   - 20.0
-  description: 'Passive : Zed gains 35 / 40 / 45 / 50 Energy whenever an ability strikes
-    the same enemy twice. Energy can only be gaines once per cast ability. Active
+  description: 'Passive : Zed gains 40 / 45 / 50 / 55 Energy whenever an ability strikes
+    the same enemy twice. Energy can only be gained once per cast ability. Active
     : Zed''s shadow dashes forward, remaining in place for 4.5 seconds. Reactivating
     Living Shadow will cause Zed to swap positions with his shadow.'
   name: Living Shadow
@@ -66,7 +66,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '35'
+    base: '40'
     growth: '5'
   Attack Dmg.:
     base: '64'
@@ -81,7 +81,7 @@ base_stats:
     base: '9'
     growth: '1'
   Magic Res.:
-    base: '38'
+    base: '40'
     growth: '2'
   Mana:
     base: '200'
@@ -111,8 +111,8 @@ Mid Lane, Jungle
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 200 (+0 per level)
 - Mana Reg. (5s): 50 (+0 per level)
-- Armor: 35 (+5 per level)
-- Magic Res.: 38 (+2 per level)
+- Armor: 40 (+5 per level)
+- Magic Res.: 40 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 64 (+4 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
@@ -127,9 +127,9 @@ Zed's attacks against enemies below 50% Health deal bonus 7% magic damage of the
 
 **Cooldown:** 6.0 / 6.0 / 6.0 / 6.0 seconds
 
-**Cost:** 65.0 / 60.0 / 55.0 / 50.0
+**Cost:** 60.0 / 55.0 / 50.0 / 45.0
 
-Zed and his shadows throw their shurikens, each dealing 70 / 120 / 170 / 220 ( +110% bonus AD ) physical damage to the first enemy they hit and 42 / 72 / 102 / 132 ( +66% bonus AD ) physical damage to other enemies in their path. Deals 80% damage to monsters.
+Zed and his shadows throw their shurikens, each dealing 70 / 120 / 170 / 220 ( +110% bonus AD ) physical damage to the first enemy they hit and 49 / 84 / 119 / 154 ( +77% bonus AD ) physical damage to other enemies in their path. Deals 80% damage to monsters.
 
 ### [2] Living Shadow
 
@@ -137,7 +137,7 @@ Zed and his shadows throw their shurikens, each dealing 70 / 120 / 170 / 220 ( +
 
 **Cost:** 35.0 / 30.0 / 25.0 / 20.0
 
-Passive : Zed gains 35 / 40 / 45 / 50 Energy whenever an ability strikes the same enemy twice. Energy can only be gaines once per cast ability. Active : Zed's shadow dashes forward, remaining in place for 4.5 seconds. Reactivating Living Shadow will cause Zed to swap positions with his shadow.
+Passive : Zed gains 40 / 45 / 50 / 55 Energy whenever an ability strikes the same enemy twice. Energy can only be gained once per cast ability. Active : Zed's shadow dashes forward, remaining in place for 4.5 seconds. Reactivating Living Shadow will cause Zed to swap positions with his shadow.
 
 ### [3] Shadow Slash
 

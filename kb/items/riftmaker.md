@@ -1,9 +1,9 @@
 ---
 cost: 3200
 effects:
-- "UNIQUE - Assimilation: +11% Omnivamp.\n\r\nUNIQUE - Void Corruption: When in combat\
-  \ with champions, gain 1 stack of Corruption every 1 second. Each stack increases\
-  \ the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional\
+- "UNIQUE - Assimilation: +11% Magic Vamp.\n\r\nUNIQUE - Void Corruption: When in\
+  \ combat with champions, gain 1 stack of Corruption every 1 second. Each Stack of\
+  \ Corruption increases your Magic Damage Dealt by 2.5%. At maximum stacks, the additional\
   \ damage provided by Corruption becomes true damage."
 id: 131
 image_url: https://www.wildriftfire.com/images/items/riftmaker.png
@@ -30,7 +30,7 @@ type: Magic
 
 ## Effects
 
-UNIQUE - Assimilation: +11% Omnivamp.
+UNIQUE - Assimilation: +11% Magic Vamp.
 
-UNIQUE - Void Corruption: When in combat with champions, gain 1 stack of Corruption every 1 second. Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided by Corruption becomes true damage.
+UNIQUE - Void Corruption: When in combat with champions, gain 1 stack of Corruption every 1 second. Each Stack of Corruption increases your Magic Damage Dealt by 2.5%. At maximum stacks, the additional damage provided by Corruption becomes true damage.
 

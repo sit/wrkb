@@ -1,7 +1,9 @@
 ---
 abilities:
-- description: Gains 60% Attack Speed for 5 seconds on a champion kill or assist,
-    30% Attack Speed on non-champion kills.
+- description: 'On champion takedowns, gains: - 60% Attack Speed that can exceed the
+    Attack Speed cap - Attack Damage = 20 x bonus AS . - Ability Power = 20 x bonus
+    AS . On non-champion takedowns, gains: - 15% Attack Speed - Attack Damage = 10
+    x bonus AS . - Ability Power = 10 x bonus AS . These bonuses last 5 seconds.'
   name: Living Vengeance
   slot: P
 - cooldowns:
@@ -16,25 +18,24 @@ abilities:
   - 90.0
   description: 'Hold : Draws the bow, gradually increasing the range and damage for
     the next shot. Movement Speed is slowed by 20% while preparing to shoot. Release
-    : Fires an arrow, dealing 20 / 70 / 120 / 170 ( +125% AD ) to 30 / 105 / 180 /
-    255 ( +187.5% AD ) physical damage , reduced by 15% per enemy hit ( minimum 33%
-    ). Piercing Arrow''s cooldown is reduced by 4 seconds if the arrow detonates Blight
-    stacks on at least one enemy champion. Piercing Arrow fails if not released after
-    4 seconds, but will refund 50% of its Mana cost.'
+    : Fires an arrow, dealing 80 / 140 / 200 / 260 ( +110% / 120% / 130% / 140% AD
+    ) to 105 / 195 / 285 / 375 ( +150% AD ) physical damage , reduced by 15% per enemy
+    hit ( minimum 33% ).'
   name: Piercing Arrow
   slot: '1'
 - cooldowns:
-  - 22.0
-  - 20.0
-  - 18.0
-  - 16.0
-  description: 'Passive : Attacks deal 12 / 16 / 20 / 24 ( +20% AP ) magic damage
+  - 25.0
+  - 25.0
+  - 25.0
+  - 25.0
+  description: 'Passive : Attacks deal 15 / 35 / 35 / 45 ( +35% AP ) magic damage
     and apply Blight for 6 seconds ( stacks 3 times). Varus'' other abilities detonate
-    Blight , dealing 5% / 5.5% / 6% / 6.5% ( +1% AP ) magic damage of the target''s
-    max Health per stack. Active : Doubles the bonus on hit damage from Blighted Quiver''s
-    passive for 6 seconds. The next Piercing Arrow deals bonus magic damage equal
-    to 8% to 16% of the target''s missing Health, increased by 0% - 100% (based on
-    Piercing Arrow ''s charge time).'
+    Blight , dealing 3% / 3.5% / 4% / 4.5% ( +0.012% AP ) magic damage of the target''s
+    max Health per stack. Detonating Blight on enemy champions or epic monsters reduces
+    his basic ability cooldowns by 13% per stack. Active : Varus''s next Piercing
+    Arrow deals 6% - 9% of the target''s missing Health as bonus magic damage , increased
+    by 0% to 50% based on charge time. Detonating Blight on monsters deals up to 120
+    damage per stack.'
   name: Blighted Quiver
   slot: '2'
 - cooldowns:
@@ -54,9 +55,9 @@ abilities:
   name: Hail of Arrows
   slot: '3'
 - cooldowns:
+  - 75.0
   - 65.0
   - 55.0
-  - 45.0
   costs:
   - 100.0
   - 100.0
@@ -72,13 +73,13 @@ base_stats:
     base: '35'
     growth: '4'
   Attack Dmg.:
-    base: '58'
-    growth: '3'
+    base: '54'
+    growth: '4'
   Attack Spd.:
     base: '0.81'
     growth: '0.0200'
   Health:
-    base: '570'
+    base: '600'
     growth: '128'
   Health Reg. (5s):
     base: '6'
@@ -109,21 +110,21 @@ ADC
 
 ## Base Stats
 
-- Health: 570 (+128 per level)
+- Health: 600 (+128 per level)
 - Health Reg. (5s): 6 (+1 per level)
 - Mana: 390 (+25 per level)
 - Mana Reg. (5s): 12 (+1 per level)
 - Armor: 35 (+4 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 340 (+0 per level)
-- Attack Dmg.: 58 (+3 per level)
+- Attack Dmg.: 54 (+4 per level)
 - Attack Spd.: 0.81 (+0.0200 per level)
 
 ## Abilities
 
 ### [P] Living Vengeance
 
-Gains 60% Attack Speed for 5 seconds on a champion kill or assist, 30% Attack Speed on non-champion kills.
+On champion takedowns, gains: - 60% Attack Speed that can exceed the Attack Speed cap - Attack Damage = 20 x bonus AS . - Ability Power = 20 x bonus AS . On non-champion takedowns, gains: - 15% Attack Speed - Attack Damage = 10 x bonus AS . - Ability Power = 10 x bonus AS . These bonuses last 5 seconds.
 
 ### [1] Piercing Arrow
 
@@ -131,13 +132,13 @@ Gains 60% Attack Speed for 5 seconds on a champion kill or assist, 30% Attack Sp
 
 **Cost:** 75.0 / 80.0 / 85.0 / 90.0
 
-Hold : Draws the bow, gradually increasing the range and damage for the next shot. Movement Speed is slowed by 20% while preparing to shoot. Release : Fires an arrow, dealing 20 / 70 / 120 / 170 ( +125% AD ) to 30 / 105 / 180 / 255 ( +187.5% AD ) physical damage , reduced by 15% per enemy hit ( minimum 33% ). Piercing Arrow's cooldown is reduced by 4 seconds if the arrow detonates Blight stacks on at least one enemy champion. Piercing Arrow fails if not released after 4 seconds, but will refund 50% of its Mana cost.
+Hold : Draws the bow, gradually increasing the range and damage for the next shot. Movement Speed is slowed by 20% while preparing to shoot. Release : Fires an arrow, dealing 80 / 140 / 200 / 260 ( +110% / 120% / 130% / 140% AD ) to 105 / 195 / 285 / 375 ( +150% AD ) physical damage , reduced by 15% per enemy hit ( minimum 33% ).
 
 ### [2] Blighted Quiver
 
-**Cooldown:** 22.0 / 20.0 / 18.0 / 16.0 seconds
+**Cooldown:** 25.0 / 25.0 / 25.0 / 25.0 seconds
 
-Passive : Attacks deal 12 / 16 / 20 / 24 ( +20% AP ) magic damage and apply Blight for 6 seconds ( stacks 3 times). Varus' other abilities detonate Blight , dealing 5% / 5.5% / 6% / 6.5% ( +1% AP ) magic damage of the target's max Health per stack. Active : Doubles the bonus on hit damage from Blighted Quiver's passive for 6 seconds. The next Piercing Arrow deals bonus magic damage equal to 8% to 16% of the target's missing Health, increased by 0% - 100% (based on Piercing Arrow 's charge time).
+Passive : Attacks deal 15 / 35 / 35 / 45 ( +35% AP ) magic damage and apply Blight for 6 seconds ( stacks 3 times). Varus' other abilities detonate Blight , dealing 3% / 3.5% / 4% / 4.5% ( +0.012% AP ) magic damage of the target's max Health per stack. Detonating Blight on enemy champions or epic monsters reduces his basic ability cooldowns by 13% per stack. Active : Varus's next Piercing Arrow deals 6% - 9% of the target's missing Health as bonus magic damage , increased by 0% to 50% based on charge time. Detonating Blight on monsters deals up to 120 damage per stack.
 
 ### [3] Hail of Arrows
 
@@ -149,7 +150,7 @@ Fires a hail of arrows that deal 70 / 115 / 160 / 205 ( +90% AD ) physical damag
 
 ### [4] Chain of Corruption
 
-**Cooldown:** 65.0 / 55.0 / 45.0 seconds
+**Cooldown:** 75.0 / 65.0 / 55.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

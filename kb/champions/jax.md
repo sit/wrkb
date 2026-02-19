@@ -101,7 +101,6 @@ base_stats:
 name: Jax
 roles:
 - Baron Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/jax
 ---
 
@@ -109,7 +108,7 @@ source_url: https://www.wildriftfire.com/guide/jax
 
 ## Roles
 
-Baron Lane, Jungle
+Baron Lane
 
 ## Base Stats
 

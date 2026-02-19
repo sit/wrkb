@@ -1,25 +1,22 @@
 ---
 abilities:
 - description: Attacks and damaging abilities slow targets hit by 15% for 2 seconds.
-    Attacks against enemies slowed by Frost Shot deal 10% ( +100% Critical chance
-    ) bonus damage. Ashe's critical strikes do not deal extra damage. Instead, they
-    increase Frost Shot's slow to 40% , decaying over time.
+    Attacks deal 110% bonus damage , scaling with her Critical Damage. Critical Strikes
+    deal no bonus damage but slow targets by 40%, decaying over time.
   name: Frost Shot
   slot: P
 - cooldowns:
-  - 7.0
-  - 6.0
-  - 5.0
-  - 4.0
+  - 0.0
+  - 0.0
+  - 0.0
   costs:
   - 50.0
   - 50.0
   - 50.0
   - 50.0
-  description: 'Passive : Store 2 Focus while Ranger''s Focus is not active. Attacks
-    grant an additional stack of Focus (up to 6) Stacks fall on one at a time. Active
-    : For the next 6 seconds, attacks consume a stack of Focus to fire with 25% /
-    35% / 45% / 55% Attack Speed and barrage the target with a flurry of arrows for
+  description: 'Passive : Attacks grant a Focus stack for 4 seconds. At 4 stacks,
+    she can cast this ability Active : Gain 20% / 30% / 40% / 50% Attack Speed for
+    6 seconds. While active, her attack is transformed into a flurry of arrows, dealing
     115% / 120% / 125% / 130% physical damage .'
   name: Ranger's Focus
   slot: '1'
@@ -33,8 +30,8 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: Ashe fires 5 / 7 / 9 / 11 arrows in a cone, dealing 20 / 40/ 60 / 80
-    ( +115% AD ) physical damage . Also applies a critical slow from Frost Shot.
+  description: Ashe fires 5 / 7 / 9 / 11 arrows in a cone, dealing 20 / 35 / 50 /
+    65 ( +115% AD ) physical damage . Also applies a critical slow from Frost Shot.
   name: Volley
   slot: '2'
 - cooldowns:
@@ -48,9 +45,9 @@ abilities:
   name: Hawkshot
   slot: '3'
 - cooldowns:
+  - 80.0
   - 70.0
   - 60.0
-  - 50.0
   costs:
   - 100.0
   - 100.0
@@ -74,7 +71,7 @@ base_stats:
     base: '0.83'
     growth: '0.0200'
   Health:
-    base: '600'
+    base: '630'
     growth: '128'
   Health Reg. (5s):
     base: '6'
@@ -105,7 +102,7 @@ ADC
 
 ## Base Stats
 
-- Health: 600 (+128 per level)
+- Health: 630 (+128 per level)
 - Health Reg. (5s): 6 (+1 per level)
 - Mana: 345 (+30 per level)
 - Mana Reg. (5s): 9 (+1 per level)
@@ -119,15 +116,15 @@ ADC
 
 ### [P] Frost Shot
 
-Attacks and damaging abilities slow targets hit by 15% for 2 seconds. Attacks against enemies slowed by Frost Shot deal 10% ( +100% Critical chance ) bonus damage. Ashe's critical strikes do not deal extra damage. Instead, they increase Frost Shot's slow to 40% , decaying over time.
+Attacks and damaging abilities slow targets hit by 15% for 2 seconds. Attacks deal 110% bonus damage , scaling with her Critical Damage. Critical Strikes deal no bonus damage but slow targets by 40%, decaying over time.
 
 ### [1] Ranger's Focus
 
-**Cooldown:** 7.0 / 6.0 / 5.0 / 4.0 seconds
+**Cooldown:** 0.0 / 0.0 / 0.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Passive : Store 2 Focus while Ranger's Focus is not active. Attacks grant an additional stack of Focus (up to 6) Stacks fall on one at a time. Active : For the next 6 seconds, attacks consume a stack of Focus to fire with 25% / 35% / 45% / 55% Attack Speed and barrage the target with a flurry of arrows for 115% / 120% / 125% / 130% physical damage .
+Passive : Attacks grant a Focus stack for 4 seconds. At 4 stacks, she can cast this ability Active : Gain 20% / 30% / 40% / 50% Attack Speed for 6 seconds. While active, her attack is transformed into a flurry of arrows, dealing 115% / 120% / 125% / 130% physical damage .
 
 ### [2] Volley
 
@@ -135,7 +132,7 @@ Passive : Store 2 Focus while Ranger's Focus is not active. Attacks grant an add
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Ashe fires 5 / 7 / 9 / 11 arrows in a cone, dealing 20 / 40/ 60 / 80 ( +115% AD ) physical damage . Also applies a critical slow from Frost Shot.
+Ashe fires 5 / 7 / 9 / 11 arrows in a cone, dealing 20 / 35 / 50 / 65 ( +115% AD ) physical damage . Also applies a critical slow from Frost Shot.
 
 ### [3] Hawkshot
 
@@ -145,7 +142,7 @@ Ashe fires a hawk spirit that grants vision of enemies along its path. Re-cast :
 
 ### [4] Enchanted Crystal Arrow
 
-**Cooldown:** 70.0 / 60.0 / 50.0 seconds
+**Cooldown:** 80.0 / 70.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

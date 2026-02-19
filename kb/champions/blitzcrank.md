@@ -24,14 +24,14 @@ abilities:
   - 10.0
   - 10.0
   costs:
-  - 50.0
-  - 50.0
-  - 50.0
-  - 50.0
-  description: Gains 50% / 55% / 60% / 65% decaying Movement Speed for 2.5 seconds.
-    Blitzcrank may reactivate Overdrive to gain 140% / 150% / 160% / 170% decaying
-    Movement Speed for 1.5 seconds. When Overdrive ends, Blitzcrank is slowed by 33%
-    for 1 second. This is increased to 99% for 1 seconds if Overdrive was recast.
+  - 75.0
+  - 75.0
+  - 75.0
+  - 75.0
+  description: Gains 35% / 40% / 45% / 50% to 10% decaying Movement Speed for 2.5
+    seconds. Blitzcrank may reactivate Overdrive to gain 140% / 150% / 160% / 170%
+    decaying Movement Speed for 1.5 seconds. When Overdrive ends, Blitzcrank is slowed
+    by 33% for 1 second. This is increased to 99% for 1 seconds if Overdrive was recast.
   name: Overdrive
   slot: '2'
 - cooldowns:
@@ -64,7 +64,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '55'
+    base: '49'
     growth: '4'
   Attack Dmg.:
     base: '58'
@@ -108,7 +108,7 @@ Support
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 300 (+31 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 55 (+4 per level)
+- Armor: 49 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 335 (+0 per level)
 - Attack Dmg.: 58 (+2 per level)
@@ -132,9 +132,9 @@ Blitzcrank fires his right hand to deal 110 / 175 / 240 / 305 ( +100% AP ) magic
 
 **Cooldown:** 10.0 / 10.0 / 10.0 / 10.0 seconds
 
-**Cost:** 50.0 / 50.0 / 50.0 / 50.0
+**Cost:** 75.0 / 75.0 / 75.0 / 75.0
 
-Gains 50% / 55% / 60% / 65% decaying Movement Speed for 2.5 seconds. Blitzcrank may reactivate Overdrive to gain 140% / 150% / 160% / 170% decaying Movement Speed for 1.5 seconds. When Overdrive ends, Blitzcrank is slowed by 33% for 1 second. This is increased to 99% for 1 seconds if Overdrive was recast.
+Gains 35% / 40% / 45% / 50% to 10% decaying Movement Speed for 2.5 seconds. Blitzcrank may reactivate Overdrive to gain 140% / 150% / 160% / 170% decaying Movement Speed for 1.5 seconds. When Overdrive ends, Blitzcrank is slowed by 33% for 1 second. This is increased to 99% for 1 seconds if Overdrive was recast.
 
 ### [3] Power Fist
 

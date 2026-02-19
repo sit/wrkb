@@ -45,26 +45,26 @@ abilities:
   - 14.0
   - 13.0
   costs:
-  - 50.0
-  - 60.0
-  - 70.0
-  - 80.0
+  - 35.0
+  - 45.0
+  - 55.0
+  - 65.0
   description: Deals 25 / 35 / 45 / 55 physical damage to all enemies affected by
-    Deadly Venom , each stack deals 20 / 25 / 30 / 35 ( +30% bonus AD +18% AP ) damage
+    Deadly Venom , each stack deals 20 / 25 / 30 / 35 ( +42% bonus AD +18% AP ) damage
     to enemies. Enemies with maximum stacks will spread the damage to nearby targets
     and apply maximum stacks of Deadly Venom to them. Deals 130 physical damage at
     max stacks. Deals 80% increased damage to monsters.
   name: Contaminate
   slot: '3'
 - cooldowns:
-  - 80.0
   - 70.0
+  - 65.0
   - 60.0
   costs:
   - 100.0
   - 100.0
   - 100.0
-  description: For 6 seconds gain 225 Attack Range and 20 / 35 / 50 bonus Attack Damage
+  description: For 6 seconds gain 225 Attack Range and 30 / 45 / 60 bonus Attack Damage
     and transform attacks into piercing bolts that hit every enemy in a line. Subsequent
     targets take 15% less damage, down to a minimum of 40% .
   name: Spray and Pray
@@ -75,7 +75,7 @@ base_stats:
     growth: '4'
   Attack Dmg.:
     base: '54'
-    growth: '3'
+    growth: '4'
   Attack Spd.:
     base: '0.83'
     growth: '0.0200'
@@ -118,7 +118,7 @@ ADC
 - Armor: 40 (+4 per level)
 - Magic Res.: 32 (+1 per level)
 - Move Speed: 340 (+0 per level)
-- Attack Dmg.: 54 (+3 per level)
+- Attack Dmg.: 54 (+4 per level)
 - Attack Spd.: 0.83 (+0.0200 per level)
 
 ## Abilities
@@ -147,15 +147,15 @@ Hurls a cask that applies stacks of Deadly Venom to enemies and slows them for 3
 
 **Cooldown:** 16.0 / 15.0 / 14.0 / 13.0 seconds
 
-**Cost:** 50.0 / 60.0 / 70.0 / 80.0
+**Cost:** 35.0 / 45.0 / 55.0 / 65.0
 
-Deals 25 / 35 / 45 / 55 physical damage to all enemies affected by Deadly Venom , each stack deals 20 / 25 / 30 / 35 ( +30% bonus AD +18% AP ) damage to enemies. Enemies with maximum stacks will spread the damage to nearby targets and apply maximum stacks of Deadly Venom to them. Deals 130 physical damage at max stacks. Deals 80% increased damage to monsters.
+Deals 25 / 35 / 45 / 55 physical damage to all enemies affected by Deadly Venom , each stack deals 20 / 25 / 30 / 35 ( +42% bonus AD +18% AP ) damage to enemies. Enemies with maximum stacks will spread the damage to nearby targets and apply maximum stacks of Deadly Venom to them. Deals 130 physical damage at max stacks. Deals 80% increased damage to monsters.
 
 ### [4] Spray and Pray
 
-**Cooldown:** 80.0 / 70.0 / 60.0 seconds
+**Cooldown:** 70.0 / 65.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-For 6 seconds gain 225 Attack Range and 20 / 35 / 50 bonus Attack Damage and transform attacks into piercing bolts that hit every enemy in a line. Subsequent targets take 15% less damage, down to a minimum of 40% .
+For 6 seconds gain 225 Attack Range and 30 / 45 / 60 bonus Attack Damage and transform attacks into piercing bolts that hit every enemy in a line. Subsequent targets take 15% less damage, down to a minimum of 40% .
 

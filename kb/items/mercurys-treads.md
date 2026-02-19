@@ -1,8 +1,8 @@
 ---
 cost: 1000
 effects:
-- "+100% Health Regen\n\r\nUNIQUE - DISSOLVE: Reduces magic damage taken by 7% - 12%\
-  \ (based on level).\n\r\nLimited to 1 Boots item."
+- "+100% Health Regen\n\r\nUNIQUE - DISSOLVE: Reduces magic damage taken from champions\
+  \ by 3% - 10% (based on level).\n\r\nLimited to 1 Boots item."
 id: 98
 image_url: https://www.wildriftfire.com/images/items/mercurys-treads.png
 name: Mercury's Treads
@@ -28,7 +28,7 @@ type: Boots
 
 +100% Health Regen
 
-UNIQUE - DISSOLVE: Reduces magic damage taken by 7% - 12% (based on level).
+UNIQUE - DISSOLVE: Reduces magic damage taken from champions by 3% - 10% (based on level).
 
 Limited to 1 Boots item.
 

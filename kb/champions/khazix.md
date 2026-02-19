@@ -1,22 +1,22 @@
 ---
 abilities:
 - description: Enhances next attack against enemy champions to deal an additional
-    10 + 8 per level ( +50% AD ) magic damage and slow by 25% for 2 seconds. Unseen
+    15 + 8 per level ( +50% AD ) magic damage and slow by 25% for 2 seconds. Unseen
     Threat is refreshed when the enemy team loses sight of Kha'Zix.
   name: Unseen Threat
   slot: P
 - cooldowns:
   - 5.0
-  - 5.0
   - 4.0
   - 4.0
+  - 3.0
   costs:
   - 20.0
   - 20.0
   - 20.0
   - 20.0
-  description: 'Slashes with his claws, dealing 65 / 100 / 135 / 170 ( +130% AD )
-    physical damage . If the target is isolated, the damage is increased by 100% .
+  description: 'Slashes with his claws, dealing 75 / 110 / 145 / 180 ( +130% AD )
+    physical damage . If the target is isolated, the damage is increased by 110% .
     Evolved Reaper Claws : Attacks and Taste Their Fear gain 50 range and 40% Taste
     Their Fear''s cooldown is refunded against isolated targets. Units without allied
     units or structures nearby are isolated .'
@@ -32,7 +32,7 @@ abilities:
   - 60.0
   - 65.0
   - 70.0
-  description: 'Fires spikes that deal 80 / 120 / 160 / 200 ( +100% AD ) physical
+  description: 'Fires spikes that deal 70 / 110 / 150 / 190 ( +100% AD ) physical
     damage . Heals himself for 40 / 75 / 110 / 145 ( +50% AP ) if he is within the
     explosion. Evolved Spike Racks : Fires two additional spikes, revealing and slowing
     enemies by 60% for 2 seconds.'
@@ -54,9 +54,9 @@ abilities:
   name: Leap
   slot: '3'
 - cooldowns:
-  - 70.0
-  - 60.0
-  - 50.0
+  - 75.0
+  - 65.0
+  - 55.0
   costs:
   - 100.0
   - 100.0
@@ -70,10 +70,10 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '35'
+    base: '40'
     growth: '4'
   Attack Dmg.:
-    base: '54'
+    base: '58'
     growth: '4'
   Attack Spd.:
     base: '0.80'
@@ -114,25 +114,25 @@ Jungle
 - Health Reg. (5s): 8 (+1 per level)
 - Mana: 390 (+37 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 35 (+4 per level)
+- Armor: 40 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
+- Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.80 (+0.1500 per level)
 
 ## Abilities
 
 ### [P] Unseen Threat
 
-Enhances next attack against enemy champions to deal an additional 10 + 8 per level ( +50% AD ) magic damage and slow by 25% for 2 seconds. Unseen Threat is refreshed when the enemy team loses sight of Kha'Zix.
+Enhances next attack against enemy champions to deal an additional 15 + 8 per level ( +50% AD ) magic damage and slow by 25% for 2 seconds. Unseen Threat is refreshed when the enemy team loses sight of Kha'Zix.
 
 ### [1] Taste Their Fear
 
-**Cooldown:** 5.0 / 5.0 / 4.0 / 4.0 seconds
+**Cooldown:** 5.0 / 4.0 / 4.0 / 3.0 seconds
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Slashes with his claws, dealing 65 / 100 / 135 / 170 ( +130% AD ) physical damage . If the target is isolated, the damage is increased by 100% . Evolved Reaper Claws : Attacks and Taste Their Fear gain 50 range and 40% Taste Their Fear's cooldown is refunded against isolated targets. Units without allied units or structures nearby are isolated .
+Slashes with his claws, dealing 75 / 110 / 145 / 180 ( +130% AD ) physical damage . If the target is isolated, the damage is increased by 110% . Evolved Reaper Claws : Attacks and Taste Their Fear gain 50 range and 40% Taste Their Fear's cooldown is refunded against isolated targets. Units without allied units or structures nearby are isolated .
 
 ### [2] Void Spike
 
@@ -140,7 +140,7 @@ Slashes with his claws, dealing 65 / 100 / 135 / 170 ( +130% AD ) physical damag
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Fires spikes that deal 80 / 120 / 160 / 200 ( +100% AD ) physical damage . Heals himself for 40 / 75 / 110 / 145 ( +50% AP ) if he is within the explosion. Evolved Spike Racks : Fires two additional spikes, revealing and slowing enemies by 60% for 2 seconds.
+Fires spikes that deal 70 / 110 / 150 / 190 ( +100% AD ) physical damage . Heals himself for 40 / 75 / 110 / 145 ( +50% AP ) if he is within the explosion. Evolved Spike Racks : Fires two additional spikes, revealing and slowing enemies by 60% for 2 seconds.
 
 ### [3] Leap
 
@@ -152,7 +152,7 @@ Leaps to target area, dealing 65 / 110 / 155 / 200 ( +20% AD ) physical damage .
 
 ### [4] Void Assault
 
-**Cooldown:** 70.0 / 60.0 / 50.0 seconds
+**Cooldown:** 75.0 / 65.0 / 55.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

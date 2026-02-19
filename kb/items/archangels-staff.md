@@ -2,8 +2,8 @@
 cost: 3000
 effects:
 - "UNIQUE - AWE: Grants bonus Ability Power equal to 1% maximum mana. Refunds 25%\
-  \ of mana spent.\n\r\nUNIQUE - MANA CHARGE: Grants a charge every 4 seconds, up\
-  \ to 3 charges. Each mana expenditure consumes a charge and grants +15 mana, up\
+  \ of mana spent.\n\r\nUNIQUE - MANA CHARGE: Grants a charge every 3.3 seconds, up\
+  \ to 3 charges. Each mana expenditure consumes a charge and grants +18 mana, up\
   \ to a maximum of 700 mana.\n\r\nTransforms into Seraph's Embrace at +700 Mana.\n\
   \r\nLimited to 1 AWE item."
 id: 46
@@ -33,7 +33,7 @@ type: Magic
 
 UNIQUE - AWE: Grants bonus Ability Power equal to 1% maximum mana. Refunds 25% of mana spent.
 
-UNIQUE - MANA CHARGE: Grants a charge every 4 seconds, up to 3 charges. Each mana expenditure consumes a charge and grants +15 mana, up to a maximum of 700 mana.
+UNIQUE - MANA CHARGE: Grants a charge every 3.3 seconds, up to 3 charges. Each mana expenditure consumes a charge and grants +18 mana, up to a maximum of 700 mana.
 
 Transforms into Seraph's Embrace at +700 Mana.
 

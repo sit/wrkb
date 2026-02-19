@@ -1,8 +1,8 @@
 ---
 abilities:
-- description: 'Every 40 seconds, gain a 31 ( +80% AP ) health shield . Attacks and
-    abilities on enemy champions reduce this cooldown by 1 second. Lover''s Leap :
-    Xayah and Rakan can join each other''s recall. Both will reach Summoming Platform
+- description: 'Every 35 - 14 seconds, gain a 31 ( +80% AP ) health shield . Attacks
+    and abilities on enemy champions reduce this cooldown by 1 second. Lover''s Leap
+    : Xayah and Rakan can join each other''s recall. Both will reach Summoming Platform
     at the time of wich the initiator''s recall ends.'
   name: Fey Feathers
   slot: P
@@ -16,10 +16,10 @@ abilities:
   - 60.0
   - 60.0
   - 60.0
-  description: Fling a magical feather that deals 80 / 140 / 200 / 260 ( +60% AP )
+  description: Fling a magical feather that deals 90 / 150 / 210 / 270 ( +60% AP )
     magic damage to the first enemy hit. If the feather hits a champion or epic monster,
-    Rakan restores 36 ( +70% AP ) health to himself and nearby allies after 3 seconds
-    or when he touches an ally.
+    Rakan restores 56 - 140 ( +70% AP ) health to himself and nearby allies after
+    3 seconds or when he touches an ally.
   name: Gleaming Quill
   slot: '1'
 - cooldowns:
@@ -33,7 +33,7 @@ abilities:
   - 70.0
   - 80.0
   description: Dashes to a location. Upon arrival Rakan leaps into the air, dealing
-    70 / 135 / 200 / 265 ( +55% AP ) magic damage and knocking up enemies for 1 second.
+    80 / 145 / 210 / 275 ( +55% AP ) magic damage and knocking up enemies for 1 second.
   name: Grand Entrance
   slot: '2'
 - cooldowns:
@@ -77,7 +77,7 @@ base_stats:
     base: '0.75'
     growth: '0.0136'
   Health:
-    base: '630'
+    base: '660'
     growth: '112'
   Health Reg. (5s):
     base: '6'
@@ -108,7 +108,7 @@ Support
 
 ## Base Stats
 
-- Health: 630 (+112 per level)
+- Health: 660 (+112 per level)
 - Health Reg. (5s): 6 (+1 per level)
 - Mana: 435 (+43 per level)
 - Mana Reg. (5s): 15 (+1 per level)
@@ -122,7 +122,7 @@ Support
 
 ### [P] Fey Feathers
 
-Every 40 seconds, gain a 31 ( +80% AP ) health shield . Attacks and abilities on enemy champions reduce this cooldown by 1 second. Lover's Leap : Xayah and Rakan can join each other's recall. Both will reach Summoming Platform at the time of wich the initiator's recall ends.
+Every 35 - 14 seconds, gain a 31 ( +80% AP ) health shield . Attacks and abilities on enemy champions reduce this cooldown by 1 second. Lover's Leap : Xayah and Rakan can join each other's recall. Both will reach Summoming Platform at the time of wich the initiator's recall ends.
 
 ### [1] Gleaming Quill
 
@@ -130,7 +130,7 @@ Every 40 seconds, gain a 31 ( +80% AP ) health shield . Attacks and abilities on
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Fling a magical feather that deals 80 / 140 / 200 / 260 ( +60% AP ) magic damage to the first enemy hit. If the feather hits a champion or epic monster, Rakan restores 36 ( +70% AP ) health to himself and nearby allies after 3 seconds or when he touches an ally.
+Fling a magical feather that deals 90 / 150 / 210 / 270 ( +60% AP ) magic damage to the first enemy hit. If the feather hits a champion or epic monster, Rakan restores 56 - 140 ( +70% AP ) health to himself and nearby allies after 3 seconds or when he touches an ally.
 
 ### [2] Grand Entrance
 
@@ -138,7 +138,7 @@ Fling a magical feather that deals 80 / 140 / 200 / 260 ( +60% AP ) magic damage
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Dashes to a location. Upon arrival Rakan leaps into the air, dealing 70 / 135 / 200 / 265 ( +55% AP ) magic damage and knocking up enemies for 1 second.
+Dashes to a location. Upon arrival Rakan leaps into the air, dealing 80 / 145 / 210 / 275 ( +55% AP ) magic damage and knocking up enemies for 1 second.
 
 ### [3] Battle Dance
 

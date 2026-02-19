@@ -1,42 +1,42 @@
 ---
 abilities:
-- description: 'An additional Thorn Spitter sprouts with every enemy champion, large
-    monster, or epic monster Deadly Spines hits. A Thorn Spitter sprouts when Grasping
-    Roots first hits an enemy champion. If no enemy champion is hit, a Thorn Spitter
-    will sprout when Grasping Roots ends. While active, Thorn Spitters automatically
-    attack targets. Thorn Spitter Health : 20 - 272 ( +25% AP ). Thorn Spitter Damage:
-    10 - 80 ( +13% AP ). Deals 50% damage to monsters. Enemy champions deal 40% ability
-    damage to Thorn Spitters.'
+- description: A Thorn Spitter with 30 - 240 ( +22% - 50% AP ) Health sprouts when
+    Grasping Roots first hits an enemy champion. If no enemy champion is hit, a Thorn
+    Spitter will sprout when Grasping Roots ends. Thorn Spitters automatically attack
+    targets within 6 seconds of sprouting, dealing 10 - 108 ( +15% AP ) magic damage
+    . An additional Thorn Spitter sprouts with every enemy champion, large monster,
+    or epic monster Deadly Spines or Stranglethorns hits. Thorn Spitters deal an additional
+    23 - 65 damage against monsters. Thorn Spitters spawned after the first deal 50%
+    damage against the same target. Enemy champions' abilities deal 35% damage against
+    Thorn Spitters . Non-epic monsters deal 35% damage against Thorn Spitters .
   name: Garden of Thorns
   slot: P
 - cooldowns:
+  - 8.0
   - 7.0
   - 7.0
   - 6.0
-  - 5.0
   costs:
   - 75.0
   - 75.0
   - 75.0
   - 75.0
-  description: Vines spread and burst into spines, dealing 70 / 125 / 180 / 235 (
+  description: Vines spread and burst into spines, dealing 60 / 115 / 170 / 225 (
     +60% AP ) magic damage and sprouting 1 Thorn Spitter .
   name: Deadly Spines
   slot: '1'
 - cooldowns:
-  - 15.0
+  - 18.0
+  - 16.0
   - 14.0
-  - 13.0
   - 12.0
   costs:
   - 50.0
   - 50.0
   - 50.0
   - 50.0
-  description: Plants a seed that lasts 6 seconds on an enemy (excluding minions),
-    dealing 5 / 8 / 11 / 14 ( +3.5% AP ) magic damage and slowing them by 15% / 20%
-    / 25% / 30% for 3 seconds. Thorn Spitters deal bonus damage to targets that carry
-    seeds.
+  description: Nearby Thorn Spitters become enraged, resetting their duration and
+    gaining 35% / 40% / 45% / 60% Health and 50% Attack Speed .
   name: Rampant Growth
   slot: '2'
 - cooldowns:
@@ -64,7 +64,7 @@ abilities:
   - 100.0
   - 100.0
   description: Zyra summons the fury of nature, growing a twisted thicket that deals
-    170 / 250 / 330 ( +60% AP ) magic damage to enemies. After 2 seconds, the vines
+    150 / 225 / 300 ( +50% AP ) magic damage to enemies. After 2 seconds, the vines
     snap upwards, knocking up enemies for 1 second. The Thorn Spitters within the
     thicket become enraged, resetting their duration and gaining 50% bonus Health
     and 50% bonus Attack Speed .
@@ -72,7 +72,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '34'
+    base: '37'
     growth: '4'
   Attack Dmg.:
     base: '54'
@@ -117,7 +117,7 @@ Support, Mid Lane
 - Health Reg. (5s): 6 (+1 per level)
 - Mana: 420 (+37 per level)
 - Mana Reg. (5s): 14 (+1 per level)
-- Armor: 34 (+4 per level)
+- Armor: 37 (+4 per level)
 - Magic Res.: 36 (+2 per level)
 - Move Speed: 360 (+0 per level)
 - Attack Dmg.: 54 (+3 per level)
@@ -127,23 +127,23 @@ Support, Mid Lane
 
 ### [P] Garden of Thorns
 
-An additional Thorn Spitter sprouts with every enemy champion, large monster, or epic monster Deadly Spines hits. A Thorn Spitter sprouts when Grasping Roots first hits an enemy champion. If no enemy champion is hit, a Thorn Spitter will sprout when Grasping Roots ends. While active, Thorn Spitters automatically attack targets. Thorn Spitter Health : 20 - 272 ( +25% AP ). Thorn Spitter Damage: 10 - 80 ( +13% AP ). Deals 50% damage to monsters. Enemy champions deal 40% ability damage to Thorn Spitters.
+A Thorn Spitter with 30 - 240 ( +22% - 50% AP ) Health sprouts when Grasping Roots first hits an enemy champion. If no enemy champion is hit, a Thorn Spitter will sprout when Grasping Roots ends. Thorn Spitters automatically attack targets within 6 seconds of sprouting, dealing 10 - 108 ( +15% AP ) magic damage . An additional Thorn Spitter sprouts with every enemy champion, large monster, or epic monster Deadly Spines or Stranglethorns hits. Thorn Spitters deal an additional 23 - 65 damage against monsters. Thorn Spitters spawned after the first deal 50% damage against the same target. Enemy champions' abilities deal 35% damage against Thorn Spitters . Non-epic monsters deal 35% damage against Thorn Spitters .
 
 ### [1] Deadly Spines
 
-**Cooldown:** 7.0 / 7.0 / 6.0 / 5.0 seconds
+**Cooldown:** 8.0 / 7.0 / 7.0 / 6.0 seconds
 
 **Cost:** 75.0 / 75.0 / 75.0 / 75.0
 
-Vines spread and burst into spines, dealing 70 / 125 / 180 / 235 ( +60% AP ) magic damage and sprouting 1 Thorn Spitter .
+Vines spread and burst into spines, dealing 60 / 115 / 170 / 225 ( +60% AP ) magic damage and sprouting 1 Thorn Spitter .
 
 ### [2] Rampant Growth
 
-**Cooldown:** 15.0 / 14.0 / 13.0 / 12.0 seconds
+**Cooldown:** 18.0 / 16.0 / 14.0 / 12.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Plants a seed that lasts 6 seconds on an enemy (excluding minions), dealing 5 / 8 / 11 / 14 ( +3.5% AP ) magic damage and slowing them by 15% / 20% / 25% / 30% for 3 seconds. Thorn Spitters deal bonus damage to targets that carry seeds.
+Nearby Thorn Spitters become enraged, resetting their duration and gaining 35% / 40% / 45% / 60% Health and 50% Attack Speed .
 
 ### [3] Grasping Roots
 
@@ -159,5 +159,5 @@ Zyra sends binding vines forward, rooting enemies hit for 1 / 1.25 / 1.5 / 1.75 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Zyra summons the fury of nature, growing a twisted thicket that deals 170 / 250 / 330 ( +60% AP ) magic damage to enemies. After 2 seconds, the vines snap upwards, knocking up enemies for 1 second. The Thorn Spitters within the thicket become enraged, resetting their duration and gaining 50% bonus Health and 50% bonus Attack Speed .
+Zyra summons the fury of nature, growing a twisted thicket that deals 150 / 225 / 300 ( +50% AP ) magic damage to enemies. After 2 seconds, the vines snap upwards, knocking up enemies for 1 second. The Thorn Spitters within the thicket become enraged, resetting their duration and gaining 50% bonus Health and 50% bonus Attack Speed .
 

@@ -1,40 +1,40 @@
 ---
 abilities:
 - description: 'Drakehoud''s Step : Ambessa''s next attack within 4 seconds of triggering
-    Feint is 50% faster, has increased range, deals 14 ( +2.5 + 25% bonus AD ) bonus
-    physical damage , and restores 50 Energy ( increases at level 1 / 6 / 11 ). Stacks
-    up to 3 times. Feint : Pushing the left joystick right after casting an ability
-    causes Ambessa to dash a short dinstance in that direction.'
+    Feint is 50% faster, has increased range, deals 5 - 40 ( +2.5 + 25% bonus AD )
+    bonus physical damage , and restores 50 Energy ( increases at level 1 / 6 / 11
+    ). Stacks up to 3 times. Feint : Pushing the left joystick right after casting
+    an ability causes Ambessa to dash a short distance in that direction.'
   name: "Drakehound\u2019s Step"
   slot: P
 - cooldowns:
+  - 12.0
+  - 11.0
+  - 10.0
   - 9.0
-  - 8.0
-  - 8.0
-  - 7.0
   costs:
   - 70.0
   - 70.0
   - 70.0
   - 70.0
   description: 'Cunning Sweep : Swings her Twin Drakehounds in a semi-circle in front
-    of her, dealing 40 / 50 / 60 / 90 ( +30% bonus AD ) physical damage + 2% / 2.5%
+    of her, dealing 30 / 40 / 50 / 60 ( +30% bonus AD ) physical damage + 2% / 2.5%
     / 3% / 3.5% ( +0.02% bonus AD ) of the target''s max Health . Damage is increased
-    to 80 / 100 / 120 / 140 ( +60% bonus AD ) physical damage + 4% / 5% / 6% / 7%
-    ( +0.04% bonus AD ) of the target''s max Health for enemies at the edge of the
-    strike. If Cunning Sweep hits its targets, after a brief delay, it transforms
-    into Sundering Slam for 3.5 seconds. Sundering Slam : Ruthlessly cleaves enemies
-    in a line, dealing 90 / 120 / 150 / 180 ( +90% bonus AD ) physical damage + 4%
-    / 5% / 6% / 7% ( +0.04 bonus AD ) of the target''s max Health against the first
-    enemy hit. All other targets take 45 / 60 / 75 / 90 ( +45% bonus AD ) physical
-    damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of their max Health .'
+    to 60 / 80 / 100 / 120 ( +60% bonus AD ) physical damage + 4% / 5% / 6% / 7% (
+    +0.04% bonus AD ) of the target''s max Health for enemies at the edge of the strike.
+    If Cunning Sweep hits its targets, after a brief delay, it transforms into Sundering
+    Slam for 3.5 seconds. Sundering Slam : Ruthlessly cleaves enemies in a line, dealing
+    70 / 100 / 130 / 160 ( +90% bonus AD ) physical damage + 4% / 5% / 6% / 7% ( +0.04
+    bonus AD ) of the target''s max Health against the first enemy hit. All other
+    targets take 35 / 50 / 65 / 80 ( +45% bonus AD ) physical damage + 2% / 2.5% /
+    3% / 3.5% ( +0.02% bonus AD ) of their max Health .'
   name: Cunning Sweep / Sundering Slam
   slot: '1'
 - cooldowns:
+  - 17.0
+  - 16.0
   - 15.0
   - 14.0
-  - 13.0
-  - 12.0
   costs:
   - 70.0
   - 70.0
@@ -88,7 +88,7 @@ base_stats:
     base: '43'
     growth: '4'
   Attack Dmg.:
-    base: '62'
+    base: '58'
     growth: '4'
   Attack Spd.:
     base: '0.80'
@@ -133,26 +133,26 @@ Baron Lane, Jungle
 - Armor: 43 (+4 per level)
 - Magic Res.: 36 (+2 per level)
 - Move Speed: 355 (+0 per level)
-- Attack Dmg.: 62 (+4 per level)
+- Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
 
 ### [P] Drakehound’s Step
 
-Drakehoud's Step : Ambessa's next attack within 4 seconds of triggering Feint is 50% faster, has increased range, deals 14 ( +2.5 + 25% bonus AD ) bonus physical damage , and restores 50 Energy ( increases at level 1 / 6 / 11 ). Stacks up to 3 times. Feint : Pushing the left joystick right after casting an ability causes Ambessa to dash a short dinstance in that direction.
+Drakehoud's Step : Ambessa's next attack within 4 seconds of triggering Feint is 50% faster, has increased range, deals 5 - 40 ( +2.5 + 25% bonus AD ) bonus physical damage , and restores 50 Energy ( increases at level 1 / 6 / 11 ). Stacks up to 3 times. Feint : Pushing the left joystick right after casting an ability causes Ambessa to dash a short distance in that direction.
 
 ### [1] Cunning Sweep / Sundering Slam
 
-**Cooldown:** 9.0 / 8.0 / 8.0 / 7.0 seconds
+**Cooldown:** 12.0 / 11.0 / 10.0 / 9.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Cunning Sweep : Swings her Twin Drakehounds in a semi-circle in front of her, dealing 40 / 50 / 60 / 90 ( +30% bonus AD ) physical damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of the target's max Health . Damage is increased to 80 / 100 / 120 / 140 ( +60% bonus AD ) physical damage + 4% / 5% / 6% / 7% ( +0.04% bonus AD ) of the target's max Health for enemies at the edge of the strike. If Cunning Sweep hits its targets, after a brief delay, it transforms into Sundering Slam for 3.5 seconds. Sundering Slam : Ruthlessly cleaves enemies in a line, dealing 90 / 120 / 150 / 180 ( +90% bonus AD ) physical damage + 4% / 5% / 6% / 7% ( +0.04 bonus AD ) of the target's max Health against the first enemy hit. All other targets take 45 / 60 / 75 / 90 ( +45% bonus AD ) physical damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of their max Health .
+Cunning Sweep : Swings her Twin Drakehounds in a semi-circle in front of her, dealing 30 / 40 / 50 / 60 ( +30% bonus AD ) physical damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of the target's max Health . Damage is increased to 60 / 80 / 100 / 120 ( +60% bonus AD ) physical damage + 4% / 5% / 6% / 7% ( +0.04% bonus AD ) of the target's max Health for enemies at the edge of the strike. If Cunning Sweep hits its targets, after a brief delay, it transforms into Sundering Slam for 3.5 seconds. Sundering Slam : Ruthlessly cleaves enemies in a line, dealing 70 / 100 / 130 / 160 ( +90% bonus AD ) physical damage + 4% / 5% / 6% / 7% ( +0.04 bonus AD ) of the target's max Health against the first enemy hit. All other targets take 35 / 50 / 65 / 80 ( +45% bonus AD ) physical damage + 2% / 2.5% / 3% / 3.5% ( +0.02% bonus AD ) of their max Health .
 
 ### [2] Repudiation
 
-**Cooldown:** 15.0 / 14.0 / 13.0 / 12.0 seconds
+**Cooldown:** 17.0 / 16.0 / 15.0 / 14.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 

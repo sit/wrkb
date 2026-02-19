@@ -78,7 +78,7 @@ base_stats:
     base: '43'
     growth: '4'
   Attack Dmg.:
-    base: '58'
+    base: '54'
     growth: '4'
   Attack Spd.:
     base: '0.80'
@@ -122,7 +122,7 @@ Jungle
 - Armor: 43 (+4 per level)
 - Magic Res.: 40 (+2 per level)
 - Move Speed: 345 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
+- Attack Dmg.: 54 (+4 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities

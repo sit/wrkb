@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: 'After using an Ability, Lucian''s next Attack within 3.5 seconds will
-    fire two shots. The second shot deals 40% / 52.5% / 65% physical damage , increased
+    fire two shots. The second shot deals 35% / 50% / 65% physical damage , increased
     to 100% against minions. The second shot is a separate Attack that applies on-hit
     effects and can critical strike. Vigilance : When healed or shielded by allied
     champions, or when a nearby enemy champion is immobilized, Lucian''s next two
@@ -20,7 +20,7 @@ abilities:
   - 70.0
   - 80.0
   description: Shoots a bolt of piercing light through an enemy unit, damaging enemies
-    in a line for 90 / 135 / 180 / 225 ( +65% / 85% / 105% / 125% AD ) physical damage
+    in a line for 80 / 125 / 170 / 215 ( +65% / 85% / 105% / 125% AD ) physical damage
     .
   name: Piercing Light
   slot: '1'
@@ -62,8 +62,8 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Fires rapidly in a direction for 3 seconds. Each shot deals 20 / 40
-    / 60 ( +25% AD +10% AP ) physical damage to the first enemy hit. Fires a total
+  description: Fires rapidly in a direction for 3 seconds. Each shot deals 20 / 35
+    / 50 ( +25% AD +10% AP ) physical damage to the first enemy hit. Fires a total
     of 22 / 26 / 30 bullets. Lucian may use Relentless Pursuit during The Culling.
     Recast to cancel early. Minions take 200% damage from The Culling.
   name: The Culling
@@ -74,7 +74,7 @@ base_stats:
     growth: '5'
   Attack Dmg.:
     base: '58'
-    growth: '5'
+    growth: '4'
   Attack Spd.:
     base: '0.83'
     growth: '0.0200'
@@ -99,7 +99,6 @@ base_stats:
 name: Lucian
 roles:
 - ADC
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/lucian
 ---
 
@@ -107,7 +106,7 @@ source_url: https://www.wildriftfire.com/guide/lucian
 
 ## Roles
 
-ADC, Mid Lane
+ADC
 
 ## Base Stats
 
@@ -118,14 +117,14 @@ ADC, Mid Lane
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 345 (+0 per level)
-- Attack Dmg.: 58 (+5 per level)
+- Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.83 (+0.0200 per level)
 
 ## Abilities
 
 ### [P] Lightslinger
 
-After using an Ability, Lucian's next Attack within 3.5 seconds will fire two shots. The second shot deals 40% / 52.5% / 65% physical damage , increased to 100% against minions. The second shot is a separate Attack that applies on-hit effects and can critical strike. Vigilance : When healed or shielded by allied champions, or when a nearby enemy champion is immobilized, Lucian's next two attacks deal an additional 20 ( +10% AD ) magic damage (stores up to four empowered attacks).
+After using an Ability, Lucian's next Attack within 3.5 seconds will fire two shots. The second shot deals 35% / 50% / 65% physical damage , increased to 100% against minions. The second shot is a separate Attack that applies on-hit effects and can critical strike. Vigilance : When healed or shielded by allied champions, or when a nearby enemy champion is immobilized, Lucian's next two attacks deal an additional 20 ( +10% AD ) magic damage (stores up to four empowered attacks).
 
 ### [1] Piercing Light
 
@@ -133,7 +132,7 @@ After using an Ability, Lucian's next Attack within 3.5 seconds will fire two sh
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Shoots a bolt of piercing light through an enemy unit, damaging enemies in a line for 90 / 135 / 180 / 225 ( +65% / 85% / 105% / 125% AD ) physical damage .
+Shoots a bolt of piercing light through an enemy unit, damaging enemies in a line for 80 / 125 / 170 / 215 ( +65% / 85% / 105% / 125% AD ) physical damage .
 
 ### [2] Ardent Blaze
 
@@ -157,5 +156,5 @@ Quickly dashes a short distance. Cooldown is reduced by 1 second whenever Lucian
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Fires rapidly in a direction for 3 seconds. Each shot deals 20 / 40 / 60 ( +25% AD +10% AP ) physical damage to the first enemy hit. Fires a total of 22 / 26 / 30 bullets. Lucian may use Relentless Pursuit during The Culling. Recast to cancel early. Minions take 200% damage from The Culling.
+Fires rapidly in a direction for 3 seconds. Each shot deals 20 / 35 / 50 ( +25% AD +10% AP ) physical damage to the first enemy hit. Fires a total of 22 / 26 / 30 bullets. Lucian may use Relentless Pursuit during The Culling. Recast to cancel early. Minions take 200% damage from The Culling.
 

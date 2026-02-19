@@ -1,8 +1,9 @@
 ---
 abilities:
 - description: Applies Love Tap when attack enemy champions or epic monsters. At 3
-    stacks, increases Miss Fortune's damage to the target by 7.6% ( + 0.4x per level).
-    Deals 50% damage to minions and monsters.
+    stacks, increases Miss Fortune's damage to the target by 6% - 10.9% ( + 0.4x per
+    level ). At 3 stacks deal 15 ( +70% bonus AD ) X ( 1 + 100% Critical Rate) physical
+    damage to the target. Deals 50% damage to minions and monsters.
   name: Love Tap
   slot: P
 - cooldowns:
@@ -16,7 +17,7 @@ abilities:
   - 35.0
   - 35.0
   description: Fires a shot that ricochets behind the first enemy hit, dealing 60
-    / 95 / 130 / 165 ( + 120% / 125% / 130% / 135% AD +35% AP ) physical damage .
+    / 90 / 120 / 150 ( + 112% / 120% / 128% / 136% AD +35% AP ) physical damage .
     The second hit will Critically Strike for 130% / 140% / 150% / 160% damage and
     apply Love Tap. On-hits are applied to both targets.
   name: Double Up
@@ -122,7 +123,7 @@ ADC
 
 ### [P] Love Tap
 
-Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, increases Miss Fortune's damage to the target by 7.6% ( + 0.4x per level). Deals 50% damage to minions and monsters.
+Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, increases Miss Fortune's damage to the target by 6% - 10.9% ( + 0.4x per level ). At 3 stacks deal 15 ( +70% bonus AD ) X ( 1 + 100% Critical Rate) physical damage to the target. Deals 50% damage to minions and monsters.
 
 ### [1] Double Up
 
@@ -130,7 +131,7 @@ Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, incr
 
 **Cost:** 35.0 / 35.0 / 35.0 / 35.0
 
-Fires a shot that ricochets behind the first enemy hit, dealing 60 / 95 / 130 / 165 ( + 120% / 125% / 130% / 135% AD +35% AP ) physical damage . The second hit will Critically Strike for 130% / 140% / 150% / 160% damage and apply Love Tap. On-hits are applied to both targets.
+Fires a shot that ricochets behind the first enemy hit, dealing 60 / 90 / 120 / 150 ( + 112% / 120% / 128% / 136% AD +35% AP ) physical damage . The second hit will Critically Strike for 130% / 140% / 150% / 160% damage and apply Love Tap. On-hits are applied to both targets.
 
 ### [2] Strut
 

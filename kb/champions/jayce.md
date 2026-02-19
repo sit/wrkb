@@ -18,8 +18,8 @@ abilities:
     ( +140% AD ) physical damage and slowing nearby enemies by 35% / 40% / 45% / 50%
     / 55% for 2 seconds. Shock Blast fires an orb of electricity that detonates on
     hitting an enemy or reaching the end of its path, dealing 65 / 130 / 195 / 260
-    / 325 ( +140% AD physical damage . Orbs fired through an Acceleration Gate travel
-    farther and faster, increasing their damage by 40%. Deals 50% damage to monsters.'
+    / 325 ( +140% AD ) physical damage . Orbs fired through an Acceleration Gate travel
+    farther and faster, increasing their damage by 45%. Deals 80% damage to monsters.'
   name: To The Skies! / Shock Blast
   slot: '1'
 - cooldowns:
@@ -33,8 +33,8 @@ abilities:
   - 40.0
   - 40.0
   description: 'Lightning Field : Passive : Attacks with the Mercury Hammer restore
-    8 / 11 / 14 / 17 / 20 Mana. Active : Releases an electrifying aura, dealing 100
-    / 180 / 260 / 340 / 420 ( +100% AP ) magic damage over 4 seconds to nearby enemies.
+    12 / 15 / 18 / 21 / 24 Mana. Active : Releases an electrifying aura, dealing 160
+    / 230 / 300 / 370 / 440 ( +100% AP ) magic damage over 4 seconds to nearby enemies.
     Hyper Charge : Gains a burst of energy, increasing Attack Speed to maximum for
     3 attacks within 4 seconds. These attacks deal ( 70% / 80% / 90% / 100% / 110%
     AD ) physical damage . Cooldown : 13 / 11 / 9 / 7 / 5'
@@ -78,7 +78,7 @@ base_stats:
     base: '46'
     growth: '5'
   Attack Dmg.:
-    base: '54'
+    base: '62'
     growth: '4'
   Attack Spd.:
     base: '0.91'
@@ -87,7 +87,7 @@ base_stats:
     base: '650'
     growth: '128'
   Health Reg. (5s):
-    base: '8'
+    base: '10'
     growth: '1'
   Magic Res.:
     base: '30'
@@ -103,8 +103,8 @@ base_stats:
     growth: '0'
 name: Jayce
 roles:
-- Mid Lane
 - Baron Lane
+- Mid Lane
 source_url: https://www.wildriftfire.com/guide/jayce
 ---
 
@@ -112,18 +112,18 @@ source_url: https://www.wildriftfire.com/guide/jayce
 
 ## Roles
 
-Mid Lane, Baron Lane
+Baron Lane, Mid Lane
 
 ## Base Stats
 
 - Health: 650 (+128 per level)
-- Health Reg. (5s): 8 (+1 per level)
+- Health Reg. (5s): 10 (+1 per level)
 - Mana: 420 (+43 per level)
 - Mana Reg. (5s): 12 (+1 per level)
 - Armor: 46 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 345 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
+- Attack Dmg.: 62 (+4 per level)
 - Attack Spd.: 0.91 (+0.0207 per level)
 
 ## Abilities
@@ -138,7 +138,7 @@ Transforming between the Mercury Hammer and Mercury Cannon grants 30 Movement Sp
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-To the Skies! : Leaps to an enemy dealing 70 / 120 / 170 / 220 / 270 ( +140% AD ) physical damage and slowing nearby enemies by 35% / 40% / 45% / 50% / 55% for 2 seconds. Shock Blast fires an orb of electricity that detonates on hitting an enemy or reaching the end of its path, dealing 65 / 130 / 195 / 260 / 325 ( +140% AD physical damage . Orbs fired through an Acceleration Gate travel farther and faster, increasing their damage by 40%. Deals 50% damage to monsters.
+To the Skies! : Leaps to an enemy dealing 70 / 120 / 170 / 220 / 270 ( +140% AD ) physical damage and slowing nearby enemies by 35% / 40% / 45% / 50% / 55% for 2 seconds. Shock Blast fires an orb of electricity that detonates on hitting an enemy or reaching the end of its path, dealing 65 / 130 / 195 / 260 / 325 ( +140% AD ) physical damage . Orbs fired through an Acceleration Gate travel farther and faster, increasing their damage by 45%. Deals 80% damage to monsters.
 
 ### [2] Lightning Field / Hyper Charge
 
@@ -146,7 +146,7 @@ To the Skies! : Leaps to an enemy dealing 70 / 120 / 170 / 220 / 270 ( +140% AD 
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Lightning Field : Passive : Attacks with the Mercury Hammer restore 8 / 11 / 14 / 17 / 20 Mana. Active : Releases an electrifying aura, dealing 100 / 180 / 260 / 340 / 420 ( +100% AP ) magic damage over 4 seconds to nearby enemies. Hyper Charge : Gains a burst of energy, increasing Attack Speed to maximum for 3 attacks within 4 seconds. These attacks deal ( 70% / 80% / 90% / 100% / 110% AD ) physical damage . Cooldown : 13 / 11 / 9 / 7 / 5
+Lightning Field : Passive : Attacks with the Mercury Hammer restore 12 / 15 / 18 / 21 / 24 Mana. Active : Releases an electrifying aura, dealing 160 / 230 / 300 / 370 / 440 ( +100% AP ) magic damage over 4 seconds to nearby enemies. Hyper Charge : Gains a burst of energy, increasing Attack Speed to maximum for 3 attacks within 4 seconds. These attacks deal ( 70% / 80% / 90% / 100% / 110% AD ) physical damage . Cooldown : 13 / 11 / 9 / 7 / 5
 
 ### [3] Thundering Blow / Acceleration Gate
 

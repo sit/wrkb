@@ -1,10 +1,10 @@
 ---
-cost: 3000
+cost: 3100
 effects:
-- "Unique - Cauterize: 32% of physical damage received (12% for ranged champions)\
-  \ is dealt to you over 3 seconds as true damage instead.\r\nUnique - Dance: Champion\
-  \ takedowns cleanse Cauterize's remaining damage pool and restores 10% of your maximum\
-  \ health over 2 seconds."
+- "UNIQUE - Cauterize: 27% of all physical and magic damage received (12% for ranged\
+  \ champions) is dealt to you over 4 seconds as true damage instead.\r\nUNIQUE -\
+  \ Dance: Champion takedowns cleanse Cauterize's remaining damage pool and restores\
+  \ 10% of your maximum health over 2 seconds."
 id: 54
 image_url: https://www.wildriftfire.com/images/items/deaths-dance.png
 name: Death's Dance
@@ -18,7 +18,7 @@ type: Physical
 # Death's Dance
 
 **Type:** Physical  
-**Cost:** 3000 gold
+**Cost:** 3100 gold
 
 ## Stats
 
@@ -28,6 +28,6 @@ type: Physical
 
 ## Effects
 
-Unique - Cauterize: 32% of physical damage received (12% for ranged champions) is dealt to you over 3 seconds as true damage instead.
-Unique - Dance: Champion takedowns cleanse Cauterize's remaining damage pool and restores 10% of your maximum health over 2 seconds.
+UNIQUE - Cauterize: 27% of all physical and magic damage received (12% for ranged champions) is dealt to you over 4 seconds as true damage instead.
+UNIQUE - Dance: Champion takedowns cleanse Cauterize's remaining damage pool and restores 10% of your maximum health over 2 seconds.
 

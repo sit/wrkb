@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Enhances his next attack every 24 seconds to deal bonus 5 - 15% physical
+- description: Enhances his next attack every 24 seconds to deal bonus 4% - 13% physical
     damage of the target's maximum Health and heals himself for the same amount. Deathbringer
     Stance's cooldown is reduced by 3 seconds when Aatrox hits a Champion or large
     monster with an attack or ability. Max 50 damage against monsters. Healing reduced
@@ -12,10 +12,10 @@ abilities:
   - 10.0
   - 8.0
   - 6.0
-  description: Swings his giant blade, dealing 15 / 45 / 75 / 105 ( +75% / 80% / 85%
+  description: Swings his giant blade, dealing 10 / 40 / 70 / 100 ( +75% / 80% / 85%
     / 90% AD ) physical damage . This ability can be cast 2 more times, with each
     cast dealing 25% more damage. Enemies hit on the sweetspot will be knocked airborne
-    for 0.25 seconds and dealt 50% bonus damage. Deals 65% damage to minions. Deals
+    for 0.25 seconds and dealt 60% bonus damage. Deals 65% damage to minions. Deals
     70% damage to monsters.
   name: The Darkin Blade
   slot: '1'
@@ -101,13 +101,13 @@ Baron Lane, Jungle
 
 ### [P] Deathbringer Stance
 
-Enhances his next attack every 24 seconds to deal bonus 5 - 15% physical damage of the target's maximum Health and heals himself for the same amount. Deathbringer Stance's cooldown is reduced by 3 seconds when Aatrox hits a Champion or large monster with an attack or ability. Max 50 damage against monsters. Healing reduced to 60% against minions.
+Enhances his next attack every 24 seconds to deal bonus 4% - 13% physical damage of the target's maximum Health and heals himself for the same amount. Deathbringer Stance's cooldown is reduced by 3 seconds when Aatrox hits a Champion or large monster with an attack or ability. Max 50 damage against monsters. Healing reduced to 60% against minions.
 
 ### [1] The Darkin Blade
 
 **Cooldown:** 12.0 / 10.0 / 8.0 / 6.0 seconds
 
-Swings his giant blade, dealing 15 / 45 / 75 / 105 ( +75% / 80% / 85% / 90% AD ) physical damage . This ability can be cast 2 more times, with each cast dealing 25% more damage. Enemies hit on the sweetspot will be knocked airborne for 0.25 seconds and dealt 50% bonus damage. Deals 65% damage to minions. Deals 70% damage to monsters.
+Swings his giant blade, dealing 10 / 40 / 70 / 100 ( +75% / 80% / 85% / 90% AD ) physical damage . This ability can be cast 2 more times, with each cast dealing 25% more damage. Enemies hit on the sweetspot will be knocked airborne for 0.25 seconds and dealt 60% bonus damage. Deals 65% damage to minions. Deals 70% damage to monsters.
 
 ### [2] Infernal Chains
 

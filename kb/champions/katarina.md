@@ -27,9 +27,9 @@ abilities:
   name: Preparation
   slot: '2'
 - cooldowns:
-  - 14.0
-  - 12.0
+  - 11.0
   - 10.0
+  - 9.0
   - 8.0
   description: Blink to a location near a Dagger or unit, dealing 20 / 50 / 80 / 110
     ( +50% AD +30% AP ) magic damage to the nearest enemy. Picking up a Dagger greatly
@@ -48,7 +48,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '30'
+    base: '34'
     growth: '5'
   Attack Dmg.:
     base: '58'
@@ -84,7 +84,7 @@ Mid Lane
 
 - Health: 630 (+136 per level)
 - Health Reg. (5s): 8 (+1 per level)
-- Armor: 30 (+5 per level)
+- Armor: 34 (+5 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 345 (+0 per level)
 - Attack Dmg.: 58 (+3 per level)
@@ -110,7 +110,7 @@ Tosses a Dagger in the air and hastes Katarina by 50% / 60% / 70% / 80% .
 
 ### [3] Shunpo
 
-**Cooldown:** 14.0 / 12.0 / 10.0 / 8.0 seconds
+**Cooldown:** 11.0 / 10.0 / 9.0 / 8.0 seconds
 
 Blink to a location near a Dagger or unit, dealing 20 / 50 / 80 / 110 ( +50% AD +30% AP ) magic damage to the nearest enemy. Picking up a Dagger greatly reduces the Cooldown of Shunpo .
 

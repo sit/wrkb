@@ -5,20 +5,20 @@ abilities:
   name: Double Strike
   slot: P
 - cooldowns:
+  - 17.0
   - 16.0
   - 15.0
   - 14.0
-  - 13.0
   costs:
   - 55.0
   - 60.0
   - 65.0
   - 70.0
-  description: Becomes untargetable and strikes up to 4 enemies for 30 / 70 / 110
-    / 150 ( +60% AD ) physical damage . If there are no other targets Master Yi will
+  description: Becomes untargetable and strikes up to 4 enemies for 20 / 60 / 100
+    / 140 ( +60% AD ) physical damage . If there are no other targets Master Yi will
     strike a previous target for 25% damage. Attacks reduce the cooldown of Alpha
-    Strike by 1 seconds. Deals 95 / 125 / 155 / 185 bonus damage to monsters and minions.
-    Can critically strike , dealing 60% bonus damage.
+    Strike by 1 seconds. Deals 105 / 135 / 165 / 195 bonus damage to monsters and
+    minions. Can critically strike , dealing 60% bonus damage.
   name: Alpha Strike
   slot: '1'
 - cooldowns:
@@ -44,8 +44,8 @@ abilities:
   - 15.0
   - 14.0
   description: 'Passive : Gains 8% AD while Wuju style is off cooldown. Active : Attacks
-    deal 40 / 45 / 50 / 55 ( +25% AD ) true damage for 5 seconds. The ability resets
-    attacks.'
+    deal 30 / 35 / 40 / 45 ( +25% bonus AD ) true damage for 5 seconds. The ability
+    resets attacks.'
   name: Wuju Style
   slot: '3'
 - cooldowns:
@@ -58,7 +58,7 @@ abilities:
   - 100.0
   description: 'Passive : Reduces Meditate''s Cooldown by 90% and other basic abilities
     Cooldown by 70% on takedown. Active : Becomes immune to slows, gains 35% / 45%
-    / 55% Movement Speed and 30% / 50% / 70% Attack Speed for 7 seconds. Takedowns
+    / 55% Movement Speed and 30% / 60% / 90% Attack Speed for 7 seconds. Takedowns
     extend the duration by 7 seconds.'
   name: Highlander
   slot: '4'
@@ -122,11 +122,11 @@ Every 4th consecutive attack strikes twice for 78 ( 150% AD ) physical damage .
 
 ### [1] Alpha Strike
 
-**Cooldown:** 16.0 / 15.0 / 14.0 / 13.0 seconds
+**Cooldown:** 17.0 / 16.0 / 15.0 / 14.0 seconds
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Becomes untargetable and strikes up to 4 enemies for 30 / 70 / 110 / 150 ( +60% AD ) physical damage . If there are no other targets Master Yi will strike a previous target for 25% damage. Attacks reduce the cooldown of Alpha Strike by 1 seconds. Deals 95 / 125 / 155 / 185 bonus damage to monsters and minions. Can critically strike , dealing 60% bonus damage.
+Becomes untargetable and strikes up to 4 enemies for 20 / 60 / 100 / 140 ( +60% AD ) physical damage . If there are no other targets Master Yi will strike a previous target for 25% damage. Attacks reduce the cooldown of Alpha Strike by 1 seconds. Deals 105 / 135 / 165 / 195 bonus damage to monsters and minions. Can critically strike , dealing 60% bonus damage.
 
 ### [2] Meditate
 
@@ -140,7 +140,7 @@ Channels for up to 4 seconds, gaining 55% / 60% / 65% / 70% damage reduction and
 
 **Cooldown:** 17.0 / 16.0 / 15.0 / 14.0 seconds
 
-Passive : Gains 8% AD while Wuju style is off cooldown. Active : Attacks deal 40 / 45 / 50 / 55 ( +25% AD ) true damage for 5 seconds. The ability resets attacks.
+Passive : Gains 8% AD while Wuju style is off cooldown. Active : Attacks deal 30 / 35 / 40 / 45 ( +25% bonus AD ) true damage for 5 seconds. The ability resets attacks.
 
 ### [4] Highlander
 
@@ -148,5 +148,5 @@ Passive : Gains 8% AD while Wuju style is off cooldown. Active : Attacks deal 40
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Passive : Reduces Meditate's Cooldown by 90% and other basic abilities Cooldown by 70% on takedown. Active : Becomes immune to slows, gains 35% / 45% / 55% Movement Speed and 30% / 50% / 70% Attack Speed for 7 seconds. Takedowns extend the duration by 7 seconds.
+Passive : Reduces Meditate's Cooldown by 90% and other basic abilities Cooldown by 70% on takedown. Active : Becomes immune to slows, gains 35% / 45% / 55% Movement Speed and 30% / 60% / 90% Attack Speed for 7 seconds. Takedowns extend the duration by 7 seconds.
 

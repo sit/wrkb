@@ -52,8 +52,8 @@ abilities:
   name: Stacked Deck
   slot: '3'
 - cooldowns:
-  - 110.0
-  - 95.0
+  - 100.0
+  - 90.0
   - 80.0
   costs:
   - 100.0
@@ -147,7 +147,7 @@ Passive : Gains 15% / 20% / 25% / 30% Attack Speed . Every 4th attack deals 50 /
 
 ### [4] Destiny
 
-**Cooldown:** 110.0 / 95.0 / 80.0 seconds
+**Cooldown:** 100.0 / 90.0 / 80.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

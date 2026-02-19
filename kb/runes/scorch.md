@@ -1,6 +1,6 @@
 ---
 cooldown: '8'
-description: 'Dealing ability damage to a champion deals an additional 28-42 magic
+description: 'Dealing ability damage to a champion deals an additional 21-49 magic
   damage after 1 second.Cooldown: 8s'
 family: Domination
 id: 100
@@ -16,7 +16,7 @@ type: Minor
 
 ## Description
 
-Dealing ability damage to a champion deals an additional 28-42 magic damage after 1 second.Cooldown: 8s
+Dealing ability damage to a champion deals an additional 21-49 magic damage after 1 second.Cooldown: 8s
 
 
 **Cooldown:** 8 seconds
