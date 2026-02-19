@@ -175,7 +175,7 @@ The segments property is a list of Segment objects that are taken directly from 
 @click.option(
     "--model",
     "-m",
-    default="gemini-2.5-flash-lite-preview-06-17",
+    default="gemini-3-flash-preview",
     help="Gemini model to use for summarization (e.g., gemini-2.0-flash-001, gemini-1.5-pro-001)",
 )
 @click.option(
