@@ -1,6 +1,6 @@
 import json
 from datetime import datetime, timedelta
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
@@ -68,26 +68,14 @@ class Video:
 
     def to_text(self) -> str:
         """Convert transcript segments to a continuous text."""
-        if not self.transcript:
-            return ""
-
-        # Join all transcript segments into a single text
-        full_text = " ".join(
-            [
-                segment.get("text", "")
-                if isinstance(segment, dict)
-                else getattr(segment, "text", "")
-                for segment in self.transcript
-            ]
-        )
-        return full_text
+        return " ".join(segment.text for segment in self.transcript)
 
     def to_dict(self) -> dict[str, Any]:
         """Convert transcript to a dictionary for serialization."""
         return {
             "video_id": self.video_id,
             "metadata": self.metadata,
-            "transcript": self.transcript,
+            "transcript": [asdict(s) for s in self.transcript],
         }
 
 
@@ -135,15 +123,11 @@ class VideoManager:
         try:
             transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
 
-            # Try to get English transcript first
+            # Prefer English; fall back to first available with translation
             try:
-                transcript = transcript_list.find_transcript(["en"])
+                transcript = transcript_list.find_transcript(["en", "en-US", "en-GB"])
             except Exception:
-                # If no English transcript, get the first available and translate it
-                transcript = transcript_list.find_transcript(["en-US", "en-GB"])
-                if not transcript:
-                    transcript = transcript_list[0]
-                    transcript = transcript.translate("en")
+                transcript = next(iter(transcript_list)).translate("en")
 
             raw_transcript = transcript.fetch()
 
@@ -164,11 +148,11 @@ class VideoManager:
         cache_path = self.get_cache_path(video_id)
 
         if cache_path.exists():
-            data = json.loads(cache_path.read_text())
+            raw = json.loads(cache_path.read_text())
             return Video(
-                video_id=data["video_id"],
-                metadata=data["metadata"],
-                transcript=data["transcript"],
+                video_id=raw["video_id"],
+                metadata=raw["metadata"],
+                transcript=[Segment(**s) for s in raw["transcript"]],
             )
         return None
 
