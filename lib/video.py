@@ -10,7 +10,6 @@ from youtube_transcript_api import (
     TranscriptsDisabled,
     NoTranscriptFound,
 )
-from youtube_transcript_api.formatters import JSONFormatter
 
 from lib.transcript import Segment
 
@@ -119,27 +118,17 @@ class VideoManager:
             except Exception as e:
                 raise RuntimeError("Error fetching video metadata") from e
 
-    def get_transcript(self, video_id: str) -> list[dict[str, Any]] | None:
+    def get_transcript(self, video_id: str) -> list[Segment]:
+        api = YouTubeTranscriptApi()
         try:
-            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-
-            # Prefer English; fall back to first available with translation
-            try:
-                transcript = transcript_list.find_transcript(["en", "en-US", "en-GB"])
-            except Exception:
-                transcript = next(iter(transcript_list)).translate("en")
-
-            raw_transcript = transcript.fetch()
-
-            # Format the transcript as JSON
-            formatter = JSONFormatter()
-            formatted_transcript = formatter.format_transcript(raw_transcript)
-            return json.loads(formatted_transcript)
-
+            fetched = api.fetch(video_id, languages=["en", "en-US", "en-GB"])
         except (TranscriptsDisabled, NoTranscriptFound) as e:
             raise RuntimeError("No transcript available") from e
         except Exception as e:
             raise RuntimeError("Error fetching transcript") from e
+        return [
+            Segment(text=s.text, start=s.start, duration=s.duration) for s in fetched
+        ]
 
     def get_cache_path(self, video_id: str) -> Path:
         return self.cache_dir / f"{video_id}_data.json"
@@ -168,14 +157,8 @@ class VideoManager:
         if not metadata:
             raise RuntimeError("Failed to fetch video metadata.")
 
-        # Get video transcript
-        transcript_data = self.get_transcript(video_id)
-        if not transcript_data:
-            raise RuntimeError("Failed to fetch transcript.")
-
-        video = Video(video_id=video_id, metadata=metadata, transcript=transcript_data)
-
-        return video
+        transcript = self.get_transcript(video_id)
+        return Video(video_id=video_id, metadata=metadata, transcript=transcript)
 
     def load(self, video_url: str) -> Video | None:
         video_id = self.extract_video_id(video_url)
