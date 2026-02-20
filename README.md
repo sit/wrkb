@@ -63,15 +63,12 @@ uv run ingest-yt.py --video-id "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 #### Testing
 
 ```bash
-# Fast tests only — cache round-trip, no network
+# Fast tests only — cache round-trip, no network (default)
 uv run pytest
 
 # Network integration tests — verifies yt-dlp and youtube-transcript-api
 # return the expected shapes. Run when upgrading either dependency.
 uv run pytest -m network
-
-# Everything
-uv run pytest -m "network or not network"
 ```
 
 Network tests use the video `Y2odSb2rtjw` (4m45s, public) as a stable fixture.
