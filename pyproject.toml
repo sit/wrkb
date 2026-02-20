@@ -16,6 +16,9 @@ dependencies = [
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+markers = [
+    "network: tests that make real network calls (deselect with '-m not network')",
+]
 
 [dependency-groups]
 dev = [
