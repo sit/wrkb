@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 import cv2
+import numpy as np
 import pytesseract
 import yt_dlp
 from difflib import SequenceMatcher
@@ -68,7 +69,7 @@ def download_video(
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
-        "format": f"best[height<={resolution}]",
+        "format": f"bestvideo[height<={resolution}]",
         "outtmpl": str(output_path),
         "no_playlist": True,
     }
@@ -211,24 +212,91 @@ def extract_overlays(
     return captions
 
 
+def _find_overlay_box(gray: np.ndarray) -> tuple[int, int, int, int] | None:
+    """
+    Detect the dark overlay text box in a video frame.
+
+    BrokenSupport's overlays are white text on a near-black semi-transparent
+    rectangle in the lower portion of the frame. This function finds the
+    pixel-level bounding box of that rectangle.
+
+    Uses the 25th percentile of brightness per row/column so that white text
+    pixels inside the box don't break detection.
+
+    Returns (y0, y1, x0, x1) pixel coordinates, or None if no box found.
+    """
+    h, w = gray.shape
+
+    # Row-wise 25th percentile across center 50% of width
+    center = gray[:, w // 4 : w * 3 // 4]
+    row_p25 = np.percentile(center, 25, axis=1)
+
+    # Search bottom 40% of frame for near-black rows (box interior)
+    search_start = int(h * 0.60)
+    is_box = row_p25[search_start:] < 5
+
+    if not is_box.any():
+        return None
+
+    indices = np.where(is_box)[0]
+    # Find the longest contiguous run, allowing gaps up to 5 rows
+    # (text lines cause brief brightness spikes within the box)
+    y0, y1 = _longest_run(indices, max_gap=5)
+    y0 += search_start
+    y1 += search_start
+
+    if y1 - y0 < 20:
+        return None
+
+    # Column-wise 25th percentile across the detected row band
+    col_p25 = np.percentile(gray[y0:y1, :], 25, axis=0)
+    is_dark = col_p25 < 10
+
+    if not is_dark.any():
+        return None
+
+    col_indices = np.where(is_dark)[0]
+    x0, x1 = _longest_run(col_indices, max_gap=10)
+
+    if x1 - x0 < w * 0.3:
+        return None
+
+    return (y0, y1, x0, x1)
+
+
+def _longest_run(indices: np.ndarray, max_gap: int) -> tuple[int, int]:
+    """Find the start and end values of the longest contiguous run in sorted indices."""
+    diffs = np.diff(indices)
+    breaks = np.where(diffs > max_gap)[0]
+
+    runs = []
+    start = 0
+    for b in breaks:
+        runs.append((indices[start], indices[b]))
+        start = b + 1
+    runs.append((indices[start], indices[-1]))
+
+    return max(runs, key=lambda r: r[1] - r[0])
+
+
 def _ocr_frame(frame, width: int, height: int) -> tuple[str, float]:
     """
     Run OCR on the overlay region of a single frame.
 
-    Crops to BrokenSupport's overlay banner (y=80-95%, x=18-82%),
-    preprocesses for white-on-dark text, and returns (text, confidence).
+    Detects the dark overlay box dynamically, preprocesses for white-on-dark
+    text, and returns (text, confidence). Returns ("", 0) if no box found.
     """
-    # Crop to overlay region
-    y_start = int(height * 0.80)
-    y_end = int(height * 0.95)
-    x_start = int(width * 0.18)
-    x_end = int(width * 0.82)
-    region = frame[y_start:y_end, x_start:x_end]
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    box = _find_overlay_box(gray)
+    if box is None:
+        return "", 0
 
-    # Preprocess: grayscale → CLAHE contrast boost → binary threshold → dilate
-    gray = cv2.cvtColor(region, cv2.COLOR_BGR2GRAY)
+    y0, y1, x0, x1 = box
+    region = gray[y0:y1, x0:x1]
+
+    # Preprocess: CLAHE contrast boost → binary threshold → dilate
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
-    enhanced = clahe.apply(gray)
+    enhanced = clahe.apply(region)
     _, binary = cv2.threshold(enhanced, 200, 255, cv2.THRESH_BINARY)
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
     binary = cv2.dilate(binary, kernel, iterations=1)
@@ -248,7 +316,11 @@ def _ocr_frame(frame, width: int, height: int) -> tuple[str, float]:
     for i, conf in enumerate(data["conf"]):
         conf = int(conf)
         if conf > 0 and data["text"][i].strip():
-            texts.append(data["text"][i])
+            word = data["text"][i]
+            # Tesseract misreads capital I as pipe — fix standalone occurrences
+            if word.strip() == "|":
+                word = "I"
+            texts.append(word)
             confidences.append(conf)
 
     if not texts:

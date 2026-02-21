@@ -94,7 +94,10 @@ Second test with tight overlay crop (y=80-95%, x=18-82%) and min-confidence 55:
 - [x] Raise default `--min-confidence` to 55
 - [x] Change default `--sample-interval` from 0.5 to 5
 - [x] Test updated parameters on `Jf-YmgkUXs8` — clean output, near-zero HUD noise
-- [ ] Test on gameplay segment (post-champion-select) to verify OCR holds on moving backgrounds
-- [ ] Run LLM cleanup on clean extraction
-- [ ] Test on a full video
+- [x] Test on full video `Jf-YmgkUXs8` (23 min, 277 frames sampled)
+- [x] Test on gameplay segment — very few overlays during gameplay, mostly
+  champion select. Gameplay HUD noise all below 66% confidence.
+- [x] Run LLM cleanup — Gemini 2.5 Flash cleaned OCR artifacts, dropped
+  garbage entries, corrected Wild Rift terminology (Blaster → Rapid
+  Firecannon), organized with timestamp links
 - [ ] Integrate output format with existing kb/ structure

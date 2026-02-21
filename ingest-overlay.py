@@ -236,7 +236,7 @@ def save_markdown(
 @click.option(
     "--model",
     "-m",
-    default="gemini-2.0-flash-001",
+    default="gemini-2.5-flash",
     help="Gemini model for LLM processing",
 )
 @click.option(

@@ -1,15 +1,19 @@
 """
 Tests for lib/overlay.py pure-logic functions.
 
-No cv2 or pytesseract — only dataclasses, deduplication, and normalization.
+No cv2 or pytesseract — only dataclasses, deduplication, normalization,
+and box detection (with synthetic numpy arrays).
 """
 
 import json
+import numpy as np
 
 from lib.overlay import (
     OverlayCaption,
     OverlayExtraction,
     _deduplicate_captions,
+    _find_overlay_box,
+    _longest_run,
     _normalize_for_comparison,
     extract_video_id,
 )
@@ -233,3 +237,73 @@ class TestCacheRoundTrip:
         assert cap.end_time == 10.0
         assert cap.confidence == 0.92
         assert cap.frame_count == 3
+
+
+class TestLongestRun:
+    def test_single_run(self):
+        indices = np.array([10, 11, 12, 13, 14])
+        assert _longest_run(indices, max_gap=2) == (10, 14)
+
+    def test_two_runs_picks_longest(self):
+        indices = np.array([0, 1, 2, 20, 21, 22, 23, 24])
+        assert _longest_run(indices, max_gap=5) == (20, 24)
+
+    def test_gap_within_tolerance(self):
+        # Gap of 3, max_gap=5 → treated as one run
+        indices = np.array([10, 11, 14, 15, 16])
+        assert _longest_run(indices, max_gap=5) == (10, 16)
+
+    def test_gap_exceeds_tolerance(self):
+        # Gap of 10, max_gap=5 → split into two runs
+        indices = np.array([10, 11, 12, 22, 23])
+        assert _longest_run(indices, max_gap=5) == (10, 12)
+
+
+class TestFindOverlayBox:
+    def _make_frame(self, h=394, w=854):
+        """Create a synthetic grayscale frame with a dark box in the bottom."""
+        # Background: medium gray (game content)
+        frame = np.full((h, w), 120, dtype=np.uint8)
+        # Dark box: y=80-94%, x=15-85%
+        y0, y1 = int(h * 0.80), int(h * 0.94)
+        x0, x1 = int(w * 0.15), int(w * 0.85)
+        frame[y0:y1, x0:x1] = 0  # near-black box
+        return frame, (y0, y1, x0, x1)
+
+    def test_finds_box(self):
+        frame, (ey0, ey1, ex0, ex1) = self._make_frame()
+        result = _find_overlay_box(frame)
+        assert result is not None
+        y0, y1, x0, x1 = result
+        # Allow small tolerance since percentile-based detection
+        # may not hit exact pixel boundaries
+        assert abs(y0 - ey0) <= 2
+        assert abs(y1 - ey1) <= 2
+        assert abs(x0 - ex0) <= 2
+        assert abs(x1 - ex1) <= 2
+
+    def test_no_box_returns_none(self):
+        # Uniform gray frame — no dark box
+        frame = np.full((394, 854), 120, dtype=np.uint8)
+        assert _find_overlay_box(frame) is None
+
+    def test_box_with_text_rows(self):
+        """White text rows inside the box should not break detection."""
+        frame, (ey0, ey1, ex0, ex1) = self._make_frame()
+        # Simulate two rows of white text inside the box
+        mid = (ey0 + ey1) // 2
+        frame[mid - 2 : mid + 2, ex0 + 20 : ex1 - 20] = 220  # white text
+        frame[mid + 8 : mid + 12, ex0 + 30 : ex1 - 30] = 220
+        result = _find_overlay_box(frame)
+        assert result is not None
+        y0, y1, x0, x1 = result
+        # Box should still span the full extent despite text gaps
+        assert y0 <= ey0 + 2
+        assert y1 >= ey1 - 2
+
+    def test_ignores_small_dark_patches(self):
+        """Small dark regions (HUD elements) should not be detected."""
+        frame = np.full((394, 854), 120, dtype=np.uint8)
+        # Small dark patch — too narrow
+        frame[350:370, 400:450] = 0
+        assert _find_overlay_box(frame) is None
