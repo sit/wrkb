@@ -69,7 +69,7 @@ def download_video(
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
-        "format": f"bestvideo[height<={resolution}]",
+        "format": f"bestvideo[height<={resolution}][vcodec^=avc1]",
         "outtmpl": str(output_path),
         "no_playlist": True,
     }
