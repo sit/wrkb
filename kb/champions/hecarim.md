@@ -31,8 +31,8 @@ abilities:
   - 60.0
   - 70.0
   - 80.0
-  description: Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 15 / 20 /
-    25 / 30 ( +20% AP ) magic damage to nearby enemies once every 0.5 seconds for
+  description: Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 12 / 18 /
+    24 / 30 ( +20% AP ) magic damage to nearby enemies once every 0.5 seconds for
     4 seconds. For every enemy hit, he heals for 5 (+ 1% of bonus HP ). Damaging enemies
     restores Health equal to 20% of damage dealt + 0.02% of bonus AD . Healing gained
     from damaging minions and monsters is reduced by 50% and capped at 90 Health.
@@ -74,8 +74,8 @@ base_stats:
     base: '46'
     growth: '5'
   Attack Dmg.:
-    base: '58'
-    growth: '3'
+    base: '54'
+    growth: '4'
   Attack Spd.:
     base: '0.80'
     growth: '0.0150'
@@ -118,7 +118,7 @@ Jungle
 - Armor: 46 (+5 per level)
 - Magic Res.: 36 (+2 per level)
 - Move Speed: 350 (+0 per level)
-- Attack Dmg.: 58 (+3 per level)
+- Attack Dmg.: 54 (+4 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
@@ -141,7 +141,7 @@ Charges his halberd for 0.75 seconds, increasing the area Hecarim deals damage t
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 15 / 20 / 25 / 30 ( +20% AP ) magic damage to nearby enemies once every 0.5 seconds for 4 seconds. For every enemy hit, he heals for 5 (+ 1% of bonus HP ). Damaging enemies restores Health equal to 20% of damage dealt + 0.02% of bonus AD . Healing gained from damaging minions and monsters is reduced by 50% and capped at 90 Health.
+Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 12 / 18 / 24 / 30 ( +20% AP ) magic damage to nearby enemies once every 0.5 seconds for 4 seconds. For every enemy hit, he heals for 5 (+ 1% of bonus HP ). Damaging enemies restores Health equal to 20% of damage dealt + 0.02% of bonus AD . Healing gained from damaging minions and monsters is reduced by 50% and capped at 90 Health.
 
 ### [3] Devastating Charge
 

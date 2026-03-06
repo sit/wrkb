@@ -32,16 +32,16 @@ abilities:
   slot: '1'
 - cooldowns:
   - 18.0
+  - 17.0
   - 16.0
   - 15.0
-  - 13.0
   costs:
   - 75.0
   - 80.0
   - 85.0
   - 90.0
-  description: 'Creates a circular magic portal in a target location, dealing 75 /
-    115 / 155 / 195 ( +40% AP ) magic damage to all enemies within and sending them
+  description: 'Creates a circular magic portal in a target location, dealing 65 /
+    105 / 145 / 185 ( +40% AP ) magic damage to all enemies within and sending them
     to another dimension for 2.25 seconds. Enemies in the other dimension : Cannot
     attack or use abilities, but can move and are slowed by 80% . Enemies are returned
     to their original location after 2.25 seconds.'
@@ -149,11 +149,11 @@ Passive : Deals 1% - 2.5% of the target's max Health as bonus magic damage to en
 
 ### [2] Journey to Nowhere
 
-**Cooldown:** 18.0 / 16.0 / 15.0 / 13.0 seconds
+**Cooldown:** 18.0 / 17.0 / 16.0 / 15.0 seconds
 
 **Cost:** 75.0 / 80.0 / 85.0 / 90.0
 
-Creates a circular magic portal in a target location, dealing 75 / 115 / 155 / 195 ( +40% AP ) magic damage to all enemies within and sending them to another dimension for 2.25 seconds. Enemies in the other dimension : Cannot attack or use abilities, but can move and are slowed by 80% . Enemies are returned to their original location after 2.25 seconds.
+Creates a circular magic portal in a target location, dealing 65 / 105 / 145 / 185 ( +40% AP ) magic damage to all enemies within and sending them to another dimension for 2.25 seconds. Enemies in the other dimension : Cannot attack or use abilities, but can move and are slowed by 80% . Enemies are returned to their original location after 2.25 seconds.
 
 ### [3] Threads of Homecoming
 

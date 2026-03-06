@@ -17,8 +17,8 @@ abilities:
   - 5.0
   - 4.0
   description: Smashes the ground with Nightfall to deal 80 / 110 / 140 / 170 ( +70%
-    AP ) magic damage . Damage is increased by 45% / 50% / 55% / 60% bonus AD when
-    the ability hits only one enemy.
+    AP +120% bonus AD ) magic damage . Damage is increased by 45% / 50% / 55% / 60%
+    bonus AD when the ability hits only one enemy.
   name: Obliterate
   slot: '1'
 - cooldowns:
@@ -107,7 +107,7 @@ Gains 1% Magic Pen . Attacks deal 30% bonus magic damage . When Mordekaiser gets
 
 **Cooldown:** 7.0 / 6.0 / 5.0 / 4.0 seconds
 
-Smashes the ground with Nightfall to deal 80 / 110 / 140 / 170 ( +70% AP ) magic damage . Damage is increased by 45% / 50% / 55% / 60% bonus AD when the ability hits only one enemy.
+Smashes the ground with Nightfall to deal 80 / 110 / 140 / 170 ( +70% AP +120% bonus AD ) magic damage . Damage is increased by 45% / 50% / 55% / 60% bonus AD when the ability hits only one enemy.
 
 ### [2] Indestructible
 
