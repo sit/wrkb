@@ -1,10 +1,10 @@
 ---
 abilities:
 - description: After 2 seconds (scales with Grand Challenge's level), reveals Vitals
-    on a nearby enemy champion. Striking a Vital deals 4% ( +0.06% bonus AD ) of the
-    target's max Health as true damage , heals Fiora for 45 Health and grants her
-    3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75 seconds.
-    Reveals a new Vital after striking one or after 16.75 seconds.
+    on a nearby enemy champion. Striking a Vital deals 3.5% ( +0.05% bonus AD ) of
+    the target's max Health as true damage , heals Fiora for 45 Health and grants
+    her 3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75
+    seconds. Reveals a new Vital after striking one or after 16.75 seconds.
   name: Duelist's Dance
   slot: P
 - cooldowns:
@@ -105,7 +105,6 @@ base_stats:
 name: Fiora
 roles:
 - Baron Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/fiora
 ---
 
@@ -113,7 +112,7 @@ source_url: https://www.wildriftfire.com/guide/fiora
 
 ## Roles
 
-Baron Lane, Jungle
+Baron Lane
 
 ## Base Stats
 
@@ -131,7 +130,7 @@ Baron Lane, Jungle
 
 ### [P] Duelist's Dance
 
-After 2 seconds (scales with Grand Challenge's level), reveals Vitals on a nearby enemy champion. Striking a Vital deals 4% ( +0.06% bonus AD ) of the target's max Health as true damage , heals Fiora for 45 Health and grants her 3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75 seconds. Reveals a new Vital after striking one or after 16.75 seconds.
+After 2 seconds (scales with Grand Challenge's level), reveals Vitals on a nearby enemy champion. Striking a Vital deals 3.5% ( +0.05% bonus AD ) of the target's max Health as true damage , heals Fiora for 45 Health and grants her 3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75 seconds. Reveals a new Vital after striking one or after 16.75 seconds.
 
 ### [1] Lunge
 

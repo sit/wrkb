@@ -16,12 +16,12 @@ abilities:
   - 20.0
   description: 'Constructs a turret that slowly build up charge and attacks nearby
     enemies. The turret deals 5 / 10 / 15 / 20 ( +25% AP ) magic damage on hit. At
-    max charge, it fires a beam that deals 25 / 45 / 65 / 85 ( +45% AP ) magic damage
+    max charge, it fires a beam that deals 25 / 45 / 65 / 85 ( +55% AP ) magic damage
     . Heimerdinger can have a 3 H-28G Evolution Turrets active at once. If Heimerdinger
     gets too far away, his turrets will become dormant. UPGRADE!!! : Technological
     enhancement upgrades this ability to H-28Q Apex Turret . H-28G Evolution Turret
-    Stats: Base Health : 110 ( +3% to 45% AP ) Base Armor : 10 Base Magic Resist :
-    25'
+    Stats: Base Health : 110 ( +8% to 50% AP ) Base Armor : 20 - 90 (based on level)
+    Base Magic Resist : 25'
   name: H-28G Evolution Turret
   slot: '1'
 - cooldowns:
@@ -145,7 +145,7 @@ Gains 20% Movement Speed while near allied turrets and turrets deployed by Heime
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Constructs a turret that slowly build up charge and attacks nearby enemies. The turret deals 5 / 10 / 15 / 20 ( +25% AP ) magic damage on hit. At max charge, it fires a beam that deals 25 / 45 / 65 / 85 ( +45% AP ) magic damage . Heimerdinger can have a 3 H-28G Evolution Turrets active at once. If Heimerdinger gets too far away, his turrets will become dormant. UPGRADE!!! : Technological enhancement upgrades this ability to H-28Q Apex Turret . H-28G Evolution Turret Stats: Base Health : 110 ( +3% to 45% AP ) Base Armor : 10 Base Magic Resist : 25
+Constructs a turret that slowly build up charge and attacks nearby enemies. The turret deals 5 / 10 / 15 / 20 ( +25% AP ) magic damage on hit. At max charge, it fires a beam that deals 25 / 45 / 65 / 85 ( +55% AP ) magic damage . Heimerdinger can have a 3 H-28G Evolution Turrets active at once. If Heimerdinger gets too far away, his turrets will become dormant. UPGRADE!!! : Technological enhancement upgrades this ability to H-28Q Apex Turret . H-28G Evolution Turret Stats: Base Health : 110 ( +8% to 50% AP ) Base Armor : 20 - 90 (based on level) Base Magic Resist : 25
 
 ### [2] Hextech Micro-Rockets
 

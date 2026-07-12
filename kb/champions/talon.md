@@ -39,11 +39,11 @@ abilities:
   - 55.0
   - 60.0
   - 65.0
-  description: Tosses daggers in a cone a the target area , dealing 35 / 45 / 55 /
-    65 ( +45% bonus AD ) physical damage to enemies hit. Upon reaching maximum range,
+  description: Tosses daggers in a cone a the target area , dealing 40 / 50 / 60 /
+    70 ( +50% bonus AD ) physical damage to enemies hit. Upon reaching maximum range,
     the daggers linger for 0.75 seconds before returning, dealing 60 / 100 / 140 /
     180 ( +100% bonus AD ) physical damage to enemies hit along the way and slowing
-    them by 40% for 1 second. Deals 70% damage to monsters.
+    them by 40% for 1 second. Deals 80% damage to monsters.
   name: Rake
   slot: '2'
 - cooldowns:
@@ -108,8 +108,8 @@ base_stats:
     growth: '0'
 name: Talon
 roles:
-- Mid Lane
 - Jungle
+- Mid Lane
 source_url: https://www.wildriftfire.com/guide/talon
 ---
 
@@ -117,7 +117,7 @@ source_url: https://www.wildriftfire.com/guide/talon
 
 ## Roles
 
-Mid Lane, Jungle
+Jungle, Mid Lane
 
 ## Base Stats
 
@@ -152,7 +152,7 @@ Long-range cast : Dashes toward an enemy champion, dealing 75 / 100 / 125 / 150 
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 
-Tosses daggers in a cone a the target area , dealing 35 / 45 / 55 / 65 ( +45% bonus AD ) physical damage to enemies hit. Upon reaching maximum range, the daggers linger for 0.75 seconds before returning, dealing 60 / 100 / 140 / 180 ( +100% bonus AD ) physical damage to enemies hit along the way and slowing them by 40% for 1 second. Deals 70% damage to monsters.
+Tosses daggers in a cone a the target area , dealing 40 / 50 / 60 / 70 ( +50% bonus AD ) physical damage to enemies hit. Upon reaching maximum range, the daggers linger for 0.75 seconds before returning, dealing 60 / 100 / 140 / 180 ( +100% bonus AD ) physical damage to enemies hit along the way and slowing them by 40% for 1 second. Deals 80% damage to monsters.
 
 ### [3] Assassin's Path
 

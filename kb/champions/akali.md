@@ -87,8 +87,8 @@ base_stats:
     growth: '0'
 name: Akali
 roles:
-- Baron Lane
 - Mid Lane
+- Baron Lane
 source_url: https://www.wildriftfire.com/guide/akali
 ---
 
@@ -96,7 +96,7 @@ source_url: https://www.wildriftfire.com/guide/akali
 
 ## Roles
 
-Baron Lane, Mid Lane
+Mid Lane, Baron Lane
 
 ## Base Stats
 

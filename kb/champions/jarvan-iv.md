@@ -99,7 +99,6 @@ base_stats:
 name: Jarvan IV
 roles:
 - Jungle
-- Support
 source_url: https://www.wildriftfire.com/guide/jarvan-iv
 ---
 
@@ -107,7 +106,7 @@ source_url: https://www.wildriftfire.com/guide/jarvan-iv
 
 ## Roles
 
-Jungle, Support
+Jungle
 
 ## Base Stats
 

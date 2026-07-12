@@ -16,12 +16,12 @@ abilities:
   - 29.0
   description: 'Passive : Rune Prison and Spell Flux refresh overload''s cooldown
     and charge a rune for 4 seconds (max 2 runes). Magic Blast (Active) : Unleashes
-    a blast, dealing 80 / 105 / 130 / 155 ( + 45% AP + 2% bonus Mana ) magic damage
+    a blast, dealing 70 / 95 / 120 / 145 ( + 45% AP + 2% bonus Mana ) magic damage
     to the first enemy hit. If the target has Flux on them, it is consumed, causing
     Overload to deal 25% increased damage and bounce to nearby enemies with Flux.
     Runic Haste (Active) : When two runes are charged, Ryze discharges them, granting
-    himself 30% / 35% / 40% / 45% bonus Movement Speed for 2 seconds. Deals 40% damage
-    to monsters.'
+    himself 20% / 27.5% / 35% / 42.5% bonus Movement Speed for 2 seconds. Deals 40%
+    damage to monsters.'
   name: Overload
   slot: '1'
 - cooldowns:
@@ -76,7 +76,7 @@ base_stats:
     base: '40'
     growth: '5'
   Attack Dmg.:
-    base: '58'
+    base: '54'
     growth: '3'
   Attack Spd.:
     base: '0.75'
@@ -121,7 +121,7 @@ Mid Lane, Baron Lane
 - Armor: 40 (+5 per level)
 - Magic Res.: 40 (+2 per level)
 - Move Speed: 360 (+0 per level)
-- Attack Dmg.: 58 (+3 per level)
+- Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.75 (+0.0000 per level)
 
 ## Abilities
@@ -136,7 +136,7 @@ Gains 0% max Mana ( 10% AP ). Ryze's abilities deal additional damage based on h
 
 **Cost:** 35.0 / 33.0 / 31.0 / 29.0
 
-Passive : Rune Prison and Spell Flux refresh overload's cooldown and charge a rune for 4 seconds (max 2 runes). Magic Blast (Active) : Unleashes a blast, dealing 80 / 105 / 130 / 155 ( + 45% AP + 2% bonus Mana ) magic damage to the first enemy hit. If the target has Flux on them, it is consumed, causing Overload to deal 25% increased damage and bounce to nearby enemies with Flux. Runic Haste (Active) : When two runes are charged, Ryze discharges them, granting himself 30% / 35% / 40% / 45% bonus Movement Speed for 2 seconds. Deals 40% damage to monsters.
+Passive : Rune Prison and Spell Flux refresh overload's cooldown and charge a rune for 4 seconds (max 2 runes). Magic Blast (Active) : Unleashes a blast, dealing 70 / 95 / 120 / 145 ( + 45% AP + 2% bonus Mana ) magic damage to the first enemy hit. If the target has Flux on them, it is consumed, causing Overload to deal 25% increased damage and bounce to nearby enemies with Flux. Runic Haste (Active) : When two runes are charged, Ryze discharges them, granting himself 20% / 27.5% / 35% / 42.5% bonus Movement Speed for 2 seconds. Deals 40% damage to monsters.
 
 ### [2] Rune Prison
 

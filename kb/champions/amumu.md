@@ -30,8 +30,8 @@ abilities:
   - 11.0
   - 12.0
   - 13.0
-  description: Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.4%
-    / 1.8% / 2.2% / 2.6% ( +0.4% AP) of their maximum Health to nearby enemies every
+  description: Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.2%
+    / 1.5% / 1.8% / 2.1% ( +0.4% AP) of their maximum Health to nearby enemies every
     second.
   name: Despair
   slot: '2'
@@ -46,7 +46,7 @@ abilities:
   - 35.0
   description: 'Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical
     damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby
-    enemies and slows them by 20% for 0.5 seconds. Tantrum''s cooldown is reduced
+    enemies and slows them by 10% for 0.5 seconds. Tantrum''s cooldown is reduced
     by 0.5 seconds when Amumu is hit by an attack.'
   name: Tantrum
   slot: '3'
@@ -94,7 +94,6 @@ base_stats:
 name: Amumu
 roles:
 - Jungle
-- Support
 source_url: https://www.wildriftfire.com/guide/amumu
 ---
 
@@ -102,7 +101,7 @@ source_url: https://www.wildriftfire.com/guide/amumu
 
 ## Roles
 
-Jungle, Support
+Jungle
 
 ## Base Stats
 
@@ -136,7 +135,7 @@ Passive : Bandage Toss charges are stored every 13 / 12.5 / 12 / 11.5 seconds, u
 
 **Cost:** 10.0 / 11.0 / 12.0 / 13.0
 
-Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.4% / 1.8% / 2.2% / 2.6% ( +0.4% AP) of their maximum Health to nearby enemies every second.
+Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.2% / 1.5% / 1.8% / 2.1% ( +0.4% AP) of their maximum Health to nearby enemies every second.
 
 ### [3] Tantrum
 
@@ -144,7 +143,7 @@ Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.4% / 1.8% / 2.2%
 
 **Cost:** 35.0 / 35.0 / 35.0
 
-Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby enemies and slows them by 20% for 0.5 seconds. Tantrum's cooldown is reduced by 0.5 seconds when Amumu is hit by an attack.
+Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby enemies and slows them by 10% for 0.5 seconds. Tantrum's cooldown is reduced by 0.5 seconds when Amumu is hit by an attack.
 
 ### [4] Curse of the Sad Mummy
 

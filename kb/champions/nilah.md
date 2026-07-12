@@ -107,7 +107,6 @@ base_stats:
     growth: '0'
 name: Nilah
 roles:
-- ADC
 - Jungle
 source_url: https://www.wildriftfire.com/guide/nilah
 ---
@@ -116,7 +115,7 @@ source_url: https://www.wildriftfire.com/guide/nilah
 
 ## Roles
 
-ADC, Jungle
+Jungle
 
 ## Base Stats
 

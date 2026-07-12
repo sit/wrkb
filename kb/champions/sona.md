@@ -35,7 +35,7 @@ abilities:
   - 90.0
   - 95.0
   - 100.0
-  description: 'Heals herself and another allied champion for 25 / 40 / 55 / 70 (
+  description: 'Heals herself and another allied champion for 45 / 60 / 75 / 90 (
     +20% AP ). Aura : Grants allied champions a shield that absorbs 25 / 50 / 75 /
     100 ( +18% AP ) damage for 3 seconds.'
   name: Aria of Perseverance
@@ -50,7 +50,7 @@ abilities:
   - 80.0
   - 80.0
   - 80.0
-  description: 'Gains 10% / 11% / 12% / 13% ( +3% AP ) Movement Speed for 5 seconds.
+  description: 'Gains 15% / 16% / 17% / 18% ( +3% AP ) Movement Speed for 5 seconds.
     Aura : Gains an aura that lasts 5 seconds. Allied champions within the aura gain
     10% / 11% / 12% / 13% ( +3% AP ) Movement Speed . The empowered aura grants 1.2
     times the Movement Speed that the normal aura does.'
@@ -143,7 +143,7 @@ Deals 40 / 80 / 120 / 160 ( +40% AP ) magic damage to two nearest enemies. Aura 
 
 **Cost:** 85.0 / 90.0 / 95.0 / 100.0
 
-Heals herself and another allied champion for 25 / 40 / 55 / 70 ( +20% AP ). Aura : Grants allied champions a shield that absorbs 25 / 50 / 75 / 100 ( +18% AP ) damage for 3 seconds.
+Heals herself and another allied champion for 45 / 60 / 75 / 90 ( +20% AP ). Aura : Grants allied champions a shield that absorbs 25 / 50 / 75 / 100 ( +18% AP ) damage for 3 seconds.
 
 ### [3] Song of Celerity
 
@@ -151,7 +151,7 @@ Heals herself and another allied champion for 25 / 40 / 55 / 70 ( +20% AP ). Aur
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Gains 10% / 11% / 12% / 13% ( +3% AP ) Movement Speed for 5 seconds. Aura : Gains an aura that lasts 5 seconds. Allied champions within the aura gain 10% / 11% / 12% / 13% ( +3% AP ) Movement Speed . The empowered aura grants 1.2 times the Movement Speed that the normal aura does.
+Gains 15% / 16% / 17% / 18% ( +3% AP ) Movement Speed for 5 seconds. Aura : Gains an aura that lasts 5 seconds. Allied champions within the aura gain 10% / 11% / 12% / 13% ( +3% AP ) Movement Speed . The empowered aura grants 1.2 times the Movement Speed that the normal aura does.
 
 ### [4] Crescendo
 

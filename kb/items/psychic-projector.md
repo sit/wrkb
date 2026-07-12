@@ -12,12 +12,12 @@ stats:
 - +60 Ability Power
 - +15 Ability Haste
 - +7 Magic Penetration
-type: Magic
+type: ''
 ---
 
 # Psychic Projector
 
-**Type:** Magic  
+**Type:**   
 **Cost:** 3100 gold
 
 ## Stats

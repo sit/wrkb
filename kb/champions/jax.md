@@ -1,7 +1,7 @@
 ---
 abilities:
-- description: Attacks against champions and minions grant 5% Attack Speed for 3 seconds.
-    (Max 5 stacks.)
+- description: Attacks against champions and minions grant 6% - 20% Attack Speed for
+    3 seconds. (Max 5 stacks.)
   name: Relentless Assault
   slot: P
 - cooldowns:
@@ -44,9 +44,9 @@ abilities:
   - 90.0
   description: 'Enters a defensive stance, dodging all incoming attacks and taking
     25% reduced damage from champions for 2 seconds. After this duration, nearby enemies
-    are stunned for 1 second and take 35 / 75 / 115 / 155 ( +3% max target HP + 70%
-    AP ) magic damage . Each attack dodged increases this damage by 20% (up to 100%
-    ). Re-cast : Ends the defensive stance early to damage and stun nearby enemies
+    are stunned for 1 second and take 35 / 75 / 115 / 155 ( +3.5% max target HP +
+    70% AP ) magic damage . Each attack dodged increases this damage by 20% (up to
+    100% ). Re-cast : Ends the defensive stance early to damage and stun nearby enemies
     immediately.'
   name: Counter Strike
   slot: '3'
@@ -58,12 +58,12 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: 'Passive : Deals an additional 60 / 110 / 160 ( +70% AP ) magic damage
+  description: 'Passive : Deals an additional 75 / 130 / 185 ( +70% AP ) magic damage
     with every 3 consecutive attacks he haunches within 3 seconds. Active : Swings
-    his stave, dealing 150 / 250 / 350 ( +100% AP ) magic damage to nearby enemies
+    his stave, dealing 100 / 200 / 300 ( +100% AP ) magic damage to nearby enemies
     and gaining Armor and Magic Resist based on the number of champions hit. If he
-    hits a champion, he gains 30 / 50 / 70 ( +40% bonus AD ) Armor and 18 / 30 / 42
-    ( +24% bonus AD ) Magic Resist . If he hits more than one champion, he gains 15
+    hits a champion, he gains 30 / 50 / 70 ( +50% bonus AD ) Armor and 18 / 30 / 42
+    ( +30% bonus AD ) Magic Resist . If he hits more than one champion, he gains 15
     / 20 / 25 ( +10% bonus AD ) Armor and 9 / 12 / 15 ( +6% bonus AD ) Magic Resist
     for 8 seconds per additional champion hit. During this time, his size increases
     by 10%, and he deals additional magic damage with every 2 attacks instead. Deals
@@ -73,7 +73,7 @@ abilities:
 base_stats:
   Armor:
     base: '46'
-    growth: '3'
+    growth: '4'
   Attack Dmg.:
     base: '58'
     growth: '4'
@@ -116,7 +116,7 @@ Baron Lane
 - Health Reg. (5s): 12 (+1 per level)
 - Mana: 390 (+43 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 46 (+3 per level)
+- Armor: 46 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 58 (+4 per level)
@@ -126,7 +126,7 @@ Baron Lane
 
 ### [P] Relentless Assault
 
-Attacks against champions and minions grant 5% Attack Speed for 3 seconds. (Max 5 stacks.)
+Attacks against champions and minions grant 6% - 20% Attack Speed for 3 seconds. (Max 5 stacks.)
 
 ### [1] Leap Strike
 
@@ -150,7 +150,7 @@ Empowers the next attack or Leap Strike to deal an additional 55 / 100 / 145 / 1
 
 **Cost:** 60.0 / 70.0 / 80.0 / 90.0
 
-Enters a defensive stance, dodging all incoming attacks and taking 25% reduced damage from champions for 2 seconds. After this duration, nearby enemies are stunned for 1 second and take 35 / 75 / 115 / 155 ( +3% max target HP + 70% AP ) magic damage . Each attack dodged increases this damage by 20% (up to 100% ). Re-cast : Ends the defensive stance early to damage and stun nearby enemies immediately.
+Enters a defensive stance, dodging all incoming attacks and taking 25% reduced damage from champions for 2 seconds. After this duration, nearby enemies are stunned for 1 second and take 35 / 75 / 115 / 155 ( +3.5% max target HP + 70% AP ) magic damage . Each attack dodged increases this damage by 20% (up to 100% ). Re-cast : Ends the defensive stance early to damage and stun nearby enemies immediately.
 
 ### [4] Grandmaster-at-Arms
 
@@ -158,5 +158,5 @@ Enters a defensive stance, dodging all incoming attacks and taking 25% reduced d
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Passive : Deals an additional 60 / 110 / 160 ( +70% AP ) magic damage with every 3 consecutive attacks he haunches within 3 seconds. Active : Swings his stave, dealing 150 / 250 / 350 ( +100% AP ) magic damage to nearby enemies and gaining Armor and Magic Resist based on the number of champions hit. If he hits a champion, he gains 30 / 50 / 70 ( +40% bonus AD ) Armor and 18 / 30 / 42 ( +24% bonus AD ) Magic Resist . If he hits more than one champion, he gains 15 / 20 / 25 ( +10% bonus AD ) Armor and 9 / 12 / 15 ( +6% bonus AD ) Magic Resist for 8 seconds per additional champion hit. During this time, his size increases by 10%, and he deals additional magic damage with every 2 attacks instead. Deals 110% damage to monsters.
+Passive : Deals an additional 75 / 130 / 185 ( +70% AP ) magic damage with every 3 consecutive attacks he haunches within 3 seconds. Active : Swings his stave, dealing 100 / 200 / 300 ( +100% AP ) magic damage to nearby enemies and gaining Armor and Magic Resist based on the number of champions hit. If he hits a champion, he gains 30 / 50 / 70 ( +50% bonus AD ) Armor and 18 / 30 / 42 ( +30% bonus AD ) Magic Resist . If he hits more than one champion, he gains 15 / 20 / 25 ( +10% bonus AD ) Armor and 9 / 12 / 15 ( +6% bonus AD ) Magic Resist for 8 seconds per additional champion hit. During this time, his size increases by 10%, and he deals additional magic damage with every 2 attacks instead. Deals 110% damage to monsters.
 

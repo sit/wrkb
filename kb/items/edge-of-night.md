@@ -1,5 +1,5 @@
 ---
-cost: 3150
+cost: 3000
 effects:
 - "UNIQUE PASSIVE - Annul: Grants a spell shield that blocks the next enemy ability.\r\
   \nPASSIVE - Gouge: +8 Armor Penetration."
@@ -15,7 +15,7 @@ type: Physical
 # Edge of Night
 
 **Type:** Physical  
-**Cost:** 3150 gold
+**Cost:** 3000 gold
 
 ## Stats
 

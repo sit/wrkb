@@ -8,7 +8,7 @@ id: 62
 image_url: https://www.wildriftfire.com/images/items/infinity-edge.png
 name: Infinity Edge
 stats:
-- +60 Attack Damage
+- +65 Attack Damage
 - +25% Critical Strike Chance
 type: Physical
 ---
@@ -20,7 +20,7 @@ type: Physical
 
 ## Stats
 
-- +60 Attack Damage
+- +65 Attack Damage
 - +25% Critical Strike Chance
 
 ## Effects

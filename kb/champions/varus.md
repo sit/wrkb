@@ -1,9 +1,10 @@
 ---
 abilities:
-- description: 'On champion takedowns, gains: - 60% Attack Speed that can exceed the
+- description: 'On champion takedowns, gains: - 55% Attack Speed that can exceed the
     Attack Speed cap - Attack Damage = 20 x bonus AS . - Ability Power = 20 x bonus
-    AS . On non-champion takedowns, gains: - 15% Attack Speed - Attack Damage = 10
-    x bonus AS . - Ability Power = 10 x bonus AS . These bonuses last 5 seconds.'
+    AS . On non-champion takedowns, gains: - 20% / 25% / 30% Attack Speed - Attack
+    Damage = 10 x bonus AS . - Ability Power = 10 x bonus AS . These bonuses last
+    5 seconds.'
   name: Living Vengeance
   slot: P
 - cooldowns:
@@ -65,7 +66,7 @@ abilities:
   description: Flings out a tendril of corruption that deals 150 / 250 / 350 ( +85%
     AP ) magic damage and roots the first enemy champion hit for 2 seconds. The corruption
     then spreads toward nearby enemy champions, also immobilizing them on contact.
-    Immobilized units gain 3 Blight stacks over the next 3 seconds.
+    Immobilized units gain 3 Blight stacks over the next 1.5 seconds.
   name: Chain of Corruption
   slot: '4'
 base_stats:
@@ -124,7 +125,7 @@ ADC
 
 ### [P] Living Vengeance
 
-On champion takedowns, gains: - 60% Attack Speed that can exceed the Attack Speed cap - Attack Damage = 20 x bonus AS . - Ability Power = 20 x bonus AS . On non-champion takedowns, gains: - 15% Attack Speed - Attack Damage = 10 x bonus AS . - Ability Power = 10 x bonus AS . These bonuses last 5 seconds.
+On champion takedowns, gains: - 55% Attack Speed that can exceed the Attack Speed cap - Attack Damage = 20 x bonus AS . - Ability Power = 20 x bonus AS . On non-champion takedowns, gains: - 20% / 25% / 30% Attack Speed - Attack Damage = 10 x bonus AS . - Ability Power = 10 x bonus AS . These bonuses last 5 seconds.
 
 ### [1] Piercing Arrow
 
@@ -154,5 +155,5 @@ Fires a hail of arrows that deal 70 / 115 / 160 / 205 ( +90% AD ) physical damag
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Flings out a tendril of corruption that deals 150 / 250 / 350 ( +85% AP ) magic damage and roots the first enemy champion hit for 2 seconds. The corruption then spreads toward nearby enemy champions, also immobilizing them on contact. Immobilized units gain 3 Blight stacks over the next 3 seconds.
+Flings out a tendril of corruption that deals 150 / 250 / 350 ( +85% AP ) magic damage and roots the first enemy champion hit for 2 seconds. The corruption then spreads toward nearby enemy champions, also immobilizing them on contact. Immobilized units gain 3 Blight stacks over the next 1.5 seconds.
 

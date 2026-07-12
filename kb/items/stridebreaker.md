@@ -1,22 +1,34 @@
 ---
-cost: 500
+cost: 3100
 effects:
-- 'ACTIVE - BREAKING SHOCKWAVE: Activate to dash a short distance, dealing 120% Attack
-  Damage as Physical Damage to nearby enemies and slowing them by 30% for 3s. (35s
-  Cooldown)'
+- STRIDE - Dealing physical damage grants 20 Movement Speed for 2s.
+- BREAKING SHOCKWAVE - Dash a short distance forward and deal physical damage equal
+  to 100% Attack Damage to nearby enemies. Enemies hit are slowed by 40% for 3s. (25s
+  cooldown)
 id: 210
 image_url: https://www.wildriftfire.com/images/items/stridebreaker.png
 name: Stridebreaker
-stats: []
-type: Enchantment
+stats:
+- +400 Health
+- +40 Attack Damage
+- +15% Attack Speed
+type: Physical
 ---
 
 # Stridebreaker
 
-**Type:** Enchantment  
-**Cost:** 500 gold
+**Type:** Physical  
+**Cost:** 3100 gold
+
+## Stats
+
+- +400 Health
+- +40 Attack Damage
+- +15% Attack Speed
 
 ## Effects
 
-ACTIVE - BREAKING SHOCKWAVE: Activate to dash a short distance, dealing 120% Attack Damage as Physical Damage to nearby enemies and slowing them by 30% for 3s. (35s Cooldown)
+STRIDE - Dealing physical damage grants 20 Movement Speed for 2s.
+
+BREAKING SHOCKWAVE - Dash a short distance forward and deal physical damage equal to 100% Attack Damage to nearby enemies. Enemies hit are slowed by 40% for 3s. (25s cooldown)
 

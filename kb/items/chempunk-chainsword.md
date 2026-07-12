@@ -7,7 +7,7 @@ id: 164
 image_url: https://www.wildriftfire.com/images/items/chempunk-chainsword.png
 name: Chempunk Chainsword
 stats:
-- +250 Health
+- +400 Health
 - +45 Attack Damage
 - +15 Ability Haste
 type: Physical
@@ -20,7 +20,7 @@ type: Physical
 
 ## Stats
 
-- +250 Health
+- +400 Health
 - +45 Attack Damage
 - +15 Ability Haste
 

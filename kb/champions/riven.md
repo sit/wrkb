@@ -1,8 +1,8 @@
 ---
 abilities:
 - description: Abilities charge Riven's blade up to 3 times. Attacks expend charges
-    to deal 21 bonus physical damage ( 32% AD ) Bonus damage to monsters and structures
-    is reduced to 50% .
+    to deal 21 bonus physical damage ( 22% - 50% AD ) Bonus damage to monsters and
+    structures is reduced to 65% .
   name: Runic Blade
   slot: P
 - cooldowns:
@@ -97,7 +97,7 @@ Baron Lane, Jungle
 
 ### [P] Runic Blade
 
-Abilities charge Riven's blade up to 3 times. Attacks expend charges to deal 21 bonus physical damage ( 32% AD ) Bonus damage to monsters and structures is reduced to 50% .
+Abilities charge Riven's blade up to 3 times. Attacks expend charges to deal 21 bonus physical damage ( 22% - 50% AD ) Bonus damage to monsters and structures is reduced to 65% .
 
 ### [1] Broken Wings
 

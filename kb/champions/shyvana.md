@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Slaying a Large Monster grants 10 stacks of Draconic Bloodline . Champion
+- description: Slaying a Large Monster grants 8 stacks of Draconic Bloodline . Champion
     takedowns or slaying the Rift Herald or Baron Nashor grants 15 stacks of Draconic
     Bloodline . Slaying a Dragon grants 35 Draconic Bloodline . Every 100 stacks of
     Draconic Bloodline enhances one of Shyvana's abilities.
@@ -15,7 +15,7 @@ abilities:
     AD ) and 12 ( 20% / 40% / 60% / 80% AD ) physical damage respectively. Attacks
     reduce the cooldown of Twin Bite by 0.5 seconds. Dragon Form : Strikes in a larger
     area and applies on-hits to all enemies. Acquiring 100 stacks of Draconic Bloodline
-    , grants Weight of the Mountain, causing Twin Bite to slow enemies hit by 50%
+    , grants Weight of the Mountain, causing Twin Bite to slow enemies hit by 30%
     while in Dragon Form .'
   name: Twin Bite
   slot: '1'
@@ -29,7 +29,7 @@ abilities:
     seconds. Attacking extends the duration of Burnout up to 4 seconds. Dragon Form
     : Expands the flames, dealing damage to a larger area. Acquiring 200 stacks of
     Draconic Bloodline , grants Wings of the Cloud, causing Burnout to haste Shyvana
-    by an additional 30% while in Dragon Form .'
+    by an additional 25% while in Dragon Form .'
   name: Burnout
   slot: '2'
 - cooldowns:
@@ -55,10 +55,10 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: 'Passive : Generates 1.5 / 2 / 2.5 Fury per second and 2 Fury per attack.
+  description: 'Passive : Generates 1 / 1.5 / 2 Fury per second and 2 Fury per attack.
     At 100 Fury , Shyvana can cast Dragon''s Descent , Svhyvana remains in Dragon
     from until she has consumed all of her Fury . Active : Transforms into a dragon,
-    gaining 350 / 450 / 550 Health and flying to a target location. Enemies along
+    gaining 350 / 475 / 600 Health and flying to a target location. Enemies along
     Shyvana''s path take 150 / 250 / 350 ( +80% AP ) magic damage and are knocked
     towards her landing point. Acquiring 400 stacks of Draconic Bloodline , grants
     Life of the Ocean, gaining 20% Omnivamp in Dragon Form .'
@@ -69,7 +69,7 @@ base_stats:
     base: '46'
     growth: '5'
   Attack Dmg.:
-    base: '58'
+    base: '62'
     growth: '4'
   Attack Spd.:
     base: '0.82'
@@ -105,26 +105,26 @@ Jungle
 - Armor: 46 (+5 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
+- Attack Dmg.: 62 (+4 per level)
 - Attack Spd.: 0.82 (+0.0143 per level)
 
 ## Abilities
 
 ### [P] Draconic Bloodline
 
-Slaying a Large Monster grants 10 stacks of Draconic Bloodline . Champion takedowns or slaying the Rift Herald or Baron Nashor grants 15 stacks of Draconic Bloodline . Slaying a Dragon grants 35 Draconic Bloodline . Every 100 stacks of Draconic Bloodline enhances one of Shyvana's abilities.
+Slaying a Large Monster grants 8 stacks of Draconic Bloodline . Champion takedowns or slaying the Rift Herald or Baron Nashor grants 15 stacks of Draconic Bloodline . Slaying a Dragon grants 35 Draconic Bloodline . Every 100 stacks of Draconic Bloodline enhances one of Shyvana's abilities.
 
 ### [1] Twin Bite
 
 **Cooldown:** 8.0 / 7.0 / 6.0 / 5.0 seconds
 
-Empowers Shyvana's next attack to strike twice, dealing 58 ( 100% AD ) and 12 ( 20% / 40% / 60% / 80% AD ) physical damage respectively. Attacks reduce the cooldown of Twin Bite by 0.5 seconds. Dragon Form : Strikes in a larger area and applies on-hits to all enemies. Acquiring 100 stacks of Draconic Bloodline , grants Weight of the Mountain, causing Twin Bite to slow enemies hit by 50% while in Dragon Form .
+Empowers Shyvana's next attack to strike twice, dealing 58 ( 100% AD ) and 12 ( 20% / 40% / 60% / 80% AD ) physical damage respectively. Attacks reduce the cooldown of Twin Bite by 0.5 seconds. Dragon Form : Strikes in a larger area and applies on-hits to all enemies. Acquiring 100 stacks of Draconic Bloodline , grants Weight of the Mountain, causing Twin Bite to slow enemies hit by 30% while in Dragon Form .
 
 ### [2] Burnout
 
 **Cooldown:** 13.0 / 12.0 / 11.0 / 10.0 seconds
 
-Deals 35 / 50 / 65 / 80 ( +30% bonus AD ) magic damage per second to nearby enemies and hastes Shyvana by 30% / 35% / 40% / 45% decaying over 3 seconds. Attacking extends the duration of Burnout up to 4 seconds. Dragon Form : Expands the flames, dealing damage to a larger area. Acquiring 200 stacks of Draconic Bloodline , grants Wings of the Cloud, causing Burnout to haste Shyvana by an additional 30% while in Dragon Form .
+Deals 35 / 50 / 65 / 80 ( +30% bonus AD ) magic damage per second to nearby enemies and hastes Shyvana by 30% / 35% / 40% / 45% decaying over 3 seconds. Attacking extends the duration of Burnout up to 4 seconds. Dragon Form : Expands the flames, dealing damage to a larger area. Acquiring 200 stacks of Draconic Bloodline , grants Wings of the Cloud, causing Burnout to haste Shyvana by an additional 25% while in Dragon Form .
 
 ### [3] Flame Breath
 
@@ -138,5 +138,5 @@ Launches a fireball that deals 60 / 110 / 160 / 210 ( +30% AD +40% AP ) magic da
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Passive : Generates 1.5 / 2 / 2.5 Fury per second and 2 Fury per attack. At 100 Fury , Shyvana can cast Dragon's Descent , Svhyvana remains in Dragon from until she has consumed all of her Fury . Active : Transforms into a dragon, gaining 350 / 450 / 550 Health and flying to a target location. Enemies along Shyvana's path take 150 / 250 / 350 ( +80% AP ) magic damage and are knocked towards her landing point. Acquiring 400 stacks of Draconic Bloodline , grants Life of the Ocean, gaining 20% Omnivamp in Dragon Form .
+Passive : Generates 1 / 1.5 / 2 Fury per second and 2 Fury per attack. At 100 Fury , Shyvana can cast Dragon's Descent , Svhyvana remains in Dragon from until she has consumed all of her Fury . Active : Transforms into a dragon, gaining 350 / 475 / 600 Health and flying to a target location. Enemies along Shyvana's path take 150 / 250 / 350 ( +80% AP ) magic damage and are knocked towards her landing point. Acquiring 400 stacks of Draconic Bloodline , grants Life of the Ocean, gaining 20% Omnivamp in Dragon Form .
 

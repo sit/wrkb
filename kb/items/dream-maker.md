@@ -9,12 +9,12 @@ id: 196
 image_url: https://www.wildriftfire.com/images/items/dream-maker.png
 name: Dream Maker
 stats: []
-type: Enchantment
+type: ''
 ---
 
 # Dream Maker
 
-**Type:** Enchantment  
+**Type:**   
 **Cost:** 500 gold
 
 ## Effects

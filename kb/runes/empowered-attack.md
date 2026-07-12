@@ -1,5 +1,5 @@
 ---
-description: Every 8 seconds, the next attack will be empowered, dealing 35 - 50 bonus
+description: Every 8 seconds, the next attack will be empowered, dealing 20 - 60 bonus
   adaptive damage. Ranged champions deal 80% damage.
 family: Domination
 id: 125
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-Every 8 seconds, the next attack will be empowered, dealing 35 - 50 bonus adaptive damage. Ranged champions deal 80% damage.
+Every 8 seconds, the next attack will be empowered, dealing 20 - 60 bonus adaptive damage. Ranged champions deal 80% damage.
 

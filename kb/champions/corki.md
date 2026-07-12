@@ -16,7 +16,7 @@ abilities:
   - 65.0
   - 70.0
   - 75.0
-  description: Fires a bomb, dealing 65 / 125 / 185 / 245 ( +110% bonus AD +80% AP
+  description: Fires a bomb, dealing 65 / 125 / 185 / 245 ( +125% bonus AD +80% AP
     ) magic damage and granting vision over the area.
   name: Phosphorus Bomb
   slot: '1'
@@ -73,7 +73,7 @@ base_stats:
     base: '35'
     growth: '5'
   Attack Dmg.:
-    base: '50'
+    base: '54'
     growth: '4'
   Attack Spd.:
     base: '0.75'
@@ -117,7 +117,7 @@ ADC
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 50 (+4 per level)
+- Attack Dmg.: 54 (+4 per level)
 - Attack Spd.: 0.75 (+0.0320 per level)
 
 ## Abilities
@@ -132,7 +132,7 @@ Hextech Shrapnel : Attacks and Spellblade deal 16% bonus true damage . The Packa
 
 **Cost:** 60.0 / 65.0 / 70.0 / 75.0
 
-Fires a bomb, dealing 65 / 125 / 185 / 245 ( +110% bonus AD +80% AP ) magic damage and granting vision over the area.
+Fires a bomb, dealing 65 / 125 / 185 / 245 ( +125% bonus AD +80% AP ) magic damage and granting vision over the area.
 
 ### [2] Valkyrie
 

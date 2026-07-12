@@ -17,8 +17,8 @@ abilities:
   - 60.0
   - 70.0
   - 80.0
-  description: Akshan hurls a boomerang in the target direction, dealing 5 / 35 /
-    65 / 95 ( +80% AD ) physical damage to enemies it passes through and revealing
+  description: Akshan hurls a boomerang in the target direction, dealing 10 / 40 /
+    70 / 100 ( +85% AD ) physical damage to enemies it passes through and revealing
     them, granting sight of the area along its path, as well as extending its range
     every time it hits an enemy. If the boomerang hits an enemy champion, Akshan gains
     bonus movement speed decaying over time. Upon reaching maximum range, the boomerang
@@ -141,7 +141,7 @@ Every three hits from attacks and abilities deal bonus 25 magic damage . Against
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Akshan hurls a boomerang in the target direction, dealing 5 / 35 / 65 / 95 ( +80% AD ) physical damage to enemies it passes through and revealing them, granting sight of the area along its path, as well as extending its range every time it hits an enemy. If the boomerang hits an enemy champion, Akshan gains bonus movement speed decaying over time. Upon reaching maximum range, the boomerang returns to Akshan, applying the same effects to enemies hit along the way. Avengerang deals 55% / 70% / 85% / 100% damage to minions.
+Akshan hurls a boomerang in the target direction, dealing 10 / 40 / 70 / 100 ( +85% AD ) physical damage to enemies it passes through and revealing them, granting sight of the area along its path, as well as extending its range every time it hits an enemy. If the boomerang hits an enemy champion, Akshan gains bonus movement speed decaying over time. Upon reaching maximum range, the boomerang returns to Akshan, applying the same effects to enemies hit along the way. Avengerang deals 55% / 70% / 85% / 100% damage to minions.
 
 ### [2] Going Rogue
 

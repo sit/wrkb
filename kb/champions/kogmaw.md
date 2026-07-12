@@ -30,9 +30,9 @@ abilities:
   - 40.0
   - 40.0
   - 40.0
-  description: Attacks gain 90 / 120 / 150 / 180 range and deal an additional 2% /
-    3% / 4% / 5% ( +0.01% AP ) max Health as magic damage for 8 seconds. Deals up
-    to 100 damage against minions and monsters.
+  description: Attacks gain 90 / 120 / 150 / 180 range and deal an additional 1.5%
+    / 2.5% / 3.5% / 4.5% ( +0.01% AP ) max Health as magic damage for 8 seconds. Deals
+    up to 100 damage against minions and monsters.
   name: Bio-Arcane Barrage
   slot: '2'
 - cooldowns:
@@ -136,7 +136,7 @@ Vomits a corrosive projective that deals 90 / 150 / 210 / 270 ( +65% AP ) magic 
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Attacks gain 90 / 120 / 150 / 180 range and deal an additional 2% / 3% / 4% / 5% ( +0.01% AP ) max Health as magic damage for 8 seconds. Deals up to 100 damage against minions and monsters.
+Attacks gain 90 / 120 / 150 / 180 range and deal an additional 1.5% / 2.5% / 3.5% / 4.5% ( +0.01% AP ) max Health as magic damage for 8 seconds. Deals up to 100 damage against minions and monsters.
 
 ### [3] Void Ooze
 

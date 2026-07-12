@@ -2,7 +2,7 @@
 cooldown: '8'
 description: 'Dealing ability damage to a champion deals an additional 21-49 magic
   damage after 1 second.Cooldown: 8s'
-family: Domination
+family: Unknown
 id: 100
 image_url: https://www.wildriftfire.com/images/runes/scorch.png
 name: Scorch
@@ -12,7 +12,7 @@ type: Minor
 # Scorch
 
 **Type:** Minor
-**Family:** Domination
+**Family:** Unknown
 
 ## Description
 

@@ -33,7 +33,7 @@ abilities:
   - 70.0
   - 80.0
   description: Dashes to a location. Upon arrival Rakan leaps into the air, dealing
-    80 / 145 / 210 / 275 ( +55% AP ) magic damage and knocking up enemies for 1 second.
+    70 / 135 / 200 / 265 ( +45% AP ) magic damage and knocking up enemies for 1 second.
   name: Grand Entrance
   slot: '2'
 - cooldowns:
@@ -138,7 +138,7 @@ Fling a magical feather that deals 90 / 150 / 210 / 270 ( +60% AP ) magic damage
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Dashes to a location. Upon arrival Rakan leaps into the air, dealing 80 / 145 / 210 / 275 ( +55% AP ) magic damage and knocking up enemies for 1 second.
+Dashes to a location. Upon arrival Rakan leaps into the air, dealing 70 / 135 / 200 / 265 ( +45% AP ) magic damage and knocking up enemies for 1 second.
 
 ### [3] Battle Dance
 

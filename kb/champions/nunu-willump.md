@@ -17,7 +17,7 @@ abilities:
   - 60.0
   - 60.0
   description: Takes a bite out of the enemy, dealing 55 / 110 / 165 / 220 ( +65%
-    AP +6% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +12% bonus
+    AP +5% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +10% bonus
     HP ). The healing is increased by 50% when Nunu and Willump are below 50% Maximum
     Health. Deals 350 / 500 / 650 / 800 true damage agains minions and monsters instead.
   name: Consume
@@ -51,8 +51,8 @@ abilities:
   - 60.0
   - 65.0
   - 70.0
-  description: Channels for up to 2.5 seconds, throwing snowballs that deal 10 / 14
-    / 18 / 22 ( +5% AP ) magic damage and slow by 20% for 0.5 seconds. When the channel
+  description: Channels for up to 2.5 seconds, throwing snowballs that deal 8 / 12
+    / 16 / 20 ( +5% AP ) magic damage and slow by 20% for 0.5 seconds. When the channel
     ends, Willump deals magic damage equal to 3% - 15% ( +0.8 - 4% AP ) of the enemies'
     max Health and roots them for 0.5 - 1.5 seconds. Damage and root duration scale
     with number of snowball hits on the target. Final explosion deals up to 150 /
@@ -104,7 +104,6 @@ base_stats:
 name: Nunu & Willump
 roles:
 - Jungle
-- Support
 source_url: https://www.wildriftfire.com/guide/nunu-amp-willump
 ---
 
@@ -112,7 +111,7 @@ source_url: https://www.wildriftfire.com/guide/nunu-amp-willump
 
 ## Roles
 
-Jungle, Support
+Jungle
 
 ## Base Stats
 
@@ -138,7 +137,7 @@ Gains 40% Attack Speed and 15% Movement Speed for 4 seconds upon damaging an ene
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Takes a bite out of the enemy, dealing 55 / 110 / 165 / 220 ( +65% AP +6% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +12% bonus HP ). The healing is increased by 50% when Nunu and Willump are below 50% Maximum Health. Deals 350 / 500 / 650 / 800 true damage agains minions and monsters instead.
+Takes a bite out of the enemy, dealing 55 / 110 / 165 / 220 ( +65% AP +5% HP ) magic damage and healing for 80 / 115 / 150 / 185 ( +70% AP +10% bonus HP ). The healing is increased by 50% when Nunu and Willump are below 50% Maximum Health. Deals 350 / 500 / 650 / 800 true damage agains minions and monsters instead.
 
 ### [2] Biggest Snowball Ever!
 
@@ -154,7 +153,7 @@ Willump begins rolling a snowball that increases in size and speed over 12 secon
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Channels for up to 2.5 seconds, throwing snowballs that deal 10 / 14 / 18 / 22 ( +5% AP ) magic damage and slow by 20% for 0.5 seconds. When the channel ends, Willump deals magic damage equal to 3% - 15% ( +0.8 - 4% AP ) of the enemies' max Health and roots them for 0.5 - 1.5 seconds. Damage and root duration scale with number of snowball hits on the target. Final explosion deals up to 150 / 200 / 250 / 300 damage vs. monsters. Deals 150% damage to monsters.
+Channels for up to 2.5 seconds, throwing snowballs that deal 8 / 12 / 16 / 20 ( +5% AP ) magic damage and slow by 20% for 0.5 seconds. When the channel ends, Willump deals magic damage equal to 3% - 15% ( +0.8 - 4% AP ) of the enemies' max Health and roots them for 0.5 - 1.5 seconds. Damage and root duration scale with number of snowball hits on the target. Final explosion deals up to 150 / 200 / 250 / 300 damage vs. monsters. Deals 150% damage to monsters.
 
 ### [4] Absolute Zero
 

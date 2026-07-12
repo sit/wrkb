@@ -1,5 +1,5 @@
 ---
-cost: 2700
+cost: 2650
 effects:
 - 'UNIQUE - Winter''s Caress: Basic attacks and magic damage caused by you or inflicted
   upon you will apply stacks of Chill to the enemy champion for 3 seconds. Each stack
@@ -11,21 +11,21 @@ image_url: https://www.wildriftfire.com/images/items/frozen-heart.png
 name: Frozen Heart
 stats:
 - +80 Armor
-- +200 Mana
-- +25 Ability Haste
+- +250 Mana
+- +20 Ability Haste
 type: Defense
 ---
 
 # Frozen Heart
 
 **Type:** Defense  
-**Cost:** 2700 gold
+**Cost:** 2650 gold
 
 ## Stats
 
 - +80 Armor
-- +200 Mana
-- +25 Ability Haste
+- +250 Mana
+- +20 Ability Haste
 
 ## Effects
 

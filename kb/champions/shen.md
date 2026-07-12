@@ -17,9 +17,9 @@ abilities:
   - 65.0
   - 60.0
   description: Recalls the Spirit Blade , enhancing his next 3 attacks to deal an
-    additional 12 + 2.5% / 3% / 3.5% / 4% (+1.5% AP ) of the target's max Health as
+    additional 12 + 3% / 3.5% / 4% / 4.5% (+1.5% AP ) of the target's max Health as
     magic damage . If the Spirit Blade passed through an enemy champion, the damage
-    bonus is increased to 12 + 5% / 5.5% / 6% / 6.5% ( +2% AP ) of the target's max
+    bonus is increased to 12 + 5.5% / 6% / 6.5% / 7% ( +2% AP ) of the target's max
     Health as magic damage and Shen gains 50% Attack Speed . Enemy champions the Spirit
     Blade passes through are slowed by 15% / 20% / 25% / 30% for 2 seconds while moving
     away from Shen. Deals 150% damage to minions.
@@ -127,7 +127,7 @@ Gains a shield that absorbs 51 ( +14% HP ) damage for 2.5 seconds after completi
 
 **Cost:** 75.0 / 70.0 / 65.0 / 60.0
 
-Recalls the Spirit Blade , enhancing his next 3 attacks to deal an additional 12 + 2.5% / 3% / 3.5% / 4% (+1.5% AP ) of the target's max Health as magic damage . If the Spirit Blade passed through an enemy champion, the damage bonus is increased to 12 + 5% / 5.5% / 6% / 6.5% ( +2% AP ) of the target's max Health as magic damage and Shen gains 50% Attack Speed . Enemy champions the Spirit Blade passes through are slowed by 15% / 20% / 25% / 30% for 2 seconds while moving away from Shen. Deals 150% damage to minions.
+Recalls the Spirit Blade , enhancing his next 3 attacks to deal an additional 12 + 3% / 3.5% / 4% / 4.5% (+1.5% AP ) of the target's max Health as magic damage . If the Spirit Blade passed through an enemy champion, the damage bonus is increased to 12 + 5.5% / 6% / 6.5% / 7% ( +2% AP ) of the target's max Health as magic damage and Shen gains 50% Attack Speed . Enemy champions the Spirit Blade passes through are slowed by 15% / 20% / 25% / 30% for 2 seconds while moving away from Shen. Deals 150% damage to minions.
 
 ### [2] Spirit's Refuge
 

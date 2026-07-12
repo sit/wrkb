@@ -32,7 +32,7 @@ abilities:
   - 20.0
   description: Reduces damage taken by 11% / 13% / 15% / 17% ( +0.04% AP ) for 2.5
     seconds. The next attack within 5 seconds after drinking is empowered to splash
-    enemies for bonus 65 / 90 / 115 /140 ( +90% AP ) +7% magic damage of their max
+    enemies for bonus 35 / 70 / 105 /140 ( +70% AP ) +8% magic damage of their max
     Health.
   name: Drunken Rage
   slot: '2'
@@ -138,7 +138,7 @@ Rolls a cask to target location that explodes upon re-casting or after 3 seconds
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Reduces damage taken by 11% / 13% / 15% / 17% ( +0.04% AP ) for 2.5 seconds. The next attack within 5 seconds after drinking is empowered to splash enemies for bonus 65 / 90 / 115 /140 ( +90% AP ) +7% magic damage of their max Health.
+Reduces damage taken by 11% / 13% / 15% / 17% ( +0.04% AP ) for 2.5 seconds. The next attack within 5 seconds after drinking is empowered to splash enemies for bonus 35 / 70 / 105 /140 ( +70% AP ) +8% magic damage of their max Health.
 
 ### [3] Body Slam
 

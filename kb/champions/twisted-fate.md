@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Gain 2 to 12 bonus gold upon killing a unit.
+- description: Gain 1 to 9 bonus gold upon killing a unit.
   name: Loaded Dice
   slot: P
 - cooldowns:
@@ -46,8 +46,8 @@ abilities:
   - 50.0
   - 50.0
   description: 'Passive : Gains 15% / 20% / 25% / 30% Attack Speed . Every 4th attack
-    deals 50 / 80 / 110 / 140 ( +45% AP ) magic damage . Active : Gain 30% / 35% /
-    40% / 45% Attack Speed for 3 seconds. During this time, attacking enemy champions
+    deals 50 / 80 / 110 / 140 ( +45% AP ) magic damage . Active : Gain 20% / 25% /
+    30% / 35% Attack Speed for 3 seconds. During this time, attacking enemy champions
     rolls Loaded Dice .'
   name: Stacked Deck
   slot: '3'
@@ -119,7 +119,7 @@ Mid Lane
 
 ### [P] Loaded Dice
 
-Gain 2 to 12 bonus gold upon killing a unit.
+Gain 1 to 9 bonus gold upon killing a unit.
 
 ### [1] Wild Cards
 
@@ -143,7 +143,7 @@ First Cast : Start Shuffling Twisted Fate's Deck. Second Cast : Pick a card to e
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Passive : Gains 15% / 20% / 25% / 30% Attack Speed . Every 4th attack deals 50 / 80 / 110 / 140 ( +45% AP ) magic damage . Active : Gain 30% / 35% / 40% / 45% Attack Speed for 3 seconds. During this time, attacking enemy champions rolls Loaded Dice .
+Passive : Gains 15% / 20% / 25% / 30% Attack Speed . Every 4th attack deals 50 / 80 / 110 / 140 ( +45% AP ) magic damage . Active : Gain 20% / 25% / 30% / 35% Attack Speed for 3 seconds. During this time, attacking enemy champions rolls Loaded Dice .
 
 ### [4] Destiny
 

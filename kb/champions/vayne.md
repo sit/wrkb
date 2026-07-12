@@ -30,8 +30,8 @@ abilities:
   - 45.0
   - 45.0
   description: 'Passive : Every third consecutive attack or ability on the same target
-    deals additional 3% / 6% / 9% / 12% true damage of the enemy''s maximum Health.
-    Active : Gains 15% / 20% / 25% / 30% Attack Speed and 10% Omnivamp for 3 seconds.
+    deals additional 2% / 5% / 8% / 11% true damage of the enemy''s maximum Health.
+    Active : Gains 10% / 15% / 20% / 25% Attack Speed and 10% Omnivamp for 3 seconds.
     Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped
     at 200 against monsters.'
   name: Silver Bolts
@@ -137,7 +137,7 @@ Dashes forward and empowers her next attack to deal an additional 24 ( 35% / 45%
 
 **Cost:** 45.0 / 45.0 / 45.0 / 45.0
 
-Passive : Every third consecutive attack or ability on the same target deals additional 3% / 6% / 9% / 12% true damage of the enemy's maximum Health. Active : Gains 15% / 20% / 25% / 30% Attack Speed and 10% Omnivamp for 3 seconds. Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped at 200 against monsters.
+Passive : Every third consecutive attack or ability on the same target deals additional 2% / 5% / 8% / 11% true damage of the enemy's maximum Health. Active : Gains 10% / 15% / 20% / 25% Attack Speed and 10% Omnivamp for 3 seconds. Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped at 200 against monsters.
 
 ### [3] Condemn
 

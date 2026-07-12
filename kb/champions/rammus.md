@@ -32,8 +32,8 @@ abilities:
   - 40.0
   - 40.0
   description: 'Spiked Shell: Attacks deal 12 / 14 / 16 / 18 ( +10% Armor ) bonus
-    magic damage . Active : Brace for up to 6 seconds, gaining 30 ( +55% / 60% / 65%
-    / 70% Armor ) Armor and 10 ( +35% / 40% / 45% / 50% MR ) Magic Resist . While
+    magic damage . Active : Brace for up to 6 seconds, gaining 30 ( +45% / 50% / 55%
+    / 60% Armor ) Armor and 10 ( +35% / 40% / 45% / 50% MR ) Magic Resist . While
     curled Spiked Shell deals 40% more damage and also applies to enemies that attack
     Rammus. Deals 175% damage to monsters. Activating cancels Powerball and puts it
     on cooldown.'
@@ -141,7 +141,7 @@ Accelerates up to 115% + level x 5% bonus Movement Speed over 6 seconds. Collidi
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Spiked Shell: Attacks deal 12 / 14 / 16 / 18 ( +10% Armor ) bonus magic damage . Active : Brace for up to 6 seconds, gaining 30 ( +55% / 60% / 65% / 70% Armor ) Armor and 10 ( +35% / 40% / 45% / 50% MR ) Magic Resist . While curled Spiked Shell deals 40% more damage and also applies to enemies that attack Rammus. Deals 175% damage to monsters. Activating cancels Powerball and puts it on cooldown.
+Spiked Shell: Attacks deal 12 / 14 / 16 / 18 ( +10% Armor ) bonus magic damage . Active : Brace for up to 6 seconds, gaining 30 ( +45% / 50% / 55% / 60% Armor ) Armor and 10 ( +35% / 40% / 45% / 50% MR ) Magic Resist . While curled Spiked Shell deals 40% more damage and also applies to enemies that attack Rammus. Deals 175% damage to monsters. Activating cancels Powerball and puts it on cooldown.
 
 ### [3] Frenzying Taunt
 

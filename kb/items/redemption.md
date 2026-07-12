@@ -1,36 +1,36 @@
 ---
 cost: 2600
 effects:
-- 'Eternity: Restore Mana equal to 15% of the damage taken from champions. When consuming
-  Mana, restore health equal to  20% of mana consumed. Every cast restores Maximum
-  15 Health.'
-- 'Salvation: Every 8s, restore (40 + 7% Bonus Health) health to all allied champions
-  within 350 units. If there are no allied champions within range, the effect is not
-  triggered.'
+- +50% Base Mana Regen
+- 'Salvation: Select a large area. After 2.5s, call down a beam of light that heals
+  allied champions for 150-350 Health (scaling with ally level) and burns enemy champions
+  for true damage equal to 10% of their max Health. (60s cooldown)'
 id: 188
 image_url: https://www.wildriftfire.com/images/items/redemption.png
 name: Redemption
 stats:
-- +400 Health
-- +300 Mana
-- +20 Ability Haste
-type: Defense
+- +150 Health
+- +50 Ability Power
+- +15 Ability Haste
+- +5% Heal and Shield Strength
+type: Support
 ---
 
 # Redemption
 
-**Type:** Defense  
+**Type:** Support  
 **Cost:** 2600 gold
 
 ## Stats
 
-- +400 Health
-- +300 Mana
-- +20 Ability Haste
+- +150 Health
+- +50 Ability Power
+- +15 Ability Haste
+- +5% Heal and Shield Strength
 
 ## Effects
 
-Eternity: Restore Mana equal to 15% of the damage taken from champions. When consuming Mana, restore health equal to  20% of mana consumed. Every cast restores Maximum 15 Health.
++50% Base Mana Regen
 
-Salvation: Every 8s, restore (40 + 7% Bonus Health) health to all allied champions within 350 units. If there are no allied champions within range, the effect is not triggered.
+Salvation: Select a large area. After 2.5s, call down a beam of light that heals allied champions for 150-350 Health (scaling with ally level) and burns enemy champions for true damage equal to 10% of their max Health. (60s cooldown)
 

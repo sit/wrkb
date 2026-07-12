@@ -14,8 +14,8 @@ abilities:
   - 55.0
   - 55.0
   - 55.0
-  description: Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( +70% 75% /
-    80% / 85% AD + 60% AP ) physical damage to all enemies it cuts through. For every
+  description: Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( 75% / 80% /
+    85% / 90% AD + 60% AP ) physical damage to all enemies it cuts through. For every
     1% Critical Rate , damage is increased by 0.5% . The higher the Attack Speed,
     the shorter the cast time. Deals 80% damage against non-champion enemies.
   name: Boomerang Blade
@@ -127,7 +127,7 @@ Gains 31 Movement Speed for 1.5 seconds after dealing damage to an enemy champio
 
 **Cost:** 55.0 / 55.0 / 55.0 / 55.0
 
-Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( +70% 75% / 80% / 85% AD + 60% AP ) physical damage to all enemies it cuts through. For every 1% Critical Rate , damage is increased by 0.5% . The higher the Attack Speed, the shorter the cast time. Deals 80% damage against non-champion enemies.
+Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( 75% / 80% / 85% / 90% AD + 60% AP ) physical damage to all enemies it cuts through. For every 1% Critical Rate , damage is increased by 0.5% . The higher the Attack Speed, the shorter the cast time. Deals 80% damage against non-champion enemies.
 
 ### [2] Ricochet
 

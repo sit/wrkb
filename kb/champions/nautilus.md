@@ -30,10 +30,10 @@ abilities:
   - 80.0
   - 80.0
   - 80.0
-  description: Gains a shield that absorbs 65 / 75 / 85 / 95 ( +13% / 14% / 15% /
-    16% max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are
-    empowered to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around
-    the target. Deals 200% damage against monsters.
+  description: Gains a shield that absorbs 65 / 75 / 85 / 95 ( +9% / 10% / 11% / 12%
+    max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are empowered
+    to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around the target.
+    Deals 125% damage against monsters.
   name: Titan's Wrath
   slot: '2'
 - cooldowns:
@@ -48,7 +48,7 @@ abilities:
   - 90.0
   description: Sends waves emanating outward that deal 70 / 110 / 150 / 190 ( +50%
     AP ) magic damage and slow by 35% / 40% / 45% / 50% decaying over 1.5 seconds.
-    Enemies hit by subsequent waves take 50% damage. Deals 175% damage against monsters.
+    Enemies hit by subsequent waves take 50% damage. Deals 125% damage against monsters.
   name: Riptide
   slot: '3'
 - cooldowns:
@@ -139,7 +139,7 @@ Hurls his anchor forward, dealing 90 / 150 / 210 / 270 ( +75% AP ) magic damage 
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Gains a shield that absorbs 65 / 75 / 85 / 95 ( +13% / 14% / 15% / 16% max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are empowered to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around the target. Deals 200% damage against monsters.
+Gains a shield that absorbs 65 / 75 / 85 / 95 ( +9% / 10% / 11% / 12% max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are empowered to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around the target. Deals 125% damage against monsters.
 
 ### [3] Riptide
 
@@ -147,7 +147,7 @@ Gains a shield that absorbs 65 / 75 / 85 / 95 ( +13% / 14% / 15% / 16% max HP ) 
 
 **Cost:** 60.0 / 70.0 / 80.0 / 90.0
 
-Sends waves emanating outward that deal 70 / 110 / 150 / 190 ( +50% AP ) magic damage and slow by 35% / 40% / 45% / 50% decaying over 1.5 seconds. Enemies hit by subsequent waves take 50% damage. Deals 175% damage against monsters.
+Sends waves emanating outward that deal 70 / 110 / 150 / 190 ( +50% AP ) magic damage and slow by 35% / 40% / 45% / 50% decaying over 1.5 seconds. Enemies hit by subsequent waves take 50% damage. Deals 125% damage against monsters.
 
 ### [4] Depth Charge
 

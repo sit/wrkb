@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Fires a burst of 6 rounds in the target direction, dealing 13 / 15
-    / 17 / 19 / 21 ( +101% / 108% / 112% / 116% / 120% AD ) physical damage to the
+    / 17 / 19 / 21 ( +105% / 110% / 115% / 120% / 125% AD ) physical damage to the
     first enemy hit. Zeri's Attack Speed is capped at 1.5 attacks per second. 50%
     of Attack Speed in excess of the cap is converted into bonus Attack Damage .
   name: Living Battery
@@ -40,10 +40,10 @@ abilities:
   name: Ultrashock Laser
   slot: '2'
 - cooldowns:
-  - 24.0
-  - 21.0
+  - 22.0
   - 19.0
-  - 16.0
+  - 17.0
+  - 14.0
   costs:
   - 80.0
   - 80.0
@@ -82,7 +82,7 @@ base_stats:
     growth: '5'
   Attack Dmg.:
     base: '58'
-    growth: '3'
+    growth: '4'
   Attack Spd.:
     base: '0.83'
     growth: '0.0171'
@@ -125,14 +125,14 @@ ADC
 - Armor: 31 (+5 per level)
 - Magic Res.: 32 (+2 per level)
 - Move Speed: 325 (+0 per level)
-- Attack Dmg.: 58 (+3 per level)
+- Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.83 (+0.0171 per level)
 
 ## Abilities
 
 ### [P] Living Battery
 
-Fires a burst of 6 rounds in the target direction, dealing 13 / 15 / 17 / 19 / 21 ( +101% / 108% / 112% / 116% / 120% AD ) physical damage to the first enemy hit. Zeri's Attack Speed is capped at 1.5 attacks per second. 50% of Attack Speed in excess of the cap is converted into bonus Attack Damage .
+Fires a burst of 6 rounds in the target direction, dealing 13 / 15 / 17 / 19 / 21 ( +105% / 110% / 115% / 120% / 125% AD ) physical damage to the first enemy hit. Zeri's Attack Speed is capped at 1.5 attacks per second. 50% of Attack Speed in excess of the cap is converted into bonus Attack Damage .
 
 ### [1] Electrocute!
 
@@ -152,7 +152,7 @@ Zeri fires out an electric pulse that deals 30 / 70 / 110 / 150 ( +80% AD +40% A
 
 ### [3] Spark Surge
 
-**Cooldown:** 24.0 / 21.0 / 19.0 / 16.0 seconds
+**Cooldown:** 22.0 / 19.0 / 17.0 / 14.0 seconds
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 

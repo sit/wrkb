@@ -1,9 +1,9 @@
 ---
 abilities:
 - description: If Garen has not recently been struck by damage or enemy abilities
-    within the last 5 seconds, he regenerates 2.2% (1% + champion level x 0.3) missing
-    Health per second. Damage from minions and non-epic monsters does hot affect this
-    effect.
+    within the last 5 seconds, he regenerates 1.2% - 4.5% (1% + champion level x 0.3)
+    missing Health per second. Damage from minions and non-epic monsters does hot
+    affect this effect.
   name: Perseverance
   slot: P
 - cooldowns:
@@ -33,11 +33,11 @@ abilities:
   - 9.0
   - 9.0
   - 9.0
-  description: 'First Cast : Rapidly spins his sword for 3 seconds, dealing 15 / 19
-    / 23 / 27 ( +25% / 30% / 35% / 40% AD ) physical damage 8 times over the duration.
+  description: 'First Cast : Rapidly spins his sword for 3 seconds, dealing 13 / 17
+    / 21 / 25 ( +25% / 30% / 35% / 40% AD ) physical damage 8 times over the duration.
     Every 4 levels, the number of spins increases by 1, up to 11 strikes. Recast :
     Ends Judgment early and reduces its cooldown by the duration remaining. Armor
-    Shred ; When a champion is hit by 6 strikes, their Armor is shredded by 15% for
+    Shred ; When a champion is hit by 6 strikes, their Armor is shredded by 10% for
     4.5 seconds. Every hit refreshes the effect duration. The target nearest to Garen
     takes 20% increased damage.'
   name: Judgment
@@ -103,7 +103,7 @@ Baron Lane
 
 ### [P] Perseverance
 
-If Garen has not recently been struck by damage or enemy abilities within the last 5 seconds, he regenerates 2.2% (1% + champion level x 0.3) missing Health per second. Damage from minions and non-epic monsters does hot affect this effect.
+If Garen has not recently been struck by damage or enemy abilities within the last 5 seconds, he regenerates 1.2% - 4.5% (1% + champion level x 0.3) missing Health per second. Damage from minions and non-epic monsters does hot affect this effect.
 
 ### [1] Decisive Strike
 
@@ -121,7 +121,7 @@ Passive : Gains 10% bonus Magic Resist and Armor . Active : Reduces incoming dam
 
 **Cooldown:** 9.0 / 9.0 / 9.0 / 9.0 seconds
 
-First Cast : Rapidly spins his sword for 3 seconds, dealing 15 / 19 / 23 / 27 ( +25% / 30% / 35% / 40% AD ) physical damage 8 times over the duration. Every 4 levels, the number of spins increases by 1, up to 11 strikes. Recast : Ends Judgment early and reduces its cooldown by the duration remaining. Armor Shred ; When a champion is hit by 6 strikes, their Armor is shredded by 15% for 4.5 seconds. Every hit refreshes the effect duration. The target nearest to Garen takes 20% increased damage.
+First Cast : Rapidly spins his sword for 3 seconds, dealing 13 / 17 / 21 / 25 ( +25% / 30% / 35% / 40% AD ) physical damage 8 times over the duration. Every 4 levels, the number of spins increases by 1, up to 11 strikes. Recast : Ends Judgment early and reduces its cooldown by the duration remaining. Armor Shred ; When a champion is hit by 6 strikes, their Armor is shredded by 10% for 4.5 seconds. Every hit refreshes the effect duration. The target nearest to Garen takes 20% increased damage.
 
 ### [4] Demacian Justice
 

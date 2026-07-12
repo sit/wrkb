@@ -2,7 +2,7 @@
 description: 'In 0.25s after engaging an enemy champion in combat, dealing damage
   to them grants 10 gold and a First Strike effect that lasts 3s to you, allowing
   you to deal 7% bonus true damage to the enemy champion. Once the effect has ended,
-  gain gold according to the bonus damage dealt (melee: 100%/ranged: 85%) during the
+  gain gold according to the bonus damage dealt (melee: 60%/ranged: 45%) during the
   effect. (20-13s cooldown)'
 family: Unknown
 id: 109
@@ -18,5 +18,5 @@ type: Keystone
 
 ## Description
 
-In 0.25s after engaging an enemy champion in combat, dealing damage to them grants 10 gold and a First Strike effect that lasts 3s to you, allowing you to deal 7% bonus true damage to the enemy champion. Once the effect has ended, gain gold according to the bonus damage dealt (melee: 100%/ranged: 85%) during the effect. (20-13s cooldown)
+In 0.25s after engaging an enemy champion in combat, dealing damage to them grants 10 gold and a First Strike effect that lasts 3s to you, allowing you to deal 7% bonus true damage to the enemy champion. Once the effect has ended, gain gold according to the bonus damage dealt (melee: 60%/ranged: 45%) during the effect. (20-13s cooldown)
 

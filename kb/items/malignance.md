@@ -1,5 +1,5 @@
 ---
-cost: 2900
+cost: 2700
 effects:
 - "SCORN: Your ultimate abilities gain 20 Ability Haste.\n\r\nHATEFOG: Damaging a\
   \ champion with your ultimate burns the ground beneath them for 3s, dealing magic\
@@ -9,9 +9,9 @@ id: 197
 image_url: https://www.wildriftfire.com/images/items/malignance.png
 name: Malignance
 stats:
-- +400 Mana
-- +80 Ability Power
-- +20 Ability Haste
+- +500 Mana
+- +90 Ability Power
+- +15 Ability Haste
 - +7 Magic Penetration
 type: Magic
 ---
@@ -19,13 +19,13 @@ type: Magic
 # Malignance
 
 **Type:** Magic  
-**Cost:** 2900 gold
+**Cost:** 2700 gold
 
 ## Stats
 
-- +400 Mana
-- +80 Ability Power
-- +20 Ability Haste
+- +500 Mana
+- +90 Ability Power
+- +15 Ability Haste
 - +7 Magic Penetration
 
 ## Effects

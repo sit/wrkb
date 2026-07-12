@@ -12,20 +12,20 @@ image_url: https://www.wildriftfire.com/images/items/imperial-mandate.png
 name: Imperial Mandate
 stats:
 - +200 Health
-- +40 Ability Power
+- +50 Ability Power
 - +20 Ability Haste
-type: Magic
+type: Support
 ---
 
 # Imperial Mandate
 
-**Type:** Magic  
+**Type:** Support  
 **Cost:** 2500 gold
 
 ## Stats
 
 - +200 Health
-- +40 Ability Power
+- +50 Ability Power
 - +20 Ability Haste
 
 ## Effects

@@ -1,6 +1,6 @@
 ---
-description: When damaging a champion below 50% Health, deal 30 - 50 (+7.5% bonus
-  AD +3.5% AP) bonus adaptive damage. (10 second cooldown)
+description: When damaging a champion below 50% Health, deal 20 - 70 (+6% bonus AD
+  +3% AP) bonus adaptive damage. (10 second cooldown)
 family: Domination
 id: 137
 image_url: https://www.wildriftfire.com/images/runes/tyrant.png
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-When damaging a champion below 50% Health, deal 30 - 50 (+7.5% bonus AD +3.5% AP) bonus adaptive damage. (10 second cooldown)
+When damaging a champion below 50% Health, deal 20 - 70 (+6% bonus AD +3% AP) bonus adaptive damage. (10 second cooldown)
 

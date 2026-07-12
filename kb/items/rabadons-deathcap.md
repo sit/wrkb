@@ -1,12 +1,12 @@
 ---
 cost: 3400
 effects:
-- 'UNIQUE - OVERKILL: Increases ability power by 20 - 45 % (based on level).'
+- 'UNIQUE - OVERKILL: Increases ability power by 30%.'
 id: 75
 image_url: https://www.wildriftfire.com/images/items/rabadons-deathcap.png
 name: Rabadon's Deathcap
 stats:
-- +100 Ability Power
+- +130 Ability Power
 - +7% Magic Penetration
 type: Magic
 ---
@@ -18,10 +18,10 @@ type: Magic
 
 ## Stats
 
-- +100 Ability Power
+- +130 Ability Power
 - +7% Magic Penetration
 
 ## Effects
 
-UNIQUE - OVERKILL: Increases ability power by 20 - 45 % (based on level).
+UNIQUE - OVERKILL: Increases ability power by 30%.
 

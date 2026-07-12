@@ -1,15 +1,13 @@
 ---
-cost: 1000
+cost: 100
 effects:
-- "+150% Mana Regeneration\r\nUNIQUE - SUMMONED: Reduces summoner spell cooldowns\
-  \ by 15%.\r\nUNIQUE - Equilibrium: Champions without Mana gain 75% Base Health Regen.\r\
-  \nLimited to 1 Boots item."
+- "- 50% Mana Regen\r\nUNIQUE - SUMMONED: Reduces summoner spell cooldowns by 15%.\n\
+  \r\nLimited to 1 Boots item."
 id: 97
 image_url: https://www.wildriftfire.com/images/items/ionian-boots-of-lucidity.png
 name: Ionian Boots of Lucidity
 stats:
-- +150 Health
-- +20 Ability Haste
+- +15 Ability Haste
 - +45 Movement Speed
 type: Boots
 ---
@@ -17,18 +15,17 @@ type: Boots
 # Ionian Boots of Lucidity
 
 **Type:** Boots  
-**Cost:** 1000 gold
+**Cost:** 100 gold
 
 ## Stats
 
-- +150 Health
-- +20 Ability Haste
+- +15 Ability Haste
 - +45 Movement Speed
 
 ## Effects
 
-+150% Mana Regeneration
+- 50% Mana Regen
 UNIQUE - SUMMONED: Reduces summoner spell cooldowns by 15%.
-UNIQUE - Equilibrium: Champions without Mana gain 75% Base Health Regen.
+
 Limited to 1 Boots item.
 

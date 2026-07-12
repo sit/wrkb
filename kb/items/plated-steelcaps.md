@@ -1,14 +1,14 @@
 ---
-cost: 1000
+cost: 1200
 effects:
-- "+100% Health Regen\n\r\nUNIQUE - BLOCK: Reduces physical damage taken from champions\
-  \ by 3% - 9% (based on level).\n\r\nLimited to 1 Boots item."
+- "Block: Basic attacks from champions deal 6% reduced damage to you.\n\r\nLimited\
+  \ to 1 Boots item."
 id: 99
 image_url: https://www.wildriftfire.com/images/items/plated-steelcaps.png
 name: Plated Steelcaps
 stats:
 - +150 Health
-- +35 Armor
+- +25 Armor
 - +45 Movement Speed
 type: Boots
 ---
@@ -16,19 +16,17 @@ type: Boots
 # Plated Steelcaps
 
 **Type:** Boots  
-**Cost:** 1000 gold
+**Cost:** 1200 gold
 
 ## Stats
 
 - +150 Health
-- +35 Armor
+- +25 Armor
 - +45 Movement Speed
 
 ## Effects
 
-+100% Health Regen
-
-UNIQUE - BLOCK: Reduces physical damage taken from champions by 3% - 9% (based on level).
+Block: Basic attacks from champions deal 6% reduced damage to you.
 
 Limited to 1 Boots item.
 

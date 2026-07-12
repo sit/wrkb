@@ -35,7 +35,8 @@ abilities:
   - 30.0
   - 30.0
   description: Empowers his next attack for 8 seconds to deal an additional 30% /
-    40% / 50% / 60% AD and slows by 90% for 1 second.
+    40% / 50% / 60% AD and slows by 90% for 1 second. Killing the target refunds 50%
+    of the cooldown and 100% of the mana cost.
   name: Crippling Strike
   slot: '2'
 - cooldowns:
@@ -96,7 +97,6 @@ base_stats:
 name: Darius
 roles:
 - Baron Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/darius
 ---
 
@@ -104,7 +104,7 @@ source_url: https://www.wildriftfire.com/guide/darius
 
 ## Roles
 
-Baron Lane, Jungle
+Baron Lane
 
 ## Base Stats
 
@@ -138,7 +138,7 @@ Swings his axe after a delay, dealing 18 / 32 / 46 / 60 ( +35% / 40% / 45% / 50%
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Empowers his next attack for 8 seconds to deal an additional 30% / 40% / 50% / 60% AD and slows by 90% for 1 second.
+Empowers his next attack for 8 seconds to deal an additional 30% / 40% / 50% / 60% AD and slows by 90% for 1 second. Killing the target refunds 50% of the cooldown and 100% of the mana cost.
 
 ### [3] Apprehend
 

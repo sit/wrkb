@@ -13,12 +13,12 @@ stats:
 - +40 Armor
 - +150 Mana
 - +15 Ability Haste
-type: Defense
+type: Support
 ---
 
 # Zeke's Convergence
 
-**Type:** Defense  
+**Type:** Support  
 **Cost:** 2700 gold
 
 ## Stats

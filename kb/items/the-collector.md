@@ -1,5 +1,5 @@
 ---
-cost: 2900
+cost: 3000
 effects:
 - "UNIQUE - Killer: +10 Armor Penetration.\r\nUNIQUE - Death and Taxes: Dealing damage\
   \ that would leave an enemy champion below (4%+2% Critical Rate) executes them,\
@@ -16,7 +16,7 @@ type: Physical
 # The Collector
 
 **Type:** Physical  
-**Cost:** 2900 gold
+**Cost:** 3000 gold
 
 ## Stats
 

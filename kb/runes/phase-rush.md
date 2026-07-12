@@ -1,8 +1,9 @@
 ---
-cooldown: '12'
+cooldown: 21 - 7
 description: 'Hitting a champion with 3 separate attacks or abilities within 3 seconds
-  grants (Melee 40% / 60% / Ranged 30% / 50%) Movement speed, 25 Ability Haste and
-  reduces your current basic ability cooldowns by 20%.Cooldown: 12s'
+  grants (Melee 40% / 60% / Ranged 20% / 35%) Movement speed, 10 Ability Haste and
+  reduces your current basic ability cooldowns by 20%.Cooldown: 21 - 7 seconds (based
+  on level)'
 family: Unknown
 id: 94
 image_url: https://www.wildriftfire.com/images/runes/phase-rush.png
@@ -17,7 +18,7 @@ type: Keystone
 
 ## Description
 
-Hitting a champion with 3 separate attacks or abilities within 3 seconds grants (Melee 40% / 60% / Ranged 30% / 50%) Movement speed, 25 Ability Haste and reduces your current basic ability cooldowns by 20%.Cooldown: 12s
+Hitting a champion with 3 separate attacks or abilities within 3 seconds grants (Melee 40% / 60% / Ranged 20% / 35%) Movement speed, 10 Ability Haste and reduces your current basic ability cooldowns by 20%.Cooldown: 21 - 7 seconds (based on level)
 
 
-**Cooldown:** 12 seconds
+**Cooldown:** 21 - 7 seconds

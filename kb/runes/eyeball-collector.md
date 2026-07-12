@@ -1,7 +1,6 @@
 ---
-description: Gains 1 Attack Damage or 2 Ability Power when an enemy is taken down,
-  up to 20 stacks, and gains a bonus 10 Attack Damage or 20 Ability Power reaching
-  20 stacks.
+description: Gain 1.5 Attack Damage or 3 Ability Power after scoring a champion or
+  epic monster takedown, stacking up to 8 times.
 family: Domination
 id: 112
 image_url: https://www.wildriftfire.com/images/runes/eyeball-collector.png
@@ -16,5 +15,5 @@ type: Minor
 
 ## Description
 
-Gains 1 Attack Damage or 2 Ability Power when an enemy is taken down, up to 20 stacks, and gains a bonus 10 Attack Damage or 20 Ability Power reaching 20 stacks.
+Gain 1.5 Attack Damage or 3 Ability Power after scoring a champion or epic monster takedown, stacking up to 8 times.
 

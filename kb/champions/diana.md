@@ -2,7 +2,7 @@
 abilities:
 - description: Casting an ability will gain bonus basic attack speed in 4 seconds.
     Every third attack deals 35 ( +50% AP ) magic damage in an area. Deals 50% damage
-    to structures, and 75% damage to monsters.
+    to structures, and 100% damage to monsters.
   name: Moonsilver Blade
   slot: P
 - cooldowns:
@@ -123,7 +123,7 @@ Mid Lane, Jungle
 
 ### [P] Moonsilver Blade
 
-Casting an ability will gain bonus basic attack speed in 4 seconds. Every third attack deals 35 ( +50% AP ) magic damage in an area. Deals 50% damage to structures, and 75% damage to monsters.
+Casting an ability will gain bonus basic attack speed in 4 seconds. Every third attack deals 35 ( +50% AP ) magic damage in an area. Deals 50% damage to structures, and 100% damage to monsters.
 
 ### [1] Crescent Strike
 

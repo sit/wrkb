@@ -34,7 +34,7 @@ abilities:
   description: Shields all nearby ally champions for 50 / 75 / 100 / 125 ( +30% AP
     ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed
     for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for
-    5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
+    6 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
   name: Surround Sound
   slot: '2'
 - cooldowns:
@@ -61,7 +61,7 @@ abilities:
   - 100.0
   - 100.0
   description: Deals 150 / 250 / 350 ( +70% AP ) magic damage to enemies and charms
-    and slows them by 40% for 1 / 1.25 / 1.5 seconds. Ability extends when it touches
+    and slows them by 40% for 1.25 / 1.5 / 1.75 seconds. Ability extends when it touches
     an ally or enemy champion.
   name: Encore
   slot: '4'
@@ -138,7 +138,7 @@ Deals 60 / 75 / 90 / 105 ( +45% AP ) magic damage in target area, increased by 0
 
 **Cost:** 40.0 / 60.0 / 80.0 / 100.0
 
-Shields all nearby ally champions for 50 / 75 / 100 / 125 ( +30% AP ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for 5 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
+Shields all nearby ally champions for 50 / 75 / 100 / 125 ( +30% AP ) damage for 2.5 seconds and grants them 20% / 22.5% / 25% / 27.5% Movement Speed for 2.5 seconds. If Seraphine is already shielded, nearby allies are healed for 6 % of their missing Health ( +0.01% AP ), increased by 50% for each ally.
 
 ### [3] Beat Drop
 
@@ -154,5 +154,5 @@ Deals 60 / 95 / 130 / 165 ( +40% AP ) magic damage to enemies and slows them by 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Deals 150 / 250 / 350 ( +70% AP ) magic damage to enemies and charms and slows them by 40% for 1 / 1.25 / 1.5 seconds. Ability extends when it touches an ally or enemy champion.
+Deals 150 / 250 / 350 ( +70% AP ) magic damage to enemies and charms and slows them by 40% for 1.25 / 1.5 / 1.75 seconds. Ability extends when it touches an ally or enemy champion.
 

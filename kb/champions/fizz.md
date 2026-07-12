@@ -14,7 +14,7 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: Dashes through target enemy, dealing 20 / 40 / 60 / 80 ( +50% AP )
+  description: Dashes through target enemy, dealing 20 / 40 / 60 / 80 ( +60% AP )
     magic damage + 58 physical damage ( 100% AD ) and applying on-hit effects.
   name: Urchin Strike
   slot: '1'
@@ -134,7 +134,7 @@ Attacks deal an additional 24 ( +45% AP ) magic damage over 3 seconds. Deals 90%
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Dashes through target enemy, dealing 20 / 40 / 60 / 80 ( +50% AP ) magic damage + 58 physical damage ( 100% AD ) and applying on-hit effects.
+Dashes through target enemy, dealing 20 / 40 / 60 / 80 ( +60% AP ) magic damage + 58 physical damage ( 100% AD ) and applying on-hit effects.
 
 ### [2] Rending Wave
 

@@ -12,12 +12,12 @@ stats:
 - +300 Health
 - +45 Armor
 - +15 Ability Haste
-type: Defense
+type: Support
 ---
 
 # Radiant Virtue
 
-**Type:** Defense  
+**Type:** Support  
 **Cost:** 2850 gold
 
 ## Stats

@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Urgot's attacks and Purge periodically trigger blasts from his leg
-    cannons, dealing 31 ( 50% / 65% / 80% / 95% AD ) + 3% / 4% / 5% / 6% of the target's
+    cannons, dealing 31 ( 60% / 75% / 90% / 105% AD ) + 3% / 4% / 5% / 6% of the target's
     max health as physical damage . (15 / 8 / 4 / 2 second cooldown per leg) Deals
     120 max damage against monsters.
   name: Echoing Flames
@@ -75,7 +75,7 @@ base_stats:
     base: '46'
     growth: '4'
   Attack Dmg.:
-    base: '58'
+    base: '62'
     growth: '3'
   Attack Spd.:
     base: '0.75'
@@ -119,14 +119,14 @@ Baron Lane
 - Armor: 46 (+4 per level)
 - Magic Res.: 40 (+2 per level)
 - Move Speed: 350 (+0 per level)
-- Attack Dmg.: 58 (+3 per level)
+- Attack Dmg.: 62 (+3 per level)
 - Attack Spd.: 0.75 (+0.0136 per level)
 
 ## Abilities
 
 ### [P] Echoing Flames
 
-Urgot's attacks and Purge periodically trigger blasts from his leg cannons, dealing 31 ( 50% / 65% / 80% / 95% AD ) + 3% / 4% / 5% / 6% of the target's max health as physical damage . (15 / 8 / 4 / 2 second cooldown per leg) Deals 120 max damage against monsters.
+Urgot's attacks and Purge periodically trigger blasts from his leg cannons, dealing 31 ( 60% / 75% / 90% / 105% AD ) + 3% / 4% / 5% / 6% of the target's max health as physical damage . (15 / 8 / 4 / 2 second cooldown per leg) Deals 120 max damage against monsters.
 
 ### [1] Corrosive Charge
 

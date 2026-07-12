@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Gains Ability Power equal to 4.5% of Health and Bonus Health equal
-    to 120% Ability Power . (Both effects do not mutually stack)
+    to 140% Ability Power . (Both effects do not mutually stack)
   name: Crimson Pact
   slot: P
 - cooldowns:
@@ -59,7 +59,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '34'
+    base: '37'
     growth: '5'
   Attack Dmg.:
     base: '52'
@@ -81,7 +81,6 @@ base_stats:
     growth: '0'
 name: Vladimir
 roles:
-- Baron Lane
 - Mid Lane
 source_url: https://www.wildriftfire.com/guide/vladimir
 ---
@@ -90,13 +89,13 @@ source_url: https://www.wildriftfire.com/guide/vladimir
 
 ## Roles
 
-Baron Lane, Mid Lane
+Mid Lane
 
 ## Base Stats
 
 - Health: 630 (+128 per level)
 - Health Reg. (5s): 8 (+1 per level)
-- Armor: 34 (+5 per level)
+- Armor: 37 (+5 per level)
 - Magic Res.: 36 (+1 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 52 (+3 per level)
@@ -106,7 +105,7 @@ Baron Lane, Mid Lane
 
 ### [P] Crimson Pact
 
-Gains Ability Power equal to 4.5% of Health and Bonus Health equal to 120% Ability Power . (Both effects do not mutually stack)
+Gains Ability Power equal to 4.5% of Health and Bonus Health equal to 140% Ability Power . (Both effects do not mutually stack)
 
 ### [1] Transfusion
 

@@ -10,12 +10,12 @@ id: 100
 image_url: https://www.wildriftfire.com/images/items/gargoyle.png
 name: Gargoyle
 stats: []
-type: Enchantment
+type: ''
 ---
 
 # Gargoyle
 
-**Type:** Enchantment  
+**Type:**   
 **Cost:** 500 gold
 
 ## Effects

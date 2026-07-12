@@ -1,6 +1,6 @@
 ---
-description: Gains 20 Item Ability Haste. Gains a bonus 5 item Ability Haste after
-  each unique enemy champion takedown. Stacks up to 5 times.
+description: Gain 20 Item Ability Haste. For each champion or epic monster takedown
+  you score, gain an additional 5 Item Ability Haste. Stacks up to 5 times.
 family: Domination
 id: 114
 image_url: https://www.wildriftfire.com/images/runes/ingenious-hunter.png
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-Gains 20 Item Ability Haste. Gains a bonus 5 item Ability Haste after each unique enemy champion takedown. Stacks up to 5 times.
+Gain 20 Item Ability Haste. For each champion or epic monster takedown you score, gain an additional 5 Item Ability Haste. Stacks up to 5 times.
 

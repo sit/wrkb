@@ -1,14 +1,13 @@
 ---
-cost: 1000
+cost: 1200
 effects:
-- "+100% Health Regen\n\r\nUNIQUE - DISSOLVE: Reduces magic damage taken from champions\
-  \ by 3% - 10% (based on level).\n\r\nLimited to 1 Boots item."
+- "Tenacity - 15%\n\r\nLimited to 1 Boots item."
 id: 98
 image_url: https://www.wildriftfire.com/images/items/mercurys-treads.png
 name: Mercury's Treads
 stats:
-- +200 Health
-- +35 Magic Resist
+- +150 Health
+- +25 Magic Resist
 - +45 Movement Speed
 type: Boots
 ---
@@ -16,19 +15,17 @@ type: Boots
 # Mercury's Treads
 
 **Type:** Boots  
-**Cost:** 1000 gold
+**Cost:** 1200 gold
 
 ## Stats
 
-- +200 Health
-- +35 Magic Resist
+- +150 Health
+- +25 Magic Resist
 - +45 Movement Speed
 
 ## Effects
 
-+100% Health Regen
-
-UNIQUE - DISSOLVE: Reduces magic damage taken from champions by 3% - 10% (based on level).
+Tenacity - 15%
 
 Limited to 1 Boots item.
 

@@ -1,16 +1,16 @@
 ---
-cost: 3200
+cost: 3100
 effects:
-- "UNIQUE - Assimilation: +11% Magic Vamp.\n\r\nUNIQUE - Void Corruption: When in\
-  \ combat with champions, gain 1 stack of Corruption every 1 second. Each Stack of\
-  \ Corruption increases your Magic Damage Dealt by 2.5%. At maximum stacks, the additional\
-  \ damage provided by Corruption becomes true damage."
+- "UNIQUE - Assimilation: +11% Magic Vamp.\n\r\nUNIQUE - Void Corruption: While fighting\
+  \ enemy champions, deal 2% additional damage each second, up to 8%. At maximum strength,\
+  \ gain Omnivamp equal to 10% (melee) / 6% (ranged).\n\r\nUNIQUE - Void Infusion:\
+  \ Gain Ability Power equal to 2% of your bonus Health."
 id: 131
 image_url: https://www.wildriftfire.com/images/items/riftmaker.png
 name: Riftmaker
 stats:
-- +150 Health
-- +80 Ability Power
+- +350 Health
+- +70 Ability Power
 - +15 Ability Haste
 - +7% Magic Penetration
 type: Magic
@@ -19,12 +19,12 @@ type: Magic
 # Riftmaker
 
 **Type:** Magic  
-**Cost:** 3200 gold
+**Cost:** 3100 gold
 
 ## Stats
 
-- +150 Health
-- +80 Ability Power
+- +350 Health
+- +70 Ability Power
 - +15 Ability Haste
 - +7% Magic Penetration
 
@@ -32,5 +32,7 @@ type: Magic
 
 UNIQUE - Assimilation: +11% Magic Vamp.
 
-UNIQUE - Void Corruption: When in combat with champions, gain 1 stack of Corruption every 1 second. Each Stack of Corruption increases your Magic Damage Dealt by 2.5%. At maximum stacks, the additional damage provided by Corruption becomes true damage.
+UNIQUE - Void Corruption: While fighting enemy champions, deal 2% additional damage each second, up to 8%. At maximum strength, gain Omnivamp equal to 10% (melee) / 6% (ranged).
+
+UNIQUE - Void Infusion: Gain Ability Power equal to 2% of your bonus Health.
 

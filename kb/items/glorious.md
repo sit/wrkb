@@ -9,12 +9,12 @@ id: 101
 image_url: https://www.wildriftfire.com/images/items/glorious.png
 name: Glorious
 stats: []
-type: Enchantment
+type: ''
 ---
 
 # Glorious
 
-**Type:** Enchantment  
+**Type:**   
 **Cost:** 500 gold
 
 ## Effects

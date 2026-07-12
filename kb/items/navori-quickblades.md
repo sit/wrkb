@@ -1,34 +1,35 @@
 ---
-cost: 3000
+cost: 2800
 effects:
-- "UNIQUE - Deft Strikes: Your critical strikes with basic attacks reduce your non-ultimate\
-  \ ability cooldowns by 15% of their remaining cooldown.\r\nUNIQUE - Impermanence:\
-  \ Your abilities deal up to 9% increased damage based on your Critical Rate.\n\n"
+- 'UNIQUE - Deft Strikes: Attacks reduce the remaining cooldowns of your basic abilities
+  by 15%.
+
+
+  '
 id: 114
 image_url: https://www.wildriftfire.com/images/items/navori-quickblades.png
 name: Navori Quickblades
 stats:
-- +40 Attack Damage
-- +15% Attack Speed
+- +45% Attack Speed
 - +25% Critical Strike Chance
+- +5 Movement Speed
 type: Physical
 ---
 
 # Navori Quickblades
 
 **Type:** Physical  
-**Cost:** 3000 gold
+**Cost:** 2800 gold
 
 ## Stats
 
-- +40 Attack Damage
-- +15% Attack Speed
+- +45% Attack Speed
 - +25% Critical Strike Chance
+- +5 Movement Speed
 
 ## Effects
 
-UNIQUE - Deft Strikes: Your critical strikes with basic attacks reduce your non-ultimate ability cooldowns by 15% of their remaining cooldown.
-UNIQUE - Impermanence: Your abilities deal up to 9% increased damage based on your Critical Rate.
+UNIQUE - Deft Strikes: Attacks reduce the remaining cooldowns of your basic abilities by 15%.
 
 
 

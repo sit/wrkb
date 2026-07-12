@@ -1,70 +1,111 @@
 ---
 abilities:
-- description: Whenever Mel uses an ability, she gains three bonus projectiles (up
-    to nine maximum) on her next attack. When Mel deals damage through an ability
-    or attack, she applies Overwhelm, which can stack infinitely. If the enemy is
-    hit by Mel with enough Overwhelm damage, the stacks are consumed to execute the
-    target.
+- description: Mel's attacks and abilities apply and refresh stacks of Overwhelm for
+    5 seconds each time they deal damage. Overwhelm - Stores 50 ( +8% AP ) + 2 ( +0.5
+    AP ) damage per stack of magic damage . When applied, if the stored amount exceeds
+    the target's combined shields and current Health , they are executed. Projectile
+    Burst - Fires 3 extra projectiles on her next attack after using an ability. Each
+    projectile deals 3 - 33 ( +3%AP ) magic damage . This effect can stack up to 9
+    extra projectiles. Overwhelm deals only 60% damage with the first stack when used
+    against minions.
   name: Searing Brilliance
   slot: P
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Mel fires a barrage of projectiles that explode around a target location,
-    dealing damage repeatedly to enemies within the area.
+  - 9.0
+  - 8.0
+  - 7.0
+  - 6.0
+  costs:
+  - 70.0
+  - 80.0
+  - 90.0
+  - 100.0
+  description: Unleashes a barrage of 7 / 8 / 9 / 10 projectiles that explode in the
+    area around a target location. Each explosion deals 11 / 14 / 17 / 20 ( +6% AP
+    ) magic damage , adding up to a maximum of 91 / 128 / 171 / 220 ( +49% AP ) magic
+    damage in total. Deals 90% damage when used against minions.
   name: Radiant Volley
   slot: '1'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Mel forms a barrier around herself that reflects enemy projectiles
-    back at the attacker, prevents her from taking damage, and grants her movement
-    speed.
+  - 38.0
+  - 36.0
+  - 34.0
+  - 32.0
+  costs:
+  - 60.0
+  - 40.0
+  - 20.0
+  description: Forms a barrier around herself that reflects projectiles from enemy
+    champions, makes her invulnerable for 1 second, and gives her 30% decaying Movement
+    Speed for 1 second. Reflected projectiles deal 40% / 45% / 50% / 55% of the original
+    damage as magic damage . Structure damage is not prevented.
   name: Rebuttal
   slot: '2'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Mel fires a radiant orb forward, rooting those at its center while
-    the area around it slows enemies and deals damage over time.
+  - 12.0
+  - 11.0
+  - 11.0
+  - 10.0
+  costs:
+  - 50.0
+  - 55.0
+  - 60.0
+  - 65.0
+  description: Fires a radiating orb, rooting enemies at its center for 1.2 / 1.3
+    / 1.4 / 1.5 seconds and dealing 55 / 110 / 165 / 220 ( +50% AP ) magic damage
+    . The orb builds up a hostile area around it that slows enemies by 30% and deals
+    20 / 40 / 60 / 80 ( +6% AP ) magic damage per 1 second. The slow and damage-over-time
+    effects linger on enemies for 0.75 seconds after they've left the area created
+    by the orb. Deals 75% damage when used against minions.
   name: Solar Snare
   slot: '3'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Mel strikes all enemies marked with Overwhelm regardless of their distance
-    from her, dealing additional damage for each stack of Overwhelm. Ranks of Golden
-    Eclipse increase Overwhelm's damage.
+  - 95.0
+  - 80.0
+  - 65.0
+  costs:
+  - 100.0
+  - 100.0
+  - 100.0
+  description: Passive - Overwhelm damage is increased. Base damage - 50 ( +8% AP
+    ) magic damage ; Additional damage - 2 ( +0.6 AP ) magic damage per stack. Active
+    - Unleashes her power on all enemies affected by Overwhelm , dealing 100 / 150
+    / 200 ( +25% AP ) base magic damage and 4 / 7 / 10 ( +2.5% AP ) additional magic
+    damage per stack. Can only be cast when an enemy champion is affected by Overwhelm
+    .
   name: Golden Eclipse
   slot: '4'
 base_stats:
   Armor:
-    base: '0'
-    growth: '0'
+    base: '30'
+    growth: '4'
   Attack Dmg.:
-    base: '0'
-    growth: '0'
+    base: '52'
+    growth: '3'
   Attack Spd.:
-    base: '0.00'
+    base: '0.75'
     growth: '0.0000'
   Health:
-    base: '0'
-    growth: '0'
+    base: '600'
+    growth: '89'
   Health Reg. (5s):
-    base: '0'
+    base: '8'
     growth: '0'
   Magic Res.:
-    base: '0'
-    growth: '0'
+    base: '36'
+    growth: '1'
+  Mana:
+    base: '480'
+    growth: '37'
+  Mana Reg. (5s):
+    base: '9'
+    growth: '1'
   Move Speed:
-    base: '0'
+    base: '355'
     growth: '0'
 name: Mel
-roles: []
+roles:
+- Mid Lane
 source_url: https://www.wildriftfire.com/guide/mel
 ---
 
@@ -72,45 +113,55 @@ source_url: https://www.wildriftfire.com/guide/mel
 
 ## Roles
 
-
+Mid Lane
 
 ## Base Stats
 
-- Health: 0 (+0 per level)
-- Health Reg. (5s): 0 (+0 per level)
-- Armor: 0 (+0 per level)
-- Magic Res.: 0 (+0 per level)
-- Move Speed: 0 (+0 per level)
-- Attack Dmg.: 0 (+0 per level)
-- Attack Spd.: 0.00 (+0.0000 per level)
+- Health: 600 (+89 per level)
+- Health Reg. (5s): 8 (+0 per level)
+- Mana: 480 (+37 per level)
+- Mana Reg. (5s): 9 (+1 per level)
+- Armor: 30 (+4 per level)
+- Magic Res.: 36 (+1 per level)
+- Move Speed: 355 (+0 per level)
+- Attack Dmg.: 52 (+3 per level)
+- Attack Spd.: 0.75 (+0.0000 per level)
 
 ## Abilities
 
 ### [P] Searing Brilliance
 
-Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack. When Mel deals damage through an ability or attack, she applies Overwhelm, which can stack infinitely. If the enemy is hit by Mel with enough Overwhelm damage, the stacks are consumed to execute the target.
+Mel's attacks and abilities apply and refresh stacks of Overwhelm for 5 seconds each time they deal damage. Overwhelm - Stores 50 ( +8% AP ) + 2 ( +0.5 AP ) damage per stack of magic damage . When applied, if the stored amount exceeds the target's combined shields and current Health , they are executed. Projectile Burst - Fires 3 extra projectiles on her next attack after using an ability. Each projectile deals 3 - 33 ( +3%AP ) magic damage . This effect can stack up to 9 extra projectiles. Overwhelm deals only 60% damage with the first stack when used against minions.
 
 ### [1] Radiant Volley
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 9.0 / 8.0 / 7.0 / 6.0 seconds
 
-Mel fires a barrage of projectiles that explode around a target location, dealing damage repeatedly to enemies within the area.
+**Cost:** 70.0 / 80.0 / 90.0 / 100.0
+
+Unleashes a barrage of 7 / 8 / 9 / 10 projectiles that explode in the area around a target location. Each explosion deals 11 / 14 / 17 / 20 ( +6% AP ) magic damage , adding up to a maximum of 91 / 128 / 171 / 220 ( +49% AP ) magic damage in total. Deals 90% damage when used against minions.
 
 ### [2] Rebuttal
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 38.0 / 36.0 / 34.0 / 32.0 seconds
 
-Mel forms a barrier around herself that reflects enemy projectiles back at the attacker, prevents her from taking damage, and grants her movement speed.
+**Cost:** 60.0 / 40.0 / 20.0
+
+Forms a barrier around herself that reflects projectiles from enemy champions, makes her invulnerable for 1 second, and gives her 30% decaying Movement Speed for 1 second. Reflected projectiles deal 40% / 45% / 50% / 55% of the original damage as magic damage . Structure damage is not prevented.
 
 ### [3] Solar Snare
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 12.0 / 11.0 / 11.0 / 10.0 seconds
 
-Mel fires a radiant orb forward, rooting those at its center while the area around it slows enemies and deals damage over time.
+**Cost:** 50.0 / 55.0 / 60.0 / 65.0
+
+Fires a radiating orb, rooting enemies at its center for 1.2 / 1.3 / 1.4 / 1.5 seconds and dealing 55 / 110 / 165 / 220 ( +50% AP ) magic damage . The orb builds up a hostile area around it that slows enemies by 30% and deals 20 / 40 / 60 / 80 ( +6% AP ) magic damage per 1 second. The slow and damage-over-time effects linger on enemies for 0.75 seconds after they've left the area created by the orb. Deals 75% damage when used against minions.
 
 ### [4] Golden Eclipse
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 95.0 / 80.0 / 65.0 seconds
 
-Mel strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm. Ranks of Golden Eclipse increase Overwhelm's damage.
+**Cost:** 100.0 / 100.0 / 100.0
+
+Passive - Overwhelm damage is increased. Base damage - 50 ( +8% AP ) magic damage ; Additional damage - 2 ( +0.6 AP ) magic damage per stack. Active - Unleashes her power on all enemies affected by Overwhelm , dealing 100 / 150 / 200 ( +25% AP ) base magic damage and 4 / 7 / 10 ( +2.5% AP ) additional magic damage per stack. Can only be cast when an enemy champion is affected by Overwhelm .
 

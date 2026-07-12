@@ -1,7 +1,7 @@
 ---
 description: Gain 5 health every 5 seconds. After taking damage from an enemy champion
-  regenerate 6 (+2% of your missing health) over the next 5 seconds. This effect is
-  doubled for melee champions.
+  regenerate 3 (+1.5% of your missing health) over the next 5 seconds. This effect
+  is doubled for melee champions.
 family: Resolve
 id: 96
 image_url: https://www.wildriftfire.com/images/runes/second-wind.png
@@ -16,5 +16,5 @@ type: Minor
 
 ## Description
 
-Gain 5 health every 5 seconds. After taking damage from an enemy champion regenerate 6 (+2% of your missing health) over the next 5 seconds. This effect is doubled for melee champions.
+Gain 5 health every 5 seconds. After taking damage from an enemy champion regenerate 3 (+1.5% of your missing health) over the next 5 seconds. This effect is doubled for melee champions.
 

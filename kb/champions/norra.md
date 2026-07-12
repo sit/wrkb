@@ -23,7 +23,7 @@ abilities:
     increases to 30% and she teleports backward for a short distance after firing.
     Release (Active) : Unleashes the memories she gathered, charging and firing a
     magic bolt in the target direction. The magic bolt stops when it hits an enemy
-    champion, dealing 60 / 120 / 180 / 240 ( +60% AP ) magic damage to them and enemies
+    champion, dealing 55 / 110 / 165 / 220 ( +60% AP ) magic damage to them and enemies
     nearby. While Charging : Norra can choose a direction to fire the bolt in; The
     bolt''s range increases with charge duration; The bolt''s damage increases with
     charge duration, up to 140% bonus (deals max 84 damage); When fully charged, Norra
@@ -31,10 +31,10 @@ abilities:
   name: Memory Surge
   slot: '1'
 - cooldowns:
-  - 18.0
-  - 17.0
-  - 16.0
-  - 15.0
+  - 23.0
+  - 22.0
+  - 21.0
+  - 20.0
   costs:
   - 75.0
   - 80.0
@@ -42,9 +42,9 @@ abilities:
   - 90.0
   description: 'Creates a circular magic portal in a target location, dealing 65 /
     105 / 145 / 185 ( +40% AP ) magic damage to all enemies within and sending them
-    to another dimension for 2.25 seconds. Enemies in the other dimension : Cannot
-    attack or use abilities, but can move and are slowed by 80% . Enemies are returned
-    to their original location after 2.25 seconds.'
+    to another dimension for 1.5 seconds. Enemies in the other dimension : Cannot
+    attack or use abilities, but can move and are slowed by 80% for 0.75 seconds.
+    Enemies are returned to their original location after 1.5 seconds.'
   name: Journey to Nowhere
   slot: '2'
 - cooldowns:
@@ -77,7 +77,7 @@ abilities:
     within. Swiping from one edge of the circle to another. Conjures a portal at both
     ends, firing a magic bolt from end to end. Norra can do this up to 4 times. The
     magic bolt slows the first enemy champion by 80% for 0.5 seconds and deals 100
-    / 150 / 200 ( +60% AP ) magic damage to all enemies along its path. The fourth
+    / 140 / 180 ( +55% AP ) magic damage to all enemies along its path. The fourth
     magic bolt deals 40% bonus magic damage .
   name: Portalpalooza!
   slot: '4'
@@ -145,15 +145,15 @@ Trinket: Every 21 seconds, her next ability cast leaves a Trinket on the battlef
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 
-Passive : Deals 1% - 2.5% of the target's max Health as bonus magic damage to enemies enlarged by Threads. Hold (Active) : Gathers memories, slowing herself by 20% . If she continues charging after reaching full charge, the slow increases to 30% and she teleports backward for a short distance after firing. Release (Active) : Unleashes the memories she gathered, charging and firing a magic bolt in the target direction. The magic bolt stops when it hits an enemy champion, dealing 60 / 120 / 180 / 240 ( +60% AP ) magic damage to them and enemies nearby. While Charging : Norra can choose a direction to fire the bolt in; The bolt's range increases with charge duration; The bolt's damage increases with charge duration, up to 140% bonus (deals max 84 damage); When fully charged, Norra activates all nearby Trinkets to fire at the first champion hit by the bolt.
+Passive : Deals 1% - 2.5% of the target's max Health as bonus magic damage to enemies enlarged by Threads. Hold (Active) : Gathers memories, slowing herself by 20% . If she continues charging after reaching full charge, the slow increases to 30% and she teleports backward for a short distance after firing. Release (Active) : Unleashes the memories she gathered, charging and firing a magic bolt in the target direction. The magic bolt stops when it hits an enemy champion, dealing 55 / 110 / 165 / 220 ( +60% AP ) magic damage to them and enemies nearby. While Charging : Norra can choose a direction to fire the bolt in; The bolt's range increases with charge duration; The bolt's damage increases with charge duration, up to 140% bonus (deals max 84 damage); When fully charged, Norra activates all nearby Trinkets to fire at the first champion hit by the bolt.
 
 ### [2] Journey to Nowhere
 
-**Cooldown:** 18.0 / 17.0 / 16.0 / 15.0 seconds
+**Cooldown:** 23.0 / 22.0 / 21.0 / 20.0 seconds
 
 **Cost:** 75.0 / 80.0 / 85.0 / 90.0
 
-Creates a circular magic portal in a target location, dealing 65 / 105 / 145 / 185 ( +40% AP ) magic damage to all enemies within and sending them to another dimension for 2.25 seconds. Enemies in the other dimension : Cannot attack or use abilities, but can move and are slowed by 80% . Enemies are returned to their original location after 2.25 seconds.
+Creates a circular magic portal in a target location, dealing 65 / 105 / 145 / 185 ( +40% AP ) magic damage to all enemies within and sending them to another dimension for 1.5 seconds. Enemies in the other dimension : Cannot attack or use abilities, but can move and are slowed by 80% for 0.75 seconds. Enemies are returned to their original location after 1.5 seconds.
 
 ### [3] Threads of Homecoming
 
@@ -169,5 +169,5 @@ Passive : When a Trinket damages its target, it applies a Thread . Active : Conj
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Creates a large teleportation magic circle, encircling all units caught within. Swiping from one edge of the circle to another. Conjures a portal at both ends, firing a magic bolt from end to end. Norra can do this up to 4 times. The magic bolt slows the first enemy champion by 80% for 0.5 seconds and deals 100 / 150 / 200 ( +60% AP ) magic damage to all enemies along its path. The fourth magic bolt deals 40% bonus magic damage .
+Creates a large teleportation magic circle, encircling all units caught within. Swiping from one edge of the circle to another. Conjures a portal at both ends, firing a magic bolt from end to end. Norra can do this up to 4 times. The magic bolt slows the first enemy champion by 80% for 0.5 seconds and deals 100 / 140 / 180 ( +55% AP ) magic damage to all enemies along its path. The fourth magic bolt deals 40% bonus magic damage .
 

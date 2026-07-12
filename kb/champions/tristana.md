@@ -5,10 +5,10 @@ abilities:
   name: Draw a Bead
   slot: P
 - cooldowns:
-  - 18.0
   - 17.0
   - 16.0
   - 15.0
+  - 14.0
   description: Gain 50% / 75% / 100% / 125% bonus Attack Speed for 7 seconds.
   name: Rapid Fire
   slot: '1'
@@ -39,7 +39,7 @@ abilities:
   - 65.0
   - 70.0
   description: 'Passive : Enemies explode when killed by Tristana''s attacks, dealing
-    55 / 85 / 115 / 145 ( +25% AP ) magic damage to nearby enemies. Active : Places
+    65 / 100 / 135 / 170 ( +25% AP ) magic damage to nearby enemies. Active : Places
     a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +75% / 110% / 145%
     / 180% bonus AD +50% AP ) physical damage to nearby enemies. Tristana''s attacks
     and abilities charge the bomb''s damage by 30% stacking 4 times. Bombs explode
@@ -118,7 +118,7 @@ Increases the range of attacks, Explosive Charge , and Buster Shot by 10 per lev
 
 ### [1] Rapid Fire
 
-**Cooldown:** 18.0 / 17.0 / 16.0 / 15.0 seconds
+**Cooldown:** 17.0 / 16.0 / 15.0 / 14.0 seconds
 
 Gain 50% / 75% / 100% / 125% bonus Attack Speed for 7 seconds.
 
@@ -136,7 +136,7 @@ Leap to a target location, dealing 85 /155 / 225 / 295 ( +50% AP ) magic damage 
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Passive : Enemies explode when killed by Tristana's attacks, dealing 55 / 85 / 115 / 145 ( +25% AP ) magic damage to nearby enemies. Active : Places a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +75% / 110% / 145% / 180% bonus AD +50% AP ) physical damage to nearby enemies. Tristana's attacks and abilities charge the bomb's damage by 30% stacking 4 times. Bombs explode immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.
+Passive : Enemies explode when killed by Tristana's attacks, dealing 65 / 100 / 135 / 170 ( +25% AP ) magic damage to nearby enemies. Active : Places a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +75% / 110% / 145% / 180% bonus AD +50% AP ) physical damage to nearby enemies. Tristana's attacks and abilities charge the bomb's damage by 30% stacking 4 times. Bombs explode immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.
 
 ### [4] Buster Shot
 

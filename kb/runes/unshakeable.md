@@ -1,6 +1,6 @@
 ---
-description: 'Gain 4% Armor and Magic Resist. For every 1 enemy champion nearby, gain
-  an additional 3% Armor and Magic Resist. If the max number of enemy champions are
+description: 'Gain 3% Armor and Magic Resist. For every 1 enemy champion nearby, gain
+  an additional 2% Armor and Magic Resist. If the max number of enemy champions are
   nearby (max: 3), you also gain 20% Slow Resist.'
 family: Resolve
 id: 139
@@ -16,5 +16,5 @@ type: Minor
 
 ## Description
 
-Gain 4% Armor and Magic Resist. For every 1 enemy champion nearby, gain an additional 3% Armor and Magic Resist. If the max number of enemy champions are nearby (max: 3), you also gain 20% Slow Resist.
+Gain 3% Armor and Magic Resist. For every 1 enemy champion nearby, gain an additional 2% Armor and Magic Resist. If the max number of enemy champions are nearby (max: 3), you also gain 20% Slow Resist.
 

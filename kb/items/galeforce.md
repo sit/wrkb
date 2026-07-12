@@ -1,22 +1,33 @@
 ---
-cost: 500
+cost: 3100
 effects:
-- 'ACTIVE - CLOUDBURST:  Dash in a target direction and fire 3 missiles at the lowest
-  Health Enemy near your destination, prioritizing champions. Deal 40~120 (+ 35% bonus
-  attack damage) as physical damage. (50s Cooldown)'
+- CLOUDBURST - Dash in the target direction and fire 3 projectiles at the lowest-Health
+  enemy near the destination, dealing a total of 40-125 (based on level) + 35% bonus
+  Attack Damage physical damage. (60s cooldown)
 id: 212
 image_url: https://www.wildriftfire.com/images/items/galeforce.png
 name: Galeforce
-stats: []
-type: Enchantment
+stats:
+- +50 Attack Damage
+- +15% Attack Speed
+- +25% Critical Strike Chance
+- +5 Movement Speed
+type: Physical
 ---
 
 # Galeforce
 
-**Type:** Enchantment  
-**Cost:** 500 gold
+**Type:** Physical  
+**Cost:** 3100 gold
+
+## Stats
+
+- +50 Attack Damage
+- +15% Attack Speed
+- +25% Critical Strike Chance
+- +5 Movement Speed
 
 ## Effects
 
-ACTIVE - CLOUDBURST:  Dash in a target direction and fire 3 missiles at the lowest Health Enemy near your destination, prioritizing champions. Deal 40~120 (+ 35% bonus attack damage) as physical damage. (50s Cooldown)
+CLOUDBURST - Dash in the target direction and fire 3 projectiles at the lowest-Health enemy near the destination, dealing a total of 40-125 (based on level) + 35% bonus Attack Damage physical damage. (60s cooldown)
 

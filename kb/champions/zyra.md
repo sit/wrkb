@@ -3,7 +3,7 @@ abilities:
 - description: A Thorn Spitter with 30 - 240 ( +22% - 50% AP ) Health sprouts when
     Grasping Roots first hits an enemy champion. If no enemy champion is hit, a Thorn
     Spitter will sprout when Grasping Roots ends. Thorn Spitters automatically attack
-    targets within 6 seconds of sprouting, dealing 10 - 108 ( +15% AP ) magic damage
+    targets within 6 seconds of sprouting, dealing 10 - 108 ( +10% AP ) magic damage
     . An additional Thorn Spitter sprouts with every enemy champion, large monster,
     or epic monster Deadly Spines or Stranglethorns hits. Thorn Spitters deal an additional
     23 - 65 damage against monsters. Thorn Spitters spawned after the first deal 50%
@@ -127,7 +127,7 @@ Support, Mid Lane
 
 ### [P] Garden of Thorns
 
-A Thorn Spitter with 30 - 240 ( +22% - 50% AP ) Health sprouts when Grasping Roots first hits an enemy champion. If no enemy champion is hit, a Thorn Spitter will sprout when Grasping Roots ends. Thorn Spitters automatically attack targets within 6 seconds of sprouting, dealing 10 - 108 ( +15% AP ) magic damage . An additional Thorn Spitter sprouts with every enemy champion, large monster, or epic monster Deadly Spines or Stranglethorns hits. Thorn Spitters deal an additional 23 - 65 damage against monsters. Thorn Spitters spawned after the first deal 50% damage against the same target. Enemy champions' abilities deal 35% damage against Thorn Spitters . Non-epic monsters deal 35% damage against Thorn Spitters .
+A Thorn Spitter with 30 - 240 ( +22% - 50% AP ) Health sprouts when Grasping Roots first hits an enemy champion. If no enemy champion is hit, a Thorn Spitter will sprout when Grasping Roots ends. Thorn Spitters automatically attack targets within 6 seconds of sprouting, dealing 10 - 108 ( +10% AP ) magic damage . An additional Thorn Spitter sprouts with every enemy champion, large monster, or epic monster Deadly Spines or Stranglethorns hits. Thorn Spitters deal an additional 23 - 65 damage against monsters. Thorn Spitters spawned after the first deal 50% damage against the same target. Enemy champions' abilities deal 35% damage against Thorn Spitters . Non-epic monsters deal 35% damage against Thorn Spitters .
 
 ### [1] Deadly Spines
 

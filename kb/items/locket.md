@@ -8,12 +8,12 @@ id: 102
 image_url: https://www.wildriftfire.com/images/items/locket.png
 name: Locket
 stats: []
-type: Enchantment
+type: ''
 ---
 
 # Locket
 
-**Type:** Enchantment  
+**Type:**   
 **Cost:** 500 gold
 
 ## Effects

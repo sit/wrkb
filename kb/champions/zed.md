@@ -55,8 +55,8 @@ abilities:
   slot: '3'
 - cooldowns:
   - 85.0
-  - 65.0
-  - 45.0
+  - 70.0
+  - 55.0
   description: Zed becomes untargetable and dashes to target enemy champion, marking
     them. After 2.8 seconds, the mark triggers, dealing 60 ( 100% AD ) physical damage
     + 30% / 42.5% / 55% of all damage dealt to the target by Zed while the mark was
@@ -149,7 +149,7 @@ Zed and his shadows slash, each dealing 65 / 95 / 125 / 155 ( +70 bonus AD ) phy
 
 ### [4] Death Mark
 
-**Cooldown:** 85.0 / 65.0 / 45.0 seconds
+**Cooldown:** 85.0 / 70.0 / 55.0 seconds
 
 Zed becomes untargetable and dashes to target enemy champion, marking them. After 2.8 seconds, the mark triggers, dealing 60 ( 100% AD ) physical damage + 30% / 42.5% / 55% of all damage dealt to the target by Zed while the mark was active. The dash leaves a shadow behind for 6 seconds. Zed can reactivate Death Mark to switch positions with this shadow.
 

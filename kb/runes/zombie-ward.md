@@ -1,8 +1,8 @@
 ---
-description: After removing an enemy ward, spawns a zombie ward in its place, granting
-  vision of the surrounding area for 120 seconds. Also gains 3 Attack Damage and 6
-  Ability Power. Stacks up to 5 times. Gives a bonus 10 Attack Damage or 20 Ability
-  Power upon reaching 5 stacks.
+description: Takedowns on enemy wards spawn a Zombie Ward in its place, granting vision
+  of the surrounding area for 120 seconds. Additionally gain 3 Attack Damage or 6
+  Ability Power (max 5 stacks). (Assists on enemy wards also grant stacks and spawn
+  Zombie Wards.)
 family: Domination
 id: 115
 image_url: https://www.wildriftfire.com/images/runes/zombie-ward.png
@@ -17,5 +17,5 @@ type: Minor
 
 ## Description
 
-After removing an enemy ward, spawns a zombie ward in its place, granting vision of the surrounding area for 120 seconds. Also gains 3 Attack Damage and 6 Ability Power. Stacks up to 5 times. Gives a bonus 10 Attack Damage or 20 Ability Power upon reaching 5 stacks.
+Takedowns on enemy wards spawn a Zombie Ward in its place, granting vision of the surrounding area for 120 seconds. Additionally gain 3 Attack Damage or 6 Ability Power (max 5 stacks). (Assists on enemy wards also grant stacks and spawn Zombie Wards.)
 

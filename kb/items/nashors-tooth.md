@@ -1,5 +1,5 @@
 ---
-cost: 3000
+cost: 2800
 effects:
 - "UNIQUE - Magic Fang: Gain 25 Attack Damage or 50 Ability Power (Adaptive).\r\n\
   UNIQUE - Gnaw: When the basic attack hits the enemy champion, it will cause 15 (+20%\
@@ -16,7 +16,7 @@ type: Physical
 # Nashor's Tooth
 
 **Type:** Physical  
-**Cost:** 3000 gold
+**Cost:** 2800 gold
 
 ## Stats
 

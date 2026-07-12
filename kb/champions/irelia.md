@@ -17,7 +17,7 @@ abilities:
   - 20.0
   - 20.0
   description: Dashes through an enemy, dealing 10 / 40 / 70 / 100 ( +65% AD ) physical
-    damage and healing herself for 16% / 20% / 24% / 28% AD . Bladesurge's cooldown
+    damage and healing herself for 11% / 14% / 17% / 20% AD . Bladesurge's cooldown
     is refreshed if the target was Marked or dies to Bladesurge. When aimed, Bladesurge
     will prioritize targets it will reset on. Deals 150% damage to minions.
   name: Bladesurge
@@ -101,7 +101,6 @@ name: Irelia
 roles:
 - Baron Lane
 - Mid Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/irelia
 ---
 
@@ -109,7 +108,7 @@ source_url: https://www.wildriftfire.com/guide/irelia
 
 ## Roles
 
-Baron Lane, Mid Lane, Jungle
+Baron Lane, Mid Lane
 
 ## Base Stats
 
@@ -135,7 +134,7 @@ Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, 
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Dashes through an enemy, dealing 10 / 40 / 70 / 100 ( +65% AD ) physical damage and healing herself for 16% / 20% / 24% / 28% AD . Bladesurge's cooldown is refreshed if the target was Marked or dies to Bladesurge. When aimed, Bladesurge will prioritize targets it will reset on. Deals 150% damage to minions.
+Dashes through an enemy, dealing 10 / 40 / 70 / 100 ( +65% AD ) physical damage and healing herself for 11% / 14% / 17% / 20% AD . Bladesurge's cooldown is refreshed if the target was Marked or dies to Bladesurge. When aimed, Bladesurge will prioritize targets it will reset on. Deals 150% damage to minions.
 
 ### [2] Defiant Dance
 

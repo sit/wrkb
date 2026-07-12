@@ -15,11 +15,11 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: 'Sonic Wave : Fires an energy wave that deals 55 / 90 / 125 / 160 (
-    +100% AD ) physical damage to enemies and reveals them. Hitting an enemy allows
+  description: 'Sonic Wave : Fires an energy wave that deals 60 / 100 / 140 / 180
+    ( +90% AD ) physical damage to enemies and reveals them. Hitting an enemy allows
     Resonating Strike to be cast within 3 seconds. Resonating Strike : Dash to enemy
-    marked by Sonic Wave, dealing 55 / 90 / 125 / 160 to 110 / 180 / 250 / 360 ( +100%
-    to +200% AD ) physical damage based on its missing Health.'
+    marked by Sonic Wave, dealing 60 / 100 / 140 / 160 to 110 / 180 / 250 / 360 (
+    +90% to +200% AD ) physical damage based on its missing Health.'
   name: Sonic Wave / Resonating Strike
   slot: '1'
 - cooldowns:
@@ -50,7 +50,7 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: 'Tempest : Deals 90 / 140 / 190 / 240 ( +125% AD ) magic damage , to
+  description: 'Tempest : Deals 35 / 70 / 105 / 140 ( +90% AD ) magic damage , to
     nearby enemies and reveals them for 3 seconds. Hitting an enemy allows Cripple
     to be cast within 3 seconds. Cripple : Slows enemies hit by Tempest by 30% / 40%
     / 50% / 60% , decaying over the course of 4 seconds.'
@@ -60,8 +60,8 @@ abilities:
   - 70.0
   - 60.0
   - 50.0
-  description: Launches a powerful roundhouse kick at an enemy champion, dealing 100
-    / 250 / 400 ( +180% bonus AD + 10% / 13% / 16% of the target's maximum health
+  description: Launches a powerful roundhouse kick at an enemy champion, dealing 125
+    / 350 / 575 ( +190% bonus AD + 12% / 15% / 18% of the target's maximum health
     ) physical damage and knocking them back. Enemies the target collides with along
     the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus
     AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters
@@ -132,7 +132,7 @@ Lee Sin's Abilities grant him 40% Attack Speed for 2 attacks within 3 seconds. T
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Sonic Wave : Fires an energy wave that deals 55 / 90 / 125 / 160 ( +100% AD ) physical damage to enemies and reveals them. Hitting an enemy allows Resonating Strike to be cast within 3 seconds. Resonating Strike : Dash to enemy marked by Sonic Wave, dealing 55 / 90 / 125 / 160 to 110 / 180 / 250 / 360 ( +100% to +200% AD ) physical damage based on its missing Health.
+Sonic Wave : Fires an energy wave that deals 60 / 100 / 140 / 180 ( +90% AD ) physical damage to enemies and reveals them. Hitting an enemy allows Resonating Strike to be cast within 3 seconds. Resonating Strike : Dash to enemy marked by Sonic Wave, dealing 60 / 100 / 140 / 160 to 110 / 180 / 250 / 360 ( +90% to +200% AD ) physical damage based on its missing Health.
 
 ### [2] Safeguard / Iron Will
 
@@ -148,11 +148,11 @@ Safeguard : Dashes to target location. If an enemy is nearby on arrival, Lee Sin
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Tempest : Deals 90 / 140 / 190 / 240 ( +125% AD ) magic damage , to nearby enemies and reveals them for 3 seconds. Hitting an enemy allows Cripple to be cast within 3 seconds. Cripple : Slows enemies hit by Tempest by 30% / 40% / 50% / 60% , decaying over the course of 4 seconds.
+Tempest : Deals 35 / 70 / 105 / 140 ( +90% AD ) magic damage , to nearby enemies and reveals them for 3 seconds. Hitting an enemy allows Cripple to be cast within 3 seconds. Cripple : Slows enemies hit by Tempest by 30% / 40% / 50% / 60% , decaying over the course of 4 seconds.
 
 ### [4] Dragon's Rage
 
 **Cooldown:** 70.0 / 60.0 / 50.0 seconds
 
-Launches a powerful roundhouse kick at an enemy champion, dealing 100 / 250 / 400 ( +180% bonus AD + 10% / 13% / 16% of the target's maximum health ) physical damage and knocking them back. Enemies the target collides with along the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters is caped at 800 .
+Launches a powerful roundhouse kick at an enemy champion, dealing 125 / 350 / 575 ( +190% bonus AD + 12% / 15% / 18% of the target's maximum health ) physical damage and knocking them back. Enemies the target collides with along the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters is caped at 800 .
 

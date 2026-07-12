@@ -14,8 +14,8 @@ abilities:
   - 4.0
   - 4.0
   - 3.0
-  description: 'Passive : Attacks deal bonus physical damage equal to 3% / 4% / 5%
-    / 6% of the target''s current Health . After damaging an enemy with an ability,
+  description: 'Passive : Attacks deal bonus physical damage equal to 2% / 3% / 4%
+    / 5% of the target''s current Health . After damaging an enemy with an ability,
     Viego''s first attack against them within 5 seconds strikes twice, dealing physical
     damage equal to 15% of AD (+ 15% AP ) and healing himself for 135% of the damage
     dealt. Passive bonuses are kept during Possession. Active : Stabs forward, dealing
@@ -111,7 +111,7 @@ The souls of enemy champions that die within 3 seconds of being damaged by Viego
 
 **Cooldown:** 5.0 / 4.0 / 4.0 / 3.0 seconds
 
-Passive : Attacks deal bonus physical damage equal to 3% / 4% / 5% / 6% of the target's current Health . After damaging an enemy with an ability, Viego's first attack against them within 5 seconds strikes twice, dealing physical damage equal to 15% of AD (+ 15% AP ) and healing himself for 135% of the damage dealt. Passive bonuses are kept during Possession. Active : Stabs forward, dealing 20 / 40 / 60 / 80 ((+ 80% AD ) * ( 1 + 0.5% bonus Critical rate )) physical damage . This ability's cast time reduces with Attack Speed.
+Passive : Attacks deal bonus physical damage equal to 2% / 3% / 4% / 5% of the target's current Health . After damaging an enemy with an ability, Viego's first attack against them within 5 seconds strikes twice, dealing physical damage equal to 15% of AD (+ 15% AP ) and healing himself for 135% of the damage dealt. Passive bonuses are kept during Possession. Active : Stabs forward, dealing 20 / 40 / 60 / 80 ((+ 80% AD ) * ( 1 + 0.5% bonus Critical rate )) physical damage . This ability's cast time reduces with Attack Speed.
 
 ### [2] Spectral Maw
 

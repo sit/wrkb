@@ -102,7 +102,6 @@ base_stats:
 name: Gwen
 roles:
 - Baron Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/gwen
 ---
 
@@ -110,7 +109,7 @@ source_url: https://www.wildriftfire.com/guide/gwen
 
 ## Roles
 
-Baron Lane, Jungle
+Baron Lane
 
 ## Base Stats
 

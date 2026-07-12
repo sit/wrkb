@@ -101,7 +101,6 @@ base_stats:
     growth: '0'
 name: Pantheon
 roles:
-- Baron Lane
 - Jungle
 source_url: https://www.wildriftfire.com/guide/pantheon
 ---
@@ -110,7 +109,7 @@ source_url: https://www.wildriftfire.com/guide/pantheon
 
 ## Roles
 
-Baron Lane, Jungle
+Jungle
 
 ## Base Stats
 

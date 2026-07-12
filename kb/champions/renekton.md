@@ -12,21 +12,21 @@ abilities:
   - 7.0
   - 7.0
   description: 'Deal 80 / 130 / 180 / 230 ( +90% AD ) physical damage to nearby enemies,
-    generating 5 Fury or 10 Fury if the enemy hit is a champion and healing 5 / 7
-    / 9 / 11 ( +5% bonus AD ) per enemy hit, if the enemy hit is a champion, restore
-    20 / 28 / 36 / 44 ( +20% bonus AD ) Health . Reign of Anger : Damage increases
+    generating 5 Fury or 10 Fury if the enemy hit is a champion and healing 4 / 6
+    / 8 / 10 ( +5% bonus AD ) per enemy hit, if the enemy hit is a champion, restore
+    16 / 24 / 32 / 40 ( +20% bonus AD ) Health . Reign of Anger : Damage increases
     to 120 / 195 / 270 / 345 ( +135% AD ) physical damage and healing is increased
     by 200% .'
   name: Cull the Meek
   slot: '1'
 - cooldowns:
+  - 14.0
   - 12.0
-  - 11.0
-  - 9.0
+  - 10.0
   - 8.0
   description: 'Empowers the next attack to strike twice, stunning for 0.75 seconds
-    and dealing 30 / 60 / 90 / 120 ( +150% AD ) physical damage . Reign of Anger :
-    Strikes three times, stunning for 1.5 seconds and dealing 45 / 90 / 135 / 180
+    and dealing 24 / 48 / 72 / 96 ( +150% AD ) physical damage . Reign of Anger :
+    Strikes three times, stunning for 1.5 seconds and dealing 36 / 72 / 108 / 144
     ( +225% AD ) physical damage . Under the effect of Red Fury, clear all shields
     on the target. Gain an additional 10 Fury when an enemy champion is hit.'
   name: Ruthless Predator
@@ -58,7 +58,7 @@ base_stats:
     base: '46'
     growth: '4'
   Attack Dmg.:
-    base: '70'
+    base: '66'
     growth: '4'
   Attack Spd.:
     base: '0.80'
@@ -94,7 +94,7 @@ Baron Lane
 - Armor: 46 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
-- Attack Dmg.: 70 (+4 per level)
+- Attack Dmg.: 66 (+4 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
@@ -107,13 +107,13 @@ Casting abilities with 50 Fury or more consumes that Fury for enhanced effects. 
 
 **Cooldown:** 7.0 / 7.0 / 7.0 / 7.0 seconds
 
-Deal 80 / 130 / 180 / 230 ( +90% AD ) physical damage to nearby enemies, generating 5 Fury or 10 Fury if the enemy hit is a champion and healing 5 / 7 / 9 / 11 ( +5% bonus AD ) per enemy hit, if the enemy hit is a champion, restore 20 / 28 / 36 / 44 ( +20% bonus AD ) Health . Reign of Anger : Damage increases to 120 / 195 / 270 / 345 ( +135% AD ) physical damage and healing is increased by 200% .
+Deal 80 / 130 / 180 / 230 ( +90% AD ) physical damage to nearby enemies, generating 5 Fury or 10 Fury if the enemy hit is a champion and healing 4 / 6 / 8 / 10 ( +5% bonus AD ) per enemy hit, if the enemy hit is a champion, restore 16 / 24 / 32 / 40 ( +20% bonus AD ) Health . Reign of Anger : Damage increases to 120 / 195 / 270 / 345 ( +135% AD ) physical damage and healing is increased by 200% .
 
 ### [2] Ruthless Predator
 
-**Cooldown:** 12.0 / 11.0 / 9.0 / 8.0 seconds
+**Cooldown:** 14.0 / 12.0 / 10.0 / 8.0 seconds
 
-Empowers the next attack to strike twice, stunning for 0.75 seconds and dealing 30 / 60 / 90 / 120 ( +150% AD ) physical damage . Reign of Anger : Strikes three times, stunning for 1.5 seconds and dealing 45 / 90 / 135 / 180 ( +225% AD ) physical damage . Under the effect of Red Fury, clear all shields on the target. Gain an additional 10 Fury when an enemy champion is hit.
+Empowers the next attack to strike twice, stunning for 0.75 seconds and dealing 24 / 48 / 72 / 96 ( +150% AD ) physical damage . Reign of Anger : Strikes three times, stunning for 1.5 seconds and dealing 36 / 72 / 108 / 144 ( +225% AD ) physical damage . Under the effect of Red Fury, clear all shields on the target. Gain an additional 10 Fury when an enemy champion is hit.
 
 ### [3] Slice and Dice
 

@@ -33,7 +33,7 @@ abilities:
   - 90.0
   - 95.0
   - 100.0
-  description: Heals herself and an allied champion for 65 / 105 / 145 / 185 ( +40%
+  description: Heals herself and an allied champion for 95 / 125 / 155 / 185 ( +40%
     AP ) and grants them 25% / 30% / 35% / 40% ( +0.08% AP ) Movement Speed for 2
     seconds.
   name: Celestial Blessing
@@ -64,7 +64,7 @@ base_stats:
     base: '37'
     growth: '4'
   Attack Dmg.:
-    base: '50'
+    base: '54'
     growth: '3'
   Attack Spd.:
     base: '0.82'
@@ -82,15 +82,15 @@ base_stats:
     base: '345'
     growth: '31'
   Mana Reg. (5s):
-    base: '12'
+    base: '16'
     growth: '1'
   Move Speed:
     base: '345'
     growth: '0'
 name: Kayle
 roles:
-- Baron Lane
 - Mid Lane
+- Baron Lane
 source_url: https://www.wildriftfire.com/guide/kayle
 ---
 
@@ -98,18 +98,18 @@ source_url: https://www.wildriftfire.com/guide/kayle
 
 ## Roles
 
-Baron Lane, Mid Lane
+Mid Lane, Baron Lane
 
 ## Base Stats
 
 - Health: 630 (+112 per level)
 - Health Reg. (5s): 6 (+1 per level)
 - Mana: 345 (+31 per level)
-- Mana Reg. (5s): 12 (+1 per level)
+- Mana Reg. (5s): 16 (+1 per level)
 - Armor: 37 (+4 per level)
 - Magic Res.: 36 (+1 per level)
 - Move Speed: 345 (+0 per level)
-- Attack Dmg.: 50 (+3 per level)
+- Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.82 (+0.0143 per level)
 
 ## Abilities
@@ -132,7 +132,7 @@ Launches a celestial sword, dealing 70 / 120 / 170 / 220 ( +60% AD +50% AP ) mag
 
 **Cost:** 85.0 / 90.0 / 95.0 / 100.0
 
-Heals herself and an allied champion for 65 / 105 / 145 / 185 ( +40% AP ) and grants them 25% / 30% / 35% / 40% ( +0.08% AP ) Movement Speed for 2 seconds.
+Heals herself and an allied champion for 95 / 125 / 155 / 185 ( +40% AP ) and grants them 25% / 30% / 35% / 40% ( +0.08% AP ) Movement Speed for 2 seconds.
 
 ### [3] Starfire Spellblade
 

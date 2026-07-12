@@ -16,7 +16,7 @@ abilities:
   - 50.0
   - 50.0
   description: Zoe fires a star that deals increasing damage the further it travels
-    to the first enemy hit dealing between 30 / 65 / 100 / 135 ( +60% AP ) and 75
+    to the first enemy hit dealing between 45 / 80 / 115 / 150 ( +60% AP ) and 75
     / 162.5 / 250 / 337.5 ( +150% AP ) magic damage . Enemies surrounding the target
     take 80% damage. Zoe can recast this Ability to redirect the missile to a new
     position near Zoe.
@@ -31,7 +31,7 @@ abilities:
     ally, kills them. Zoe can pick up this shard to cast that ability once. Passive
     : When Zoe casts this Ability or any Spell, she gains 25% / 30% / 35% / 40% Movement
     Speed for 2 seconds and tosses 3 missiles at the target she Attacked most recently.
-    These missiles deal 20 / 30 / 40 / 50 ( +15% AP ) magic damage each. Active :
+    These missiles deal 25 / 35 / 45 / 55 ( +15% AP ) magic damage each. Active :
     Cast the Ability from a spell shard Zoe has picked up Spell shards last on the
     ground for 20 seconds. Each missile can apply More Sparkles!'
   name: Spell Thief
@@ -46,18 +46,18 @@ abilities:
   - 80.0
   - 80.0
   - 80.0
-  description: Zoe dropkicks a bubble that deals 30 / 80 / 130 / 180 ( +50% AP ) magic
+  description: Zoe dropkicks a bubble that deals 40 / 90 / 140 / 190 ( +50% AP ) magic
     damage , lingering as a trap if it doesn't hit anything. The bubble's range is
     extended when flying over terrain. After a delay, the victim falls Asleep for
-    2 seconds. Attacks and Ability hits wake them up, dealing 30 / 80 / 130 / 180
+    2 seconds. Attacks and Ability hits wake them up, dealing 40 / 90 / 140 / 190
     ( +50% AP ) bonus true damage . Before the target falls Asleep, they are Drowsy,
     becoming increasingly slowed (up to 15% / 20% / 25% / 30% ).
   name: Sleepy Trouble Bubble
   slot: '3'
 - cooldowns:
-  - 12.0
-  - 9.0
-  - 6.0
+  - 11.0
+  - 8.0
+  - 5.0
   costs:
   - 50.0
   - 50.0
@@ -130,13 +130,13 @@ After using an Ability, Zoe's next Attack deals an additional 9 - 128 ( +20% AP 
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Zoe fires a star that deals increasing damage the further it travels to the first enemy hit dealing between 30 / 65 / 100 / 135 ( +60% AP ) and 75 / 162.5 / 250 / 337.5 ( +150% AP ) magic damage . Enemies surrounding the target take 80% damage. Zoe can recast this Ability to redirect the missile to a new position near Zoe.
+Zoe fires a star that deals increasing damage the further it travels to the first enemy hit dealing between 45 / 80 / 115 / 150 ( +60% AP ) and 75 / 162.5 / 250 / 337.5 ( +150% AP ) magic damage . Enemies surrounding the target take 80% damage. Zoe can recast this Ability to redirect the missile to a new position near Zoe.
 
 ### [2] Spell Thief
 
 **Cooldown:** 0.0 / 0.0 / 0.0 seconds
 
-Passive : Enemies drop spell shards when casting a Spell or using a Boot Enchantment. Specific minions also drop a spell shards when Zoe, or a nearby ally, kills them. Zoe can pick up this shard to cast that ability once. Passive : When Zoe casts this Ability or any Spell, she gains 25% / 30% / 35% / 40% Movement Speed for 2 seconds and tosses 3 missiles at the target she Attacked most recently. These missiles deal 20 / 30 / 40 / 50 ( +15% AP ) magic damage each. Active : Cast the Ability from a spell shard Zoe has picked up Spell shards last on the ground for 20 seconds. Each missile can apply More Sparkles!
+Passive : Enemies drop spell shards when casting a Spell or using a Boot Enchantment. Specific minions also drop a spell shards when Zoe, or a nearby ally, kills them. Zoe can pick up this shard to cast that ability once. Passive : When Zoe casts this Ability or any Spell, she gains 25% / 30% / 35% / 40% Movement Speed for 2 seconds and tosses 3 missiles at the target she Attacked most recently. These missiles deal 25 / 35 / 45 / 55 ( +15% AP ) magic damage each. Active : Cast the Ability from a spell shard Zoe has picked up Spell shards last on the ground for 20 seconds. Each missile can apply More Sparkles!
 
 ### [3] Sleepy Trouble Bubble
 
@@ -144,11 +144,11 @@ Passive : Enemies drop spell shards when casting a Spell or using a Boot Enchant
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Zoe dropkicks a bubble that deals 30 / 80 / 130 / 180 ( +50% AP ) magic damage , lingering as a trap if it doesn't hit anything. The bubble's range is extended when flying over terrain. After a delay, the victim falls Asleep for 2 seconds. Attacks and Ability hits wake them up, dealing 30 / 80 / 130 / 180 ( +50% AP ) bonus true damage . Before the target falls Asleep, they are Drowsy, becoming increasingly slowed (up to 15% / 20% / 25% / 30% ).
+Zoe dropkicks a bubble that deals 40 / 90 / 140 / 190 ( +50% AP ) magic damage , lingering as a trap if it doesn't hit anything. The bubble's range is extended when flying over terrain. After a delay, the victim falls Asleep for 2 seconds. Attacks and Ability hits wake them up, dealing 40 / 90 / 140 / 190 ( +50% AP ) bonus true damage . Before the target falls Asleep, they are Drowsy, becoming increasingly slowed (up to 15% / 20% / 25% / 30% ).
 
 ### [4] Portal Jump
 
-**Cooldown:** 12.0 / 9.0 / 6.0 seconds
+**Cooldown:** 11.0 / 8.0 / 5.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0
 

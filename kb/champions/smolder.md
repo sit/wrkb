@@ -3,8 +3,8 @@ abilities:
 - description: 'Dragon Practice : Hitting enemy champions with abilities and killing
     enemies with Super Scorcher Breath grant a stack of Dragon Practice, which improves
     Smolder''s basic abilities. Dragon Practice Empowering Effects : - Super Scorcher
-    Breath : Deals an additional 40% magic damage and gains new effects at 20, 85
-    and 150 stacks. - Achooo! : Explosions deal an additional 55% magic damage . -
+    Breath : Deals an additional 30% magic damage and gains new effects at 25, 100
+    and 175 stacks. - Achooo! : Explosions deal an additional 55% magic damage . -
     Flap, Flap, Flap : Each hit deals an additional 12% magic damage and gains an
     extra bolt ever 65 stacks.'
   name: Dragon Practice
@@ -19,11 +19,11 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: 'Belches flame, dealing 60 / 95 / 130 / 165 ( +110% bonus AD ) physical
+  description: 'Belches flame, dealing 45 / 80 / 115 / 150 ( +110% bonus AD ) physical
     damage and 40% magical damage . If the target dies, 15 Mana is refunded, once
-    per cast. Dragon Practice Empowering Effects : -20 stacks: Damages all enemies
-    nearby the target. -85 stacks: Sends 2 explosions beyond the target that deal
-    50% of this ability''s damage. -150 stacks: Burns the target, dealing 0% ( +0.025%
+    per cast. Dragon Practice Empowering Effects : -25 stacks: Damages all enemies
+    nearby the target. -100 stacks: Sends 2 explosions beyond the target that deal
+    50% of this ability''s damage. -175 stacks: Burns the target, dealing 0% ( +0.025%
     bonus AD ) of their max Health as true damage over 3 seconds. Enemy champions
     that drop below 6.5% of their max HP while burning are killed instantly. This
     ability''s damage scales with Critical Rate, increased by 7.5% damage per 10%
@@ -137,7 +137,7 @@ ADC, Mid Lane
 
 ### [P] Dragon Practice
 
-Dragon Practice : Hitting enemy champions with abilities and killing enemies with Super Scorcher Breath grant a stack of Dragon Practice, which improves Smolder's basic abilities. Dragon Practice Empowering Effects : - Super Scorcher Breath : Deals an additional 40% magic damage and gains new effects at 20, 85 and 150 stacks. - Achooo! : Explosions deal an additional 55% magic damage . - Flap, Flap, Flap : Each hit deals an additional 12% magic damage and gains an extra bolt ever 65 stacks.
+Dragon Practice : Hitting enemy champions with abilities and killing enemies with Super Scorcher Breath grant a stack of Dragon Practice, which improves Smolder's basic abilities. Dragon Practice Empowering Effects : - Super Scorcher Breath : Deals an additional 30% magic damage and gains new effects at 25, 100 and 175 stacks. - Achooo! : Explosions deal an additional 55% magic damage . - Flap, Flap, Flap : Each hit deals an additional 12% magic damage and gains an extra bolt ever 65 stacks.
 
 ### [1] Super Scorcher Breath
 
@@ -145,7 +145,7 @@ Dragon Practice : Hitting enemy champions with abilities and killing enemies wit
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Belches flame, dealing 60 / 95 / 130 / 165 ( +110% bonus AD ) physical damage and 40% magical damage . If the target dies, 15 Mana is refunded, once per cast. Dragon Practice Empowering Effects : -20 stacks: Damages all enemies nearby the target. -85 stacks: Sends 2 explosions beyond the target that deal 50% of this ability's damage. -150 stacks: Burns the target, dealing 0% ( +0.025% bonus AD ) of their max Health as true damage over 3 seconds. Enemy champions that drop below 6.5% of their max HP while burning are killed instantly. This ability's damage scales with Critical Rate, increased by 7.5% damage per 10% Crit Rate (max 75% ).
+Belches flame, dealing 45 / 80 / 115 / 150 ( +110% bonus AD ) physical damage and 40% magical damage . If the target dies, 15 Mana is refunded, once per cast. Dragon Practice Empowering Effects : -25 stacks: Damages all enemies nearby the target. -100 stacks: Sends 2 explosions beyond the target that deal 50% of this ability's damage. -175 stacks: Burns the target, dealing 0% ( +0.025% bonus AD ) of their max Health as true damage over 3 seconds. Enemy champions that drop below 6.5% of their max HP while burning are killed instantly. This ability's damage scales with Critical Rate, increased by 7.5% damage per 10% Crit Rate (max 75% ).
 
 ### [2] Achooo!
 

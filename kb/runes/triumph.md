@@ -1,6 +1,6 @@
 ---
-description: Champion takedowns restore 10% of lost Health, and 10% of maximum mana
-  and energy.
+description: Champion takedowns restore 10% of missing Health and 10% of max Mana
+  and Energy and grant 35 Movement Speed for 2s.
 family: Precision
 id: 79
 image_url: https://www.wildriftfire.com/images/runes/triumph.png
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-Champion takedowns restore 10% of lost Health, and 10% of maximum mana and energy.
+Champion takedowns restore 10% of missing Health and 10% of max Mana and Energy and grant 35 Movement Speed for 2s.
 

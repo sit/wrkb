@@ -1,5 +1,6 @@
 ---
 description: Blocks damage from the next triggering champion attack and 2 more attacks.
+  (40s cooldown)
 family: Resolve
 id: 95
 image_url: https://www.wildriftfire.com/images/runes/bone-plating.png
@@ -14,5 +15,5 @@ type: Minor
 
 ## Description
 
-Blocks damage from the next triggering champion attack and 2 more attacks.
+Blocks damage from the next triggering champion attack and 2 more attacks. (40s cooldown)
 

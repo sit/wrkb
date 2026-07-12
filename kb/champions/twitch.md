@@ -2,8 +2,8 @@
 abilities:
 - description: Attacks infect enemies with venom, dealing 1 ( +2.5% AP ) true damage
     over 5 seconds and stacking up to 5 times. When an enemy champion has full stacks
-    of Deadly Venom, Twitch gains 10% attack speed for 5 seconds. Monsters take 130%
-    increased damage from Deadly Venom.
+    of Deadly Venom, Twitch gains 30% / 35% / 40% / 45% / 50% attack speed for 5 seconds.
+    Monsters take 130% increased damage from Deadly Venom.
   name: Deadly Venom
   slot: P
 - cooldowns:
@@ -125,7 +125,7 @@ ADC
 
 ### [P] Deadly Venom
 
-Attacks infect enemies with venom, dealing 1 ( +2.5% AP ) true damage over 5 seconds and stacking up to 5 times. When an enemy champion has full stacks of Deadly Venom, Twitch gains 10% attack speed for 5 seconds. Monsters take 130% increased damage from Deadly Venom.
+Attacks infect enemies with venom, dealing 1 ( +2.5% AP ) true damage over 5 seconds and stacking up to 5 times. When an enemy champion has full stacks of Deadly Venom, Twitch gains 30% / 35% / 40% / 45% / 50% attack speed for 5 seconds. Monsters take 130% increased damage from Deadly Venom.
 
 ### [1] Ambush
 

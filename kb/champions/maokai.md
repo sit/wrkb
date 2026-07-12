@@ -102,7 +102,6 @@ base_stats:
     growth: '0'
 name: Maokai
 roles:
-- Jungle
 - Support
 - Baron Lane
 source_url: https://www.wildriftfire.com/guide/maokai
@@ -112,7 +111,7 @@ source_url: https://www.wildriftfire.com/guide/maokai
 
 ## Roles
 
-Jungle, Support, Baron Lane
+Support, Baron Lane
 
 ## Base Stats
 

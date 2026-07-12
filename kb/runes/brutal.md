@@ -1,6 +1,6 @@
 ---
-description: Basic attacks deal 7-21 bonus physical/magic damage on-hit against champions
-  (Adaptive).
+description: Attacks deal 5 (+ 6% Bonus Attack Damage + 3% Ability Power) bonus adaptive
+  damage to enemy champions.
 family: Precision
 id: 76
 image_url: https://www.wildriftfire.com/images/runes/brutal.png
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-Basic attacks deal 7-21 bonus physical/magic damage on-hit against champions (Adaptive).
+Attacks deal 5 (+ 6% Bonus Attack Damage + 3% Ability Power) bonus adaptive damage to enemy champions.
 

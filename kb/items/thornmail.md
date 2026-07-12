@@ -1,7 +1,7 @@
 ---
 cost: 2700
 effects:
-- "UNIQUE - THORNS:  When Struck by an attack, deal 20 + 6% Bonus Armor + 2% Bonus\
+- "UNIQUE - THORNS:  When Struck by an attack, deal 20 + 6% Bonus Armor + 1% Bonus\
   \ Health  Magic Damage to the attacker.\r\nUNIQUE - ENTWINE: Apply Grievous Wounds\
   \ to enemy champions for 3s when struck by their attacks or dealing damage to them."
 id: 86
@@ -25,6 +25,6 @@ type: Defense
 
 ## Effects
 
-UNIQUE - THORNS:  When Struck by an attack, deal 20 + 6% Bonus Armor + 2% Bonus Health  Magic Damage to the attacker.
+UNIQUE - THORNS:  When Struck by an attack, deal 20 + 6% Bonus Armor + 1% Bonus Health  Magic Damage to the attacker.
 UNIQUE - ENTWINE: Apply Grievous Wounds to enemy champions for 3s when struck by their attacks or dealing damage to them.
 

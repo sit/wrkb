@@ -7,12 +7,12 @@ id: 130
 image_url: https://www.wildriftfire.com/images/items/veil.png
 name: Veil
 stats: []
-type: Enchantment
+type: ''
 ---
 
 # Veil
 
-**Type:** Enchantment  
+**Type:**   
 **Cost:** 500 gold
 
 ## Effects

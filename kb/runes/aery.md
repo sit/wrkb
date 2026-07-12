@@ -1,13 +1,11 @@
 ---
 description: 'PASSIVE: Basic attacks and abilities against an enemy champion signals
-  Aery to dash to them, dealing 10 - 60 (based on level) (+20% bonus AD) (+10% AP)
+  Aery to dash to them, dealing 15 - 70 (based on level) (+10% bonus AD) (+5% AP)
   Adaptive damage. Healing, shielding, or buffing an ally signals Aery to dash to
-  them, shielding them for 20 - 120 (based on level) (+40% bonus AD) (+20% AP) for
+  them, shielding them for 25 - 120 (based on level) (+10% bonus AD) (+5% AP) for
   2 seconds.Aery lingers on the target for 2 seconds before flying back to the user,
   and cannot be sent out again until she returns. Aery is initially very slow, but
-  gradually accelerates, and can be picked up by moving near her.ADAPTIVE DAMAGE:
-  Deals either physical or magic damage depending on your bonus statistics, defaulting
-  based on the origin of the effect.'
+  gradually accelerates, and can be picked up by moving near her.'
 family: Unknown
 id: 7
 image_url: https://www.wildriftfire.com/images/runes/aery.png
@@ -22,5 +20,5 @@ type: Keystone
 
 ## Description
 
-PASSIVE: Basic attacks and abilities against an enemy champion signals Aery to dash to them, dealing 10 - 60 (based on level) (+20% bonus AD) (+10% AP) Adaptive damage. Healing, shielding, or buffing an ally signals Aery to dash to them, shielding them for 20 - 120 (based on level) (+40% bonus AD) (+20% AP) for 2 seconds.Aery lingers on the target for 2 seconds before flying back to the user, and cannot be sent out again until she returns. Aery is initially very slow, but gradually accelerates, and can be picked up by moving near her.ADAPTIVE DAMAGE: Deals either physical or magic damage depending on your bonus statistics, defaulting based on the origin of the effect.
+PASSIVE: Basic attacks and abilities against an enemy champion signals Aery to dash to them, dealing 15 - 70 (based on level) (+10% bonus AD) (+5% AP) Adaptive damage. Healing, shielding, or buffing an ally signals Aery to dash to them, shielding them for 25 - 120 (based on level) (+10% bonus AD) (+5% AP) for 2 seconds.Aery lingers on the target for 2 seconds before flying back to the user, and cannot be sent out again until she returns. Aery is initially very slow, but gradually accelerates, and can be picked up by moving near her.
 

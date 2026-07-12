@@ -40,12 +40,12 @@ abilities:
   - 70.0
   - 70.0
   - 70.0
-  description: Braces herself for a showdown, gaining a shield that absorbs 95 ( +125%
-    bonus AD ) damage for 1.5 seconds and blocking all crowd control effects for 0.5
-    seconds. She then unleashes a shockwave, dealing 70 / 100 / 130 / 160 ( +80% bonus
-    AD ) physical damage to nearby enemies. If she braced herself from an immobilizing
-    effect, the shockwave deals 105 / 150 / 195 / 240 ( +120% bonus AD ) physical
-    damage .
+  description: Braces herself for a showdown, gaining a shield that absorbs 50 - 330
+    ( +120% bonus AD ) damage for 1.5 seconds and blocking all crowd control effects
+    for 0.5 seconds. She then unleashes a shockwave, dealing 70 / 100 / 130 / 160
+    ( +80% bonus AD ) physical damage to nearby enemies. If she braced herself from
+    an immobilizing effect, the shockwave deals 105 / 150 / 195 / 240 ( +120% bonus
+    AD ) physical damage .
   name: Repudiation
   slot: '2'
 - cooldowns:
@@ -156,7 +156,7 @@ Cunning Sweep : Swings her Twin Drakehounds in a semi-circle in front of her, de
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Braces herself for a showdown, gaining a shield that absorbs 95 ( +125% bonus AD ) damage for 1.5 seconds and blocking all crowd control effects for 0.5 seconds. She then unleashes a shockwave, dealing 70 / 100 / 130 / 160 ( +80% bonus AD ) physical damage to nearby enemies. If she braced herself from an immobilizing effect, the shockwave deals 105 / 150 / 195 / 240 ( +120% bonus AD ) physical damage .
+Braces herself for a showdown, gaining a shield that absorbs 50 - 330 ( +120% bonus AD ) damage for 1.5 seconds and blocking all crowd control effects for 0.5 seconds. She then unleashes a shockwave, dealing 70 / 100 / 130 / 160 ( +80% bonus AD ) physical damage to nearby enemies. If she braced herself from an immobilizing effect, the shockwave deals 105 / 150 / 195 / 240 ( +120% bonus AD ) physical damage .
 
 ### [3] Lacerate
 

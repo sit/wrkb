@@ -3,7 +3,7 @@ abilities:
 - description: 'Kayn the Shadow Assassin fights Rhaast the Darkin Slayer for control.
     Damaging ranged champions charges the Shadow Assassin , and damaging melee champions
     charges the Darkin Slayer . At full charge, Kayn can permanently transform at
-    his base. Shadow Assassin : Attacks and abilities deal an additional 48% - 62%
+    his base. Shadow Assassin : Attacks and abilities deal an additional 52% - 66%
     magic damage for 3 seconds. This only occurs if Kayn has been out of combat for
     6 seconds or used Umbral Trespass.'
   name: 'The Darkin Scythe: Shadow Assassin'
@@ -33,7 +33,7 @@ abilities:
   - 60.0
   - 70.0
   - 80.0
-  description: Swipes the scythe upward, dealing 105 / 165 / 225 / 285 ( +110% AD
+  description: Swipes the scythe upward, dealing 105 / 165 / 225 / 285 ( +120% AD
     ) physical damage and slowing enemies hit by 90% decaying over 1.5 seconds.
   name: 'Blade''s Reach: Shadow Assassin'
   slot: '2'
@@ -118,7 +118,7 @@ Jungle
 
 ### [P] The Darkin Scythe: Shadow Assassin
 
-Kayn the Shadow Assassin fights Rhaast the Darkin Slayer for control. Damaging ranged champions charges the Shadow Assassin , and damaging melee champions charges the Darkin Slayer . At full charge, Kayn can permanently transform at his base. Shadow Assassin : Attacks and abilities deal an additional 48% - 62% magic damage for 3 seconds. This only occurs if Kayn has been out of combat for 6 seconds or used Umbral Trespass.
+Kayn the Shadow Assassin fights Rhaast the Darkin Slayer for control. Damaging ranged champions charges the Shadow Assassin , and damaging melee champions charges the Darkin Slayer . At full charge, Kayn can permanently transform at his base. Shadow Assassin : Attacks and abilities deal an additional 52% - 66% magic damage for 3 seconds. This only occurs if Kayn has been out of combat for 6 seconds or used Umbral Trespass.
 
 ### [1] Reaping Slash: Shadow Assassin
 
@@ -134,7 +134,7 @@ Dashes and deals 70 / 100 / 130 / 160 ( +60% / 65% / 70% / 75% AD ) physical dam
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Swipes the scythe upward, dealing 105 / 165 / 225 / 285 ( +110% AD ) physical damage and slowing enemies hit by 90% decaying over 1.5 seconds.
+Swipes the scythe upward, dealing 105 / 165 / 225 / 285 ( +120% AD ) physical damage and slowing enemies hit by 90% decaying over 1.5 seconds.
 
 ### [3] Shadow Step: Shadow Assassin
 

@@ -16,9 +16,9 @@ abilities:
   - 60.0
   - 60.0
   - 60.0
-  description: 'First Cast : Fires cursed energy ion a direction, dealing 40 / 70
-    / 100 / 130 ( +32% AP ) magic damage to enemies and cursing them for 3.5 seconds.
-    Recast : Detonates the curse, dealing up to 45 / 75 / 105 / 135 ( +32% AP ) magic
+  description: 'First Cast : Fires cursed energy ion a direction, dealing 35 / 65
+    / 95 / 125 ( +30% AP ) magic damage to enemies and cursing them for 3.5 seconds.
+    Recast : Detonates the curse, dealing up to 35 / 65 / 95 / 125 ( +30% AP ) magic
     damage to enemies passed through. Enemies take up to 50% bonus damage based on
     missing Health . Damage beyond the first hit is reduced by 20% . Deals 40% damage
     against minions and monsters instead. If the curse''s duration runs out, Aurora
@@ -138,7 +138,7 @@ Damaging an enemy 3 times with abilities or attacks exorcises them, dealing 2.5%
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-First Cast : Fires cursed energy ion a direction, dealing 40 / 70 / 100 / 130 ( +32% AP ) magic damage to enemies and cursing them for 3.5 seconds. Recast : Detonates the curse, dealing up to 45 / 75 / 105 / 135 ( +32% AP ) magic damage to enemies passed through. Enemies take up to 50% bonus damage based on missing Health . Damage beyond the first hit is reduced by 20% . Deals 40% damage against minions and monsters instead. If the curse's duration runs out, Aurora will automatically recast the ability.
+First Cast : Fires cursed energy ion a direction, dealing 35 / 65 / 95 / 125 ( +30% AP ) magic damage to enemies and cursing them for 3.5 seconds. Recast : Detonates the curse, dealing up to 35 / 65 / 95 / 125 ( +30% AP ) magic damage to enemies passed through. Enemies take up to 50% bonus damage based on missing Health . Damage beyond the first hit is reduced by 20% . Deals 40% damage against minions and monsters instead. If the curse's duration runs out, Aurora will automatically recast the ability.
 
 ### [2] Across the Veil
 

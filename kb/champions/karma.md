@@ -107,7 +107,6 @@ base_stats:
 name: Karma
 roles:
 - Support
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/karma
 ---
 
@@ -115,7 +114,7 @@ source_url: https://www.wildriftfire.com/guide/karma
 
 ## Roles
 
-Support, Mid Lane
+Support
 
 ## Base Stats
 

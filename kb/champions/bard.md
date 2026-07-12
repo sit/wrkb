@@ -66,9 +66,9 @@ abilities:
   name: Magical Journey
   slot: '3'
 - cooldowns:
-  - 80.0
-  - 70.0
-  - 60.0
+  - 75.0
+  - 65.0
+  - 55.0
   costs:
   - 100.0
   - 100.0
@@ -162,7 +162,7 @@ Opens a one-way corridor through nearby terrain for 10 seconds. Both allied and 
 
 ### [4] Tempered Fate
 
-**Cooldown:** 80.0 / 70.0 / 60.0 seconds
+**Cooldown:** 75.0 / 65.0 / 55.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

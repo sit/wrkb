@@ -6,7 +6,7 @@ id: 80
 image_url: https://www.wildriftfire.com/images/items/rylais-crystal-scepter.png
 name: Rylai's Crystal Scepter
 stats:
-- +300 Health
+- +350 Health
 - +65 Ability Power
 - +7 Magic Penetration
 type: Magic
@@ -19,7 +19,7 @@ type: Magic
 
 ## Stats
 
-- +300 Health
+- +350 Health
 - +65 Ability Power
 - +7 Magic Penetration
 

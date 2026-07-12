@@ -23,10 +23,10 @@ abilities:
   name: Shattering Strike
   slot: '1'
 - cooldowns:
-  - 10.0
-  - 10.0
-  - 10.0
-  - 10.0
+  - 9.0
+  - 9.0
+  - 9.0
+  - 9.0
   costs:
   - 40.0
   - 40.0
@@ -144,7 +144,7 @@ Thrusts her lance, dealing 70 / 130 / 190 / 250 ( +50% AP ) magic damage , stunn
 
 ### [2] Ferromancy - Crash Down / Mount Up
 
-**Cooldown:** 10.0 / 10.0 / 10.0 / 10.0 seconds
+**Cooldown:** 9.0 / 9.0 / 9.0 / 9.0 seconds
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 

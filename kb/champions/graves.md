@@ -21,7 +21,7 @@ abilities:
   - 80.0
   description: Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical
     damage and then detonates after 1 second to deal an additional 80 / 130 / 180
-    / 230 ( +80% / 110% / 140% / 170% AD ) physical damage . Detonates in 0.25 seconds
+    / 230 ( +110% / 130% / 150% / 170% AD ) physical damage . Detonates in 0.25 seconds
     if the round hits terrain. Deals 110% damage against monsters.
   name: End of the Line
   slot: '1'
@@ -42,9 +42,9 @@ abilities:
   name: Smoke Screen
   slot: '2'
 - cooldowns:
-  - 16.0
-  - 15.0
-  - 14.0
+  - 13.0
+  - 13.0
+  - 13.0
   - 13.0
   costs:
   - 40.0
@@ -136,7 +136,7 @@ Graves' shotgun has some unique properties: Double Barrel : Graves must reload w
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical damage and then detonates after 1 second to deal an additional 80 / 130 / 180 / 230 ( +80% / 110% / 140% / 170% AD ) physical damage . Detonates in 0.25 seconds if the round hits terrain. Deals 110% damage against monsters.
+Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical damage and then detonates after 1 second to deal an additional 80 / 130 / 180 / 230 ( +110% / 130% / 150% / 170% AD ) physical damage . Detonates in 0.25 seconds if the round hits terrain. Deals 110% damage against monsters.
 
 ### [2] Smoke Screen
 
@@ -148,7 +148,7 @@ Throws a canister that creates a cloud of smoke for 4 seconds. Enemies within th
 
 ### [3] Quickdraw
 
-**Cooldown:** 16.0 / 15.0 / 14.0 / 13.0 seconds
+**Cooldown:** 13.0 / 13.0 / 13.0 / 13.0 seconds
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 

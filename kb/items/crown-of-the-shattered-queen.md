@@ -13,12 +13,12 @@ stats:
 - +60 Ability Power
 - +20 Ability Haste
 - +7% Magic Penetration
-type: Magic
+type: ''
 ---
 
 # Crown of the Shattered Queen
 
-**Type:** Magic  
+**Type:**   
 **Cost:** 3000 gold
 
 ## Stats
