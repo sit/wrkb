@@ -67,7 +67,6 @@ def process_data(
         ]
         if not data_list:
             print(f"{data_type_singular.capitalize()} '{specific_name}' not found")
-            return
 
     # Process each item
     for i, item_summary in enumerate(data_list):
@@ -98,6 +97,19 @@ def process_data(
             print(f"Successfully processed {name}")
         except Exception as e:
             print(f"Error processing {name}: {str(e)}")
+
+    # Remove files no longer on the site. Filtered runs only consider
+    # the one requested file; unfiltered runs consider the whole directory.
+    expected_files = {f"{sanitize_filename(item['name'])}.md" for item in data_list}
+    if specific_name:
+        candidate_files = expected_files or {f"{sanitize_filename(specific_name)}.md"}
+    else:
+        candidate_files = {p.name for p in data_dir.glob("*.md")}
+    for filename in candidate_files - expected_files:
+        stale_file = data_dir / filename
+        if stale_file.exists():
+            stale_file.unlink()
+            print(f"Removed stale {data_type_singular}: {filename}")
 
 
 def main():

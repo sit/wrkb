@@ -13,7 +13,6 @@ stats:
 - +500 Mana
 - +60 Ability Power
 - +25 Ability Haste
-- +7% Magic Penetration
 type: Magic
 ---
 
@@ -27,7 +26,6 @@ type: Magic
 - +500 Mana
 - +60 Ability Power
 - +25 Ability Haste
-- +7% Magic Penetration
 
 ## Effects
 

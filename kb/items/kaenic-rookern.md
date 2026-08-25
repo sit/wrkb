@@ -2,14 +2,14 @@
 cost: 2800
 effects:
 - Magebane - After not taking magic damage for 12 seconds, gain a magic shield that
-  absorbs damage (equal to 70-180+10% of max Health).
+  absorbs damage (equal to 50 - 150 + 14% of max Health).
 id: 193
 image_url: https://www.wildriftfire.com/images/items/kaenic-rookern.png
 name: Kaenic Rookern
 stats:
 - +350 Health
 - +100 Health Regeneration
-- +75 Magic Resist
+- +80 Magic Resist
 type: Defense
 ---
 
@@ -22,9 +22,9 @@ type: Defense
 
 - +350 Health
 - +100 Health Regeneration
-- +75 Magic Resist
+- +80 Magic Resist
 
 ## Effects
 
-Magebane - After not taking magic damage for 12 seconds, gain a magic shield that absorbs damage (equal to 70-180+10% of max Health).
+Magebane - After not taking magic damage for 12 seconds, gain a magic shield that absorbs damage (equal to 50 - 150 + 14% of max Health).
 

@@ -11,7 +11,7 @@ name: Stridebreaker
 stats:
 - +400 Health
 - +40 Attack Damage
-- +15% Attack Speed
+- +25% Attack Speed
 type: Physical
 ---
 
@@ -24,7 +24,7 @@ type: Physical
 
 - +400 Health
 - +40 Attack Damage
-- +15% Attack Speed
+- +25% Attack Speed
 
 ## Effects
 

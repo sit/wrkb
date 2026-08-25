@@ -13,7 +13,6 @@ stats:
 - +350 Health
 - +400 Mana
 - +50 Ability Power
-- +7% Magic Penetration
 type: Magic
 ---
 
@@ -27,7 +26,6 @@ type: Magic
 - +350 Health
 - +400 Mana
 - +50 Ability Power
-- +7% Magic Penetration
 
 ## Effects
 

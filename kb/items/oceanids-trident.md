@@ -13,7 +13,6 @@ stats:
 - +200 Health
 - +80 Ability Power
 - +10 Ability Haste
-- +7% Magic Penetration
 type: Magic
 ---
 
@@ -27,7 +26,6 @@ type: Magic
 - +200 Health
 - +80 Ability Power
 - +10 Ability Haste
-- +7% Magic Penetration
 
 ## Effects
 

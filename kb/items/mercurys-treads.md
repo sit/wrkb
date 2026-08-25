@@ -1,7 +1,7 @@
 ---
 cost: 1200
 effects:
-- "Tenacity - 15%\n\r\nLimited to 1 Boots item."
+- "Tenacity - 30%\n\r\nLimited to 1 Boots item."
 id: 98
 image_url: https://www.wildriftfire.com/images/items/mercurys-treads.png
 name: Mercury's Treads
@@ -25,7 +25,7 @@ type: Boots
 
 ## Effects
 
-Tenacity - 15%
+Tenacity - 30%
 
 Limited to 1 Boots item.
 

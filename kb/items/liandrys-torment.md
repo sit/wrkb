@@ -11,7 +11,6 @@ name: Liandry's Torment
 stats:
 - +300 Health
 - +70 Ability Power
-- +7% Magic Penetration
 type: Magic
 ---
 
@@ -24,7 +23,6 @@ type: Magic
 
 - +300 Health
 - +70 Ability Power
-- +7% Magic Penetration
 
 ## Effects
 

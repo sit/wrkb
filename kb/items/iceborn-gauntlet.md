@@ -1,5 +1,5 @@
 ---
-cost: 3100
+cost: 3000
 effects:
 - 'UNIQUE - SPELLBLADE: After using an ability, your next basic attack within 10 seconds
   deals 100% base AD bonus physical damage + 25% bonus armor on-hit. It also deals
@@ -11,7 +11,7 @@ id: 61
 image_url: https://www.wildriftfire.com/images/items/iceborn-gauntlet.png
 name: Iceborn Gauntlet
 stats:
-- +250 Health
+- +300 Health
 - +50 Armor
 - +250 Mana
 - +25 Ability Haste
@@ -21,11 +21,11 @@ type: Defense
 # Iceborn Gauntlet
 
 **Type:** Defense  
-**Cost:** 3100 gold
+**Cost:** 3000 gold
 
 ## Stats
 
-- +250 Health
+- +300 Health
 - +50 Armor
 - +250 Mana
 - +25 Ability Haste

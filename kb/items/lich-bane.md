@@ -10,7 +10,6 @@ name: Lich Bane
 stats:
 - +100 Ability Power
 - +10 Ability Haste
-- +7% Magic Penetration
 type: Magic
 ---
 
@@ -23,7 +22,6 @@ type: Magic
 
 - +100 Ability Power
 - +10 Ability Haste
-- +7% Magic Penetration
 
 ## Effects
 

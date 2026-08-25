@@ -7,7 +7,6 @@ image_url: https://www.wildriftfire.com/images/items/rabadons-deathcap.png
 name: Rabadon's Deathcap
 stats:
 - +130 Ability Power
-- +7% Magic Penetration
 type: Magic
 ---
 
@@ -19,7 +18,6 @@ type: Magic
 ## Stats
 
 - +130 Ability Power
-- +7% Magic Penetration
 
 ## Effects
 

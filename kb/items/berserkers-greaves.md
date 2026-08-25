@@ -6,7 +6,7 @@ id: 158
 image_url: https://www.wildriftfire.com/images/items/berserkers-greaves.png
 name: Berserker's Greaves
 stats:
-- +30% Attack Speed
+- +35% Attack Speed
 - +45 Movement Speed
 type: Boots
 ---
@@ -18,7 +18,7 @@ type: Boots
 
 ## Stats
 
-- +30% Attack Speed
+- +35% Attack Speed
 - +45 Movement Speed
 
 ## Effects

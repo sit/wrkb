@@ -8,7 +8,6 @@ name: Rylai's Crystal Scepter
 stats:
 - +350 Health
 - +65 Ability Power
-- +7 Magic Penetration
 type: Magic
 ---
 
@@ -21,7 +20,6 @@ type: Magic
 
 - +350 Health
 - +65 Ability Power
-- +7 Magic Penetration
 
 ## Effects
 

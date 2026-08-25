@@ -1,5 +1,5 @@
 ---
-cost: 2800
+cost: 2700
 effects:
 - 'UNIQUE - Deft Strikes: Attacks reduce the remaining cooldowns of your basic abilities
   by 15%.
@@ -19,7 +19,7 @@ type: Physical
 # Navori Quickblades
 
 **Type:** Physical  
-**Cost:** 2800 gold
+**Cost:** 2700 gold
 
 ## Stats
 

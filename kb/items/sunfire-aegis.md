@@ -11,8 +11,8 @@ id: 85
 image_url: https://www.wildriftfire.com/images/items/sunfire-aegis.png
 name: Sunfire Aegis
 stats:
-- +425 Health
-- +20 Armor
+- +350 Health
+- +40 Armor
 - +15 Ability Haste
 type: Defense
 ---
@@ -24,8 +24,8 @@ type: Defense
 
 ## Stats
 
-- +425 Health
-- +20 Armor
+- +350 Health
+- +40 Armor
 - +15 Ability Haste
 
 ## Effects

@@ -10,7 +10,7 @@ id: 162
 image_url: https://www.wildriftfire.com/images/items/magnetic-blaster.png
 name: Magnetic Blaster
 stats:
-- +25 Attack Damage
+- +30 Attack Damage
 - +25% Attack Speed
 - +25% Critical Strike Chance
 type: Physical
@@ -23,7 +23,7 @@ type: Physical
 
 ## Stats
 
-- +25 Attack Damage
+- +30 Attack Damage
 - +25% Attack Speed
 - +25% Critical Strike Chance
 

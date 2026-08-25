@@ -7,7 +7,7 @@ id: 144
 image_url: https://www.wildriftfire.com/images/items/lord-dominiks-regard.png
 name: Lord Dominik's Regard
 stats:
-- +25 Attack Damage
+- +30 Attack Damage
 - +25% Critical Strike Chance
 - +36% Armor Penetration
 type: Physical
@@ -20,7 +20,7 @@ type: Physical
 
 ## Stats
 
-- +25 Attack Damage
+- +30 Attack Damage
 - +25% Critical Strike Chance
 - +36% Armor Penetration
 

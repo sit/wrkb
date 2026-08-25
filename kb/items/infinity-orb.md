@@ -8,7 +8,6 @@ image_url: https://www.wildriftfire.com/images/items/infinity-orb.png
 name: Infinity Orb
 stats:
 - +110 Ability Power
-- +7% Magic Penetration
 type: Magic
 ---
 
@@ -20,7 +19,6 @@ type: Magic
 ## Stats
 
 - +110 Ability Power
-- +7% Magic Penetration
 
 ## Effects
 
