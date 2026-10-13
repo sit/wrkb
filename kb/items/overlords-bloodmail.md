@@ -10,12 +10,12 @@ name: Overlord's Bloodmail
 stats:
 - +450 Health
 - +30 Attack Damage
-type: Physical
+type: Defense,Fighter
 ---
 
 # Overlord's Bloodmail
 
-**Type:** Physical  
+**Type:** Defense,Fighter  
 **Cost:** 3200 gold
 
 ## Stats

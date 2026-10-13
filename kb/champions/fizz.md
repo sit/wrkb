@@ -6,9 +6,9 @@ abilities:
   slot: P
 - cooldowns:
   - 8.0
+  - 8.0
   - 7.0
   - 7.0
-  - 6.0
   costs:
   - 50.0
   - 50.0
@@ -20,9 +20,9 @@ abilities:
   slot: '1'
 - cooldowns:
   - 10.0
+  - 10.0
   - 9.0
   - 9.0
-  - 8.0
   costs:
   - 30.0
   - 40.0
@@ -60,7 +60,7 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Launches a fish in taget direction that attaches to the first champion
+  description: Launches a fish in target direction that attaches to the first champion
     hit and reveals them. After 2 seconds, the fish attracts a shark that knocks up
     its target and knocks away enemies around them. The farther the fish travels,
     the larger the shark it will attract, dealing 150 / 250 / 350 ( +60% AP ) to 300
@@ -130,7 +130,7 @@ Attacks deal an additional 24 ( +45% AP ) magic damage over 3 seconds. Deals 90%
 
 ### [1] Urchin Strike
 
-**Cooldown:** 8.0 / 7.0 / 7.0 / 6.0 seconds
+**Cooldown:** 8.0 / 8.0 / 7.0 / 7.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
@@ -138,7 +138,7 @@ Dashes through target enemy, dealing 20 / 40 / 60 / 80 ( +60% AP ) magic damage 
 
 ### [2] Rending Wave
 
-**Cooldown:** 10.0 / 9.0 / 9.0 / 8.0 seconds
+**Cooldown:** 10.0 / 10.0 / 9.0 / 9.0 seconds
 
 **Cost:** 30.0 / 40.0 / 50.0 / 60.0
 
@@ -158,5 +158,5 @@ Vaults to target location, becoming untargetable while balanced on the trident. 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Launches a fish in taget direction that attaches to the first champion hit and reveals them. After 2 seconds, the fish attracts a shark that knocks up its target and knocks away enemies around them. The farther the fish travels, the larger the shark it will attract, dealing 150 / 250 / 350 ( +60% AP ) to 300 / 400 / 500 ( +120% AP ) magic damage and slowing enemies hit by 40% to 80% based on the size of the shark. If the fish does not attach to a champion, it will flop on the ground and still attract a shark at its location.
+Launches a fish in target direction that attaches to the first champion hit and reveals them. After 2 seconds, the fish attracts a shark that knocks up its target and knocks away enemies around them. The farther the fish travels, the larger the shark it will attract, dealing 150 / 250 / 350 ( +60% AP ) to 300 / 400 / 500 ( +120% AP ) magic damage and slowing enemies hit by 40% to 80% based on the size of the shark. If the fish does not attach to a champion, it will flop on the ground and still attract a shark at its location.
 

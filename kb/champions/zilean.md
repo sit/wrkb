@@ -20,7 +20,7 @@ abilities:
   - 75.0
   description: 'Tosses a Time Bomb to a target location. The bomb sticks to the first
     unit which comes within a small area around it. After 3 seconds, it detonates,
-    dealing 70 / 100 / 210 / 280 ( +75% AP ) magic damage to the target and nearby
+    dealing 60 / 125 / 190 / 255 ( +75% AP ) magic damage to the target and nearby
     enemies. The bomb prioritizes champions and units that are already carrying a
     bomb. Early detonation : Placing a second bomb on the same target detonates the
     first bomb, stunning enemies in the blast for 1.2 / 1.3 / 1.4 / 1.5 seconds. Charge
@@ -61,9 +61,9 @@ abilities:
   name: Temporal Mirage
   slot: '3'
 - cooldowns:
-  - 100.0
-  - 85.0
-  - 70.0
+  - 110.0
+  - 95.0
+  - 80.0
   costs:
   - 125.0
   - 125.0
@@ -139,7 +139,7 @@ Stores time as Experience at a rate of 20 / 50 / 80 XP per 5 seconds. Zilean can
 
 **Cost:** 60.0 / 65.0 / 70.0 / 75.0
 
-Tosses a Time Bomb to a target location. The bomb sticks to the first unit which comes within a small area around it. After 3 seconds, it detonates, dealing 70 / 100 / 210 / 280 ( +75% AP ) magic damage to the target and nearby enemies. The bomb prioritizes champions and units that are already carrying a bomb. Early detonation : Placing a second bomb on the same target detonates the first bomb, stunning enemies in the blast for 1.2 / 1.3 / 1.4 / 1.5 seconds. Charge : Stores up to 2 charges. Charge Time : 12 / 11.5 / 11 / 10.5 seconds.
+Tosses a Time Bomb to a target location. The bomb sticks to the first unit which comes within a small area around it. After 3 seconds, it detonates, dealing 60 / 125 / 190 / 255 ( +75% AP ) magic damage to the target and nearby enemies. The bomb prioritizes champions and units that are already carrying a bomb. Early detonation : Placing a second bomb on the same target detonates the first bomb, stunning enemies in the blast for 1.2 / 1.3 / 1.4 / 1.5 seconds. Charge : Stores up to 2 charges. Charge Time : 12 / 11.5 / 11 / 10.5 seconds.
 
 ### [2] Twisted Timeflow
 
@@ -159,7 +159,7 @@ Creates a time-bending force field for 2.5 seconds. While within the force field
 
 ### [4] Chronoshift
 
-**Cooldown:** 100.0 / 85.0 / 70.0 seconds
+**Cooldown:** 110.0 / 95.0 / 80.0 seconds
 
 **Cost:** 125.0 / 125.0 / 125.0
 

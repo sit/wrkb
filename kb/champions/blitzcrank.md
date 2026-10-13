@@ -31,7 +31,7 @@ abilities:
   description: Gains 35% / 40% / 45% / 50% to 10% decaying Movement Speed for 2.5
     seconds. Blitzcrank may reactivate Overdrive to gain 140% / 150% / 160% / 170%
     decaying Movement Speed for 1.5 seconds. When Overdrive ends, Blitzcrank is slowed
-    by 33% for 1 second. This is increased to 99% for 1 seconds if Overdrive was recast.
+    by 33% for 1 second. This is increased to 99% for 1 second if Overdrive was recast.
   name: Overdrive
   slot: '2'
 - cooldowns:
@@ -134,7 +134,7 @@ Blitzcrank fires his right hand to deal 110 / 175 / 240 / 305 ( +100% AP ) magic
 
 **Cost:** 75.0 / 75.0 / 75.0 / 75.0
 
-Gains 35% / 40% / 45% / 50% to 10% decaying Movement Speed for 2.5 seconds. Blitzcrank may reactivate Overdrive to gain 140% / 150% / 160% / 170% decaying Movement Speed for 1.5 seconds. When Overdrive ends, Blitzcrank is slowed by 33% for 1 second. This is increased to 99% for 1 seconds if Overdrive was recast.
+Gains 35% / 40% / 45% / 50% to 10% decaying Movement Speed for 2.5 seconds. Blitzcrank may reactivate Overdrive to gain 140% / 150% / 160% / 170% decaying Movement Speed for 1.5 seconds. When Overdrive ends, Blitzcrank is slowed by 33% for 1 second. This is increased to 99% for 1 second if Overdrive was recast.
 
 ### [3] Power Fist
 

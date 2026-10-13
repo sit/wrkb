@@ -98,7 +98,6 @@ name: Morgana
 roles:
 - Support
 - Mid Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/morgana
 ---
 
@@ -106,7 +105,7 @@ source_url: https://www.wildriftfire.com/guide/morgana
 
 ## Roles
 
-Support, Mid Lane, Jungle
+Support, Mid Lane
 
 ## Base Stats
 

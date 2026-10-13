@@ -1,8 +1,9 @@
 ---
 abilities:
-- description: Every 6 attacks fires a Headshot , dealing 27 ( 50% AD + 125 Critical
-    chance ) bonus physical damage . Trapped or netted enemies trigger a Headshot
-    that has double range. Attacking from brush builds Headshot twice as fast.
+- description: Every 6 attacks fires a Headshot , dealing 36 ( 60% - 90% AD ) bonus
+    physical damage . This damage scales with Critical Rate and Critical Damage at
+    100% effectiveness. Attacks against trapped or netted targets fire a Headshot
+    with double range. Attacks while in the bush build Headshot twice as fast.
   name: Headshot
   slot: P
 - cooldowns:
@@ -15,8 +16,8 @@ abilities:
   - 60.0
   - 70.0
   - 80.0
-  description: Fires a narrow piercing bullet that deals 60 / 110 / 160 / 210 ( +
-    125% / 140% / 155% / 170% AD ) physical damage . Hitting an enemy expands the
+  description: Fires a narrow piercing bullet that deals 50 / 100 / 150 / 200 ( +
+    125% / 145% / 165% / 185% AD ) physical damage . Hitting an enemy expands the
     bullet, but reduces subsequent damage by 40% . Always deals full damage to trapped
     or netted enemies.
   name: Piltover Peacemaker
@@ -32,9 +33,10 @@ abilities:
   - 20.0
   - 20.0
   description: 'Sets a trap that enemy champions can spring, immobilizing them for
-    1.5 seconds and Revealing them for a short duration. Traps last for 30 seconds
-    and 2 / 3 / 4 / 5 can be active at once. Trap charging time: 27 / 22 / 17 / 12
-    seconds.'
+    1.5 seconds and Revealing them for a short duration. Headshot attacks against
+    enemies trapped by Yordle Snap Trap deal 40 / 90 / 140 / 190 ( +30% bonus AD )
+    bonus physical damage . Traps last for 30 seconds and 2 / 3 / 4 / 5 can be active
+    at once. Trap charging time: 25 / 20 / 15 / 10 seconds.'
   name: Yordle Snap Trap
   slot: '2'
 - cooldowns:
@@ -47,7 +49,7 @@ abilities:
   - 75.0
   - 75.0
   - 75.0
-  description: Launchest a net, knocking Caitly backwards. The net deals 70 / 120
+  description: Launches a net, knocking Caitlyn backwards. The net deals 70 / 120
     / 170 / 220 ( +80% AP ) magic damage and slows by 50% for 1.5 seconds.
   name: 90 Caliber Net
   slot: '3'
@@ -60,9 +62,10 @@ abilities:
   - 100.0
   - 100.0
   description: Lines up the perfect shot, Revealing an enemy champion for 1.5 seconds
-    before dealing 200 / 375 / 550 ( +200% bonus AD ) physical damage plus 20% of
-    their missing Health. Enemy champions can intercept the bullet before it hits
-    their ally.
+    before dealing 250 / 450 / 650 ( +100% bonus AD ) physical damage plus 20% of
+    their missing Health. Damage scales with Caitlyn's Critical Rate and Critical
+    Damage at 30% effectiveness. Enemy champions can intercept the bullet before it
+    hits their ally. Has a range of 1750 / 2250 / 2750 .
   name: Ace in the Hole
   slot: '4'
 base_stats:
@@ -70,11 +73,11 @@ base_stats:
     base: '35'
     growth: '4'
   Attack Dmg.:
-    base: '54'
+    base: '60'
     growth: '4'
   Attack Spd.:
-    base: '0.83'
-    growth: '0.0200'
+    base: '0.62'
+    growth: '0.0250'
   Health:
     base: '600'
     growth: '128'
@@ -114,14 +117,14 @@ ADC
 - Armor: 35 (+4 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
-- Attack Spd.: 0.83 (+0.0200 per level)
+- Attack Dmg.: 60 (+4 per level)
+- Attack Spd.: 0.62 (+0.0250 per level)
 
 ## Abilities
 
 ### [P] Headshot
 
-Every 6 attacks fires a Headshot , dealing 27 ( 50% AD + 125 Critical chance ) bonus physical damage . Trapped or netted enemies trigger a Headshot that has double range. Attacking from brush builds Headshot twice as fast.
+Every 6 attacks fires a Headshot , dealing 36 ( 60% - 90% AD ) bonus physical damage . This damage scales with Critical Rate and Critical Damage at 100% effectiveness. Attacks against trapped or netted targets fire a Headshot with double range. Attacks while in the bush build Headshot twice as fast.
 
 ### [1] Piltover Peacemaker
 
@@ -129,7 +132,7 @@ Every 6 attacks fires a Headshot , dealing 27 ( 50% AD + 125 Critical chance ) b
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Fires a narrow piercing bullet that deals 60 / 110 / 160 / 210 ( + 125% / 140% / 155% / 170% AD ) physical damage . Hitting an enemy expands the bullet, but reduces subsequent damage by 40% . Always deals full damage to trapped or netted enemies.
+Fires a narrow piercing bullet that deals 50 / 100 / 150 / 200 ( + 125% / 145% / 165% / 185% AD ) physical damage . Hitting an enemy expands the bullet, but reduces subsequent damage by 40% . Always deals full damage to trapped or netted enemies.
 
 ### [2] Yordle Snap Trap
 
@@ -137,7 +140,7 @@ Fires a narrow piercing bullet that deals 60 / 110 / 160 / 210 ( + 125% / 140% /
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Sets a trap that enemy champions can spring, immobilizing them for 1.5 seconds and Revealing them for a short duration. Traps last for 30 seconds and 2 / 3 / 4 / 5 can be active at once. Trap charging time: 27 / 22 / 17 / 12 seconds.
+Sets a trap that enemy champions can spring, immobilizing them for 1.5 seconds and Revealing them for a short duration. Headshot attacks against enemies trapped by Yordle Snap Trap deal 40 / 90 / 140 / 190 ( +30% bonus AD ) bonus physical damage . Traps last for 30 seconds and 2 / 3 / 4 / 5 can be active at once. Trap charging time: 25 / 20 / 15 / 10 seconds.
 
 ### [3] 90 Caliber Net
 
@@ -145,7 +148,7 @@ Sets a trap that enemy champions can spring, immobilizing them for 1.5 seconds a
 
 **Cost:** 75.0 / 75.0 / 75.0 / 75.0
 
-Launchest a net, knocking Caitly backwards. The net deals 70 / 120 / 170 / 220 ( +80% AP ) magic damage and slows by 50% for 1.5 seconds.
+Launches a net, knocking Caitlyn backwards. The net deals 70 / 120 / 170 / 220 ( +80% AP ) magic damage and slows by 50% for 1.5 seconds.
 
 ### [4] Ace in the Hole
 
@@ -153,5 +156,5 @@ Launchest a net, knocking Caitly backwards. The net deals 70 / 120 / 170 / 220 (
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Lines up the perfect shot, Revealing an enemy champion for 1.5 seconds before dealing 200 / 375 / 550 ( +200% bonus AD ) physical damage plus 20% of their missing Health. Enemy champions can intercept the bullet before it hits their ally.
+Lines up the perfect shot, Revealing an enemy champion for 1.5 seconds before dealing 250 / 450 / 650 ( +100% bonus AD ) physical damage plus 20% of their missing Health. Damage scales with Caitlyn's Critical Rate and Critical Damage at 30% effectiveness. Enemy champions can intercept the bullet before it hits their ally. Has a range of 1750 / 2250 / 2750 .
 

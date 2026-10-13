@@ -21,7 +21,7 @@ abilities:
     gets too far away, his turrets will become dormant. UPGRADE!!! : Technological
     enhancement upgrades this ability to H-28Q Apex Turret . H-28G Evolution Turret
     Stats: Base Health : 110 ( +8% to 50% AP ) Base Armor : 20 - 90 (based on level)
-    Base Magic Resist : 25'
+    Base Magic Resist : 25 Deals 40% damage to monsters.'
   name: H-28G Evolution Turret
   slot: '1'
 - cooldowns:
@@ -54,7 +54,7 @@ abilities:
   - 85.0
   description: 'Hurls a grenade that deals 70 / 120 / 170 / 220 ( +60% AP ) magic
     damage in a target area and slows by 35% for 2 seconds. Enemies in the center
-    are also stunned for 1 second. Hitting a champion fully charges nearby turrets.
+    are also stunned for 1.25 seconds. Hitting a champion fully charges nearby turrets.
     UPGRADE!!! : Technological enhancement upgrades this ability to CH-3X Lightning
     Grenade .'
   name: CH-2 Electron Storm Grenade
@@ -145,7 +145,7 @@ Gains 20% Movement Speed while near allied turrets and turrets deployed by Heime
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Constructs a turret that slowly build up charge and attacks nearby enemies. The turret deals 5 / 10 / 15 / 20 ( +25% AP ) magic damage on hit. At max charge, it fires a beam that deals 25 / 45 / 65 / 85 ( +55% AP ) magic damage . Heimerdinger can have a 3 H-28G Evolution Turrets active at once. If Heimerdinger gets too far away, his turrets will become dormant. UPGRADE!!! : Technological enhancement upgrades this ability to H-28Q Apex Turret . H-28G Evolution Turret Stats: Base Health : 110 ( +8% to 50% AP ) Base Armor : 20 - 90 (based on level) Base Magic Resist : 25
+Constructs a turret that slowly build up charge and attacks nearby enemies. The turret deals 5 / 10 / 15 / 20 ( +25% AP ) magic damage on hit. At max charge, it fires a beam that deals 25 / 45 / 65 / 85 ( +55% AP ) magic damage . Heimerdinger can have a 3 H-28G Evolution Turrets active at once. If Heimerdinger gets too far away, his turrets will become dormant. UPGRADE!!! : Technological enhancement upgrades this ability to H-28Q Apex Turret . H-28G Evolution Turret Stats: Base Health : 110 ( +8% to 50% AP ) Base Armor : 20 - 90 (based on level) Base Magic Resist : 25 Deals 40% damage to monsters.
 
 ### [2] Hextech Micro-Rockets
 
@@ -161,7 +161,7 @@ Unleashes a barrage of 5 rockets that deal 60 / 85 / 110 / 135 ( +60% AP ) magic
 
 **Cost:** 85.0 / 85.0 / 85.0 / 85.0
 
-Hurls a grenade that deals 70 / 120 / 170 / 220 ( +60% AP ) magic damage in a target area and slows by 35% for 2 seconds. Enemies in the center are also stunned for 1 second. Hitting a champion fully charges nearby turrets. UPGRADE!!! : Technological enhancement upgrades this ability to CH-3X Lightning Grenade .
+Hurls a grenade that deals 70 / 120 / 170 / 220 ( +60% AP ) magic damage in a target area and slows by 35% for 2 seconds. Enemies in the center are also stunned for 1.25 seconds. Hitting a champion fully charges nearby turrets. UPGRADE!!! : Technological enhancement upgrades this ability to CH-3X Lightning Grenade .
 
 ### [4] UPGRADE!!!
 

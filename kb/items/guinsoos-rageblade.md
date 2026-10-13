@@ -1,33 +1,33 @@
 ---
-cost: 3100
+cost: 3000
 effects:
-- "SURGE: +5% Movement Speed\r\nCHAOS: Gain 25 AD or 50 AP (Adaptive).\r\nWRATH: Attacks\
-  \ deal 30% Bonus Magic Damage but no longer Critically Strike. For every 1% Critical\
-  \ Rate gained from items, your magic damage increases by 1.5, up to a max increase\
-  \ of 75. (reached at 50% item Critical Rate)\r\nSEETHING STRIKE: Attacks grant 8%\
-  \ Attack Speed, stacking up to 4 times for a maximum of 32% Attack Speed. While\
-  \ fully stacked, every 3 attacks applies on-hit effects an additional time."
+- "WRATH: Attacks deal 30 bonus magic damage.\n\r\nSEETHING STRIKE: Basic attacks\
+  \ grant 8% Attack Speed, stacking up to 4 times. At max stacks, every 3rd basic\
+  \ attack triggers an additional on-hit effect."
 id: 214
 image_url: https://www.wildriftfire.com/images/items/guinsoos-rageblade.png
 name: Guinsoo's Rageblade
 stats:
+- +35 Attack Damage
 - +30% Attack Speed
-type: Physical
+- +30 Ability Power
+type: Magic,Marksman
 ---
 
 # Guinsoo's Rageblade
 
-**Type:** Physical  
-**Cost:** 3100 gold
+**Type:** Magic,Marksman  
+**Cost:** 3000 gold
 
 ## Stats
 
+- +35 Attack Damage
 - +30% Attack Speed
+- +30 Ability Power
 
 ## Effects
 
-SURGE: +5% Movement Speed
-CHAOS: Gain 25 AD or 50 AP (Adaptive).
-WRATH: Attacks deal 30% Bonus Magic Damage but no longer Critically Strike. For every 1% Critical Rate gained from items, your magic damage increases by 1.5, up to a max increase of 75. (reached at 50% item Critical Rate)
-SEETHING STRIKE: Attacks grant 8% Attack Speed, stacking up to 4 times for a maximum of 32% Attack Speed. While fully stacked, every 3 attacks applies on-hit effects an additional time.
+WRATH: Attacks deal 30 bonus magic damage.
+
+SEETHING STRIKE: Basic attacks grant 8% Attack Speed, stacking up to 4 times. At max stacks, every 3rd basic attack triggers an additional on-hit effect.
 

@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Scoring a takedown on a champion or structure that Jinx has damaged
-    within the last 3 seconds grants her 140% decaying Movement Speed and 12% Total
+    within the last 3 seconds grants her 140% decaying Movement Speed and 25% Total
     Attack Speed for 6 seconds. While Excited, Jinx can exceed the Attack Speed cap.
     When Get Excited is triggered, restore 10% of missing mana.
   name: Get Excited!
@@ -57,8 +57,8 @@ abilities:
   name: Flame Chompers!
   slot: '3'
 - cooldowns:
+  - 60.0
   - 50.0
-  - 45.0
   - 40.0
   costs:
   - 100.0
@@ -66,9 +66,9 @@ abilities:
   - 100.0
   description: Fires a mega-rocket that gains damage and speed over the first second
     it travels. The rocket explodes on the first enemy champion hit, dealing 25 /
-    35 / 45 to 250 / 350 / 450 ( +15% to 150% AD ) physical damage +25% / 30% / 35%
-    of their missing health. Nearby enemies take 80% damage. Deals a max of 500 damage
-    to epic monsters.
+    35 / 45 to 250 / 350 / 450 ( +12% to 120% bonus AD ) physical damage +25% / 30%
+    / 35% of their missing health. Nearby enemies take 80% damage. Deals a max of
+    500 damage to epic monsters.
   name: Super Mega Death Rocket!
   slot: '4'
 base_stats:
@@ -76,7 +76,7 @@ base_stats:
     base: '35'
     growth: '5'
   Attack Dmg.:
-    base: '54'
+    base: '58'
     growth: '4'
   Attack Spd.:
     base: '0.83'
@@ -120,14 +120,14 @@ ADC
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
+- Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.83 (+0.0107 per level)
 
 ## Abilities
 
 ### [P] Get Excited!
 
-Scoring a takedown on a champion or structure that Jinx has damaged within the last 3 seconds grants her 140% decaying Movement Speed and 12% Total Attack Speed for 6 seconds. While Excited, Jinx can exceed the Attack Speed cap. When Get Excited is triggered, restore 10% of missing mana.
+Scoring a takedown on a champion or structure that Jinx has damaged within the last 3 seconds grants her 140% decaying Movement Speed and 25% Total Attack Speed for 6 seconds. While Excited, Jinx can exceed the Attack Speed cap. When Get Excited is triggered, restore 10% of missing mana.
 
 ### [1] Switcheroo!
 
@@ -155,9 +155,9 @@ Tosses out three compes that arm after a brief delay. Chompers explode on contac
 
 ### [4] Super Mega Death Rocket!
 
-**Cooldown:** 50.0 / 45.0 / 40.0 seconds
+**Cooldown:** 60.0 / 50.0 / 40.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Fires a mega-rocket that gains damage and speed over the first second it travels. The rocket explodes on the first enemy champion hit, dealing 25 / 35 / 45 to 250 / 350 / 450 ( +15% to 150% AD ) physical damage +25% / 30% / 35% of their missing health. Nearby enemies take 80% damage. Deals a max of 500 damage to epic monsters.
+Fires a mega-rocket that gains damage and speed over the first second it travels. The rocket explodes on the first enemy champion hit, dealing 25 / 35 / 45 to 250 / 350 / 450 ( +12% to 120% bonus AD ) physical damage +25% / 30% / 35% of their missing health. Nearby enemies take 80% damage. Deals a max of 500 damage to epic monsters.
 

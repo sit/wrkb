@@ -1,11 +1,12 @@
 ---
 abilities:
 - description: Senna can absorb Mist by attacking souls that spawn from dead enemies.
-    She can also siphon Mist from enemy champions she hits twice within a 4 seconds,
-    dealing 1.2% of their current health as bonus physical damage (6 second cooldown
+    She can also siphon Mist from enemy champions she hits twice within 4 seconds,
+    dealing 1% - 10% of their current health as bonus physical damage (6 second cooldown
     per target). If not attacked, souls nearby Senna will be absorbed automatically
-    on disappearance. Each stack of Mist grants 1.25 Attack Damage . Every 20 stacks
-    of Mist grant 15 Attack Range and 15% Critical Chance.
+    on disappearance. Basic attacks deal 90% of normal critical strike damage when
+    they critical strike. Each stack of Mist grants 1.25 Attack Damage . Every 20
+    stacks of Mist grant 15 Attack Range and 10% Critical Chance.
   name: Absolution
   slot: P
 - cooldowns:
@@ -18,8 +19,8 @@ abilities:
   - 80.0
   - 90.0
   - 100.0
-  description: Shoots a bolt of piercing shadow through any object, dealing 50 / 90
-    / 130 / 170 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1
+  description: Shoots a bolt of piercing shadow through any object, dealing 50 / 80
+    / 110 / 140 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1
     AD +0.06 AP ) for 0.75 / 1 / 1.25 / 1.5 seconds and restoring 40 / 70 / 100 /
     130 ( +40% AD +25% AP ) Health to ally champions. Attacks reduces Piercing Darkness's
     cooldown by 1 seconds. This Ability's cast range matches Senna's attack range
@@ -69,8 +70,8 @@ abilities:
   - 100.0
   - 100.0
   description: Fires a global wave that shields ally champions from 120 / 160 / 200
-    ( +40% AP + 4 per Mist) damage for 3 seconds, while dealing 250 / 375 / 500 (
-    +120% AD +50% AP ) physical damage and applies Mist to enemy champions caught
+    ( +50% AP + 2 per Mist) damage for 3 seconds, while dealing 250 / 400 / 550 (
+    +120% bonus AD +70% AP ) physical damage and applies Mist to enemy champions caught
     in the center.
   name: Dawning Shadow
   slot: '4'
@@ -83,7 +84,7 @@ base_stats:
     growth: '0'
   Attack Spd.:
     base: '0.62'
-    growth: '0.0079'
+    growth: '0.0250'
   Health:
     base: '600'
     growth: '120'
@@ -105,6 +106,7 @@ base_stats:
 name: Senna
 roles:
 - Support
+- ADC
 source_url: https://www.wildriftfire.com/guide/senna
 ---
 
@@ -112,7 +114,7 @@ source_url: https://www.wildriftfire.com/guide/senna
 
 ## Roles
 
-Support
+Support, ADC
 
 ## Base Stats
 
@@ -124,13 +126,13 @@ Support
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 340 (+0 per level)
 - Attack Dmg.: 50 (+0 per level)
-- Attack Spd.: 0.62 (+0.0079 per level)
+- Attack Spd.: 0.62 (+0.0250 per level)
 
 ## Abilities
 
 ### [P] Absolution
 
-Senna can absorb Mist by attacking souls that spawn from dead enemies. She can also siphon Mist from enemy champions she hits twice within a 4 seconds, dealing 1.2% of their current health as bonus physical damage (6 second cooldown per target). If not attacked, souls nearby Senna will be absorbed automatically on disappearance. Each stack of Mist grants 1.25 Attack Damage . Every 20 stacks of Mist grant 15 Attack Range and 15% Critical Chance.
+Senna can absorb Mist by attacking souls that spawn from dead enemies. She can also siphon Mist from enemy champions she hits twice within 4 seconds, dealing 1% - 10% of their current health as bonus physical damage (6 second cooldown per target). If not attacked, souls nearby Senna will be absorbed automatically on disappearance. Basic attacks deal 90% of normal critical strike damage when they critical strike. Each stack of Mist grants 1.25 Attack Damage . Every 20 stacks of Mist grant 15 Attack Range and 10% Critical Chance.
 
 ### [1] Piercing Darkness
 
@@ -138,7 +140,7 @@ Senna can absorb Mist by attacking souls that spawn from dead enemies. She can a
 
 **Cost:** 70.0 / 80.0 / 90.0 / 100.0
 
-Shoots a bolt of piercing shadow through any object, dealing 50 / 90 / 130 / 170 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1 AD +0.06 AP ) for 0.75 / 1 / 1.25 / 1.5 seconds and restoring 40 / 70 / 100 / 130 ( +40% AD +25% AP ) Health to ally champions. Attacks reduces Piercing Darkness's cooldown by 1 seconds. This Ability's cast range matches Senna's attack range and its cast time is improved with Attack Speed. It applies on-hit effects to enemy champions.
+Shoots a bolt of piercing shadow through any object, dealing 50 / 80 / 110 / 140 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1 AD +0.06 AP ) for 0.75 / 1 / 1.25 / 1.5 seconds and restoring 40 / 70 / 100 / 130 ( +40% AD +25% AP ) Health to ally champions. Attacks reduces Piercing Darkness's cooldown by 1 seconds. This Ability's cast range matches Senna's attack range and its cast time is improved with Attack Speed. It applies on-hit effects to enemy champions.
 
 ### [2] Last Embrace
 
@@ -162,5 +164,5 @@ Dissolves into a cloud of mist for a few seconds, becoming a Wraith . Allied cha
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Fires a global wave that shields ally champions from 120 / 160 / 200 ( +40% AP + 4 per Mist) damage for 3 seconds, while dealing 250 / 375 / 500 ( +120% AD +50% AP ) physical damage and applies Mist to enemy champions caught in the center.
+Fires a global wave that shields ally champions from 120 / 160 / 200 ( +50% AP + 2 per Mist) damage for 3 seconds, while dealing 250 / 400 / 550 ( +120% bonus AD +70% AP ) physical damage and applies Mist to enemy champions caught in the center.
 

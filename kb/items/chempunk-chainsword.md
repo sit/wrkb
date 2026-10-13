@@ -10,12 +10,12 @@ stats:
 - +400 Health
 - +45 Attack Damage
 - +15 Ability Haste
-type: Physical
+type: Fighter
 ---
 
 # Chempunk Chainsword
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 2800 gold
 
 ## Stats

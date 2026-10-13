@@ -1,9 +1,9 @@
 ---
 cost: 3000
 effects:
-- 'UNIQUE - Lifeline: Upon taking Magic Damage that would reduce your health to below
+- 'UNIQUE - Lifeline: Upon taking Magic Damage that would reduce your health below
   35%, gain 10% Omnivamp until the end of combat and a magic shield that absorbs (220
-  -530 Magic Damage) for 3s. (75 second cooldown)'
+  -530 Magic Damage) for 3s. (70 second cooldown)'
 id: 68
 image_url: https://www.wildriftfire.com/images/items/maw-of-malmortius.png
 name: Maw of Malmortius
@@ -11,12 +11,12 @@ stats:
 - +45 Magic Resist
 - +55 Attack Damage
 - +10 Ability Haste
-type: Physical
+type: Assassin,Marksman,Fighter
 ---
 
 # Maw of Malmortius
 
-**Type:** Physical  
+**Type:** Assassin,Marksman,Fighter  
 **Cost:** 3000 gold
 
 ## Stats
@@ -27,5 +27,5 @@ type: Physical
 
 ## Effects
 
-UNIQUE - Lifeline: Upon taking Magic Damage that would reduce your health to below 35%, gain 10% Omnivamp until the end of combat and a magic shield that absorbs (220 -530 Magic Damage) for 3s. (75 second cooldown)
+UNIQUE - Lifeline: Upon taking Magic Damage that would reduce your health below 35%, gain 10% Omnivamp until the end of combat and a magic shield that absorbs (220 -530 Magic Damage) for 3s. (70 second cooldown)
 

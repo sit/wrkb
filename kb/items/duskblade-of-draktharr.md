@@ -11,12 +11,12 @@ name: Duskblade of Draktharr
 stats:
 - +55 Attack Damage
 - +10 Ability Haste
-type: Physical
+type: Assassin
 ---
 
 # Duskblade of Draktharr
 
-**Type:** Physical  
+**Type:** Assassin  
 **Cost:** 3000 gold
 
 ## Stats

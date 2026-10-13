@@ -1,7 +1,7 @@
 ---
 abilities:
-- description: Gains 31 Movement Speed for 1.5 seconds after dealing damage to an
-    enemy champion with an attack or ability.
+- description: Gains 55 - 70 (based on level) Movement Speed for 1.5 seconds after
+    dealing damage to an enemy champion with an attack or ability.
   name: Fleet of Foot
   slot: P
 - cooldowns:
@@ -14,10 +14,10 @@ abilities:
   - 55.0
   - 55.0
   - 55.0
-  description: Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( 75% / 80% /
-    85% / 90% AD + 60% AP ) physical damage to all enemies it cuts through. For every
-    1% Critical Rate , damage is increased by 0.5% . The higher the Attack Speed,
-    the shorter the cast time. Deals 80% damage against non-champion enemies.
+  description: Sivir hurls her crossblade, dealing 70 / 100 / 130 / 160 ( +70% bonus
+    AD +60% AP ) physical damage to all enemies it cuts through. For every 1% Critical
+    Rate , damage is increased by 0.5% . The higher the Attack Speed, the shorter
+    the cast time. Deals 75% damage against non-champion enemies.
   name: Boomerang Blade
   slot: '1'
 - cooldowns:
@@ -31,9 +31,9 @@ abilities:
   - 60.0
   - 60.0
   description: Gains 25% / 30% / 35% / 40% Attack Speed for 4 seconds. Her attacks
-    bounce to nearby enemies, dealing 4 / 6 / 8 / 10 ( +15% / 18% / 21% / 24% AD )
-    physical damage . If the first attack critically strikes , so will the bounces.
-    Deals 75% damage to minions. Each enemy can be hit by a maximum of 2 bounces.
+    bounce to nearby enemies, dealing 37.5% / 40% / 42.5% / 45% Attack Damage . If
+    the first attack critically strikes , so will the bounces. Deals 70% damage to
+    minions. Each enemy can be hit by a maximum of 2 bounces.
   name: Ricochet
   slot: '2'
 - cooldowns:
@@ -54,13 +54,13 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: 'Grants 15% bonus Movement Speed to nearby allied champions for 10
-    / 11 / 12 seconds. During this period, her basic ability cooldowns are reduced
+  description: 'Grants 15% / 20% / 25% bonus Movement Speed to nearby allied champions
+    for 8 / 10 / 12 seconds. During this period, her basic ability cooldowns are reduced
     by 20% / 25% / 30% . Unyielding Valor : While the Hunt is active, gains 1 stack
     of Morale every time an attack or ability deals damage to an enemy champion, and
     2 stacks of Morale after a champion takedown. Each stack of Morale grants 2 /
-    3 / 4 AD . At 8 stacks, grants an additional 25% bonus Movement Speed to nearby
-    allied champions and refreshes On the Hunt''s duration.'
+    2.5 / 3 AD . At 8 stacks, grants an additional 15% / 20% / 25% bonus Movement
+    Speed to nearby allied champions and refreshes On the Hunt''s duration.'
   name: On The Hunt
   slot: '4'
 base_stats:
@@ -68,11 +68,11 @@ base_stats:
     base: '34'
     growth: '4'
   Attack Dmg.:
-    base: '58'
+    base: '60'
     growth: '4'
   Attack Spd.:
-    base: '0.81'
-    growth: '0.0200'
+    base: '0.62'
+    growth: '0.0100'
   Health:
     base: '600'
     growth: '128'
@@ -112,14 +112,14 @@ ADC
 - Armor: 34 (+4 per level)
 - Magic Res.: 28 (+1 per level)
 - Move Speed: 340 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
-- Attack Spd.: 0.81 (+0.0200 per level)
+- Attack Dmg.: 60 (+4 per level)
+- Attack Spd.: 0.62 (+0.0100 per level)
 
 ## Abilities
 
 ### [P] Fleet of Foot
 
-Gains 31 Movement Speed for 1.5 seconds after dealing damage to an enemy champion with an attack or ability.
+Gains 55 - 70 (based on level) Movement Speed for 1.5 seconds after dealing damage to an enemy champion with an attack or ability.
 
 ### [1] Boomerang Blade
 
@@ -127,7 +127,7 @@ Gains 31 Movement Speed for 1.5 seconds after dealing damage to an enemy champio
 
 **Cost:** 55.0 / 55.0 / 55.0 / 55.0
 
-Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( 75% / 80% / 85% / 90% AD + 60% AP ) physical damage to all enemies it cuts through. For every 1% Critical Rate , damage is increased by 0.5% . The higher the Attack Speed, the shorter the cast time. Deals 80% damage against non-champion enemies.
+Sivir hurls her crossblade, dealing 70 / 100 / 130 / 160 ( +70% bonus AD +60% AP ) physical damage to all enemies it cuts through. For every 1% Critical Rate , damage is increased by 0.5% . The higher the Attack Speed, the shorter the cast time. Deals 75% damage against non-champion enemies.
 
 ### [2] Ricochet
 
@@ -135,7 +135,7 @@ Sivir hurls her crossblade, dealing 10 / 30 / 50 / 70 ( 75% / 80% / 85% / 90% AD
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Gains 25% / 30% / 35% / 40% Attack Speed for 4 seconds. Her attacks bounce to nearby enemies, dealing 4 / 6 / 8 / 10 ( +15% / 18% / 21% / 24% AD ) physical damage . If the first attack critically strikes , so will the bounces. Deals 75% damage to minions. Each enemy can be hit by a maximum of 2 bounces.
+Gains 25% / 30% / 35% / 40% Attack Speed for 4 seconds. Her attacks bounce to nearby enemies, dealing 37.5% / 40% / 42.5% / 45% Attack Damage . If the first attack critically strikes , so will the bounces. Deals 70% damage to minions. Each enemy can be hit by a maximum of 2 bounces.
 
 ### [3] Spell Shield
 
@@ -149,5 +149,5 @@ Gains a spell shield for 2 seconds. Heals herself for 38 ( 65% / 70% / 75% / 80%
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Grants 15% bonus Movement Speed to nearby allied champions for 10 / 11 / 12 seconds. During this period, her basic ability cooldowns are reduced by 20% / 25% / 30% . Unyielding Valor : While the Hunt is active, gains 1 stack of Morale every time an attack or ability deals damage to an enemy champion, and 2 stacks of Morale after a champion takedown. Each stack of Morale grants 2 / 3 / 4 AD . At 8 stacks, grants an additional 25% bonus Movement Speed to nearby allied champions and refreshes On the Hunt's duration.
+Grants 15% / 20% / 25% bonus Movement Speed to nearby allied champions for 8 / 10 / 12 seconds. During this period, her basic ability cooldowns are reduced by 20% / 25% / 30% . Unyielding Valor : While the Hunt is active, gains 1 stack of Morale every time an attack or ability deals damage to an enemy champion, and 2 stacks of Morale after a champion takedown. Each stack of Morale grants 2 / 2.5 / 3 AD . At 8 stacks, grants an additional 15% / 20% / 25% bonus Movement Speed to nearby allied champions and refreshes On the Hunt's duration.
 

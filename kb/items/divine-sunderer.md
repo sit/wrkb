@@ -13,12 +13,12 @@ stats:
 - +425 Health
 - +25 Attack Damage
 - +25 Ability Haste
-type: Physical
+type: Fighter
 ---
 
 # Divine Sunderer
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 3400 gold
 
 ## Stats

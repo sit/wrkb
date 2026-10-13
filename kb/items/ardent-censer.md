@@ -1,34 +1,32 @@
 ---
-cost: 2700
+cost: 2400
 effects:
-- "- 50% Mana Regen\r\nUNIQUE - CENSER: When you heal or shield an allied champion\
-  \ other than yourself, their attacks deal 16~22 bonus magic damage and gain 15 -\
-  \ 34% bonus Attack Speed for 6s. This damage can Critically Strike."
+- "- 50% Mana Regen\r\nUNIQUE - CENSER: Shielding or healing an allied champion other\
+  \ than yourself empowers both you and that champion for 6 seconds, granting 30%\
+  \ bonus Attack Speed and 25 bonus magic damage on basic attacks."
 id: 47
 image_url: https://www.wildriftfire.com/images/items/ardent-censer.png
 name: Ardent Censer
 stats:
-- +250 Health
-- +45 Ability Power
-- +10 Ability Haste
-- +5% Heal and Shield Strength
+- +50 Ability Power
+- +4 Movement Speed
+- +8% Heal and Shield Strength
 type: Support
 ---
 
 # Ardent Censer
 
 **Type:** Support  
-**Cost:** 2700 gold
+**Cost:** 2400 gold
 
 ## Stats
 
-- +250 Health
-- +45 Ability Power
-- +10 Ability Haste
-- +5% Heal and Shield Strength
+- +50 Ability Power
+- +4 Movement Speed
+- +8% Heal and Shield Strength
 
 ## Effects
 
 - 50% Mana Regen
-UNIQUE - CENSER: When you heal or shield an allied champion other than yourself, their attacks deal 16~22 bonus magic damage and gain 15 - 34% bonus Attack Speed for 6s. This damage can Critically Strike.
+UNIQUE - CENSER: Shielding or healing an allied champion other than yourself empowers both you and that champion for 6 seconds, granting 30% bonus Attack Speed and 25 bonus magic damage on basic attacks.
 

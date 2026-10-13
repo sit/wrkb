@@ -34,8 +34,8 @@ abilities:
 - cooldowns:
   - 15.0
   - 15.0
-  - 15.0
-  - 15.0
+  - 14.0
+  - 14.0
   costs:
   - 70.0
   - 70.0
@@ -52,9 +52,9 @@ abilities:
   slot: '2'
 - cooldowns:
   - 19.0
-  - 17.0
+  - 18.0
   - 16.0
-  - 14.0
+  - 15.0
   costs:
   - 30.0
   - 30.0
@@ -146,7 +146,7 @@ Fires an energy bolt, dealing 80 / 130 / 180 / 230 ( +80% AP ) magic damage to t
 
 ### [2] Caretaker's Shrine
 
-**Cooldown:** 15.0 / 15.0 / 15.0 / 15.0 seconds
+**Cooldown:** 15.0 / 15.0 / 14.0 / 14.0 seconds
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
@@ -154,7 +154,7 @@ Creates a Health shrine that grows and powers up to max efficiency after 5 secon
 
 ### [3] Magical Journey
 
-**Cooldown:** 19.0 / 17.0 / 16.0 / 14.0 seconds
+**Cooldown:** 19.0 / 18.0 / 16.0 / 15.0 seconds
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 

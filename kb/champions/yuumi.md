@@ -30,28 +30,27 @@ abilities:
   name: Prowling Projectile
   slot: '1'
 - cooldowns:
-  - 10.0
-  - 10.0
-  - 10.0
-  - 10.0
+  - 8.0
+  - 4.0
+  - 0.0
   description: 'Best Friend Bonus (Passive) : While on her Best Friend , Yuumi gains
-    an additional 6% / 7% / 8% / 9% ( +0.02% AP ) Heal and Shield Power . Attach (Active)
+    an additional 6% / 7% / 8% / 9% ( +0.01% AP ) Heal and Shield Power . Attach (Active)
     : Dashes to an allied champion and Attaches to them. While Attached , she follows
     her partner''s movement and is untargetable except by turrets. Immobilizing effects
     on Yuumi place this ability on a 5 seconds cooldown.'
   name: You and Me!
   slot: '2'
 - cooldowns:
-  - 10.0
-  - 10.0
-  - 10.0
-  - 10.0
+  - 9.0
+  - 9.0
+  - 9.0
+  - 9.0
   costs:
-  - 80.0
-  - 90.0
-  - 100.0
-  - 110.0
-  description: Gains a shield that absorbs 85 / 110 / 135 / 160 ( +30% AP ) damage
+  - 65.0
+  - 75.0
+  - 85.0
+  - 95.0
+  description: Gains a shield that absorbs 80 / 110 / 140 / 170 ( +40% AP ) damage
     and 24% / 28% / 32% / 36% ( +8% AP ) Attack Speed for 3 seconds. While the shield
     persists, she also gains 20% Movement Speed . If Yuumi is Attached , this ability
     affects her ally instead.
@@ -69,7 +68,7 @@ abilities:
     , hold and drag the ability button to steer the waves. Against enemies (per wave)
     : Deals 80 / 100 / 120 ( +15% AP ) magic damage . Slows by 10% for 1.25 seconds,
     increased by 10% per wave hit. On allied champions (per wave ): Restores 20 /
-    30 / 4 0 ( +5% AP ) Health . Excess healing is converted into a shield instead.
+    35 / 50 ( +5% AP ) Health . Excess healing is converted into a shield instead.
     Best Friend Bonus : For her Best Friend , the heal is increased to 26 / 39 / 52
     ( +8% AP ) Health . Wave Damage Stacks : Waves after the first deal 20 / 30 /
     40 ( +5% AP ) magic damage . Yuumi can move and cast You and Me! and Zoomies while
@@ -144,17 +143,17 @@ Missile Summon : Hold and drag the ability button to steer the missile. Base Eff
 
 ### [2] You and Me!
 
-**Cooldown:** 10.0 / 10.0 / 10.0 / 10.0 seconds
+**Cooldown:** 8.0 / 4.0 / 0.0 seconds
 
-Best Friend Bonus (Passive) : While on her Best Friend , Yuumi gains an additional 6% / 7% / 8% / 9% ( +0.02% AP ) Heal and Shield Power . Attach (Active) : Dashes to an allied champion and Attaches to them. While Attached , she follows her partner's movement and is untargetable except by turrets. Immobilizing effects on Yuumi place this ability on a 5 seconds cooldown.
+Best Friend Bonus (Passive) : While on her Best Friend , Yuumi gains an additional 6% / 7% / 8% / 9% ( +0.01% AP ) Heal and Shield Power . Attach (Active) : Dashes to an allied champion and Attaches to them. While Attached , she follows her partner's movement and is untargetable except by turrets. Immobilizing effects on Yuumi place this ability on a 5 seconds cooldown.
 
 ### [3] Zoomies
 
-**Cooldown:** 10.0 / 10.0 / 10.0 / 10.0 seconds
+**Cooldown:** 9.0 / 9.0 / 9.0 / 9.0 seconds
 
-**Cost:** 80.0 / 90.0 / 100.0 / 110.0
+**Cost:** 65.0 / 75.0 / 85.0 / 95.0
 
-Gains a shield that absorbs 85 / 110 / 135 / 160 ( +30% AP ) damage and 24% / 28% / 32% / 36% ( +8% AP ) Attack Speed for 3 seconds. While the shield persists, she also gains 20% Movement Speed . If Yuumi is Attached , this ability affects her ally instead.
+Gains a shield that absorbs 80 / 110 / 140 / 170 ( +40% AP ) damage and 24% / 28% / 32% / 36% ( +8% AP ) Attack Speed for 3 seconds. While the shield persists, she also gains 20% Movement Speed . If Yuumi is Attached , this ability affects her ally instead.
 
 ### [4] Final Chapter
 
@@ -162,5 +161,5 @@ Gains a shield that absorbs 85 / 110 / 135 / 160 ( +30% AP ) damage and 24% / 28
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Channels for 3.5 seconds, launching 7 magical waves : While Attached , hold and drag the ability button to steer the waves. Against enemies (per wave) : Deals 80 / 100 / 120 ( +15% AP ) magic damage . Slows by 10% for 1.25 seconds, increased by 10% per wave hit. On allied champions (per wave ): Restores 20 / 30 / 4 0 ( +5% AP ) Health . Excess healing is converted into a shield instead. Best Friend Bonus : For her Best Friend , the heal is increased to 26 / 39 / 52 ( +8% AP ) Health . Wave Damage Stacks : Waves after the first deal 20 / 30 / 40 ( +5% AP ) magic damage . Yuumi can move and cast You and Me! and Zoomies while channeling.
+Channels for 3.5 seconds, launching 7 magical waves : While Attached , hold and drag the ability button to steer the waves. Against enemies (per wave) : Deals 80 / 100 / 120 ( +15% AP ) magic damage . Slows by 10% for 1.25 seconds, increased by 10% per wave hit. On allied champions (per wave ): Restores 20 / 35 / 50 ( +5% AP ) Health . Excess healing is converted into a shield instead. Best Friend Bonus : For her Best Friend , the heal is increased to 26 / 39 / 52 ( +8% AP ) Health . Wave Damage Stacks : Waves after the first deal 20 / 30 / 40 ( +5% AP ) magic damage . Yuumi can move and cast You and Me! and Zoomies while channeling.
 

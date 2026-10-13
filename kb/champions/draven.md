@@ -1,7 +1,7 @@
 ---
 abilities:
 - description: Killing a unit or catching a Spinning Axe grants a stack of Adoration
-    . Killing champions consume all Adoration stacks and grant 80 bonus gold + 4 per
+    . Killing champions consume all Adoration stacks and grant 60 bonus gold + 3 per
     stack of Adoration . When Draven dies, half of Adoration stacks are lost.
   name: League of Draven
   slot: P
@@ -16,7 +16,7 @@ abilities:
   - 45.0
   - 45.0
   description: Gains a Spinning Axe , causing his next attack within 6 seconds to
-    deal an additional 45 / 50 / 55 / 60 ( +100% / 110% / 120% / 130% bonus AD ) physical
+    deal an additional 45 / 50 / 55 / 60 ( +90% / 100% / 110% / 120% bonus AD ) physical
     damage . The Spinning Axe bounces off the target, allowing Draven to catch and
     regain it. Draven can hold two Spinning Axes at once.
   name: Spinning Axe
@@ -31,7 +31,7 @@ abilities:
   - 35.0
   - 30.0
   - 25.0
-  description: Gains 20% / 25% / 30% / 35% Attack Speed for 3 seconds and 50% / 55%
+  description: Gains 25% / 30% / 35% / 40% Attack Speed for 3 seconds and 50% / 55%
     / 60% / 65% Movement Speed for 1.5 seconds. Catching a Spinning Axe refreshes
     Blood Rush's cooldown.
   name: Blood Rush
@@ -46,7 +46,7 @@ abilities:
   - 70.0
   - 70.0
   - 70.0
-  description: Throws his axes, dealing 75 / 120 / 165 / 210 ( +50% AD ) physical
+  description: Throws his axes, dealing 75 / 120 / 165 / 210 ( +50% bonus AD ) physical
     damage and knocking enemies aside, slowing them by 25% / 30% / 35% / 40% for 2
     seconds.
   name: Stand Aside
@@ -59,10 +59,12 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Hurls two massive axes, dealing 200 / 300 / 400 ( +130% AD ) physical
-    damage . The axe return to Draven when they reach the edge of the map, hit a champion
-    or upon reactivation. Deals 8% less damage as it damages targets, minimum 60%
-    . Upon reversal, the reduction is reset do deal full damage.
+  description: Hurls two massive axes, dealing 200 / 300 / 400 ( +150% bonus AD )
+    physical damage . The axe return to Draven when they reach the edge of the map,
+    hit a champion or upon reactivation. Deals 5% less damage as it damages targets,
+    minimum 50% . Upon reversal, the reduction is reset to deal full damage. If Whirling
+    Death strikes an enemy champion with less Health than Draven's current Adoration
+    stacks, he will execute them.
   name: Whirling Death
   slot: '4'
 base_stats:
@@ -121,7 +123,7 @@ ADC
 
 ### [P] League of Draven
 
-Killing a unit or catching a Spinning Axe grants a stack of Adoration . Killing champions consume all Adoration stacks and grant 80 bonus gold + 4 per stack of Adoration . When Draven dies, half of Adoration stacks are lost.
+Killing a unit or catching a Spinning Axe grants a stack of Adoration . Killing champions consume all Adoration stacks and grant 60 bonus gold + 3 per stack of Adoration . When Draven dies, half of Adoration stacks are lost.
 
 ### [1] Spinning Axe
 
@@ -129,7 +131,7 @@ Killing a unit or catching a Spinning Axe grants a stack of Adoration . Killing 
 
 **Cost:** 45.0 / 45.0 / 45.0 / 45.0
 
-Gains a Spinning Axe , causing his next attack within 6 seconds to deal an additional 45 / 50 / 55 / 60 ( +100% / 110% / 120% / 130% bonus AD ) physical damage . The Spinning Axe bounces off the target, allowing Draven to catch and regain it. Draven can hold two Spinning Axes at once.
+Gains a Spinning Axe , causing his next attack within 6 seconds to deal an additional 45 / 50 / 55 / 60 ( +90% / 100% / 110% / 120% bonus AD ) physical damage . The Spinning Axe bounces off the target, allowing Draven to catch and regain it. Draven can hold two Spinning Axes at once.
 
 ### [2] Blood Rush
 
@@ -137,7 +139,7 @@ Gains a Spinning Axe , causing his next attack within 6 seconds to deal an addit
 
 **Cost:** 40.0 / 35.0 / 30.0 / 25.0
 
-Gains 20% / 25% / 30% / 35% Attack Speed for 3 seconds and 50% / 55% / 60% / 65% Movement Speed for 1.5 seconds. Catching a Spinning Axe refreshes Blood Rush's cooldown.
+Gains 25% / 30% / 35% / 40% Attack Speed for 3 seconds and 50% / 55% / 60% / 65% Movement Speed for 1.5 seconds. Catching a Spinning Axe refreshes Blood Rush's cooldown.
 
 ### [3] Stand Aside
 
@@ -145,7 +147,7 @@ Gains 20% / 25% / 30% / 35% Attack Speed for 3 seconds and 50% / 55% / 60% / 65%
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Throws his axes, dealing 75 / 120 / 165 / 210 ( +50% AD ) physical damage and knocking enemies aside, slowing them by 25% / 30% / 35% / 40% for 2 seconds.
+Throws his axes, dealing 75 / 120 / 165 / 210 ( +50% bonus AD ) physical damage and knocking enemies aside, slowing them by 25% / 30% / 35% / 40% for 2 seconds.
 
 ### [4] Whirling Death
 
@@ -153,5 +155,5 @@ Throws his axes, dealing 75 / 120 / 165 / 210 ( +50% AD ) physical damage and kn
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Hurls two massive axes, dealing 200 / 300 / 400 ( +130% AD ) physical damage . The axe return to Draven when they reach the edge of the map, hit a champion or upon reactivation. Deals 8% less damage as it damages targets, minimum 60% . Upon reversal, the reduction is reset do deal full damage.
+Hurls two massive axes, dealing 200 / 300 / 400 ( +150% bonus AD ) physical damage . The axe return to Draven when they reach the edge of the map, hit a champion or upon reactivation. Deals 5% less damage as it damages targets, minimum 50% . Upon reversal, the reduction is reset to deal full damage. If Whirling Death strikes an enemy champion with less Health than Draven's current Adoration stacks, he will execute them.
 

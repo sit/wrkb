@@ -3,7 +3,7 @@ abilities:
 - description: Jhin's hand cannon, Whisper, carries 4 shots before needing to be reloaded
     and fires at a fixed rate. ( Attack speed will be converted into Attack Damage
     ). The final bullet will critically strike and deal additional 11% missing Health
-    physical damage . Whenever Whisper crits, Jhin gains a burst of 15% ( +0.55% per
+    physical damage . Whenever Whisper crits, Jhin gains a burst of 14% ( +0.44% per
     1% bonus AS ) movement speed for 2 seconds. Attack Damage scales with Critical
     Rate and bonus Attack Speed.
   name: Whisper
@@ -70,8 +70,8 @@ abilities:
   description: Channels to fire 4 super shots at extreme range in a cone. The shots
     stop on the first champion hit, slowing it by 80% for 0.75 seconds and dealing
     75 / 150 / 225 ( +25% AD ) physical damage , increased by 3% for each 1% health
-    the target is missing. The 4th shot crits for 200% damage. Tap the cancel button
-    to cancel the channel.
+    the target is missing. The 4th shot crits for current Critical Damage . Tap the
+    cancel button to cancel the channel.
   name: Curtain Call
   slot: '4'
 base_stats:
@@ -79,8 +79,8 @@ base_stats:
     base: '35'
     growth: '4'
   Attack Dmg.:
-    base: '58'
-    growth: '4'
+    base: '60'
+    growth: '5'
   Attack Spd.:
     base: '0.66'
     growth: '0.0200'
@@ -123,14 +123,14 @@ ADC
 - Armor: 35 (+4 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 340 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
+- Attack Dmg.: 60 (+5 per level)
 - Attack Spd.: 0.66 (+0.0200 per level)
 
 ## Abilities
 
 ### [P] Whisper
 
-Jhin's hand cannon, Whisper, carries 4 shots before needing to be reloaded and fires at a fixed rate. ( Attack speed will be converted into Attack Damage ). The final bullet will critically strike and deal additional 11% missing Health physical damage . Whenever Whisper crits, Jhin gains a burst of 15% ( +0.55% per 1% bonus AS ) movement speed for 2 seconds. Attack Damage scales with Critical Rate and bonus Attack Speed.
+Jhin's hand cannon, Whisper, carries 4 shots before needing to be reloaded and fires at a fixed rate. ( Attack speed will be converted into Attack Damage ). The final bullet will critically strike and deal additional 11% missing Health physical damage . Whenever Whisper crits, Jhin gains a burst of 14% ( +0.44% per 1% bonus AS ) movement speed for 2 seconds. Attack Damage scales with Critical Rate and bonus Attack Speed.
 
 ### [1] Dancing Grenade
 
@@ -162,5 +162,5 @@ Places an invisible Lotus Trap that reveals nearby enemies when walked over. It 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Channels to fire 4 super shots at extreme range in a cone. The shots stop on the first champion hit, slowing it by 80% for 0.75 seconds and dealing 75 / 150 / 225 ( +25% AD ) physical damage , increased by 3% for each 1% health the target is missing. The 4th shot crits for 200% damage. Tap the cancel button to cancel the channel.
+Channels to fire 4 super shots at extreme range in a cone. The shots stop on the first champion hit, slowing it by 80% for 0.75 seconds and dealing 75 / 150 / 225 ( +25% AD ) physical damage , increased by 3% for each 1% health the target is missing. The 4th shot crits for current Critical Damage . Tap the cancel button to cancel the channel.
 

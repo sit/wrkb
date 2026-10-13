@@ -19,17 +19,17 @@ abilities:
   name: Shield of Daybreak
   slot: '1'
 - cooldowns:
-  - 14.0
   - 13.0
   - 12.0
   - 11.0
+  - 10.0
   costs:
   - 60.0
   - 60.0
   - 60.0
   - 60.0
-  description: For 3 seconds gain 40 / 60 / 80 / 100 ( +20% bonus Armor ) Armor and
-    40 / 60 / 80 / 100 ( +20% bonus MR ) Magic Resist . After the effect ends nearby
+  description: For 3 seconds gain 30 / 50 / 70 / 90 ( +20% bonus Armor ) Armor and
+    30 / 50 / 70 / 90 ( +20% bonus MR ) Magic Resist . After the effect ends nearby
     enemies take 80 / 115 / 150 / 185 ( +40% AP ) magic damage . If an enemy is hit,
     Leona retains her defensive bonuses for 3 seconds.
   name: Eclipse
@@ -63,7 +63,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '55'
+    base: '50'
     growth: '4'
   Attack Dmg.:
     base: '62'
@@ -72,8 +72,8 @@ base_stats:
     base: '0.80'
     growth: '0.0079'
   Health:
-    base: '750'
-    growth: '112'
+    base: '690'
+    growth: '128'
   Health Reg. (5s):
     base: '9'
     growth: '1'
@@ -103,11 +103,11 @@ Support
 
 ## Base Stats
 
-- Health: 750 (+112 per level)
+- Health: 690 (+128 per level)
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 390 (+31 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 55 (+4 per level)
+- Armor: 50 (+4 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 345 (+0 per level)
 - Attack Dmg.: 62 (+3 per level)
@@ -129,11 +129,11 @@ Empowers the next attack to stun for 1 second and deal 15 / 50 / 85 /120 ( +30% 
 
 ### [2] Eclipse
 
-**Cooldown:** 14.0 / 13.0 / 12.0 / 11.0 seconds
+**Cooldown:** 13.0 / 12.0 / 11.0 / 10.0 seconds
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-For 3 seconds gain 40 / 60 / 80 / 100 ( +20% bonus Armor ) Armor and 40 / 60 / 80 / 100 ( +20% bonus MR ) Magic Resist . After the effect ends nearby enemies take 80 / 115 / 150 / 185 ( +40% AP ) magic damage . If an enemy is hit, Leona retains her defensive bonuses for 3 seconds.
+For 3 seconds gain 30 / 50 / 70 / 90 ( +20% bonus Armor ) Armor and 30 / 50 / 70 / 90 ( +20% bonus MR ) Magic Resist . After the effect ends nearby enemies take 80 / 115 / 150 / 185 ( +40% AP ) magic damage . If an enemy is hit, Leona retains her defensive bonuses for 3 seconds.
 
 ### [3] Zenith Blade
 

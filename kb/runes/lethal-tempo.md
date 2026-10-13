@@ -1,8 +1,8 @@
 ---
-description: "Gain stackable Attack Speed when attacking enemy champions. Stacks up\
-  \ to 6 times. At max stacks, you gain bonus range and can exceed your Attack Speed\
-  \ cap.Each stack increases Attack Speed by 6 \u2013 14% (melee) or 3.5 \u2013 8%\
-  \ (ranged) for 6 seconds.At max stacks, gain 25 (melee) or 50 (ranged) Attack Distance."
+description: Landing basic attacks on enemy champions grants stacking Attack Speed,
+  8% for melee and 6.4% for ranged, up to 6 stacks for 6 seconds. At max stacks, attacks
+  also fire a bullet that deals adaptive damage, 9 - 30 for melee and 6 - 24 for ranged.
+  Each 1% bonus Attack Speed increases this damage by 1% for melee and 0.67% for ranged.
 family: Unknown
 id: 98
 image_url: https://www.wildriftfire.com/images/runes/lethal-tempo.png
@@ -17,5 +17,5 @@ type: Keystone
 
 ## Description
 
-Gain stackable Attack Speed when attacking enemy champions. Stacks up to 6 times. At max stacks, you gain bonus range and can exceed your Attack Speed cap.Each stack increases Attack Speed by 6 – 14% (melee) or 3.5 – 8% (ranged) for 6 seconds.At max stacks, gain 25 (melee) or 50 (ranged) Attack Distance.
+Landing basic attacks on enemy champions grants stacking Attack Speed, 8% for melee and 6.4% for ranged, up to 6 stacks for 6 seconds. At max stacks, attacks also fire a bullet that deals adaptive damage, 9 - 30 for melee and 6 - 24 for ranged. Each 1% bonus Attack Speed increases this damage by 1% for melee and 0.67% for ranged.
 

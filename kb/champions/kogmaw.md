@@ -56,11 +56,11 @@ abilities:
   - 1.0
   description: 'Corrosion Specialist (Passive) : Gains 10% / 20% / 30% Attack Speed
     . Acid Shot (Active) : Shoots acid at an area, revealing the area for 2 seconds.
-    Then deals 100 / 140 / 180 ( +25% AP +75% bonus AD ) magic damage to enemies within
+    Then deals 80 / 120 / 160 ( +25% AP +75% bonus AD ) magic damage to enemies within
     and reveals them for seconds. This ability''s damage scales with the target''s
     missing Health , increasing by 0% - 50% based on 0% - 60% missing Health . Enemies
     below 40% Health take 200 / 280 / 360 ( +50% AP +150% bonus AD ) magic damage
-    instead. Subsequent shots within 8 seconds cost an additional 40 Mana (max 400
+    instead. Subsequent shots within 8 seconds cost an additional 50 Mana (max 500
     Mana). This ability''s range increases by 200 units with each rank gained.'
   name: Living Artillery
   slot: '4'
@@ -69,11 +69,11 @@ base_stats:
     base: '34'
     growth: '4'
   Attack Dmg.:
-    base: '54'
+    base: '58'
     growth: '3'
   Attack Spd.:
-    base: '0.75'
-    growth: '0.0107'
+    base: '0.66'
+    growth: '0.0300'
   Health:
     base: '630'
     growth: '89'
@@ -113,8 +113,8 @@ ADC
 - Armor: 34 (+4 per level)
 - Magic Res.: 32 (+2 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+3 per level)
-- Attack Spd.: 0.75 (+0.0107 per level)
+- Attack Dmg.: 58 (+3 per level)
+- Attack Spd.: 0.66 (+0.0300 per level)
 
 ## Abilities
 
@@ -150,5 +150,5 @@ Spits bile, dealing 80 / 130 / 180 / 230 ( +55% AP ) magic damage and leaving a 
 
 **Cooldown:** 2.0 / 1.0 / 1.0 seconds
 
-Corrosion Specialist (Passive) : Gains 10% / 20% / 30% Attack Speed . Acid Shot (Active) : Shoots acid at an area, revealing the area for 2 seconds. Then deals 100 / 140 / 180 ( +25% AP +75% bonus AD ) magic damage to enemies within and reveals them for seconds. This ability's damage scales with the target's missing Health , increasing by 0% - 50% based on 0% - 60% missing Health . Enemies below 40% Health take 200 / 280 / 360 ( +50% AP +150% bonus AD ) magic damage instead. Subsequent shots within 8 seconds cost an additional 40 Mana (max 400 Mana). This ability's range increases by 200 units with each rank gained.
+Corrosion Specialist (Passive) : Gains 10% / 20% / 30% Attack Speed . Acid Shot (Active) : Shoots acid at an area, revealing the area for 2 seconds. Then deals 80 / 120 / 160 ( +25% AP +75% bonus AD ) magic damage to enemies within and reveals them for seconds. This ability's damage scales with the target's missing Health , increasing by 0% - 50% based on 0% - 60% missing Health . Enemies below 40% Health take 200 / 280 / 360 ( +50% AP +150% bonus AD ) magic damage instead. Subsequent shots within 8 seconds cost an additional 50 Mana (max 500 Mana). This ability's range increases by 200 units with each rank gained.
 

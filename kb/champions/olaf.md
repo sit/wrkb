@@ -14,7 +14,7 @@ abilities:
   - 50.0
   - 55.0
   - 60.0
-  description: Throws an axe, dealing 50 / 115 / 180 / 245 (+120% AD ) physical damage
+  description: Throws an axe, dealing 50 / 115 / 180 / 245 (+105% AD ) physical damage
     and slowing by 20% / 27.55% / 35% / 42.5% for 2 seconds. Picking up the axe reduces
     Undertow's cooldown by 4.5 seconds. Inflict 20% armor reduction for 4 seconds
     on enemy champions. Deals 110% damage to monsters.
@@ -49,7 +49,7 @@ abilities:
   - 60.0
   - 55.0
   - 50.0
-  description: 'Passive : Gain 25 / 35 / 45 Armor and Magic Resist . Active : Becomes
+  description: 'Passive : Gain 15 / 25 / 35 Armor and Magic Resist . Active : Becomes
     immune to crowd control and gains 5 / 15 / 25 ( +20% AD ) Attack Damage for 4
     seconds. Also gains 20% Movement Speed when moving toward enemy champions for
     1 second upon cast. Ragnarok''s duration is increased by 2.5 seconds for each
@@ -65,11 +65,11 @@ base_stats:
     base: '64'
     growth: '4'
   Attack Spd.:
-    base: '0.73'
-    growth: '0.0150'
+    base: '0.69'
+    growth: '0.0326'
   Health:
-    base: '690'
-    growth: '112'
+    base: '660'
+    growth: '140'
   Health Reg. (5s):
     base: '12'
     growth: '10'
@@ -100,7 +100,7 @@ Jungle, Baron Lane
 
 ## Base Stats
 
-- Health: 690 (+112 per level)
+- Health: 660 (+140 per level)
 - Health Reg. (5s): 12 (+10 per level)
 - Mana: 340 (+25 per level)
 - Mana Reg. (5s): 15 (+1 per level)
@@ -108,7 +108,7 @@ Jungle, Baron Lane
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 64 (+4 per level)
-- Attack Spd.: 0.73 (+0.0150 per level)
+- Attack Spd.: 0.69 (+0.0326 per level)
 
 ## Abilities
 
@@ -122,7 +122,7 @@ Gain up to 70% - 110% (based on level) attack speed and 15% - 30% (based on leve
 
 **Cost:** 45.0 / 50.0 / 55.0 / 60.0
 
-Throws an axe, dealing 50 / 115 / 180 / 245 (+120% AD ) physical damage and slowing by 20% / 27.55% / 35% / 42.5% for 2 seconds. Picking up the axe reduces Undertow's cooldown by 4.5 seconds. Inflict 20% armor reduction for 4 seconds on enemy champions. Deals 110% damage to monsters.
+Throws an axe, dealing 50 / 115 / 180 / 245 (+105% AD ) physical damage and slowing by 20% / 27.55% / 35% / 42.5% for 2 seconds. Picking up the axe reduces Undertow's cooldown by 4.5 seconds. Inflict 20% armor reduction for 4 seconds on enemy champions. Deals 110% damage to monsters.
 
 ### [2] Vicious Strikes
 
@@ -142,5 +142,5 @@ Dash to an enemy and deal 45 / 95 / 145 / 195 ( +55% AD ) true damage . If the e
 
 **Cooldown:** 60.0 / 55.0 / 50.0 seconds
 
-Passive : Gain 25 / 35 / 45 Armor and Magic Resist . Active : Becomes immune to crowd control and gains 5 / 15 / 25 ( +20% AD ) Attack Damage for 4 seconds. Also gains 20% Movement Speed when moving toward enemy champions for 1 second upon cast. Ragnarok's duration is increased by 2.5 seconds for each basic attack or cast of Reckless Swing against an enemy champion. Ragnarok can be cast while under the effects of crowd control.
+Passive : Gain 15 / 25 / 35 Armor and Magic Resist . Active : Becomes immune to crowd control and gains 5 / 15 / 25 ( +20% AD ) Attack Damage for 4 seconds. Also gains 20% Movement Speed when moving toward enemy champions for 1 second upon cast. Ragnarok's duration is increased by 2.5 seconds for each basic attack or cast of Reckless Swing against an enemy champion. Ragnarok can be cast while under the effects of crowd control.
 

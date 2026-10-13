@@ -2,19 +2,19 @@
 cost: 3000
 effects:
 - "UNIQUE PASSIVE - Annul: Grants a spell shield that blocks the next enemy ability.\r\
-  \nPASSIVE - Gouge: +8 Armor Penetration."
+  \nPASSIVE - Gouge: +12 Armor Penetration."
 id: 123
 image_url: https://www.wildriftfire.com/images/items/edge-of-night.png
 name: Edge of Night
 stats:
 - +250 Health
 - +50 Attack Damage
-type: Physical
+type: Assassin
 ---
 
 # Edge of Night
 
-**Type:** Physical  
+**Type:** Assassin  
 **Cost:** 3000 gold
 
 ## Stats
@@ -25,5 +25,5 @@ type: Physical
 ## Effects
 
 UNIQUE PASSIVE - Annul: Grants a spell shield that blocks the next enemy ability.
-PASSIVE - Gouge: +8 Armor Penetration.
+PASSIVE - Gouge: +12 Armor Penetration.
 

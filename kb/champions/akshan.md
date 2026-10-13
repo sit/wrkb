@@ -1,10 +1,11 @@
 ---
 abilities:
 - description: Every three hits from attacks and abilities deal bonus 25 magic damage
-    . Against champions, also gain a shield that absorbs 40 ( +40% AD ) damage for
-    a few seconds. After launching an attack, Akshan will fire a second shot that
-    deals 26 ( 50% AD ) physical damage . The shot can be cancelled to gain bonus
-    decaying movement speed.
+    . Against champions, also gain a shield that absorbs 40 ( +40% bonus AD ) damage
+    for 2 seconds (12 second cooldown). After launching an attack, Akshan will fire
+    a second shot that deals 26 ( 50% AD ) physical damage . The shot can be cancelled
+    to gain bonus 20% - 80% Movement Speed decaying over 1 second. This Movement Speed
+    bonus scales with Attack Speed at 100% effectiveness.
   name: Dirty Fighting
   slot: P
 - cooldowns:
@@ -17,13 +18,10 @@ abilities:
   - 60.0
   - 70.0
   - 80.0
-  description: Akshan hurls a boomerang in the target direction, dealing 10 / 40 /
-    70 / 100 ( +85% AD ) physical damage to enemies it passes through and revealing
-    them, granting sight of the area along its path, as well as extending its range
-    every time it hits an enemy. If the boomerang hits an enemy champion, Akshan gains
-    bonus movement speed decaying over time. Upon reaching maximum range, the boomerang
-    returns to Akshan, applying the same effects to enemies hit along the way. Avengerang
-    deals 55% / 70% / 85% / 100% damage to minions.
+  description: Throws a boomerang that deals 60 / 110 / 160 / 210 ( +70% bonus AD
+    ) physical damage , extending the range each time it hits an enemy. Hits grant
+    Akshan 40% Movement Speed decaying over 1 second. Deals 50% / 60% / 70% / 80%
+    damage to minions.
   name: Avengerang
   slot: '1'
 - cooldowns:
@@ -36,12 +34,12 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: 'Passive: Enemies that kill allied champions become Scoundrels for
-    a duration. When Akshan takes down a Scoundrel, he gains bonus gold and revives
-    the allies slain. Active: Become camouflaged for a few seconds and gain bonus
-    80% / 90% / 100% / 110% movement speed towards Scoundrels. Always camouflaged
-    when Akshan is near terrain or in brushes. Gain 2% missing mana regen per second
-    when chasing Scoundrels.'
+  description: 'Passive : Enemies that kill allied champions become Scoundrels for
+    40 seconds. When a Scoundrel dies within 3 seconds of being damaged by Akshan,
+    Akshan gains 100 gold and revives the slain allies. Active : Become camouflaged
+    for 1.75 seconds, gaining 80% / 90% / 100% / 110% Movement Speed and Mana Regeneration
+    equal to 2% of missing mana when moving toward Scoundres . Duration is infinite
+    while Akshan is near terrain or in bush.'
   name: Going Rogue
   slot: '2'
 - cooldowns:
@@ -70,11 +68,12 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: 'Locks onto an enemy champion, charging multiple shots over a few seconds.
-    Re-cast: Fires the shots, dealing 20 / 30 / 40 ( +10% AD ) physical damage to
-    the first enemy or structure hit, increased up to 80 / 120 / 160 ( +40% AD ) physical
-    damage based on target''s missing Health. Each shot''s damage is further increased
-    by a percentage equal to 50% of Critical Rate . Shots also execute minions.'
+  description: "Locks onto an enemy champion, charging 5 /\_ 6 / 7 shots over 3 seconds.\
+    \ Re-cast : Fires the shots, dealing 25 / 35 / 45 ( +15% AD ) physical damage\
+    \ to the first enemy or structure hit, increased up to 75 / 105 / 135 ( +45% AD\
+    \ ) physical damage based on the target's missing health. Each shot's damage is\
+    \ further increased by a percentage equal to 30% of Critical Rate . Shots execute\
+    \ minions."
   name: Comeuppance
   slot: '4'
 base_stats:
@@ -83,7 +82,7 @@ base_stats:
     growth: '5'
   Attack Dmg.:
     base: '52'
-    growth: '5'
+    growth: '4'
   Attack Spd.:
     base: '0.70'
     growth: '0.0036'
@@ -126,14 +125,14 @@ Mid Lane
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 340 (+0 per level)
-- Attack Dmg.: 52 (+5 per level)
+- Attack Dmg.: 52 (+4 per level)
 - Attack Spd.: 0.70 (+0.0036 per level)
 
 ## Abilities
 
 ### [P] Dirty Fighting
 
-Every three hits from attacks and abilities deal bonus 25 magic damage . Against champions, also gain a shield that absorbs 40 ( +40% AD ) damage for a few seconds. After launching an attack, Akshan will fire a second shot that deals 26 ( 50% AD ) physical damage . The shot can be cancelled to gain bonus decaying movement speed.
+Every three hits from attacks and abilities deal bonus 25 magic damage . Against champions, also gain a shield that absorbs 40 ( +40% bonus AD ) damage for 2 seconds (12 second cooldown). After launching an attack, Akshan will fire a second shot that deals 26 ( 50% AD ) physical damage . The shot can be cancelled to gain bonus 20% - 80% Movement Speed decaying over 1 second. This Movement Speed bonus scales with Attack Speed at 100% effectiveness.
 
 ### [1] Avengerang
 
@@ -141,7 +140,7 @@ Every three hits from attacks and abilities deal bonus 25 magic damage . Against
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Akshan hurls a boomerang in the target direction, dealing 10 / 40 / 70 / 100 ( +85% AD ) physical damage to enemies it passes through and revealing them, granting sight of the area along its path, as well as extending its range every time it hits an enemy. If the boomerang hits an enemy champion, Akshan gains bonus movement speed decaying over time. Upon reaching maximum range, the boomerang returns to Akshan, applying the same effects to enemies hit along the way. Avengerang deals 55% / 70% / 85% / 100% damage to minions.
+Throws a boomerang that deals 60 / 110 / 160 / 210 ( +70% bonus AD ) physical damage , extending the range each time it hits an enemy. Hits grant Akshan 40% Movement Speed decaying over 1 second. Deals 50% / 60% / 70% / 80% damage to minions.
 
 ### [2] Going Rogue
 
@@ -149,7 +148,7 @@ Akshan hurls a boomerang in the target direction, dealing 10 / 40 / 70 / 100 ( +
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Passive: Enemies that kill allied champions become Scoundrels for a duration. When Akshan takes down a Scoundrel, he gains bonus gold and revives the allies slain. Active: Become camouflaged for a few seconds and gain bonus 80% / 90% / 100% / 110% movement speed towards Scoundrels. Always camouflaged when Akshan is near terrain or in brushes. Gain 2% missing mana regen per second when chasing Scoundrels.
+Passive : Enemies that kill allied champions become Scoundrels for 40 seconds. When a Scoundrel dies within 3 seconds of being damaged by Akshan, Akshan gains 100 gold and revives the slain allies. Active : Become camouflaged for 1.75 seconds, gaining 80% / 90% / 100% / 110% Movement Speed and Mana Regeneration equal to 2% of missing mana when moving toward Scoundres . Duration is infinite while Akshan is near terrain or in bush.
 
 ### [3] Heroic Swing
 
@@ -165,5 +164,5 @@ Fires a hook to attach and swing around terrain, attacking the nearest enemy dea
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Locks onto an enemy champion, charging multiple shots over a few seconds. Re-cast: Fires the shots, dealing 20 / 30 / 40 ( +10% AD ) physical damage to the first enemy or structure hit, increased up to 80 / 120 / 160 ( +40% AD ) physical damage based on target's missing Health. Each shot's damage is further increased by a percentage equal to 50% of Critical Rate . Shots also execute minions.
+Locks onto an enemy champion, charging 5 /  6 / 7 shots over 3 seconds. Re-cast : Fires the shots, dealing 25 / 35 / 45 ( +15% AD ) physical damage to the first enemy or structure hit, increased up to 75 / 105 / 135 ( +45% AD ) physical damage based on the target's missing health. Each shot's damage is further increased by a percentage equal to 30% of Critical Rate . Shots execute minions.
 

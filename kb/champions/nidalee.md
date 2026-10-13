@@ -1,10 +1,10 @@
 ---
 abilities:
 - description: 'Starts with a rank in Aspect of the Cougar . Queen of the Jungle :
-    Gains 15% Movement Speed in brush, increased to 30% while moving toward enemy
+    Gains 10% Movement Speed in brush, increased to 30% while moving toward enemy
     champions. This bonus persists for 2 seconds after leaving brush. Hunter''s Mark
     : Hitting champions or monsters with Javelin Toss or Bushwhack marks them as Hunted
-    for 4 seconds. While an enemy is Hunted, they are revealed and Nidalee gains 15%
+    for 4 seconds. While an enemy is Hunted, they are revealed and Nidalee gains 10%
     Movement Speed , increased to 30% while moving toward the Hunted enemy. The two
     Movement Speed bonuses stack, with a total cap of 30.'
   name: Prowl
@@ -39,7 +39,7 @@ abilities:
   description: 'Bushwhack : Places an invisible trap for 10 seconds, When an enemy
     walks over it, they are revealed and dealt 10 / 20 / 30 / 40 ( +4% AP ) magic
     damage per second for 4 seconds. 4 traps may be active at once. Pounce : Pounces
-    toward a target location, dealing 65 / 100 / 135 / 170 ( +40% bonus AD +25% AP
+    toward a target location, dealing 55 / 90 / 125 / 160 ( +40% bonus AD +25% AP
     ) magic damage to enemies in the area she lands. Killing an enemy in Cougar Form
     or using this ability on a Hunted target reduces its cooldown to 2.75 / 2.25 /
     1.75 / 1.25 seconds.'
@@ -68,7 +68,7 @@ abilities:
   - 3.0
   description: 'Passive : - While in Human Form , applying Hunted refreshes this ability''s
     cooldown. - While in Cougar Form , Nidalee''s basic ability damage scales with
-    this ability''s rank, and she gains 2 ( +3% AP ) bonus Armor and Magic Resist
+    this ability''s rank, and she gains 2 ( +2.5% AP ) bonus Armor and Magic Resist
     . Human Form (Active) : Transforms into Cougar Form, gaining melee attacks and
     replacing her active abilities. Cougar Form (Active) : Transforms into Human Form,
     gaining ranged attacks and replacing her active abilities.'
@@ -76,7 +76,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '46'
+    base: '37'
     growth: '5'
   Attack Dmg.:
     base: '54'
@@ -91,7 +91,7 @@ base_stats:
     base: '8'
     growth: '1'
   Magic Res.:
-    base: '40'
+    base: '36'
     growth: '2'
   Mana:
     base: '420'
@@ -120,8 +120,8 @@ Jungle
 - Health Reg. (5s): 8 (+1 per level)
 - Mana: 420 (+37 per level)
 - Mana Reg. (5s): 14 (+1 per level)
-- Armor: 46 (+5 per level)
-- Magic Res.: 40 (+2 per level)
+- Armor: 37 (+5 per level)
+- Magic Res.: 36 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
@@ -130,7 +130,7 @@ Jungle
 
 ### [P] Prowl
 
-Starts with a rank in Aspect of the Cougar . Queen of the Jungle : Gains 15% Movement Speed in brush, increased to 30% while moving toward enemy champions. This bonus persists for 2 seconds after leaving brush. Hunter's Mark : Hitting champions or monsters with Javelin Toss or Bushwhack marks them as Hunted for 4 seconds. While an enemy is Hunted, they are revealed and Nidalee gains 15% Movement Speed , increased to 30% while moving toward the Hunted enemy. The two Movement Speed bonuses stack, with a total cap of 30.
+Starts with a rank in Aspect of the Cougar . Queen of the Jungle : Gains 10% Movement Speed in brush, increased to 30% while moving toward enemy champions. This bonus persists for 2 seconds after leaving brush. Hunter's Mark : Hitting champions or monsters with Javelin Toss or Bushwhack marks them as Hunted for 4 seconds. While an enemy is Hunted, they are revealed and Nidalee gains 10% Movement Speed , increased to 30% while moving toward the Hunted enemy. The two Movement Speed bonuses stack, with a total cap of 30.
 
 ### [1] Javelin Toss / Takedown
 
@@ -146,7 +146,7 @@ Javelin Toss : Throws her javelin, dealing 90 / 120 / 150 / 180 ( +50% AP ) magi
 
 **Cost:** 30.0 / 35.0 / 40.0 / 45.0
 
-Bushwhack : Places an invisible trap for 10 seconds, When an enemy walks over it, they are revealed and dealt 10 / 20 / 30 / 40 ( +4% AP ) magic damage per second for 4 seconds. 4 traps may be active at once. Pounce : Pounces toward a target location, dealing 65 / 100 / 135 / 170 ( +40% bonus AD +25% AP ) magic damage to enemies in the area she lands. Killing an enemy in Cougar Form or using this ability on a Hunted target reduces its cooldown to 2.75 / 2.25 / 1.75 / 1.25 seconds.
+Bushwhack : Places an invisible trap for 10 seconds, When an enemy walks over it, they are revealed and dealt 10 / 20 / 30 / 40 ( +4% AP ) magic damage per second for 4 seconds. 4 traps may be active at once. Pounce : Pounces toward a target location, dealing 55 / 90 / 125 / 160 ( +40% bonus AD +25% AP ) magic damage to enemies in the area she lands. Killing an enemy in Cougar Form or using this ability on a Hunted target reduces its cooldown to 2.75 / 2.25 / 1.75 / 1.25 seconds.
 
 ### [3] Primal Surge / Swipe
 
@@ -160,5 +160,5 @@ Primal Surge : Restores 40 / 70 / 100 / 130 ( +30% AP ) Health to a target, incr
 
 **Cooldown:** 3.0 / 3.0 / 3.0 seconds
 
-Passive : - While in Human Form , applying Hunted refreshes this ability's cooldown. - While in Cougar Form , Nidalee's basic ability damage scales with this ability's rank, and she gains 2 ( +3% AP ) bonus Armor and Magic Resist . Human Form (Active) : Transforms into Cougar Form, gaining melee attacks and replacing her active abilities. Cougar Form (Active) : Transforms into Human Form, gaining ranged attacks and replacing her active abilities.
+Passive : - While in Human Form , applying Hunted refreshes this ability's cooldown. - While in Cougar Form , Nidalee's basic ability damage scales with this ability's rank, and she gains 2 ( +2.5% AP ) bonus Armor and Magic Resist . Human Form (Active) : Transforms into Cougar Form, gaining melee attacks and replacing her active abilities. Cougar Form (Active) : Transforms into Human Form, gaining ranged attacks and replacing her active abilities.
 

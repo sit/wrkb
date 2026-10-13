@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Attacks deal an additional 12 - 46 ( +20% bonus AD +10% AP ) magic
+- description: Attacks deal an additional 12 - 46 ( +15% bonus AD +10% AP ) magic
     damage on hit. While below 50% health , heal for 100% of the damage dealt .
   name: Eternal Hunger
   slot: P
@@ -15,7 +15,7 @@ abilities:
   - 40.0
   - 40.0
   description: 'Lunges forward and bites the target enemy, dealing 70 ( 120% AD +
-    90% AP ) magic damage + 6% / 7% / 8% / 9% of the target''s max health and healing
+    85% AP ) magic damage + 6% / 7% / 8% / 9% of the target''s max health and healing
     for 42.5% / 55% / 67.5% / 80% of damage dealt. Drag : Warwick leaps behind targets
     and follows their movement. The bonus damage is capped at 100 / 125 / 150 / 175
     against monsters. Deal 50% extra damage to minions and restores 50% of cooldown
@@ -60,9 +60,9 @@ abilities:
   name: Primal Howl
   slot: '3'
 - cooldowns:
+  - 100.0
+  - 90.0
   - 80.0
-  - 70.0
-  - 60.0
   costs:
   - 100.0
   - 100.0
@@ -71,7 +71,7 @@ abilities:
     seconds within landing his next basic attack will be empowered. If the empowered
     basic attack hit target successfully, he leaps to the target, dealing damage while
     suppressing the target. He attacks that champion 4 times over the duration, applying
-    On-Hit effects and dealing 125 / 300 / 475 ( + 167% bonus AD ) magic damage .
+    On-Hit effects and dealing 100 / 275 / 450 ( + 167% bonus AD ) magic damage .
     Warwick restores 100% of all damage dealt during the channel as Health .
   name: Infinite Duress
   slot: '4'
@@ -106,7 +106,6 @@ base_stats:
 name: Warwick
 roles:
 - Jungle
-- Baron Lane
 source_url: https://www.wildriftfire.com/guide/warwick
 ---
 
@@ -114,7 +113,7 @@ source_url: https://www.wildriftfire.com/guide/warwick
 
 ## Roles
 
-Jungle, Baron Lane
+Jungle
 
 ## Base Stats
 
@@ -132,7 +131,7 @@ Jungle, Baron Lane
 
 ### [P] Eternal Hunger
 
-Attacks deal an additional 12 - 46 ( +20% bonus AD +10% AP ) magic damage on hit. While below 50% health , heal for 100% of the damage dealt .
+Attacks deal an additional 12 - 46 ( +15% bonus AD +10% AP ) magic damage on hit. While below 50% health , heal for 100% of the damage dealt .
 
 ### [1] Jaws of the Beast
 
@@ -140,7 +139,7 @@ Attacks deal an additional 12 - 46 ( +20% bonus AD +10% AP ) magic damage on hit
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Lunges forward and bites the target enemy, dealing 70 ( 120% AD + 90% AP ) magic damage + 6% / 7% / 8% / 9% of the target's max health and healing for 42.5% / 55% / 67.5% / 80% of damage dealt. Drag : Warwick leaps behind targets and follows their movement. The bonus damage is capped at 100 / 125 / 150 / 175 against monsters. Deal 50% extra damage to minions and restores 50% of cooldown when killing minions.
+Lunges forward and bites the target enemy, dealing 70 ( 120% AD + 85% AP ) magic damage + 6% / 7% / 8% / 9% of the target's max health and healing for 42.5% / 55% / 67.5% / 80% of damage dealt. Drag : Warwick leaps behind targets and follows their movement. The bonus damage is capped at 100 / 125 / 150 / 175 against monsters. Deal 50% extra damage to minions and restores 50% of cooldown when killing minions.
 
 ### [2] Blood Hunt
 
@@ -160,9 +159,9 @@ Warwick gains 35% / 40% / 45% / 50% damage reduction for 2.5 seconds. After it e
 
 ### [4] Infinite Duress
 
-**Cooldown:** 80.0 / 70.0 / 60.0 seconds
+**Cooldown:** 100.0 / 90.0 / 80.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Warwick leaps a huge distance that scales with his Move Speed , 2.5 seconds within landing his next basic attack will be empowered. If the empowered basic attack hit target successfully, he leaps to the target, dealing damage while suppressing the target. He attacks that champion 4 times over the duration, applying On-Hit effects and dealing 125 / 300 / 475 ( + 167% bonus AD ) magic damage . Warwick restores 100% of all damage dealt during the channel as Health .
+Warwick leaps a huge distance that scales with his Move Speed , 2.5 seconds within landing his next basic attack will be empowered. If the empowered basic attack hit target successfully, he leaps to the target, dealing damage while suppressing the target. He attacks that champion 4 times over the duration, applying On-Hit effects and dealing 100 / 275 / 450 ( + 167% bonus AD ) magic damage . Warwick restores 100% of all damage dealt during the channel as Health .
 

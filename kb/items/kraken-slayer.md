@@ -1,31 +1,32 @@
 ---
-cost: 2800
+cost: 2900
 effects:
-- "CLOUD STRIKE: +5% Movement Speed\r\nBRING IT DOWN: Every third attack deals 120~160\
-  \ (based on level) (110~150 (based on level) for ranged champions) bonus physical\
-  \ damage, based on the target\u2019s missing Health, up to a maximum of 70% increased\
-  \ damage."
+- 'BRING IT DOWN: Every third attack deals 150 - 210 bonus physical damage, or 120
+  - 168 for ranged champions. This damage is increased based on the target''s missing
+  Health. For every 1% Health the target is missing, damage increases by 0.75%, up
+  to 75%.'
 id: 216
 image_url: https://www.wildriftfire.com/images/items/kraken-slayer.png
 name: Kraken Slayer
 stats:
-- +40 Attack Damage
-- +30% Attack Speed
-type: Physical
+- +45 Attack Damage
+- +35% Attack Speed
+- +4 Movement Speed
+type: Marksman
 ---
 
 # Kraken Slayer
 
-**Type:** Physical  
-**Cost:** 2800 gold
+**Type:** Marksman  
+**Cost:** 2900 gold
 
 ## Stats
 
-- +40 Attack Damage
-- +30% Attack Speed
+- +45 Attack Damage
+- +35% Attack Speed
+- +4 Movement Speed
 
 ## Effects
 
-CLOUD STRIKE: +5% Movement Speed
-BRING IT DOWN: Every third attack deals 120~160 (based on level) (110~150 (based on level) for ranged champions) bonus physical damage, based on the target’s missing Health, up to a maximum of 70% increased damage.
+BRING IT DOWN: Every third attack deals 150 - 210 bonus physical damage, or 120 - 168 for ranged champions. This damage is increased based on the target's missing Health. For every 1% Health the target is missing, damage increases by 0.75%, up to 75%.
 

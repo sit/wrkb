@@ -1,9 +1,9 @@
 ---
 abilities:
 - description: Applies Love Tap when attack enemy champions or epic monsters. At 3
-    stacks, increases Miss Fortune's damage to the target by 6% - 10.9% ( + 0.4x per
-    level ). At 3 stacks deal 15 ( +70% bonus AD ) X ( 1 + 100% Critical Rate) physical
-    damage to the target. Deals 50% damage to minions and monsters.
+    stacks, increases Miss Fortune's damage to the target by 6% - 9.5% ( + 0.4x per
+    level ). At 3 stacks deal 15 ( +40% bonus AD ) X ( 0.6 + 100% Critical Rate x
+    0.4) physical damage to the target. Deals 50% damage to minions and monsters.
   name: Love Tap
   slot: P
 - cooldowns:
@@ -17,9 +17,9 @@ abilities:
   - 35.0
   - 35.0
   description: Fires a shot that ricochets behind the first enemy hit, dealing 60
-    / 90 / 120 / 150 ( + 112% / 120% / 128% / 136% AD +35% AP ) physical damage .
-    The second hit will Critically Strike for 130% / 140% / 150% / 160% damage and
-    apply Love Tap. On-hits are applied to both targets.
+    / 90 / 120 / 150 ( + 110% AD +35% AP ) physical damage . The second hit will Critically
+    Strike for 130% / 140% / 150% / 160% damage and apply Love Tap. On-hits are applied
+    to both targets.
   name: Double Up
   slot: '1'
 - cooldowns:
@@ -32,10 +32,10 @@ abilities:
   - 303.0
   - 30.0
   - 30.0
-  description: 'Passive : After 4 seconds of not taking damage, gain 30 / 35 / 40
-    / 45 Movement Speed . After another 3 seconds, this bonus increases to 80 / 90
-    / 100 / 110 . Active : Fully activates Strut''s Movement Speed and grants 45%
-    / 60% / 75% / 90% Attack Speed for 4 seconds. Attacking targets with full stacks
+  description: 'Passive : After 4 seconds of not taking damage, gain 35 / 40 / 45
+    / 50 Movement Speed . After another 3 seconds, this bonus increases to 70 / 80
+    / 90 / 100 . Active : Fully activates Strut''s Movement Speed and grants 45% /
+    60% / 75% / 90% Attack Speed for 4 seconds. Attacking targets with full stacks
     of Love Tap reduces the remaining cooldown of Strut by 2 seconds.'
   name: Strut
   slot: '2'
@@ -50,8 +50,8 @@ abilities:
   - 75.0
   - 80.0
   description: Rains down bullets on an area for 2 seconds, dealing 15 / 20 / 25 /
-    30 ( +10% AP ) magic damage every quarter second and slowing enemies by 30% /
-    40% / 50% / 60% .
+    30 ( +10% AP ) magic damage every quarter second and slowing enemies by 40% (
+    +6% AP ) .
   name: Make it Rain
   slot: '3'
 - cooldowns:
@@ -63,8 +63,8 @@ abilities:
   - 100.0
   - 100.0
   description: 'Channels a 3 seconds barrage of bullets, with 12 / 14 / 16 waves that
-    each deal 39 ( 85% AD +20% AP ) physical damage . Each wave can Crit for 130%
-    damage. Re-activate : Cancel the barrage.'
+    each deal 20 / 30 / 40 ( +60% AD +20% AP ) physical damage . Each wave can Crit
+    for 130% damage. Re-activate : Cancel the barrage.'
   name: Bullet Time
   slot: '4'
 base_stats:
@@ -123,7 +123,7 @@ ADC
 
 ### [P] Love Tap
 
-Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, increases Miss Fortune's damage to the target by 6% - 10.9% ( + 0.4x per level ). At 3 stacks deal 15 ( +70% bonus AD ) X ( 1 + 100% Critical Rate) physical damage to the target. Deals 50% damage to minions and monsters.
+Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, increases Miss Fortune's damage to the target by 6% - 9.5% ( + 0.4x per level ). At 3 stacks deal 15 ( +40% bonus AD ) X ( 0.6 + 100% Critical Rate x 0.4) physical damage to the target. Deals 50% damage to minions and monsters.
 
 ### [1] Double Up
 
@@ -131,7 +131,7 @@ Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, incr
 
 **Cost:** 35.0 / 35.0 / 35.0 / 35.0
 
-Fires a shot that ricochets behind the first enemy hit, dealing 60 / 90 / 120 / 150 ( + 112% / 120% / 128% / 136% AD +35% AP ) physical damage . The second hit will Critically Strike for 130% / 140% / 150% / 160% damage and apply Love Tap. On-hits are applied to both targets.
+Fires a shot that ricochets behind the first enemy hit, dealing 60 / 90 / 120 / 150 ( + 110% AD +35% AP ) physical damage . The second hit will Critically Strike for 130% / 140% / 150% / 160% damage and apply Love Tap. On-hits are applied to both targets.
 
 ### [2] Strut
 
@@ -139,7 +139,7 @@ Fires a shot that ricochets behind the first enemy hit, dealing 60 / 90 / 120 / 
 
 **Cost:** 30.0 / 303.0 / 30.0 / 30.0
 
-Passive : After 4 seconds of not taking damage, gain 30 / 35 / 40 / 45 Movement Speed . After another 3 seconds, this bonus increases to 80 / 90 / 100 / 110 . Active : Fully activates Strut's Movement Speed and grants 45% / 60% / 75% / 90% Attack Speed for 4 seconds. Attacking targets with full stacks of Love Tap reduces the remaining cooldown of Strut by 2 seconds.
+Passive : After 4 seconds of not taking damage, gain 35 / 40 / 45 / 50 Movement Speed . After another 3 seconds, this bonus increases to 70 / 80 / 90 / 100 . Active : Fully activates Strut's Movement Speed and grants 45% / 60% / 75% / 90% Attack Speed for 4 seconds. Attacking targets with full stacks of Love Tap reduces the remaining cooldown of Strut by 2 seconds.
 
 ### [3] Make it Rain
 
@@ -147,7 +147,7 @@ Passive : After 4 seconds of not taking damage, gain 30 / 35 / 40 / 45 Movement 
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Rains down bullets on an area for 2 seconds, dealing 15 / 20 / 25 / 30 ( +10% AP ) magic damage every quarter second and slowing enemies by 30% / 40% / 50% / 60% .
+Rains down bullets on an area for 2 seconds, dealing 15 / 20 / 25 / 30 ( +10% AP ) magic damage every quarter second and slowing enemies by 40% ( +6% AP ) .
 
 ### [4] Bullet Time
 
@@ -155,5 +155,5 @@ Rains down bullets on an area for 2 seconds, dealing 15 / 20 / 25 / 30 ( +10% AP
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Channels a 3 seconds barrage of bullets, with 12 / 14 / 16 waves that each deal 39 ( 85% AD +20% AP ) physical damage . Each wave can Crit for 130% damage. Re-activate : Cancel the barrage.
+Channels a 3 seconds barrage of bullets, with 12 / 14 / 16 waves that each deal 20 / 30 / 40 ( +60% AD +20% AP ) physical damage . Each wave can Crit for 130% damage. Re-activate : Cancel the barrage.
 

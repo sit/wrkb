@@ -34,9 +34,9 @@ abilities:
   - 5.0
   - 5.0
   - 5.0
-  description: "Charges a defibrillator for 4 seconds, dealing 20 magic damage per\
-    \ second to nearby enemies. Re-cast: Detonates the defibrillator, dealing 20 /\
-    \ 40 / 60 / 80 ( +5% bonus HP ) magic damage to nearby enemies. If the detonation\
+  description: "Charges a defibrillator for 4 seconds, dealing 20 / 40 / 60 / 80 magic\
+    \ damage per second to nearby enemies. Re-cast: Detonates the defibrillator, dealing\
+    \ 20 / 40 / 60 / 80 ( +5% bonus HP ) magic damage to nearby enemies. If the detonation\
     \ damaged an enemy, Dr. Mundo heals for 15% of the damage taken during Heart Zapper's\
     \ duration. If it damaged a champion or monster he heals 30%\_ / 35% / 40% / 45%\
     \ instead."
@@ -44,18 +44,18 @@ abilities:
   slot: '2'
 - cooldowns:
   - 8.0
+  - 8.0
   - 7.0
   - 7.0
-  - 6.0
   costs:
   - 10.0
   - 20.0
   - 30.0
   - 40.0
-  description: 'Passive: Dr. Mundo gains 15 / 20 / 25 / 30 , plus up to 30 / 45 /
-    50 / 60 Attack Damage based on his missing health. Active: Empowers his next attack
-    to deal an addition 5 / 20 / 35 / 50 ( +5% HP ) physical damage , increased by
-    up to 60% based on Dr. Mundo''s missing heath. Dr. Mundo swats the target away
+  description: 'Passive : Dr. Mundo gains 15 / 20 / 25 / 30 , plus up to 30 / 45 /
+    50 / 60 Attack Damage based on his missing health. Active : Empowers his next
+    attack to deal an addition 5 / 20 / 35 / 50 ( +5% HP ) physical damage , increased
+    by up to 60% based on Dr. Mundo''s missing heath. Dr. Mundo swats the target away
     if it was killed or was a small monster, dealing the same damage to enemies.'
   name: Blunt Force Trauma
   slot: '3'
@@ -94,6 +94,7 @@ base_stats:
 name: Dr. Mundo
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/dr-mundo
 ---
 
@@ -101,7 +102,7 @@ source_url: https://www.wildriftfire.com/guide/dr-mundo
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 
@@ -133,15 +134,15 @@ Throws his bonesaw, dealing magic damage equal to 20% / 23% / 26% / 29% of the t
 
 **Cost:** 5.0 / 5.0 / 5.0 / 5.0
 
-Charges a defibrillator for 4 seconds, dealing 20 magic damage per second to nearby enemies. Re-cast: Detonates the defibrillator, dealing 20 / 40 / 60 / 80 ( +5% bonus HP ) magic damage to nearby enemies. If the detonation damaged an enemy, Dr. Mundo heals for 15% of the damage taken during Heart Zapper's duration. If it damaged a champion or monster he heals 30%  / 35% / 40% / 45% instead.
+Charges a defibrillator for 4 seconds, dealing 20 / 40 / 60 / 80 magic damage per second to nearby enemies. Re-cast: Detonates the defibrillator, dealing 20 / 40 / 60 / 80 ( +5% bonus HP ) magic damage to nearby enemies. If the detonation damaged an enemy, Dr. Mundo heals for 15% of the damage taken during Heart Zapper's duration. If it damaged a champion or monster he heals 30%  / 35% / 40% / 45% instead.
 
 ### [3] Blunt Force Trauma
 
-**Cooldown:** 8.0 / 7.0 / 7.0 / 6.0 seconds
+**Cooldown:** 8.0 / 8.0 / 7.0 / 7.0 seconds
 
 **Cost:** 10.0 / 20.0 / 30.0 / 40.0
 
-Passive: Dr. Mundo gains 15 / 20 / 25 / 30 , plus up to 30 / 45 / 50 / 60 Attack Damage based on his missing health. Active: Empowers his next attack to deal an addition 5 / 20 / 35 / 50 ( +5% HP ) physical damage , increased by up to 60% based on Dr. Mundo's missing heath. Dr. Mundo swats the target away if it was killed or was a small monster, dealing the same damage to enemies.
+Passive : Dr. Mundo gains 15 / 20 / 25 / 30 , plus up to 30 / 45 / 50 / 60 Attack Damage based on his missing health. Active : Empowers his next attack to deal an addition 5 / 20 / 35 / 50 ( +5% HP ) physical damage , increased by up to 60% based on Dr. Mundo's missing heath. Dr. Mundo swats the target away if it was killed or was a small monster, dealing the same damage to enemies.
 
 ### [4] Maximum Dosage
 

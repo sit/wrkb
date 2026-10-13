@@ -2,8 +2,9 @@
 abilities:
 - description: Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for
     6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 25
-    - 150 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the
-    duration. An ability grants multiple stacks upon hitting multiple champions.
+    - 150 ( +30% bonus AD ) magic damage to champions and minions on hit . Attacking
+    enemy champions refreshes the duration. An ability grants multiple stacks upon
+    hitting multiple champions.
   name: Ionian Fervor
   slot: P
 - cooldowns:
@@ -100,7 +101,6 @@ base_stats:
 name: Irelia
 roles:
 - Baron Lane
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/irelia
 ---
 
@@ -108,7 +108,7 @@ source_url: https://www.wildriftfire.com/guide/irelia
 
 ## Roles
 
-Baron Lane, Mid Lane
+Baron Lane
 
 ## Base Stats
 
@@ -126,7 +126,7 @@ Baron Lane, Mid Lane
 
 ### [P] Ionian Fervor
 
-Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 25 - 150 ( +30% AD ) magic damage on hit . Attacking enemy champions refreshes the duration. An ability grants multiple stacks upon hitting multiple champions.
+Hitting enemies with abilities grant 3% - 17% bonus Attack Speed for 6 seconds, stacking up to 4 times. At max stacks attacks deal an additional 25 - 150 ( +30% bonus AD ) magic damage to champions and minions on hit . Attacking enemy champions refreshes the duration. An ability grants multiple stacks upon hitting multiple champions.
 
 ### [1] Bladesurge
 

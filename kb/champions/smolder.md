@@ -111,7 +111,6 @@ base_stats:
 name: Smolder
 roles:
 - ADC
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/smolder
 ---
 
@@ -119,7 +118,7 @@ source_url: https://www.wildriftfire.com/guide/smolder
 
 ## Roles
 
-ADC, Mid Lane
+ADC
 
 ## Base Stats
 

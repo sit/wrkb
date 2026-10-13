@@ -1,10 +1,10 @@
 ---
 abilities:
-- description: Braum's basic attacks apply Concussive Blows. Once the first stack
-    is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks,
-    the target is stunned for 1.25 - 1.75 seconds and takes 45 magic damage . For
-    the next 8 seconds they cannot receive new stacks, but take bonus 9 magic damage
-    from Braum's attacks.
+- description: Braum's attacks apply Concussive Blows for 4 seconds. Once the first
+    stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching
+    4 stacks, the target is stunned for 1.25 - 1.75 seconds and takes 45 magic damage
+    . For the next 8 seconds they cannot receive new stacks, but take bonus 9 magic
+    damage from Braum's attacks.
   name: Concussive Blows
   slot: P
 - cooldowns:
@@ -32,8 +32,8 @@ abilities:
   - 65.0
   - 70.0
   description: Leaps to an ally. Braum and the ally gain 10 / 15 / 20 / 25 (+10% /
-    12% / 14% / 16% Armor) Armor and 10 / 15 / 20 / 25 (+10% / 12% / 14% / 16% MR)
-    Magic Resist for 3 seconds on arrival.
+    12% / 14% / 16% bonus Armor) Armor and 10 / 15 / 20 / 25 (+10% / 12% / 14% / 16%
+    bonus MR) Magic Resist for 3 seconds on arrival.
   name: Stand Behind Me
   slot: '2'
 - cooldowns:
@@ -61,9 +61,9 @@ abilities:
   - 100.0
   - 100.0
   description: Slams the ground and opens a fissure, dealing 150 / 250 / 350 ( +60%
-    AP ) magic damage and knocking up enemies for 1 second. The fissure slows enemies
-    by 40% / 50% / 60% and lasts for 4 seconds. After the first enemy champion hit,
-    subsequent enemies are knock up for 0.25 seconds.
+    AP ) magic damage and knocking up enemies for 1 / 1.25 / 1.5 second. The fissure
+    slows enemies by 40% / 50% / 60% and lasts for 4 seconds. After the first enemy
+    champion hit, subsequent enemies are knock up for 0.25 seconds.
   name: Glacial Fissure
   slot: '4'
 base_stats:
@@ -122,7 +122,7 @@ Support
 
 ### [P] Concussive Blows
 
-Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned for 1.25 - 1.75 seconds and takes 45 magic damage . For the next 8 seconds they cannot receive new stacks, but take bonus 9 magic damage from Braum's attacks.
+Braum's attacks apply Concussive Blows for 4 seconds. Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned for 1.25 - 1.75 seconds and takes 45 magic damage . For the next 8 seconds they cannot receive new stacks, but take bonus 9 magic damage from Braum's attacks.
 
 ### [1] Winter's Bite
 
@@ -138,7 +138,7 @@ Lauches ice that deals 60 / 120 / 180 / 240 ( +3% HP ) magic damage and slows th
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Leaps to an ally. Braum and the ally gain 10 / 15 / 20 / 25 (+10% / 12% / 14% / 16% Armor) Armor and 10 / 15 / 20 / 25 (+10% / 12% / 14% / 16% MR) Magic Resist for 3 seconds on arrival.
+Leaps to an ally. Braum and the ally gain 10 / 15 / 20 / 25 (+10% / 12% / 14% / 16% bonus Armor) Armor and 10 / 15 / 20 / 25 (+10% / 12% / 14% / 16% bonus MR) Magic Resist for 3 seconds on arrival.
 
 ### [3] Unbreakable
 
@@ -154,5 +154,5 @@ Raises his shield, intercepting projectiles for 4 seconds. Braum negates the fir
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Slams the ground and opens a fissure, dealing 150 / 250 / 350 ( +60% AP ) magic damage and knocking up enemies for 1 second. The fissure slows enemies by 40% / 50% / 60% and lasts for 4 seconds. After the first enemy champion hit, subsequent enemies are knock up for 0.25 seconds.
+Slams the ground and opens a fissure, dealing 150 / 250 / 350 ( +60% AP ) magic damage and knocking up enemies for 1 / 1.25 / 1.5 second. The fissure slows enemies by 40% / 50% / 60% and lasts for 4 seconds. After the first enemy champion hit, subsequent enemies are knock up for 0.25 seconds.
 

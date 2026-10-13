@@ -8,24 +8,22 @@ id: 212
 image_url: https://www.wildriftfire.com/images/items/galeforce.png
 name: Galeforce
 stats:
-- +50 Attack Damage
-- +15% Attack Speed
+- +60 Attack Damage
 - +25% Critical Strike Chance
-- +5 Movement Speed
-type: Physical
+- +4 Movement Speed
+type: Marksman
 ---
 
 # Galeforce
 
-**Type:** Physical  
+**Type:** Marksman  
 **Cost:** 3100 gold
 
 ## Stats
 
-- +50 Attack Damage
-- +15% Attack Speed
+- +60 Attack Damage
 - +25% Critical Strike Chance
-- +5 Movement Speed
+- +4 Movement Speed
 
 ## Effects
 

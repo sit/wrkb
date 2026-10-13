@@ -3,23 +3,23 @@ abilities:
 - description: Brand's abilities set enemies Ablaze , dealing 3% of their max Health
     as magic damage over 4 seconds. Stacking Ablaze 3 times on champions and large
     monsters causes them to detonate after 2 seconds, dealing 10% ( +0.02% AP ) of
-    each nearby enemy's max Health as magic damage Enemies that detonate cannot stack
-    Ablaze again within 4 seconds.
+    each nearby enemy's max Health as magic damage . Enemies that detonate cannot
+    stack Ablaze again within 4 seconds.
   name: Blaze
   slot: P
 - cooldowns:
+  - 8.0
   - 7.0
   - 7.0
-  - 6.0
   - 6.0
   costs:
   - 50.0
   - 50.0
   - 50.0
   - 50.0
-  description: Brand launches a ball of fire forward that deals 80 / 120 / 160 / 200
-    ( +55% AP ) magic damage to the first enemy it hits. If the target is ablaze,
-    the target will be stunned for 1.75 seconds.
+  description: 'Launches a fireball that deals 80 / 120 / 160 / 200 ( +55% AP ) magic
+    damage to the first enemy it hits. Blaze : Sear stuns for 1.75 seconds if the
+    target is ablaze.'
   name: Sear
   slot: '1'
 - cooldowns:
@@ -32,9 +32,9 @@ abilities:
   - 75.0
   - 85.0
   - 95.0
-  description: After a short delay, Brand creates a pillar of flame at a target area,
-    dealing 70 / 120 / 170 / 220 ( +55% AP ) magic damage to enemy units within the
-    area. Units that are ablaze take 30% additional damage.
+  description: 'After a short delay fire erupts at a location, dealing 70 / 120 /
+    170 / 220 ( +55% AP ) magic damage to enemies. Blaze : Pillar of flame deals 30%
+    more damage to enemies that are ablaze.'
   name: Pillar of Flame
   slot: '2'
 - cooldowns:
@@ -47,9 +47,8 @@ abilities:
   - 70.0
   - 75.0
   - 80.0
-  description: Brand sets the target enemy aflame which also spreads to all enemies
-    near them, dealing 60 / 90 / 120 / 150 ( +45% AP ) magic damage . When a target
-    is ablaze, Conflagration's spread radius is doubled.
+  description: 'Ignites enemies near the target, dealing 60 / 90 / 120 / 150 ( +45%
+    AP ) magic damage . Blaze : Conflagration spreads farther if the target is ablaze.'
   name: Conflagration
   slot: '3'
 - cooldowns:
@@ -123,15 +122,15 @@ Mid Lane, Support
 
 ### [P] Blaze
 
-Brand's abilities set enemies Ablaze , dealing 3% of their max Health as magic damage over 4 seconds. Stacking Ablaze 3 times on champions and large monsters causes them to detonate after 2 seconds, dealing 10% ( +0.02% AP ) of each nearby enemy's max Health as magic damage Enemies that detonate cannot stack Ablaze again within 4 seconds.
+Brand's abilities set enemies Ablaze , dealing 3% of their max Health as magic damage over 4 seconds. Stacking Ablaze 3 times on champions and large monsters causes them to detonate after 2 seconds, dealing 10% ( +0.02% AP ) of each nearby enemy's max Health as magic damage . Enemies that detonate cannot stack Ablaze again within 4 seconds.
 
 ### [1] Sear
 
-**Cooldown:** 7.0 / 7.0 / 6.0 / 6.0 seconds
+**Cooldown:** 8.0 / 7.0 / 7.0 / 6.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Brand launches a ball of fire forward that deals 80 / 120 / 160 / 200 ( +55% AP ) magic damage to the first enemy it hits. If the target is ablaze, the target will be stunned for 1.75 seconds.
+Launches a fireball that deals 80 / 120 / 160 / 200 ( +55% AP ) magic damage to the first enemy it hits. Blaze : Sear stuns for 1.75 seconds if the target is ablaze.
 
 ### [2] Pillar of Flame
 
@@ -139,7 +138,7 @@ Brand launches a ball of fire forward that deals 80 / 120 / 160 / 200 ( +55% AP 
 
 **Cost:** 65.0 / 75.0 / 85.0 / 95.0
 
-After a short delay, Brand creates a pillar of flame at a target area, dealing 70 / 120 / 170 / 220 ( +55% AP ) magic damage to enemy units within the area. Units that are ablaze take 30% additional damage.
+After a short delay fire erupts at a location, dealing 70 / 120 / 170 / 220 ( +55% AP ) magic damage to enemies. Blaze : Pillar of flame deals 30% more damage to enemies that are ablaze.
 
 ### [3] Conflagration
 
@@ -147,7 +146,7 @@ After a short delay, Brand creates a pillar of flame at a target area, dealing 7
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Brand sets the target enemy aflame which also spreads to all enemies near them, dealing 60 / 90 / 120 / 150 ( +45% AP ) magic damage . When a target is ablaze, Conflagration's spread radius is doubled.
+Ignites enemies near the target, dealing 60 / 90 / 120 / 150 ( +45% AP ) magic damage . Blaze : Conflagration spreads farther if the target is ablaze.
 
 ### [4] Pyroclasm
 

@@ -33,10 +33,10 @@ abilities:
   - 50.0
   - 50.0
   description: 'Safeguard : Dashes to target location. If an enemy is nearby on arrival,
-    Lee Sin shield himself for 80 / 140 / 200 / 260 ( +100% AP ) for 2 seconds. Allows
+    Lee Sin shield himself for 100 / 160 / 220 / 280 ( +100% AP ) for 2 seconds. Allows
     Iron Will to be cast within 3 seconds. Safeguard''s cooldown is reduced by 0.5
     seconds with each attack. Iron Will : Empowers next two attacks to deal an additional
-    26 / 39 / 52 / 65 ( +40% AP ) magic damage and gain 16% / 24% / 32% / 40% Omnivamp
+    26 / 39 / 52 / 65 ( +40% AP ) magic damage and gain 20% / 30% / 40% / 50% Omnivamp
     .'
   name: Safeguard / Iron Will
   slot: '2'
@@ -140,7 +140,7 @@ Sonic Wave : Fires an energy wave that deals 60 / 100 / 140 / 180 ( +90% AD ) ph
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Safeguard : Dashes to target location. If an enemy is nearby on arrival, Lee Sin shield himself for 80 / 140 / 200 / 260 ( +100% AP ) for 2 seconds. Allows Iron Will to be cast within 3 seconds. Safeguard's cooldown is reduced by 0.5 seconds with each attack. Iron Will : Empowers next two attacks to deal an additional 26 / 39 / 52 / 65 ( +40% AP ) magic damage and gain 16% / 24% / 32% / 40% Omnivamp .
+Safeguard : Dashes to target location. If an enemy is nearby on arrival, Lee Sin shield himself for 100 / 160 / 220 / 280 ( +100% AP ) for 2 seconds. Allows Iron Will to be cast within 3 seconds. Safeguard's cooldown is reduced by 0.5 seconds with each attack. Iron Will : Empowers next two attacks to deal an additional 26 / 39 / 52 / 65 ( +40% AP ) magic damage and gain 20% / 30% / 40% / 50% Omnivamp .
 
 ### [3] Tempest / Cripple
 

@@ -1,29 +1,29 @@
 ---
 cost: 2800
 effects:
-- 'UNIQUE - At Wit''s End: Basic attacks deal 10 - 55 (based on level) bonus magic
-  damage on-hit. While below 50% health, dealing damage to an enemy champion heals
-  you for (Melee:100% / Ranged: 66%) of this effect''s post-mitigation damage.'
+- "+20% Tenacity.\n\r\nAT WIT'S END: Basic attacks deal 40 bonus magic damage on hit."
 id: 121
 image_url: https://www.wildriftfire.com/images/items/wits-end.png
 name: Wit's End
 stats:
 - +45 Magic Resist
-- +45% Attack Speed
-type: Physical
+- +50% Attack Speed
+type: Marksman
 ---
 
 # Wit's End
 
-**Type:** Physical  
+**Type:** Marksman  
 **Cost:** 2800 gold
 
 ## Stats
 
 - +45 Magic Resist
-- +45% Attack Speed
+- +50% Attack Speed
 
 ## Effects
 
-UNIQUE - At Wit's End: Basic attacks deal 10 - 55 (based on level) bonus magic damage on-hit. While below 50% health, dealing damage to an enemy champion heals you for (Melee:100% / Ranged: 66%) of this effect's post-mitigation damage.
++20% Tenacity.
+
+AT WIT'S END: Basic attacks deal 40 bonus magic damage on hit.
 

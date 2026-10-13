@@ -11,12 +11,12 @@ stats:
 - +75 Ability Power
 - +20 Ability Haste
 - +30% Magic Penetration
-type: Magic
+type: Magic,Support
 ---
 
 # Cryptbloom
 
-**Type:** Magic  
+**Type:** Magic,Support  
 **Cost:** 3000 gold
 
 ## Stats

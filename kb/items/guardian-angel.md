@@ -9,12 +9,12 @@ name: Guardian Angel
 stats:
 - +40 Armor
 - +45 Attack Damage
-type: Defense
+type: Defense,Assassin,Marksman,Fighter
 ---
 
 # Guardian Angel
 
-**Type:** Defense  
+**Type:** Defense,Assassin,Marksman,Fighter  
 **Cost:** 3200 gold
 
 ## Stats

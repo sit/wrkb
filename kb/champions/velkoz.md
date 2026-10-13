@@ -101,6 +101,7 @@ base_stats:
 name: Vel'Koz
 roles:
 - Mid Lane
+- Support
 source_url: https://www.wildriftfire.com/guide/velkoz
 ---
 
@@ -108,7 +109,7 @@ source_url: https://www.wildriftfire.com/guide/velkoz
 
 ## Roles
 
-Mid Lane
+Mid Lane, Support
 
 ## Base Stats
 

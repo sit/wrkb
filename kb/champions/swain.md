@@ -1,8 +1,8 @@
 ---
 abilities:
 - description: Swain collects Soul Fragments when Visions of Empire and Nevermore
-    hit enemy champions, and also when they die. Soul Fragments heal for 3% / 3.5%
-    / 4% / 4.5% ( +0.5% AP ) health and provide 16 maximum health .
+    hit enemy champions, and also when they die. Soul Fragments heal for 4.5% / 5%
+    / 5.5% / 6% ( +0.2% AP ) health and provide 16 maximum health .
   name: Ravenous Flock
   slot: P
 - cooldowns:
@@ -50,9 +50,9 @@ abilities:
   - 60.0
   description: 'Swain launches a demonic wave that deals 35 / 85 / 135 / 185 ( +25%
     AP ) magic damage to enemies along the way, then turns back after reaching the
-    furthest distance, dealing 35 / 50 / 6+5 / 80 ( +25% AP ) magic daamge to the
-    area and rooting enemies withing the area for 1.5 seconds. Recast : Swain pulls
-    the rooted champions to himself and collets 1 Soul Fragment from targets.'
+    furthest distance, dealing 35 / 50 / 6+5 / 80 ( +40% AP ) magic damge to the area
+    and rooting enemies within the area for 1.5 seconds. Recast : Swain pulls the
+    rooted champions to himself and collets 1 Soul Fragment from targets.'
   name: Nevermove
   slot: '3'
 - cooldowns:
@@ -63,8 +63,8 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: 'Swain frees the demon, dealing 10 / 25 / 45 ( +15% AP ) magic damage
-    per second to enemies within his range and restoring 20 / 30 / 40 ( +20% AP )
+  description: 'Swain frees the demon, dealing 15 / 25 / 35 ( +6% AP ) magic damage
+    per second to enemies within his range and restoring 15 / 30 / 45 ( +10% AP )
     health to himself. Recast: Can be cast again after 2 seconds of Demonic Ascension,
     dealing damage and slowing enemies. Non-champions units will restore 10% health
     . Demon Ascension is controlled by Demon Energy, which depletes over time, and
@@ -103,7 +103,6 @@ base_stats:
 name: Swain
 roles:
 - Mid Lane
-- Support
 source_url: https://www.wildriftfire.com/guide/swain
 ---
 
@@ -111,7 +110,7 @@ source_url: https://www.wildriftfire.com/guide/swain
 
 ## Roles
 
-Mid Lane, Support
+Mid Lane
 
 ## Base Stats
 
@@ -129,7 +128,7 @@ Mid Lane, Support
 
 ### [P] Ravenous Flock
 
-Swain collects Soul Fragments when Visions of Empire and Nevermore hit enemy champions, and also when they die. Soul Fragments heal for 3% / 3.5% / 4% / 4.5% ( +0.5% AP ) health and provide 16 maximum health .
+Swain collects Soul Fragments when Visions of Empire and Nevermore hit enemy champions, and also when they die. Soul Fragments heal for 4.5% / 5% / 5.5% / 6% ( +0.2% AP ) health and provide 16 maximum health .
 
 ### [1] Death's Hand
 
@@ -153,7 +152,7 @@ Swain summons a demonic eye that explodes after a short delay, dealing 80 / 130 
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Swain launches a demonic wave that deals 35 / 85 / 135 / 185 ( +25% AP ) magic damage to enemies along the way, then turns back after reaching the furthest distance, dealing 35 / 50 / 6+5 / 80 ( +25% AP ) magic daamge to the area and rooting enemies withing the area for 1.5 seconds. Recast : Swain pulls the rooted champions to himself and collets 1 Soul Fragment from targets.
+Swain launches a demonic wave that deals 35 / 85 / 135 / 185 ( +25% AP ) magic damage to enemies along the way, then turns back after reaching the furthest distance, dealing 35 / 50 / 6+5 / 80 ( +40% AP ) magic damge to the area and rooting enemies within the area for 1.5 seconds. Recast : Swain pulls the rooted champions to himself and collets 1 Soul Fragment from targets.
 
 ### [4] Demonic Ascension
 
@@ -161,5 +160,5 @@ Swain launches a demonic wave that deals 35 / 85 / 135 / 185 ( +25% AP ) magic d
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Swain frees the demon, dealing 10 / 25 / 45 ( +15% AP ) magic damage per second to enemies within his range and restoring 20 / 30 / 40 ( +20% AP ) health to himself. Recast: Can be cast again after 2 seconds of Demonic Ascension, dealing damage and slowing enemies. Non-champions units will restore 10% health . Demon Ascension is controlled by Demon Energy, which depletes over time, and can be recharged indefinitely by draining enemy Champions. Champion takedowns fully restore Demon Energy. Cooldown between two Demonflare: 6 seconds
+Swain frees the demon, dealing 15 / 25 / 35 ( +6% AP ) magic damage per second to enemies within his range and restoring 15 / 30 / 45 ( +10% AP ) health to himself. Recast: Can be cast again after 2 seconds of Demonic Ascension, dealing damage and slowing enemies. Non-champions units will restore 10% health . Demon Ascension is controlled by Demon Energy, which depletes over time, and can be recharged indefinitely by draining enemy Champions. Champion takedowns fully restore Demon Energy. Cooldown between two Demonflare: 6 seconds
 

@@ -1,7 +1,7 @@
 ---
 abilities:
-- description: The first attack against an enemy deals 8% physical damage of their
-    curren Health (5 second cooldown per unique enemy).
+- description: The first attack against an enemy deals bonus 8% physical damage of
+    their current Health ( 5 second cooldown per unique enemy).
   name: Martial Cadence
   slot: P
 - cooldowns:
@@ -14,10 +14,11 @@ abilities:
   - 55.0
   - 60.0
   - 65.0
-  description: Extens Jarvan IV's lance, dealing 80 / 140 / 200 / 260 ( +130% bonus
-    AD ) physical damage and reducing the Armor of enemies hit by 10% for 3 seconds.
-    If the lance contacts a Demacian Standard it will pull Jarvan IV to the Demacian
-    Standard's location, knocking up enemies in his path for 0.75 seconds.
+  description: Extends Jarvan IV's lance, dealing 80 / 140 / 200 / 260 ( +130% bonus
+    AD ) physical damage and reducing the Armor of enemies hit by 10% / 15% / 20%
+    / 25% for 3 seconds. If the lance contacts a Demacian Standard it will pull Jarvan
+    IV to the Demacian Standard's location, knocking up enemies in his path for 0.75
+    seconds.
   name: Dragon Strike
   slot: '1'
 - cooldowns:
@@ -40,13 +41,13 @@ abilities:
   - 11.0
   - 11.0
   - 10.0
-  - 9.0
+  - 10.0
   costs:
   - 55.0
   - 55.0
   - 55.0
   - 55.0
-  description: 'Passive : Gains 25% / 30% / 33% / 40% Attack Speed. Active : Throws
+  description: 'Passive : Gains 25% / 30% / 35% / 40% Attack Speed. Active : Throws
     a Demacian Standard that deals 85 / 140 / 195 / 250 ( +80% AP ) magic damage and
     remains in place for 8 seconds, granting nearby ally champions 30% / 35% / 40%
     / 45% Attack Speed . Tapping this ability while near a Demacian Standard will
@@ -124,7 +125,7 @@ Jungle
 
 ### [P] Martial Cadence
 
-The first attack against an enemy deals 8% physical damage of their curren Health (5 second cooldown per unique enemy).
+The first attack against an enemy deals bonus 8% physical damage of their current Health ( 5 second cooldown per unique enemy).
 
 ### [1] Dragon Strike
 
@@ -132,7 +133,7 @@ The first attack against an enemy deals 8% physical damage of their curren Healt
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 
-Extens Jarvan IV's lance, dealing 80 / 140 / 200 / 260 ( +130% bonus AD ) physical damage and reducing the Armor of enemies hit by 10% for 3 seconds. If the lance contacts a Demacian Standard it will pull Jarvan IV to the Demacian Standard's location, knocking up enemies in his path for 0.75 seconds.
+Extends Jarvan IV's lance, dealing 80 / 140 / 200 / 260 ( +130% bonus AD ) physical damage and reducing the Armor of enemies hit by 10% / 15% / 20% / 25% for 3 seconds. If the lance contacts a Demacian Standard it will pull Jarvan IV to the Demacian Standard's location, knocking up enemies in his path for 0.75 seconds.
 
 ### [2] Golden Aegis
 
@@ -144,11 +145,11 @@ Unleashes a regal aura that slows nearby enemies by 30% / 35% / 40% / 45% for 2 
 
 ### [3] Demacian Standard
 
-**Cooldown:** 11.0 / 11.0 / 10.0 / 9.0 seconds
+**Cooldown:** 11.0 / 11.0 / 10.0 / 10.0 seconds
 
 **Cost:** 55.0 / 55.0 / 55.0 / 55.0
 
-Passive : Gains 25% / 30% / 33% / 40% Attack Speed. Active : Throws a Demacian Standard that deals 85 / 140 / 195 / 250 ( +80% AP ) magic damage and remains in place for 8 seconds, granting nearby ally champions 30% / 35% / 40% / 45% Attack Speed . Tapping this ability while near a Demacian Standard will cast Dragon Strike towards it.
+Passive : Gains 25% / 30% / 35% / 40% Attack Speed. Active : Throws a Demacian Standard that deals 85 / 140 / 195 / 250 ( +80% AP ) magic damage and remains in place for 8 seconds, granting nearby ally champions 30% / 35% / 40% / 45% Attack Speed . Tapping this ability while near a Demacian Standard will cast Dragon Strike towards it.
 
 ### [4] Cataclysm
 

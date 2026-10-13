@@ -12,12 +12,12 @@ stats:
 - +40 Attack Damage
 - +8 Physical Vamp
 - +15 Ability Haste
-type: Physical
+type: Fighter
 ---
 
 # Goredrinker
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 3100 gold
 
 ## Stats

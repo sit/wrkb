@@ -1,5 +1,5 @@
 ---
-description: 'When you destroy a plant, gain 30 gold and empowered plant effects.Honeyfruit:
+description: 'When you destroy a plant, gain 10 gold and empowered plant effects.Honeyfruit:
   Heal is increased by 20% when consumed.Scryer''s Bloom: Vision granted lasts 20%
   longer when destroyed.Blast Cone: Gain 40% Movement Speed for 2.5 seconds after
   the knockback.'
@@ -17,5 +17,5 @@ type: Minor
 
 ## Description
 
-When you destroy a plant, gain 30 gold and empowered plant effects.Honeyfruit: Heal is increased by 20% when consumed.Scryer's Bloom: Vision granted lasts 20% longer when destroyed.Blast Cone: Gain 40% Movement Speed for 2.5 seconds after the knockback.
+When you destroy a plant, gain 10 gold and empowered plant effects.Honeyfruit: Heal is increased by 20% when consumed.Scryer's Bloom: Vision granted lasts 20% longer when destroyed.Blast Cone: Gain 40% Movement Speed for 2.5 seconds after the knockback.
 

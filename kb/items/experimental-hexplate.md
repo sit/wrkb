@@ -11,12 +11,12 @@ stats:
 - +400 Health
 - +35 Attack Damage
 - +20% Attack Speed
-type: Physical
+type: Fighter
 ---
 
 # Experimental Hexplate
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 3000 gold
 
 ## Stats

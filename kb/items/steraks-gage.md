@@ -1,23 +1,22 @@
 ---
-cost: 3000
+cost: 3200
 effects:
-- "UNIQUE - STERAK'S FURY: Triggering LIFELINE increases size and grants 30% Tenacity\
-  \ for 3 seconds.\n\r\nUNIQUE - LIFELINE: If you would take damage that would reduce\
-  \ maximum health below 35%, you first gain a shield that absorbs 75% of your bonus\
-  \ health that decays over 3 seconds. (75 second cooldown)\n\r\nCan only be purchased\
-  \ on melee champions."
+- "+20% Tenacity\r\nUNIQUE - Heavy Handed: +50% base Attack Damage as bonus Attack\
+  \ Damage.\r\nUNIQUE - Lifeline: Damage that puts you under 35% Health grants a shield\
+  \ equal to 75% bonus Health that decays over 5 seconds. (70 second cooldown)\r\n\
+  UNIQUE - Sterak's Fury: Triggering Lifeline increases size for 8 seconds."
 id: 84
 image_url: https://www.wildriftfire.com/images/items/steraks-gage.png
 name: Sterak's Gage
 stats:
 - +400 Health
-type: Defense
+type: Defense,Fighter
 ---
 
 # Sterak's Gage
 
-**Type:** Defense  
-**Cost:** 3000 gold
+**Type:** Defense,Fighter  
+**Cost:** 3200 gold
 
 ## Stats
 
@@ -25,9 +24,8 @@ type: Defense
 
 ## Effects
 
-UNIQUE - STERAK'S FURY: Triggering LIFELINE increases size and grants 30% Tenacity for 3 seconds.
-
-UNIQUE - LIFELINE: If you would take damage that would reduce maximum health below 35%, you first gain a shield that absorbs 75% of your bonus health that decays over 3 seconds. (75 second cooldown)
-
-Can only be purchased on melee champions.
++20% Tenacity
+UNIQUE - Heavy Handed: +50% base Attack Damage as bonus Attack Damage.
+UNIQUE - Lifeline: Damage that puts you under 35% Health grants a shield equal to 75% bonus Health that decays over 5 seconds. (70 second cooldown)
+UNIQUE - Sterak's Fury: Triggering Lifeline increases size for 8 seconds.
 

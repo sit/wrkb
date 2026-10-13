@@ -14,7 +14,7 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: 'Passive : Gains 35% of current Critical Strike Chance as Armor Pen
+  description: 'Passive : Gains 28% of current Critical Strike Chance as Armor Pen
     Rate . Nilah cracks her whip-blade in a straight line, dealing 10 / 15 / 20 /
     25 ( +90% / 100% / 110% / 120% AD ) physical damage to enemies hit along the way.
     Every 1% Critical Rate increases damage by 1% . After Formless Blade hits an enemy,
@@ -68,7 +68,7 @@ abilities:
   - 80.0
   - 80.0
   - 80.0
-  description: Nilah whirls her whip-blade, dealing 60 / 120 / 180 ( +140% AD ) physical
+  description: Nilah whirls her whip-blade, dealing 60 / 110 / 160 ( +50% AD ) physical
     damage continuously over 1 second and reducing the enemy's Movement Speed by 10%
     for 3 seconds. When keeping her whip-blade, Nilah also deals 125 / 225 / 325 (
     +120% AD ) physical damage and pulls nearby enemies toward her. Nilah also heals
@@ -141,7 +141,7 @@ After an attack crits, Nilah heals herself for 20% of the damage dealt. Excess h
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Passive : Gains 35% of current Critical Strike Chance as Armor Pen Rate . Nilah cracks her whip-blade in a straight line, dealing 10 / 15 / 20 / 25 ( +90% / 100% / 110% / 120% AD ) physical damage to enemies hit along the way. Every 1% Critical Rate increases damage by 1% . After Formless Blade hits an enemy, Nilah gains 14% Attack Speed and 125 bonus Attack Range. Her attacks also deal 100% physical damage to enemies in a cone for 4 seconds. Damage against non-champion units is reduced by 80%. When Formless Blade is cast during Slipstream , Nilah leaves behind a wave that is sent towards her, dealing an equivalent amount of damage to all enemies hit. Damage ratio of Formless Blade to monsters: 25% .
+Passive : Gains 28% of current Critical Strike Chance as Armor Pen Rate . Nilah cracks her whip-blade in a straight line, dealing 10 / 15 / 20 / 25 ( +90% / 100% / 110% / 120% AD ) physical damage to enemies hit along the way. Every 1% Critical Rate increases damage by 1% . After Formless Blade hits an enemy, Nilah gains 14% Attack Speed and 125 bonus Attack Range. Her attacks also deal 100% physical damage to enemies in a cone for 4 seconds. Damage against non-champion units is reduced by 80%. When Formless Blade is cast during Slipstream , Nilah leaves behind a wave that is sent towards her, dealing an equivalent amount of damage to all enemies hit. Damage ratio of Formless Blade to monsters: 25% .
 
 ### [2] Jubilant Veil
 
@@ -165,5 +165,5 @@ Nilah dashes forward for a fixed distance, dealing 70 / 100 / 130 / 160 ( +20% A
 
 **Cost:** 80.0 / 80.0 / 80.0
 
-Nilah whirls her whip-blade, dealing 60 / 120 / 180 ( +140% AD ) physical damage continuously over 1 second and reducing the enemy's Movement Speed by 10% for 3 seconds. When keeping her whip-blade, Nilah also deals 125 / 225 / 325 ( +120% AD ) physical damage and pulls nearby enemies toward her. Nilah also heals herself and nearby allied champions by 20% ( +30% Crit ) of the damage that she dealt to enemy champions. Excess healing is converted into a shield that lasts 6 seconds. Non-champion units are healed by 10% instead.
+Nilah whirls her whip-blade, dealing 60 / 110 / 160 ( +50% AD ) physical damage continuously over 1 second and reducing the enemy's Movement Speed by 10% for 3 seconds. When keeping her whip-blade, Nilah also deals 125 / 225 / 325 ( +120% AD ) physical damage and pulls nearby enemies toward her. Nilah also heals herself and nearby allied champions by 20% ( +30% Crit ) of the damage that she dealt to enemy champions. Excess healing is converted into a shield that lasts 6 seconds. Non-champion units are healed by 10% instead.
 

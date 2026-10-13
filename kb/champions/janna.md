@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Passively gain 5 % Movement Speed . Nearby allied champions also gain
+- description: Passively gain 5% Movement Speed . Nearby allied champions also gain
     this bonus.
   name: Tailwind
   slot: P
@@ -46,8 +46,8 @@ abilities:
   - 80.0
   - 90.0
   - 100.0
-  description: Blesses herself and the allied champion with the lowers Hp with a shield
-    that absorbs 65 / 90 / 115 / 140 ( +45% AP ) damage and grants 10 / 20 / 30 /
+  description: Blesses herself and the allied champion with the lowest HP with a shield
+    that absorbs 80 / 120 / 160 / 200 ( +50% AP ) damage and grants 10 / 20 / 30 /
     40 ( +10% AP ) Attack Damage while it holds. Lasts for 3 seconds. If there is
     a turret within range, applies a shield to the turret as well.
   name: Eye Of The Storm
@@ -121,7 +121,7 @@ Support
 
 ### [P] Tailwind
 
-Passively gain 5 % Movement Speed . Nearby allied champions also gain this bonus.
+Passively gain 5% Movement Speed . Nearby allied champions also gain this bonus.
 
 ### [1] Howling Gale
 
@@ -145,7 +145,7 @@ Gains 10% / 15% / 20% / 25% Movement Speed for 2 seconds. The wind spirit automa
 
 **Cost:** 70.0 / 80.0 / 90.0 / 100.0
 
-Blesses herself and the allied champion with the lowers Hp with a shield that absorbs 65 / 90 / 115 / 140 ( +45% AP ) damage and grants 10 / 20 / 30 / 40 ( +10% AP ) Attack Damage while it holds. Lasts for 3 seconds. If there is a turret within range, applies a shield to the turret as well.
+Blesses herself and the allied champion with the lowest HP with a shield that absorbs 80 / 120 / 160 / 200 ( +50% AP ) damage and grants 10 / 20 / 30 / 40 ( +10% AP ) Attack Damage while it holds. Lasts for 3 seconds. If there is a turret within range, applies a shield to the turret as well.
 
 ### [4] Monsoon
 

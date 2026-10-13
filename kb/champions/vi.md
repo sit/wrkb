@@ -17,10 +17,10 @@ abilities:
   - 80.0
   description: 'Hold : Charges up a powerful punch, slowing Movement Speed by 15%
     while increasing the punch''s damage and dash distance. Cast: Dashes forward dealing
-    60 / 95 / 130 / 165 ( +80% AD ) to 120 / 190 / 260 / 330 ( +160% AD ) physical
-    damage and applying Denting Blows to all enemies hit. Colliding with an enemy
-    champion stops the punch and knocks them back. Deals 75% damage to minions and
-    monsters.'
+    60 / 95 / 130 / 165 ( +60% bonus AD ) to 120 / 190 / 260 / 330 ( +120% bonus AD
+    ) physical damage and applying Denting Blows to all enemies hit. Colliding with
+    an enemy champion stops the punch and knocks them back. Deals 75% damage to minions
+    and monsters.'
   name: Vault Breaker
   slot: '1'
 - cooldowns:
@@ -56,9 +56,9 @@ abilities:
   name: Excessive Force
   slot: '3'
 - cooldowns:
+  - 80.0
+  - 70.0
   - 60.0
-  - 55.0
-  - 50.0
   costs:
   - 100.0
   - 100.0
@@ -133,7 +133,7 @@ Every 3rd attack on the same enemy deals 4.8% - 9% ( +0.03% AD ) bonus physical 
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Hold : Charges up a powerful punch, slowing Movement Speed by 15% while increasing the punch's damage and dash distance. Cast: Dashes forward dealing 60 / 95 / 130 / 165 ( +80% AD ) to 120 / 190 / 260 / 330 ( +160% AD ) physical damage and applying Denting Blows to all enemies hit. Colliding with an enemy champion stops the punch and knocks them back. Deals 75% damage to minions and monsters.
+Hold : Charges up a powerful punch, slowing Movement Speed by 15% while increasing the punch's damage and dash distance. Cast: Dashes forward dealing 60 / 95 / 130 / 165 ( +60% bonus AD ) to 120 / 190 / 260 / 330 ( +120% bonus AD ) physical damage and applying Denting Blows to all enemies hit. Colliding with an enemy champion stops the punch and knocks them back. Deals 75% damage to minions and monsters.
 
 ### [2] Blast Shield
 
@@ -153,7 +153,7 @@ Empowers Vi's next attack to deal 20 / 45 / 70 / 95 ( +15% AD +70% AP ) bonus ph
 
 ### [4] Assault and Battery
 
-**Cooldown:** 60.0 / 55.0 / 50.0 seconds
+**Cooldown:** 80.0 / 70.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

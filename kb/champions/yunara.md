@@ -1,7 +1,6 @@
 ---
 abilities:
-- description: Critical Strikes deal an additional 10% (per 100 AP ) magic damage
-    .
+- description: Critical Strikes deal an additional 8% (per 100 AP ) magic damage .
   name: Vow of the First Lands
   slot: P
 - cooldowns:
@@ -17,7 +16,7 @@ abilities:
     / 25 ( +20% AP ) magic damage ; When not active, launching an attack grants 1
     Unleash. Attacking again refreshes Unleash''s duration. Max Unleash is 6. If the
     duration is not refreshed, Yunara loses 1 Unleash every 0.5 seconds. Spirit Unbound
-    (Active) : On cast, consumes Unleash, gaining 22% / 35% / 47% / 60% Attack Speed
+    (Active) : On cast, consumes Unleash, gaining 25% / 35% / 45% / 55% Attack Speed
     for 5 seconds. Attacks are empowered during this time to: Deal an additional 10
     / 15 / 20 / 25 ( +20% AP ) magic damage on-hit; Spread to enemies nearby the target,
     dealing them 18 ( 30% AD ) physical damage . Transcendent State : This ability
@@ -140,7 +139,7 @@ ADC
 
 ### [P] Vow of the First Lands
 
-Critical Strikes deal an additional 10% (per 100 AP ) magic damage .
+Critical Strikes deal an additional 8% (per 100 AP ) magic damage .
 
 ### [1] Cultivation of Spirit
 
@@ -148,7 +147,7 @@ Critical Strikes deal an additional 10% (per 100 AP ) magic damage .
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-S pirit Charge (Passive) : Attacks deal an additional 10 / 15 / 20 / 25 ( +20% AP ) magic damage ; When not active, launching an attack grants 1 Unleash. Attacking again refreshes Unleash's duration. Max Unleash is 6. If the duration is not refreshed, Yunara loses 1 Unleash every 0.5 seconds. Spirit Unbound (Active) : On cast, consumes Unleash, gaining 22% / 35% / 47% / 60% Attack Speed for 5 seconds. Attacks are empowered during this time to: Deal an additional 10 / 15 / 20 / 25 ( +20% AP ) magic damage on-hit; Spread to enemies nearby the target, dealing them 18 ( 30% AD ) physical damage . Transcendent State : This ability automatically activates until Yunara exits the state. If the attack Critically Strikes, its spread damage will also Critically Strike. Damage from spread attacks is increased to 250% against minions below 30% Health.
+S pirit Charge (Passive) : Attacks deal an additional 10 / 15 / 20 / 25 ( +20% AP ) magic damage ; When not active, launching an attack grants 1 Unleash. Attacking again refreshes Unleash's duration. Max Unleash is 6. If the duration is not refreshed, Yunara loses 1 Unleash every 0.5 seconds. Spirit Unbound (Active) : On cast, consumes Unleash, gaining 25% / 35% / 45% / 55% Attack Speed for 5 seconds. Attacks are empowered during this time to: Deal an additional 10 / 15 / 20 / 25 ( +20% AP ) magic damage on-hit; Spread to enemies nearby the target, dealing them 18 ( 30% AD ) physical damage . Transcendent State : This ability automatically activates until Yunara exits the state. If the attack Critically Strikes, its spread damage will also Critically Strike. Damage from spread attacks is increased to 250% against minions below 30% Health.
 
 ### [2] Arc of Judgment / Arc of Ruin
 

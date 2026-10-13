@@ -34,7 +34,7 @@ abilities:
   - 50.0
   - 65.0
   - 80.0
-  description: Deals 70 / 110 / 150 / 190 ( + 65% AP + 4% bonus Mana ) magic damage
+  description: Deals 50 / 90 / 130 / 170 ( + 55% AP + 3% bonus Mana ) magic damage
     and slows by 50% for 1.5 seconds. If the target has Flux, it is consumed, and
     Rune Prison roots instead of slowing.
   name: Rune Prison
@@ -73,7 +73,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '40'
+    base: '37'
     growth: '5'
   Attack Dmg.:
     base: '54'
@@ -82,7 +82,7 @@ base_stats:
     base: '0.75'
     growth: '0.0000'
   Health:
-    base: '660'
+    base: '630'
     growth: '101'
   Health Reg. (5s):
     base: '12'
@@ -102,7 +102,6 @@ base_stats:
 name: Ryze
 roles:
 - Mid Lane
-- Baron Lane
 source_url: https://www.wildriftfire.com/guide/ryze
 ---
 
@@ -110,15 +109,15 @@ source_url: https://www.wildriftfire.com/guide/ryze
 
 ## Roles
 
-Mid Lane, Baron Lane
+Mid Lane
 
 ## Base Stats
 
-- Health: 660 (+101 per level)
+- Health: 630 (+101 per level)
 - Health Reg. (5s): 12 (+1 per level)
 - Mana: 340 (+45 per level)
 - Mana Reg. (5s): 10 (+1 per level)
-- Armor: 40 (+5 per level)
+- Armor: 37 (+5 per level)
 - Magic Res.: 40 (+2 per level)
 - Move Speed: 360 (+0 per level)
 - Attack Dmg.: 54 (+3 per level)
@@ -144,7 +143,7 @@ Passive : Rune Prison and Spell Flux refresh overload's cooldown and charge a ru
 
 **Cost:** 35.0 / 50.0 / 65.0 / 80.0
 
-Deals 70 / 110 / 150 / 190 ( + 65% AP + 4% bonus Mana ) magic damage and slows by 50% for 1.5 seconds. If the target has Flux, it is consumed, and Rune Prison roots instead of slowing.
+Deals 50 / 90 / 130 / 170 ( + 55% AP + 3% bonus Mana ) magic damage and slows by 50% for 1.5 seconds. If the target has Flux, it is consumed, and Rune Prison roots instead of slowing.
 
 ### [3] Spell Flux
 

@@ -13,12 +13,12 @@ stats:
 - +30 Attack Damage
 - +25% Attack Speed
 - +25% Critical Strike Chance
-type: Physical
+type: ''
 ---
 
 # Magnetic Blaster
 
-**Type:** Physical  
+**Type:**   
 **Cost:** 3000 gold
 
 ## Stats

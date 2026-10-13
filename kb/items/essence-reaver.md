@@ -2,28 +2,27 @@
 cost: 3000
 effects:
 - "UNIQUE - Mana Siphon: Attacks restore 3% missing Mana on-hit.\n\r\nUNIQUE - Spellblade:\
-  \ Casting an ability generates a Spellblade charge (max 2 charges) that lasts up\
-  \ to 10s. Hitting an enemy with an attack consumes a charge, dealing 70% base Attack\
-  \ Damage as physical damage and granting 40 Movement Speed for 2s, This Bonus damage\
-  \ can Critically Strike. Each ability generates only one charge per 2s."
+  \ After casting an ability, your next basic attack within 10 seconds deals bonus\
+  \ physical damage equal to 135% \xD7 base Attack Damage + 0 - 80 (Based on Critical\
+  \ Rate) and restores Mana equal to 50% of the damage dealt. (1.5 second cooldown)"
 id: 113
 image_url: https://www.wildriftfire.com/images/items/essence-reaver.png
 name: Essence Reaver
 stats:
-- +40 Attack Damage
+- +50 Attack Damage
 - +25% Critical Strike Chance
 - +20 Ability Haste
-type: Physical
+type: Marksman
 ---
 
 # Essence Reaver
 
-**Type:** Physical  
+**Type:** Marksman  
 **Cost:** 3000 gold
 
 ## Stats
 
-- +40 Attack Damage
+- +50 Attack Damage
 - +25% Critical Strike Chance
 - +20 Ability Haste
 
@@ -31,5 +30,5 @@ type: Physical
 
 UNIQUE - Mana Siphon: Attacks restore 3% missing Mana on-hit.
 
-UNIQUE - Spellblade: Casting an ability generates a Spellblade charge (max 2 charges) that lasts up to 10s. Hitting an enemy with an attack consumes a charge, dealing 70% base Attack Damage as physical damage and granting 40 Movement Speed for 2s, This Bonus damage can Critically Strike. Each ability generates only one charge per 2s.
+UNIQUE - Spellblade: After casting an ability, your next basic attack within 10 seconds deals bonus physical damage equal to 135% × base Attack Damage + 0 - 80 (Based on Critical Rate) and restores Mana equal to 50% of the damage dealt. (1.5 second cooldown)
 

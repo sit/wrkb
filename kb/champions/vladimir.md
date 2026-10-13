@@ -1,7 +1,7 @@
 ---
 abilities:
-- description: Gains Ability Power equal to 4.5% of Health and Bonus Health equal
-    to 140% Ability Power . (Both effects do not mutually stack)
+- description: Gains Ability Power equal to 5% of Health and Bonus Health equal to
+    150% Ability Power . (Both effects do not mutually stack)
   name: Crimson Pact
   slot: P
 - cooldowns:
@@ -13,11 +13,11 @@ abilities:
     magic damage and restoring 15 / 20 / 25 / 30 ( +35% AP ) Health . When this ability''s
     cooldown ends, generates a stack of Bloodthirst. At 2 stacks, gain 1 0% bonus
     Movement Speed for 0.5 seconds and enters Crimson Rush for 2.5 seconds, gradually
-    depleting all Bloodthirst stacks over this time. Crims Rush : While in this state,
-    empowers the next cast of Transfusion to deal 75% bonus damage and heal himself
-    for 30 - 170 + ( 5% +0.03% AP ) of missing Health . When cast, consumes all Bloodthirst
-    stacks and ends Crimson Rush. The empowered version of this ability heals for
-    35% against minions.'
+    depleting all Bloodthirst stacks over this time. Crimson Rush : While in this
+    state, empowers the next cast of Transfusion to deal 85% bonus damage and heal
+    himself for 30 - 170 + ( 5% +0.03% AP ) of missing Health . When cast, consumes
+    all Bloodthirst stacks and ends Crimson Rush. The empowered version of this ability
+    heals for 35% against minions.'
   name: Transfusion
   slot: '1'
 - cooldowns:
@@ -38,7 +38,7 @@ abilities:
   - 8.0
   - 7.0
   description: Charges for up to 1.5 seconds at the cost of 2 - 8% of his Health ,
-    dealing 20 / 40 / 60 / 80 ( +35% AP +2.5% of max Health ) magic damage to nearby
+    dealing 30 / 50 / 70 / 90 ( +35% AP +3% of max Health ) magic damage to nearby
     enemies, increased by up to 100% after charging. Charging for 1 second or more
     consumes the max possible Health cost, but if he is below 12% of his Health ,
     charging will not cost any Health. After charging for 1 second, he becomes slowed
@@ -105,13 +105,13 @@ Mid Lane
 
 ### [P] Crimson Pact
 
-Gains Ability Power equal to 4.5% of Health and Bonus Health equal to 140% Ability Power . (Both effects do not mutually stack)
+Gains Ability Power equal to 5% of Health and Bonus Health equal to 150% Ability Power . (Both effects do not mutually stack)
 
 ### [1] Transfusion
 
 **Cooldown:** 9.0 / 8.0 / 6.0 / 5.0 seconds
 
-Drains life from enemies, dealing 70 / 100 / 130 / 160 ( +60% AP ) magic damage and restoring 15 / 20 / 25 / 30 ( +35% AP ) Health . When this ability's cooldown ends, generates a stack of Bloodthirst. At 2 stacks, gain 1 0% bonus Movement Speed for 0.5 seconds and enters Crimson Rush for 2.5 seconds, gradually depleting all Bloodthirst stacks over this time. Crims Rush : While in this state, empowers the next cast of Transfusion to deal 75% bonus damage and heal himself for 30 - 170 + ( 5% +0.03% AP ) of missing Health . When cast, consumes all Bloodthirst stacks and ends Crimson Rush. The empowered version of this ability heals for 35% against minions.
+Drains life from enemies, dealing 70 / 100 / 130 / 160 ( +60% AP ) magic damage and restoring 15 / 20 / 25 / 30 ( +35% AP ) Health . When this ability's cooldown ends, generates a stack of Bloodthirst. At 2 stacks, gain 1 0% bonus Movement Speed for 0.5 seconds and enters Crimson Rush for 2.5 seconds, gradually depleting all Bloodthirst stacks over this time. Crimson Rush : While in this state, empowers the next cast of Transfusion to deal 85% bonus damage and heal himself for 30 - 170 + ( 5% +0.03% AP ) of missing Health . When cast, consumes all Bloodthirst stacks and ends Crimson Rush. The empowered version of this ability heals for 35% against minions.
 
 ### [2] Sanguine Pool
 
@@ -123,7 +123,7 @@ Sinks into a blood pool, becoming untargetable for 2 seconds. Also gains 27.5% b
 
 **Cooldown:** 13.0 / 10.0 / 8.0 / 7.0 seconds
 
-Charges for up to 1.5 seconds at the cost of 2 - 8% of his Health , dealing 20 / 40 / 60 / 80 ( +35% AP +2.5% of max Health ) magic damage to nearby enemies, increased by up to 100% after charging. Charging for 1 second or more consumes the max possible Health cost, but if he is below 12% of his Health , charging will not cost any Health. After charging for 1 second, he becomes slowed by 20% and also slows enemies hit by 40% / 45% / 50% / 55% .
+Charges for up to 1.5 seconds at the cost of 2 - 8% of his Health , dealing 30 / 50 / 70 / 90 ( +35% AP +3% of max Health ) magic damage to nearby enemies, increased by up to 100% after charging. Charging for 1 second or more consumes the max possible Health cost, but if he is below 12% of his Health , charging will not cost any Health. After charging for 1 second, he becomes slowed by 20% and also slows enemies hit by 40% / 45% / 50% / 55% .
 
 ### [4] Hemoplague
 

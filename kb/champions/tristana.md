@@ -9,41 +9,42 @@ abilities:
   - 16.0
   - 15.0
   - 14.0
-  description: Gain 50% / 75% / 100% / 125% bonus Attack Speed for 7 seconds.
+  description: Gain 60% / 80% / 100% / 120% bonus Attack Speed for 7 seconds.
   name: Rapid Fire
   slot: '1'
 - cooldowns:
-  - 22.0
-  - 19.0
+  - 20.0
+  - 18.0
   - 16.0
-  - 13.0
+  - 14.0
   costs:
   - 60.0
   - 60.0
   - 60.0
   - 60.0
-  description: Leap to a target location, dealing 85 /155 / 225 / 295 ( +50% AP )
-    magic damage and slowing nearby enemies by 60% for 1.5 / 2 / 2.5 / 3 seconds.
-    Takedowns and fully stacked Explosive Charg e detonations on champions reset Rocket
-    Jump's cooldown.
+  description: Leap to a target location, dealing 80 /120 / 160 / 200 ( +80% bonus
+    AD +50% AP ) magic damage and slowing nearby enemies by 50% for 2 seconds. Takedowns
+    and fully stacked Explosive Charg e detonations on champions reset Rocket Jump's
+    cooldown.
   name: Rocket Jump
   slot: '2'
 - cooldowns:
+  - 16.0
   - 15.0
   - 14.0
   - 13.0
-  - 12.0
   costs:
   - 55.0
   - 60.0
   - 65.0
   - 70.0
   description: 'Passive : Enemies explode when killed by Tristana''s attacks, dealing
-    65 / 100 / 135 / 170 ( +25% AP ) magic damage to nearby enemies. Active : Places
-    a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +75% / 110% / 145%
-    / 180% bonus AD +50% AP ) physical damage to nearby enemies. Tristana''s attacks
-    and abilities charge the bomb''s damage by 30% stacking 4 times. Bombs explode
-    immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.'
+    60 / 90 / 120 / 150 ( +25% AP ) magic damage to nearby enemies. Active : Places
+    a bomb on an enemy or turret, dealing 80 / 110 / 140 / 170 ( +120% bonus AD +50%
+    AP ) physical damage to nearby enemies. Damage scales with Critical Rate and Critical
+    Damage at 50% effectiveness. Tristana''s attacks and abilities charge the bomb''s
+    damage by 25% stacking 4 times. Bombs explode immediately at full stacks. Explosion
+    radius is doubled for bombs placed on turrets.'
   name: Explosive Charge
   slot: '3'
 - cooldowns:
@@ -54,8 +55,8 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Fires a massive cannonball at an enemy, dealing 350 / 450 / 550 ( +100%
-    AP ) magic damage and knocking them back.
+  description: Fires a massive cannonball at an enemy, dealing 300 / 350 / 400 ( +70%
+    bonus AD +100% AP ) magic damage and knocking them back.
   name: Buster Shot
   slot: '4'
 base_stats:
@@ -63,8 +64,8 @@ base_stats:
     base: '35'
     growth: '4'
   Attack Dmg.:
-    base: '54'
-    growth: '6'
+    base: '60'
+    growth: '5'
   Attack Spd.:
     base: '0.83'
     growth: '0.0200'
@@ -107,7 +108,7 @@ ADC
 - Armor: 35 (+4 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+6 per level)
+- Attack Dmg.: 60 (+5 per level)
 - Attack Spd.: 0.83 (+0.0200 per level)
 
 ## Abilities
@@ -120,23 +121,23 @@ Increases the range of attacks, Explosive Charge , and Buster Shot by 10 per lev
 
 **Cooldown:** 17.0 / 16.0 / 15.0 / 14.0 seconds
 
-Gain 50% / 75% / 100% / 125% bonus Attack Speed for 7 seconds.
+Gain 60% / 80% / 100% / 120% bonus Attack Speed for 7 seconds.
 
 ### [2] Rocket Jump
 
-**Cooldown:** 22.0 / 19.0 / 16.0 / 13.0 seconds
+**Cooldown:** 20.0 / 18.0 / 16.0 / 14.0 seconds
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Leap to a target location, dealing 85 /155 / 225 / 295 ( +50% AP ) magic damage and slowing nearby enemies by 60% for 1.5 / 2 / 2.5 / 3 seconds. Takedowns and fully stacked Explosive Charg e detonations on champions reset Rocket Jump's cooldown.
+Leap to a target location, dealing 80 /120 / 160 / 200 ( +80% bonus AD +50% AP ) magic damage and slowing nearby enemies by 50% for 2 seconds. Takedowns and fully stacked Explosive Charg e detonations on champions reset Rocket Jump's cooldown.
 
 ### [3] Explosive Charge
 
-**Cooldown:** 15.0 / 14.0 / 13.0 / 12.0 seconds
+**Cooldown:** 16.0 / 15.0 / 14.0 / 13.0 seconds
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Passive : Enemies explode when killed by Tristana's attacks, dealing 65 / 100 / 135 / 170 ( +25% AP ) magic damage to nearby enemies. Active : Places a bomb on an enemy or turret, dealing 50 / 75 / 100 / 125 ( +75% / 110% / 145% / 180% bonus AD +50% AP ) physical damage to nearby enemies. Tristana's attacks and abilities charge the bomb's damage by 30% stacking 4 times. Bombs explode immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.
+Passive : Enemies explode when killed by Tristana's attacks, dealing 60 / 90 / 120 / 150 ( +25% AP ) magic damage to nearby enemies. Active : Places a bomb on an enemy or turret, dealing 80 / 110 / 140 / 170 ( +120% bonus AD +50% AP ) physical damage to nearby enemies. Damage scales with Critical Rate and Critical Damage at 50% effectiveness. Tristana's attacks and abilities charge the bomb's damage by 25% stacking 4 times. Bombs explode immediately at full stacks. Explosion radius is doubled for bombs placed on turrets.
 
 ### [4] Buster Shot
 
@@ -144,5 +145,5 @@ Passive : Enemies explode when killed by Tristana's attacks, dealing 65 / 100 / 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Fires a massive cannonball at an enemy, dealing 350 / 450 / 550 ( +100% AP ) magic damage and knocking them back.
+Fires a massive cannonball at an enemy, dealing 300 / 350 / 400 ( +70% bonus AD +100% AP ) magic damage and knocking them back.
 

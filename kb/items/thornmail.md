@@ -10,12 +10,12 @@ name: Thornmail
 stats:
 - +200 Health
 - +75 Armor
-type: Defense
+type: Defense,Support
 ---
 
 # Thornmail
 
-**Type:** Defense  
+**Type:** Defense,Support  
 **Cost:** 2700 gold
 
 ## Stats

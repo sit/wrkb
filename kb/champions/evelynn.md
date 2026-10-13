@@ -33,10 +33,10 @@ abilities:
   - 100.0
   description: Curses target champion or monster for 5 seconds. Evelynn's next attack
     or ability will expunge the Curse adn slow them by 65% for 1 / 1.25 / 1.5 / 1.75
-    seconds. If the Curse lasts at least 2.5 seconds, expungint it charms the target
+    seconds. If the Curse lasts at least 2.5 seconds, expunging it charms the target
     for 1 / 1.25 / 1.5 / 1.75 seconds, If the target is a champion, shreds their Magic
     Resist by 20% / 24% / 28% / 32% for 4 seconds. If the target is a monster, deal
-    additional 300 / 350 / 400 / 450 ( +60% AP ) magic damge . Casting Allure does
+    additional 300 / 350 / 400 / 450 ( +60% AP ) magic damage . Casting Allure does
     not remove Evelynn from Demon Shade .
   name: Allure
   slot: '2'
@@ -51,10 +51,10 @@ abilities:
   - 55.0
   - 60.0
   description: Whips a target with Lashers, applying on-hit effects and dealing 55
-    / 75 / 95 / 115 + 2% ( +1% AP ) magic damage of their max Health. Then gain 30%
-    Movement Speed for 2 seconds. Entering Demon Shade enhances the next cast to pull
-    Evelynn to her target, dealing 80 / 110 / 140 / 170 + 4% ( +1.5% AP ) increased
-    magic damage of their max Health to all enemies in the way.
+    / 75 / 95 / 115 + 2% ( +0.01% AP ) magic damage of their max Health. Then gain
+    30% Movement Speed for 2 seconds. Entering Demon Shade enhances the next cast
+    to pull Evelynn to her target, dealing 80 / 110 / 140 / 170 + 4% ( +0.015% AP
+    ) increased magic damage of their max Health to all enemies in the way.
   name: Whiplash
   slot: '3'
 - cooldowns:
@@ -67,7 +67,7 @@ abilities:
   - 100.0
   description: Evelynn briefly goes untargetable and decimates the area in front of
     her before warping backwards a long distance. Deals 150 / 260 / 370 ( +75% AP
-    ) magic damage , increased to 230% to enemy champions below 35% Health.
+    ) magic damage , increased to 230% to enemy champions below 35% Health .
   name: Last Caress
   slot: '4'
 base_stats:
@@ -142,7 +142,7 @@ Unleashes two lines of spikes, dealing 40 / 47.5 / 55 / 62.5 ( +50% AP ) magic d
 
 **Cost:** 70.0 / 80.0 / 90.0 / 100.0
 
-Curses target champion or monster for 5 seconds. Evelynn's next attack or ability will expunge the Curse adn slow them by 65% for 1 / 1.25 / 1.5 / 1.75 seconds. If the Curse lasts at least 2.5 seconds, expungint it charms the target for 1 / 1.25 / 1.5 / 1.75 seconds, If the target is a champion, shreds their Magic Resist by 20% / 24% / 28% / 32% for 4 seconds. If the target is a monster, deal additional 300 / 350 / 400 / 450 ( +60% AP ) magic damge . Casting Allure does not remove Evelynn from Demon Shade .
+Curses target champion or monster for 5 seconds. Evelynn's next attack or ability will expunge the Curse adn slow them by 65% for 1 / 1.25 / 1.5 / 1.75 seconds. If the Curse lasts at least 2.5 seconds, expunging it charms the target for 1 / 1.25 / 1.5 / 1.75 seconds, If the target is a champion, shreds their Magic Resist by 20% / 24% / 28% / 32% for 4 seconds. If the target is a monster, deal additional 300 / 350 / 400 / 450 ( +60% AP ) magic damage . Casting Allure does not remove Evelynn from Demon Shade .
 
 ### [3] Whiplash
 
@@ -150,7 +150,7 @@ Curses target champion or monster for 5 seconds. Evelynn's next attack or abilit
 
 **Cost:** 45.0 / 50.0 / 55.0 / 60.0
 
-Whips a target with Lashers, applying on-hit effects and dealing 55 / 75 / 95 / 115 + 2% ( +1% AP ) magic damage of their max Health. Then gain 30% Movement Speed for 2 seconds. Entering Demon Shade enhances the next cast to pull Evelynn to her target, dealing 80 / 110 / 140 / 170 + 4% ( +1.5% AP ) increased magic damage of their max Health to all enemies in the way.
+Whips a target with Lashers, applying on-hit effects and dealing 55 / 75 / 95 / 115 + 2% ( +0.01% AP ) magic damage of their max Health. Then gain 30% Movement Speed for 2 seconds. Entering Demon Shade enhances the next cast to pull Evelynn to her target, dealing 80 / 110 / 140 / 170 + 4% ( +0.015% AP ) increased magic damage of their max Health to all enemies in the way.
 
 ### [4] Last Caress
 
@@ -158,5 +158,5 @@ Whips a target with Lashers, applying on-hit effects and dealing 55 / 75 / 95 / 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance. Deals 150 / 260 / 370 ( +75% AP ) magic damage , increased to 230% to enemy champions below 35% Health.
+Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance. Deals 150 / 260 / 370 ( +75% AP ) magic damage , increased to 230% to enemy champions below 35% Health .
 

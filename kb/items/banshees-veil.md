@@ -8,12 +8,12 @@ name: Banshee's Veil
 stats:
 - +40 Magic Resist
 - +105 Ability Power
-type: Magic
+type: Magic,Defense
 ---
 
 # Banshee's Veil
 
-**Type:** Magic  
+**Type:** Magic,Defense  
 **Cost:** 3000 gold
 
 ## Stats

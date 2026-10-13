@@ -1,32 +1,31 @@
 ---
-cost: 2750
+cost: 2800
 effects:
-- "UNIQUE - Storm: +5% Movement Speed\n\r\nUNIQUE - Absorb: When receiving skill damage,\
-  \ you can get a 7-second firmness layer, which can be stacked up to 4 times; dealing\
-  \ damage to champions can refresh the duration of the layer. At 6 stacks, gain 10%\
-  \ movement speed and reduce all magic damage taken by 20%."
+- 'UNIQUE - Absorb: Taking magic damage from enemy champions grants 1 Steadfast stack,
+  up to 4, for 7 seconds. Dealing damage to enemy champions refreshes the duration.
+  At max stacks, gain 6% Movement Speed and 70 bonus Magic Resist.'
 id: 109
 image_url: https://www.wildriftfire.com/images/items/force-of-nature.png
 name: Force of Nature
 stats:
-- +350 Health
+- +400 Health
 - +60 Magic Resist
+- +5 Movement Speed
 type: Defense
 ---
 
 # Force of Nature
 
 **Type:** Defense  
-**Cost:** 2750 gold
+**Cost:** 2800 gold
 
 ## Stats
 
-- +350 Health
+- +400 Health
 - +60 Magic Resist
+- +5 Movement Speed
 
 ## Effects
 
-UNIQUE - Storm: +5% Movement Speed
-
-UNIQUE - Absorb: When receiving skill damage, you can get a 7-second firmness layer, which can be stacked up to 4 times; dealing damage to champions can refresh the duration of the layer. At 6 stacks, gain 10% movement speed and reduce all magic damage taken by 20%.
+UNIQUE - Absorb: Taking magic damage from enemy champions grants 1 Steadfast stack, up to 4, for 7 seconds. Dealing damage to enemy champions refreshes the duration. At max stacks, gain 6% Movement Speed and 70 bonus Magic Resist.
 

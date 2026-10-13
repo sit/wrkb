@@ -16,7 +16,7 @@ abilities:
   description: 'Tap Cast : Stabs forward, dealing 80 / 120 / 160 / 200 ( +120% AD
     ) physical damage . Refunds 60% of Comet Spear''s Cooldown. Charge Cast : Hurls
     the spear, dealing the same damage to the first enemy hit and 50% less to subsequent
-    targets. Enemies below 35% Health are critically hit for 120 / 210 / 300 / 390
+    targets. Enemies below 25% Health are critically hit for 120 / 210 / 300 / 390
     ( +180% AD ) physical damage instead. Mortal Will : Deals an additional 30 ( +120%AD
     ) physical damage. Damage to minions is reduced by 20% . Deals 110% damage to
     monsters.'
@@ -135,7 +135,7 @@ After 5 attacks or abilities Pantheon's next basic ability is enhanced.
 
 **Cost:** 40.0 / 40.0 / 40.0 / 40.0
 
-Tap Cast : Stabs forward, dealing 80 / 120 / 160 / 200 ( +120% AD ) physical damage . Refunds 60% of Comet Spear's Cooldown. Charge Cast : Hurls the spear, dealing the same damage to the first enemy hit and 50% less to subsequent targets. Enemies below 35% Health are critically hit for 120 / 210 / 300 / 390 ( +180% AD ) physical damage instead. Mortal Will : Deals an additional 30 ( +120%AD ) physical damage. Damage to minions is reduced by 20% . Deals 110% damage to monsters.
+Tap Cast : Stabs forward, dealing 80 / 120 / 160 / 200 ( +120% AD ) physical damage . Refunds 60% of Comet Spear's Cooldown. Charge Cast : Hurls the spear, dealing the same damage to the first enemy hit and 50% less to subsequent targets. Enemies below 25% Health are critically hit for 120 / 210 / 300 / 390 ( +180% AD ) physical damage instead. Mortal Will : Deals an additional 30 ( +120%AD ) physical damage. Damage to minions is reduced by 20% . Deals 110% damage to monsters.
 
 ### [2] Shield Vault
 

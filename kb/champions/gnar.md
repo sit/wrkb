@@ -2,16 +2,16 @@
 abilities:
 - description: 'Dealing or taking damage generates Rage . At max Rage , Gnar''s abilities
     will change, and his next ability transforms him into Mega Gnar for 15 seconds.
-    Mini Gnar : Gains Movement Speed ( max 20), Attack Range (max 150), and Attack
-    Speed (max 90%) . Mega Gnar : Gains 100 Health ( max 900 ), 5 Armor (max 60 ),
-    5 Magic Resist (max 70 ), and 8 Attack Damage ( max 50 ). When dealing or taking
-    damage as Mini Gnar , gains 3 Rage for the next 2 seconds. Attacking enemy champions
-    generates 2 Rage , and attacking non-champions generates 1 Rage . At max Rage
-    , Gnar automatically transforms after 4 seconds if he does not use an ability.
-    Rage decays after 13 seconds if Gnar has not dealt or taken damage during this
-    time. Gnar cannot generate Rage for 15 seconds after he transforms back from Mini
-    Gnar to Mega Gnar . Mini Gnar and Mega Gnar share all ability cooldowns except
-    Hyper ''s.'
+    Mini Gnar : Gains Movement Speed ( max 20 ), Attack Range (max 150 ), and Attack
+    Speed (max 90% ) . Mega Gnar : Gains 100 Health ( max 900 ), 5 base Armor (max
+    60 ), 5 base Magic Resist (max 70 ), and 8 base Attack Damage ( max 50 ). When
+    dealing or taking damage as Mini Gnar , gains 3 Rage for the next 2 seconds. Attacking
+    enemy champions generates 2 Rage , and attacking non-champions generates 1 Rage
+    . At max Rage , Gnar automatically transforms after 4 seconds if he does not use
+    an ability. Rage decays after 13 seconds if Gnar has not dealt or taken damage
+    during this time. Gnar cannot generate Rage for 15 seconds after he transforms
+    back from Mini Gnar to Mega Gnar . Mini Gnar and Mega Gnar share all ability cooldowns
+    except Hyper ''s.'
   name: Rage Gene
   slot: P
 - cooldowns:
@@ -69,7 +69,7 @@ abilities:
     35% / 50% / 65% . Mega Gnar : Knocks back enemies around him, dealing 200 / 300
     / 400 ( +50% bonus AD +100% AP ) physical damage and slowing them by 45% for 1.25
     / 1.5 / 1.75 seconds. GNAR! ''s damage to enemies knocked back into a wall increases
-    by 50% and stuns them instead of slowing.'
+    by 50% and stunning them instead of slowing.'
   name: GNAR!
   slot: '4'
 base_stats:
@@ -120,7 +120,7 @@ Baron Lane
 
 ### [P] Rage Gene
 
-Dealing or taking damage generates Rage . At max Rage , Gnar's abilities will change, and his next ability transforms him into Mega Gnar for 15 seconds. Mini Gnar : Gains Movement Speed ( max 20), Attack Range (max 150), and Attack Speed (max 90%) . Mega Gnar : Gains 100 Health ( max 900 ), 5 Armor (max 60 ), 5 Magic Resist (max 70 ), and 8 Attack Damage ( max 50 ). When dealing or taking damage as Mini Gnar , gains 3 Rage for the next 2 seconds. Attacking enemy champions generates 2 Rage , and attacking non-champions generates 1 Rage . At max Rage , Gnar automatically transforms after 4 seconds if he does not use an ability. Rage decays after 13 seconds if Gnar has not dealt or taken damage during this time. Gnar cannot generate Rage for 15 seconds after he transforms back from Mini Gnar to Mega Gnar . Mini Gnar and Mega Gnar share all ability cooldowns except Hyper 's.
+Dealing or taking damage generates Rage . At max Rage , Gnar's abilities will change, and his next ability transforms him into Mega Gnar for 15 seconds. Mini Gnar : Gains Movement Speed ( max 20 ), Attack Range (max 150 ), and Attack Speed (max 90% ) . Mega Gnar : Gains 100 Health ( max 900 ), 5 base Armor (max 60 ), 5 base Magic Resist (max 70 ), and 8 base Attack Damage ( max 50 ). When dealing or taking damage as Mini Gnar , gains 3 Rage for the next 2 seconds. Attacking enemy champions generates 2 Rage , and attacking non-champions generates 1 Rage . At max Rage , Gnar automatically transforms after 4 seconds if he does not use an ability. Rage decays after 13 seconds if Gnar has not dealt or taken damage during this time. Gnar cannot generate Rage for 15 seconds after he transforms back from Mini Gnar to Mega Gnar . Mini Gnar and Mega Gnar share all ability cooldowns except Hyper 's.
 
 ### [1] Boomerang Throw / Boulder Toss
 
@@ -144,5 +144,5 @@ Mini Gnar : Leaps to a location. If Gnar lands on a unit, he will bounce off it,
 
 **Cooldown:** 60.0 / 45.0 / 30.0 seconds
 
-Mini Gnar (Passive) : Hyper's Movement Speed bonus is increased to 35% / 50% / 65% . Mega Gnar : Knocks back enemies around him, dealing 200 / 300 / 400 ( +50% bonus AD +100% AP ) physical damage and slowing them by 45% for 1.25 / 1.5 / 1.75 seconds. GNAR! 's damage to enemies knocked back into a wall increases by 50% and stuns them instead of slowing.
+Mini Gnar (Passive) : Hyper's Movement Speed bonus is increased to 35% / 50% / 65% . Mega Gnar : Knocks back enemies around him, dealing 200 / 300 / 400 ( +50% bonus AD +100% AP ) physical damage and slowing them by 45% for 1.25 / 1.5 / 1.75 seconds. GNAR! 's damage to enemies knocked back into a wall increases by 50% and stunning them instead of slowing.
 

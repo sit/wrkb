@@ -1,22 +1,21 @@
 ---
 abilities:
-- description: Attacks cause enemies to bleed, dealing 16 + 2 x ( based on level )
-    ( +40% bonus AD ) physical damage over 5 seconds. Can stack up to 5 times. Upon
-    reaching full stacks, Darius gains Noxian Might for 5 seconds, gaining 32 Attack
-    Damage and applying full stacks of Hemorrhage instead of 1. Deals 180% damage
-    to monsters.
+- description: Attacks cause enemies to bleed, dealing 18 ( +40% bonus AD ) physical
+    damage over 5 seconds. Can stack up to 5 times. Upon reaching full stacks, Darius
+    gains Noxian Might for 5 seconds, gaining 32 Attack Damage and applying full stacks
+    of Hemorrhage instead of 1. Deals 180% damage to monsters.
   name: Hemorrhage
   slot: P
 - cooldowns:
-  - 9.0
+  - 10.0
   - 8.0
-  - 6.0
+  - 7.0
   - 5.0
   costs:
   - 35.0
-  - 35.0
-  - 35.0
-  - 35.0
+  - 40.0
+  - 45.0
+  - 50.0
   description: Swings his axe after a delay, dealing 18 / 32 / 46 / 60 ( +35% / 40%
     / 45% / 50% AD ) physical damage . Hitting enemies with the blade of the axe deals
     50 / 90 / 130 / 170 ( +100% / 115% / 130% / 145% AD ), heals himself for 15% of
@@ -34,9 +33,9 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: Empowers his next attack for 8 seconds to deal an additional 30% /
-    40% / 50% / 60% AD and slows by 90% for 1 second. Killing the target refunds 50%
-    of the cooldown and 100% of the mana cost.
+  description: Empowers his next attack for 8 seconds to deal an additional 21 ( 30%
+    / 40% / 50% / 60% AD ) physical damage and slows by 90% for 1 second. Killing
+    the target refunds 50% of the cooldown and 100% of the mana cost.
   name: Crippling Strike
   slot: '2'
 - cooldowns:
@@ -97,6 +96,7 @@ base_stats:
 name: Darius
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/darius
 ---
 
@@ -104,7 +104,7 @@ source_url: https://www.wildriftfire.com/guide/darius
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 
@@ -122,13 +122,13 @@ Baron Lane
 
 ### [P] Hemorrhage
 
-Attacks cause enemies to bleed, dealing 16 + 2 x ( based on level ) ( +40% bonus AD ) physical damage over 5 seconds. Can stack up to 5 times. Upon reaching full stacks, Darius gains Noxian Might for 5 seconds, gaining 32 Attack Damage and applying full stacks of Hemorrhage instead of 1. Deals 180% damage to monsters.
+Attacks cause enemies to bleed, dealing 18 ( +40% bonus AD ) physical damage over 5 seconds. Can stack up to 5 times. Upon reaching full stacks, Darius gains Noxian Might for 5 seconds, gaining 32 Attack Damage and applying full stacks of Hemorrhage instead of 1. Deals 180% damage to monsters.
 
 ### [1] Decimate
 
-**Cooldown:** 9.0 / 8.0 / 6.0 / 5.0 seconds
+**Cooldown:** 10.0 / 8.0 / 7.0 / 5.0 seconds
 
-**Cost:** 35.0 / 35.0 / 35.0 / 35.0
+**Cost:** 35.0 / 40.0 / 45.0 / 50.0
 
 Swings his axe after a delay, dealing 18 / 32 / 46 / 60 ( +35% / 40% / 45% / 50% AD ) physical damage . Hitting enemies with the blade of the axe deals 50 / 90 / 130 / 170 ( +100% / 115% / 130% / 145% AD ), heals himself for 15% of his missing Health for each champion or large monster hit (max 45%) and applies Hemorrhage .
 
@@ -138,7 +138,7 @@ Swings his axe after a delay, dealing 18 / 32 / 46 / 60 ( +35% / 40% / 45% / 50%
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Empowers his next attack for 8 seconds to deal an additional 30% / 40% / 50% / 60% AD and slows by 90% for 1 second. Killing the target refunds 50% of the cooldown and 100% of the mana cost.
+Empowers his next attack for 8 seconds to deal an additional 21 ( 30% / 40% / 50% / 60% AD ) physical damage and slows by 90% for 1 second. Killing the target refunds 50% of the cooldown and 100% of the mana cost.
 
 ### [3] Apprehend
 

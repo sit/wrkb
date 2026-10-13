@@ -14,9 +14,9 @@ abilities:
   - 55.0
   - 60.0
   - 65.0
-  description: Annie hurls a Mana infused fireball, dealing 80 / 130 / 180 / 230 (
-    +85% AP ) magic damage in a small area and refunding the Mana cost and half its
-    cooldown if it destroys the target.
+  description: Hurls a fireball that explodes in a small area, dealing 80 / 130 /
+    180 / 230 ( +85% AP ) magic damage . Killing an enemy refunds Disintegrate's Mana
+    Cost and halves its Cooldown.
   name: Disintegrate
   slot: '1'
 - cooldowns:
@@ -29,8 +29,8 @@ abilities:
   - 80.0
   - 90.0
   - 100.0
-  description: Annie casts a blazing cone of fire, dealing 70 / 130 / 190 / 250 (
-    +70% AP ) magic damage to all enemies in the area.
+  description: Releases a cone of fire that deals 70 / 130 / 190 / 250 ( +70% AP )
+    magic damage to all enemies within it.
   name: Incinerate
   slot: '2'
 - cooldowns:
@@ -43,9 +43,9 @@ abilities:
   - 60.0
   - 60.0
   - 60.0
-  description: Annie shields herself and Tibbers , absorbing 50 / 100 / 150 / 200
-    ( +40% AP ) damage and gaining 25% / 30% / 33% / 40% movement speed. Speed bonus
-    decays after 3 seconds.
+  description: Grants herself and Tibbers a shield that absorbs 50 / 100 / 150 / 200
+    ( +40% AP ) damage for 3 seconds and gains 25% / 30% / 35% / 40% Movement Speed
+    that decays over 3 seconds.
   name: Molten Shield
   slot: '3'
 - cooldowns:
@@ -56,13 +56,13 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: 'Summons Tibbers, dealing 130 / 230 / 330 ( +60% AP ) magic damage
-    , to nearby enemies. 2 seconds after casting Tibbers, Annie can activate this
-    ability again, ordering Tibbers to pounce on a target, dealing 110 / 150 / 190
-    ( +30% AP ) magic damage , and also making the target airborne for 1 second. Tibbers
-    Enrages (hasting him by 100% and granting 210% Attack Speed) when summoned, pounces
-    on enemies or Annie dies. Re-activate: Order Tibbers around. Tibbers lasts for
-    20 seconds.'
+  description: 'Summon Tibbers, dealing 130 / 230 / 330 ( +60% AP ) magic damage to
+    nearby enemies. For the next 20 seconds, Tibbers attack deals 70 / 100 / 130 (
+    +20% AP ) magic damage . Tibbers Enrages (granting him 100% Movement Speed and
+    210% Attack Speed ): When summoned, after pouncing on an enemy, or when Annie
+    dies. Recast : Orders Tibbers to pounce on the target. The pounce cannot be blocked.
+    Upon landing, Tibbers deals 110 / 150 / 190 ( +30% AP ) magic damage and knocks
+    the target Airborne.'
   name: 'Summon: Tibbers'
   slot: '4'
 base_stats:
@@ -129,7 +129,7 @@ After casting 4 abilities, the next offensive ability stuns enemies hit for 1 se
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 
-Annie hurls a Mana infused fireball, dealing 80 / 130 / 180 / 230 ( +85% AP ) magic damage in a small area and refunding the Mana cost and half its cooldown if it destroys the target.
+Hurls a fireball that explodes in a small area, dealing 80 / 130 / 180 / 230 ( +85% AP ) magic damage . Killing an enemy refunds Disintegrate's Mana Cost and halves its Cooldown.
 
 ### [2] Incinerate
 
@@ -137,7 +137,7 @@ Annie hurls a Mana infused fireball, dealing 80 / 130 / 180 / 230 ( +85% AP ) ma
 
 **Cost:** 70.0 / 80.0 / 90.0 / 100.0
 
-Annie casts a blazing cone of fire, dealing 70 / 130 / 190 / 250 ( +70% AP ) magic damage to all enemies in the area.
+Releases a cone of fire that deals 70 / 130 / 190 / 250 ( +70% AP ) magic damage to all enemies within it.
 
 ### [3] Molten Shield
 
@@ -145,7 +145,7 @@ Annie casts a blazing cone of fire, dealing 70 / 130 / 190 / 250 ( +70% AP ) mag
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Annie shields herself and Tibbers , absorbing 50 / 100 / 150 / 200 ( +40% AP ) damage and gaining 25% / 30% / 33% / 40% movement speed. Speed bonus decays after 3 seconds.
+Grants herself and Tibbers a shield that absorbs 50 / 100 / 150 / 200 ( +40% AP ) damage for 3 seconds and gains 25% / 30% / 35% / 40% Movement Speed that decays over 3 seconds.
 
 ### [4] Summon: Tibbers
 
@@ -153,5 +153,5 @@ Annie shields herself and Tibbers , absorbing 50 / 100 / 150 / 200 ( +40% AP ) d
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Summons Tibbers, dealing 130 / 230 / 330 ( +60% AP ) magic damage , to nearby enemies. 2 seconds after casting Tibbers, Annie can activate this ability again, ordering Tibbers to pounce on a target, dealing 110 / 150 / 190 ( +30% AP ) magic damage , and also making the target airborne for 1 second. Tibbers Enrages (hasting him by 100% and granting 210% Attack Speed) when summoned, pounces on enemies or Annie dies. Re-activate: Order Tibbers around. Tibbers lasts for 20 seconds.
+Summon Tibbers, dealing 130 / 230 / 330 ( +60% AP ) magic damage to nearby enemies. For the next 20 seconds, Tibbers attack deals 70 / 100 / 130 ( +20% AP ) magic damage . Tibbers Enrages (granting him 100% Movement Speed and 210% Attack Speed ): When summoned, after pouncing on an enemy, or when Annie dies. Recast : Orders Tibbers to pounce on the target. The pounce cannot be blocked. Upon landing, Tibbers deals 110 / 150 / 190 ( +30% AP ) magic damage and knocks the target Airborne.
 

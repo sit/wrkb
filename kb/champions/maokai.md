@@ -103,7 +103,6 @@ base_stats:
 name: Maokai
 roles:
 - Support
-- Baron Lane
 source_url: https://www.wildriftfire.com/guide/maokai
 ---
 
@@ -111,7 +110,7 @@ source_url: https://www.wildriftfire.com/guide/maokai
 
 ## Roles
 
-Support, Baron Lane
+Support
 
 ## Base Stats
 

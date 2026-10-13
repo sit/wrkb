@@ -8,17 +8,17 @@ abilities:
   slot: P
 - cooldowns:
   - 8.0
+  - 8.0
   - 7.0
   - 7.0
-  - 6.0
   costs:
   - 60.0
   - 60.0
   - 60.0
   - 60.0
-  description: 'First Cast : Fires cursed energy ion a direction, dealing 35 / 65
-    / 95 / 125 ( +30% AP ) magic damage to enemies and cursing them for 3.5 seconds.
-    Recast : Detonates the curse, dealing up to 35 / 65 / 95 / 125 ( +30% AP ) magic
+  description: 'First Cast : Fires cursed energy ion a direction, dealing 40 / 70
+    / 100 / 130 ( +33% AP ) magic damage to enemies and cursing them for 3.5 seconds.
+    Recast : Detonates the curse, dealing up to 40 / 70 / 100 / 130 ( +33% AP ) magic
     damage to enemies passed through. Enemies take up to 50% bonus damage based on
     missing Health . Damage beyond the first hit is reduced by 20% . Deals 40% damage
     against minions and monsters instead. If the curse''s duration runs out, Aurora
@@ -36,7 +36,7 @@ abilities:
   - 80.0
   - 80.0
   description: 'Hops in a direction. Upon landing, enters the spirit realm, becoming
-    invisible for 1 / 1.2 / 1.4 / 1.6 seconds and entering Realm Hopper . Real Hopper
+    invisible for 1 / 1.2 / 1.4 / 1.6 seconds and entering Realm Hopper . Realm Hopper
     : Gains 25% / 30% / 35% / 40% Movement Speed for 4 seconds. Scoring a takedown
     on an enemy champion resets this ability''s cooldown.'
   name: Across the Veil
@@ -52,7 +52,7 @@ abilities:
   - 80.0
   - 80.0
   description: Converges the realms, sending out a blast of spirit magic that deals
-    75 / 125 / 175 / 225 ( +65% AP ) magic damage to enemies in the area and slows
+    80 / 130 / 180 / 230 ( +65% AP ) magic damage to enemies in the area and slows
     them by 80% , decaying over 1 second. Aurora hops backward a short distance after
     casting.
   name: The Weirding
@@ -134,11 +134,11 @@ Damaging an enemy 3 times with abilities or attacks exorcises them, dealing 2.5%
 
 ### [1] Twofold Hex
 
-**Cooldown:** 8.0 / 7.0 / 7.0 / 6.0 seconds
+**Cooldown:** 8.0 / 8.0 / 7.0 / 7.0 seconds
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-First Cast : Fires cursed energy ion a direction, dealing 35 / 65 / 95 / 125 ( +30% AP ) magic damage to enemies and cursing them for 3.5 seconds. Recast : Detonates the curse, dealing up to 35 / 65 / 95 / 125 ( +30% AP ) magic damage to enemies passed through. Enemies take up to 50% bonus damage based on missing Health . Damage beyond the first hit is reduced by 20% . Deals 40% damage against minions and monsters instead. If the curse's duration runs out, Aurora will automatically recast the ability.
+First Cast : Fires cursed energy ion a direction, dealing 40 / 70 / 100 / 130 ( +33% AP ) magic damage to enemies and cursing them for 3.5 seconds. Recast : Detonates the curse, dealing up to 40 / 70 / 100 / 130 ( +33% AP ) magic damage to enemies passed through. Enemies take up to 50% bonus damage based on missing Health . Damage beyond the first hit is reduced by 20% . Deals 40% damage against minions and monsters instead. If the curse's duration runs out, Aurora will automatically recast the ability.
 
 ### [2] Across the Veil
 
@@ -146,7 +146,7 @@ First Cast : Fires cursed energy ion a direction, dealing 35 / 65 / 95 / 125 ( +
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Hops in a direction. Upon landing, enters the spirit realm, becoming invisible for 1 / 1.2 / 1.4 / 1.6 seconds and entering Realm Hopper . Real Hopper : Gains 25% / 30% / 35% / 40% Movement Speed for 4 seconds. Scoring a takedown on an enemy champion resets this ability's cooldown.
+Hops in a direction. Upon landing, enters the spirit realm, becoming invisible for 1 / 1.2 / 1.4 / 1.6 seconds and entering Realm Hopper . Realm Hopper : Gains 25% / 30% / 35% / 40% Movement Speed for 4 seconds. Scoring a takedown on an enemy champion resets this ability's cooldown.
 
 ### [3] The Weirding
 
@@ -154,7 +154,7 @@ Hops in a direction. Upon landing, enters the spirit realm, becoming invisible f
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Converges the realms, sending out a blast of spirit magic that deals 75 / 125 / 175 / 225 ( +65% AP ) magic damage to enemies in the area and slows them by 80% , decaying over 1 second. Aurora hops backward a short distance after casting.
+Converges the realms, sending out a blast of spirit magic that deals 80 / 130 / 180 / 230 ( +65% AP ) magic damage to enemies in the area and slows them by 80% , decaying over 1 second. Aurora hops backward a short distance after casting.
 
 ### [4] Between Worlds
 

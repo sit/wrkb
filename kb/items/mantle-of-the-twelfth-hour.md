@@ -1,31 +1,30 @@
 ---
-cost: 2900
+cost: 2550
 effects:
-- 'UNIQUE - LIFELINE: Damage that puts you under 35% Health grants bonus max Health
-  equal to 180 + 45% bonus Health over 3 seconds, and provides 50% Slow Resist and
-  30 Movement Speed for 3 seconds. (75s cooldown)'
+- 'UNIQUE - LIFELINE: When you drop below 30% max Health, immediately gain 200 - 300
+  bonus Health for 5 seconds, and heal over 5 seconds for 200 - 400 + 120% bonus Armor
+  + 120% bonus Magic Resistance + 15% bonus Health. During this time, gain 10% size,
+  10% bonus Movement Speed, and 20% Tenacity.'
 id: 146
 image_url: https://www.wildriftfire.com/images/items/mantle-of-the-twelfth-hour.png
 name: Mantle of the Twelfth Hour
 stats:
-- +200 Health
-- +40 Armor
-- +40 Magic Resist
-type: Defense
+- +600 Health
+- +20 Ability Haste
+type: Defense,Support
 ---
 
 # Mantle of the Twelfth Hour
 
-**Type:** Defense  
-**Cost:** 2900 gold
+**Type:** Defense,Support  
+**Cost:** 2550 gold
 
 ## Stats
 
-- +200 Health
-- +40 Armor
-- +40 Magic Resist
+- +600 Health
+- +20 Ability Haste
 
 ## Effects
 
-UNIQUE - LIFELINE: Damage that puts you under 35% Health grants bonus max Health equal to 180 + 45% bonus Health over 3 seconds, and provides 50% Slow Resist and 30 Movement Speed for 3 seconds. (75s cooldown)
+UNIQUE - LIFELINE: When you drop below 30% max Health, immediately gain 200 - 300 bonus Health for 5 seconds, and heal over 5 seconds for 200 - 400 + 120% bonus Armor + 120% bonus Magic Resistance + 15% bonus Health. During this time, gain 10% size, 10% bonus Movement Speed, and 20% Tenacity.
 

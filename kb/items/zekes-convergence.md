@@ -1,34 +1,36 @@
 ---
-cost: 2700
+cost: 2400
 effects:
-- "UNIQUE - HARBINGER: Casting your Ultimate surrounds you with a blizzard for 10\
-  \ seconds. The blizzard deals a maximum of 320 \u2013 600 damage, slows nearby enemies\
-  \ by 25%, and leaves a trail behind you. Allied champions on the trail gain 40 bonus\
-  \ Movement Speed for 1 second. (30s cooldown)"
+- "UNIQUE - CONVERGE: Gain 10 ultimate ability haste.\r\nUNIQUE - FROSTFIRE TEMPEST:\
+  \ Casting your ultimate ability deals 150 magic damage and slows nearby enemies\
+  \ by 30% over 5 seconds. If no enemy champion is in range when the ultimate is cast,\
+  \ the effect is delayed until up to 5 seconds later or until an enemy champion enters\
+  \ range."
 id: 93
 image_url: https://www.wildriftfire.com/images/items/zekes-convergence.png
 name: Zeke's Convergence
 stats:
-- +350 Health
-- +40 Armor
-- +150 Mana
-- +15 Ability Haste
-type: Support
+- +300 Health
+- +25 Armor
+- +25 Magic Resist
+- +10 Ability Haste
+type: Defense,Support
 ---
 
 # Zeke's Convergence
 
-**Type:** Support  
-**Cost:** 2700 gold
+**Type:** Defense,Support  
+**Cost:** 2400 gold
 
 ## Stats
 
-- +350 Health
-- +40 Armor
-- +150 Mana
-- +15 Ability Haste
+- +300 Health
+- +25 Armor
+- +25 Magic Resist
+- +10 Ability Haste
 
 ## Effects
 
-UNIQUE - HARBINGER: Casting your Ultimate surrounds you with a blizzard for 10 seconds. The blizzard deals a maximum of 320 – 600 damage, slows nearby enemies by 25%, and leaves a trail behind you. Allied champions on the trail gain 40 bonus Movement Speed for 1 second. (30s cooldown)
+UNIQUE - CONVERGE: Gain 10 ultimate ability haste.
+UNIQUE - FROSTFIRE TEMPEST: Casting your ultimate ability deals 150 magic damage and slows nearby enemies by 30% over 5 seconds. If no enemy champion is in range when the ultimate is cast, the effect is delayed until up to 5 seconds later or until an enemy champion enters range.
 

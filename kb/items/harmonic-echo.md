@@ -1,37 +1,34 @@
 ---
-cost: 2800
+cost: 2500
 effects:
-- "- 50% Mana Regen\r\nUNIQUE - HARMONIC ECHO: Moving and casting abilities builds\
-  \ Harmony. At 100 Harmony your next healing or shielding ability on an ally other\
-  \ than yourself restores 100 - 160 (+15% AP) health to your target. If the target's\
-  \ Health is below 30%, healing potency is increased to 130% of the original."
+- "- 50% Mana Regen\r\nUNIQUE - HARMONIC ECHO: When you heal or shield an allied champion,\
+  \ the effect links to the nearest allied champion within range with the lowest percentage\
+  \ Health, excluding yourself, and grants them 30% of that heal or 35% of that shield.\
+  \ If no other allied champion is in range, the original target instead receives\
+  \ that same extra heal or shield."
 id: 59
 image_url: https://www.wildriftfire.com/images/items/harmonic-echo.png
 name: Harmonic Echo
 stats:
-- +100 Health
-- +300 Mana
-- +50 Ability Power
-- +15 Ability Haste
-- +5% Heal and Shield Strength
+- +200 Health
+- +40 Ability Power
+- +20 Ability Haste
 type: Support
 ---
 
 # Harmonic Echo
 
 **Type:** Support  
-**Cost:** 2800 gold
+**Cost:** 2500 gold
 
 ## Stats
 
-- +100 Health
-- +300 Mana
-- +50 Ability Power
-- +15 Ability Haste
-- +5% Heal and Shield Strength
+- +200 Health
+- +40 Ability Power
+- +20 Ability Haste
 
 ## Effects
 
 - 50% Mana Regen
-UNIQUE - HARMONIC ECHO: Moving and casting abilities builds Harmony. At 100 Harmony your next healing or shielding ability on an ally other than yourself restores 100 - 160 (+15% AP) health to your target. If the target's Health is below 30%, healing potency is increased to 130% of the original.
+UNIQUE - HARMONIC ECHO: When you heal or shield an allied champion, the effect links to the nearest allied champion within range with the lowest percentage Health, excluding yourself, and grants them 30% of that heal or 35% of that shield. If no other allied champion is in range, the original target instead receives that same extra heal or shield.
 

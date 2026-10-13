@@ -11,12 +11,12 @@ name: Titanic Hydra
 stats:
 - +450 Health
 - +40 Attack Damage
-type: Physical
+type: Defense,Fighter
 ---
 
 # Titanic Hydra
 
-**Type:** Physical  
+**Type:** Defense,Fighter  
 **Cost:** 3000 gold
 
 ## Stats

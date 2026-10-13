@@ -2,7 +2,7 @@
 cost: 3100
 effects:
 - "Balance: 15 Magic Penetration\n\r\nInevitable Demise: Abilities and empowered attacks\
-  \ Critically Strike for 20% bonus damage against enemies below 35% Health."
+  \ Critically Strike for 20% bonus damage against enemies below 40% Health."
 id: 63
 image_url: https://www.wildriftfire.com/images/items/infinity-orb.png
 name: Infinity Orb
@@ -24,5 +24,5 @@ type: Magic
 
 Balance: 15 Magic Penetration
 
-Inevitable Demise: Abilities and empowered attacks Critically Strike for 20% bonus damage against enemies below 35% Health.
+Inevitable Demise: Abilities and empowered attacks Critically Strike for 20% bonus damage against enemies below 40% Health.
 

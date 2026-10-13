@@ -1,5 +1,5 @@
 ---
-cost: 2600
+cost: 2450
 effects:
 - Base Mana Regen +50%.
 - INSPIRING SPEECH - Grant nearby allies 30% Movement Speed for 4s. (60s cooldown)
@@ -9,20 +9,20 @@ name: Shurelya's Battlesong
 stats:
 - +55 Ability Power
 - +20 Ability Haste
-- +5 Movement Speed
+- +4 Movement Speed
 type: Support
 ---
 
 # Shurelya's Battlesong
 
 **Type:** Support  
-**Cost:** 2600 gold
+**Cost:** 2450 gold
 
 ## Stats
 
 - +55 Ability Power
 - +20 Ability Haste
-- +5 Movement Speed
+- +4 Movement Speed
 
 ## Effects
 

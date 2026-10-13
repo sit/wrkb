@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Hecarim gains 0 = (12% bonus MS) Attack Damage .
+- description: Gains Attack Damage ( 12% of bonus Movement Speed ).
   name: Warpath
   slot: P
 - cooldowns:
@@ -16,9 +16,10 @@ abilities:
   description: Charges his halberd for 0.75 seconds, increasing the area Hecarim deals
     damage to. Automatically casts when fully charged, dealing 5 / 15 / 25 / 35 (
     +110% AD ) physical damage. If Hecarim hits an enemy champion or a large monster
-    with a full charge, he critically strikes them for 120% damage and gains a 30%
+    with a full charge, he critically strikes them for 120% damage and gains a 18%
     Movement Speed bonus that decays over 3 seconds. This also empowers Hecarim's
-    next Rampage within the next 8 seconds to deal 120% damage.
+    next Rampage within the next 8 seconds to deal 120% damage. Deals 60% damage to
+    minions.
   name: Rampage
   slot: '1'
 - cooldowns:
@@ -33,9 +34,9 @@ abilities:
   - 80.0
   description: Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 12 / 18 /
     24 / 30 ( +20% AP ) magic damage to nearby enemies once every 0.5 seconds for
-    4 seconds. For every enemy hit, he heals for 5 (+ 1% of bonus HP ). Damaging enemies
-    restores Health equal to 20% of damage dealt + 0.02% of bonus AD . Healing gained
-    from damaging minions and monsters is reduced by 50% and capped at 90 Health.
+    4 seconds. For every enemy hit, he heals for 5 ( +1% bonus HP ). He also heals
+    for 20% ( +0.02% bonus AD ) of the damage he deals to the targets Healing gained
+    from damaging minions and monsters is reduced by 50% and capped at 90 Health .
   name: Spirit of Dread
   slot: '2'
 - cooldowns:
@@ -50,9 +51,9 @@ abilities:
   - 60.0
   description: Gains 25% Movement Speed , which increases to 55% over 4 seconds. Hecarim
     dashes toward the enemy if his next attack is within 5 seconds, dealing 5 / 10
-    / 15 / 20 ( +30% bonus AD ) physical damage and knocking them back. He will also
-    pursue the enemy that was knocked back. The remaining duration of this ability
-    is paused during Onslaught of Shadows.
+    / 15 / 20 ( +30% bonus AD ) physical damage , knocking the target back, and then
+    pursuing them immediately after. Enemies hit are revealed. While Onslaught of
+    Shadows is in effect, the remaining duration of this ability is paused.
   name: Devastating Charge
   slot: '3'
 - cooldowns:
@@ -64,9 +65,9 @@ abilities:
   - 100.0
   - 100.0
   description: Hecarim summons spectral riders and charges forward, dealing 150 /
-    250 / 350 ( +100% AP ) magic damage . Hecarim unleashes a shockwave at the end
-    of the charge that Fears for between 0.75 to 1.5 seconds, increased by charge
-    distance.
+    250 / 350 ( +100% AP ) magic damage and revealing enemies hit. Hecarim unleashes
+    a shockwave at the end of the charge that fears for between 0.75 to 1.5 seconds,
+    increased by charge distance.
   name: Onslaught of Shadows
   slot: '4'
 base_stats:
@@ -125,7 +126,7 @@ Jungle
 
 ### [P] Warpath
 
-Hecarim gains 0 = (12% bonus MS) Attack Damage .
+Gains Attack Damage ( 12% of bonus Movement Speed ).
 
 ### [1] Rampage
 
@@ -133,7 +134,7 @@ Hecarim gains 0 = (12% bonus MS) Attack Damage .
 
 **Cost:** 28.0 / 32.0 / 36.0 / 40.0
 
-Charges his halberd for 0.75 seconds, increasing the area Hecarim deals damage to. Automatically casts when fully charged, dealing 5 / 15 / 25 / 35 ( +110% AD ) physical damage. If Hecarim hits an enemy champion or a large monster with a full charge, he critically strikes them for 120% damage and gains a 30% Movement Speed bonus that decays over 3 seconds. This also empowers Hecarim's next Rampage within the next 8 seconds to deal 120% damage.
+Charges his halberd for 0.75 seconds, increasing the area Hecarim deals damage to. Automatically casts when fully charged, dealing 5 / 15 / 25 / 35 ( +110% AD ) physical damage. If Hecarim hits an enemy champion or a large monster with a full charge, he critically strikes them for 120% damage and gains a 18% Movement Speed bonus that decays over 3 seconds. This also empowers Hecarim's next Rampage within the next 8 seconds to deal 120% damage. Deals 60% damage to minions.
 
 ### [2] Spirit of Dread
 
@@ -141,7 +142,7 @@ Charges his halberd for 0.75 seconds, increasing the area Hecarim deals damage t
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 12 / 18 / 24 / 30 ( +20% AP ) magic damage to nearby enemies once every 0.5 seconds for 4 seconds. For every enemy hit, he heals for 5 (+ 1% of bonus HP ). Damaging enemies restores Health equal to 20% of damage dealt + 0.02% of bonus AD . Healing gained from damaging minions and monsters is reduced by 50% and capped at 90 Health.
+Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 12 / 18 / 24 / 30 ( +20% AP ) magic damage to nearby enemies once every 0.5 seconds for 4 seconds. For every enemy hit, he heals for 5 ( +1% bonus HP ). He also heals for 20% ( +0.02% bonus AD ) of the damage he deals to the targets Healing gained from damaging minions and monsters is reduced by 50% and capped at 90 Health .
 
 ### [3] Devastating Charge
 
@@ -149,7 +150,7 @@ Gains 6 / 12 / 18 / 24 Armor and Magic Resist , and deals 12 / 18 / 24 / 30 ( +2
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Gains 25% Movement Speed , which increases to 55% over 4 seconds. Hecarim dashes toward the enemy if his next attack is within 5 seconds, dealing 5 / 10 / 15 / 20 ( +30% bonus AD ) physical damage and knocking them back. He will also pursue the enemy that was knocked back. The remaining duration of this ability is paused during Onslaught of Shadows.
+Gains 25% Movement Speed , which increases to 55% over 4 seconds. Hecarim dashes toward the enemy if his next attack is within 5 seconds, dealing 5 / 10 / 15 / 20 ( +30% bonus AD ) physical damage , knocking the target back, and then pursuing them immediately after. Enemies hit are revealed. While Onslaught of Shadows is in effect, the remaining duration of this ability is paused.
 
 ### [4] Onslaught of Shadows
 
@@ -157,5 +158,5 @@ Gains 25% Movement Speed , which increases to 55% over 4 seconds. Hecarim dashes
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Hecarim summons spectral riders and charges forward, dealing 150 / 250 / 350 ( +100% AP ) magic damage . Hecarim unleashes a shockwave at the end of the charge that Fears for between 0.75 to 1.5 seconds, increased by charge distance.
+Hecarim summons spectral riders and charges forward, dealing 150 / 250 / 350 ( +100% AP ) magic damage and revealing enemies hit. Hecarim unleashes a shockwave at the end of the charge that fears for between 0.75 to 1.5 seconds, increased by charge distance.
 

@@ -109,7 +109,6 @@ base_stats:
 name: Talon
 roles:
 - Jungle
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/talon
 ---
 
@@ -117,7 +116,7 @@ source_url: https://www.wildriftfire.com/guide/talon
 
 ## Roles
 
-Jungle, Mid Lane
+Jungle
 
 ## Base Stats
 

@@ -14,8 +14,8 @@ abilities:
   - 65.0
   - 65.0
   - 65.0
-  description: Leaps to a target unit, dealing 70 / 125 / 180 / 235 ( +100% AD ) physical
-    damage if it is an enemy.
+  description: Leaps to a target unit, dealing 70 / 125 / 180 / 235 ( +100% bonus
+    AD ) physical damage if it is an enemy.
   name: Leap Strike
   slot: '1'
 - cooldowns:
@@ -66,7 +66,7 @@ abilities:
     ( +30% bonus AD ) Magic Resist . If he hits more than one champion, he gains 15
     / 20 / 25 ( +10% bonus AD ) Armor and 9 / 12 / 15 ( +6% bonus AD ) Magic Resist
     for 8 seconds per additional champion hit. During this time, his size increases
-    by 10%, and he deals additional magic damage with every 2 attacks instead. Deals
+    by 10% , and he deals additional magic damage with every 2 attacks instead. Deals
     110% damage to monsters.'
   name: Grandmaster-at-Arms
   slot: '4'
@@ -101,6 +101,7 @@ base_stats:
 name: Jax
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/jax
 ---
 
@@ -108,7 +109,7 @@ source_url: https://www.wildriftfire.com/guide/jax
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 
@@ -134,7 +135,7 @@ Attacks against champions and minions grant 6% - 20% Attack Speed for 3 seconds.
 
 **Cost:** 65.0 / 65.0 / 65.0 / 65.0
 
-Leaps to a target unit, dealing 70 / 125 / 180 / 235 ( +100% AD ) physical damage if it is an enemy.
+Leaps to a target unit, dealing 70 / 125 / 180 / 235 ( +100% bonus AD ) physical damage if it is an enemy.
 
 ### [2] Empower
 
@@ -158,5 +159,5 @@ Enters a defensive stance, dodging all incoming attacks and taking 25% reduced d
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Passive : Deals an additional 75 / 130 / 185 ( +70% AP ) magic damage with every 3 consecutive attacks he haunches within 3 seconds. Active : Swings his stave, dealing 100 / 200 / 300 ( +100% AP ) magic damage to nearby enemies and gaining Armor and Magic Resist based on the number of champions hit. If he hits a champion, he gains 30 / 50 / 70 ( +50% bonus AD ) Armor and 18 / 30 / 42 ( +30% bonus AD ) Magic Resist . If he hits more than one champion, he gains 15 / 20 / 25 ( +10% bonus AD ) Armor and 9 / 12 / 15 ( +6% bonus AD ) Magic Resist for 8 seconds per additional champion hit. During this time, his size increases by 10%, and he deals additional magic damage with every 2 attacks instead. Deals 110% damage to monsters.
+Passive : Deals an additional 75 / 130 / 185 ( +70% AP ) magic damage with every 3 consecutive attacks he haunches within 3 seconds. Active : Swings his stave, dealing 100 / 200 / 300 ( +100% AP ) magic damage to nearby enemies and gaining Armor and Magic Resist based on the number of champions hit. If he hits a champion, he gains 30 / 50 / 70 ( +50% bonus AD ) Armor and 18 / 30 / 42 ( +30% bonus AD ) Magic Resist . If he hits more than one champion, he gains 15 / 20 / 25 ( +10% bonus AD ) Armor and 9 / 12 / 15 ( +6% bonus AD ) Magic Resist for 8 seconds per additional champion hit. During this time, his size increases by 10% , and he deals additional magic damage with every 2 attacks instead. Deals 110% damage to monsters.
 

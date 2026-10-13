@@ -11,12 +11,12 @@ stats:
 - +350 Health
 - +40 Attack Damage
 - +15 Ability Haste
-type: Physical
+type: Fighter
 ---
 
 # Sundered Sky
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 2900 gold
 
 ## Stats

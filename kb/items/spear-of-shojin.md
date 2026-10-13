@@ -10,12 +10,12 @@ name: Spear of Shojin
 stats:
 - +450 Health
 - +40 Attack Damage
-type: Physical
+type: Fighter
 ---
 
 # Spear of Shojin
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 3100 gold
 
 ## Stats

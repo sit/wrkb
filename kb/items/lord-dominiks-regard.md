@@ -7,22 +7,22 @@ id: 144
 image_url: https://www.wildriftfire.com/images/items/lord-dominiks-regard.png
 name: Lord Dominik's Regard
 stats:
-- +30 Attack Damage
+- +35 Attack Damage
 - +25% Critical Strike Chance
-- +36% Armor Penetration
-type: Physical
+- +35% Armor Penetration
+type: Marksman
 ---
 
 # Lord Dominik's Regard
 
-**Type:** Physical  
+**Type:** Marksman  
 **Cost:** 3300 gold
 
 ## Stats
 
-- +30 Attack Damage
+- +35 Attack Damage
 - +25% Critical Strike Chance
-- +36% Armor Penetration
+- +35% Armor Penetration
 
 ## Effects
 

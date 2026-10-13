@@ -1,35 +1,30 @@
 ---
-cost: 3200
+cost: 3100
 effects:
-- "UNIQUE - LAST WHISPER: +33% armor penetration.\n\r\nUNIQUE - ICY: Damaging active\
-  \ abilities and empowered attacks slow enemies by 30% for 1 second.\n\r\nUNIQUE\
-  \ - FROSTBITE: Apply Frostbite to enemies slowed by Icy for 6s, at 3 Frostbite stacks,\
-  \ all stacks are consumed to apply bleed on target, dealing (5+1 ~ 15 + 15% bonus\
-  \ Attack Damage) over 2s, also applies Grievous Wounds for 3s. (5s Cooldown)"
+- 'UNIQUE - ICY: Damaging active abilities and empowered attacks slow enemies below
+  60% current Health by 30% Movement Speed for 1 second.'
 id: 117
 image_url: https://www.wildriftfire.com/images/items/seryldas-grudge.png
 name: Serylda's Grudge
 stats:
-- +40 Attack Damage
+- +50 Attack Damage
 - +15 Ability Haste
-type: Physical
+- +35% Armor Penetration
+type: Assassin,Fighter
 ---
 
 # Serylda's Grudge
 
-**Type:** Physical  
-**Cost:** 3200 gold
+**Type:** Assassin,Fighter  
+**Cost:** 3100 gold
 
 ## Stats
 
-- +40 Attack Damage
+- +50 Attack Damage
 - +15 Ability Haste
+- +35% Armor Penetration
 
 ## Effects
 
-UNIQUE - LAST WHISPER: +33% armor penetration.
-
-UNIQUE - ICY: Damaging active abilities and empowered attacks slow enemies by 30% for 1 second.
-
-UNIQUE - FROSTBITE: Apply Frostbite to enemies slowed by Icy for 6s, at 3 Frostbite stacks, all stacks are consumed to apply bleed on target, dealing (5+1 ~ 15 + 15% bonus Attack Damage) over 2s, also applies Grievous Wounds for 3s. (5s Cooldown)
+UNIQUE - ICY: Damaging active abilities and empowered attacks slow enemies below 60% current Health by 30% Movement Speed for 1 second.
 

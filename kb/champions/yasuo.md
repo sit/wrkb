@@ -4,7 +4,7 @@ abilities:
     bar. At max Flow, damage from a champion or monster grants a shield that absorbs
     125 - 680 ( +100% Critical Strike Rate ) damage and lasts 1 second. Intent : Yasuo''s
     Critical Rate is doubled. Yasuo converts Critical Rate above 100% into Attack
-    Damage at a rate of 0.6 Attack Damage per 1% Critical Rate.'
+    Damage at a rate of 0.5 Attack Damage per 1% Critical Rate.'
   name: Way of the Wanderer
   slot: P
 - cooldowns:
@@ -44,7 +44,7 @@ abilities:
   - 50.0
   - 40.0
   - 30.0
-  description: Blinks to an Airborne enemy champion, dealing 250 / 400 / 550 ( +160%
+  description: Blinks to an Airborne enemy champion, dealing 200 / 350 / 500 ( +150%
     bonus AD ) physical damage and holding all Airborne enemies in the area in the
     air for an additional 1.3 seconds. Grants maximum Flow but resets all stacks of
     Gathering Storm . For the next 15 seconds, Critical Strikes gain 55% Armor Penetration
@@ -108,7 +108,7 @@ Mid Lane, Baron Lane
 
 ### [P] Way of the Wanderer
 
-Resolve : Moving builds Flow, which is tracked on Yasuo's resource bar. At max Flow, damage from a champion or monster grants a shield that absorbs 125 - 680 ( +100% Critical Strike Rate ) damage and lasts 1 second. Intent : Yasuo's Critical Rate is doubled. Yasuo converts Critical Rate above 100% into Attack Damage at a rate of 0.6 Attack Damage per 1% Critical Rate.
+Resolve : Moving builds Flow, which is tracked on Yasuo's resource bar. At max Flow, damage from a champion or monster grants a shield that absorbs 125 - 680 ( +100% Critical Strike Rate ) damage and lasts 1 second. Intent : Yasuo's Critical Rate is doubled. Yasuo converts Critical Rate above 100% into Attack Damage at a rate of 0.5 Attack Damage per 1% Critical Rate.
 
 ### [1] Steel Tempest
 
@@ -132,5 +132,5 @@ Dashes through target enemy, dealing 70 / 80 / 90 / 100 ( +20% bonus AD + 60% AP
 
 **Cooldown:** 50.0 / 40.0 / 30.0 seconds
 
-Blinks to an Airborne enemy champion, dealing 250 / 400 / 550 ( +160% bonus AD ) physical damage and holding all Airborne enemies in the area in the air for an additional 1.3 seconds. Grants maximum Flow but resets all stacks of Gathering Storm . For the next 15 seconds, Critical Strikes gain 55% Armor Penetration .
+Blinks to an Airborne enemy champion, dealing 200 / 350 / 500 ( +150% bonus AD ) physical damage and holding all Airborne enemies in the area in the air for an additional 1.3 seconds. Grants maximum Flow but resets all stacks of Gathering Storm . For the next 15 seconds, Critical Strikes gain 55% Armor Penetration .
 

@@ -1,5 +1,5 @@
 ---
-cost: 2900
+cost: 2800
 effects:
 - "STORMRAIDER - When you deal damage equal to 25% of a champion's max Health within\
   \ 2.5 seconds, inflict Squall on them and gain 25% Movement Speed for 2.5 seconds.\
@@ -19,7 +19,7 @@ type: Magic
 # Stormsurge
 
 **Type:** Magic  
-**Cost:** 2900 gold
+**Cost:** 2800 gold
 
 ## Stats
 

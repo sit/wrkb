@@ -6,7 +6,7 @@ abilities:
   name: Triumphant Roar
   slot: P
 - cooldowns:
-  - 14.0
+  - 13.0
   - 12.0
   - 10.0
   - 9.0
@@ -15,23 +15,22 @@ abilities:
   - 70.0
   - 75.0
   - 80.0
-  description: Alistar smashes the ground, dealing 60 / 110 / 160 / 210 ( +50% AP
-    ) magic damage to nearby enemies and tossing them into the air for 1 second.
+  description: Deals 60 / 110 / 160 / 210 ( +50% AP ) magic damage to nearby enemies
+    and knocks them up for 1 second.
   name: Pulverize
   slot: '1'
 - cooldowns:
-  - 14.0
+  - 13.0
   - 12.0
-  - 11.0
+  - 10.0
   - 9.0
   costs:
   - 65.0
   - 70.0
   - 75.0
   - 80.0
-  description: Alistar rams a target with his head, dealing 50 / 120 / 190 / 260 (
-    +60% AP ) magic damage and knocking the target back. May also target turrets to
-    deal 75% damage.
+  description: Dashes toward an enemy, dealing 50 / 120 / 190 /260 ( +60% AP ) magic
+    damage and knocking them back. May target turrets to deal 75% damage.
   name: Headbutt
   slot: '2'
 - cooldowns:
@@ -44,10 +43,11 @@ abilities:
   - 60.0
   - 70.0
   - 80.0
-  description: Deals 100 / 150 / 200 / 250 ( +40% AP ) magic damage to nearby enemies
-    over 5 seconds. If Trample damages an enemy champion 5 times, Alistar's next attack
-    within 5 seconds, againts an enemy champion, is empowered to deal an aditional
-    40 magic damage and stuns for 1 second. Only one stack can be gained per tick.
+  description: Tramples the ground, dealing 10 magic damage to nearby enemies every
+    0.5 seconds for 5 seconds, up to a max of 100 / 150 / 200 / 250 ( +40% AP ) magic
+    damage . If trample damages an enemy champion 5 times, in the next 5 seconds,
+    Alistar's next attack against champions is empowered to deal an additional 40
+    magic damage and stun for 1 second. Only one stack can be gained per tick.
   name: Trample
   slot: '3'
 - cooldowns:
@@ -58,8 +58,8 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Alistar lets out a wild roar, removing all crowd control effects and
-    gain 55% / 65% / 75% damage reduction for 7 seconds.
+  description: Removes crowd control effects and gain 55% / 65% / 75% damage reduction
+    for 7 seconds.
   name: Unbreakable Will
   slot: '4'
 base_stats:
@@ -122,19 +122,19 @@ When Alistar takes damage, he heals himself for 27 and nearby allied champions f
 
 ### [1] Pulverize
 
-**Cooldown:** 14.0 / 12.0 / 10.0 / 9.0 seconds
+**Cooldown:** 13.0 / 12.0 / 10.0 / 9.0 seconds
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Alistar smashes the ground, dealing 60 / 110 / 160 / 210 ( +50% AP ) magic damage to nearby enemies and tossing them into the air for 1 second.
+Deals 60 / 110 / 160 / 210 ( +50% AP ) magic damage to nearby enemies and knocks them up for 1 second.
 
 ### [2] Headbutt
 
-**Cooldown:** 14.0 / 12.0 / 11.0 / 9.0 seconds
+**Cooldown:** 13.0 / 12.0 / 10.0 / 9.0 seconds
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Alistar rams a target with his head, dealing 50 / 120 / 190 / 260 ( +60% AP ) magic damage and knocking the target back. May also target turrets to deal 75% damage.
+Dashes toward an enemy, dealing 50 / 120 / 190 /260 ( +60% AP ) magic damage and knocking them back. May target turrets to deal 75% damage.
 
 ### [3] Trample
 
@@ -142,7 +142,7 @@ Alistar rams a target with his head, dealing 50 / 120 / 190 / 260 ( +60% AP ) ma
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Deals 100 / 150 / 200 / 250 ( +40% AP ) magic damage to nearby enemies over 5 seconds. If Trample damages an enemy champion 5 times, Alistar's next attack within 5 seconds, againts an enemy champion, is empowered to deal an aditional 40 magic damage and stuns for 1 second. Only one stack can be gained per tick.
+Tramples the ground, dealing 10 magic damage to nearby enemies every 0.5 seconds for 5 seconds, up to a max of 100 / 150 / 200 / 250 ( +40% AP ) magic damage . If trample damages an enemy champion 5 times, in the next 5 seconds, Alistar's next attack against champions is empowered to deal an additional 40 magic damage and stun for 1 second. Only one stack can be gained per tick.
 
 ### [4] Unbreakable Will
 
@@ -150,5 +150,5 @@ Deals 100 / 150 / 200 / 250 ( +40% AP ) magic damage to nearby enemies over 5 se
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Alistar lets out a wild roar, removing all crowd control effects and gain 55% / 65% / 75% damage reduction for 7 seconds.
+Removes crowd control effects and gain 55% / 65% / 75% damage reduction for 7 seconds.
 

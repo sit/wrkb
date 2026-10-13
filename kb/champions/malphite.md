@@ -14,7 +14,7 @@ abilities:
   - 85.0
   - 90.0
   description: Launches a shard that deals 70 / 130 / 190 / 250 ( +45% AP ) magic
-    damage , slowing the target by 15% / 20% / 25% / 30% , and hasting Malphite by
+    damage , slowing the target by 20% / 25% / 30% / 35% , and hasting Malphite by
     15% for 3 seconds.
   name: Seismic Shard
   slot: '1'
@@ -29,7 +29,7 @@ abilities:
   - 25.0
   - 25.0
   description: 'Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For
-    the next 6 seconds, attacks deal 10 / 20 / 30 / 40 ( +20% AP +20% Armor ) physical
+    the next 6 seconds, attacks deal 20 / 30 / 40 / 50 ( +20% AP +15% Armor ) physical
     damage in a cone. The first attack is empowered to deal 40 / 60 / 80 / 100 ( +40%
     AP +40% Armor ) bonus physical damage to the target.'
   name: Thunderclap
@@ -44,15 +44,15 @@ abilities:
   - 60.0
   - 65.0
   - 70.0
-  description: Slams the ground, dealing 60 / 110 / 160 / 210 ( +45% AP +45% Armor
+  description: Slams the ground, dealing 60 / 110 / 160 / 210 ( +45% AP +40% Armor
     ) magic damage to nearby enemies and reducing their attack speed by 35% / 40%
     / 45% / 50% for 3 seconds.
   name: Ground Slam
   slot: '3'
 - cooldowns:
+  - 85.0
+  - 80.0
   - 75.0
-  - 70.0
-  - 65.0
   costs:
   - 100.0
   - 100.0
@@ -64,7 +64,7 @@ abilities:
 base_stats:
   Armor:
     base: '49'
-    growth: '4'
+    growth: '5'
   Attack Dmg.:
     base: '58'
     growth: '3'
@@ -107,7 +107,7 @@ Baron Lane
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 345 (+31 per level)
 - Mana Reg. (5s): 15 (+1 per level)
-- Armor: 49 (+4 per level)
+- Armor: 49 (+5 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 58 (+3 per level)
@@ -125,7 +125,7 @@ Shield 72 ( 11% maximum HP ) damage after not taking damage for 8 seconds.
 
 **Cost:** 75.0 / 80.0 / 85.0 / 90.0
 
-Launches a shard that deals 70 / 130 / 190 / 250 ( +45% AP ) magic damage , slowing the target by 15% / 20% / 25% / 30% , and hasting Malphite by 15% for 3 seconds.
+Launches a shard that deals 70 / 130 / 190 / 250 ( +45% AP ) magic damage , slowing the target by 20% / 25% / 30% / 35% , and hasting Malphite by 15% for 3 seconds.
 
 ### [2] Thunderclap
 
@@ -133,7 +133,7 @@ Launches a shard that deals 70 / 130 / 190 / 250 ( +45% AP ) magic damage , slow
 
 **Cost:** 25.0 / 25.0 / 25.0 / 25.0
 
-Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For the next 6 seconds, attacks deal 10 / 20 / 30 / 40 ( +20% AP +20% Armor ) physical damage in a cone. The first attack is empowered to deal 40 / 60 / 80 / 100 ( +40% AP +40% Armor ) bonus physical damage to the target.
+Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For the next 6 seconds, attacks deal 20 / 30 / 40 / 50 ( +20% AP +15% Armor ) physical damage in a cone. The first attack is empowered to deal 40 / 60 / 80 / 100 ( +40% AP +40% Armor ) bonus physical damage to the target.
 
 ### [3] Ground Slam
 
@@ -141,11 +141,11 @@ Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For the next 6 s
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Slams the ground, dealing 60 / 110 / 160 / 210 ( +45% AP +45% Armor ) magic damage to nearby enemies and reducing their attack speed by 35% / 40% / 45% / 50% for 3 seconds.
+Slams the ground, dealing 60 / 110 / 160 / 210 ( +45% AP +40% Armor ) magic damage to nearby enemies and reducing their attack speed by 35% / 40% / 45% / 50% for 3 seconds.
 
 ### [4] Unstoppable Force
 
-**Cooldown:** 75.0 / 70.0 / 65.0 seconds
+**Cooldown:** 85.0 / 80.0 / 75.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

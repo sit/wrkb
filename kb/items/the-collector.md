@@ -1,30 +1,31 @@
 ---
 cost: 3000
 effects:
-- "UNIQUE - Killer: +10 Armor Penetration.\r\nUNIQUE - Death and Taxes: Dealing damage\
-  \ that would leave an enemy champion below (4%+2% Critical Rate) executes them,\
-  \ permanently increasing the max health percentage execution threshold by 0.1%."
+- "UNIQUE - Killer: +10 Armor Penetration.\r\nUNIQUE - Death and Taxes: If you deal\
+  \ damage to an enemy champion and leave them below 5% of their max Health, they\
+  \ are executed, permanently increasing the execute threshold by 0.1% of max Health\
+  \ and granting an additional 25 gold."
 id: 153
 image_url: https://www.wildriftfire.com/images/items/the-collector.png
 name: The Collector
 stats:
-- +45 Attack Damage
+- +50 Attack Damage
 - +25% Critical Strike Chance
-type: Physical
+type: Assassin,Marksman
 ---
 
 # The Collector
 
-**Type:** Physical  
+**Type:** Assassin,Marksman  
 **Cost:** 3000 gold
 
 ## Stats
 
-- +45 Attack Damage
+- +50 Attack Damage
 - +25% Critical Strike Chance
 
 ## Effects
 
 UNIQUE - Killer: +10 Armor Penetration.
-UNIQUE - Death and Taxes: Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) executes them, permanently increasing the max health percentage execution threshold by 0.1%.
+UNIQUE - Death and Taxes: If you deal damage to an enemy champion and leave them below 5% of their max Health, they are executed, permanently increasing the execute threshold by 0.1% of max Health and granting an additional 25 gold.
 

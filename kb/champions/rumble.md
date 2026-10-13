@@ -13,11 +13,12 @@ abilities:
   - 7.0
   - 6.0
   - 5.0
-  description: 'Ignites his flamethrower, dealing 120 / 160 / 200 / 240 ( +110% AP
-    ) plus 6% / 8% / 10% / 12% of the target''s max Health as magic damage over 3
-    seconds. The flamethrower deals 105% of this damage against minions. Danger Zone
-    : Deals 180 / 240 / 300 / 360 ( +165% AP ) plus 9% of the target''s max Health
-    as magic damage instead. Percent damage is limited to 65 - 150 damage on monsters.'
+  description: 'Ignites his flamethrower, dealing 100 / 140 / 180 / 220 ( +125% AP
+    ) plus 7% / 8% / 9% / 10% of the target''s max Health as magic damage over 3 seconds.
+    The flamethrower deals 105% of this damage against minions. Danger Zone : Deals
+    150 / 210 / 270 / 330 ( +187.5% AP ) plus 10.5% / 12% / 13.5% / 15% of the target''s
+    max Health as magic damage instead. Percent damage is limited to 65 - 150 damage
+    on monsters.'
   name: Flamespitter
   slot: '1'
 - cooldowns:
@@ -25,10 +26,10 @@ abilities:
   - 5.0
   - 5.0
   - 5.0
-  description: 'Tosses up a barrier, gaining a shield that absorbs 40 / 70 / 100 /
-    130 ( +6% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% /
+  description: 'Tosses up a barrier, gaining a shield that absorbs 40 / 80 / 120 /
+    160 ( +4% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% /
     35% Movement Speed for 1 second. Danger Zone : Gains 30% / 35% / 40% / 45% Movement
-    Speed and a shield that absorbs 60 / 105 / 150 / 195 ( +9% of max Health +45%
+    Speed and a shield that absorbs 60 / 120 / 180 / 240 ( +6% of max Health +45%
     AP ) damage instead.'
   name: Scrap Shield
   slot: '2'
@@ -37,12 +38,12 @@ abilities:
   - 1.0
   - 1.0
   - 1.0
-  description: 'Launches an electrified harpoon, dealing 60 / 90 / 120 / 150 ( +40%
+  description: 'Launches an electrified harpoon, dealing 60 / 90 / 120 / 150 ( +50%
     AP ) magic damage , slowing by 30% / 35% / 40% / 45% for 1.5 seconds, and reducing
     the enemy''s Magic Resist by 8% / 12% / 16% / 20% for 4 seconds. Hitting an enemy
     who is already slowed by Electro Harpoon increases the slow to 45% / 52.5% / 60%
     / 67.5% and Magic Resist reduction to 12% / 18% / 24% / 30% . Danger Zone : The
-    harpoon deals 90 / 135 / 180 / 225 ( +60% AP ) magic damage instead, and the slow
+    harpoon deals 90 / 135 / 180 / 225 ( +75% AP ) magic damage instead, and the slow
     and Magic Resist reduction are increased by 50% . Charge : Gains a charge every
     6 seconds, storing up to 2 charges.'
   name: Electro-Harpoon
@@ -67,8 +68,8 @@ base_stats:
     base: '0.80'
     growth: '0.0150'
   Health:
-    base: '690'
-    growth: '89'
+    base: '660'
+    growth: '128'
   Health Reg. (5s):
     base: '8'
     growth: '1'
@@ -92,7 +93,7 @@ Baron Lane
 
 ## Base Stats
 
-- Health: 690 (+89 per level)
+- Health: 660 (+128 per level)
 - Health Reg. (5s): 8 (+1 per level)
 - Armor: 46 (+4 per level)
 - Magic Res.: 36 (+2 per level)
@@ -110,19 +111,19 @@ Every ability Rumble casts generates Heat . While above 50 Heat , Rumble enters 
 
 **Cooldown:** 8.0 / 7.0 / 6.0 / 5.0 seconds
 
-Ignites his flamethrower, dealing 120 / 160 / 200 / 240 ( +110% AP ) plus 6% / 8% / 10% / 12% of the target's max Health as magic damage over 3 seconds. The flamethrower deals 105% of this damage against minions. Danger Zone : Deals 180 / 240 / 300 / 360 ( +165% AP ) plus 9% of the target's max Health as magic damage instead. Percent damage is limited to 65 - 150 damage on monsters.
+Ignites his flamethrower, dealing 100 / 140 / 180 / 220 ( +125% AP ) plus 7% / 8% / 9% / 10% of the target's max Health as magic damage over 3 seconds. The flamethrower deals 105% of this damage against minions. Danger Zone : Deals 150 / 210 / 270 / 330 ( +187.5% AP ) plus 10.5% / 12% / 13.5% / 15% of the target's max Health as magic damage instead. Percent damage is limited to 65 - 150 damage on monsters.
 
 ### [2] Scrap Shield
 
 **Cooldown:** 5.0 / 5.0 / 5.0 / 5.0 seconds
 
-Tosses up a barrier, gaining a shield that absorbs 40 / 70 / 100 / 130 ( +6% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% / 35% Movement Speed for 1 second. Danger Zone : Gains 30% / 35% / 40% / 45% Movement Speed and a shield that absorbs 60 / 105 / 150 / 195 ( +9% of max Health +45% AP ) damage instead.
+Tosses up a barrier, gaining a shield that absorbs 40 / 80 / 120 / 160 ( +4% of max Health +35% AP ) damage for 1.5 seconds and 20% / 25% / 30% / 35% Movement Speed for 1 second. Danger Zone : Gains 30% / 35% / 40% / 45% Movement Speed and a shield that absorbs 60 / 120 / 180 / 240 ( +6% of max Health +45% AP ) damage instead.
 
 ### [3] Electro-Harpoon
 
 **Cooldown:** 1.0 / 1.0 / 1.0 / 1.0 seconds
 
-Launches an electrified harpoon, dealing 60 / 90 / 120 / 150 ( +40% AP ) magic damage , slowing by 30% / 35% / 40% / 45% for 1.5 seconds, and reducing the enemy's Magic Resist by 8% / 12% / 16% / 20% for 4 seconds. Hitting an enemy who is already slowed by Electro Harpoon increases the slow to 45% / 52.5% / 60% / 67.5% and Magic Resist reduction to 12% / 18% / 24% / 30% . Danger Zone : The harpoon deals 90 / 135 / 180 / 225 ( +60% AP ) magic damage instead, and the slow and Magic Resist reduction are increased by 50% . Charge : Gains a charge every 6 seconds, storing up to 2 charges.
+Launches an electrified harpoon, dealing 60 / 90 / 120 / 150 ( +50% AP ) magic damage , slowing by 30% / 35% / 40% / 45% for 1.5 seconds, and reducing the enemy's Magic Resist by 8% / 12% / 16% / 20% for 4 seconds. Hitting an enemy who is already slowed by Electro Harpoon increases the slow to 45% / 52.5% / 60% / 67.5% and Magic Resist reduction to 12% / 18% / 24% / 30% . Danger Zone : The harpoon deals 90 / 135 / 180 / 225 ( +75% AP ) magic damage instead, and the slow and Magic Resist reduction are increased by 50% . Charge : Gains a charge every 6 seconds, storing up to 2 charges.
 
 ### [4] The Equalizer
 

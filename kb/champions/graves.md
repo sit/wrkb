@@ -4,9 +4,9 @@ abilities:
     must reload when he runs out of ammo. Attack Speed reduces reload time slightly,
     but reduces time between attacks dramatically. 12 Gauge : Attacks fire 4 bullets.
     Units hit take 72% AD physical damage +24% for additional bullets. Critical strikes
-    fire 6 bullets, 130% damage each and increase each bullet''s damage by 30% . Structures
+    fire 6 bullets, 150% damage each and increase each bullet''s damage by 30% . Structures
     only take 75% damage. Buckshot : Bullets cannot pass through enemy units. Non-champions
-    struck by multiple bullets are knock back slightly.'
+    struck by multiple bullets are knocked back slightly.'
   name: New Destiny
   slot: P
 - cooldowns:
@@ -19,10 +19,11 @@ abilities:
   - 70.0
   - 75.0
   - 80.0
-  description: Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical
-    damage and then detonates after 1 second to deal an additional 80 / 130 / 180
-    / 230 ( +110% / 130% / 150% / 170% AD ) physical damage . Detonates in 0.25 seconds
-    if the round hits terrain. Deals 110% damage against monsters.
+  description: "Fires a powder round that deals 70 / 90 / 110 / 130 ( +80%bonus\_\
+    \ AD ) physical damage and then detonates after 1 second to deal an additional\
+    \ 80 / 130 / 180 / 230 ( +110% / 130% / 150% / 170% bonus AD ) physical damage\
+    \ . Detonates in 0.25 seconds if the round hits terrain. Deals 110% damage against\
+    \ monsters."
   name: End of the Line
   slot: '1'
 - cooldowns:
@@ -65,11 +66,11 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Fires an explosive shell that deals 300 / 450 / 600 ( +150% AD ) physical
-    damage and knocks Graves back from recoil. The shell explodes upon hitting an
-    enemy champion or reaching the end of its range, dealing 200 / 320 / 440 ( +120%
-    AD ) physical damage in a cone. Enemies damaged by the shell's initial impact
-    do not take damage from the explosive cone.
+  description: Fires an explosive shell that deals 300 / 450 / 600 ( +150% bonus AD
+    ) physical damage and knocks Graves back from recoil. The shell explodes upon
+    hitting an enemy champion or reaching the end of its range, dealing 200 / 320
+    / 440 ( +120% bonus AD ) physical damage in a cone. Enemies damaged by the shell's
+    initial impact do not take damage from the explosive cone.
   name: Collateral Damage
   slot: '4'
 base_stats:
@@ -128,7 +129,7 @@ Jungle
 
 ### [P] New Destiny
 
-Graves' shotgun has some unique properties: Double Barrel : Graves must reload when he runs out of ammo. Attack Speed reduces reload time slightly, but reduces time between attacks dramatically. 12 Gauge : Attacks fire 4 bullets. Units hit take 72% AD physical damage +24% for additional bullets. Critical strikes fire 6 bullets, 130% damage each and increase each bullet's damage by 30% . Structures only take 75% damage. Buckshot : Bullets cannot pass through enemy units. Non-champions struck by multiple bullets are knock back slightly.
+Graves' shotgun has some unique properties: Double Barrel : Graves must reload when he runs out of ammo. Attack Speed reduces reload time slightly, but reduces time between attacks dramatically. 12 Gauge : Attacks fire 4 bullets. Units hit take 72% AD physical damage +24% for additional bullets. Critical strikes fire 6 bullets, 150% damage each and increase each bullet's damage by 30% . Structures only take 75% damage. Buckshot : Bullets cannot pass through enemy units. Non-champions struck by multiple bullets are knocked back slightly.
 
 ### [1] End of the Line
 
@@ -136,7 +137,7 @@ Graves' shotgun has some unique properties: Double Barrel : Graves must reload w
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Fires a powder round that deals 70 / 90 / 110 / 130 ( +80% AD ) physical damage and then detonates after 1 second to deal an additional 80 / 130 / 180 / 230 ( +110% / 130% / 150% / 170% AD ) physical damage . Detonates in 0.25 seconds if the round hits terrain. Deals 110% damage against monsters.
+Fires a powder round that deals 70 / 90 / 110 / 130 ( +80%bonus  AD ) physical damage and then detonates after 1 second to deal an additional 80 / 130 / 180 / 230 ( +110% / 130% / 150% / 170% bonus AD ) physical damage . Detonates in 0.25 seconds if the round hits terrain. Deals 110% damage against monsters.
 
 ### [2] Smoke Screen
 
@@ -160,5 +161,5 @@ Dashes in a direction, reloading one shell and granting True Grit for 4 seconds.
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Fires an explosive shell that deals 300 / 450 / 600 ( +150% AD ) physical damage and knocks Graves back from recoil. The shell explodes upon hitting an enemy champion or reaching the end of its range, dealing 200 / 320 / 440 ( +120% AD ) physical damage in a cone. Enemies damaged by the shell's initial impact do not take damage from the explosive cone.
+Fires an explosive shell that deals 300 / 450 / 600 ( +150% bonus AD ) physical damage and knocks Graves back from recoil. The shell explodes upon hitting an enemy champion or reaching the end of its range, dealing 200 / 320 / 440 ( +120% bonus AD ) physical damage in a cone. Enemies damaged by the shell's initial impact do not take damage from the explosive cone.
 

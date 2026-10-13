@@ -2,7 +2,7 @@
 abilities:
 - description: Volibear gains 5% ( +4% AP ) Attack Speed for 6 seconds whenever he
     deals damage with an Ability or Attack, stacking up to 5 times. At 5 stacks, Volibear's
-    claws ignite with lightning, causing his Attacks to deal an additional 11 - 80
+    claws ignite with lightning, causing his Attacks to deal an additional 12 - 68
     ( +40% AP ) magic damage to the target and 4 closest enemies.
   name: The Relentless Storm
   slot: P
@@ -131,7 +131,7 @@ Jungle, Baron Lane
 
 ### [P] The Relentless Storm
 
-Volibear gains 5% ( +4% AP ) Attack Speed for 6 seconds whenever he deals damage with an Ability or Attack, stacking up to 5 times. At 5 stacks, Volibear's claws ignite with lightning, causing his Attacks to deal an additional 11 - 80 ( +40% AP ) magic damage to the target and 4 closest enemies.
+Volibear gains 5% ( +4% AP ) Attack Speed for 6 seconds whenever he deals damage with an Ability or Attack, stacking up to 5 times. At 5 stacks, Volibear's claws ignite with lightning, causing his Attacks to deal an additional 12 - 68 ( +40% AP ) magic damage to the target and 4 closest enemies.
 
 ### [1] Thundering Smash
 

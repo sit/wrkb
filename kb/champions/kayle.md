@@ -14,11 +14,11 @@ abilities:
   - 9.0
   - 8.0
   costs:
+  - 70.0
   - 80.0
-  - 85.0
   - 90.0
-  - 95.0
-  description: Launches a celestial sword, dealing 70 / 120 / 170 / 220 ( +60% AD
+  - 100.0
+  description: Launches a celestial sword, dealing 60 / 100 / 140 / 180 ( +60% AD
     +50% AP ) magic damage . Enemies hit are slowed by 26% / 34% / 42% / 50% for 2
     seconds and their armor and magic resist is reduced by 20% for 4 seconds.
   name: Radiant Blast
@@ -29,11 +29,11 @@ abilities:
   - 14.0
   - 14.0
   costs:
+  - 75.0
+  - 80.0
   - 85.0
   - 90.0
-  - 95.0
-  - 100.0
-  description: Heals herself and an allied champion for 95 / 125 / 155 / 185 ( +40%
+  description: Heals herself and an allied champion for 60 / 95 / 130 / 165 ( +30%
     AP ) and grants them 25% / 30% / 35% / 40% ( +0.08% AP ) Movement Speed for 2
     seconds.
   name: Celestial Blessing
@@ -122,17 +122,17 @@ Kayle ascends as she gains levels. Level 1 : Attacks grant 4% ( +1% AP ) Attack 
 
 **Cooldown:** 11.0 / 10.0 / 9.0 / 8.0 seconds
 
-**Cost:** 80.0 / 85.0 / 90.0 / 95.0
+**Cost:** 70.0 / 80.0 / 90.0 / 100.0
 
-Launches a celestial sword, dealing 70 / 120 / 170 / 220 ( +60% AD +50% AP ) magic damage . Enemies hit are slowed by 26% / 34% / 42% / 50% for 2 seconds and their armor and magic resist is reduced by 20% for 4 seconds.
+Launches a celestial sword, dealing 60 / 100 / 140 / 180 ( +60% AD +50% AP ) magic damage . Enemies hit are slowed by 26% / 34% / 42% / 50% for 2 seconds and their armor and magic resist is reduced by 20% for 4 seconds.
 
 ### [2] Celestial Blessing
 
 **Cooldown:** 14.0 / 14.0 / 14.0 / 14.0 seconds
 
-**Cost:** 85.0 / 90.0 / 95.0 / 100.0
+**Cost:** 75.0 / 80.0 / 85.0 / 90.0
 
-Heals herself and an allied champion for 95 / 125 / 155 / 185 ( +40% AP ) and grants them 25% / 30% / 35% / 40% ( +0.08% AP ) Movement Speed for 2 seconds.
+Heals herself and an allied champion for 60 / 95 / 130 / 165 ( +30% AP ) and grants them 25% / 30% / 35% / 40% ( +0.08% AP ) Movement Speed for 2 seconds.
 
 ### [3] Starfire Spellblade
 

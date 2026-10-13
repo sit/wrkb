@@ -104,7 +104,6 @@ base_stats:
 name: Taliyah
 roles:
 - Mid Lane
-- Jungle
 source_url: https://www.wildriftfire.com/guide/taliyah
 ---
 
@@ -112,7 +111,7 @@ source_url: https://www.wildriftfire.com/guide/taliyah
 
 ## Roles
 
-Mid Lane, Jungle
+Mid Lane
 
 ## Base Stats
 

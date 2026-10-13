@@ -1,14 +1,15 @@
 ---
 abilities:
-- description: Amumu's basic attacks Curse his enemies, causing them to take bonus
-    10% true damage from incoming magic damage.
+- description: Attacks curse the target to take an additional 10% true damage from
+    incoming magic damage for 3 seconds. Subsequent applications of Cursed Touch will
+    refresh its duration.
   name: Cursed Touch
   slot: P
 - cooldowns:
-  - 13.0
-  - 12.0
-  - 12.0
-  - 11.0
+  - 3.0
+  - 3.0
+  - 3.0
+  - 3.0
   costs:
   - 35.0
   - 40.0
@@ -30,9 +31,9 @@ abilities:
   - 11.0
   - 12.0
   - 13.0
-  description: Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.2%
+  description: 'Toggle : Begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.2%
     / 1.5% / 1.8% / 2.1% ( +0.4% AP) of their maximum Health to nearby enemies every
-    second.
+    second.'
   name: Despair
   slot: '2'
 - cooldowns:
@@ -44,10 +45,10 @@ abilities:
   - 35.0
   - 35.0
   - 35.0
-  description: 'Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical
-    damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby
-    enemies and slows them by 10% for 0.5 seconds. Tantrum''s cooldown is reduced
-    by 0.5 seconds when Amumu is hit by an attack.'
+  description: 'Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% bonus Armor +4% bonus MR
+    ) reduced physical damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic
+    damage to nearby enemies and slows them by 10% for 0.5 seconds. Tantrum''s cooldown
+    is reduced by 0.5 seconds when Amumu is hit by an attack.'
   name: Tantrum
   slot: '3'
 - cooldowns:
@@ -58,9 +59,8 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Amumu entangles surrounding enemy units in bandages, applying his Curse,
-    dealing 150 / 250 / 350 ( +70% AP ) magic damage and rendering them unable to
-    attack or move for 1.5 seconds.
+  description: Deals 150 / 250 / 350 ( +70% AP ) magic damage to all nearby enemies
+    and stuns them for 1.5 seconds. Applies Cursed Touch .
   name: Curse of the Sad Mummy
   slot: '4'
 base_stats:
@@ -119,11 +119,11 @@ Jungle
 
 ### [P] Cursed Touch
 
-Amumu's basic attacks Curse his enemies, causing them to take bonus 10% true damage from incoming magic damage.
+Attacks curse the target to take an additional 10% true damage from incoming magic damage for 3 seconds. Subsequent applications of Cursed Touch will refresh its duration.
 
 ### [1] Bandage Toss
 
-**Cooldown:** 13.0 / 12.0 / 12.0 / 11.0 seconds
+**Cooldown:** 3.0 / 3.0 / 3.0 / 3.0 seconds
 
 **Cost:** 35.0 / 40.0 / 45.0 / 50.0
 
@@ -135,7 +135,7 @@ Passive : Bandage Toss charges are stored every 13 / 12.5 / 12 / 11.5 seconds, u
 
 **Cost:** 10.0 / 11.0 / 12.0 / 13.0
 
-Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.2% / 1.5% / 1.8% / 2.1% ( +0.4% AP) of their maximum Health to nearby enemies every second.
+Toggle : Begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.2% / 1.5% / 1.8% / 2.1% ( +0.4% AP) of their maximum Health to nearby enemies every second.
 
 ### [3] Tantrum
 
@@ -143,7 +143,7 @@ Amumu begins weeping to deal 25 / 30 / 35 / 40 magic damage + 1.2% / 1.5% / 1.8%
 
 **Cost:** 35.0 / 35.0 / 35.0
 
-Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby enemies and slows them by 10% for 0.5 seconds. Tantrum's cooldown is reduced by 0.5 seconds when Amumu is hit by an attack.
+Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% bonus Armor +4% bonus MR ) reduced physical damage. Active : Deals 90 / 120 / 150 / 180 ( +50% AP ) magic damage to nearby enemies and slows them by 10% for 0.5 seconds. Tantrum's cooldown is reduced by 0.5 seconds when Amumu is hit by an attack.
 
 ### [4] Curse of the Sad Mummy
 
@@ -151,5 +151,5 @@ Passive : Amumu takes 1 / 3 / 5 / 7 ( +4% Armor +4% MR ) reduced physical damage
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Amumu entangles surrounding enemy units in bandages, applying his Curse, dealing 150 / 250 / 350 ( +70% AP ) magic damage and rendering them unable to attack or move for 1.5 seconds.
+Deals 150 / 250 / 350 ( +70% AP ) magic damage to all nearby enemies and stuns them for 1.5 seconds. Applies Cursed Touch .
 

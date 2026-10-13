@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Casting an ability restores 46 ( 8.5% max HP ) Health .
+- description: Casting an ability restores 62 ( 8.5% max HP ) Health .
   name: Happy Hour
   slot: P
 - cooldowns:
@@ -17,7 +17,7 @@ abilities:
     3 seconds. Enemies hit take 65 / 120 / 175 / 230 ( +70% AP ) magic damage and
     are slowed by 30% / 35% / 40% / 45% for 2 seconds. The damage and slow amount
     increase over the first 1.5 seconds, by up to 150% . The cask reveals the area
-    and deals 80% damage to minions.
+    and deals 90% damage to minions.
   name: Barrel Roll
   slot: '1'
 - cooldowns:
@@ -49,7 +49,7 @@ abilities:
   description: Charges forward, colliding with the first enemy hit to deal 70 / 135
     / 200 / 265 ( +70% AP ) magic damage to nearby enemies. Enemies hit are also bumped
     backwards, stunning them for 1 second. Body Slam's cooldown is reduced by 3 seconds
-    if it succesfully collides with an enemy.
+    if it successfully collides with an enemy.
   name: Body Slam
   slot: '3'
 - cooldowns:
@@ -95,7 +95,6 @@ base_stats:
     growth: '0'
 name: Gragas
 roles:
-- Mid Lane
 - Jungle
 source_url: https://www.wildriftfire.com/guide/gragas
 ---
@@ -104,7 +103,7 @@ source_url: https://www.wildriftfire.com/guide/gragas
 
 ## Roles
 
-Mid Lane, Jungle
+Jungle
 
 ## Base Stats
 
@@ -122,7 +121,7 @@ Mid Lane, Jungle
 
 ### [P] Happy Hour
 
-Casting an ability restores 46 ( 8.5% max HP ) Health .
+Casting an ability restores 62 ( 8.5% max HP ) Health .
 
 ### [1] Barrel Roll
 
@@ -130,7 +129,7 @@ Casting an ability restores 46 ( 8.5% max HP ) Health .
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Rolls a cask to target location that explodes upon re-casting or after 3 seconds. Enemies hit take 65 / 120 / 175 / 230 ( +70% AP ) magic damage and are slowed by 30% / 35% / 40% / 45% for 2 seconds. The damage and slow amount increase over the first 1.5 seconds, by up to 150% . The cask reveals the area and deals 80% damage to minions.
+Rolls a cask to target location that explodes upon re-casting or after 3 seconds. Enemies hit take 65 / 120 / 175 / 230 ( +70% AP ) magic damage and are slowed by 30% / 35% / 40% / 45% for 2 seconds. The damage and slow amount increase over the first 1.5 seconds, by up to 150% . The cask reveals the area and deals 90% damage to minions.
 
 ### [2] Drunken Rage
 
@@ -146,7 +145,7 @@ Reduces damage taken by 11% / 13% / 15% / 17% ( +0.04% AP ) for 2.5 seconds. The
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Charges forward, colliding with the first enemy hit to deal 70 / 135 / 200 / 265 ( +70% AP ) magic damage to nearby enemies. Enemies hit are also bumped backwards, stunning them for 1 second. Body Slam's cooldown is reduced by 3 seconds if it succesfully collides with an enemy.
+Charges forward, colliding with the first enemy hit to deal 70 / 135 / 200 / 265 ( +70% AP ) magic damage to nearby enemies. Enemies hit are also bumped backwards, stunning them for 1 second. Body Slam's cooldown is reduced by 3 seconds if it successfully collides with an enemy.
 
 ### [4] Explosive Cask
 

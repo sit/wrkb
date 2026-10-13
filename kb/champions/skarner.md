@@ -19,7 +19,7 @@ abilities:
   description: 'First Cast : Grabs a boulder, empowering his next 3 attacks to gain
     25% / 30% / 35% / 40% Attack Speed and deal 15 / 30 / 45 / 60 ( +100% bonus AD
     +4% bonus Health ) physical damage to nearby enemies. The third attack deals an
-    additional 10% of the target''s max Health as physical damage and slows by 45%
+    additional 11% of the target''s max Health as physical damage and slows by 45%
     for 1 second. Recast (Upheaval) : Ends this ability and throws the boulder in
     a target direction. The boulder explodes on the first enemy hit, dealing 15 /
     30 / 45 / 60 ( +100% bonus AD +4% bonus Health ) + 9% of the target''s max Health
@@ -31,25 +31,25 @@ abilities:
   name: Shattered Earth
   slot: '1'
 - cooldowns:
-  - 9.0
   - 8.0
   - 7.0
   - 6.0
+  - 5.0
   costs:
   - 60.0
   - 65.0
   - 70.0
   - 75.0
-  description: Immediately gains a shield that absorbs damage equal to 8% max Health
+  description: Immediately gains a shield that absorbs damage equal to 10% max Health
     for 2.5 seconds and triggers an earthquake that deals 50 / 70 / 90 / 110 ( +80%
     AP ) magic damage and slows nearby enemies by 25% for 1 second.
   name: Seismic Bastion
   slot: '2'
 - cooldowns:
-  - 20.0
   - 18.0
   - 16.0
   - 14.0
+  - 12.0
   costs:
   - 50.0
   - 55.0
@@ -142,19 +142,19 @@ Skarner's attacks, Shattered Earth , Upheaval , and Impale apply Quaking to targ
 
 **Cost:** 45.0 / 45.0 / 45.0 / 45.0
 
-First Cast : Grabs a boulder, empowering his next 3 attacks to gain 25% / 30% / 35% / 40% Attack Speed and deal 15 / 30 / 45 / 60 ( +100% bonus AD +4% bonus Health ) physical damage to nearby enemies. The third attack deals an additional 10% of the target's max Health as physical damage and slows by 45% for 1 second. Recast (Upheaval) : Ends this ability and throws the boulder in a target direction. The boulder explodes on the first enemy hit, dealing 15 / 30 / 45 / 60 ( +100% bonus AD +4% bonus Health ) + 9% of the target's max Health as physical damage to them and nearby enemies and slowing them by 40% for 1 second. Percent Health damage to monsters from the first attack and Upheaval is capped at 200 / 250 / 300 / 350 ( +100% bonus AD +4% bonus Health ). The first two attacks deal 100% damage to structures. The third attack and Upheaval deal 200% damage to structures.
+First Cast : Grabs a boulder, empowering his next 3 attacks to gain 25% / 30% / 35% / 40% Attack Speed and deal 15 / 30 / 45 / 60 ( +100% bonus AD +4% bonus Health ) physical damage to nearby enemies. The third attack deals an additional 11% of the target's max Health as physical damage and slows by 45% for 1 second. Recast (Upheaval) : Ends this ability and throws the boulder in a target direction. The boulder explodes on the first enemy hit, dealing 15 / 30 / 45 / 60 ( +100% bonus AD +4% bonus Health ) + 9% of the target's max Health as physical damage to them and nearby enemies and slowing them by 40% for 1 second. Percent Health damage to monsters from the first attack and Upheaval is capped at 200 / 250 / 300 / 350 ( +100% bonus AD +4% bonus Health ). The first two attacks deal 100% damage to structures. The third attack and Upheaval deal 200% damage to structures.
 
 ### [2] Seismic Bastion
 
-**Cooldown:** 9.0 / 8.0 / 7.0 / 6.0 seconds
+**Cooldown:** 8.0 / 7.0 / 6.0 / 5.0 seconds
 
 **Cost:** 60.0 / 65.0 / 70.0 / 75.0
 
-Immediately gains a shield that absorbs damage equal to 8% max Health for 2.5 seconds and triggers an earthquake that deals 50 / 70 / 90 / 110 ( +80% AP ) magic damage and slows nearby enemies by 25% for 1 second.
+Immediately gains a shield that absorbs damage equal to 10% max Health for 2.5 seconds and triggers an earthquake that deals 50 / 70 / 90 / 110 ( +80% AP ) magic damage and slows nearby enemies by 25% for 1 second.
 
 ### [3] Ixtal's Impact
 
-**Cooldown:** 20.0 / 18.0 / 16.0 / 14.0 seconds
+**Cooldown:** 18.0 / 16.0 / 14.0 / 12.0 seconds
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 

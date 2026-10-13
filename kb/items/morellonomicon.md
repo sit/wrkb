@@ -10,12 +10,12 @@ stats:
 - +300 Health
 - +70 Ability Power
 - +15 Ability Haste
-type: Magic
+type: Magic,Support
 ---
 
 # Morellonomicon
 
-**Type:** Magic  
+**Type:** Magic,Support  
 **Cost:** 2650 gold
 
 ## Stats

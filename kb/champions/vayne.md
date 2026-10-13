@@ -15,7 +15,7 @@ abilities:
   - 30.0
   - 30.0
   description: 'Dashes forward and empowers her next attack to deal an additional
-    24 ( 35% / 45% / 55% / 65% AD ) physical damage . Final Hour : Gains 1 second
+    24 ( 50% / 60% / 70% / 80% AD ) physical damage . Final Hour : Gains 1 second
     of invisibility on cast. Tumble does not go through walls.'
   name: Tumble
   slot: '1'
@@ -30,7 +30,7 @@ abilities:
   - 45.0
   - 45.0
   description: 'Passive : Every third consecutive attack or ability on the same target
-    deals additional 2% / 5% / 8% / 11% true damage of the enemy''s maximum Health.
+    deals additional 6% / 7% / 8% / 9% true damage of the enemy''s maximum Health.
     Active : Gains 10% / 15% / 20% / 25% Attack Speed and 10% Omnivamp for 3 seconds.
     Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped
     at 200 against monsters.'
@@ -59,7 +59,7 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Gains 15 / 25 / 35 Attack Damage and strengthens Night Hunter and Tumble
+  description: Gains 30 / 40 / 50 Attack Damage and strengthens Night Hunter and Tumble
     for 8 / 10 / 12 seconds. When an enemy champion damaged by Vayne dies within 3
     seconds, Final Hour's duration is extended by 4 seconds, up to an additional 8
     / 10 / 12 seconds.
@@ -70,7 +70,7 @@ base_stats:
     base: '31'
     growth: '4'
   Attack Dmg.:
-    base: '54'
+    base: '60'
     growth: '3'
   Attack Spd.:
     base: '0.83'
@@ -96,6 +96,7 @@ base_stats:
 name: Vayne
 roles:
 - ADC
+- Baron Lane
 source_url: https://www.wildriftfire.com/guide/vayne
 ---
 
@@ -103,7 +104,7 @@ source_url: https://www.wildriftfire.com/guide/vayne
 
 ## Roles
 
-ADC
+ADC, Baron Lane
 
 ## Base Stats
 
@@ -114,7 +115,7 @@ ADC
 - Armor: 31 (+4 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+3 per level)
+- Attack Dmg.: 60 (+3 per level)
 - Attack Spd.: 0.83 (+0.0136 per level)
 
 ## Abilities
@@ -129,7 +130,7 @@ Gain 10 Movement Speed when moving towards enemy champions. Final Hour : Gains 7
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Dashes forward and empowers her next attack to deal an additional 24 ( 35% / 45% / 55% / 65% AD ) physical damage . Final Hour : Gains 1 second of invisibility on cast. Tumble does not go through walls.
+Dashes forward and empowers her next attack to deal an additional 24 ( 50% / 60% / 70% / 80% AD ) physical damage . Final Hour : Gains 1 second of invisibility on cast. Tumble does not go through walls.
 
 ### [2] Silver Bolts
 
@@ -137,7 +138,7 @@ Dashes forward and empowers her next attack to deal an additional 24 ( 35% / 45%
 
 **Cost:** 45.0 / 45.0 / 45.0 / 45.0
 
-Passive : Every third consecutive attack or ability on the same target deals additional 2% / 5% / 8% / 11% true damage of the enemy's maximum Health. Active : Gains 10% / 15% / 20% / 25% Attack Speed and 10% Omnivamp for 3 seconds. Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped at 200 against monsters.
+Passive : Every third consecutive attack or ability on the same target deals additional 6% / 7% / 8% / 9% true damage of the enemy's maximum Health. Active : Gains 10% / 15% / 20% / 25% Attack Speed and 10% Omnivamp for 3 seconds. Passive deals at least 50 / 65 / 80 / 95 true damage . Passive damage is capped at 200 against monsters.
 
 ### [3] Condemn
 
@@ -153,5 +154,5 @@ Fires a bolt that deals 50 / 80 / 110 / 140 ( +55% AD ) physical damage and knoc
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Gains 15 / 25 / 35 Attack Damage and strengthens Night Hunter and Tumble for 8 / 10 / 12 seconds. When an enemy champion damaged by Vayne dies within 3 seconds, Final Hour's duration is extended by 4 seconds, up to an additional 8 / 10 / 12 seconds.
+Gains 30 / 40 / 50 Attack Damage and strengthens Night Hunter and Tumble for 8 / 10 / 12 seconds. When an enemy champion damaged by Vayne dies within 3 seconds, Final Hour's duration is extended by 4 seconds, up to an additional 8 / 10 / 12 seconds.
 

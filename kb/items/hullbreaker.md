@@ -14,12 +14,12 @@ name: Hullbreaker
 stats:
 - +400 Health
 - +50 Attack Damage
-type: Physical
+type: Fighter
 ---
 
 # Hullbreaker
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 3100 gold
 
 ## Stats

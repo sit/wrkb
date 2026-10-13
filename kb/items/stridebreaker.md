@@ -12,12 +12,12 @@ stats:
 - +400 Health
 - +40 Attack Damage
 - +25% Attack Speed
-type: Physical
+type: Fighter
 ---
 
 # Stridebreaker
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 3100 gold
 
 ## Stats

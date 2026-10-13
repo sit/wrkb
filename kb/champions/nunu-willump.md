@@ -56,7 +56,7 @@ abilities:
     ends, Willump deals magic damage equal to 3% - 15% ( +0.8 - 4% AP ) of the enemies'
     max Health and roots them for 0.5 - 1.5 seconds. Damage and root duration scale
     with number of snowball hits on the target. Final explosion deals up to 150 /
-    200 / 250 / 300 damage vs. monsters. Deals 150% damage to monsters.
+    200 / 250 / 300 damage vs. monsters.
   name: Snowball Barrage
   slot: '3'
 - cooldowns:
@@ -153,7 +153,7 @@ Willump begins rolling a snowball that increases in size and speed over 12 secon
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Channels for up to 2.5 seconds, throwing snowballs that deal 8 / 12 / 16 / 20 ( +5% AP ) magic damage and slow by 20% for 0.5 seconds. When the channel ends, Willump deals magic damage equal to 3% - 15% ( +0.8 - 4% AP ) of the enemies' max Health and roots them for 0.5 - 1.5 seconds. Damage and root duration scale with number of snowball hits on the target. Final explosion deals up to 150 / 200 / 250 / 300 damage vs. monsters. Deals 150% damage to monsters.
+Channels for up to 2.5 seconds, throwing snowballs that deal 8 / 12 / 16 / 20 ( +5% AP ) magic damage and slow by 20% for 0.5 seconds. When the channel ends, Willump deals magic damage equal to 3% - 15% ( +0.8 - 4% AP ) of the enemies' max Health and roots them for 0.5 - 1.5 seconds. Damage and root duration scale with number of snowball hits on the target. Final explosion deals up to 150 / 200 / 250 / 300 damage vs. monsters.
 
 ### [4] Absolute Zero
 

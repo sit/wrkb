@@ -74,7 +74,7 @@ base_stats:
     base: '35'
     growth: '4'
   Attack Dmg.:
-    base: '54'
+    base: '58'
     growth: '4'
   Attack Spd.:
     base: '0.81'
@@ -118,7 +118,7 @@ ADC
 - Armor: 35 (+4 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 340 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
+- Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.81 (+0.0200 per level)
 
 ## Abilities

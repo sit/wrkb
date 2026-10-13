@@ -1,5 +1,5 @@
 ---
-cost: 2600
+cost: 2450
 effects:
 - 'SACRIFICE: When your Worthy ally is nearby, 12% of the damage they take is redirected
   to you, and you are healed for 10% of the damage they deal to champions.'
@@ -9,20 +9,20 @@ id: 217
 image_url: https://www.wildriftfire.com/images/items/knights-vow.png
 name: Knight's Vow
 stats:
-- +400 Health
+- +200 Health
 - +40 Armor
 - +10 Ability Haste
-type: Support
+type: Defense,Support
 ---
 
 # Knight's Vow
 
-**Type:** Support  
-**Cost:** 2600 gold
+**Type:** Defense,Support  
+**Cost:** 2450 gold
 
 ## Stats
 
-- +400 Health
+- +200 Health
 - +40 Armor
 - +10 Ability Haste
 

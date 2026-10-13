@@ -13,12 +13,12 @@ stats:
 - +200 Health
 - +80 Ability Power
 - +10 Ability Haste
-type: Magic
+type: Magic,Support
 ---
 
 # Oceanid's Trident
 
-**Type:** Magic  
+**Type:** Magic,Support  
 **Cost:** 2600 gold
 
 ## Stats

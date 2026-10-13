@@ -16,9 +16,8 @@ abilities:
   - 70.0
   - 75.0
   - 80.0
-  description: Ahri sends out and pulls back her orb, dealing 40 / 75 / 110 / 145
-    ( +45% AP ) magic damage on the way out and 40 / 75 / 110 / 145 ( +45% AP ) true
-    damage on the way back.
+  description: Launches an orb that deals 40 / 75 / 110 / 145 ( +45% AP ) magic damage
+    on the way out and 40 / 75 / 110 / 145 ( +45% AP ) true damage on the way back.
   name: Orb of Deception
   slot: '1'
 - cooldowns:
@@ -31,9 +30,11 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: Ahri gains 45% movement speed and releases three fox-fires, that lock
-    onto and attack nearby enemies for 45 / 80 / 115 / 150 ( +35% AP ) magic damage
-    .
+  description: Releases 3 fox-fires that seek nearby enemies and deal 45 / 80 / 115
+    / 150 ( +35% AP ) magic damage . Ahri gains 45% Movement Speed that decays over
+    1.5 seconds. Enemies hit by multiple fox-fires take 30% damage for each fox-fire
+    beyond the first. Fox-fires prioritize champions hit by Charm , followed by recently
+    attacked enemies.
   name: Fox-Fire
   slot: '2'
 - cooldowns:
@@ -46,9 +47,9 @@ abilities:
   - 85.0
   - 85.0
   - 85.0
-  description: Ahri blows a kiss that does 60 / 100 / 140 / 180 ( +50% AP ) magic
-    damage and charms an enemy it encounters, instantly stopping movement abilities
-    and causing them to walk harmlessly towards her.
+  description: Ahri blows a kiss dealing 60 / 100 / 140 / 180 ( +50% AP ) magic damage
+    and charming the first enemy hit, causing them to walk towards Ahri for 1.4 /
+    1.6 / 1.8 / 2 seconds.
   name: Charm
   slot: '3'
 - cooldowns:
@@ -59,9 +60,9 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Ahri dashes forward and fires essence bolts, damaging nearby enemies
-    for 60 / 90 / 120 ( +35% AP ) magic damage . Spirit Rush can be cast up to three
-    times before going on cooldown. During Spirit Rush, if Ahri devours a champion's
+  description: Ahri dashes forward and fires essence bolts, dealing 60 / 90 / 120
+    ( +35% AP ) magic damage to 3 nearby enemies. This ability can be recast up to
+    2 more times within 12 seconds. During Spirit Rush, if Ahri devours a champion's
     essence with Essence Theft , Ahri will extend Spirit Rush's recast duration up
     to 10 seconds, and she gains an extra charge of Spirit Rush (Can store up to 3
     charges). Dash range increases while leveling up. Essence bolts attack champions
@@ -132,7 +133,7 @@ Grants a stack of Essence Theft if her ability hits a target. At 3 stacks, Ahri'
 
 **Cost:** 65.0 / 70.0 / 75.0 / 80.0
 
-Ahri sends out and pulls back her orb, dealing 40 / 75 / 110 / 145 ( +45% AP ) magic damage on the way out and 40 / 75 / 110 / 145 ( +45% AP ) true damage on the way back.
+Launches an orb that deals 40 / 75 / 110 / 145 ( +45% AP ) magic damage on the way out and 40 / 75 / 110 / 145 ( +45% AP ) true damage on the way back.
 
 ### [2] Fox-Fire
 
@@ -140,7 +141,7 @@ Ahri sends out and pulls back her orb, dealing 40 / 75 / 110 / 145 ( +45% AP ) m
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Ahri gains 45% movement speed and releases three fox-fires, that lock onto and attack nearby enemies for 45 / 80 / 115 / 150 ( +35% AP ) magic damage .
+Releases 3 fox-fires that seek nearby enemies and deal 45 / 80 / 115 / 150 ( +35% AP ) magic damage . Ahri gains 45% Movement Speed that decays over 1.5 seconds. Enemies hit by multiple fox-fires take 30% damage for each fox-fire beyond the first. Fox-fires prioritize champions hit by Charm , followed by recently attacked enemies.
 
 ### [3] Charm
 
@@ -148,7 +149,7 @@ Ahri gains 45% movement speed and releases three fox-fires, that lock onto and a
 
 **Cost:** 85.0 / 85.0 / 85.0 / 85.0
 
-Ahri blows a kiss that does 60 / 100 / 140 / 180 ( +50% AP ) magic damage and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her.
+Ahri blows a kiss dealing 60 / 100 / 140 / 180 ( +50% AP ) magic damage and charming the first enemy hit, causing them to walk towards Ahri for 1.4 / 1.6 / 1.8 / 2 seconds.
 
 ### [4] Spirit Rush
 
@@ -156,5 +157,5 @@ Ahri blows a kiss that does 60 / 100 / 140 / 180 ( +50% AP ) magic damage and ch
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Ahri dashes forward and fires essence bolts, damaging nearby enemies for 60 / 90 / 120 ( +35% AP ) magic damage . Spirit Rush can be cast up to three times before going on cooldown. During Spirit Rush, if Ahri devours a champion's essence with Essence Theft , Ahri will extend Spirit Rush's recast duration up to 10 seconds, and she gains an extra charge of Spirit Rush (Can store up to 3 charges). Dash range increases while leveling up. Essence bolts attack champions first.
+Ahri dashes forward and fires essence bolts, dealing 60 / 90 / 120 ( +35% AP ) magic damage to 3 nearby enemies. This ability can be recast up to 2 more times within 12 seconds. During Spirit Rush, if Ahri devours a champion's essence with Essence Theft , Ahri will extend Spirit Rush's recast duration up to 10 seconds, and she gains an extra charge of Spirit Rush (Can store up to 3 charges). Dash range increases while leveling up. Essence bolts attack champions first.
 

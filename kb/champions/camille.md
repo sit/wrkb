@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Attacking an enemy champion grants a shield that absorbs 130 physical
+- description: Attacking an enemy champion grants a shield that absorbs 138 physical
     / magic damage ( 20% HP ) for 2 seconds. The shield type is based on the type
     of damage the attacked target deals.
   name: Adaptive Defenses
@@ -15,8 +15,10 @@ abilities:
   - 25.0
   - 25.0
   - 25.0
-  description: Empowers the next attack to deal 130% / 140% / 150% / 160% physical
-    damage and grant 25% Movement Speed for 1.5 seconds.
+  description: Empowers the next attack to deal 81 ( 130% / 140% / 150% / 160% AD
+    ) physical damage and grant 25% Movement Speed for 1.5 seconds. 1.6 seconds after
+    the first attack, Precision Protocol automatically empowers another basic attack,
+    dealing 40% of its damage as true damage instead. Cannot critically strike.
   name: Precision Protocol
   slot: '1'
 - cooldowns:
@@ -45,13 +47,13 @@ abilities:
   - 70.0
   - 70.0
   - 70.0
-  description: 'First Cast: FIres a hookshot that attaches to terrain, pulling Camille
-    to it. If Camille misses, it is placed on a 3 second cooldown. Second Cast: Dashes
-    from the wall, dealing 60 / 110 / 160 / 210 ( +75% AD ) physical damage on landing.
-    Regardless of landing, Camille''s next basic attack against enemy champions within
-    3 seconds, grants 50% / 60% / 70% / 80% Attack Speed for 5 seconds. If the dash
-    hits an enemy champion, they are stunned for 0.75 seconds, and Hookshot''s cooldown
-    is reduced by 5 seconds.'
+  description: 'First Cast : FIres a hookshot that attaches to terrain, pulling Camille
+    to it. If Camille misses, it is placed on a 3 second cooldown. Second Cast : Dashes
+    from the wall, dealing 60 / 110 / 160 / 210 ( +75% bonus AD ) physical damage
+    on landing. Regardless of landing, Camille''s next basic attack against enemy
+    champions within 3 seconds, grants 50% / 60% / 70% / 80% Attack Speed for 5 seconds.
+    If the dash hits an enemy champion, they are stunned for 0.75 seconds, and Hookshot''s
+    cooldown is reduced by 5 seconds.'
   name: Hookshot
   slot: '3'
 - cooldowns:
@@ -64,7 +66,7 @@ abilities:
   - 100.0
   description: Leap to enemy champion, dealing 30 magic damage + 15% / 20% / 25% of
     their current Health, knocking away other enemies and creating an inescapable
-    zone for 2 seconds. Hextech Ultimatum ends when Camille leaves the zone.
+    zone for 2 / 2.5 / 3 seconds. Hextech Ultimatum ends when Camille leaves the zone.
   name: Hextech Ultimatum
   slot: '4'
 base_stats:
@@ -98,6 +100,7 @@ base_stats:
 name: Camille
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/camille
 ---
 
@@ -105,7 +108,7 @@ source_url: https://www.wildriftfire.com/guide/camille
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 
@@ -123,7 +126,7 @@ Baron Lane
 
 ### [P] Adaptive Defenses
 
-Attacking an enemy champion grants a shield that absorbs 130 physical / magic damage ( 20% HP ) for 2 seconds. The shield type is based on the type of damage the attacked target deals.
+Attacking an enemy champion grants a shield that absorbs 138 physical / magic damage ( 20% HP ) for 2 seconds. The shield type is based on the type of damage the attacked target deals.
 
 ### [1] Precision Protocol
 
@@ -131,7 +134,7 @@ Attacking an enemy champion grants a shield that absorbs 130 physical / magic da
 
 **Cost:** 25.0 / 25.0 / 25.0 / 25.0
 
-Empowers the next attack to deal 130% / 140% / 150% / 160% physical damage and grant 25% Movement Speed for 1.5 seconds.
+Empowers the next attack to deal 81 ( 130% / 140% / 150% / 160% AD ) physical damage and grant 25% Movement Speed for 1.5 seconds. 1.6 seconds after the first attack, Precision Protocol automatically empowers another basic attack, dealing 40% of its damage as true damage instead. Cannot critically strike.
 
 ### [2] Tactical Sweep
 
@@ -147,7 +150,7 @@ Slices in a direction, dealing 100 / 130 / 160 / 190 ( +110% AD ) and an additio
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-First Cast: FIres a hookshot that attaches to terrain, pulling Camille to it. If Camille misses, it is placed on a 3 second cooldown. Second Cast: Dashes from the wall, dealing 60 / 110 / 160 / 210 ( +75% AD ) physical damage on landing. Regardless of landing, Camille's next basic attack against enemy champions within 3 seconds, grants 50% / 60% / 70% / 80% Attack Speed for 5 seconds. If the dash hits an enemy champion, they are stunned for 0.75 seconds, and Hookshot's cooldown is reduced by 5 seconds.
+First Cast : FIres a hookshot that attaches to terrain, pulling Camille to it. If Camille misses, it is placed on a 3 second cooldown. Second Cast : Dashes from the wall, dealing 60 / 110 / 160 / 210 ( +75% bonus AD ) physical damage on landing. Regardless of landing, Camille's next basic attack against enemy champions within 3 seconds, grants 50% / 60% / 70% / 80% Attack Speed for 5 seconds. If the dash hits an enemy champion, they are stunned for 0.75 seconds, and Hookshot's cooldown is reduced by 5 seconds.
 
 ### [4] Hextech Ultimatum
 
@@ -155,5 +158,5 @@ First Cast: FIres a hookshot that attaches to terrain, pulling Camille to it. If
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Leap to enemy champion, dealing 30 magic damage + 15% / 20% / 25% of their current Health, knocking away other enemies and creating an inescapable zone for 2 seconds. Hextech Ultimatum ends when Camille leaves the zone.
+Leap to enemy champion, dealing 30 magic damage + 15% / 20% / 25% of their current Health, knocking away other enemies and creating an inescapable zone for 2 / 2.5 / 3 seconds. Hextech Ultimatum ends when Camille leaves the zone.
 

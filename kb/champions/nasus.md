@@ -50,9 +50,9 @@ abilities:
   name: Spirit Fire
   slot: '3'
 - cooldowns:
-  - 75.0
+  - 90.0
+  - 80.0
   - 70.0
-  - 65.0
   costs:
   - 100.0
   - 100.0
@@ -63,7 +63,7 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '46'
+    base: '40'
     growth: '4'
   Attack Dmg.:
     base: '58'
@@ -107,7 +107,7 @@ Baron Lane
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 390 (+37 per level)
 - Mana Reg. (5s): 14 (+1 per level)
-- Armor: 46 (+4 per level)
+- Armor: 40 (+4 per level)
 - Magic Res.: 32 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 58 (+5 per level)
@@ -145,7 +145,7 @@ Creates a flaming zone, dealing 55 / 110 / 165 / 220 ( +40% AP ) magic damage . 
 
 ### [4] Fury of the Sands
 
-**Cooldown:** 75.0 / 70.0 / 65.0 seconds
+**Cooldown:** 90.0 / 80.0 / 70.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

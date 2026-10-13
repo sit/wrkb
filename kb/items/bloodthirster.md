@@ -1,30 +1,27 @@
 ---
-cost: 3000
+cost: 3200
 effects:
-- 'UNIQUE - BLOODY: +8% Physical Vamp, Attacks that Critically Strike gain an additional
-  4% Physical Vamp.'
+- "+15% Lifesteal\r\nUNIQUE - Ichorshield: Convert overhealing from your Lifesteal\
+  \ into a shield, up to 165 - 345 (based on level)."
 id: 52
 image_url: https://www.wildriftfire.com/images/items/bloodthirster.png
 name: Bloodthirster
 stats:
-- +250 Health
-- +55 Attack Damage
-- +25% Critical Strike Chance
-type: Physical
+- +75 Attack Damage
+type: Marksman,Fighter
 ---
 
 # Bloodthirster
 
-**Type:** Physical  
-**Cost:** 3000 gold
+**Type:** Marksman,Fighter  
+**Cost:** 3200 gold
 
 ## Stats
 
-- +250 Health
-- +55 Attack Damage
-- +25% Critical Strike Chance
+- +75 Attack Damage
 
 ## Effects
 
-UNIQUE - BLOODY: +8% Physical Vamp, Attacks that Critically Strike gain an additional 4% Physical Vamp.
++15% Lifesteal
+UNIQUE - Ichorshield: Convert overhealing from your Lifesteal into a shield, up to 165 - 345 (based on level).
 

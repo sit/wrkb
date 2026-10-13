@@ -1,31 +1,27 @@
 ---
-cost: 3400
+cost: 3500
 effects:
-- "UNIQUE - INFINITY: Critical strikes deal 205% damage instead of 175%.\n\r\nUNIQUE\
-  \ - Limit Break: When your total Critical Rate gain from items exceeds 100%, every\
-  \ 1% excess Critical Rate grants 0.6% Critical Strike Damage. "
+- 'UNIQUE - INFINITY: Critical strike damage increased from 200% to 230%.'
 id: 62
 image_url: https://www.wildriftfire.com/images/items/infinity-edge.png
 name: Infinity Edge
 stats:
-- +65 Attack Damage
+- +75 Attack Damage
 - +25% Critical Strike Chance
-type: Physical
+type: Marksman
 ---
 
 # Infinity Edge
 
-**Type:** Physical  
-**Cost:** 3400 gold
+**Type:** Marksman  
+**Cost:** 3500 gold
 
 ## Stats
 
-- +65 Attack Damage
+- +75 Attack Damage
 - +25% Critical Strike Chance
 
 ## Effects
 
-UNIQUE - INFINITY: Critical strikes deal 205% damage instead of 175%.
-
-UNIQUE - Limit Break: When your total Critical Rate gain from items exceeds 100%, every 1% excess Critical Rate grants 0.6% Critical Strike Damage. 
+UNIQUE - INFINITY: Critical strike damage increased from 200% to 230%.
 

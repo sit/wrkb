@@ -1,22 +1,22 @@
 ---
 abilities:
-- description: Gains 13% Attack Speed for 8 seconds when hitting abilities, stacking
-    up to 4 times.
+- description: Gains 13% Attack Speed for 8 seconds when hitting targets with abilities,
+    stacking up to 4 times.
   name: Rising Spell Force
   slot: P
 - cooldowns:
+  - 6.0
+  - 5.0
   - 4.0
   - 4.0
-  - 3.0
-  - 3.0
   costs:
   - 30.0
   - 35.0
   - 40.0
   - 45.0
-  description: Fires a bolt, dealing 50 / 85 / 120 / 155 ( +135% AD +30% AP ) physical
-    damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds.
-    Applies on-hit effects .
+  description: Fires a bolt, dealing 25 / 55 / 85 / 115 ( +135% AD +30% AP ) physical
+    damage . Hitting a target reduces Ezreal's ability cooldowns by 1.5 seconds. Applies
+    on-hit effects .
   name: Mystic Shot
   slot: '1'
 - cooldowns:
@@ -31,8 +31,8 @@ abilities:
   - 50.0
   description: Fires an orb that sticks to a champion, epic monster or structure for
     4 seconds. Hitting the target with an attack or ability detonates the orb, dealing
-    80 / 155 / 230 / 305 ( +60% AD +75% / 80% / 85% / 90% AP ) magic damage and refunding
-    60 / 70 / 80 / 90 Mana .
+    80 / 155 / 230 / 305 ( +60% bonus AD +75% / 80% / 85% / 90% AP ) magic damage
+    and refunding 60 / 70 / 80 / 90 Mana .
   name: Essence Flux
   slot: '2'
 - cooldowns:
@@ -46,20 +46,20 @@ abilities:
   - 70.0
   - 70.0
   description: Blinks to taget location and fires a bolt, dealing 80 / 145 / 210 /
-    275 ( +50% AD +75% AP ) magic damage . Prioritizes enemies hit by Essence Flux
-    , then the nearest enemy.
+    275 ( +50% bonus AD +75% AP ) magic damage . Prioritizes enemies hit by Essence
+    Flux , then the nearest enemy.
   name: Arcane Shift
   slot: '3'
 - cooldowns:
+  - 80.0
   - 70.0
-  - 65.0
   - 60.0
   costs:
   - 100.0
   - 100.0
   - 100.0
-  description: Fires an energy wave, dealing 350 / 500 / 650 ( +100% AD +90% AP )
-    magic damage . Deals 50% reduced damage to minions and non-epic monsters.
+  description: Fires an energy wave, dealing 300 / 500 / 700 ( +100% bonus AD +100%
+    AP ) magic damage . Deals 50% reduced damage to minions and non-epic monsters.
   name: Trueshot Barrage
   slot: '4'
 base_stats:
@@ -67,7 +67,7 @@ base_stats:
     base: '34'
     growth: '5'
   Attack Dmg.:
-    base: '58'
+    base: '60'
     growth: '4'
   Attack Spd.:
     base: '0.83'
@@ -111,22 +111,22 @@ ADC
 - Armor: 34 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 340 (+0 per level)
-- Attack Dmg.: 58 (+4 per level)
+- Attack Dmg.: 60 (+4 per level)
 - Attack Spd.: 0.83 (+0.0136 per level)
 
 ## Abilities
 
 ### [P] Rising Spell Force
 
-Gains 13% Attack Speed for 8 seconds when hitting abilities, stacking up to 4 times.
+Gains 13% Attack Speed for 8 seconds when hitting targets with abilities, stacking up to 4 times.
 
 ### [1] Mystic Shot
 
-**Cooldown:** 4.0 / 4.0 / 3.0 / 3.0 seconds
+**Cooldown:** 6.0 / 5.0 / 4.0 / 4.0 seconds
 
 **Cost:** 30.0 / 35.0 / 40.0 / 45.0
 
-Fires a bolt, dealing 50 / 85 / 120 / 155 ( +135% AD +30% AP ) physical damage . Hitting a target reduces Ezreal's other ability cooldowns by 1.5 seconds. Applies on-hit effects .
+Fires a bolt, dealing 25 / 55 / 85 / 115 ( +135% AD +30% AP ) physical damage . Hitting a target reduces Ezreal's ability cooldowns by 1.5 seconds. Applies on-hit effects .
 
 ### [2] Essence Flux
 
@@ -134,7 +134,7 @@ Fires a bolt, dealing 50 / 85 / 120 / 155 ( +135% AD +30% AP ) physical damage .
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Fires an orb that sticks to a champion, epic monster or structure for 4 seconds. Hitting the target with an attack or ability detonates the orb, dealing 80 / 155 / 230 / 305 ( +60% AD +75% / 80% / 85% / 90% AP ) magic damage and refunding 60 / 70 / 80 / 90 Mana .
+Fires an orb that sticks to a champion, epic monster or structure for 4 seconds. Hitting the target with an attack or ability detonates the orb, dealing 80 / 155 / 230 / 305 ( +60% bonus AD +75% / 80% / 85% / 90% AP ) magic damage and refunding 60 / 70 / 80 / 90 Mana .
 
 ### [3] Arcane Shift
 
@@ -142,13 +142,13 @@ Fires an orb that sticks to a champion, epic monster or structure for 4 seconds.
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Blinks to taget location and fires a bolt, dealing 80 / 145 / 210 / 275 ( +50% AD +75% AP ) magic damage . Prioritizes enemies hit by Essence Flux , then the nearest enemy.
+Blinks to taget location and fires a bolt, dealing 80 / 145 / 210 / 275 ( +50% bonus AD +75% AP ) magic damage . Prioritizes enemies hit by Essence Flux , then the nearest enemy.
 
 ### [4] Trueshot Barrage
 
-**Cooldown:** 70.0 / 65.0 / 60.0 seconds
+**Cooldown:** 80.0 / 70.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Fires an energy wave, dealing 350 / 500 / 650 ( +100% AD +90% AP ) magic damage . Deals 50% reduced damage to minions and non-epic monsters.
+Fires an energy wave, dealing 300 / 500 / 700 ( +100% bonus AD +100% AP ) magic damage . Deals 50% reduced damage to minions and non-epic monsters.
 

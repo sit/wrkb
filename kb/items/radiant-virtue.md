@@ -1,5 +1,5 @@
 ---
-cost: 2850
+cost: 2650
 effects:
 - 'Guiding Light: Upon Casting your ultimate ability, you Transcend, increasing your
   Max Health by 10% for 6s. While Transcended, you and allied champions within 1200
@@ -10,21 +10,23 @@ image_url: https://www.wildriftfire.com/images/items/radiant-virtue.png
 name: Radiant Virtue
 stats:
 - +300 Health
-- +45 Armor
-- +15 Ability Haste
+- +30 Armor
+- +30 Magic Resist
+- +10 Ability Haste
 type: Support
 ---
 
 # Radiant Virtue
 
 **Type:** Support  
-**Cost:** 2850 gold
+**Cost:** 2650 gold
 
 ## Stats
 
 - +300 Health
-- +45 Armor
-- +15 Ability Haste
+- +30 Armor
+- +30 Magic Resist
+- +10 Ability Haste
 
 ## Effects
 

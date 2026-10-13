@@ -18,7 +18,7 @@ abilities:
   description: 'Throws out a scythe, stunning the first unit hit and pulling them
     in for 1.5 seconds. The scythe does 100 / 160 / 220 / 280 ( +80% AP ) magic damage
     and grants True Sight for the duration. Recast : Dashes to the bound enemy. Cooldown
-    is reduced by 3 seconds if it hits an enemy.'
+    is reduced by 2 seconds if it hits an enemy.'
   name: Death Sentence
   slot: '1'
 - cooldowns:
@@ -132,7 +132,7 @@ Thresh can harvest the Souls of enemies that die near him, each soul permanently
 
 **Cost:** 70.0 / 70.0 / 70.0 / 70.0
 
-Throws out a scythe, stunning the first unit hit and pulling them in for 1.5 seconds. The scythe does 100 / 160 / 220 / 280 ( +80% AP ) magic damage and grants True Sight for the duration. Recast : Dashes to the bound enemy. Cooldown is reduced by 3 seconds if it hits an enemy.
+Throws out a scythe, stunning the first unit hit and pulling them in for 1.5 seconds. The scythe does 100 / 160 / 220 / 280 ( +80% AP ) magic damage and grants True Sight for the duration. Recast : Dashes to the bound enemy. Cooldown is reduced by 2 seconds if it hits an enemy.
 
 ### [2] Dark Passage
 

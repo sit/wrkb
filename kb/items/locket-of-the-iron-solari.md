@@ -12,12 +12,12 @@ stats:
 - +30 Armor
 - +30 Magic Resist
 - +10 Ability Haste
-type: Support
+type: Defense,Support
 ---
 
 # Locket of the Iron Solari
 
-**Type:** Support  
+**Type:** Defense,Support  
 **Cost:** 2600 gold
 
 ## Stats

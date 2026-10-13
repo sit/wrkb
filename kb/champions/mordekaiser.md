@@ -1,14 +1,14 @@
 ---
 abilities:
-- description: "Gains 1% Magic Pen . Attacks deal 30% bonus magic damage . When Mordekaiser\
-    \ gets a takedown, or his basic abilities or attacks hit an enemy champion or\
-    \ large monster, he gains 1 stack of Darkness Rise for 5 seconds. At 3 stacks,\
-    \ he cloaks himself in a negative energy field. The negative energy field deals\
-    \ magic damage equal to 4.75 ( + 0.25 per level + 25% AP )\_plus 1% of the target's\
-    \ max Health per second and grants him 3% Movement Speed for 5 seconds. Takedowns\
-    \ and basic ability or attack hits against enemy champions or large monsters refresh\
-    \ the negative energy field's duration. Darkness Rise deals a maximum of 24 damage\
-    \ to monsters per second."
+- description: "Gains 3% / 6% / 9% / 12% Magic Pen . Attacks deal 30% bonus magic\
+    \ damage . When Mordekaiser gets a takedown, or his basic abilities or attacks\
+    \ hit an enemy champion or large monster, he gains 1 stack of Darkness Rise for\
+    \ 5 seconds. At 3 stacks, he cloaks himself in a negative energy field. The negative\
+    \ energy field deals magic damage equal to 4.75 ( + 0.25 per level + 25% AP )\_\
+    plus 1% of the target's max Health per second and grants him 3% Movement Speed\
+    \ for 5 seconds. Takedowns and basic ability or attack hits against enemy champions\
+    \ or large monsters refresh the negative energy field's duration. Darkness Rise\
+    \ deals a maximum of 24 damage to monsters per second."
   name: Darkness Rise
   slot: P
 - cooldowns:
@@ -33,10 +33,10 @@ abilities:
   name: Indestructible
   slot: '2'
 - cooldowns:
-  - 17.0
   - 15.0
-  - 12.0
-  - 10.0
+  - 13.0
+  - 11.0
+  - 9.0
   description: Pulls the enemy toward him, dealing 60 / 80 / 100 / 120 ( +55% AP )
     magic damage and slowing them by 30% for 1 second.
   name: Death's Grasp
@@ -100,7 +100,7 @@ Baron Lane
 
 ### [P] Darkness Rise
 
-Gains 1% Magic Pen . Attacks deal 30% bonus magic damage . When Mordekaiser gets a takedown, or his basic abilities or attacks hit an enemy champion or large monster, he gains 1 stack of Darkness Rise for 5 seconds. At 3 stacks, he cloaks himself in a negative energy field. The negative energy field deals magic damage equal to 4.75 ( + 0.25 per level + 25% AP ) plus 1% of the target's max Health per second and grants him 3% Movement Speed for 5 seconds. Takedowns and basic ability or attack hits against enemy champions or large monsters refresh the negative energy field's duration. Darkness Rise deals a maximum of 24 damage to monsters per second.
+Gains 3% / 6% / 9% / 12% Magic Pen . Attacks deal 30% bonus magic damage . When Mordekaiser gets a takedown, or his basic abilities or attacks hit an enemy champion or large monster, he gains 1 stack of Darkness Rise for 5 seconds. At 3 stacks, he cloaks himself in a negative energy field. The negative energy field deals magic damage equal to 4.75 ( + 0.25 per level + 25% AP ) plus 1% of the target's max Health per second and grants him 3% Movement Speed for 5 seconds. Takedowns and basic ability or attack hits against enemy champions or large monsters refresh the negative energy field's duration. Darkness Rise deals a maximum of 24 damage to monsters per second.
 
 ### [1] Obliterate
 
@@ -116,7 +116,7 @@ Passive : Stores 35% of the damage he deals and 7% of the damage he takes. Activ
 
 ### [3] Death's Grasp
 
-**Cooldown:** 17.0 / 15.0 / 12.0 / 10.0 seconds
+**Cooldown:** 15.0 / 13.0 / 11.0 / 9.0 seconds
 
 Pulls the enemy toward him, dealing 60 / 80 / 100 / 120 ( +55% AP ) magic damage and slowing them by 30% for 1 second.
 

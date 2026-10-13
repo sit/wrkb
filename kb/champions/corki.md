@@ -16,8 +16,8 @@ abilities:
   - 65.0
   - 70.0
   - 75.0
-  description: Fires a bomb, dealing 65 / 125 / 185 / 245 ( +125% bonus AD +80% AP
-    ) magic damage and granting vision over the area.
+  description: Fires a bomb, dealing 60 / 120 / 185 / 240 ( +110% bonus AD +100% AP
+    ) magic damage and granting vision of the area.
   name: Phosphorus Bomb
   slot: '1'
 - cooldowns:
@@ -31,8 +31,8 @@ abilities:
   - 90.0
   - 95.0
   description: Flies a short distance, leaving a burning trail for 2.5 seconds. The
-    trail burns enemies in it for 60 ( +60% bonus AD +60% AP ) magic damage per second,
-    dealing up to 150 / 250 / 350 / 450 magic damage .
+    trail burns enemies in it for 60 / 100 / 140 / 180 ( +60% bonus AD +60% AP ) magic
+    damage per second, dealing up to 150 / 250 / 350 / 450 magic damage .
   name: Valkyrie
   slot: '2'
 - cooldowns:
@@ -46,8 +46,9 @@ abilities:
   - 70.0
   - 80.0
   description: Fires a gatling gun, dealing 20 / 35 / 50 / 65 ( +55% bonus AD ) physical
-    damage per second, up to a total of 100 / 160 / 220 / 280 physical damage over
-    4 seconds. Shreds up to 10 / 14 / 18 / 22 Armor and Magic Resist for 2 seconds.
+    damage per second, up to a total of 80 / 140 / 200 / 260 physical damage over
+    4 seconds. Shreds up to 12 / 14 / 16 / 18 Armor and Magic Resist for 2 seconds.
+    Corki automatically fires Gatling Gun at his current target.
   name: Gatling Gun
   slot: '3'
 - cooldowns:
@@ -61,11 +62,11 @@ abilities:
   - 20.0
   - 20.0
   description: 'Fires a missile that explodes on the first target hit, dealing 70
-    / 140 / 210 ( +70% bonus AD ) physical damage to nearby enemies. Big One : Every
-    third missile is a Big One that deals 140 / 210 / 280 ( +140% bonus AD ) physical
+    / 140 / 210 ( +65% bonus AD ) physical damage to nearby enemies. Big One : Every
+    third missile is a Big One that deals 140 / 210 / 280 ( +130% bonus AD ) physical
     damage and has a bigger area of effect and increased blast radius. Charge : Gains
     a charge every 16 seconds, storing up to 4 charges. Attacks against champions
-    reduce the time between charges by 2 ( +300% Crit Rate ) seconds on hit.'
+    reduce the time between charges by 2 ( +200% Crit Rate ) seconds on hit.'
   name: Missile Barrage
   slot: '4'
 base_stats:
@@ -74,7 +75,7 @@ base_stats:
     growth: '5'
   Attack Dmg.:
     base: '54'
-    growth: '4'
+    growth: '3'
   Attack Spd.:
     base: '0.75'
     growth: '0.0320'
@@ -117,7 +118,7 @@ ADC
 - Armor: 35 (+5 per level)
 - Magic Res.: 30 (+1 per level)
 - Move Speed: 335 (+0 per level)
-- Attack Dmg.: 54 (+4 per level)
+- Attack Dmg.: 54 (+3 per level)
 - Attack Spd.: 0.75 (+0.0320 per level)
 
 ## Abilities
@@ -132,7 +133,7 @@ Hextech Shrapnel : Attacks and Spellblade deal 16% bonus true damage . The Packa
 
 **Cost:** 60.0 / 65.0 / 70.0 / 75.0
 
-Fires a bomb, dealing 65 / 125 / 185 / 245 ( +125% bonus AD +80% AP ) magic damage and granting vision over the area.
+Fires a bomb, dealing 60 / 120 / 185 / 240 ( +110% bonus AD +100% AP ) magic damage and granting vision of the area.
 
 ### [2] Valkyrie
 
@@ -140,7 +141,7 @@ Fires a bomb, dealing 65 / 125 / 185 / 245 ( +125% bonus AD +80% AP ) magic dama
 
 **Cost:** 80.0 / 85.0 / 90.0 / 95.0
 
-Flies a short distance, leaving a burning trail for 2.5 seconds. The trail burns enemies in it for 60 ( +60% bonus AD +60% AP ) magic damage per second, dealing up to 150 / 250 / 350 / 450 magic damage .
+Flies a short distance, leaving a burning trail for 2.5 seconds. The trail burns enemies in it for 60 / 100 / 140 / 180 ( +60% bonus AD +60% AP ) magic damage per second, dealing up to 150 / 250 / 350 / 450 magic damage .
 
 ### [3] Gatling Gun
 
@@ -148,7 +149,7 @@ Flies a short distance, leaving a burning trail for 2.5 seconds. The trail burns
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Fires a gatling gun, dealing 20 / 35 / 50 / 65 ( +55% bonus AD ) physical damage per second, up to a total of 100 / 160 / 220 / 280 physical damage over 4 seconds. Shreds up to 10 / 14 / 18 / 22 Armor and Magic Resist for 2 seconds.
+Fires a gatling gun, dealing 20 / 35 / 50 / 65 ( +55% bonus AD ) physical damage per second, up to a total of 80 / 140 / 200 / 260 physical damage over 4 seconds. Shreds up to 12 / 14 / 16 / 18 Armor and Magic Resist for 2 seconds. Corki automatically fires Gatling Gun at his current target.
 
 ### [4] Missile Barrage
 
@@ -156,5 +157,5 @@ Fires a gatling gun, dealing 20 / 35 / 50 / 65 ( +55% bonus AD ) physical damage
 
 **Cost:** 20.0 / 20.0 / 20.0 / 20.0
 
-Fires a missile that explodes on the first target hit, dealing 70 / 140 / 210 ( +70% bonus AD ) physical damage to nearby enemies. Big One : Every third missile is a Big One that deals 140 / 210 / 280 ( +140% bonus AD ) physical damage and has a bigger area of effect and increased blast radius. Charge : Gains a charge every 16 seconds, storing up to 4 charges. Attacks against champions reduce the time between charges by 2 ( +300% Crit Rate ) seconds on hit.
+Fires a missile that explodes on the first target hit, dealing 70 / 140 / 210 ( +65% bonus AD ) physical damage to nearby enemies. Big One : Every third missile is a Big One that deals 140 / 210 / 280 ( +130% bonus AD ) physical damage and has a bigger area of effect and increased blast radius. Charge : Gains a charge every 16 seconds, storing up to 4 charges. Attacks against champions reduce the time between charges by 2 ( +200% Crit Rate ) seconds on hit.
 

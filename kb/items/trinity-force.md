@@ -1,37 +1,35 @@
 ---
 cost: 3333
 effects:
-- "UNIQUE - FERVOR: +5% movement speed\n\r\nUNIQUE - SPELLBLADE: After using an ability,\
-  \ your next basic attack within 10 seconds deals 200% base AD bonus physical damage\
-  \ on-hit. (1.5 second cooldown which begins after using the empowered attack)\n\r\
-  \nUNIQUE - Valor: Basic attacks (on-hit) grant +(20 Melee / 10 Ranged) flat movement\
-  \ speed for 2 seconds. Bonuses do not stack."
+- "UNIQUE - SPELLBLADE: After using an ability, your next basic attack within 10 seconds\
+  \ deals 200% base AD bonus physical damage on-hit. (1.5 second cooldown which begins\
+  \ after using the empowered attack)\n\r\nUNIQUE - Valor: Basic attacks (on-hit)\
+  \ grant +(20 Melee / 10 Ranged) flat movement speed for 2 seconds. Bonuses do not\
+  \ stack."
 id: 87
 image_url: https://www.wildriftfire.com/images/items/trinity-force.png
 name: Trinity Force
 stats:
 - +333 Health
-- +30 Attack Damage
+- +36 Attack Damage
 - +30% Attack Speed
-- +20 Ability Haste
-type: Physical
+- +15 Ability Haste
+type: Marksman,Fighter
 ---
 
 # Trinity Force
 
-**Type:** Physical  
+**Type:** Marksman,Fighter  
 **Cost:** 3333 gold
 
 ## Stats
 
 - +333 Health
-- +30 Attack Damage
+- +36 Attack Damage
 - +30% Attack Speed
-- +20 Ability Haste
+- +15 Ability Haste
 
 ## Effects
-
-UNIQUE - FERVOR: +5% movement speed
 
 UNIQUE - SPELLBLADE: After using an ability, your next basic attack within 10 seconds deals 200% base AD bonus physical damage on-hit. (1.5 second cooldown which begins after using the empowered attack)
 

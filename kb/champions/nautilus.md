@@ -30,10 +30,10 @@ abilities:
   - 80.0
   - 80.0
   - 80.0
-  description: Gains a shield that absorbs 65 / 75 / 85 / 95 ( +9% / 10% / 11% / 12%
-    max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are empowered
-    to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around the target.
-    Deals 125% damage against monsters.
+  description: Gains a shield that absorbs 70 / 80 / 90 / 100 ( +11% / 12% / 13% /
+    14% max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are
+    empowered to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around
+    the target. Deals 125% damage against monsters.
   name: Titan's Wrath
   slot: '2'
 - cooldowns:
@@ -96,8 +96,6 @@ base_stats:
 name: Nautilus
 roles:
 - Support
-- Jungle
-- Baron Lane
 source_url: https://www.wildriftfire.com/guide/nautilus
 ---
 
@@ -105,7 +103,7 @@ source_url: https://www.wildriftfire.com/guide/nautilus
 
 ## Roles
 
-Support, Jungle, Baron Lane
+Support
 
 ## Base Stats
 
@@ -139,7 +137,7 @@ Hurls his anchor forward, dealing 90 / 150 / 210 / 270 ( +75% AP ) magic damage 
 
 **Cost:** 80.0 / 80.0 / 80.0 / 80.0
 
-Gains a shield that absorbs 65 / 75 / 85 / 95 ( +9% / 10% / 11% / 12% max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are empowered to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around the target. Deals 125% damage against monsters.
+Gains a shield that absorbs 70 / 80 / 90 / 100 ( +11% / 12% / 13% / 14% max HP ) damage for 6 seconds. While the shield holds, Nautilus' attacks are empowered to deal an additional 50 / 60 / 70 / 80 ( +40% AP ) magic damage around the target. Deals 125% damage against monsters.
 
 ### [3] Riptide
 

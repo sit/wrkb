@@ -1,7 +1,7 @@
 ---
-description: When within 550 range of an enemy turret, gain a charge every 0.5s, up
-  to 6 times. When fully charged, your next attack against the turret deals an additional
-  100 + 22% Max HP physical damage. (30s cooldown)
+description: After hitting a turret with 3 basic attacks, melee champions deal 85
+  + 28% maximum Health bonus Physical Damage, while ranged champions deal 50 + 20%
+  maximum Health bonus Physical Damage.
 family: Resolve
 id: 101
 image_url: https://www.wildriftfire.com/images/runes/demolish.png
@@ -16,5 +16,5 @@ type: Minor
 
 ## Description
 
-When within 550 range of an enemy turret, gain a charge every 0.5s, up to 6 times. When fully charged, your next attack against the turret deals an additional 100 + 22% Max HP physical damage. (30s cooldown)
+After hitting a turret with 3 basic attacks, melee champions deal 85 + 28% maximum Health bonus Physical Damage, while ranged champions deal 50 + 20% maximum Health bonus Physical Damage.
 

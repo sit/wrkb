@@ -1,33 +1,34 @@
 ---
-cost: 2600
+cost: 2400
 effects:
-- Catcher - After applying crowd control effects that displace the enemy, gain 10%
-  Movement Speed for 3 seconds and mark the target, reducing their Armor and Magic
-  Resist by 5-12 for 8 seconds. If the target dies while they are marked, you and
-  nearby allies gain 100-140 bonus gold in total. The bonus gold can only be earned
-  once every 10 seconds.
+- Catcher - Slowing or immobilizing an enemy champion empowers you for 8 / 4s, melee
+  / ranged, granting 20 Movement Speed. During this time, you and nearby allies gain
+  30% / 20% bonus Attack Speed, melee / ranged. If an ally, including you, gets a
+  kill while inspired, you gain 20 gold.
 id: 195
 image_url: https://www.wildriftfire.com/images/items/yordle-trap.png
 name: Yordle Trap
 stats:
-- +350 Health
-- +40 Armor
+- +200 Health
+- +20 Armor
+- +20 Magic Resist
 - +15 Ability Haste
-type: Support
+type: Defense,Support
 ---
 
 # Yordle Trap
 
-**Type:** Support  
-**Cost:** 2600 gold
+**Type:** Defense,Support  
+**Cost:** 2400 gold
 
 ## Stats
 
-- +350 Health
-- +40 Armor
+- +200 Health
+- +20 Armor
+- +20 Magic Resist
 - +15 Ability Haste
 
 ## Effects
 
-Catcher - After applying crowd control effects that displace the enemy, gain 10% Movement Speed for 3 seconds and mark the target, reducing their Armor and Magic Resist by 5-12 for 8 seconds. If the target dies while they are marked, you and nearby allies gain 100-140 bonus gold in total. The bonus gold can only be earned once every 10 seconds.
+Catcher - Slowing or immobilizing an enemy champion empowers you for 8 / 4s, melee / ranged, granting 20 Movement Speed. During this time, you and nearby allies gain 30% / 20% bonus Attack Speed, melee / ranged. If an ally, including you, gets a kill while inspired, you gain 20 gold.
 

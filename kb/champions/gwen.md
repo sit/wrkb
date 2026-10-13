@@ -6,21 +6,21 @@ abilities:
   name: Thousand Cuts
   slot: P
 - cooldowns:
+  - 7.0
   - 6.0
   - 5.0
   - 4.0
-  - 3.0
   costs:
   - 35.0
   - 35.0
   - 35.0
   - 35.0
-  description: 'Passive : Gains 1 stack per attack hit (max 4, lasts 6 seconds. Active
-    : Snips her scissors twice, snipping an extra time for each stack consumed. Each
-    snip deals 14 / 18 / 22 / 26 ( +7% AP ) magic damage with the final snip dealing
-    70 / 90 / 110 / 130 ( +35% AP ) magic damage instead. The center of each strike
-    deals true damage instead and applies Thousand Cuts . Damage to monsters: 105%
-    .'
+  description: 'Passive : Gains 1 stack per attack hit (max 4 , lasts 6 seconds).
+    Active : Snips her scissors twice, snipping an extra time for each stack consumed.
+    Each snip deals 14 / 18 / 22 / 26 ( +6% AP ) magic damage with the final snip
+    dealing 70 / 90 / 110 / 130 ( +30% AP ) magic damage instead. The center of each
+    strike deals true damage instead and applies Thousand Cuts . Deals 100% damage
+    to monsters.'
   name: Snip Snip!
   slot: '1'
 - cooldowns:
@@ -40,9 +40,9 @@ abilities:
   name: Hallowed Mist
   slot: '2'
 - cooldowns:
-  - 13.0
+  - 14.0
   - 12.0
-  - 10.0
+  - 11.0
   - 9.0
   costs:
   - 35.0
@@ -66,8 +66,8 @@ abilities:
   description: 'First Cast : Hurl a needle that deals 35 / 50 / 65 ( +10% AP ) magic
     damage , slows by 35% / 40% / 45% for 1.5 seconds, and applies Thousand Cuts to
     all enemies hit. Needlework can be re-cast 2 additional times. Second Cast : Fires
-    3 needles, dealing a total of 90 / 135 / 180 ( +24% AP ) magic damage . Third
-    Cast : Fires 5 needles, dealing a total of 150 / 225 / 300 ( +40% AP ) magic damage
+    3 needles, dealing a total of 105 / 150 / 195 ( +30% AP ) magic damage . Third
+    Cast : Fires 5 needles, dealing a total of 175 / 250 / 325 ( +50% AP ) magic damage
     .'
   name: Needlework
   slot: '4'
@@ -102,6 +102,7 @@ base_stats:
 name: Gwen
 roles:
 - Baron Lane
+- Jungle
 source_url: https://www.wildriftfire.com/guide/gwen
 ---
 
@@ -109,7 +110,7 @@ source_url: https://www.wildriftfire.com/guide/gwen
 
 ## Roles
 
-Baron Lane
+Baron Lane, Jungle
 
 ## Base Stats
 
@@ -131,11 +132,11 @@ Attacks deal bonus 1% ( +0.005% AP ) magic damage of the target's max Health. He
 
 ### [1] Snip Snip!
 
-**Cooldown:** 6.0 / 5.0 / 4.0 / 3.0 seconds
+**Cooldown:** 7.0 / 6.0 / 5.0 / 4.0 seconds
 
 **Cost:** 35.0 / 35.0 / 35.0 / 35.0
 
-Passive : Gains 1 stack per attack hit (max 4, lasts 6 seconds. Active : Snips her scissors twice, snipping an extra time for each stack consumed. Each snip deals 14 / 18 / 22 / 26 ( +7% AP ) magic damage with the final snip dealing 70 / 90 / 110 / 130 ( +35% AP ) magic damage instead. The center of each strike deals true damage instead and applies Thousand Cuts . Damage to monsters: 105% .
+Passive : Gains 1 stack per attack hit (max 4 , lasts 6 seconds). Active : Snips her scissors twice, snipping an extra time for each stack consumed. Each snip deals 14 / 18 / 22 / 26 ( +6% AP ) magic damage with the final snip dealing 70 / 90 / 110 / 130 ( +30% AP ) magic damage instead. The center of each strike deals true damage instead and applies Thousand Cuts . Deals 100% damage to monsters.
 
 ### [2] Hallowed Mist
 
@@ -147,7 +148,7 @@ Summons the Hallowed Mist for 4 seconds, making Gwen untargetable to enemies out
 
 ### [3] Skip 'n Slash
 
-**Cooldown:** 13.0 / 12.0 / 10.0 / 9.0 seconds
+**Cooldown:** 14.0 / 12.0 / 11.0 / 9.0 seconds
 
 **Cost:** 35.0 / 35.0 / 35.0 / 35.0
 
@@ -159,5 +160,5 @@ Dashes and enhances her attacks for 4 seconds. Enhanced attacks gain 20% / 40% /
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-First Cast : Hurl a needle that deals 35 / 50 / 65 ( +10% AP ) magic damage , slows by 35% / 40% / 45% for 1.5 seconds, and applies Thousand Cuts to all enemies hit. Needlework can be re-cast 2 additional times. Second Cast : Fires 3 needles, dealing a total of 90 / 135 / 180 ( +24% AP ) magic damage . Third Cast : Fires 5 needles, dealing a total of 150 / 225 / 300 ( +40% AP ) magic damage .
+First Cast : Hurl a needle that deals 35 / 50 / 65 ( +10% AP ) magic damage , slows by 35% / 40% / 45% for 1.5 seconds, and applies Thousand Cuts to all enemies hit. Needlework can be re-cast 2 additional times. Second Cast : Fires 3 needles, dealing a total of 105 / 150 / 195 ( +30% AP ) magic damage . Third Cast : Fires 5 needles, dealing a total of 175 / 250 / 325 ( +50% AP ) magic damage .
 

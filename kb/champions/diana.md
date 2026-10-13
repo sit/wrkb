@@ -1,8 +1,7 @@
 ---
 abilities:
-- description: Casting an ability will gain bonus basic attack speed in 4 seconds.
-    Every third attack deals 35 ( +50% AP ) magic damage in an area. Deals 50% damage
-    to structures, and 100% damage to monsters.
+- description: After casting an ability, Diana gains 30% Attack Speed for 4 seconds.
+    Every third attack deals an additional 35 magic damage to nearby enemies.
   name: Moonsilver Blade
   slot: P
 - cooldowns:
@@ -59,11 +58,13 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: 'Summons the moon for up to 1 second, triggering Moonfall Glow when
-    the charge is complete. Diana can move and cast abilities and spells while charging
-    up. Click again to stop charging and trigger Moonfall Glow. Moonfall Glow : Deal
-    100 / 160 / 220 ( +40% AP ) to 200 / 320 / 440 ( +80% AP ) magic damage based
-    on charge time and slowing targets by 20% for 2 seconds.'
+  description: 'Summons the moon, illuminating an area that expands. Enemies in this
+    area are slowed by 20% . During this time, Diana charges for up to 1 second, triggering
+    Moonfall Glow when the charge is complete. Diana can move and cast abilities and
+    spells while charging up. Diana cannot cast this ability if there are no enemy
+    champions nearby. Moonfall Glow : Slams the moon down, marking enemies with Moonlight
+    and dealing 100 / 160 / 220 ( +80% AP ) magic damage to 200 / 320 / 440 ( +80%
+    AP ) magic damage based on charge time. Targets are slowed by 20% for 2 seconds.'
   name: Moonfall
   slot: '4'
 base_stats:
@@ -123,7 +124,7 @@ Mid Lane, Jungle
 
 ### [P] Moonsilver Blade
 
-Casting an ability will gain bonus basic attack speed in 4 seconds. Every third attack deals 35 ( +50% AP ) magic damage in an area. Deals 50% damage to structures, and 100% damage to monsters.
+After casting an ability, Diana gains 30% Attack Speed for 4 seconds. Every third attack deals an additional 35 magic damage to nearby enemies.
 
 ### [1] Crescent Strike
 
@@ -155,5 +156,5 @@ Dashes to a point near an enemy, dealing 40 / 80 / 120 / 160 ( +30% AP ) magic d
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Summons the moon for up to 1 second, triggering Moonfall Glow when the charge is complete. Diana can move and cast abilities and spells while charging up. Click again to stop charging and trigger Moonfall Glow. Moonfall Glow : Deal 100 / 160 / 220 ( +40% AP ) to 200 / 320 / 440 ( +80% AP ) magic damage based on charge time and slowing targets by 20% for 2 seconds.
+Summons the moon, illuminating an area that expands. Enemies in this area are slowed by 20% . During this time, Diana charges for up to 1 second, triggering Moonfall Glow when the charge is complete. Diana can move and cast abilities and spells while charging up. Diana cannot cast this ability if there are no enemy champions nearby. Moonfall Glow : Slams the moon down, marking enemies with Moonlight and dealing 100 / 160 / 220 ( +80% AP ) magic damage to 200 / 320 / 440 ( +80% AP ) magic damage based on charge time. Targets are slowed by 20% for 2 seconds.
 

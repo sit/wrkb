@@ -1,10 +1,10 @@
 ---
 abilities:
 - description: Dealing active ability damage to a champion reveals a ring for 4 seconds.
-    Crossing the ring empowers Akali's next attack to gain 100 range , deal 25 + 12
-    per level ( +60% bonus AD +65% AP ) bonus magic damage . Gains 30% Movement Speed
-    while moving toward the ring. Upon crossing the ring, she gains 30% Movement Speed
-    while moving toward enemy champions for 2 seconds.
+    Crossing the ring empowers Akali's next attack to deal 25 + 12 per level ( +60%
+    bonus AD +65% AP ) bonus magic damage . Gains 30% Movement Speed while moving
+    toward the ring. Upon crossing the ring, she gains 30% Movement Speed while moving
+    toward enemy champions for 2 seconds.
   name: Assassin's Mark
   slot: P
 - cooldowns:
@@ -17,8 +17,8 @@ abilities:
   - 90.0
   - 75.0
   - 60.0
-  description: Akali throws out five kunai, dealing 35 / 70 / 105 / 140 ( +65% AD
-    +60% AP ) magic damage and slowing by 50% at maximum range for 0.5 seconds.
+  description: Throws five kunais, dealing 35 / 70 / 105 / 140 ( +65% AD +60% AP )
+    magic damage . Enemies struck at maximum range are slowed by 50% for 0.5 seconds.
   name: Five Point Strike
   slot: '1'
 - cooldowns:
@@ -26,35 +26,37 @@ abilities:
   - 17.0
   - 16.0
   - 15.0
-  description: Akali drops a cover of smoke and briefly gains 35% / 40% / 45% / 50%
-    Movement Speed and grants 100 Energy. While inside the shroud, Akali becomes invisible.
-    Attacking or using abilities will briefly reveal her.
+  description: Creates a smoke cloud that expands over 5.5 / 6 / 6.5 / 7 seconds and
+    grants 100 maximum energy. Akali is invisible and gains 3 5% / 40% / 45% / 50%
+    Movement Speed inside the shroud. Attacking breaks the invisibility for 0.67 seconds.
   name: Twilight Shroud
   slot: '2'
 - cooldowns:
   - 15.0
-  - 15.0
-  - 15.0
-  - 15.0
+  - 13.0
+  - 11.0
+  - 9.0
   costs:
   - 30.0
   - 30.0
   - 30.0
   - 30.0
-  description: Akali flips backward and fires a shuriken forward, dealing 3 0 / 60
-    / 90 / 120 ( +25% AD +30% AP ) magic damage . The first enemy or smoke cloud hit
-    is marked. Re-casting dashes to the marked target, dealing 70 / 120 / 170 / 220
-    ( +50% AD +80% AP ) magic damage .
+  description: 'First Cast : Flips backwards as she throws a shuriken, dealing 30
+    / 60 / 90 / 120 ( +25% AD +30% AP ) magic damage and marking the first enemy hit
+    for 3 seconds. If no enemy is hit, the shuriken hits and marks Twilight Shroud
+    ''s smoke cloud instead. Recast : dashes to the target, dealing 70 / 120 / 170
+    / 220 ( +50% AD +80% AP ) magic damage .'
   name: Shuriken Flip
   slot: '3'
 - cooldowns:
   - 85.0
   - 65.0
   - 45.0
-  description: 'Akali dashes through an enemy champion, dealing 80 / 200 / 320 ( +50%
-    bonus AD +30% AP ) magic damage . Can be cast again after 2.5 seconds. Recast
-    : Dashes in target direction, dealing 70 to 210 ( +30% AP to +90% AP ) magic damage
-    based upon enemies'' missing Health. Deals max damage to enemies below 35% health.'
+  description: 'First Cast : Dashes through an enemy champion, dealing 80 / 200 /
+    320 ( +50% bonus AD +30% AP ) magic damage . Can be cast again after 2.5 seconds.
+    Recast : Dashes in target direction, dealing 70 to 210 ( +30% AP to +90% AP )
+    magic damage based upon enemies'' missing Health. Deals max damage to enemies
+    below 35% health.'
   name: Perfect Execution
   slot: '4'
 base_stats:
@@ -114,7 +116,7 @@ Mid Lane, Baron Lane
 
 ### [P] Assassin's Mark
 
-Dealing active ability damage to a champion reveals a ring for 4 seconds. Crossing the ring empowers Akali's next attack to gain 100 range , deal 25 + 12 per level ( +60% bonus AD +65% AP ) bonus magic damage . Gains 30% Movement Speed while moving toward the ring. Upon crossing the ring, she gains 30% Movement Speed while moving toward enemy champions for 2 seconds.
+Dealing active ability damage to a champion reveals a ring for 4 seconds. Crossing the ring empowers Akali's next attack to deal 25 + 12 per level ( +60% bonus AD +65% AP ) bonus magic damage . Gains 30% Movement Speed while moving toward the ring. Upon crossing the ring, she gains 30% Movement Speed while moving toward enemy champions for 2 seconds.
 
 ### [1] Five Point Strike
 
@@ -122,25 +124,25 @@ Dealing active ability damage to a champion reveals a ring for 4 seconds. Crossi
 
 **Cost:** 105.0 / 90.0 / 75.0 / 60.0
 
-Akali throws out five kunai, dealing 35 / 70 / 105 / 140 ( +65% AD +60% AP ) magic damage and slowing by 50% at maximum range for 0.5 seconds.
+Throws five kunais, dealing 35 / 70 / 105 / 140 ( +65% AD +60% AP ) magic damage . Enemies struck at maximum range are slowed by 50% for 0.5 seconds.
 
 ### [2] Twilight Shroud
 
 **Cooldown:** 18.0 / 17.0 / 16.0 / 15.0 seconds
 
-Akali drops a cover of smoke and briefly gains 35% / 40% / 45% / 50% Movement Speed and grants 100 Energy. While inside the shroud, Akali becomes invisible. Attacking or using abilities will briefly reveal her.
+Creates a smoke cloud that expands over 5.5 / 6 / 6.5 / 7 seconds and grants 100 maximum energy. Akali is invisible and gains 3 5% / 40% / 45% / 50% Movement Speed inside the shroud. Attacking breaks the invisibility for 0.67 seconds.
 
 ### [3] Shuriken Flip
 
-**Cooldown:** 15.0 / 15.0 / 15.0 / 15.0 seconds
+**Cooldown:** 15.0 / 13.0 / 11.0 / 9.0 seconds
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Akali flips backward and fires a shuriken forward, dealing 3 0 / 60 / 90 / 120 ( +25% AD +30% AP ) magic damage . The first enemy or smoke cloud hit is marked. Re-casting dashes to the marked target, dealing 70 / 120 / 170 / 220 ( +50% AD +80% AP ) magic damage .
+First Cast : Flips backwards as she throws a shuriken, dealing 30 / 60 / 90 / 120 ( +25% AD +30% AP ) magic damage and marking the first enemy hit for 3 seconds. If no enemy is hit, the shuriken hits and marks Twilight Shroud 's smoke cloud instead. Recast : dashes to the target, dealing 70 / 120 / 170 / 220 ( +50% AD +80% AP ) magic damage .
 
 ### [4] Perfect Execution
 
 **Cooldown:** 85.0 / 65.0 / 45.0 seconds
 
-Akali dashes through an enemy champion, dealing 80 / 200 / 320 ( +50% bonus AD +30% AP ) magic damage . Can be cast again after 2.5 seconds. Recast : Dashes in target direction, dealing 70 to 210 ( +30% AP to +90% AP ) magic damage based upon enemies' missing Health. Deals max damage to enemies below 35% health.
+First Cast : Dashes through an enemy champion, dealing 80 / 200 / 320 ( +50% bonus AD +30% AP ) magic damage . Can be cast again after 2.5 seconds. Recast : Dashes in target direction, dealing 70 to 210 ( +30% AP to +90% AP ) magic damage based upon enemies' missing Health. Deals max damage to enemies below 35% health.
 

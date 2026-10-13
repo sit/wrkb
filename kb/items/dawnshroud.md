@@ -11,12 +11,12 @@ stats:
 - +250 Health
 - +50 Armor
 - +30 Magic Resist
-type: Defense
+type: Defense,Support
 ---
 
 # Dawnshroud
 
-**Type:** Defense  
+**Type:** Defense,Support  
 **Cost:** 2700 gold
 
 ## Stats

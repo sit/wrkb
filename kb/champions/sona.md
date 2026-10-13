@@ -35,7 +35,7 @@ abilities:
   - 90.0
   - 95.0
   - 100.0
-  description: 'Heals herself and another allied champion for 45 / 60 / 75 / 90 (
+  description: 'Heals herself and another allied champion for 35 / 60 / 65 / 80 (
     +20% AP ). Aura : Grants allied champions a shield that absorbs 25 / 50 / 75 /
     100 ( +18% AP ) damage for 3 seconds.'
   name: Aria of Perseverance
@@ -58,8 +58,8 @@ abilities:
   slot: '3'
 - cooldowns:
   - 80.0
+  - 75.0
   - 70.0
-  - 60.0
   costs:
   - 100.0
   - 100.0
@@ -143,7 +143,7 @@ Deals 40 / 80 / 120 / 160 ( +40% AP ) magic damage to two nearest enemies. Aura 
 
 **Cost:** 85.0 / 90.0 / 95.0 / 100.0
 
-Heals herself and another allied champion for 45 / 60 / 75 / 90 ( +20% AP ). Aura : Grants allied champions a shield that absorbs 25 / 50 / 75 / 100 ( +18% AP ) damage for 3 seconds.
+Heals herself and another allied champion for 35 / 60 / 65 / 80 ( +20% AP ). Aura : Grants allied champions a shield that absorbs 25 / 50 / 75 / 100 ( +18% AP ) damage for 3 seconds.
 
 ### [3] Song of Celerity
 
@@ -155,7 +155,7 @@ Gains 15% / 16% / 17% / 18% ( +3% AP ) Movement Speed for 5 seconds. Aura : Gain
 
 ### [4] Crescendo
 
-**Cooldown:** 80.0 / 70.0 / 60.0 seconds
+**Cooldown:** 80.0 / 75.0 / 70.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

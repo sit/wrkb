@@ -1,36 +1,35 @@
 ---
-cost: 3200
+cost: 3100
 effects:
-- "UNIQUE - THIRST: +10% Omni Vamp\n\r\nUNIQUE - RUINED STRIKES: Basic attacks deal\
-  \ (8.5% Melee / 7% Ranged) of target's current health bonus physical damage. Deals\
-  \ a minimum of 15 damage, and against monsters deals a maximum of 60 damage.\n\r\
-  \nUNIQUE - DRAIN: Hitting a champion with 3 basic attacks or abilities deals 30\
-  \ - 100 (based on level) magic damage and steals 25% of their movement speed for\
-  \ 3 seconds. (60 second cooldown)"
+- "+12% Lifesteal\n\r\nUNIQUE - RUINED STRIKES: Basic attacks deal bonus physical\
+  \ damage on hit equal to 7% of the target's current Health (8.5% for melee), with\
+  \ a minimum of 15 and a maximum of 100 against monsters.\n\r\nUNIQUE - DRAIN: Hitting\
+  \ the same enemy champion 3 times with basic attacks or abilities slows them by\
+  \ 30% for 1.5 seconds (30 second cooldown)."
 id: 51
 image_url: https://www.wildriftfire.com/images/items/blade-of-the-ruined-king.png
 name: Blade of the Ruined King
 stats:
 - +40 Attack Damage
-- +35% Attack Speed
-type: Physical
+- +30% Attack Speed
+type: Marksman,Fighter
 ---
 
 # Blade of the Ruined King
 
-**Type:** Physical  
-**Cost:** 3200 gold
+**Type:** Marksman,Fighter  
+**Cost:** 3100 gold
 
 ## Stats
 
 - +40 Attack Damage
-- +35% Attack Speed
+- +30% Attack Speed
 
 ## Effects
 
-UNIQUE - THIRST: +10% Omni Vamp
++12% Lifesteal
 
-UNIQUE - RUINED STRIKES: Basic attacks deal (8.5% Melee / 7% Ranged) of target's current health bonus physical damage. Deals a minimum of 15 damage, and against monsters deals a maximum of 60 damage.
+UNIQUE - RUINED STRIKES: Basic attacks deal bonus physical damage on hit equal to 7% of the target's current Health (8.5% for melee), with a minimum of 15 and a maximum of 100 against monsters.
 
-UNIQUE - DRAIN: Hitting a champion with 3 basic attacks or abilities deals 30 - 100 (based on level) magic damage and steals 25% of their movement speed for 3 seconds. (60 second cooldown)
+UNIQUE - DRAIN: Hitting the same enemy champion 3 times with basic attacks or abilities slows them by 30% for 1.5 seconds (30 second cooldown).
 

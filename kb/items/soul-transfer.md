@@ -16,12 +16,12 @@ stats:
 - +25 Attack Damage
 - +30% Attack Speed
 - +25% Critical Strike Chance
-type: Physical
+type: ''
 ---
 
 # Soul Transfer
 
-**Type:** Physical  
+**Type:**   
 **Cost:** 3200 gold
 
 ## Stats

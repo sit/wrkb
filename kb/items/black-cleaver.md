@@ -13,12 +13,12 @@ stats:
 - +400 Health
 - +40 Attack Damage
 - +20 Ability Haste
-type: Physical
+type: Fighter
 ---
 
 # Black Cleaver
 
-**Type:** Physical  
+**Type:** Fighter  
 **Cost:** 3000 gold
 
 ## Stats

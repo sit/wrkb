@@ -96,7 +96,6 @@ base_stats:
 name: Seraphine
 roles:
 - Support
-- Mid Lane
 source_url: https://www.wildriftfire.com/guide/seraphine
 ---
 
@@ -104,7 +103,7 @@ source_url: https://www.wildriftfire.com/guide/seraphine
 
 ## Roles
 
-Support, Mid Lane
+Support
 
 ## Base Stats
 

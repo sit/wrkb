@@ -1,16 +1,15 @@
 ---
 abilities:
-- description: Enhances his next attack to deal 15 ( +100% AD + 10 x (Champion level
-    -1) +45% AP +60% MR ) magic damage to nearby enemies. Gain 40% Attack Speed when
-    passive is active. When an ability hits an enemy champion or epic jungle monster,
-    it reduces Colossus Smash's cooldown by 3 seconds ( each ability can only trigger
-    this once) .
+- description: "Enhances his next attack to gain 40% bonus Attack Speed and deal 15\
+    \ ( + 10 x level + 100% AD +60% bonus MR ) magic damage to nearby enemies. Hitting\
+    \ an enemy champion or epic monster\_ with an ability reduces this ability's cooldown\
+    \ by 3 seconds. This effect can only be triggered once per cast."
   name: Colossal Smash
   slot: P
 - cooldowns:
-  - 11.0
+  - 12.0
   - 10.0
-  - 8.0
+  - 9.0
   - 7.0
   costs:
   - 75.0
@@ -33,10 +32,10 @@ abilities:
   - 50.0
   - 50.0
   description: "Passive : Every 12 seconds, upon taking damage, Galio gains a shield\
-    \ that absorbs 46 ( 8% / 12% / 16% / 20% HP ) magic damage for 3.5 seconds. Hold\
+    \ that absorbs 53 ( 8% / 12% / 16% / 20% HP ) magic damage for 3.5 seconds. Hold\
     \ : Enters a defensive stance, slowing himself by 15% for up to 2 seconds. Takes\
     \ 25% / 30% / 35% / 40% ( +4% AP + 8% bonus MR +1% bonus Health ) reduced magic\
-    \ damage and 12.5% / 15% / 17.5% / 20% ( +2% A P + 4% bonus MR +0.5% bonus Health\
+    \ damage and 12.5% / 15% / 17.5% / 20% ( +2% AP + 4% bonus MR +0.5% bonus Health\
     \ ) reduced physical damage . Release : Deals 40 / 80 / 120 / 160 ( +55% AP )\
     \ magic damage to nearby enemies and\_ taunts them for 0.5 - 1.5 seconds, increased\
     \ with hold time."
@@ -128,11 +127,11 @@ Mid Lane, Support
 
 ### [P] Colossal Smash
 
-Enhances his next attack to deal 15 ( +100% AD + 10 x (Champion level -1) +45% AP +60% MR ) magic damage to nearby enemies. Gain 40% Attack Speed when passive is active. When an ability hits an enemy champion or epic jungle monster, it reduces Colossus Smash's cooldown by 3 seconds ( each ability can only trigger this once) .
+Enhances his next attack to gain 40% bonus Attack Speed and deal 15 ( + 10 x level + 100% AD +60% bonus MR ) magic damage to nearby enemies. Hitting an enemy champion or epic monster  with an ability reduces this ability's cooldown by 3 seconds. This effect can only be triggered once per cast.
 
 ### [1] Winds of War
 
-**Cooldown:** 11.0 / 10.0 / 8.0 / 7.0 seconds
+**Cooldown:** 12.0 / 10.0 / 9.0 / 7.0 seconds
 
 **Cost:** 75.0 / 75.0 / 75.0 / 75.0
 
@@ -144,7 +143,7 @@ Fires two windblasts that deal 70 / 115 / 160 / 205 ( +75% AP ) magic damage and
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Passive : Every 12 seconds, upon taking damage, Galio gains a shield that absorbs 46 ( 8% / 12% / 16% / 20% HP ) magic damage for 3.5 seconds. Hold : Enters a defensive stance, slowing himself by 15% for up to 2 seconds. Takes 25% / 30% / 35% / 40% ( +4% AP + 8% bonus MR +1% bonus Health ) reduced magic damage and 12.5% / 15% / 17.5% / 20% ( +2% A P + 4% bonus MR +0.5% bonus Health ) reduced physical damage . Release : Deals 40 / 80 / 120 / 160 ( +55% AP ) magic damage to nearby enemies and  taunts them for 0.5 - 1.5 seconds, increased with hold time.
+Passive : Every 12 seconds, upon taking damage, Galio gains a shield that absorbs 53 ( 8% / 12% / 16% / 20% HP ) magic damage for 3.5 seconds. Hold : Enters a defensive stance, slowing himself by 15% for up to 2 seconds. Takes 25% / 30% / 35% / 40% ( +4% AP + 8% bonus MR +1% bonus Health ) reduced magic damage and 12.5% / 15% / 17.5% / 20% ( +2% AP + 4% bonus MR +0.5% bonus Health ) reduced physical damage . Release : Deals 40 / 80 / 120 / 160 ( +55% AP ) magic damage to nearby enemies and  taunts them for 0.5 - 1.5 seconds, increased with hold time.
 
 ### [3] Justice Punch
 

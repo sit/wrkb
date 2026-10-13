@@ -1,9 +1,9 @@
 ---
 abilities:
 - description: After 2 seconds (scales with Grand Challenge's level), reveals Vitals
-    on a nearby enemy champion. Striking a Vital deals 3.5% ( +0.05% bonus AD ) of
+    on a nearby enemy champion. Striking a Vital deals 4% ( +0.055% bonus AD ) of
     the target's max Health as true damage , heals Fiora for 45 Health and grants
-    her 3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75
+    her 30% Movement Speed (scales with Grand Challenge's level) decaying over 1.75
     seconds. Reveals a new Vital after striking one or after 16.75 seconds.
   name: Duelist's Dance
   slot: P
@@ -34,11 +34,11 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: Parries all incoming damage and debuffs for the next 0.75 econds. Then
-    stabs in the target direction, dealing 120 / 170 / 220 / 270 ( +100% AP ) magic
-    damage to the first enemy champion, slowing their Movement Speed and Attack Speed
-    by 50% for 1.5 seconds. Riposte stuns instead of slows if it parries an immobilizing
-    effect.
+  description: Parries all incoming damage and debuffs for the next 0.75 seconds.
+    Then stabs in the target direction, dealing 120 / 170 / 220 / 270 ( +100% AP )
+    magic damage to the first enemy champion, slowing their Movement Speed and Attack
+    Speed by 50% for 1.5 seconds. Riposte stuns instead of slows if it parries an
+    immobilizing effect.
   name: Riposte
   slot: '2'
 - cooldowns:
@@ -53,7 +53,7 @@ abilities:
   - 45.0
   description: Empowers the next 2 attacks with 60% Attack Speed . The first attack
     applies a 30% slow for 1 second, but cannot critically strike. The second attack
-    will aways critically strike for 170% / 180% / 190% / 200% physical damage .
+    will always critically strike for 170% / 180% / 190% / 200% physical damage .
   name: Bladework
   slot: '3'
 - cooldowns:
@@ -69,7 +69,7 @@ abilities:
     and gains Duelist''s Dance''s Movement Speed bonus while near them. If Fiora strikes
     all 4 Vitals within 8 seconds, or if the target dies after she has hit at least
     one, restores 80 / 110 / 140 ( +60% bonus AD ) Health per second to herself and
-    nearby allied champions for 2-5 seconds, scaling with the number of Vitals hit.
+    nearby allied champions for 2 - 5 seconds, scaling with the number of Vitals hit.
     Striking all 4 Vitals of a champion deals 16% of their max Health as true damage
     .'
   name: Grand Challenge
@@ -130,7 +130,7 @@ Baron Lane
 
 ### [P] Duelist's Dance
 
-After 2 seconds (scales with Grand Challenge's level), reveals Vitals on a nearby enemy champion. Striking a Vital deals 3.5% ( +0.05% bonus AD ) of the target's max Health as true damage , heals Fiora for 45 Health and grants her 3 0% Movement Speed (scales with Grand Challenge's level) decaying over 1.75 seconds. Reveals a new Vital after striking one or after 16.75 seconds.
+After 2 seconds (scales with Grand Challenge's level), reveals Vitals on a nearby enemy champion. Striking a Vital deals 4% ( +0.055% bonus AD ) of the target's max Health as true damage , heals Fiora for 45 Health and grants her 30% Movement Speed (scales with Grand Challenge's level) decaying over 1.75 seconds. Reveals a new Vital after striking one or after 16.75 seconds.
 
 ### [1] Lunge
 
@@ -146,7 +146,7 @@ Lunges in a direction and stabs a nearby enemy, dealing 75 / 85 / 95 / 105 ( +11
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Parries all incoming damage and debuffs for the next 0.75 econds. Then stabs in the target direction, dealing 120 / 170 / 220 / 270 ( +100% AP ) magic damage to the first enemy champion, slowing their Movement Speed and Attack Speed by 50% for 1.5 seconds. Riposte stuns instead of slows if it parries an immobilizing effect.
+Parries all incoming damage and debuffs for the next 0.75 seconds. Then stabs in the target direction, dealing 120 / 170 / 220 / 270 ( +100% AP ) magic damage to the first enemy champion, slowing their Movement Speed and Attack Speed by 50% for 1.5 seconds. Riposte stuns instead of slows if it parries an immobilizing effect.
 
 ### [3] Bladework
 
@@ -154,7 +154,7 @@ Parries all incoming damage and debuffs for the next 0.75 econds. Then stabs in 
 
 **Cost:** 30.0 / 35.0 / 40.0 / 45.0
 
-Empowers the next 2 attacks with 60% Attack Speed . The first attack applies a 30% slow for 1 second, but cannot critically strike. The second attack will aways critically strike for 170% / 180% / 190% / 200% physical damage .
+Empowers the next 2 attacks with 60% Attack Speed . The first attack applies a 30% slow for 1 second, but cannot critically strike. The second attack will always critically strike for 170% / 180% / 190% / 200% physical damage .
 
 ### [4] Grand Challenge
 
@@ -162,5 +162,5 @@ Empowers the next 2 attacks with 60% Attack Speed . The first attack applies a 3
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Passive : Reduces the time needed to reveal Vitals by 0.25 / 0.5 / 0.75 seconds. Active : Revels all 4 Vitals on an enemy champion for 8 seconds and gains Duelist's Dance's Movement Speed bonus while near them. If Fiora strikes all 4 Vitals within 8 seconds, or if the target dies after she has hit at least one, restores 80 / 110 / 140 ( +60% bonus AD ) Health per second to herself and nearby allied champions for 2-5 seconds, scaling with the number of Vitals hit. Striking all 4 Vitals of a champion deals 16% of their max Health as true damage .
+Passive : Reduces the time needed to reveal Vitals by 0.25 / 0.5 / 0.75 seconds. Active : Revels all 4 Vitals on an enemy champion for 8 seconds and gains Duelist's Dance's Movement Speed bonus while near them. If Fiora strikes all 4 Vitals within 8 seconds, or if the target dies after she has hit at least one, restores 80 / 110 / 140 ( +60% bonus AD ) Health per second to herself and nearby allied champions for 2 - 5 seconds, scaling with the number of Vitals hit. Striking all 4 Vitals of a champion deals 16% of their max Health as true damage .
 

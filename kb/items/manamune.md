@@ -1,37 +1,36 @@
 ---
-cost: 2700
+cost: 2900
 effects:
-- "UNIQUE - AWE: Grants bonus attack damage equal to 1.5% maximum mana. Refunds 15%\
-  \ of mana spent.\n\r\nUNIQUE - MANA CHARGE: Grants a charge every 3.3 seconds, up\
-  \ to 3 charges. Each basic attack on-hit or mana expenditure consumes a charge and\
-  \ grants +14 mana, up to a maximum of 700 mana.\n\r\nTransforms into Muramana at\
-  \ +700 mana.\n\r\nLimited to 1 AWE item."
+- "UNIQUE - AWE: Gain Attack Damage equal to 2% of max Mana and refund 15% of total\
+  \ Mana spent.\n\r\nUNIQUE - MANA CHARGE: Basic attacks and Mana expenditure grant\
+  \ 14 max Mana, up to 700. Triggers at most 3 times every 10 seconds.\n\r\nTransforms\
+  \ into Muramana at +700 mana.\n\r\nLimited to 1 AWE item."
 id: 67
 image_url: https://www.wildriftfire.com/images/items/manamune.png
 name: Manamune
 stats:
-- +25 Attack Damage
-- +300 Mana
-- +20 Ability Haste
-type: Physical
+- +40 Attack Damage
+- +500 Mana
+- +15 Ability Haste
+type: Assassin,Marksman,Fighter
 ---
 
 # Manamune
 
-**Type:** Physical  
-**Cost:** 2700 gold
+**Type:** Assassin,Marksman,Fighter  
+**Cost:** 2900 gold
 
 ## Stats
 
-- +25 Attack Damage
-- +300 Mana
-- +20 Ability Haste
+- +40 Attack Damage
+- +500 Mana
+- +15 Ability Haste
 
 ## Effects
 
-UNIQUE - AWE: Grants bonus attack damage equal to 1.5% maximum mana. Refunds 15% of mana spent.
+UNIQUE - AWE: Gain Attack Damage equal to 2% of max Mana and refund 15% of total Mana spent.
 
-UNIQUE - MANA CHARGE: Grants a charge every 3.3 seconds, up to 3 charges. Each basic attack on-hit or mana expenditure consumes a charge and grants +14 mana, up to a maximum of 700 mana.
+UNIQUE - MANA CHARGE: Basic attacks and Mana expenditure grant 14 max Mana, up to 700. Triggers at most 3 times every 10 seconds.
 
 Transforms into Muramana at +700 mana.
 

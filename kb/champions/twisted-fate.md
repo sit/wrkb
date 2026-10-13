@@ -46,7 +46,7 @@ abilities:
   - 50.0
   - 50.0
   description: 'Passive : Gains 15% / 20% / 25% / 30% Attack Speed . Every 4th attack
-    deals 50 / 80 / 110 / 140 ( +45% AP ) magic damage . Active : Gain 20% / 25% /
+    deals 50 / 80 / 110 / 140 ( +35% AP ) magic damage . Active : Gain 20% / 25% /
     30% / 35% Attack Speed for 3 seconds. During this time, attacking enemy champions
     rolls Loaded Dice .'
   name: Stacked Deck
@@ -143,7 +143,7 @@ First Cast : Start Shuffling Twisted Fate's Deck. Second Cast : Pick a card to e
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Passive : Gains 15% / 20% / 25% / 30% Attack Speed . Every 4th attack deals 50 / 80 / 110 / 140 ( +45% AP ) magic damage . Active : Gain 20% / 25% / 30% / 35% Attack Speed for 3 seconds. During this time, attacking enemy champions rolls Loaded Dice .
+Passive : Gains 15% / 20% / 25% / 30% Attack Speed . Every 4th attack deals 50 / 80 / 110 / 140 ( +35% AP ) magic damage . Active : Gain 20% / 25% / 30% / 35% Attack Speed for 3 seconds. During this time, attacking enemy champions rolls Loaded Dice .
 
 ### [4] Destiny
 

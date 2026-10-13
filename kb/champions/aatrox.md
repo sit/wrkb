@@ -37,8 +37,9 @@ abilities:
   - 6.0
   - 5.0
   description: 'Passive : Aatrox gains 19% / 21% / 23% / 25% physical vamp against
-    enemy champions. Active : Dashes forward. This resets Aatrox''s normal attack.
-    Usable whie casting other abilities.'
+    enemy champions, increased to 24% / 26% / 28% / 30% during World Ender. Active
+    : Dashes forward. This resets Aatrox''s normal attack. Usable whie casting other
+    abilities.'
   name: Umbral Dash
   slot: '3'
 - cooldowns:
@@ -47,9 +48,9 @@ abilities:
   - 55.0
   description: Unleashes his demonic form for 10 seconds, gaining 30% / 40% / 50%
     Attack Damage , 25% / 35% / 45% increased healing and 60% / 75% / 90% decaying
-    Movement Speed . During this time, Umbral Dash's Physical Vamp is increased by
-    50% . World Ender's duration is extended by 5 seconds with a takedown, up to 10
-    extra seconds. Nearby minions and monsters are feared for 3 seconds on activation.
+    Movement Speed . World Ender's duration is extended by 5 seconds with a takedown,
+    up to 10 extra seconds. Nearby minions and monsters are feared for 3 seconds on
+    activation.
   name: World Ender
   slot: '4'
 base_stats:
@@ -119,11 +120,11 @@ Sends a chain dealing 25 / 40 / 55 / 70 ( +40% AD ) physical damage to the first
 
 **Cooldown:** 8.0 / 7.0 / 6.0 / 5.0 seconds
 
-Passive : Aatrox gains 19% / 21% / 23% / 25% physical vamp against enemy champions. Active : Dashes forward. This resets Aatrox's normal attack. Usable whie casting other abilities.
+Passive : Aatrox gains 19% / 21% / 23% / 25% physical vamp against enemy champions, increased to 24% / 26% / 28% / 30% during World Ender. Active : Dashes forward. This resets Aatrox's normal attack. Usable whie casting other abilities.
 
 ### [4] World Ender
 
 **Cooldown:** 75.0 / 65.0 / 55.0 seconds
 
-Unleashes his demonic form for 10 seconds, gaining 30% / 40% / 50% Attack Damage , 25% / 35% / 45% increased healing and 60% / 75% / 90% decaying Movement Speed . During this time, Umbral Dash's Physical Vamp is increased by 50% . World Ender's duration is extended by 5 seconds with a takedown, up to 10 extra seconds. Nearby minions and monsters are feared for 3 seconds on activation.
+Unleashes his demonic form for 10 seconds, gaining 30% / 40% / 50% Attack Damage , 25% / 35% / 45% increased healing and 60% / 75% / 90% decaying Movement Speed . World Ender's duration is extended by 5 seconds with a takedown, up to 10 extra seconds. Nearby minions and monsters are feared for 3 seconds on activation.
 

@@ -3,9 +3,9 @@ abilities:
 - description: 'Every instance of ability damage dealt to an enemy champion grants
     1 Splinter of Wrath and restores 13 mana . Syndra gains 4 Splinters of Wrath every
     time she levels up an ability. Up to 120 Splinters can be collected. Transcendent
-    : Empowers a basic ability after collecting 40 , 60 and 80 Splinters of Wrath
-    . Empowers Unleashed Power after collection 100 Splinters of Wrath . Transcendence
-    : Gains 12% AP after collecting 120 Splinters of Wrath .'
+    : Empowers a basic ability after collecting 50 , 75 and 100 Splinters of Wrath
+    . Empowers Unleashed Power after collection 125 Splinters of Wrath . Transcendence
+    : Gains 12% AP after collecting 150 Splinters of Wrath .'
   name: Transcendent
   slot: P
 - cooldowns:
@@ -18,7 +18,7 @@ abilities:
   - 55.0
   - 60.0
   - 65.0
-  description: 'Conjures a Dark Sphere , dealing 70 / 115 / 160 / 205 ( +65% AP )
+  description: 'Conjures a Dark Sphere , dealing 80 / 130 / 180 / 230 ( +65% AP )
     magic damage . The Sphere remains for 6 seconds and can be manipulated by Syndra''s
     other abilities. Transcendent : Stores a charge of Dark Sphere every 7 seconds,
     up to a maximum of 2. This ability can be cast wile moving.'
@@ -35,25 +35,25 @@ abilities:
   - 90.0
   - 100.0
   description: 'Grabs the nearest Dark Sphere and hurls it at a target location, dealing
-    60 / 100 / 140 / 180 ( +45% AP ) magic damage to enemies within the area and slowing
-    them by 20% / 25% / 30% / 35% for 1.5 seconds. If there isn''t any Dark Sphere
-    nearby, Syndra generates one and hurls it at the target location. Damage from
-    the Sphere is reduced to 80% . Transcendent : This ability deals an additional
-    12% ( +2% AP ) true damage .'
+    60 / 100 / 140 / 180 ( +50% AP ) magic damage to enemies within the area and slowing
+    them by 25% for 1.5 seconds. If there isn''t any Dark Sphere nearby, Syndra generates
+    one and hurls it at the target location. Damage from the Sphere is reduced to
+    80% . Transcendent : This ability deals an additional 12% ( +2% AP ) true damage
+    .'
   name: Force of Will
   slot: '2'
 - cooldowns:
-  - 17.0
-  - 17.0
-  - 17.0
-  - 17.0
+  - 15.0
+  - 15.0
+  - 15.0
+  - 15.0
   costs:
   - 50.0
   - 50.0
   - 50.0
   - 50.0
   description: 'Projects a wave of force in a cone, knocking back enemies and Dark
-    Spheres and dealing 70 / 110 / 150 / 190 ( +35% AP ) magic damage . Dark Spheres
+    Spheres and dealing 70 / 110 / 150 / 190 ( +50% AP ) magic damage . Dark Spheres
     that are knocked back stun and knock back enemies hit along the way for 1.25 seconds,
     dealing 70 / 110 / 150 / 1 90 ( +35% AP ) magic damage . Transcendent : Increases
     the angle of the wave of force''s cone by 50% and its radius to 720 . Enemies
@@ -132,7 +132,7 @@ Mid Lane
 
 ### [P] Transcendent
 
-Every instance of ability damage dealt to an enemy champion grants 1 Splinter of Wrath and restores 13 mana . Syndra gains 4 Splinters of Wrath every time she levels up an ability. Up to 120 Splinters can be collected. Transcendent : Empowers a basic ability after collecting 40 , 60 and 80 Splinters of Wrath . Empowers Unleashed Power after collection 100 Splinters of Wrath . Transcendence : Gains 12% AP after collecting 120 Splinters of Wrath .
+Every instance of ability damage dealt to an enemy champion grants 1 Splinter of Wrath and restores 13 mana . Syndra gains 4 Splinters of Wrath every time she levels up an ability. Up to 120 Splinters can be collected. Transcendent : Empowers a basic ability after collecting 50 , 75 and 100 Splinters of Wrath . Empowers Unleashed Power after collection 125 Splinters of Wrath . Transcendence : Gains 12% AP after collecting 150 Splinters of Wrath .
 
 ### [1] Dark Sphere
 
@@ -140,7 +140,7 @@ Every instance of ability damage dealt to an enemy champion grants 1 Splinter of
 
 **Cost:** 50.0 / 55.0 / 60.0 / 65.0
 
-Conjures a Dark Sphere , dealing 70 / 115 / 160 / 205 ( +65% AP ) magic damage . The Sphere remains for 6 seconds and can be manipulated by Syndra's other abilities. Transcendent : Stores a charge of Dark Sphere every 7 seconds, up to a maximum of 2. This ability can be cast wile moving.
+Conjures a Dark Sphere , dealing 80 / 130 / 180 / 230 ( +65% AP ) magic damage . The Sphere remains for 6 seconds and can be manipulated by Syndra's other abilities. Transcendent : Stores a charge of Dark Sphere every 7 seconds, up to a maximum of 2. This ability can be cast wile moving.
 
 ### [2] Force of Will
 
@@ -148,15 +148,15 @@ Conjures a Dark Sphere , dealing 70 / 115 / 160 / 205 ( +65% AP ) magic damage .
 
 **Cost:** 70.0 / 80.0 / 90.0 / 100.0
 
-Grabs the nearest Dark Sphere and hurls it at a target location, dealing 60 / 100 / 140 / 180 ( +45% AP ) magic damage to enemies within the area and slowing them by 20% / 25% / 30% / 35% for 1.5 seconds. If there isn't any Dark Sphere nearby, Syndra generates one and hurls it at the target location. Damage from the Sphere is reduced to 80% . Transcendent : This ability deals an additional 12% ( +2% AP ) true damage .
+Grabs the nearest Dark Sphere and hurls it at a target location, dealing 60 / 100 / 140 / 180 ( +50% AP ) magic damage to enemies within the area and slowing them by 25% for 1.5 seconds. If there isn't any Dark Sphere nearby, Syndra generates one and hurls it at the target location. Damage from the Sphere is reduced to 80% . Transcendent : This ability deals an additional 12% ( +2% AP ) true damage .
 
 ### [3] Scatter the Weak
 
-**Cooldown:** 17.0 / 17.0 / 17.0 / 17.0 seconds
+**Cooldown:** 15.0 / 15.0 / 15.0 / 15.0 seconds
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Projects a wave of force in a cone, knocking back enemies and Dark Spheres and dealing 70 / 110 / 150 / 190 ( +35% AP ) magic damage . Dark Spheres that are knocked back stun and knock back enemies hit along the way for 1.25 seconds, dealing 70 / 110 / 150 / 1 90 ( +35% AP ) magic damage . Transcendent : Increases the angle of the wave of force's cone by 50% and its radius to 720 . Enemies can only take damage and be knocked back from this ability once per cast.
+Projects a wave of force in a cone, knocking back enemies and Dark Spheres and dealing 70 / 110 / 150 / 190 ( +50% AP ) magic damage . Dark Spheres that are knocked back stun and knock back enemies hit along the way for 1.25 seconds, dealing 70 / 110 / 150 / 1 90 ( +35% AP ) magic damage . Transcendent : Increases the angle of the wave of force's cone by 50% and its radius to 720 . Enemies can only take damage and be knocked back from this ability once per cast.
 
 ### [4] Unleashed Power
 

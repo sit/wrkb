@@ -8,9 +8,10 @@ id: 219
 image_url: https://www.wildriftfire.com/images/items/unending-despair.png
 name: Unending Despair
 stats:
-- +200 Health
-- +45 Armor
-- +45 Magic Resist
+- +300 Health
+- +40 Armor
+- +40 Magic Resist
+- +10 Ability Haste
 type: Defense
 ---
 
@@ -21,9 +22,10 @@ type: Defense
 
 ## Stats
 
-- +200 Health
-- +45 Armor
-- +45 Magic Resist
+- +300 Health
+- +40 Armor
+- +40 Magic Resist
+- +10 Ability Haste
 
 ## Effects
 

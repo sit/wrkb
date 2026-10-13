@@ -9,12 +9,12 @@ name: Zhonya's Hourglass
 stats:
 - +40 Armor
 - +110 Ability Power
-type: Magic
+type: Magic,Defense
 ---
 
 # Zhonya's Hourglass
 
-**Type:** Magic  
+**Type:** Magic,Defense  
 **Cost:** 3300 gold
 
 ## Stats
