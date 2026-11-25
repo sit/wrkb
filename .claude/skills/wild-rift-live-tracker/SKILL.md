@@ -106,13 +106,17 @@ Early ganks are the biggest risk, and the enemy jungler is most predictable befo
 
 ### Timers
 
-| Event | Time |
+Game-clock times:
+
+| Event | Game time |
 |---|---|
 | Rift Scuttler first spawn | 1:30 |
-| Blue Sentinel and Red Brambleback respawn | 2:30 after kill |
 | Evolved buffs replace normal buffs | 7:30 |
-| Full jungle clear, fast | about 1:45 |
-| Full jungle clear, slow | about 2:15 |
+
+Durations, to add to the time something happened:
+
+- Blue and red buffs respawn 2 minutes 30 seconds after they die.
+- A full jungle clear takes about 1 minute 45 seconds when fast and about 2 minutes 15 seconds when slow.
 
 ### Pathing direction
 
