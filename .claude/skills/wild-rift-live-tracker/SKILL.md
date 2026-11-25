@@ -29,7 +29,7 @@ Never use SEO guide sites or AI-generated content. Never use data from an old pa
 
 WRKB file names are the lowercase champion name with spaces and punctuation turned into hyphens or dropped: `lee-sin.md`, `jarvan-iv.md`, `kogmaw.md`, `chogath.md`, `nunu-willump.md`.
 
-`kb/summoner-spells/` arrives with PR #1 (branch `claude/ingest-summoner-spells-*`). If it is not on main yet, read it from that branch or from the wiki `WR:` page for each spell.
+If a spell is missing from `kb/summoner-spells/`, use its wiki `WR:` page.
 
 ## 1. Champ select
 
