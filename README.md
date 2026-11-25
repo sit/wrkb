@@ -50,6 +50,37 @@ Command line options:
 - `--rune`, `-r`: Specific rune to update
 - `--item`, `-i`: Specific item to update
 
+### Ingest League of Legends Wiki
+
+The [League of Legends Wiki](https://wiki.leagueoflegends.com/en-us/) keeps
+Wild Rift summoner spell data (cooldown, range, charges, effects) in one Lua
+data module,
+[Module:SpellDataWR/data](https://wiki.leagueoflegends.com/en-us/Module:SpellDataWR/data).
+`ingest-lolwiki.py` reads that module and writes one page per summoner spell
+to `kb/summoner-spells/`, in the same Markdown and frontmatter format as the
+WildRiftFire pages.
+
+```bash
+# Ingest all summoner spells
+uv run ingest-lolwiki.py --kb kb
+
+# Ingest a specific summoner spell
+uv run ingest-lolwiki.py --kb kb --spell "Flash"
+
+# Use a saved copy of the module instead of fetching it
+uv run ingest-lolwiki.py --kb kb --module-file SpellDataWR.lua
+```
+
+Command line options:
+
+- `--kb`, `-k`: Knowledge base directory path (default: kb)
+- `--spell`, `-s`: Specific summoner spell to update
+- `--module-file`: Read the module source from a file instead of the wiki
+
+It keeps spells available on Summoner's Rift and skips spells the wiki marks
+as removed, ARAM-only event spells, Recall, and Hexflash (whose text the
+module pulls from the rune data).
+
 ### Ingest YouTube
 
 There are many great YouTube videos that explain different aspects
