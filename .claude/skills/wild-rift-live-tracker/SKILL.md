@@ -33,7 +33,7 @@ If a spell is missing from `kb/summoner-spells/`, use its wiki `WR:` page.
 
 ## 1. Champ select
 
-At the start, ask the player to narrate champ select as it happens: picks on both teams, their summoner spells, and their keystone runes. Find out which roles the player usually plays if you don't already know.
+At the start, ask the player to narrate champ select as it happens: picks on both teams, their summoner spells, and their keystone runes. Track the role the player is in for this game. Players sometimes swap roles after champ select, so update it if they say so.
 
 If the player starts the skill without having given you this, get a simplified version, most important first:
 
