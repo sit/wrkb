@@ -2,7 +2,7 @@
 abilities:
 - description: Applies Love Tap when attack enemy champions or epic monsters. At 3
     stacks, increases Miss Fortune's damage to the target by 6% - 9.5% ( + 0.4x per
-    level ). At 3 stacks deal 15 ( +40% bonus AD ) X ( 0.6 + 100% Critical Rate x
+    level ). At 3 stacks deal 15 ( +50% bonus AD ) X ( 0.6 + 100% Critical Rate x
     0.4) physical damage to the target. Deals 50% damage to minions and monsters.
   name: Love Tap
   slot: P
@@ -64,7 +64,7 @@ abilities:
   - 100.0
   description: 'Channels a 3 seconds barrage of bullets, with 12 / 14 / 16 waves that
     each deal 20 / 30 / 40 ( +60% AD +20% AP ) physical damage . Each wave can Crit
-    for 130% damage. Re-activate : Cancel the barrage.'
+    for 135% - 145.5% damage. Re-activate : Cancel the barrage.'
   name: Bullet Time
   slot: '4'
 base_stats:
@@ -123,7 +123,7 @@ ADC
 
 ### [P] Love Tap
 
-Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, increases Miss Fortune's damage to the target by 6% - 9.5% ( + 0.4x per level ). At 3 stacks deal 15 ( +40% bonus AD ) X ( 0.6 + 100% Critical Rate x 0.4) physical damage to the target. Deals 50% damage to minions and monsters.
+Applies Love Tap when attack enemy champions or epic monsters. At 3 stacks, increases Miss Fortune's damage to the target by 6% - 9.5% ( + 0.4x per level ). At 3 stacks deal 15 ( +50% bonus AD ) X ( 0.6 + 100% Critical Rate x 0.4) physical damage to the target. Deals 50% damage to minions and monsters.
 
 ### [1] Double Up
 
@@ -155,5 +155,5 @@ Rains down bullets on an area for 2 seconds, dealing 15 / 20 / 25 / 30 ( +10% AP
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Channels a 3 seconds barrage of bullets, with 12 / 14 / 16 waves that each deal 20 / 30 / 40 ( +60% AD +20% AP ) physical damage . Each wave can Crit for 130% damage. Re-activate : Cancel the barrage.
+Channels a 3 seconds barrage of bullets, with 12 / 14 / 16 waves that each deal 20 / 30 / 40 ( +60% AD +20% AP ) physical damage . Each wave can Crit for 135% - 145.5% damage. Re-activate : Cancel the barrage.
 

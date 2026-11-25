@@ -61,14 +61,14 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '34'
+    base: '37'
     growth: '6'
   Attack Dmg.:
     base: '64'
     growth: '4'
   Attack Spd.:
     base: '0.80'
-    growth: '0.0150'
+    growth: '0.0400'
   Health:
     base: '630'
     growth: '140'
@@ -106,11 +106,11 @@ Mid Lane, Baron Lane
 - Health Reg. (5s): 10 (+1 per level)
 - Mana: 200 (+0 per level)
 - Mana Reg. (5s): 50 (+0 per level)
-- Armor: 34 (+6 per level)
+- Armor: 37 (+6 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 64 (+4 per level)
-- Attack Spd.: 0.80 (+0.0150 per level)
+- Attack Spd.: 0.80 (+0.0400 per level)
 
 ## Abilities
 

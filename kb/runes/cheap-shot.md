@@ -1,6 +1,6 @@
 ---
 description: Deals 10 - 45 bonus true damage to enemies whose movement is impaired.
-  (7 seconds cooldown).
+  (5 seconds cooldown).
 family: Domination
 id: 113
 image_url: https://www.wildriftfire.com/images/runes/cheap-shot.png
@@ -15,5 +15,5 @@ type: Minor
 
 ## Description
 
-Deals 10 - 45 bonus true damage to enemies whose movement is impaired. (7 seconds cooldown).
+Deals 10 - 45 bonus true damage to enemies whose movement is impaired. (5 seconds cooldown).
 

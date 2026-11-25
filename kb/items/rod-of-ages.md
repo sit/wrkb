@@ -1,9 +1,9 @@
 ---
-cost: 2700
+cost: 2600
 effects:
-- "UNIQUE - ETERNITY: Restore mana equal to 15% of damage taken from champions. Restore\
+- "UNIQUE - ETERNITY: Restore mana equal to 20% of damage taken from champions. Restore\
   \ health equal to 20% of mana spent. Capped at 25 Health per cast.\r\nUNIQUE - VETERAN:\
-  \ Each stack provides 15 Health, 30 Mana, and 4 Ability power, stacking at a rate\
+  \ Each stack provides 20 Health, 40 Mana, and 4 Ability power, stacking at a rate\
   \ of 1 every 35 seconds. Max of 10 stacks, providing 150 Health, 300 Mana, and 40\
   \ Ability Power."
 id: 78
@@ -19,7 +19,7 @@ type: Magic
 # Rod of Ages
 
 **Type:** Magic  
-**Cost:** 2700 gold
+**Cost:** 2600 gold
 
 ## Stats
 
@@ -29,6 +29,6 @@ type: Magic
 
 ## Effects
 
-UNIQUE - ETERNITY: Restore mana equal to 15% of damage taken from champions. Restore health equal to 20% of mana spent. Capped at 25 Health per cast.
-UNIQUE - VETERAN: Each stack provides 15 Health, 30 Mana, and 4 Ability power, stacking at a rate of 1 every 35 seconds. Max of 10 stacks, providing 150 Health, 300 Mana, and 40 Ability Power.
+UNIQUE - ETERNITY: Restore mana equal to 20% of damage taken from champions. Restore health equal to 20% of mana spent. Capped at 25 Health per cast.
+UNIQUE - VETERAN: Each stack provides 20 Health, 40 Mana, and 4 Ability power, stacking at a rate of 1 every 35 seconds. Max of 10 stacks, providing 150 Health, 300 Mana, and 40 Ability Power.
 

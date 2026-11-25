@@ -60,8 +60,8 @@ abilities:
   - 70.0
   - 60.0
   - 50.0
-  description: Launches a powerful roundhouse kick at an enemy champion, dealing 125
-    / 350 / 575 ( +190% bonus AD + 12% / 15% / 18% of the target's maximum health
+  description: Launches a powerful roundhouse kick at an enemy champion, dealing 150
+    / 375 / 600 ( +190% bonus AD + 12% / 15% / 18% of the target's maximum health
     ) physical damage and knocking them back. Enemies the target collides with along
     the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus
     AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters
@@ -77,7 +77,7 @@ base_stats:
     growth: '4'
   Attack Spd.:
     base: '0.80'
-    growth: '0.0150'
+    growth: '0.0400'
   Health:
     base: '690'
     growth: '120'
@@ -118,7 +118,7 @@ Jungle
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 66 (+4 per level)
-- Attack Spd.: 0.80 (+0.0150 per level)
+- Attack Spd.: 0.80 (+0.0400 per level)
 
 ## Abilities
 
@@ -154,5 +154,5 @@ Tempest : Deals 35 / 70 / 105 / 140 ( +90% AD ) magic damage , to nearby enemies
 
 **Cooldown:** 70.0 / 60.0 / 50.0 seconds
 
-Launches a powerful roundhouse kick at an enemy champion, dealing 125 / 350 / 575 ( +190% bonus AD + 12% / 15% / 18% of the target's maximum health ) physical damage and knocking them back. Enemies the target collides with along the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters is caped at 800 .
+Launches a powerful roundhouse kick at an enemy champion, dealing 150 / 375 / 600 ( +190% bonus AD + 12% / 15% / 18% of the target's maximum health ) physical damage and knocking them back. Enemies the target collides with along the way are knocked Airborne for 1 second and take 100 / 300 / 500 ( +200% bonus AD + 10% / 13% / 16% of the target's maximum Health ). Damage dealt to monsters is caped at 800 .
 

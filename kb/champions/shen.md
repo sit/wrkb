@@ -54,11 +54,11 @@ abilities:
   name: Shadow Dash
   slot: '3'
 - cooldowns:
+  - 120.0
   - 110.0
   - 100.0
-  - 90.0
-  description: Channels for 3 seconds, shielding an allied champion for 170 / 340
-    / 510 ( +135% AP +15% HP ) damage for 5 seconds, increased by 0% - 60% based on
+  description: Channels for 3 seconds, shielding an allied champion for 160 / 260
+    / 360 ( +135% AP +15% HP ) damage for 5 seconds, increased by 0% - 60% based on
     target's missing health. Upon completing the channel, Shen teleports to the target
     ally.
   name: Stand United
@@ -147,7 +147,7 @@ Dashes forward, dealing 60 / 90 / 120 / 150 ( +15% HP ) physical damage to enemy
 
 ### [4] Stand United
 
-**Cooldown:** 110.0 / 100.0 / 90.0 seconds
+**Cooldown:** 120.0 / 110.0 / 100.0 seconds
 
-Channels for 3 seconds, shielding an allied champion for 170 / 340 / 510 ( +135% AP +15% HP ) damage for 5 seconds, increased by 0% - 60% based on target's missing health. Upon completing the channel, Shen teleports to the target ally.
+Channels for 3 seconds, shielding an allied champion for 160 / 260 / 360 ( +135% AP +15% HP ) damage for 5 seconds, increased by 0% - 60% based on target's missing health. Upon completing the channel, Shen teleports to the target ally.
 

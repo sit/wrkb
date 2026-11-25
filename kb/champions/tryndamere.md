@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Gains 0.32% Critical Rate for each point of Fury. Gains 5 Fury with
+- description: Gains 0.5% Critical Rate for each point of Fury. Gains 5 Fury with
     every attack, 10 from critical strikes and 15 from kills. Loses 5 Fury per second
     after Tryndamere has been out of combat for 8 seconds. Battle Fury's Attack Speed
     bonus increases with Undying Rage's ability rank. Tryndamere converts Critical
@@ -33,7 +33,7 @@ abilities:
   - 10.0
   - 9.0
   - 8.0
-  description: Dashes, dealing 80 / 120 / 160 / 200 ( +100% bonus AD +80% AP ) physical
+  description: Dashes, dealing 80 / 130 / 180 / 230 ( +110% bonus AD +80% AP ) physical
     damage . Critical Strikes against minions, monsters and champion-summoned units
     reduce the cooldown of Spinning Slash by 1 second, doubled against champions.
     Gains 2 Fury for each enemy hit.
@@ -96,7 +96,7 @@ Jungle, Baron Lane
 
 ### [P] Battle Fury
 
-Gains 0.32% Critical Rate for each point of Fury. Gains 5 Fury with every attack, 10 from critical strikes and 15 from kills. Loses 5 Fury per second after Tryndamere has been out of combat for 8 seconds. Battle Fury's Attack Speed bonus increases with Undying Rage's ability rank. Tryndamere converts Critical Rate above 100% into Attack Damage at a rate of 1 Attack Damage per 1% Critical Rate.
+Gains 0.5% Critical Rate for each point of Fury. Gains 5 Fury with every attack, 10 from critical strikes and 15 from kills. Loses 5 Fury per second after Tryndamere has been out of combat for 8 seconds. Battle Fury's Attack Speed bonus increases with Undying Rage's ability rank. Tryndamere converts Critical Rate above 100% into Attack Damage at a rate of 1 Attack Damage per 1% Critical Rate.
 
 ### [1] Bloodlust
 
@@ -114,7 +114,7 @@ Reduces nearby enemy champions' Attack Damage by 20% / 40% / 60% / 80% for 3 sec
 
 **Cooldown:** 11.0 / 10.0 / 9.0 / 8.0 seconds
 
-Dashes, dealing 80 / 120 / 160 / 200 ( +100% bonus AD +80% AP ) physical damage . Critical Strikes against minions, monsters and champion-summoned units reduce the cooldown of Spinning Slash by 1 second, doubled against champions. Gains 2 Fury for each enemy hit.
+Dashes, dealing 80 / 130 / 180 / 230 ( +110% bonus AD +80% AP ) physical damage . Critical Strikes against minions, monsters and champion-summoned units reduce the cooldown of Spinning Slash by 1 second, doubled against champions. Gains 2 Fury for each enemy hit.
 
 ### [4] Undying Rage
 

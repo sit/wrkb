@@ -1,5 +1,5 @@
 ---
-cost: 2700
+cost: 2850
 effects:
 - "UNIQUE - THORNS:  When Struck by an attack, deal 20 + 6% Bonus Armor + 1% Bonus\
   \ Health  Magic Damage to the attacker.\r\nUNIQUE - ENTWINE: Apply Grievous Wounds\
@@ -16,7 +16,7 @@ type: Defense,Support
 # Thornmail
 
 **Type:** Defense,Support  
-**Cost:** 2700 gold
+**Cost:** 2850 gold
 
 ## Stats
 

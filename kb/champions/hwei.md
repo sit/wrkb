@@ -3,7 +3,7 @@ abilities:
 - description: Hwei's damaging abilities against enemy champions mark them with his
     signature for 4 seconds. Hitting a marked enemy with a second damaging ability
     consumes the mark to create an explosion underneath them that detonates after
-    a short delay, dealing 40 - 285 ( +30% AP ) magic damage to all enemies in range.
+    a short delay, dealing 30 - 280 ( +25% AP ) magic damage to all enemies in range.
     Each ability can only trigger this effect once per target.
   name: Signature of the Visionary
   slot: P
@@ -46,11 +46,11 @@ abilities:
     / 4.5 / 5 / 5.5 seconds, that grants 30% / 32% / 35% / 37% ( +3% AP ) Movement
     Speed to himself and allied champions. Pool of Reflection : Paints a protective
     pool at the target location that lasts 3 seconds, granting a shield that absorbs
-    60 / 80 / 100 / 120 ( +35% AP ) damage to allied champions in the area. The shield
-    increases over 1.5 seconds, up to an increase of 108 / 128 / 148 / 168 ( +71%
-    AP ) damage . Shields granted to allied champions other than Hwei are reduced
-    by 15% . Stirring Lights : Paints three swirling lights that circle him, causing
-    his next three abilities or attacks to deal 30 / 40 / 50 / 60 ( +15% AP ) bonus
+    50 / 70 / 90 / 110 ( +30% AP ) damage to allied champions in the area. The shield
+    increases over 1.5 seconds, up to an increase of 98 / 118 / 138 / 158 ( +60% AP
+    ) damage . Shields granted to allied champions other than Hwei are reduced by
+    15% . Stirring Lights : Paints three swirling lights that circle him, causing
+    his next three abilities or attacks to deal 20 / 30 / 40 / 50 ( +15% AP ) bonus
     magic damage and restore 45 / 50 / 55 / 60 Mana on hit.'
   name: 'Subject: Serenity'
   slot: '2'
@@ -71,8 +71,8 @@ abilities:
     vision, locking onto the nearest enemy champion and launching a homing missile
     at them. The missile roots the first enemy hit for 1.25 / 1.5 / 1.75 / 2 seconds,
     dealing 70 / 120 / 170 / 220 ( +70% AP ) magic damage and revealing them for 2.5
-    seconds. Crushing Maw : Paints crushing jaws that deal 70 / 120 / 170 / 220 (
-    +70% AP ) magic damage to enemies hit and drag them toward the center, applying
+    seconds. Crushing Maw : Paints crushing jaws that deal 60 / 110 / 160 / 210 (
+    +60% AP ) magic damage to enemies hit and drag them toward the center, applying
     a 40% / 50% / 60% / 70% slow that decays over 1.25 seconds.'
   name: 'Subject: Torment'
   slot: '3'
@@ -140,7 +140,7 @@ Mid Lane
 
 ### [P] Signature of the Visionary
 
-Hwei's damaging abilities against enemy champions mark them with his signature for 4 seconds. Hitting a marked enemy with a second damaging ability consumes the mark to create an explosion underneath them that detonates after a short delay, dealing 40 - 285 ( +30% AP ) magic damage to all enemies in range. Each ability can only trigger this effect once per target.
+Hwei's damaging abilities against enemy champions mark them with his signature for 4 seconds. Hitting a marked enemy with a second damaging ability consumes the mark to create an explosion underneath them that detonates after a short delay, dealing 30 - 280 ( +25% AP ) magic damage to all enemies in range. Each ability can only trigger this effect once per target.
 
 ### [1] Subject: Disaster
 
@@ -156,7 +156,7 @@ Paints visions of disaster that deal large damage to enemies. Devastating Fire :
 
 **Cost:** 90.0 / 90.0 / 90.0 / 90.0
 
-Paints visions of serenity that provide utility for himself and allied champions. Fleeting Current : Paints a current of swift waters in a line for 4 / 4.5 / 5 / 5.5 seconds, that grants 30% / 32% / 35% / 37% ( +3% AP ) Movement Speed to himself and allied champions. Pool of Reflection : Paints a protective pool at the target location that lasts 3 seconds, granting a shield that absorbs 60 / 80 / 100 / 120 ( +35% AP ) damage to allied champions in the area. The shield increases over 1.5 seconds, up to an increase of 108 / 128 / 148 / 168 ( +71% AP ) damage . Shields granted to allied champions other than Hwei are reduced by 15% . Stirring Lights : Paints three swirling lights that circle him, causing his next three abilities or attacks to deal 30 / 40 / 50 / 60 ( +15% AP ) bonus magic damage and restore 45 / 50 / 55 / 60 Mana on hit.
+Paints visions of serenity that provide utility for himself and allied champions. Fleeting Current : Paints a current of swift waters in a line for 4 / 4.5 / 5 / 5.5 seconds, that grants 30% / 32% / 35% / 37% ( +3% AP ) Movement Speed to himself and allied champions. Pool of Reflection : Paints a protective pool at the target location that lasts 3 seconds, granting a shield that absorbs 50 / 70 / 90 / 110 ( +30% AP ) damage to allied champions in the area. The shield increases over 1.5 seconds, up to an increase of 98 / 118 / 138 / 158 ( +60% AP ) damage . Shields granted to allied champions other than Hwei are reduced by 15% . Stirring Lights : Paints three swirling lights that circle him, causing his next three abilities or attacks to deal 20 / 30 / 40 / 50 ( +15% AP ) bonus magic damage and restore 45 / 50 / 55 / 60 Mana on hit.
 
 ### [3] Subject: Torment
 
@@ -164,7 +164,7 @@ Paints visions of serenity that provide utility for himself and allied champions
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Paints visions of torment that control enemies. Grim Visage : Launches a terrifying face that strikes the first enemy hit, fearing them for 1 / 1.125 / 1.25 / 1.375 seconds and dealing 70 / 120 / 170 / 220 ( +70% AP ) magic damage . Gaze of the Abyss : Paints an abyssal eye at the target location that grants vision, locking onto the nearest enemy champion and launching a homing missile at them. The missile roots the first enemy hit for 1.25 / 1.5 / 1.75 / 2 seconds, dealing 70 / 120 / 170 / 220 ( +70% AP ) magic damage and revealing them for 2.5 seconds. Crushing Maw : Paints crushing jaws that deal 70 / 120 / 170 / 220 ( +70% AP ) magic damage to enemies hit and drag them toward the center, applying a 40% / 50% / 60% / 70% slow that decays over 1.25 seconds.
+Paints visions of torment that control enemies. Grim Visage : Launches a terrifying face that strikes the first enemy hit, fearing them for 1 / 1.125 / 1.25 / 1.375 seconds and dealing 70 / 120 / 170 / 220 ( +70% AP ) magic damage . Gaze of the Abyss : Paints an abyssal eye at the target location that grants vision, locking onto the nearest enemy champion and launching a homing missile at them. The missile roots the first enemy hit for 1.25 / 1.5 / 1.75 / 2 seconds, dealing 70 / 120 / 170 / 220 ( +70% AP ) magic damage and revealing them for 2.5 seconds. Crushing Maw : Paints crushing jaws that deal 60 / 110 / 160 / 210 ( +60% AP ) magic damage to enemies hit and drag them toward the center, applying a 40% / 50% / 60% / 70% slow that decays over 1.25 seconds.
 
 ### [4] Wash Brush
 

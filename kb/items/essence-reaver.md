@@ -9,7 +9,7 @@ id: 113
 image_url: https://www.wildriftfire.com/images/items/essence-reaver.png
 name: Essence Reaver
 stats:
-- +50 Attack Damage
+- +55 Attack Damage
 - +25% Critical Strike Chance
 - +20 Ability Haste
 type: Marksman
@@ -22,7 +22,7 @@ type: Marksman
 
 ## Stats
 
-- +50 Attack Damage
+- +55 Attack Damage
 - +25% Critical Strike Chance
 - +20 Ability Haste
 

@@ -1,11 +1,11 @@
 ---
-cost: 3000
+cost: 2900
 effects:
 - "ENERGIZED: Moving and attacking generate an Energized attack.\n\r\nELECTROSPARK:\
   \ Your Energized attack fires chain lightning that bounces to additional targets.\
   \ Bounce count: 3 / 4 / 5 / 6, increasing at levels 1 / 5 / 9 / 13, dealing 60 magic\
   \ damage, increased to 90 against minions and monsters. Applies on-hit effects to\
-  \ secondary bounce targets.\n\r\nELECTROSHOCK: Basic attacks grant 5 bonus Energized\
+  \ secondary bounce targets.\n\r\nELECTROSHOCK: Basic attacks grant 7 bonus Energized\
   \ stacks."
 id: 83
 image_url: https://www.wildriftfire.com/images/items/statikk-shiv.png
@@ -21,7 +21,7 @@ type: Magic,Marksman
 # Statikk Shiv
 
 **Type:** Magic,Marksman  
-**Cost:** 3000 gold
+**Cost:** 2900 gold
 
 ## Stats
 
@@ -36,5 +36,5 @@ ENERGIZED: Moving and attacking generate an Energized attack.
 
 ELECTROSPARK: Your Energized attack fires chain lightning that bounces to additional targets. Bounce count: 3 / 4 / 5 / 6, increasing at levels 1 / 5 / 9 / 13, dealing 60 magic damage, increased to 90 against minions and monsters. Applies on-hit effects to secondary bounce targets.
 
-ELECTROSHOCK: Basic attacks grant 5 bonus Energized stacks.
+ELECTROSHOCK: Basic attacks grant 7 bonus Energized stacks.
 

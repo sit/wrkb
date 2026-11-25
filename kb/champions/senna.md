@@ -4,9 +4,9 @@ abilities:
     She can also siphon Mist from enemy champions she hits twice within 4 seconds,
     dealing 1% - 10% of their current health as bonus physical damage (6 second cooldown
     per target). If not attacked, souls nearby Senna will be absorbed automatically
-    on disappearance. Basic attacks deal 90% of normal critical strike damage when
-    they critical strike. Each stack of Mist grants 1.25 Attack Damage . Every 20
-    stacks of Mist grant 15 Attack Range and 10% Critical Chance.
+    on disappearance. Basic attacks deal 80% of normal critical strike damage when
+    they critical strike. Each stack of Mist grants 0.9 Attack Damage . Every 20 stacks
+    of Mist grant 15 Attack Range and 10% Critical Chance.
   name: Absolution
   slot: P
 - cooldowns:
@@ -19,8 +19,8 @@ abilities:
   - 80.0
   - 90.0
   - 100.0
-  description: Shoots a bolt of piercing shadow through any object, dealing 50 / 80
-    / 110 / 140 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1
+  description: Shoots a bolt of piercing shadow through any object, dealing 30 / 60
+    / 90 / 120 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1
     AD +0.06 AP ) for 0.75 / 1 / 1.25 / 1.5 seconds and restoring 40 / 70 / 100 /
     130 ( +40% AD +25% AP ) Health to ally champions. Attacks reduces Piercing Darkness's
     cooldown by 1 seconds. This Ability's cast range matches Senna's attack range
@@ -132,7 +132,7 @@ Support, ADC
 
 ### [P] Absolution
 
-Senna can absorb Mist by attacking souls that spawn from dead enemies. She can also siphon Mist from enemy champions she hits twice within 4 seconds, dealing 1% - 10% of their current health as bonus physical damage (6 second cooldown per target). If not attacked, souls nearby Senna will be absorbed automatically on disappearance. Basic attacks deal 90% of normal critical strike damage when they critical strike. Each stack of Mist grants 1.25 Attack Damage . Every 20 stacks of Mist grant 15 Attack Range and 10% Critical Chance.
+Senna can absorb Mist by attacking souls that spawn from dead enemies. She can also siphon Mist from enemy champions she hits twice within 4 seconds, dealing 1% - 10% of their current health as bonus physical damage (6 second cooldown per target). If not attacked, souls nearby Senna will be absorbed automatically on disappearance. Basic attacks deal 80% of normal critical strike damage when they critical strike. Each stack of Mist grants 0.9 Attack Damage . Every 20 stacks of Mist grant 15 Attack Range and 10% Critical Chance.
 
 ### [1] Piercing Darkness
 
@@ -140,7 +140,7 @@ Senna can absorb Mist by attacking souls that spawn from dead enemies. She can a
 
 **Cost:** 70.0 / 80.0 / 90.0 / 100.0
 
-Shoots a bolt of piercing shadow through any object, dealing 50 / 80 / 110 / 140 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1 AD +0.06 AP ) for 0.75 / 1 / 1.25 / 1.5 seconds and restoring 40 / 70 / 100 / 130 ( +40% AD +25% AP ) Health to ally champions. Attacks reduces Piercing Darkness's cooldown by 1 seconds. This Ability's cast range matches Senna's attack range and its cast time is improved with Attack Speed. It applies on-hit effects to enemy champions.
+Shoots a bolt of piercing shadow through any object, dealing 30 / 60 / 90 / 120 ( +60% AD ) physical damage to enemies, slowing enemies by 15% ( +0.1 AD +0.06 AP ) for 0.75 / 1 / 1.25 / 1.5 seconds and restoring 40 / 70 / 100 / 130 ( +40% AD +25% AP ) Health to ally champions. Attacks reduces Piercing Darkness's cooldown by 1 seconds. This Ability's cast range matches Senna's attack range and its cast time is improved with Attack Speed. It applies on-hit effects to enemy champions.
 
 ### [2] Last Embrace
 

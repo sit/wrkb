@@ -1,73 +1,110 @@
 ---
 abilities:
-- description: Casting an ability grants a stack of Petricite Burst for 4 seconds,
-    up to 3 stacks. Whilst Sylas has a stack of Petricite Burst, he gains bonus attack
-    speed. Sylas' next basic attack is modified to whirl his chains around him, dealing
-    magic damage to his primary target, and magic damage to nearby secondary targets.
-    Damage to secondary targets executes minions below a certain amount of health.
-    The empowered attack applies on-hit effects to the primary target but disables
-    Sylas' critical strikes' bonus damage. Spell effects only apply to secondary targets.
+- description: 'After using an ability, gains a charge (max 3 charges). His next attack
+    expands a charge to whirl his chains, causing the effects: Deals 81 ( 130% AD
+    + 30% AP ) magic damage to the primary target; Deals 25 ( 40% AD + 20% AP ) magic
+    damage to other nearby enemies; Gains 125% Attack Speed while he has at least
+    1 charge. Deals 100% damage to monsters. Executes minions below 25 Health when
+    they are secondary targets. Only damage against the primary target can Critically
+    Strike.'
   name: Petricite Burst
   slot: P
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Sylas lashes his chains out, intersecting at his targeted location
-    dealing damage to and slowing enemies. After a delay, magical energy explodes
-    from the intersection point dealing damage.
+  - 9.0
+  - 8.0
+  - 7.0
+  - 6.0
+  costs:
+  - 55.0
+  - 55.0
+  - 55.0
+  - 55.0
+  description: 'Lashes his chains out, intersecting at the target location and casing
+    the effects below: Deals 40 / 70 / 100 / 130 ( +40% AP ) magic damage ; Slows
+    by 15% / 20% / 25% / 30% for 1.5 seconds; After 0.6 seconds, the place where the
+    chains intersect explode with magical energy, dealing a further 80 / 140 / 200
+    / 260 ( +80% AP ) magic damage . The explosion deals 30% damage to minions.'
   name: Chain Lash
   slot: '1'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Sylas lunges at an enemy with magical force dealing damage and healing
-    himself against enemy champions.
+  - 12.0
+  - 10.0
+  - 8.0
+  - 6.0
+  costs:
+  - 50.0
+  - 60.0
+  - 70.0
+  - 80.0
+  description: Lunges at an enemy with magical force, dealing 75 / 125 / 175 / 225
+    ( +60% AP ) magic damage . If the target is a champion, Sylas restores 30 / 60
+    / 90 / 120 ( +30% AP +5% bonus HP ) Health . For every 1% of own max HP missing,
+    the healing is increased by 1.67% , up to 60 / 120 / 180 / 240 ( +60% AP +10%
+    bonus HP ) Health .
   name: Kingslayer
   slot: '2'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Sylas dashes to a location. Sylas can recast the ability to throw his
-    chains out, pulling himself to an enemy he hits.
+  - 12.0
+  - 11.0
+  - 10.0
+  - 9.0
+  costs:
+  - 65.0
+  - 65.0
+  - 65.0
+  - 65.0
+  description: 'First Cast : Dashes a short distance. Recast : Throws his chains,
+    pulling himself to the first enemy hit, dealing 80 / 150 / 220 / 290 ( +80% AP
+    ) magic damage and stunning them for 0.5 seconds. On arrival, he knocks up the
+    target for 0.5 seconds.'
   name: Abscond / Abduct
   slot: '3'
 - cooldowns:
-  - 0.0
-  - 0.0
-  - 0.0
-  description: Sylas steals the enemy's ultimate ability and can cast it freely.
+  - 80.0
+  - 55.0
+  - 30.0
+  costs:
+  - 75.0
+  - 75.0
+  - 75.0
+  description: 'Throws his chains at the target. If they hit a champion, he hijacks
+    them, allowing him to cast a copy of their ultimate ability. The stolen ability
+    retains its original effects and matches Sylas'' ultimate ability level. Hijacking
+    an enemy places a cooldown o them for 200% (modified by Sylas'' ability cooldown)
+    of the enemy''s ultimate ability''s cooldown, with a minimum of 40 seconds, during
+    which Sylas cannot hijack them again. Sylas converts Attack Damage bonuses from
+    the stolen ultimate into Ability Power: Every 1% bonus Attack Damage is converted
+    into 0.4% bonus Ability Power ; Every 1% total Attack Damage is converted into
+    0.6% bonus Ability Power .'
   name: Hijack
   slot: '4'
 base_stats:
   Armor:
-    base: '27'
-    growth: '0'
+    base: '40'
+    growth: '5'
   Attack Dmg.:
-    base: '61'
-    growth: '0'
+    base: '62'
+    growth: '3'
   Attack Spd.:
-    base: '1.00'
-    growth: '0.0000'
+    base: '0.80'
+    growth: '0.0107'
   Health:
-    base: '525'
-    growth: '0'
+    base: '630'
+    growth: '106'
   Health Reg. (5s):
     base: '9'
-    growth: '0'
+    growth: '1'
   Magic Res.:
-    base: '32'
-    growth: '0'
+    base: '38'
+    growth: '2'
   Mana:
-    base: '280'
-    growth: '0'
+    base: '480'
+    growth: '37'
   Mana Reg. (5s):
-    base: '7'
-    growth: '0'
+    base: '15'
+    growth: '1'
   Move Speed:
-    base: '350'
+    base: '355'
     growth: '0'
 name: Sylas
 roles:
@@ -83,43 +120,51 @@ Mid Lane
 
 ## Base Stats
 
-- Health: 525 (+0 per level)
-- Health Reg. (5s): 9 (+0 per level)
-- Mana: 280 (+0 per level)
-- Mana Reg. (5s): 7 (+0 per level)
-- Armor: 27 (+0 per level)
-- Magic Res.: 32 (+0 per level)
-- Move Speed: 350 (+0 per level)
-- Attack Dmg.: 61 (+0 per level)
-- Attack Spd.: 1.00 (+0.0000 per level)
+- Health: 630 (+106 per level)
+- Health Reg. (5s): 9 (+1 per level)
+- Mana: 480 (+37 per level)
+- Mana Reg. (5s): 15 (+1 per level)
+- Armor: 40 (+5 per level)
+- Magic Res.: 38 (+2 per level)
+- Move Speed: 355 (+0 per level)
+- Attack Dmg.: 62 (+3 per level)
+- Attack Spd.: 0.80 (+0.0107 per level)
 
 ## Abilities
 
 ### [P] Petricite Burst
 
-Casting an ability grants a stack of Petricite Burst for 4 seconds, up to 3 stacks. Whilst Sylas has a stack of Petricite Burst, he gains bonus attack speed. Sylas' next basic attack is modified to whirl his chains around him, dealing magic damage to his primary target, and magic damage to nearby secondary targets. Damage to secondary targets executes minions below a certain amount of health. The empowered attack applies on-hit effects to the primary target but disables Sylas' critical strikes' bonus damage. Spell effects only apply to secondary targets.
+After using an ability, gains a charge (max 3 charges). His next attack expands a charge to whirl his chains, causing the effects: Deals 81 ( 130% AD + 30% AP ) magic damage to the primary target; Deals 25 ( 40% AD + 20% AP ) magic damage to other nearby enemies; Gains 125% Attack Speed while he has at least 1 charge. Deals 100% damage to monsters. Executes minions below 25 Health when they are secondary targets. Only damage against the primary target can Critically Strike.
 
 ### [1] Chain Lash
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 9.0 / 8.0 / 7.0 / 6.0 seconds
 
-Sylas lashes his chains out, intersecting at his targeted location dealing damage to and slowing enemies. After a delay, magical energy explodes from the intersection point dealing damage.
+**Cost:** 55.0 / 55.0 / 55.0 / 55.0
+
+Lashes his chains out, intersecting at the target location and casing the effects below: Deals 40 / 70 / 100 / 130 ( +40% AP ) magic damage ; Slows by 15% / 20% / 25% / 30% for 1.5 seconds; After 0.6 seconds, the place where the chains intersect explode with magical energy, dealing a further 80 / 140 / 200 / 260 ( +80% AP ) magic damage . The explosion deals 30% damage to minions.
 
 ### [2] Kingslayer
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 12.0 / 10.0 / 8.0 / 6.0 seconds
 
-Sylas lunges at an enemy with magical force dealing damage and healing himself against enemy champions.
+**Cost:** 50.0 / 60.0 / 70.0 / 80.0
+
+Lunges at an enemy with magical force, dealing 75 / 125 / 175 / 225 ( +60% AP ) magic damage . If the target is a champion, Sylas restores 30 / 60 / 90 / 120 ( +30% AP +5% bonus HP ) Health . For every 1% of own max HP missing, the healing is increased by 1.67% , up to 60 / 120 / 180 / 240 ( +60% AP +10% bonus HP ) Health .
 
 ### [3] Abscond / Abduct
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 12.0 / 11.0 / 10.0 / 9.0 seconds
 
-Sylas dashes to a location. Sylas can recast the ability to throw his chains out, pulling himself to an enemy he hits.
+**Cost:** 65.0 / 65.0 / 65.0 / 65.0
+
+First Cast : Dashes a short distance. Recast : Throws his chains, pulling himself to the first enemy hit, dealing 80 / 150 / 220 / 290 ( +80% AP ) magic damage and stunning them for 0.5 seconds. On arrival, he knocks up the target for 0.5 seconds.
 
 ### [4] Hijack
 
-**Cooldown:** 0.0 / 0.0 / 0.0 seconds
+**Cooldown:** 80.0 / 55.0 / 30.0 seconds
 
-Sylas steals the enemy's ultimate ability and can cast it freely.
+**Cost:** 75.0 / 75.0 / 75.0
+
+Throws his chains at the target. If they hit a champion, he hijacks them, allowing him to cast a copy of their ultimate ability. The stolen ability retains its original effects and matches Sylas' ultimate ability level. Hijacking an enemy places a cooldown o them for 200% (modified by Sylas' ability cooldown) of the enemy's ultimate ability's cooldown, with a minimum of 40 seconds, during which Sylas cannot hijack them again. Sylas converts Attack Damage bonuses from the stolen ultimate into Ability Power: Every 1% bonus Attack Damage is converted into 0.4% bonus Ability Power ; Every 1% total Attack Damage is converted into 0.6% bonus Ability Power .
 

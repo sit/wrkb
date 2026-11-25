@@ -1,7 +1,7 @@
 ---
 cost: 2850
 effects:
-- "UNIQUE - WARMOG'S HEART: If you have at least 950 bonus health, regenerate 3.5%\
+- "UNIQUE - WARMOG'S HEART: If you have at least 1250 bonus health, regenerate 3.5%\
   \ maximum health per second if you haven't taken damage with the last 5 seconds.\r\
   \nUNIQUE - BLESSED: Increases all healing and shielding effects on you by 30%."
 id: 90
@@ -27,6 +27,6 @@ type: Defense
 
 ## Effects
 
-UNIQUE - WARMOG'S HEART: If you have at least 950 bonus health, regenerate 3.5% maximum health per second if you haven't taken damage with the last 5 seconds.
+UNIQUE - WARMOG'S HEART: If you have at least 1250 bonus health, regenerate 3.5% maximum health per second if you haven't taken damage with the last 5 seconds.
 UNIQUE - BLESSED: Increases all healing and shielding effects on you by 30%.
 

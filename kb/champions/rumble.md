@@ -4,7 +4,7 @@ abilities:
     Rumble enters the Danger Zone , causing his basic abilities to gain bonus effects.
     When he reaches 150 Heat , he becomes Overheated for 4 seconds. Overheated : Silences
     himself, but gains 55% bonus Attack Speed and empowers his attacks to deal additional
-    5 ( +20% AP ) magic damage plus 5% of the marget''s max Health . Percent damage
+    5 ( +25% AP ) magic damage plus 5% of the target''s max Health . Percent damage
     is limited to 65 - 150 on monsters.'
   name: Junkyard Titan
   slot: P
@@ -53,7 +53,7 @@ abilities:
   - 70.0
   - 60.0
   description: Launches a line of rockets that creates a burning trail on the ground
-    on impact, dealing 700 / 1050 / 1400 ( +200% AP ) magic damage and slowing enemies
+    on impact, dealing 800 / 1200 / 1600 ( +220% AP ) magic damage and slowing enemies
     in the trail by 45% over 5 seconds.
   name: The Equalizer
   slot: '4'
@@ -105,7 +105,7 @@ Baron Lane
 
 ### [P] Junkyard Titan
 
-Every ability Rumble casts generates Heat . While above 50 Heat , Rumble enters the Danger Zone , causing his basic abilities to gain bonus effects. When he reaches 150 Heat , he becomes Overheated for 4 seconds. Overheated : Silences himself, but gains 55% bonus Attack Speed and empowers his attacks to deal additional 5 ( +20% AP ) magic damage plus 5% of the marget's max Health . Percent damage is limited to 65 - 150 on monsters.
+Every ability Rumble casts generates Heat . While above 50 Heat , Rumble enters the Danger Zone , causing his basic abilities to gain bonus effects. When he reaches 150 Heat , he becomes Overheated for 4 seconds. Overheated : Silences himself, but gains 55% bonus Attack Speed and empowers his attacks to deal additional 5 ( +25% AP ) magic damage plus 5% of the target's max Health . Percent damage is limited to 65 - 150 on monsters.
 
 ### [1] Flamespitter
 
@@ -129,5 +129,5 @@ Launches an electrified harpoon, dealing 60 / 90 / 120 / 150 ( +50% AP ) magic d
 
 **Cooldown:** 80.0 / 70.0 / 60.0 seconds
 
-Launches a line of rockets that creates a burning trail on the ground on impact, dealing 700 / 1050 / 1400 ( +200% AP ) magic damage and slowing enemies in the trail by 45% over 5 seconds.
+Launches a line of rockets that creates a burning trail on the ground on impact, dealing 800 / 1200 / 1600 ( +220% AP ) magic damage and slowing enemies in the trail by 45% over 5 seconds.
 

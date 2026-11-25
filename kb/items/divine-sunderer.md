@@ -1,5 +1,5 @@
 ---
-cost: 3400
+cost: 3300
 effects:
 - 'UNIQUE PASSIVE - SPELLBLADE: After using an ability, your next attack within 10
   seconds will deal 10% of target''s maximum health as bonus physical damage (7% if
@@ -19,7 +19,7 @@ type: Fighter
 # Divine Sunderer
 
 **Type:** Fighter  
-**Cost:** 3400 gold
+**Cost:** 3300 gold
 
 ## Stats
 

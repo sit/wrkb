@@ -8,8 +8,8 @@ id: 211
 image_url: https://www.wildriftfire.com/images/items/goredrinker.png
 name: Goredrinker
 stats:
-- +350 Health
-- +40 Attack Damage
+- +400 Health
+- +45 Attack Damage
 - +8 Physical Vamp
 - +15 Ability Haste
 type: Fighter
@@ -22,8 +22,8 @@ type: Fighter
 
 ## Stats
 
-- +350 Health
-- +40 Attack Damage
+- +400 Health
+- +45 Attack Damage
 - +8 Physical Vamp
 - +15 Ability Haste
 

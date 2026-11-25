@@ -10,7 +10,7 @@ image_url: https://www.wildriftfire.com/images/items/liandrys-torment.png
 name: Liandry's Torment
 stats:
 - +300 Health
-- +70 Ability Power
+- +60 Ability Power
 type: Magic
 ---
 
@@ -22,7 +22,7 @@ type: Magic
 ## Stats
 
 - +300 Health
-- +70 Ability Power
+- +60 Ability Power
 
 ## Effects
 

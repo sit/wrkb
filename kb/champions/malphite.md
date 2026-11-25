@@ -1,6 +1,6 @@
 ---
 abilities:
-- description: Shield 72 ( 11% maximum HP ) damage after not taking damage for 8 seconds.
+- description: Shield 72 ( 10% maximum HP ) damage after not taking damage for 8 seconds.
   name: Granite Shield
   slot: P
 - cooldowns:
@@ -30,8 +30,8 @@ abilities:
   - 25.0
   description: 'Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For
     the next 6 seconds, attacks deal 20 / 30 / 40 / 50 ( +20% AP +15% Armor ) physical
-    damage in a cone. The first attack is empowered to deal 40 / 60 / 80 / 100 ( +40%
-    AP +40% Armor ) bonus physical damage to the target.'
+    damage in a cone. The first attack is empowered to deal 30 / 45 / 60 / 75 ( +40%
+    AP +20% Armor ) bonus physical damage to the target.'
   name: Thunderclap
   slot: '2'
 - cooldowns:
@@ -117,7 +117,7 @@ Baron Lane
 
 ### [P] Granite Shield
 
-Shield 72 ( 11% maximum HP ) damage after not taking damage for 8 seconds.
+Shield 72 ( 10% maximum HP ) damage after not taking damage for 8 seconds.
 
 ### [1] Seismic Shard
 
@@ -133,7 +133,7 @@ Launches a shard that deals 70 / 130 / 190 / 250 ( +45% AP ) magic damage , slow
 
 **Cost:** 25.0 / 25.0 / 25.0 / 25.0
 
-Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For the next 6 seconds, attacks deal 20 / 30 / 40 / 50 ( +20% AP +15% Armor ) physical damage in a cone. The first attack is empowered to deal 40 / 60 / 80 / 100 ( +40% AP +40% Armor ) bonus physical damage to the target.
+Passive: Gains 8 Armor ( 25% / 30% / 35% / 40% Armor ). Active: For the next 6 seconds, attacks deal 20 / 30 / 40 / 50 ( +20% AP +15% Armor ) physical damage in a cone. The first attack is empowered to deal 30 / 45 / 60 / 75 ( +40% AP +20% Armor ) bonus physical damage to the target.
 
 ### [3] Ground Slam
 

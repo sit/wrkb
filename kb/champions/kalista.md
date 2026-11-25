@@ -17,7 +17,7 @@ abilities:
   - 60.0
   - 65.0
   - 70.0
-  description: Hurls a spear, dealing 70 / 135 / 200 / 265 ( +110% AD ) physical damage
+  description: Hurls a spear, dealing 30 / 110 / 190 / 270 ( +110% AD ) physical damage
     to the first target hit. If this kills the target, the spear continues onward,
     carrying the target's Rend stacks to the next enemy hit. After casting this ability,
     Kalista can dash using Martial Poise .
@@ -141,7 +141,7 @@ When Kalista winds up her attacks, moving the left joystick will cause her to da
 
 **Cost:** 55.0 / 60.0 / 65.0 / 70.0
 
-Hurls a spear, dealing 70 / 135 / 200 / 265 ( +110% AD ) physical damage to the first target hit. If this kills the target, the spear continues onward, carrying the target's Rend stacks to the next enemy hit. After casting this ability, Kalista can dash using Martial Poise .
+Hurls a spear, dealing 30 / 110 / 190 / 270 ( +110% AD ) physical damage to the first target hit. If this kills the target, the spear continues onward, carrying the target's Rend stacks to the next enemy hit. After casting this ability, Kalista can dash using Martial Poise .
 
 ### [2] Sentinel
 

@@ -2,7 +2,7 @@
 abilities:
 - description: Every third attack or damaging ability against the same target deals
     an additional 30 ( +80% AP ) magic damage . If the target was a champion, Ekko
-    gains 40% Movement Speed for 2.5 seconds. Deals 120% damage to monsters. Cannot
+    gains 40% Movement Speed for 2.5 seconds. Deals 110% damage to monsters. Cannot
     affect the same target for 5 seconds.
   name: Z-Drive Resonance
   slot: P
@@ -19,7 +19,7 @@ abilities:
   description: Throw a temporal device, dealing 90 / 110 / 130 / 150 ( +30% AP ) magic
     damage . On hitting a champion or the distance limit, it expands into a field
     that slows by 30% / 40% / 50% / 60% . The device then returns to Ekko, dealing
-    7 0 / 105 / 140 / 175 ( +60% AP ) magic damage . Deals 115% damage to monsters.
+    7 0 / 105 / 140 / 175 ( +60% AP ) magic damage . Deals 100% damage to monsters.
   name: Timewinder
   slot: '1'
 - cooldowns:
@@ -125,7 +125,7 @@ Mid Lane, Jungle
 
 ### [P] Z-Drive Resonance
 
-Every third attack or damaging ability against the same target deals an additional 30 ( +80% AP ) magic damage . If the target was a champion, Ekko gains 40% Movement Speed for 2.5 seconds. Deals 120% damage to monsters. Cannot affect the same target for 5 seconds.
+Every third attack or damaging ability against the same target deals an additional 30 ( +80% AP ) magic damage . If the target was a champion, Ekko gains 40% Movement Speed for 2.5 seconds. Deals 110% damage to monsters. Cannot affect the same target for 5 seconds.
 
 ### [1] Timewinder
 
@@ -133,7 +133,7 @@ Every third attack or damaging ability against the same target deals an addition
 
 **Cost:** 50.0 / 60.0 / 70.0 / 80.0
 
-Throw a temporal device, dealing 90 / 110 / 130 / 150 ( +30% AP ) magic damage . On hitting a champion or the distance limit, it expands into a field that slows by 30% / 40% / 50% / 60% . The device then returns to Ekko, dealing 7 0 / 105 / 140 / 175 ( +60% AP ) magic damage . Deals 115% damage to monsters.
+Throw a temporal device, dealing 90 / 110 / 130 / 150 ( +30% AP ) magic damage . On hitting a champion or the distance limit, it expands into a field that slows by 30% / 40% / 50% / 60% . The device then returns to Ekko, dealing 7 0 / 105 / 140 / 175 ( +60% AP ) magic damage . Deals 100% damage to monsters.
 
 ### [2] Parallel Convergence
 

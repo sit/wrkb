@@ -12,13 +12,13 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: 'S pirit Charge (Passive) : Attacks deal an additional 10 / 15 / 20
-    / 25 ( +20% AP ) magic damage ; When not active, launching an attack grants 1
+  description: 'S pirit Charge (Passive) : Attacks deal an additional 5 / 10 / 15
+    / 20 ( +20% AP ) magic damage ; When not active, launching an attack grants 1
     Unleash. Attacking again refreshes Unleash''s duration. Max Unleash is 6. If the
     duration is not refreshed, Yunara loses 1 Unleash every 0.5 seconds. Spirit Unbound
     (Active) : On cast, consumes Unleash, gaining 25% / 35% / 45% / 55% Attack Speed
-    for 5 seconds. Attacks are empowered during this time to: Deal an additional 10
-    / 15 / 20 / 25 ( +20% AP ) magic damage on-hit; Spread to enemies nearby the target,
+    for 5 seconds. Attacks are empowered during this time to: Deal an additional 5
+    / 10 / 15 / 20 ( +20% AP ) magic damage on-hit; Spread to enemies nearby the target,
     dealing them 18 ( 30% AD ) physical damage . Transcendent State : This ability
     automatically activates until Yunara exits the state. If the attack Critically
     Strikes, its spread damage will also Critically Strike. Damage from spread attacks
@@ -67,8 +67,8 @@ abilities:
   slot: '3'
 - cooldowns:
   - 70.0
+  - 65.0
   - 60.0
-  - 50.0
   costs:
   - 100.0
   - 100.0
@@ -147,7 +147,7 @@ Critical Strikes deal an additional 8% (per 100 AP ) magic damage .
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-S pirit Charge (Passive) : Attacks deal an additional 10 / 15 / 20 / 25 ( +20% AP ) magic damage ; When not active, launching an attack grants 1 Unleash. Attacking again refreshes Unleash's duration. Max Unleash is 6. If the duration is not refreshed, Yunara loses 1 Unleash every 0.5 seconds. Spirit Unbound (Active) : On cast, consumes Unleash, gaining 25% / 35% / 45% / 55% Attack Speed for 5 seconds. Attacks are empowered during this time to: Deal an additional 10 / 15 / 20 / 25 ( +20% AP ) magic damage on-hit; Spread to enemies nearby the target, dealing them 18 ( 30% AD ) physical damage . Transcendent State : This ability automatically activates until Yunara exits the state. If the attack Critically Strikes, its spread damage will also Critically Strike. Damage from spread attacks is increased to 250% against minions below 30% Health.
+S pirit Charge (Passive) : Attacks deal an additional 5 / 10 / 15 / 20 ( +20% AP ) magic damage ; When not active, launching an attack grants 1 Unleash. Attacking again refreshes Unleash's duration. Max Unleash is 6. If the duration is not refreshed, Yunara loses 1 Unleash every 0.5 seconds. Spirit Unbound (Active) : On cast, consumes Unleash, gaining 25% / 35% / 45% / 55% Attack Speed for 5 seconds. Attacks are empowered during this time to: Deal an additional 5 / 10 / 15 / 20 ( +20% AP ) magic damage on-hit; Spread to enemies nearby the target, dealing them 18 ( 30% AD ) physical damage . Transcendent State : This ability automatically activates until Yunara exits the state. If the attack Critically Strikes, its spread damage will also Critically Strike. Damage from spread attacks is increased to 250% against minions below 30% Health.
 
 ### [2] Arc of Judgment / Arc of Ruin
 
@@ -167,7 +167,7 @@ Kanmei's Steps : Gains 30% / 35% / 40% / 45% Movement Speed for 1.5 seconds, inc
 
 ### [4] Transcend One's Self
 
-**Cooldown:** 70.0 / 60.0 / 50.0 seconds
+**Cooldown:** 70.0 / 65.0 / 60.0 seconds
 
 **Cost:** 100.0 / 100.0 / 100.0
 

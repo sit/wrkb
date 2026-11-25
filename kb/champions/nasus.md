@@ -44,7 +44,7 @@ abilities:
   - 120.0
   - 130.0
   - 140.0
-  description: Creates a flaming zone, dealing 55 / 110 / 165 / 220 ( +40% AP ) magic
+  description: Creates a flaming zone, dealing 50 / 90 / 130 / 170 ( +40% AP ) magic
     damage . The zone persists for 5 seconds, dealing 11 / 22 / 33 / 44 ( +12% AP
     ) magic damage over time and reducing Armor by 20% / 25% / 30% / 35% .
   name: Spirit Fire
@@ -57,7 +57,7 @@ abilities:
   - 100.0
   - 100.0
   - 100.0
-  description: Enhances himself to gain 300 / 450 / 600 Health , 40 / 50 / 60 Armor
+  description: Enhances himself to gain 300 / 450 / 600 Health , 40 / 55 / 70 Armor
     and Magic Resist for 12 seconds. Deals 3% / 4% / 5% ( +0.01% AP ) magic damage
   name: Fury of the Sands
   slot: '4'
@@ -66,7 +66,7 @@ base_stats:
     base: '40'
     growth: '4'
   Attack Dmg.:
-    base: '58'
+    base: '62'
     growth: '5'
   Attack Spd.:
     base: '0.80'
@@ -110,7 +110,7 @@ Baron Lane
 - Armor: 40 (+4 per level)
 - Magic Res.: 32 (+2 per level)
 - Move Speed: 355 (+0 per level)
-- Attack Dmg.: 58 (+5 per level)
+- Attack Dmg.: 62 (+5 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
 ## Abilities
@@ -141,7 +141,7 @@ Slows enemy Movement Speed by 35% and Attack Speed by 22.49% / 29.98% / 37.48% /
 
 **Cost:** 110.0 / 120.0 / 130.0 / 140.0
 
-Creates a flaming zone, dealing 55 / 110 / 165 / 220 ( +40% AP ) magic damage . The zone persists for 5 seconds, dealing 11 / 22 / 33 / 44 ( +12% AP ) magic damage over time and reducing Armor by 20% / 25% / 30% / 35% .
+Creates a flaming zone, dealing 50 / 90 / 130 / 170 ( +40% AP ) magic damage . The zone persists for 5 seconds, dealing 11 / 22 / 33 / 44 ( +12% AP ) magic damage over time and reducing Armor by 20% / 25% / 30% / 35% .
 
 ### [4] Fury of the Sands
 
@@ -149,5 +149,5 @@ Creates a flaming zone, dealing 55 / 110 / 165 / 220 ( +40% AP ) magic damage . 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Enhances himself to gain 300 / 450 / 600 Health , 40 / 50 / 60 Armor and Magic Resist for 12 seconds. Deals 3% / 4% / 5% ( +0.01% AP ) magic damage
+Enhances himself to gain 300 / 450 / 600 Health , 40 / 55 / 70 Armor and Magic Resist for 12 seconds. Deals 3% / 4% / 5% ( +0.01% AP ) magic damage
 

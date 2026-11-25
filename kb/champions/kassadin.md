@@ -79,7 +79,7 @@ base_stats:
     base: '9'
     growth: '1'
   Magic Res.:
-    base: '38'
+    base: '34'
     growth: '2'
   Mana:
     base: '480'
@@ -109,7 +109,7 @@ Mid Lane
 - Mana: 480 (+49 per level)
 - Mana Reg. (5s): 15 (+1 per level)
 - Armor: 30 (+4 per level)
-- Magic Res.: 38 (+2 per level)
+- Magic Res.: 34 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 58 (+4 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)

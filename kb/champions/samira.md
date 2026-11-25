@@ -16,7 +16,7 @@ abilities:
   - 30.0
   - 30.0
   - 30.0
-  description: Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +125% AD ) physical
+  description: Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +115% AD ) physical
     damage to the first enemy hit. If this ability is cast towards an enemy in melee
     range, Samira will slash with her blade in a cone instead, dealing the same damage
     to all enemies within. Either hit can critically strike for 150% - 165% bonus
@@ -62,7 +62,7 @@ abilities:
   description: Samira can only use this ability if her current Style rating is "S"
     . Samira unleashes a torrent of shots from her weapons, reducing her Movement
     Speed by 30% while wildly shooting up to 5 enemies around her 10 times over 2.23
-    seconds, each shot dealing 20 / 40 / 60 ( + 50% AD ) physical damage . Each shot
+    seconds, each shot dealing 20 / 40 / 60 ( + 45% AD ) physical damage . Each shot
     can critically strike. Inferno Trigger's damage can trigger 66.7% Life Steal.
     Deals 25% damage to minions.
   name: Inferno Trigger
@@ -131,7 +131,7 @@ Samira builds a combo by dealing damage with attacks or abilities against enemy 
 
 **Cost:** 30.0 / 30.0 / 30.0 / 30.0
 
-Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +125% AD ) physical damage to the first enemy hit. If this ability is cast towards an enemy in melee range, Samira will slash with her blade in a cone instead, dealing the same damage to all enemies within. Either hit can critically strike for 150% - 165% bonus damage. If cast during Wild Rush Samira will strike all enemies in her path upon completion.
+Samira fires a shot, dealing 15 / 20 / 25 / 30 ( +115% AD ) physical damage to the first enemy hit. If this ability is cast towards an enemy in melee range, Samira will slash with her blade in a cone instead, dealing the same damage to all enemies within. Either hit can critically strike for 150% - 165% bonus damage. If cast during Wild Rush Samira will strike all enemies in her path upon completion.
 
 ### [2] Blade Whirl
 
@@ -153,5 +153,5 @@ Samira dashes through an enemy (including structures) slashing enemies she passe
 
 **Cooldown:** 6.0 / 6.0 / 6.0 seconds
 
-Samira can only use this ability if her current Style rating is "S" . Samira unleashes a torrent of shots from her weapons, reducing her Movement Speed by 30% while wildly shooting up to 5 enemies around her 10 times over 2.23 seconds, each shot dealing 20 / 40 / 60 ( + 50% AD ) physical damage . Each shot can critically strike. Inferno Trigger's damage can trigger 66.7% Life Steal. Deals 25% damage to minions.
+Samira can only use this ability if her current Style rating is "S" . Samira unleashes a torrent of shots from her weapons, reducing her Movement Speed by 30% while wildly shooting up to 5 enemies around her 10 times over 2.23 seconds, each shot dealing 20 / 40 / 60 ( + 45% AD ) physical damage . Each shot can critically strike. Inferno Trigger's damage can trigger 66.7% Life Steal. Deals 25% damage to minions.
 

@@ -18,7 +18,7 @@ abilities:
   - 50.0
   - 50.0
   - 50.0
-  description: 'Blasts an enemy, dealing 55 / 70 / 85 / 100 ( +35% AP ) magic damage
+  description: 'Blasts an enemy, dealing 50 / 70 / 90 / 110 ( +40% AP ) magic damage
     and gaining a shield that absorbs up to 30 / 55 / 80 / 105 ( +15% AP ) damage
     over 2.5 seconds. The next attack within 3.5 seconds deals 20 / 40 / 60 / 80 (
     +100% AD +40% AP ) bonus magic damage . Upgrade - Turbocharge : This ability''s
@@ -56,9 +56,9 @@ abilities:
   - 60.0
   - 60.0
   description: 'Fires a chaos beam that cuts across the battlefield in a line, dealing
-    75 / 120 / 165 / 210 ( +30% AP ) magic damage to enemies in its path. Upgrade
+    70 / 115 / 160 / 205 ( +40% AP ) magic damage to enemies in its path. Upgrade
     - Blastquake : After a brief delay, an explosion follows the beam''s wake, dealing
-    30 / 70 / 110 / 150 ( +60% AP ) magic damage .'
+    20 / 60 / 100 / 140 ( +75% AP ) magic damage .'
   name: Death Ray
   slot: '3'
 - cooldowns:
@@ -71,7 +71,7 @@ abilities:
   - 100.0
   description: 'Conjures a Chaos Storm at the target location for 5.5 seconds, dealing
     150 / 225 / 330 ( +60% AP ) magic damage to enemies within the area and disrupting
-    their channeled abilities. The storm then deals 50 / 90 / 130 ( +40% AP ) magic
+    their channeled abilities. The storm then deals 50 / 90 / 130 ( +35% AP ) magic
     damage to enemies within it every second. Upgrade - Howl : Chaos Storm moves faster.
     Champion takedowns empower the storm, extending its duration by 3.5 seconds and
     increasing its area of effect. The storm can be empowered up to 5 times. The closer
@@ -142,7 +142,7 @@ Gains Hex Fragments whenever Viktor kills an enemy: - Killing minions or normal 
 
 **Cost:** 50.0 / 50.0 / 50.0 / 50.0
 
-Blasts an enemy, dealing 55 / 70 / 85 / 100 ( +35% AP ) magic damage and gaining a shield that absorbs up to 30 / 55 / 80 / 105 ( +15% AP ) damage over 2.5 seconds. The next attack within 3.5 seconds deals 20 / 40 / 60 / 80 ( +100% AD +40% AP ) bonus magic damage . Upgrade - Turbocharge : This ability's shield absorbs up to 50 / 90 / 130 / 170 ( +25% AP ) damage and Viktor gains 3 0% bonus Movement Speed for 2.5 seconds.
+Blasts an enemy, dealing 50 / 70 / 90 / 110 ( +40% AP ) magic damage and gaining a shield that absorbs up to 30 / 55 / 80 / 105 ( +15% AP ) damage over 2.5 seconds. The next attack within 3.5 seconds deals 20 / 40 / 60 / 80 ( +100% AD +40% AP ) bonus magic damage . Upgrade - Turbocharge : This ability's shield absorbs up to 50 / 90 / 130 / 170 ( +25% AP ) damage and Viktor gains 3 0% bonus Movement Speed for 2.5 seconds.
 
 ### [2] Gravity Field
 
@@ -158,7 +158,7 @@ Deploys a gravity field for 4 seconds, slowing enemies by 25% / 30% / 35% / 40% 
 
 **Cost:** 60.0 / 60.0 / 60.0 / 60.0
 
-Fires a chaos beam that cuts across the battlefield in a line, dealing 75 / 120 / 165 / 210 ( +30% AP ) magic damage to enemies in its path. Upgrade - Blastquake : After a brief delay, an explosion follows the beam's wake, dealing 30 / 70 / 110 / 150 ( +60% AP ) magic damage .
+Fires a chaos beam that cuts across the battlefield in a line, dealing 70 / 115 / 160 / 205 ( +40% AP ) magic damage to enemies in its path. Upgrade - Blastquake : After a brief delay, an explosion follows the beam's wake, dealing 20 / 60 / 100 / 140 ( +75% AP ) magic damage .
 
 ### [4] Chaos Storm
 
@@ -166,5 +166,5 @@ Fires a chaos beam that cuts across the battlefield in a line, dealing 75 / 120 
 
 **Cost:** 100.0 / 100.0 / 100.0
 
-Conjures a Chaos Storm at the target location for 5.5 seconds, dealing 150 / 225 / 330 ( +60% AP ) magic damage to enemies within the area and disrupting their channeled abilities. The storm then deals 50 / 90 / 130 ( +40% AP ) magic damage to enemies within it every second. Upgrade - Howl : Chaos Storm moves faster. Champion takedowns empower the storm, extending its duration by 3.5 seconds and increasing its area of effect. The storm can be empowered up to 5 times. The closer the storm is to Viktor, the faster it moves.
+Conjures a Chaos Storm at the target location for 5.5 seconds, dealing 150 / 225 / 330 ( +60% AP ) magic damage to enemies within the area and disrupting their channeled abilities. The storm then deals 50 / 90 / 130 ( +35% AP ) magic damage to enemies within it every second. Upgrade - Howl : Chaos Storm moves faster. Champion takedowns empower the storm, extending its duration by 3.5 seconds and increasing its area of effect. The storm can be empowered up to 5 times. The closer the storm is to Viktor, the faster it moves.
 

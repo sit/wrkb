@@ -1,10 +1,10 @@
 ---
 cost: 2800
 effects:
-- 'UNIQUE - ECHO: Your next damaging ability or empowered basic attack deals 75 +
-  8% Ability Power magic damage to the primary target and up to 5 nearby enemies.
-  For each fewer target hit by Echo, the primary target takes an additional 20 + 1.2%
-  Ability Power magic damage. (9 second cooldown)'
+- 'UNIQUE - ECHO: Your next damaging ability or empowered basic attack deals 80 +
+  9% Ability Power magic damage to the primary target and up to 5 nearby enemies.
+  For each fewer target hit by Echo, the primary target takes an additional 22.5 +
+  1.4% Ability Power magic damage. (9 second cooldown)'
 id: 66
 image_url: https://www.wildriftfire.com/images/items/ludens-echo.png
 name: Luden's Echo
@@ -28,5 +28,5 @@ type: Magic
 
 ## Effects
 
-UNIQUE - ECHO: Your next damaging ability or empowered basic attack deals 75 + 8% Ability Power magic damage to the primary target and up to 5 nearby enemies. For each fewer target hit by Echo, the primary target takes an additional 20 + 1.2% Ability Power magic damage. (9 second cooldown)
+UNIQUE - ECHO: Your next damaging ability or empowered basic attack deals 80 + 9% Ability Power magic damage to the primary target and up to 5 nearby enemies. For each fewer target hit by Echo, the primary target takes an additional 22.5 + 1.4% Ability Power magic damage. (9 second cooldown)
 

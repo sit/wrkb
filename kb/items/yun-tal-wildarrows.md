@@ -1,5 +1,5 @@
 ---
-cost: 3100
+cost: 3000
 effects:
 - "PRACTICE MAKES PERFECT: Basic attacks permanently grant Critical Rate, gaining\
   \ 0.4% / 0.2% (melee / ranged) Critical Rate per attack, up to a maximum of 25%.\n\
@@ -18,7 +18,7 @@ type: Marksman
 # Yun Tal Wildarrows
 
 **Type:** Marksman  
-**Cost:** 3100 gold
+**Cost:** 3000 gold
 
 ## Stats
 

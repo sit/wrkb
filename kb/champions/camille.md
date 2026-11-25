@@ -77,7 +77,7 @@ base_stats:
     base: '62'
     growth: '4'
   Attack Spd.:
-    base: '0.82'
+    base: '0.03'
     growth: '0.0143'
   Health:
     base: '690'
@@ -120,7 +120,7 @@ Baron Lane, Jungle
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 62 (+4 per level)
-- Attack Spd.: 0.82 (+0.0143 per level)
+- Attack Spd.: 0.03 (+0.0143 per level)
 
 ## Abilities
 

@@ -19,9 +19,9 @@ abilities:
   name: Poison Trail
   slot: '1'
 - cooldowns:
-  - 11.0
-  - 11.0
-  - 11.0
+  - 14.0
+  - 13.0
+  - 12.0
   - 11.0
   costs:
   - 60.0
@@ -36,10 +36,10 @@ abilities:
   name: Mega Adhesive
   slot: '2'
 - cooldowns:
-  - 12.0
-  - 12.0
-  - 12.0
-  - 12.0
+  - 13.0
+  - 13.0
+  - 13.0
+  - 13.0
   costs:
   - 80.0
   - 95.0
@@ -78,7 +78,7 @@ base_stats:
     base: '0.80'
     growth: '0.0150'
   Health:
-    base: '690'
+    base: '660'
     growth: '112'
   Health Reg. (5s):
     base: '9'
@@ -93,7 +93,7 @@ base_stats:
     base: '12'
     growth: '1'
   Move Speed:
-    base: '355'
+    base: '350'
     growth: '0'
 name: Singed
 roles:
@@ -109,13 +109,13 @@ Baron Lane
 
 ## Base Stats
 
-- Health: 690 (+112 per level)
+- Health: 660 (+112 per level)
 - Health Reg. (5s): 9 (+1 per level)
 - Mana: 345 (+37 per level)
 - Mana Reg. (5s): 12 (+1 per level)
 - Armor: 46 (+4 per level)
 - Magic Res.: 32 (+2 per level)
-- Move Speed: 355 (+0 per level)
+- Move Speed: 350 (+0 per level)
 - Attack Dmg.: 64 (+3 per level)
 - Attack Spd.: 0.80 (+0.0150 per level)
 
@@ -135,7 +135,7 @@ Toggle : Lay a poisonous trail that deals 20 / 28 / 36 / 44 ( +30% AP ) magic da
 
 ### [2] Mega Adhesive
 
-**Cooldown:** 11.0 / 11.0 / 11.0 / 11.0 seconds
+**Cooldown:** 14.0 / 13.0 / 12.0 / 11.0 seconds
 
 **Cost:** 60.0 / 70.0 / 80.0 / 90.0
 
@@ -143,7 +143,7 @@ Tosses an adhesive that sticks to the ground for 3 seconds at the target area. T
 
 ### [3] Fling
 
-**Cooldown:** 12.0 / 12.0 / 12.0 / 12.0 seconds
+**Cooldown:** 13.0 / 13.0 / 13.0 / 13.0 seconds
 
 **Cost:** 80.0 / 95.0 / 110.0 / 125.0
 

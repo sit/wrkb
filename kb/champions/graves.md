@@ -75,8 +75,8 @@ abilities:
   slot: '4'
 base_stats:
   Armor:
-    base: '35'
-    growth: '4'
+    base: '40'
+    growth: '5'
   Attack Dmg.:
     base: '66'
     growth: '3'
@@ -119,7 +119,7 @@ Jungle
 - Health Reg. (5s): 11 (+1 per level)
 - Mana: 390 (+37 per level)
 - Mana Reg. (5s): 12 (+1 per level)
-- Armor: 35 (+4 per level)
+- Armor: 40 (+5 per level)
 - Magic Res.: 40 (+2 per level)
 - Move Speed: 350 (+0 per level)
 - Attack Dmg.: 66 (+3 per level)

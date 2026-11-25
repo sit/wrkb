@@ -1,5 +1,5 @@
 ---
-cost: 2650
+cost: 2550
 effects:
 - 'UNIQUE - AFFLICTION: Dealing magic damage to enemy champions inflicts 50% Grievous
   Wounds for 3 seconds.'
@@ -16,7 +16,7 @@ type: Magic,Support
 # Morellonomicon
 
 **Type:** Magic,Support  
-**Cost:** 2650 gold
+**Cost:** 2550 gold
 
 ## Stats
 

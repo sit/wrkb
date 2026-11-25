@@ -2,7 +2,7 @@
 abilities:
 - description: 'Resolve : Moving builds Flow, which is tracked on Yasuo''s resource
     bar. At max Flow, damage from a champion or monster grants a shield that absorbs
-    125 - 680 ( +100% Critical Strike Rate ) damage and lasts 1 second. Intent : Yasuo''s
+    77 - 630 ( +100% Critical Strike Rate ) damage and lasts 1 second. Intent : Yasuo''s
     Critical Rate is doubled. Yasuo converts Critical Rate above 100% into Attack
     Damage at a rate of 0.5 Attack Damage per 1% Critical Rate.'
   name: Way of the Wanderer
@@ -34,7 +34,7 @@ abilities:
   - 1.0
   - 1.0
   - 1.0
-  description: Dashes through target enemy, dealing 70 / 80 / 90 / 100 ( +20% bonus
+  description: Dashes through target enemy, dealing 70 / 90 / 110 / 130 ( +20% bonus
     AD + 60% AP ) magic damage . Each cast increased the next dash's base damage by
     25% , up to + 75% . Cannot be re-cast on the same enemy for 7 / 6 / 5 / 4 seconds.
     If Steel Tempest is tapped during this dash, it will strike as a circle.
@@ -54,7 +54,7 @@ abilities:
 base_stats:
   Armor:
     base: '40'
-    growth: '4'
+    growth: '5'
   Attack Dmg.:
     base: '58'
     growth: '4'
@@ -98,7 +98,7 @@ Mid Lane, Baron Lane
 - Health Reg. (5s): 12 (+1 per level)
 - Mana: 100 (+0 per level)
 - Mana Reg. (5s): 0 (+0 per level)
-- Armor: 40 (+4 per level)
+- Armor: 40 (+5 per level)
 - Magic Res.: 38 (+2 per level)
 - Move Speed: 355 (+0 per level)
 - Attack Dmg.: 58 (+4 per level)
@@ -108,7 +108,7 @@ Mid Lane, Baron Lane
 
 ### [P] Way of the Wanderer
 
-Resolve : Moving builds Flow, which is tracked on Yasuo's resource bar. At max Flow, damage from a champion or monster grants a shield that absorbs 125 - 680 ( +100% Critical Strike Rate ) damage and lasts 1 second. Intent : Yasuo's Critical Rate is doubled. Yasuo converts Critical Rate above 100% into Attack Damage at a rate of 0.5 Attack Damage per 1% Critical Rate.
+Resolve : Moving builds Flow, which is tracked on Yasuo's resource bar. At max Flow, damage from a champion or monster grants a shield that absorbs 77 - 630 ( +100% Critical Strike Rate ) damage and lasts 1 second. Intent : Yasuo's Critical Rate is doubled. Yasuo converts Critical Rate above 100% into Attack Damage at a rate of 0.5 Attack Damage per 1% Critical Rate.
 
 ### [1] Steel Tempest
 
@@ -126,7 +126,7 @@ Creates a 300 / 400 / 500 / 600 unit wall that blocks all enemy projectiles for 
 
 **Cooldown:** 1.0 / 1.0 / 1.0 / 1.0 seconds
 
-Dashes through target enemy, dealing 70 / 80 / 90 / 100 ( +20% bonus AD + 60% AP ) magic damage . Each cast increased the next dash's base damage by 25% , up to + 75% . Cannot be re-cast on the same enemy for 7 / 6 / 5 / 4 seconds. If Steel Tempest is tapped during this dash, it will strike as a circle.
+Dashes through target enemy, dealing 70 / 90 / 110 / 130 ( +20% bonus AD + 60% AP ) magic damage . Each cast increased the next dash's base damage by 25% , up to + 75% . Cannot be re-cast on the same enemy for 7 / 6 / 5 / 4 seconds. If Steel Tempest is tapped during this dash, it will strike as a circle.
 
 ### [4] Last Breath
 

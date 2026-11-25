@@ -1,5 +1,5 @@
 ---
-cost: 2600
+cost: 2500
 effects:
 - "LOCKET - Grant yourself and nearby allies a shield that absorbs 250-370 damage\
   \ for 2.5s. (60s cooldown)\r\nIf that target has received this effect within the\
@@ -8,7 +8,7 @@ id: 226
 image_url: https://www.wildriftfire.com/images/items/locket-of-the-iron-solari.png
 name: Locket of the Iron Solari
 stats:
-- +200 Health
+- +300 Health
 - +30 Armor
 - +30 Magic Resist
 - +10 Ability Haste
@@ -18,11 +18,11 @@ type: Defense,Support
 # Locket of the Iron Solari
 
 **Type:** Defense,Support  
-**Cost:** 2600 gold
+**Cost:** 2500 gold
 
 ## Stats
 
-- +200 Health
+- +300 Health
 - +30 Armor
 - +30 Magic Resist
 - +10 Ability Haste

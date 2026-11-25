@@ -12,7 +12,7 @@ stats:
 - +200 Health
 - +500 Mana
 - +50% Base Mana Regen
-- +8% Heal and Shield Strength
+- +6% Heal and Shield Strength
 type: Magic,Support
 ---
 
@@ -26,7 +26,7 @@ type: Magic,Support
 - +200 Health
 - +500 Mana
 - +50% Base Mana Regen
-- +8% Heal and Shield Strength
+- +6% Heal and Shield Strength
 
 ## Effects
 

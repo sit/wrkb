@@ -33,13 +33,13 @@ abilities:
   - 40.0
   - 45.0
   - 50.0
-  description: 'Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +100% AD + 6.5%
+  description: 'Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +110% AD + 6.5%
     bonus HP ) physical damage . If Volibear maul''s a champion or Large Monster he
     goes into a Frenzy for 8 seconds. If this Ability is used when in a Frenzy, its
-    damage is increased to 8 / 48 / 88 / 128 ( +160% AD + 10.4% bonus HP ) physical
+    damage is increased to 8 / 48 / 88 / 128 ( +176% AD + 10.4% bonus HP ) physical
     damage and Volibear restores 10 + 10% ( 7% ) missing Health . This Ability applies
-    on-hit effects. Base Health Regeneration: 20 / 30 / 40 / 50 ( +5% / 6% / 7% /
-    8% lost Health ). Damage ratio to monsters: 80% .'
+    on-hit effects. Base Health Regeneration: 20 / 30 / 40 / 50 ( +5% / 8% / 11% /
+    14% lost Health ). Damage ratio to monsters: 80% .'
   name: Frenzied Maul
   slot: '2'
 - cooldowns:
@@ -147,7 +147,7 @@ Volibear gains 10% / 15% / 20% / 25% Move Speed , increased to 20% / 30% / 40% /
 
 **Cost:** 35.0 / 40.0 / 45.0 / 50.0
 
-Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +100% AD + 6.5% bonus HP ) physical damage . If Volibear maul's a champion or Large Monster he goes into a Frenzy for 8 seconds. If this Ability is used when in a Frenzy, its damage is increased to 8 / 48 / 88 / 128 ( +160% AD + 10.4% bonus HP ) physical damage and Volibear restores 10 + 10% ( 7% ) missing Health . This Ability applies on-hit effects. Base Health Regeneration: 20 / 30 / 40 / 50 ( +5% / 6% / 7% / 8% lost Health ). Damage ratio to monsters: 80% .
+Volibear mauls an enemy, dealing 5 / 30 / 55 / 80 ( +110% AD + 6.5% bonus HP ) physical damage . If Volibear maul's a champion or Large Monster he goes into a Frenzy for 8 seconds. If this Ability is used when in a Frenzy, its damage is increased to 8 / 48 / 88 / 128 ( +176% AD + 10.4% bonus HP ) physical damage and Volibear restores 10 + 10% ( 7% ) missing Health . This Ability applies on-hit effects. Base Health Regeneration: 20 / 30 / 40 / 50 ( +5% / 8% / 11% / 14% lost Health ). Damage ratio to monsters: 80% .
 
 ### [3] Sky Splitter
 

@@ -1,5 +1,5 @@
 ---
-cost: 3000
+cost: 2900
 effects:
 - "UNIQUE - SLICE: +15 armor penetration\n\r\nUNIQUE - MOMENTUM: 3 seconds after combat\
   \ with enemy champions ends, gain 30 bonus Movement Speed, or 20 for ranged champions."
@@ -16,7 +16,7 @@ type: Assassin
 # Youmuu's Ghostblade
 
 **Type:** Assassin  
-**Cost:** 3000 gold
+**Cost:** 2900 gold
 
 ## Stats
 

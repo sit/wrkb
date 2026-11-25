@@ -10,7 +10,7 @@ id: 185
 image_url: https://www.wildriftfire.com/images/items/eclipse.png
 name: Eclipse
 stats:
-- +65 Attack Damage
+- +60 Attack Damage
 - +20 Ability Haste
 type: Fighter
 ---
@@ -22,7 +22,7 @@ type: Fighter
 
 ## Stats
 
-- +65 Attack Damage
+- +60 Attack Damage
 - +20 Ability Haste
 
 ## Effects
