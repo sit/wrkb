@@ -1,28 +1,14 @@
 import argparse
 from pathlib import Path
-import re
+
+from lib.kb import sanitize_filename
 from wildriftfire.champion import (
     get_champions,
     parse_champion_details,
     write_champion_data,
 )
-from wildriftfire.runes import get_runes, parse_rune_details, write_rune_data
 from wildriftfire.items import get_items, parse_item_details, write_item_data
-
-
-def sanitize_filename(name):
-    """Convert a string into a safe filename by removing special characters and converting spaces to dashes."""
-    # Convert to lowercase
-    name = name.lower()
-    # Replace spaces with dashes
-    name = name.replace(" ", "-")
-    # Remove any characters that aren't alphanumeric, dash, or underscore
-    name = re.sub(r"[^a-z0-9\-_]", "", name)
-    # Replace multiple dashes with single dash
-    name = re.sub(r"-+", "-", name)
-    # Remove leading/trailing dashes
-    name = name.strip("-")
-    return name
+from wildriftfire.runes import get_runes, parse_rune_details, write_rune_data
 
 
 def _add_common_details(details, summary):
@@ -96,7 +82,7 @@ def process_data(
 
             print(f"Successfully processed {name}")
         except Exception as e:
-            print(f"Error processing {name}: {str(e)}")
+            print(f"Error processing {name}: {e!s}")
 
     # Remove files no longer on the site. Filtered runs only consider
     # the one requested file; unfiltered runs consider the whole directory.
@@ -185,8 +171,6 @@ def main():
             post_process_hook=_add_common_details,
             use_id=True,
         )
-
-
 
 
 if __name__ == "__main__":

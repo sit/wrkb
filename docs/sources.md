@@ -11,5 +11,6 @@ This page documents the sources we index and ingest for our core KB.
     - https://www.youtube.com/@iTzSTU4RT
 - WildRift websites:
     - https://leagueoflegends.fandom.com/wiki/Wild_Rift
+    - https://wiki.leagueoflegends.com/en-us/ (summoner spells, via Module:SpellDataWR/data)
     - https://wildriftfire.com
     - https://wildriftguides.com/
