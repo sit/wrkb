@@ -106,17 +106,15 @@ Early ganks are the biggest risk, and the enemy jungler is most predictable befo
 
 ### Timers
 
-Game-clock times:
+| Event | Kind | Value |
+|---|---|---|
+| Rift Scuttler first spawn | Game clock | 1:30 |
+| Evolved buffs replace normal buffs | Game clock | 7:30 |
+| Blue and red buff respawn | Duration after they die | 2 minutes 30 seconds |
+| Full jungle clear, fast | Duration | about 1 minute 45 seconds |
+| Full jungle clear, slow | Duration | about 2 minutes 15 seconds |
 
-| Event | Game time |
-|---|---|
-| Rift Scuttler first spawn | 1:30 |
-| Evolved buffs replace normal buffs | 7:30 |
-
-Durations, to add to the time something happened:
-
-- Blue and red buffs respawn 2 minutes 30 seconds after they die.
-- A full jungle clear takes about 1 minute 45 seconds when fast and about 2 minutes 15 seconds when slow.
+Add a duration to the game time the event started to get a game-clock time.
 
 ### Pathing direction
 
